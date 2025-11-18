@@ -1,0 +1,36 @@
+{
+    "data_envio": "2025-10-25 22:29:28",
+    "dados": {
+        "nome_empresa": "cco analitica",
+        "dominio": "nao",
+        "historia": "nascemos em 2023",
+        "descricao_empresa": "sofatres",
+        "servicos": "site, aplicativos",
+        "descricao_servicos": "site\r\n\r\nso sites\r\n\r\naplicativos\r\n\r\nsao aplicativos",
+        "precos": "site\r\n359\r\naplicativos\r\n\r\n543",
+        "cor_principal": "#000000",
+        "cor_secundaria": "#74ff0d",
+        "cor_terciaria": "#0000ff",
+        "redes": "instagram.com\/ccoanalitica",
+        "depoimentos": "eu gostei a cco",
+        "mapa": "rua 1",
+        "telefones": "(62) 9 932646122, 2132132321",
+        "emails": "email@ccoanalitica.com, ccoanalitica@gmail.com"
+    },
+    "arquivos": {
+        "imagens_empresa": [
+            ".\/uploads\/imagens_empresa\/2025-10-25\/68fd79781d1be_Screenshot_2025-10-20_at_02-55-29_Coursera_Cursos_on-line_e_credenciais_oferecidos_pelos_melhores_educadores._Inscreva-se_gratuitamente_Coursera.png",
+            ".\/uploads\/imagens_empresa\/2025-10-25\/68fd79781f7e3_Screenshot_2025-10-20_at_02-55-14_Coursera_Cursos_on-line_e_credenciais_oferecidos_pelos_melhores_educadores._Inscreva-se_gratuitamente_Coursera.png"
+        ],
+        "imagens_servicos": [
+            ".\/uploads\/imagens_servicos\/2025-10-25\/68fd7978207fc_GuiaDAS_253_CCO_ANALITICA_092025.pdf",
+            ".\/uploads\/imagens_servicos\/2025-10-25\/68fd797820f36_sitemap.xml.gz"
+        ],
+        "logomarca": [
+            ".\/uploads\/logomarca\/2025-10-25\/68fd7978211b1_LOGO-AQUIAPRENDO_1_.png"
+        ],
+        "videos": [
+            ".\/uploads\/videos\/2025-10-25\/68fd797822085_Lovepik_com-400248050-business-personage-handshake.png"
+        ]
+    }
+}
