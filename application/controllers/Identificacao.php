@@ -48,6 +48,15 @@ class Identificacao extends CI_Controller
 			'idf_company_whatsapp' => htmlspecialchars($this->input->post('company_whatsapp')),
 			'idf_company_email' => htmlspecialchars($this->input->post('company_email')),
 			'idf_company_responsible_name' => htmlspecialchars($this->input->post('company_responsible_name')),
+
+			'idf_company_cep' => htmlspecialchars($this->input->post('company_cep')),
+			'idf_company_logradouro' => htmlspecialchars($this->input->post('company_logradouro')),
+			'idf_company_numero' => htmlspecialchars($this->input->post('company_numero')),
+			'idf_company_bairro' => htmlspecialchars($this->input->post('company_bairro')),
+			'idf_company_complemento' => htmlspecialchars($this->input->post('company_complemento')),
+			'idf_company_cidade' => htmlspecialchars($this->input->post('company_cidade')),
+			'idf_company_estado' => htmlspecialchars($this->input->post('company_estado')),
+
 		);
 
 		if ($data['idf_company_type'] == "company") {
@@ -116,7 +125,7 @@ class Identificacao extends CI_Controller
 	{
 		$model_id = $this->input->post('model_id');
 		$identifier = $this->form_model->get_identifier();
-		
+
 
 		$get_form_by_identifier = $this->form_model->get_form_by_identifier($identifier);
 

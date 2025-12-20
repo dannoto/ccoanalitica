@@ -320,8 +320,8 @@
 <body>
 
     <header>
-        <h1>Complete os dados do seu escritório</h1>
-        <p>Preencha as informações para seguirmos com a personalização do modelo escolhido.</p>
+        <h1>Preencha os dados da sua Empresa</h1>
+        <p>Preencha as informações corretamente para seguirmos.</p>
     </header>
 
     <main class="container">
