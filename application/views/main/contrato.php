@@ -300,11 +300,12 @@
         </center>
 
         <p><strong>CONTRATANTE:</strong><br>
-          <?php if ($dados['idf_company_type'] == 'company') { ?>
-            <?= $dados['idf_company_name'] ?>, inscrita no CNPJ nº <?= $dados['idf_company_document'] ?>, com sede na <?= $dados['company_map_address'] ?>.</p>
-        <?php   } else { ?>
-          <?= $dados['idf_company_name'] ?>, inscrita no CPF nº <?= $dados['idf_company_document'] ?>, com sede na <?= $dados['company_map_address'] ?>.</p>
-        <?php    } ?>
+          <?= $dados['idf_company_name'] ?>, inscrita no CPF nº <?= $dados['idf_company_document'] ?>, com sede na 
+          <?= $dados['idf_company_logradouro'] ?> 
+          <?php $dados['idf_company_numero']  ? ', n '.$dados['idf_company_numero']  : ''?> 
+          <?php $dados['idf_company_complemento'] ?  ', n '.$dados['idf_company_complemento'] : '' ?>
+          <?php $dados['idf_company_cidade'] ?>/ <?php $dados['idf_company_estado'] ?> -  <?php $dados['idf_company_cep'] ?>
+        </p>
 
       <p><strong>CONTRATADA:</strong><br>
         CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107, Aparecida de Goiânia, Goiás – GO.<br>
