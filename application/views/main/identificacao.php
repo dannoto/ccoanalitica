@@ -400,9 +400,9 @@
                         <input id="company_responsible_name" name="company_responsible_name" type="text" placeholder="Nome do sócio ou responsável">
                     </div>
 
-
+                    <br>
                     <hr>
-
+                    <br>
                     <div class="row pt-5">
                         <div class="field">
                             <label id="company_cep_label" for="company_cep">CEP <span style="color:#c00">*</span></label>
@@ -418,9 +418,9 @@
                         <input id="company_logradouro" id="cep" name="company_logradouro" type="text" placeholder="Insira o CEP">
                     </div>
                     <div class="field">
-                            <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
-                            <input id="company_numero" id="cep" name="company_numero" type="text" placeholder="Insira o CEP">
-                        </div>
+                        <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
+                        <input id="company_numero" id="cep" name="company_numero" type="text" placeholder="Insira o CEP">
+                    </div>
 
                     <div class="row">
                         <div class="field">
@@ -433,14 +433,14 @@
                         </div>
                     </div>
 
-                      <div class="row">
+                    <div class="row">
                         <div class="field">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
                             <input id="company_bairro" id="cep" name="company_bairro" type="text" placeholder="Insira o CEP">
                         </div>
-                       
+
                     </div>
-                    
+
                     <div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;justify-content:end;margin-top:30px">
                         <a href="./modelos/<?= $this->session->userdata('slug'); ?>">
                             <button type="button" id="btnEnviar" class="btn btn-whats"><i class="fa fa-arrow-left"></i> VOLTAR</button>
