@@ -155,7 +155,7 @@
                         <td>${tag.tag_slug}</td>
                         <td>${tag.tag_description || ''}</td>
                         <td class="actions">
-                        <a href="${base_url()}modelos/${tag.tag_slug}">
+                        <a href="https://ccoanalitica.com/modelos/${tag.tag_slug}">
                              <button>
                                 <i style="color:#FFF" class="fa fa-eyes">VER</i>
                             </button>
