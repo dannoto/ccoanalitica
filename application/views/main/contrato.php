@@ -300,20 +300,20 @@
         </center>
 
         <p>
-        <strong>CONTRATANTE:</strong><br>
-        <?= $dados['idf_company_name'] ?>,
-        inscrita no CPF nº <?= $dados['idf_company_document'] ?>,
-        com sede na <?= $dados['idf_company_logradouro'] ?>
-        <?= !empty($dados['idf_company_numero']) ? ', nº ' . $dados['idf_company_numero'] : '' ?>
-        <?= !empty($dados['idf_company_complemento']) ? ', ' . $dados['idf_company_complemento'] : '' ?>,
-        <?= $dados['idf_company_bairro'] ?>,
-        <?= $dados['idf_company_cidade'] ?>/<?= $dados['idf_company_estado'] ?> –
-        CEP <?= $dados['idf_company_cep'] ?>
-    </p>
+          <strong>CONTRATANTE:</strong><br>
+          <?= $dados['idf_company_name'] ?>,
+          inscrita no CPF nº <?= $dados['idf_company_document'] ?>,
+          com sede na <?= $dados['idf_company_logradouro'] ?>
+          <?= !empty($dados['idf_company_numero']) ? ', nº ' . $dados['idf_company_numero'] : '' ?>
+          <?= !empty($dados['idf_company_complemento']) ? ', ' . $dados['idf_company_complemento'] : '' ?>
+          <?= ' - '.$dados['idf_company_bairro'] ?>,
+          <?= $dados['idf_company_cidade'] ?>/<?= $dados['idf_company_estado'] ?> –
+          CEP <?= $dados['idf_company_cep'] ?>
+      </p>
 
 
       <p><strong>CONTRATADA:</strong><br>
-        CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107, Aparecida de Goiânia, Goiás – GO.<br>
+        CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107 - Aparecida de Goiânia, Goiás/GO - 749570.<br>
         <a href="https://www.ccoanalitica.com" target="_blank">www.ccoanalitica.com</a><br>
 
       <h3>CLÁUSULA PRIMEIRA – DA PRESTAÇÃO DE SERVIÇOS</h3>
