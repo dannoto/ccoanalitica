@@ -403,9 +403,14 @@
 
                     <hr>
 
-                    <div class="">
-                        <label id="company_responsible_name_label" for="company_responsible_name">CEP <span style="color:#c00">*</span></label>
-                        <input id="company_responsible_name" name="company_responsible_name" type="text" placeholder="Nome do sócio ou responsável">
+                    <div class="row pt-5">
+                        <div class="col-12 col-md-6">
+                            <label id="company_cep_label" for="company_cep">CEP <span style="color:#c00">*</span></label>
+                            <input id="company_cep" id="cep" name="company_cep" type="text" placeholder="Insira o CEP">
+                        </div>
+                        <div class="col-12 col-md-6">
+                           
+                        </div>
                     </div>
 
                     <hr>
