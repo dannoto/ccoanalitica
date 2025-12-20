@@ -404,11 +404,11 @@
                     <hr>
                     <br>
                     <div class="row pt-5">
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label id="company_cep_label" for="company_cep">CEP <span style="color:#c00">*</span></label>
                             <input id="company_cep" name="company_cep" type="text" placeholder="Insira o CEP">
                         </div>
-                        <div class="field">
+                        <div class="field" style="flex:1">
 
                         </div>
                     </div>
@@ -468,9 +468,13 @@
                     </div>
 
                     <div class="row">
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
                             <input id="company_bairro" name="company_bairro" type="text" placeholder="Insira o Bairro">
+                        </div>
+                        <div class="field" style="flex:1">
+                            <label id="company_complemento_label" for="company_complemento">Bairro <span style="color:#c00">*</span></label>
+                            <input id="company_complemento" name="company_complemento" type="text" placeholder="Insira o Bairro">
                         </div>
 
                     </div>
