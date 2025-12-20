@@ -415,28 +415,60 @@
 
                     <div class="field">
                         <label id="company_logradouro_label" for="company_logradouro">Logradouro <span style="color:#c00">*</span></label>
-                        <input id="company_logradouro"  name="company_logradouro" type="text" placeholder="Insira o CEP">
+                        <input id="company_logradouro" name="company_logradouro" type="text" placeholder="Insira o Logradouro">
                     </div>
                     <div class="field">
                         <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
-                        <input id="company_numero"  name="company_numero" type="text" placeholder="Insira o CEP">
+                        <input id="company_numero" name="company_numero" type="text" placeholder="Insira o Número">
                     </div>
 
                     <div class="row">
+                         <div class="field">
+                            <label for="company_estado">Estado <span style="color:#c00">*</span></label>
+                            <select id="company_estado" name="company_estado" required
+                                style="width:100%;padding:10px 12px;border:1px solid rgba(8,22,40,0.08);border-radius:0px;font-size:14px;">
+                                <option value="">Selecione o estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </div>
                         <div class="field">
                             <label id="company_cidade_label" for="company_cidade">Cidade <span style="color:#c00">*</span></label>
-                            <input id="company_cidade"  name="company_cidade" type="text" placeholder="Insira o CEP">
+                            <input id="company_cidade" name="company_cidade" type="text" placeholder="Insira o Cidade">
                         </div>
-                        <div class="field">
-                            <label id="company_estado_label" for="company_estado">Estado <span style="color:#c00">*</span></label>
-                            <input id="company_estado"  name="company_estado" type="text" placeholder="Insira o CEP">
-                        </div>
+                       
+
                     </div>
 
                     <div class="row">
                         <div class="field">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
-                            <input id="company_bairro"  name="company_bairro" type="text" placeholder="Insira o CEP">
+                            <input id="company_bairro" name="company_bairro" type="text" placeholder="Insira o Bairro">
                         </div>
 
                     </div>
@@ -465,7 +497,6 @@
 
 
     <script>
-
         $('#company_cep').mask('00000-000');
 
         $('#company_whatsapp').mask('(00) 0 0000-0000');
@@ -767,52 +798,52 @@
     </script>
 
     <script>
-    $('#company_cep').on('blur', function () {
-        let cep = $(this).val().replace(/\D/g, '');
+        $('#company_cep').on('blur', function() {
+            let cep = $(this).val().replace(/\D/g, '');
 
-        if (cep.length !== 8) {
-            return;
-        }
+            if (cep.length !== 8) {
+                return;
+            }
 
-        // Limpa campos enquanto busca
-        $('#company_logradouro').val('...');
-        $('#company_bairro').val('...');
-        $('#company_cidade').val('...');
-        $('#company_estado').val('...');
+            // Limpa campos enquanto busca
+            $('#company_logradouro').val('...');
+            $('#company_bairro').val('...');
+            $('#company_cidade').val('...');
+            $('#company_estado').val('...');
 
-        fetch(`https://viacep.com.br/ws/${cep}/json/`)
-            .then(response => response.json())
-            .then(data => {
-                if (data.erro) {
+            fetch(`https://viacep.com.br/ws/${cep}/json/`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.erro) {
+                        Swal.fire({
+                            title: '',
+                            text: 'CEP não encontrado.',
+                            icon: 'warning',
+                            confirmButtonText: 'OK',
+                            confirmButtonColor: "#FF6900"
+                        });
+                        return;
+                    }
+
+                    $('#company_logradouro').val(data.logradouro);
+                    $('#company_bairro').val(data.bairro);
+                    $('#company_cidade').val(data.localidade);
+                    $('#company_estado').val(data.uf);
+
+                    // Foca no número depois de preencher
+                    $('#company_numero').focus();
+                })
+                .catch(() => {
                     Swal.fire({
                         title: '',
-                        text: 'CEP não encontrado.',
-                        icon: 'warning',
+                        text: 'Erro ao buscar o CEP. Tente novamente.',
+                        icon: 'error',
                         confirmButtonText: 'OK',
                         confirmButtonColor: "#FF6900"
                     });
-                    return;
-                }
-
-                $('#company_logradouro').val(data.logradouro);
-                $('#company_bairro').val(data.bairro);
-                $('#company_cidade').val(data.localidade);
-                $('#company_estado').val(data.uf);
-
-                // Foca no número depois de preencher
-                $('#company_numero').focus();
-            })
-            .catch(() => {
-                Swal.fire({
-                    title: '',
-                    text: 'Erro ao buscar o CEP. Tente novamente.',
-                    icon: 'error',
-                    confirmButtonText: 'OK',
-                    confirmButtonColor: "#FF6900"
                 });
-            });
-    });
-</script>
+        });
+    </script>
 
 </body>
 
