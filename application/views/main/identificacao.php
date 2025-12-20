@@ -848,7 +848,7 @@
             $('#company_cidade').val('');
             $('#company_estado').val('');
 
-            fetch(`https://viacep.com.br/ws/${cep}/json/`)
+            fetch(`https://opencep.com/v1/${cep}/json/`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.erro) {
