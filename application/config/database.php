@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 $active_group = 'default';
@@ -9,11 +9,11 @@ if (ENVIRONMENT == "development") {
 
 	$db['default'] = array(
 		'dsn'	=> '',
-		'hostname' => $_ENV['DB_HOST'],
-		'username' => $_ENV['DB_USER'],
-		'password' => $_ENV['DB_PASS'],
-		'database' => $_ENV['DB_NAME'],
-		'dbdriver' => $_ENV['DB_DRIVER'],
+		'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => '',
+		'database' => 'ccoanalitica',
+		'dbdriver' => 'mysqli',
 		'dbprefix' => '',
 		'pconnect' => FALSE,
 		'db_debug' => (ENVIRONMENT !== 'production'),
@@ -28,14 +28,15 @@ if (ENVIRONMENT == "development") {
 		'failover' => array(),
 		'save_queries' => TRUE
 	);
-} else if (ENVIRONMENT == "production") {
+
+}  else if (ENVIRONMENT == "production") {
 	$db['default'] = array(
 		'dsn'	=> '',
-		'hostname' => $_ENV['DB_HOST'],
-		'username' => $_ENV['DB_USER'],
-		'password' => $_ENV['DB_PASS'],
-		'database' => $_ENV['DB_NAME'],
-		'dbdriver' => $_ENV['DB_DRIVER'],
+		'hostname' => 'localhost',
+		'username' => 'u785878414_sites',
+		'password' => 'Ccoanalitica2025@',
+		'database' => 'u785878414_sites',
+		'dbdriver' => 'mysqli',
 		'dbprefix' => '',
 		'pconnect' => FALSE,
 		'db_debug' => (ENVIRONMENT !== 'production'),
@@ -50,6 +51,8 @@ if (ENVIRONMENT == "development") {
 		'failover' => array(),
 		'save_queries' => TRUE
 	);
+
+	
 }
 // $db['default'] = array(
 // 	'dsn'	=> '',
