@@ -419,7 +419,7 @@
                             <input id="company_logradouro" name="company_logradouro" type="text" placeholder="Insira o Logradouro">
                         </div>
                         <div class="field" style="flex:1">
-                            <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
+                            <label id="company_numero_label" for="company_numero">Número </label>
                             <input id="company_numero" name="company_numero" type="text" placeholder="Insira o Número">
                         </div>
                     </div>
@@ -473,7 +473,7 @@
                             <input id="company_bairro" name="company_bairro" type="text" placeholder="Insira o Bairro">
                         </div>
                         <div class="field" style="flex:1">
-                            <label id="company_complemento_label" for="company_complemento">Bairro <span style="color:#c00">*</span></label>
+                            <label id="company_complemento_label" for="company_complemento">Complemento</label>
                             <input id="company_complemento" name="company_complemento" type="text" placeholder="Insira o Bairro">
                         </div>
 
@@ -720,50 +720,81 @@
 
             }
 
+            if (document.getElementById('company_cep').value.length == 0) {
 
 
-            // $.ajax({
-            //     url: '<?= base_url() ?>identificacao/act_add_identifier',
-            //     type: 'POST',
-            //     data: data,
-            //     // dataType: 'json',
-            //     // contentType: false,
-            //     // processData: false,
-            //     success: function(res) {
+                Swal.fire({
+                    title: '',
+                    text: 'Preencha o CEP.',
+                    icon: false,
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                })
 
-            //         console.log(res)
+                return;
 
-            //         res = res.JSON.strinfy();
 
-            //         console.log(res)
+            } else  if (document.getElementById('company_logradouro').value.length == 0) {
 
-            //         // if (res.status) {
 
-            //         //     window.location.href = "<?= base_url() ?>formulario"
+                Swal.fire({
+                    title: '',
+                    text: 'Preencha o Logradouro.',
+                    icon: false,
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                })
 
-            //         // } else {
+                return;
 
-            //         //     Swal.fire({
-            //         //         title: '',
-            //         //         text: 'Houve um erro ao enviar. Tente novamente.',
-            //         //         icon: 'error',
-            //         //         confirmButtonText: 'OK',
-            //         //         confirmButtonColor: "#FF6900"
-            //         //     })
 
-            //         // }
+            } else  if (document.getElementById('company_estado').value.length == 0) {
 
-            //     },
-            //     error: function() {
-            //         Swal.fire({
-            //             title: '',
-            //             text: 'Houve um erro ao enviar',
-            //             icon: 'error',
-            //             confirmButtonText: 'OK',
-            //             confirmButtonColor: "#FF6900"
-            //         })
-            //     }
-            // });
+
+                Swal.fire({
+                    title: '',
+                    text: 'Preencha o Estado.',
+                    icon: false,
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                })
+
+                return;
+
+
+            } else  if (document.getElementById('company_cidade').value.length == 0) {
+
+
+                Swal.fire({
+                    title: '',
+                    text: 'Preencha a Cidade.',
+                    icon: false,
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                })
+
+                return;
+
+
+            } else  if (document.getElementById('company_bairro').value.length == 0) {
+
+
+                Swal.fire({
+                    title: '',
+                    text: 'Preencha a Bairro.',
+                    icon: false,
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                })
+
+                return;
+
+
+            }
+
+
+
+
             $.ajax({
                 url: '<?= base_url() ?>identificacao/act_add_identifier',
                 type: 'POST',
@@ -812,10 +843,10 @@
             }
 
             // Limpa campos enquanto busca
-            $('#company_logradouro').val('...');
-            $('#company_bairro').val('...');
-            $('#company_cidade').val('...');
-            $('#company_estado').val('...');
+            $('#company_logradouro').val('');
+            $('#company_bairro').val('');
+            $('#company_cidade').val('');
+            $('#company_estado').val('');
 
             fetch(`https://viacep.com.br/ws/${cep}/json/`)
                 .then(response => response.json())
