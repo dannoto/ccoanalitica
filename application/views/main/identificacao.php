@@ -414,18 +414,18 @@
                     </div>
                     <div class="row">
 
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label id="company_logradouro_label" for="company_logradouro">Logradouro <span style="color:#c00">*</span></label>
                             <input id="company_logradouro" name="company_logradouro" type="text" placeholder="Insira o Logradouro">
                         </div>
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
                             <input id="company_numero" name="company_numero" type="text" placeholder="Insira o Número">
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label for="company_estado">Estado <span style="color:#c00">*</span></label>
                             <select id="company_estado" name="company_estado" required
                                 style="width:100%;padding:10px 12px;border:1px solid rgba(8,22,40,0.08);border-radius:0px;font-size:14px;">
@@ -459,7 +459,7 @@
                                 <option value="TO">Tocantins</option>
                             </select>
                         </div>
-                        <div class="field">
+                        <div class="field" style="flex:1">
                             <label id="company_cidade_label" for="company_cidade">Cidade <span style="color:#c00">*</span></label>
                             <input id="company_cidade" name="company_cidade" type="text" placeholder="Insira o Cidade">
                         </div>
