@@ -304,6 +304,7 @@
           <?= $dados['idf_company_logradouro'] ?> 
           <?php $dados['idf_company_numero']  ? ', n '.$dados['idf_company_numero']  : ''?> 
           <?php $dados['idf_company_complemento'] ?  ', n '.$dados['idf_company_complemento'] : '' ?>
+          <?php $dados['idf_company_bairro'] ?>
           <?php $dados['idf_company_cidade'] ?>/ <?php $dados['idf_company_estado'] ?> -  <?php $dados['idf_company_cep'] ?>
         </p>
 
