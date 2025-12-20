@@ -419,24 +419,24 @@
                     </div>
                     <div class="field">
                             <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
-                            <input id="company_numero" id="cep" name="company_numero" type="text" placeholder="Insira o CEP">h
+                            <input id="company_numero" id="cep" name="company_numero" type="text" placeholder="Insira o CEP">
                         </div>
 
                     <div class="row">
                         <div class="field">
                             <label id="company_cidade_label" for="company_cidade">Cidade <span style="color:#c00">*</span></label>
-                            <input id="company_cidade" id="cep" name="company_cidade" type="text" placeholder="Insira o CEP">h
+                            <input id="company_cidade" id="cep" name="company_cidade" type="text" placeholder="Insira o CEP">
                         </div>
                         <div class="field">
                             <label id="company_estado_label" for="company_estado">Estado <span style="color:#c00">*</span></label>
-                            <input id="company_estado" id="cep" name="company_estado" type="text" placeholder="Insira o CEP">h
+                            <input id="company_estado" id="cep" name="company_estado" type="text" placeholder="Insira o CEP">
                         </div>
                     </div>
 
                       <div class="row">
                         <div class="field">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
-                            <input id="company_bairro" id="cep" name="company_bairro" type="text" placeholder="Insira o CEP">h
+                            <input id="company_bairro" id="cep" name="company_bairro" type="text" placeholder="Insira o CEP">
                         </div>
                        
                     </div>
