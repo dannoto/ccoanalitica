@@ -848,7 +848,7 @@
             $('#company_cidade').val('');
             $('#company_estado').val('');
 
-            fetch(`https://opencep.com/v1/${cep}/json/`)
+            fetch(`https://opencep.com/v1/${cep}.json/`)
                 .then(response => response.json())
                 .then(data => {
                     if (data.erro) {
@@ -866,18 +866,20 @@
                     $('#company_bairro').val(data.bairro);
                     $('#company_cidade').val(data.localidade);
                     $('#company_estado').val(data.uf);
+                    $('#company_complemento').val(data.complemento);
 
                     // Foca no número depois de preencher
                     $('#company_numero').focus();
                 })
                 .catch(() => {
-                    Swal.fire({
-                        title: '',
-                        text: 'Erro ao buscar o CEP. Tente novamente.',
-                        icon: 'error',
-                        confirmButtonText: 'OK',
-                        confirmButtonColor: "#FF6900"
-                    });
+                    console.log('erro ao buscar cep')
+                    // Swal.fire({
+                    //     title: '',
+                    //     text: 'Erro ao buscar o CEP. Tente novamente.',
+                    //     icon: 'error',
+                    //     confirmButtonText: 'OK',
+                    //     confirmButtonColor: "#FF6900"
+                    // });
                 });
         });
     </script>
