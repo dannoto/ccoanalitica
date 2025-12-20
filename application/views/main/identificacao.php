@@ -564,7 +564,15 @@
                 company_whatsapp: document.getElementById('company_whatsapp').value,
 
                 company_email: document.getElementById('company_email').value,
-                company_responsible_name: document.getElementById('company_responsible_name').value
+                company_responsible_name: document.getElementById('company_responsible_name').value,
+
+               idf_company_cep: document.getElementById('company_cep').value,
+               idf_company_logradouro: document.getElementById('company_logradouro').value,
+               idf_company_numero: document.getElementById('company_numero').value,
+               idf_company_bairro: document.getElementById('company_bairro').value,
+               idf_company_complemento: document.getElementById('company_complemento').value,
+               idf_company_cidade: document.getElementById('company_cidade').value,
+               idf_company_estado: document.getElementById('company_estado').value,
 
             };
 
