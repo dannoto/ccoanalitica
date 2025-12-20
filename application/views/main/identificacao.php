@@ -320,8 +320,8 @@
 <body>
 
     <header>
-        <h1>Preencha os dados da sua Empresa</h1>
-        <p>Preencha as informações corretamente para seguirmos.</p>
+        <h1>Preencha os dados da Empresa</h1>
+        <p>Preencha as informações da sua empresa corretamente para seguirmos.</p>
     </header>
 
     <main class="container">
