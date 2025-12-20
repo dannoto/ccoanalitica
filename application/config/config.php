@@ -28,7 +28,7 @@ if (ENVIRONMENT == "development") {
     $config['base_url'] = 'http://localhost/ccoanalitica/';
 
 } else  if (ENVIRONMENT == "production") {
-    $config['base_url'] = 'http://ccoanalitica.com.br/';
+    $config['base_url'] = 'https://ccoanalitica.com/sites/';
 
 }
 
