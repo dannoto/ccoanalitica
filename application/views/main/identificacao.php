@@ -415,7 +415,7 @@
 
                     <div class="field">
                         <label id="company_logradouro_label" for="company_logradouro">Logradouro <span style="color:#c00">*</span></label>
-                        <input id="company_logradouro" id="cep" name="company_logradouro" type="text" placeholder="Insira o CEP">h
+                        <input id="company_logradouro" id="cep" name="company_logradouro" type="text" placeholder="Insira o CEP">
                     </div>
                     <div class="field">
                             <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
