@@ -406,7 +406,7 @@
                     <div class="row pt-5">
                         <div class="field">
                             <label id="company_cep_label" for="company_cep">CEP <span style="color:#c00">*</span></label>
-                            <input id="company_cep" id="cep" name="company_cep" type="text" placeholder="Insira o CEP">
+                            <input id="company_cep" name="company_cep" type="text" placeholder="Insira o CEP">
                         </div>
                         <div class="field">
 
@@ -415,28 +415,28 @@
 
                     <div class="field">
                         <label id="company_logradouro_label" for="company_logradouro">Logradouro <span style="color:#c00">*</span></label>
-                        <input id="company_logradouro" id="cep" name="company_logradouro" type="text" placeholder="Insira o CEP">
+                        <input id="company_logradouro"  name="company_logradouro" type="text" placeholder="Insira o CEP">
                     </div>
                     <div class="field">
                         <label id="company_numero_label" for="company_numero">Número <span style="color:#c00">*</span></label>
-                        <input id="company_numero" id="cep" name="company_numero" type="text" placeholder="Insira o CEP">
+                        <input id="company_numero"  name="company_numero" type="text" placeholder="Insira o CEP">
                     </div>
 
                     <div class="row">
                         <div class="field">
                             <label id="company_cidade_label" for="company_cidade">Cidade <span style="color:#c00">*</span></label>
-                            <input id="company_cidade" id="cep" name="company_cidade" type="text" placeholder="Insira o CEP">
+                            <input id="company_cidade"  name="company_cidade" type="text" placeholder="Insira o CEP">
                         </div>
                         <div class="field">
                             <label id="company_estado_label" for="company_estado">Estado <span style="color:#c00">*</span></label>
-                            <input id="company_estado" id="cep" name="company_estado" type="text" placeholder="Insira o CEP">
+                            <input id="company_estado"  name="company_estado" type="text" placeholder="Insira o CEP">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="field">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
-                            <input id="company_bairro" id="cep" name="company_bairro" type="text" placeholder="Insira o CEP">
+                            <input id="company_bairro"  name="company_bairro" type="text" placeholder="Insira o CEP">
                         </div>
 
                     </div>
@@ -465,6 +465,9 @@
 
 
     <script>
+
+        $('#company_cep').mask('00000-000');
+
         $('#company_whatsapp').mask('(00) 0 0000-0000');
 
         $('#company_document').mask('00.000.000/0000-00');
@@ -762,6 +765,55 @@
 
         setType('pj');
     </script>
+
+    <script>
+    $('#company_cep').on('blur', function () {
+        let cep = $(this).val().replace(/\D/g, '');
+
+        if (cep.length !== 8) {
+            return;
+        }
+
+        // Limpa campos enquanto busca
+        $('#company_logradouro').val('...');
+        $('#company_bairro').val('...');
+        $('#company_cidade').val('...');
+        $('#company_estado').val('...');
+
+        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.erro) {
+                    Swal.fire({
+                        title: '',
+                        text: 'CEP não encontrado.',
+                        icon: 'warning',
+                        confirmButtonText: 'OK',
+                        confirmButtonColor: "#FF6900"
+                    });
+                    return;
+                }
+
+                $('#company_logradouro').val(data.logradouro);
+                $('#company_bairro').val(data.bairro);
+                $('#company_cidade').val(data.localidade);
+                $('#company_estado').val(data.uf);
+
+                // Foca no número depois de preencher
+                $('#company_numero').focus();
+            })
+            .catch(() => {
+                Swal.fire({
+                    title: '',
+                    text: 'Erro ao buscar o CEP. Tente novamente.',
+                    icon: 'error',
+                    confirmButtonText: 'OK',
+                    confirmButtonColor: "#FF6900"
+                });
+            });
+    });
+</script>
+
 </body>
 
 </html>
