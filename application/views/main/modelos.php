@@ -7,7 +7,9 @@
   <title>Modelos de Sites para <?= $tag['tag_name'] ?> | Escolha o seu modelo</title>
   <meta name="description" content="Escolha o modelo que mais gostar e preencha as informações para criarmos seus site.">
 
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet">
   <style>
     :root {
       --cor-principal: #FF6900;
@@ -22,13 +24,15 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: "Roboto", Sans-serif;
+      font-family: "Mozilla Text", sans-serif;
     }
 
     body {
       background: var(--cor-secundaria);
       color: var(--texto-escuro);
       line-height: 1.6;
+      font-family: "Mozilla Text", sans-serif;
+
     }
 
     header {
@@ -174,7 +178,7 @@
   <footer>
     © 2025 - CCO ANALITICA. Todos os direitos reservados.
     <br>
-     50.108.880/0001-92
+    50.108.880/0001-92
     <br>
     Rua Alumínio, 107 – Aparecida de Goiânia – GO
     <br>

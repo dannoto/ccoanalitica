@@ -401,8 +401,17 @@
                     </div>
 
 
+                    <hr>
+
+                    <div class="">
+                        <label id="company_responsible_name_label" for="company_responsible_name">CEP <span style="color:#c00">*</span></label>
+                        <input id="company_responsible_name" name="company_responsible_name" type="text" placeholder="Nome do sócio ou responsável">
+                    </div>
+
+                    <hr>
+
                     <div style="display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;justify-content:end;margin-top:30px">
-                        <a href="./modelos/<?=$this->session->userdata('slug');?>">
+                        <a href="./modelos/<?= $this->session->userdata('slug'); ?>">
                             <button type="button" id="btnEnviar" class="btn btn-whats"><i class="fa fa-arrow-left"></i> VOLTAR</button>
                         </a>
 
