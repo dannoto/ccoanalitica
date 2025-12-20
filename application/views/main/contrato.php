@@ -313,7 +313,7 @@
 
 
       <p><strong>CONTRATADA:</strong><br>
-        CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107 - Aparecida de Goiânia, Goiás/GO - 749570.<br>
+        CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107 - Aparecida de Goiânia, Goiás/GO - 74955-030.<br>
         <a href="https://www.ccoanalitica.com" target="_blank">www.ccoanalitica.com</a><br>
 
       <h3>CLÁUSULA PRIMEIRA – DA PRESTAÇÃO DE SERVIÇOS</h3>
