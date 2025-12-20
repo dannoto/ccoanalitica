@@ -155,6 +155,11 @@
                         <td>${tag.tag_slug}</td>
                         <td>${tag.tag_description || ''}</td>
                         <td class="actions">
+                        <a href="${base_url()}modelos/${tag.tag_slug}">
+                             <button>
+                                <i style="color:#FFF" class="fa fa-eyes">VER</i>
+                            </button>
+                            </a>
                             <button onclick="editTag(${tag.id}, '${tag.tag_name}', '${tag.tag_slug}', \`${tag.tag_description || ''}\`)">
                                 <i style="color:#FFF" class="fa fa-pen">EDITAR</i>
                             </button>
