@@ -456,15 +456,15 @@
 
         <h3>CLÁUSULA DÉCIMA OITAVA – DA HOSPEDAGEM</h3>
         <ol>
-
-
           <li>1. Está incluída na prestação dos serviços a hospedagem do site pelo período de 12 (doze) meses, sem custos adicionais, bem como o registro de domínio, também por 12 meses.</li>
           <li>2. Após esse período, a CONTRATANTE poderá:</li>
-          <ul>
-            <li>Manter o serviço por R$ 29,00 mensais, com cobrança anual;</li>
-            <li>Ou solicitar os arquivos do site para transferir o serviço para outra hospedagem, sem obrigação de permanência com a CONTRATADA.</li>
-          </ul>
-          <p>3. Caso a CONTRATANTE já possua domínio ou serviço de hospedagem ativos, os serviços de registro e hospedagem serão desconsiderados, sem ônus para a CONTRATANTE.</p>
+        </ol>
+        <ul>
+          <li>Manter o serviço por R$ 29,00 mensais, com cobrança anual;</li>
+          <li>Ou solicitar os arquivos do site para transferir o serviço para outra hospedagem, sem obrigação de permanência com a CONTRATADA.</li>
+        </ul>
+        <ol>
+          <li>3. Caso a CONTRATANTE já possua domínio ou serviço de hospedagem ativos, os serviços de registro e hospedagem serão desconsiderados, sem ônus para a CONTRATANTE.</li>
         </ol>
 
         <h3>CLÁUSULA DÉCIMA NONA – DISPOSIÇÕES GERAIS</h3>
