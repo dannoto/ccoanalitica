@@ -289,14 +289,14 @@
     <p>Leia atentamente o contrato de prestação de serviços. </p>
   </header>
 
-  <main class="container">
+<main class="container">
     <div class="grid">
 
       <div class="contrato" style="height: 450px;overflow-y:scroll">
         <br>
 
         <center>
-          <h2 class="text-center">CONTRATO DE PRESTAÇÃO DE SERVIÇOS<br>DESENVOLVIMENTO DE SITE</h1>
+          <h2 class="text-center">CONTRATO DE PRESTAÇÃO DE SERVIÇOS<br>DESENVOLVIMENTO DE SITE</h2>
         </center>
 
         <p>
@@ -311,10 +311,10 @@
           CEP <?= $dados['idf_company_cep'] ?>
         </p>
 
-
         <p><strong>CONTRATADA:</strong><br>
           CCO ANALÍTICA LTDA, inscrita no CNPJ nº 50.108.880/0001-92, com sede na Rua Alumínio, nº 2, Apto 107 - Aparecida de Goiânia, Goiás/GO - 74955-030.<br>
           <a href="https://www.ccoanalitica.com" target="_blank">www.ccoanalitica.com</a><br>
+        </p>
 
         <h3>CLÁUSULA PRIMEIRA – DA PRESTAÇÃO DE SERVIÇOS</h3>
         <p>1. O serviço a ser prestado pela CONTRATADA consiste no desenvolvimento de um website para a CONTRATANTE, com estrutura previamente definida a partir de modelo escolhido pela CONTRATANTE.</p>
@@ -334,7 +334,6 @@
           <li>Realizar manutenção e atualizações gratuitas por até 30 (trinta) dias após a entrega do site. Após esse prazo, quaisquer serviços de suporte deverão ser contratados separadamente, mediante novo acordo.</li>
           <li>A CONTRATADA não está obrigada a desenvolver logomarcas, apresentações, catálogos, ou artes gráficas adicionais, como banners, postagens para redes sociais etc.</li>
           <li>A execução de serviços adicionais pela CONTRATADA só fica obrigada, caso haja pagamento para tal serviço, acordados de forma prévia.</li>
-
         </ol>
 
         <p><strong>Obrigações da CONTRATANTE:</strong></p>
@@ -377,13 +376,15 @@
           </li>
         </ol>
 
-        <h3>CLÁUSULA SEXTA – DAS ASSINATURAS DIGITAIS</h3>
-
+        <h3>CLÁUSULA SEXTA – DAS ASSINATURAS DIGITAIS E DO ACEITE ELETRÔNICO</h3>
         <ol>
           <li>As partes reconhecem como válida e eficaz a assinatura deste contrato por meio eletrônico.</li>
           <li>O aceite eletrônico realizado no site da CONTRATANTE, mesmo que fora do padrão ICP-Brasil, serão consideradas válidas e plenamente eficazes para todos os fins legais.</li>
           <li>Os dados de e-mail e demais informações fornecidas pelas partes serão considerados oficiais e utilizados como critério de autenticação e assinatura eletrônica.</li>
           <li>O CONTRATANTE declara que o clique no botão "Aceitar e continuar" e o preenchimento dos dados equivalem à sua assinatura eletrônica, com efeitos previstos em lei.</li>
+          <li>O aceite eletrônico realizado no site da CONTRATADA, mediante leitura do contrato, marcação da opção de concordância e acionamento do botão “Aceitar e continuar”, constitui manifestação inequívoca de vontade.</li>
+          <li>O registro eletrônico do aceite, incluindo data, hora, endereço IP, navegador e e-mail informado, será considerado meio de prova válido para todos os fins legais.</li>
+          <li>Uma cópia integral deste contrato será enviada automaticamente ao e-mail informado pela CONTRATANTE no momento do aceite.</li>
         </ol>
 
         <h3>CLÁUSULA SÉTIMA – DAS GARANTIAS TÉCNICAS</h3>
@@ -415,7 +416,49 @@
           <li>A obrigação de confidencialidade subsiste mesmo após a rescisão, por um período de 12 (doze) meses.</li>
         </ol>
 
-        <h3>CLÁUSULA DÉCIMA PRIMEIRA – DISPOSIÇÕES GERAIS</h3>
+        <h3>CLÁUSULA DÉCIMA PRIMEIRA – DO REGISTRO E PROPRIEDADE DO DOMÍNIO</h3>
+        <ol>
+          <li>Quando o registro do domínio for realizado pela CONTRATADA em nome da CONTRATANTE, este será considerado propriedade exclusiva da CONTRATANTE, independentemente da rescisão contratual.</li>
+          <li>Em caso de cancelamento, rescisão ou reembolso de valores, o custo referente ao registro do domínio não será reembolsável, sendo automaticamente descontado de qualquer valor a ser restituído, uma vez que se trata de bem digital de titularidade da CONTRATANTE.</li>
+          <li>A CONTRATANTE declara ciência de que o domínio é um serviço de terceiros, com validade anual, não sendo possível seu cancelamento ou devolução após o registro.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA SEGUNDA – DO ABANDONO DO PROJETO</h3>
+        <ol>
+          <li>Caso a CONTRATANTE deixe de fornecer informações, conteúdos ou aprovações necessárias por período superior a 15 (quinze) dias corridos, o projeto será considerado suspenso.</li>
+          <li>Após 30 (trinta) dias de inatividade por responsabilidade da CONTRATANTE, o projeto será considerado abandonado, não havendo obrigação de retomada sem novo agendamento ou reajuste de prazo.</li>
+          <li>A suspensão ou abandono do projeto não gera direito a reembolso dos valores já pagos.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA TERCEIRA – DO LIMITE DE ALTERAÇÕES</h3>
+        <ol>
+          <li>Estão incluídas neste contrato até 2 (duas) rodadas de ajustes visuais e textuais após a primeira apresentação do site.</li>
+          <li>Solicitações adicionais ou alterações que modifiquem significativamente a estrutura, funcionalidades ou layout original serão consideradas serviços extras e deverão ser orçadas separadamente.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA QUARTA – DAS LIMITAÇÕES DE RESPONSABILIDADE</h3>
+        <ol>
+          <li>A CONTRATADA não se responsabiliza por falhas, interrupções ou indisponibilidades causadas por serviços de terceiros, tais como servidores de hospedagem, provedores de domínio, serviços de e-mail, plugins, APIs ou integrações externas.</li>
+          <li>Eventuais instabilidades decorrentes desses serviços não caracterizam descumprimento contratual.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA QUINTA – DOS BACKUPS E DOS DADOS</h3>
+        <ol>
+          <li>A CONTRATANTE é responsável por manter cópias de segurança (backup) de seus conteúdos, textos, imagens e dados.</li>
+          <li>A CONTRATADA não se responsabiliza por perda de dados causada por falhas técnicas, ataques externos, exclusões indevidas ou problemas originados fora de sua atuação direta.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA SEXTA – DO USO PARA FINS DE PORTFÓLIO</h3>
+        <ol>
+          <li>A CONTRATADA poderá utilizar o website desenvolvido como parte de seu portfólio profissional, incluindo menção ao nome e logotipo da CONTRATANTE, exclusivamente para fins de divulgação de seus serviços.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA SÉTIMA – DO REAJUSTE DE VALORES FUTUROS</h3>
+        <ol>
+          <li>Os valores referentes a serviços recorrentes, manutenção ou hospedagem poderão ser reajustados anualmente com base no índice IPCA ou outro que venha a substituí-lo.</li>
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA OITAVA – DISPOSIÇÕES GERAIS</h3>
         <ol>
           <li>As partes são independentes entre si. Este contrato não gera vínculo empregatício ou societário.</li>
           <li>A CONTRATADA não será responsabilizada por falhas decorrentes de informações incorretas fornecidas pela CONTRATANTE.</li>
@@ -425,61 +468,9 @@
         </ol>
         <br>
 
-
-        <h3>CLÁUSULA DÉCIMA SEGUNDA – DO REGISTRO E PROPRIEDADE DO DOMÍNIO</h3>
-        <ol>
-          <li>Quando o registro do domínio for realizado pela CONTRATADA em nome da CONTRATANTE, este será considerado propriedade exclusiva da CONTRATANTE, independentemente da rescisão contratual.</li>
-          <li>Em caso de cancelamento, rescisão ou reembolso de valores, o custo referente ao registro do domínio não será reembolsável, sendo automaticamente descontado de qualquer valor a ser restituído, uma vez que se trata de bem digital de titularidade da CONTRATANTE.</li>
-          <li>A CONTRATANTE declara ciência de que o domínio é um serviço de terceiros, com validade anual, não sendo possível seu cancelamento ou devolução após o registro.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA TERCEIRA – DO ABANDONO DO PROJETO</h3>
-        <ol>
-          <li>Caso a CONTRATANTE deixe de fornecer informações, conteúdos ou aprovações necessárias por período superior a 15 (quinze) dias corridos, o projeto será considerado suspenso.</li>
-          <li>Após 30 (trinta) dias de inatividade por responsabilidade da CONTRATANTE, o projeto será considerado abandonado, não havendo obrigação de retomada sem novo agendamento ou reajuste de prazo.</li>
-          <li>A suspensão ou abandono do projeto não gera direito a reembolso dos valores já pagos.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA QUARTA – DO LIMITE DE ALTERAÇÕES</h3>
-        <ol>
-          <li>Estão incluídas neste contrato até 2 (duas) rodadas de ajustes visuais e textuais após a primeira apresentação do site.</li>
-          <li>Solicitações adicionais ou alterações que modifiquem significativamente a estrutura, funcionalidades ou layout original serão consideradas serviços extras e deverão ser orçadas separadamente.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA QUINTA – DAS LIMITAÇÕES DE RESPONSABILIDADE</h3>
-        <ol>
-          <li>A CONTRATADA não se responsabiliza por falhas, interrupções ou indisponibilidades causadas por serviços de terceiros, tais como servidores de hospedagem, provedores de domínio, serviços de e-mail, plugins, APIs ou integrações externas.</li>
-          <li>Eventuais instabilidades decorrentes desses serviços não caracterizam descumprimento contratual.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA SEXTA – DOS BACKUPS E DOS DADOS</h3>
-        <ol>
-          <li>A CONTRATANTE é responsável por manter cópias de segurança (backup) de seus conteúdos, textos, imagens e dados.</li>
-          <li>A CONTRATADA não se responsabiliza por perda de dados causada por falhas técnicas, ataques externos, exclusões indevidas ou problemas originados fora de sua atuação direta.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA SÉTIMA – DO USO PARA FINS DE PORTFÓLIO</h3>
-        <ol>
-          <li>A CONTRATADA poderá utilizar o website desenvolvido como parte de seu portfólio profissional, incluindo menção ao nome e logotipo da CONTRATANTE, exclusivamente para fins de divulgação de seus serviços.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA OITAVA – DO REAJUSTE DE VALORES FUTUROS</h3>
-        <ol>
-          <li>Os valores referentes a serviços recorrentes, manutenção ou hospedagem poderão ser reajustados anualmente com base no índice IPCA ou outro que venha a substituí-lo.</li>
-        </ol>
-
-        <h3>CLÁUSULA DÉCIMA NONA – DO ACEITE ELETRÔNICO E PROVA</h3>
-        <ol>
-          <li>O aceite eletrônico realizado no site da CONTRATADA, mediante leitura do contrato, marcação da opção de concordância e acionamento do botão “Aceitar e continuar”, constitui manifestação inequívoca de vontade.</li>
-          <li>O registro eletrônico do aceite, incluindo data, hora, endereço IP, navegador e e-mail informado, será considerado meio de prova válido para todos os fins legais.</li>
-          <li>Uma cópia integral deste contrato será enviada automaticamente ao e-mail informado pela CONTRATANTE no momento do aceite.</li>
-        </ol>
-
-
         <p class="mt-3"><strong>Aparecida de Goiânia, <?= date('d/m/Y') ?>.</strong></p>
 
       </div>
-
 
       <div class="modal-footer text-center">
         <a href="./opcional">
@@ -488,11 +479,9 @@
           </button>
         </a>
 
-        <!-- <a href="./pagamento"> -->
         <button onclick="add_contrato()" id="nextButton" class="btn btn-primary">
           ACEITAR E CONTINUAR <i class="fa fa-arrow-right"></i>
         </button>
-        <!-- </a> -->
       </div>
     </div>
   </main>
