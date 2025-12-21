@@ -375,18 +375,18 @@
                     <div class="row">
                         <div class="field" style="flex:1">
                             <label for="company_whatsapp">WhatsApp <span style="color:#c00">*</span></label>
-                            <input id="company_whatsapp" name="company_whatsapp" type="tel" placeholder="(99) 9 9999-9999" inputmode="tel" required>
+                            <input id="company_whatsapp" value="<?=$idf['idf_company_whatsapp']?>" name="company_whatsapp" type="tel" placeholder="(99) 9 9999-9999" inputmode="tel" required>
                         </div>
 
                         <div class="field" style="flex:1">
                             <label for="company_email">E-mail <span style="color:#c00">*</span></label>
-                            <input id="company_email" name="company_email" type="email" placeholder="Ex: contato@suaempresa.com">
+                            <input id="company_email" value="<?=$idf['idf_company_email']?>" name="company_email" type="email" placeholder="Ex: contato@suaempresa.com">
                         </div>
                     </div>
 
                     <div class="field">
                         <label id="company_responsible_name_label" for="company_responsible_name">Nome do responsável <span style="color:#c00">*</span></label>
-                        <input id="company_responsible_name" name="company_responsible_name" type="text" placeholder="Nome do sócio ou responsável">
+                        <input id="company_responsible_name" value="<?=$idf['idf_company_responsible_name']?>" name="company_responsible_name" type="text" placeholder="Nome do sócio ou responsável">
                     </div>
 
                     <br>
@@ -395,7 +395,7 @@
                     <div class="row pt-5">
                         <div class="field" style="flex:1">
                             <label id="company_cep_label" for="company_cep">CEP <span style="color:#c00">*</span></label>
-                            <input id="company_cep" name="company_cep" type="text" placeholder="Insira o CEP">
+                            <input id="company_cep" value="<?=$idf['idf_company_cep']?>" name="company_cep" type="text" placeholder="Insira o CEP">
                         </div>
                         <div class="field" style="flex:1">
 
@@ -405,11 +405,11 @@
 
                         <div class="field" style="flex:1">
                             <label id="company_logradouro_label" for="company_logradouro">Logradouro <span style="color:#c00">*</span></label>
-                            <input id="company_logradouro" name="company_logradouro" type="text" placeholder="Insira o Logradouro">
+                            <input id="company_logradouro" value="<?=$idf['idf_company_logradouro']?>" name="company_logradouro" type="text" placeholder="Insira o Logradouro">
                         </div>
                         <div class="field" style="flex:1">
                             <label id="company_numero_label" for="company_numero">Número </label>
-                            <input id="company_numero" name="company_numero" type="text" placeholder="Insira o Número">
+                            <input id="company_numero" value="<?=$idf['idf_company_numero']?>" name="company_numero" type="text" placeholder="Insira o Número">
                         </div>
                     </div>
 
@@ -418,39 +418,39 @@
                             <label for="company_estado">Estado <span style="color:#c00">*</span></label>
                             <select id="company_estado" name="company_estado" required
                                 style="width:100%;padding:10px 12px;border:1px solid rgba(8,22,40,0.08);border-radius:0px;font-size:14px;">
-                                <option value="">Selecione o estado</option>
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espírito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option>
+                                <option  value="">Selecione o estado</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "AC") { echo "selected";} ?> value="AC">Acre</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "AL") { echo "selected";} ?> value="AL">Alagoas</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "AP") { echo "selected";} ?> value="AP">Amapá</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "AM") { echo "selected";} ?> value="AM">Amazonas</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "BA") { echo "selected";} ?> value="BA">Bahia</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "CE") { echo "selected";} ?> value="CE">Ceará</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "DF") { echo "selected";} ?> value="DF">Distrito Federal</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "ES") { echo "selected";} ?> value="ES">Espírito Santo</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "GO") { echo "selected";} ?> value="GO">Goiás</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "MA") { echo "selected";} ?> value="MA">Maranhão</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "MT") { echo "selected";} ?> value="MT">Mato Grosso</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "MS") { echo "selected";} ?> value="MS">Mato Grosso do Sul</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "MG") { echo "selected";} ?> value="MG">Minas Gerais</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "PA") { echo "selected";} ?> value="PA">Pará</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "PB") { echo "selected";} ?> value="PB">Paraíba</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "PR") { echo "selected";} ?> value="PR">Paraná</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "PE") { echo "selected";} ?> value="PE">Pernambuco</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "PI") { echo "selected";} ?> value="PI">Piauí</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "RJ") { echo "selected";} ?> value="RJ">Rio de Janeiro</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "RN") { echo "selected";} ?> value="RN">Rio Grande do Norte</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "RS") { echo "selected";} ?> value="RS">Rio Grande do Sul</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "RO") { echo "selected";} ?> value="RO">Rondônia</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "RR") { echo "selected";} ?> value="RR">Roraima</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "SC") { echo "selected";} ?> value="SC">Santa Catarina</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "SP") { echo "selected";} ?> value="SP">São Paulo</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "SE") { echo "selected";} ?> value="SE">Sergipe</option>
+                                <option <?php if ($idf['idf_company_cidade'] == "TO") { echo "selected";} ?> value="TO">Tocantins</option>
                             </select>
                         </div>
                         <div class="field" style="flex:1">
                             <label id="company_cidade_label" for="company_cidade">Cidade <span style="color:#c00">*</span></label>
-                            <input id="company_cidade" name="company_cidade" type="text" placeholder="Insira o Cidade">
+                            <input id="company_cidade" value="<?=$idf['idf_company_cidade']?>" name="company_cidade" type="text" placeholder="Insira o Cidade">
                         </div>
 
 
@@ -459,11 +459,11 @@
                     <div class="row">
                         <div class="field" style="flex:1">
                             <label id="company_bairro_label" for="company_bairro">Bairro <span style="color:#c00">*</span></label>
-                            <input id="company_bairro" name="company_bairro" type="text" placeholder="Insira o Bairro">
+                            <input id="company_bairro" value="<?=$idf['idf_company_bairro']?>" name="company_bairro" type="text" placeholder="Insira o Bairro">
                         </div>
                         <div class="field" style="flex:1">
                             <label id="company_complemento_label" for="company_complemento">Complemento</label>
-                            <input id="company_complemento" name="company_complemento" type="text" placeholder="Insira o Bairro">
+                            <input id="company_complemento" value="<?=$idf['idf_company_complemento']?>" name="company_complemento" type="text" placeholder="Insira o Bairro">
                         </div>
 
                     </div>
