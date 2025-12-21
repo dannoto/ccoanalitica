@@ -328,18 +328,7 @@
         <div class="grid">
 
             <div class="main-card" aria-labelledby="form-title">
-                <!-- <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:12px">
-                    <div class="model-preview" aria-hidden="true">
-                        <img id="modeloThumb" src="https://ccoanalitica.com/wp-content/webp-express/webp-images/uploads/2022/11/innovia.webp" alt="Preview do modelo">
-                        <div>
-                            <div class="model-name" id="">MODELO #1</div>
-                            <div class="model-name" id="">Escritório de Advocacia</div>
-                        </div>
-                    </div>
-                    <div>
-                        <button type="button" class="btn btn-trade" id="btnVerModelo" target="_blank">TROCAR MODELO</button>
-                    </div>
-                </div> -->
+              
 
                 <form id="contratoForm" autocomplete="on">
 
@@ -358,13 +347,13 @@
                     <div id="pjFields" style="margin-top: 30px;">
                         <div class="field">
                             <label for="company_name">Razão Social <span style="color:#c00">*</span></label>
-                            <input id="company_name" name="company_name" value="" type="text" placeholder="Ex.: Escritório Silva & Associados LTDA" required>
+                            <input id="company_name" name="company_name" value="<=$idf['idf_company_name']?>" type="text" placeholder="Ex.: Escritório Silva & Associados LTDA" required>
                         </div>
 
                         <div class="row">
                             <div class="field" style="flex:1">
                                 <label for="company_document">CNPJ <span style="color:#c00">*</span></label>
-                                <input id="company_document" name="company_document" type="text" placeholder="00.000.000/0000-00" inputmode="numeric" pattern="\d{2}\.?\d{3}\.?\d{3}\/?\d{4}-?\d{2}" required>
+                                <input id="company_document" value="<=$idf['idf_company_document']?>" name="company_document" type="text" placeholder="00.000.000/0000-00" inputmode="numeric" pattern="\d{2}\.?\d{3}\.?\d{3}\/?\d{4}-?\d{2}" required>
                             </div>
 
                         </div>
