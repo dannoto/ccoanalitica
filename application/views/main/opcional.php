@@ -203,7 +203,7 @@
                     </div>
                     <h3><?= $op->cco_item_name ?></h3>
                     <p><?= $op->cco_item_short_description ?></p>
-                    <p class="service-price">R$ <?= $op->cco_item_price ?></p>
+                    <!-- <p class="service-price">R$ <?= $op->cco_item_price ?></p> -->
                 </div>
 
             <?php } ?>
@@ -211,12 +211,11 @@
         </div>
 
         <div class="footer">
-            <div class="total" id="totalValue">Total: R$ 359,00</div>
+            <!-- <div class="total" id="totalValue">Total: R$ 359,00</div> -->
 
         </div>
 
         <div class="footer">
-            <!-- <div class="total" id="totalValue">Total: R$ 359,00</div> -->
 
             <a href="./formulario">
                 <button class="btn btn-whats"> <i class="fa fa-arrow-left"></i> VOLTAR</button>

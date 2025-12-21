@@ -830,13 +830,11 @@
       <div>
         <span class="kicker" data-animate="left" style="--d:.05s">OFERTA ESPECIAL &nbsp;&bull;&nbsp; VERIFICAR DISPONIBILIDADE</span>
         <h1 class="title-xl" data-animate="left" style="--d:.1s">
-          <!-- <span class="gradient-text"> CRIAÇÃO DE SITE</span> PROFISSIONAL POR 
-            <span class="gradient-text">R$ 499,00 EM AT&Eacute; 12X</span> -->
+         
           <span>CRIAÇÃO DE SITE PROFISSIONAL PARA ADVOGADOS<br>
 
         </h1>
         <h2><span style="font-size:14px"> POR </span> R$ 569,00 <span style="font-size:14px"> EM ATÉ </span> 12X</h2>
-        <!-- <p class="lead" data-animate="left" style="--d:.16s">Entrega em <strong>5 dias &uacute;teis</strong>, <strong>revis&otilde;es ilimitadas</strong> at&eacute; publicar, design responsivo e <strong class="nowrap">SEO on-page</strong> para aparecer no Google. Integra&ccedil;&atilde;o com WhatsApp j&aacute; inclusa.</p> -->
         <span class="kicker" style="font-size:12px" data-animate="left" style="--d:.05s">HOSPEDAGEM GRÁTIS 12 MESES</span>
         <span class="kicker" style="font-size:12px" data-animate="left" style="--d:.05s"> DOMÍNIO GRÁTIS POR 12 MESES</span>
 
@@ -866,12 +864,10 @@
             <span>MODELOS MODERNOS</span>
           </div>
         </div>
-
         <div class="row" data-animate="left" style="--d:.28s">
           <a class="btn btn--whats" href="https://api.whatsapp.com/send?phone=5521986198925&text=Ol%C3%A1!%20Quero%20meu%20site%20por%20R$499,00" target="_blank" rel="noopener">FALAR NO WHATSAPP</a>
           <a class="btn btn--outline" href="#preco">VER O QUE ESTÁ INCLUSO</a>
         </div>
-
       </div>
       <div class="hero-card" data-animate="right" style="--d:.12s">
         <picture>
@@ -882,7 +878,7 @@
     </div>
   </section>
 
-  <!-- Bloco de pre&ccedil;o/destaques -->
+  
   <section id="preco" class="pricing container">
     <div class="price-card" data-animate style="--d:.06s">
       <div>
@@ -913,8 +909,6 @@
           <div class="check"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M20 6L9 17l-5-5" />
             </svg>Suporte grátis por 30 dias</div>
-
-
         </div>
         <div class="row" style="margin-top:25px">
           <a class="btn btn--whats" href="https://api.whatsapp.com/send?phone=5521986198925&text=Ol%C3%A1!%20Quero%20meu%20site%20por%20R$499,00" target="_blank" rel="noopener">QUERO COMEÇAR AGORA</a>
