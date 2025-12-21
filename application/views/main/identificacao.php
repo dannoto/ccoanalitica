@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Cadastro - Escolha do Modelo | Seu Site Profissional</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <style>
         :root {
             --cor-principal: #FF6900;
@@ -316,20 +314,14 @@
         }
     </style>
 </head>
-
 <body>
-
     <header>
         <h1>Preencha os dados da Empresa</h1>
         <p>Preencha as informações da sua empresa corretamente para seguirmos.</p>
     </header>
-
     <main class="container">
         <div class="grid">
-
             <div class="main-card" aria-labelledby="form-title">
-              
-
                 <form id="contratoForm" autocomplete="on">
 
                     <input type="hidden" id="modeloEscolhido" name="modeloEscolhido" value="">
@@ -481,16 +473,11 @@
                     <div id="status" aria-live="polite"></div>
                 </form>
             </div>
-
-
         </div>
     </main>
-
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.3/dist/sweetalert2.all.min.js"></script>
-
-
     <script>
         $('#company_cep').mask('00000-000');
 
@@ -789,39 +776,38 @@
 
             }
 
+            // $.ajax({
+            //     url: '<?= base_url() ?>identificacao/act_add_identifier',
+            //     type: 'POST',
+            //     data: data,
+            //     dataType: 'json', // importante!
+            //     success: function(res) {
+            //         console.log(res); // já vem como objeto JS
 
+            //         if (res.status) {
+            //             window.location.href = "<?= base_url() ?>formulario";
+            //         } else {
+            //             Swal.fire({
+            //                 title: '',
+            //                 text: res.message || 'Houve um erro ao enviar. Tente novamente.',
+            //                 icon: 'error',
+            //                 confirmButtonText: 'OK',
+            //                 confirmButtonColor: "#FF6900"
+            //             });
+            //         }
+            //     },
+            //     error: function() {
+            //         Swal.fire({
+            //             title: '',
+            //             text: 'Houve um erro ao enviar',
+            //             icon: 'error',
+            //             confirmButtonText: 'OK',
+            //             confirmButtonColor: "#FF6900"
+            //         });
+            //     }
+            // });
 
-
-            $.ajax({
-                url: '<?= base_url() ?>identificacao/act_add_identifier',
-                type: 'POST',
-                data: data,
-                dataType: 'json', // importante!
-                success: function(res) {
-                    console.log(res); // já vem como objeto JS
-
-                    if (res.status) {
-                        window.location.href = "<?= base_url() ?>formulario";
-                    } else {
-                        Swal.fire({
-                            title: '',
-                            text: res.message || 'Houve um erro ao enviar. Tente novamente.',
-                            icon: 'error',
-                            confirmButtonText: 'OK',
-                            confirmButtonColor: "#FF6900"
-                        });
-                    }
-                },
-                error: function() {
-                    Swal.fire({
-                        title: '',
-                        text: 'Houve um erro ao enviar',
-                        icon: 'error',
-                        confirmButtonText: 'OK',
-                        confirmButtonColor: "#FF6900"
-                    });
-                }
-            });
+            console.log(data)
 
 
 
@@ -830,7 +816,6 @@
 
         setType('pj');
     </script>
-
     <script>
         $('#company_cep').on('blur', function() {
             let cep = $(this).val().replace(/\D/g, '');
@@ -880,7 +865,6 @@
                 });
         });
     </script>
-
 </body>
 
 </html>
