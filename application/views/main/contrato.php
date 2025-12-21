@@ -289,7 +289,7 @@
     <p>Leia atentamente o contrato de prestação de serviços. </p>
   </header>
 
-<main class="container">
+  <main class="container">
     <div class="grid">
 
       <div class="contrato" style="height: 450px;overflow-y:scroll">
@@ -319,13 +319,6 @@
         <h3>CLÁUSULA PRIMEIRA – DA PRESTAÇÃO DE SERVIÇOS</h3>
         <p>1. O serviço a ser prestado pela CONTRATADA consiste no desenvolvimento de um website para a CONTRATANTE, com estrutura previamente definida a partir de modelo escolhido pela CONTRATANTE.</p>
         <p>2. O desenvolvimento será realizado com base em informações fornecidas pela CONTRATANTE, tais como conteúdo, imagens, dados institucionais, entre outros.</p>
-        <p>3. Está incluída na prestação dos serviços a hospedagem do site pelo período de 12 (doze) meses, sem custos adicionais, bem como o registro de domínio, também por 12 meses.</p>
-        <p>4. Após esse período, a CONTRATANTE poderá:</p>
-        <ul>
-          <li>Manter o serviço por R$ 29,00 mensais, com cobrança anual;</li>
-          <li>Ou solicitar os arquivos do site para transferir o serviço para outra hospedagem, sem obrigação de permanência com a CONTRATADA.</li>
-        </ul>
-        <p>5. Caso a CONTRATANTE já possua domínio ou serviço de hospedagem ativos, os serviços de registro e hospedagem serão desconsiderados, sem ônus para a CONTRATANTE.</p>
 
         <h3>CLÁUSULA SEGUNDA – DAS CONDIÇÕES DE PRESTAÇÃO DOS SERVIÇOS</h3>
         <p><strong>Obrigações da CONTRATADA:</strong></p>
@@ -360,6 +353,8 @@
               <li>Ou parcelado: 50% no início e 50% na conclusão do projeto.</li>
             </ul>
           </li>
+          <li>Caso a CONTRATANTE opte pelo pagamento parcelado, após a conclusão do projeto, a mesma tem até 7 dias corridos para realizar o pagamento da parcela restante. Caso contrário o site será removido do ar.
+          <li>
           <li>A CONTRATADA poderá rescindir este contrato mediante aviso prévio, caso identifique descumprimento contratual por parte da CONTRATANTE.</li>
           <li>Observação: Quaisquer solicitações que excedam a proposta original serão cobradas separadamente, com autorização prévia da CONTRATANTE.</li>
         </ol>
@@ -371,7 +366,8 @@
             <ul>
               <li>Encerramento das atividades de uma das partes;</li>
               <li>Pedido de falência ou recuperação judicial;</li>
-              <li>Manifestação formal de uma das partes, com antecedência mínima de 7 (sete) dias, em caso de infração contratual.</li>
+              <li>Doenças, acidentes ou eventuais contratempos inesperados;</li>
+              <li>Manifestação formal de uma das partes, diante dos eventos citados acima.</li>
             </ul>
           </li>
         </ol>
@@ -427,7 +423,7 @@
         <ol>
           <li>Caso a CONTRATANTE deixe de fornecer informações, conteúdos ou aprovações necessárias por período superior a 15 (quinze) dias corridos, o projeto será considerado suspenso.</li>
           <li>Após 30 (trinta) dias de inatividade por responsabilidade da CONTRATANTE, o projeto será considerado abandonado, não havendo obrigação de retomada sem novo agendamento ou reajuste de prazo.</li>
-          <li>A suspensão ou abandono do projeto não gera direito a reembolso dos valores já pagos.</li>
+          <li>A suspensão ou abandono do projeto não gera direito total do reembolso dos valores já pagos. Tendo que cumprir os itens da CLÁUSULA NONA e CLÁUSULA DÉCIMA PRIMEIRA.</li>
         </ol>
 
         <h3>CLÁUSULA DÉCIMA TERCEIRA – DO LIMITE DE ALTERAÇÕES</h3>
@@ -458,7 +454,20 @@
           <li>Os valores referentes a serviços recorrentes, manutenção ou hospedagem poderão ser reajustados anualmente com base no índice IPCA ou outro que venha a substituí-lo.</li>
         </ol>
 
-        <h3>CLÁUSULA DÉCIMA OITAVA – DISPOSIÇÕES GERAIS</h3>
+        <h3>CLÁUSULA DÉCIMA OITAVA – DA HOSPEDAGEM</h3>
+        <ol>
+          <p>1. Está incluída na prestação dos serviços a hospedagem do site pelo período de 12 (doze) meses, sem custos adicionais, bem como o registro de domínio, também por 12 meses.</p>
+
+          <p>2. Após esse período, a CONTRATANTE poderá:</p>
+          <ul>
+            <li>Manter o serviço por R$ 29,00 mensais, com cobrança anual;</li>
+            <li>Ou solicitar os arquivos do site para transferir o serviço para outra hospedagem, sem obrigação de permanência com a CONTRATADA.</li>
+          </ul>
+          <p>3. Caso a CONTRATANTE já possua domínio ou serviço de hospedagem ativos, os serviços de registro e hospedagem serão desconsiderados, sem ônus para a CONTRATANTE.</p>
+
+        </ol>
+
+        <h3>CLÁUSULA DÉCIMA NONA – DISPOSIÇÕES GERAIS</h3>
         <ol>
           <li>As partes são independentes entre si. Este contrato não gera vínculo empregatício ou societário.</li>
           <li>A CONTRATADA não será responsabilizada por falhas decorrentes de informações incorretas fornecidas pela CONTRATANTE.</li>
