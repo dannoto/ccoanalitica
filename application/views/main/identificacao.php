@@ -742,7 +742,7 @@
                 return;
 
 
-            } else  if (document.getElementById('company_logradouro').value.length == 0) {
+            } else if (document.getElementById('company_logradouro').value.length == 0) {
 
 
                 Swal.fire({
@@ -756,7 +756,7 @@
                 return;
 
 
-            } else  if (document.getElementById('company_estado').value.length == 0) {
+            } else if (document.getElementById('company_estado').value.length == 0) {
 
 
                 Swal.fire({
@@ -770,7 +770,7 @@
                 return;
 
 
-            } else  if (document.getElementById('company_cidade').value.length == 0) {
+            } else if (document.getElementById('company_cidade').value.length == 0) {
 
 
                 Swal.fire({
@@ -784,7 +784,7 @@
                 return;
 
 
-            } else  if (document.getElementById('company_bairro').value.length == 0) {
+            } else if (document.getElementById('company_bairro').value.length == 0) {
 
 
                 Swal.fire({

@@ -42,7 +42,13 @@ class Modelos extends CI_Controller
 
 		$this->session->set_userdata('slug', $slug);
 
-		$this->form_model->create_identifier($identifier);
+		$exist_session = $this->session->userdata('identifier');
+
+		if (!$exist_session) {
+			
+			$this->form_model->create_identifier($identifier);
+		}
+
 
 		// $exist_session = $this->session->userdata('identifier');
 
@@ -57,6 +63,4 @@ class Modelos extends CI_Controller
 
 		$this->load->view('main/modelos', $data);
 	}
-
-	
 }
