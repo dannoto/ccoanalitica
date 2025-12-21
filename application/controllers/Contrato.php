@@ -56,6 +56,7 @@ class Contrato extends CI_Controller
 		// Data/hora do aceite
 		$data_aceite = date('Y-m-d H:i:s');
 
+
 		// Hash de integridade (prova de aceite)
 		$dados_para_hash = $user_identifier . '|' . $data_aceite . '|' . $ip_address;
 		$hash_validacao = hash('sha256', $dados_para_hash);
@@ -72,6 +73,10 @@ class Contrato extends CI_Controller
 
 		// Salva no banco
 		$this->db->insert('cco_contratos_logs', $dados);
+
+		//  enviar email
+		//  para $user_identifier['if_company_email'] 
+		// copiar para ccoanalitica@gmail.com
 
 		// Retorna resposta JSON
 		echo json_encode([
