@@ -347,13 +347,13 @@
                     <div id="pjFields" style="margin-top: 30px;">
                         <div class="field">
                             <label for="company_name">Razão Social <span style="color:#c00">*</span></label>
-                            <input id="company_name" name="company_name" value="<=$idf['idf_company_name']?>" type="text" placeholder="Ex.: Escritório Silva & Associados LTDA" required>
+                            <input id="company_name" name="company_name" value="<?=$idf['idf_company_name']?>" type="text" placeholder="Ex.: Escritório Silva & Associados LTDA" required>
                         </div>
 
                         <div class="row">
                             <div class="field" style="flex:1">
                                 <label for="company_document">CNPJ <span style="color:#c00">*</span></label>
-                                <input id="company_document" value="<=$idf['idf_company_document']?>" name="company_document" type="text" placeholder="00.000.000/0000-00" inputmode="numeric" pattern="\d{2}\.?\d{3}\.?\d{3}\/?\d{4}-?\d{2}" required>
+                                <input id="company_document" value="<?=$idf['idf_company_document']?>" name="company_document" type="text" placeholder="00.000.000/0000-00" inputmode="numeric" pattern="\d{2}\.?\d{3}\.?\d{3}\/?\d{4}-?\d{2}" required>
                             </div>
 
                         </div>
