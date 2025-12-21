@@ -29,6 +29,8 @@ class Identificacao extends CI_Controller
 			'idf' => $this->form_model->get_form_by_identifier($this->form_model->get_identifier()),
 		);
 
+		print_r($data['idf']);
+
 		$this->load->view('main/identificacao', $data);
 	}
 

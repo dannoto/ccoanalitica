@@ -1,7 +1,3 @@
-<?php 
-
-print_r($idf);
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
