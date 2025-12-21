@@ -419,33 +419,33 @@
                             <select id="company_estado" name="company_estado" required
                                 style="width:100%;padding:10px 12px;border:1px solid rgba(8,22,40,0.08);border-radius:0px;font-size:14px;">
                                 <option  value="">Selecione o estado</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "AC") { echo "selected";} ?> value="AC">Acre</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "AL") { echo "selected";} ?> value="AL">Alagoas</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "AP") { echo "selected";} ?> value="AP">Amapá</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "AM") { echo "selected";} ?> value="AM">Amazonas</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "BA") { echo "selected";} ?> value="BA">Bahia</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "CE") { echo "selected";} ?> value="CE">Ceará</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "DF") { echo "selected";} ?> value="DF">Distrito Federal</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "ES") { echo "selected";} ?> value="ES">Espírito Santo</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "GO") { echo "selected";} ?> value="GO">Goiás</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "MA") { echo "selected";} ?> value="MA">Maranhão</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "MT") { echo "selected";} ?> value="MT">Mato Grosso</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "MS") { echo "selected";} ?> value="MS">Mato Grosso do Sul</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "MG") { echo "selected";} ?> value="MG">Minas Gerais</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "PA") { echo "selected";} ?> value="PA">Pará</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "PB") { echo "selected";} ?> value="PB">Paraíba</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "PR") { echo "selected";} ?> value="PR">Paraná</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "PE") { echo "selected";} ?> value="PE">Pernambuco</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "PI") { echo "selected";} ?> value="PI">Piauí</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "RJ") { echo "selected";} ?> value="RJ">Rio de Janeiro</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "RN") { echo "selected";} ?> value="RN">Rio Grande do Norte</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "RS") { echo "selected";} ?> value="RS">Rio Grande do Sul</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "RO") { echo "selected";} ?> value="RO">Rondônia</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "RR") { echo "selected";} ?> value="RR">Roraima</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "SC") { echo "selected";} ?> value="SC">Santa Catarina</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "SP") { echo "selected";} ?> value="SP">São Paulo</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "SE") { echo "selected";} ?> value="SE">Sergipe</option>
-                                <option <?php if ($idf['idf_company_cidade'] == "TO") { echo "selected";} ?> value="TO">Tocantins</option>
+                                <option <?php if ($idf['idf_company_estado'] == "AC") { echo "selected";} ?> value="AC">Acre</option>
+                                <option <?php if ($idf['idf_company_estado'] == "AL") { echo "selected";} ?> value="AL">Alagoas</option>
+                                <option <?php if ($idf['idf_company_estado'] == "AP") { echo "selected";} ?> value="AP">Amapá</option>
+                                <option <?php if ($idf['idf_company_estado'] == "AM") { echo "selected";} ?> value="AM">Amazonas</option>
+                                <option <?php if ($idf['idf_company_estado'] == "BA") { echo "selected";} ?> value="BA">Bahia</option>
+                                <option <?php if ($idf['idf_company_estado'] == "CE") { echo "selected";} ?> value="CE">Ceará</option>
+                                <option <?php if ($idf['idf_company_estado'] == "DF") { echo "selected";} ?> value="DF">Distrito Federal</option>
+                                <option <?php if ($idf['idf_company_estado'] == "ES") { echo "selected";} ?> value="ES">Espírito Santo</option>
+                                <option <?php if ($idf['idf_company_estado'] == "GO") { echo "selected";} ?> value="GO">Goiás</option>
+                                <option <?php if ($idf['idf_company_estado'] == "MA") { echo "selected";} ?> value="MA">Maranhão</option>
+                                <option <?php if ($idf['idf_company_estado'] == "MT") { echo "selected";} ?> value="MT">Mato Grosso</option>
+                                <option <?php if ($idf['idf_company_estado'] == "MS") { echo "selected";} ?> value="MS">Mato Grosso do Sul</option>
+                                <option <?php if ($idf['idf_company_estado'] == "MG") { echo "selected";} ?> value="MG">Minas Gerais</option>
+                                <option <?php if ($idf['idf_company_estado'] == "PA") { echo "selected";} ?> value="PA">Pará</option>
+                                <option <?php if ($idf['idf_company_estado'] == "PB") { echo "selected";} ?> value="PB">Paraíba</option>
+                                <option <?php if ($idf['idf_company_estado'] == "PR") { echo "selected";} ?> value="PR">Paraná</option>
+                                <option <?php if ($idf['idf_company_estado'] == "PE") { echo "selected";} ?> value="PE">Pernambuco</option>
+                                <option <?php if ($idf['idf_company_estado'] == "PI") { echo "selected";} ?> value="PI">Piauí</option>
+                                <option <?php if ($idf['idf_company_estado'] == "RJ") { echo "selected";} ?> value="RJ">Rio de Janeiro</option>
+                                <option <?php if ($idf['idf_company_estado'] == "RN") { echo "selected";} ?> value="RN">Rio Grande do Norte</option>
+                                <option <?php if ($idf['idf_company_estado'] == "RS") { echo "selected";} ?> value="RS">Rio Grande do Sul</option>
+                                <option <?php if ($idf['idf_company_estado'] == "RO") { echo "selected";} ?> value="RO">Rondônia</option>
+                                <option <?php if ($idf['idf_company_estado'] == "RR") { echo "selected";} ?> value="RR">Roraima</option>
+                                <option <?php if ($idf['idf_company_estado'] == "SC") { echo "selected";} ?> value="SC">Santa Catarina</option>
+                                <option <?php if ($idf['idf_company_estado'] == "SP") { echo "selected";} ?> value="SP">São Paulo</option>
+                                <option <?php if ($idf['idf_company_estado'] == "SE") { echo "selected";} ?> value="SE">Sergipe</option>
+                                <option <?php if ($idf['idf_company_estado'] == "TO") { echo "selected";} ?> value="TO">Tocantins</option>
                             </select>
                         </div>
                         <div class="field" style="flex:1">
