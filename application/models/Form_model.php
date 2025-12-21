@@ -79,19 +79,23 @@ class form_model extends CI_Model
 
         $this->load->library('session');
 
+        $exist_session = $this->session->userdata('identifier');
 
-        if ($identifier) {
+        if (! $exist_session) {
+            if ($identifier) {
 
-            $this->session->set_userdata('identifier', $identifier);
-        } else {
+                $this->session->set_userdata('identifier', $identifier);
+            } else {
 
-            $this->session->set_userdata('identifier', mt_rand());
+                $this->session->set_userdata('identifier', mt_rand());
+            }
         }
 
 
-        $exist_session = $this->session->userdata('identifier');
 
-        return $exist_session;
+        $session = $this->session->userdata('identifier');
+
+        return $session;
     }
 
     public function get_identifier()

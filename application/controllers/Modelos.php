@@ -17,7 +17,7 @@ class Modelos extends CI_Controller
 	public function index($slug, $identifier = null)
 	{
 
-		echo "Já identificador de url: " . $identifier;
+		// echo "Já identificador de url: " . $identifier;
 
 		// $exist_session = $this->session->userdata('identifier');
 
@@ -44,10 +44,10 @@ class Modelos extends CI_Controller
 
 		$exist_session = $this->session->userdata('identifier');
 
-		// if (!$exist_session) {
+		if (!$exist_session) {
 
-		$this->form_model->create_identifier($identifier);
-		// }
+			$this->form_model->create_identifier($identifier);
+		}
 
 
 		// $exist_session = $this->session->userdata('identifier');
