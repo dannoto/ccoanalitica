@@ -325,7 +325,7 @@
         <ol>
           <li>Utilizar recursos que facilitem a navegação entre páginas, tratamento de imagens, codificação e programação visual, assegurando ao projeto boa usabilidade, desempenho e design.</li>
           <li>Realizar manutenção e atualizações gratuitas por até 30 (trinta) dias após a entrega do site. Após esse prazo, quaisquer serviços de suporte deverão ser contratados separadamente, mediante novo acordo.</li>
-          <li>A CONTRATADA não está obrigada a desenvolver logomarcas, apresentações, catálogos, ou artes gráficas adicionais, como banners, postagens para redes sociais etc.</li>
+          <li>A CONTRATADA não está obrigada a desenvolver logomarcas, apresentações, catálogos, ou qualquer tipo de artes gráficas adicionais, como banners, postagens para redes sociais etc. Nem gerenciamento de tráfego pago, artigos de blog, ou integrações com terceiros como ( Facebook, Google, CRM's, ERP's ou API's de qualquer natureza).</li>
           <li>A execução de serviços adicionais pela CONTRATADA só fica obrigada, caso haja pagamento para tal serviço, acordados de forma prévia.</li>
         </ol>
 
