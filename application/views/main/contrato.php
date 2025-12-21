@@ -458,12 +458,12 @@
         <ol>
           <li>Está incluída na prestação dos serviços a hospedagem do site pelo período de 12 (doze) meses, sem custos adicionais, bem como o registro de domínio, também por 12 meses.</li>
           <li>Após esse período, a CONTRATANTE poderá:</li>
-        </ol>
+       
         <ul>
           <li>Manter o serviço por R$ 29,00 mensais, com cobrança anual;</li>
           <li>Ou solicitar os arquivos do site para transferir o serviço para outra hospedagem, sem obrigação de permanência com a CONTRATADA.</li>
         </ul>
-        <ol>
+       
           <li>Caso a CONTRATANTE já possua domínio ou serviço de hospedagem ativos, os serviços de registro e hospedagem serão desconsiderados, sem ônus para a CONTRATANTE.</li>
         </ol>
 
