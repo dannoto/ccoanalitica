@@ -1,3 +1,7 @@
+<?php 
+
+print_r($idf);
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -96,13 +100,13 @@
     <main class="container">
         <center>
             <h2>Vamos redirecionar você para o WhatsApp da CCO para continuar seu projeto.</h2>
-            <p class="muted">
-                Redirecionando em <strong><span id="countdown">5</span></strong> segundos...
+            <p style="font-size:16px" class="muted">
+                Redirecionando em <strong><span id="countdown">8</span></strong> segundos...
             </p>
 
             <br>
 
-            <a id="whatsBtn" href="https://wa.me/5562999999999" target="_blank" style="display:none">
+            <a id="whatsBtn" href="https://wa.me/5562982045122" target="_blank" style="display:none">
                 <button class="btn btn-whats">
                     IR PARA O WHATSAPP <i class="fab fa-whatsapp"></i>
                 </button>
@@ -112,8 +116,8 @@
 
     <script>
         (function () {
-            const whatsappUrl = "https://wa.me/5562999999999";
-            let seconds = 5;
+            const whatsappUrl = "https://wa.me/5562982045122";
+            let seconds = 8;
 
             const countdownEl = document.getElementById("countdown");
             const whatsBtn = document.getElementById("whatsBtn");
