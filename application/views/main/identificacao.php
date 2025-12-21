@@ -776,38 +776,36 @@
 
             }
 
-            // $.ajax({
-            //     url: '<?= base_url() ?>identificacao/act_add_identifier',
-            //     type: 'POST',
-            //     data: data,
-            //     dataType: 'json', // importante!
-            //     success: function(res) {
-            //         console.log(res); // já vem como objeto JS
+            $.ajax({
+                url: '<?= base_url() ?>identificacao/act_add_identifier',
+                type: 'POST',
+                data: data,
+                dataType: 'json', // importante!
+                success: function(res) {
+                    console.log(res); // já vem como objeto JS
 
-            //         if (res.status) {
-            //             window.location.href = "<?= base_url() ?>formulario";
-            //         } else {
-            //             Swal.fire({
-            //                 title: '',
-            //                 text: res.message || 'Houve um erro ao enviar. Tente novamente.',
-            //                 icon: 'error',
-            //                 confirmButtonText: 'OK',
-            //                 confirmButtonColor: "#FF6900"
-            //             });
-            //         }
-            //     },
-            //     error: function() {
-            //         Swal.fire({
-            //             title: '',
-            //             text: 'Houve um erro ao enviar',
-            //             icon: 'error',
-            //             confirmButtonText: 'OK',
-            //             confirmButtonColor: "#FF6900"
-            //         });
-            //     }
-            // });
-
-            console.log(data)
+                    if (res.status) {
+                        window.location.href = "<?= base_url() ?>formulario";
+                    } else {
+                        Swal.fire({
+                            title: '',
+                            text: res.message || 'Houve um erro ao enviar. Tente novamente.',
+                            icon: 'error',
+                            confirmButtonText: 'OK',
+                            confirmButtonColor: "#FF6900"
+                        });
+                    }
+                },
+                error: function() {
+                    Swal.fire({
+                        title: '',
+                        text: 'Houve um erro ao enviar',
+                        icon: 'error',
+                        confirmButtonText: 'OK',
+                        confirmButtonColor: "#FF6900"
+                    });
+                }
+            });
 
 
 
