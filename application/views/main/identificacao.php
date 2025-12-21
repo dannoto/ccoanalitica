@@ -362,12 +362,12 @@
                     <div id="pfFields" style="display:none;margin-top: 30px;">
                         <div class="field">
                             <label for="personal_name">Nome Completo <span style="color:#c00">*</span></label>
-                            <input id="personal_name" name="personal_name" type="text" placeholder="Ex.: João da Silva">
+                            <input id="personal_name" value="<?=$idf['idf_company_name']?>" name="personal_name" type="text" placeholder="Ex.: João da Silva">
                         </div>
 
                         <div class="field">
                             <label for="personal_document">CPF <span style="color:#c00">*</span></label>
-                            <input id="personal_document" name="personal_document" type="text" placeholder="000.000.000-00" inputmode="numeric" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+                            <input id="personal_document" value="<?=$idf['idf_company_document']?>" name="personal_document" type="text" placeholder="000.000.000-00" inputmode="numeric" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
                         </div>
                     </div>
 
