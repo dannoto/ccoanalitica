@@ -206,7 +206,7 @@
     <!-- SOBRE A EMPRESA -->
     <div class="container">
       <h2>Sobre a Empresa</h2>
-      <label>Breve história</label>
+      <label>Breve história da sua empresa</label>
       <textarea name="historia"></textarea>
       <label>Descrição do que a empresa faz <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <textarea name="descricao_empresa" id="descricao_empresa"></textarea>
@@ -308,7 +308,7 @@
     <!-- CONTATO -->
     <div class="container">
       <h2>Página de Contato</h2>
-      <label>Endereço Completo da empresa  <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>Endereço Completo da empresa </small></label>
       <input type="text" id="endereco" name="mapa">
       <label>Telefones para contato <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <input type="text" name="telefones" id="telefones" placeholder="Ex: (11) 99999-9999 / (11) 3333-3333">
@@ -456,19 +456,7 @@
 
         return;
 
-      } else if (endereco.length == 0) {
-
-        Swal.fire({
-          title: 'Página de Contato',
-          text: 'Preencha o endereço da empresa.',
-          icon: 'warning',
-          confirmButtonText: 'OK',
-          confirmButtonColor: "#FF6900"
-        })
-
-        return;
-
-      }
+      } 
 
       //  --- VERIFICAÇÃO ---
 
