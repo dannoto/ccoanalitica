@@ -1,1 +1,1 @@
-<h4>ola bom dia</h4>
+<h4>O modelo é: <?= $segmento ?>?></h4>

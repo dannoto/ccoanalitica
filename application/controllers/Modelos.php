@@ -65,7 +65,7 @@ class Modelos extends CI_Controller
 		$this->load->view('main/modelos', $data);
 	}
 
-	public function demo($modelo, $segmento)
+	public function demo($segmento, $modelo)
 	{
 
 		$data = array(
@@ -73,6 +73,6 @@ class Modelos extends CI_Controller
 			'modelo' => $modelo
 		);
 
-		$this->load->view('modelos/' . $modelo . '/', $data);
+		$this->load->view('modelos/' . $modelo . '/index', $data);
 	}
 }
