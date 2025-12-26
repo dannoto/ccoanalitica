@@ -107,7 +107,7 @@
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
                         <?php
-                        $icones = ['atendimento' => 'icon_phone', 'horario' => 'icon_clock', 'contato' => 'icon_mail'];
+                        $icones = ['atendimento' => 'fa fa-help', 'horario' => 'fa fa-clock', 'contato' => 'fa fa-envelope'];
                         foreach ($d['hero']['informacoes'] as $key => $info):
                         ?>
                             <div class="col-lg-4 col-md-6 mb-sm-30">
@@ -316,19 +316,19 @@
 
                             <div class="row g-4 gx-5">
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="icofont-clock-time me-2 id-color-2"></i>Horário</div>
+                                    <div class="fw-bold text-dark"><i class="fa fa-clock me-2 id-color-2"></i>Horário</div>
                                     <?= $d['contato']['horarios'] ?>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="icofont-location-pin me-2 id-color-2"></i>Endereço</div>
+                                    <div class="fw-bold text-dark"><i class="fa fa-location me-2 id-color-2"></i>Endereço</div>
                                     <?= $d['contato']['endereco'] ?>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="icofont-phone me-2 id-color-2"></i>Telefone</div>
+                                    <div class="fw-bold text-dark"><i class="fa fa-phone me-2 id-color-2"></i>Telefone</div>
                                     <?= $d['contato']['telefone'] ?>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="icofont-envelope me-2 id-color-2"></i>E-mail</div>
+                                    <div class="fw-bold text-dark"><i class="fa a-envelope me-2 id-color-2"></i>E-mail</div>
                                     <?= $d['contato']['email'] ?>
                                 </div>
                             </div>
@@ -369,10 +369,10 @@
                         <div class="spacer-20"></div>
                         <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
-                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fas fa-facebook"></i></a>
-                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fas fa-instagram"></i></a>
-                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fas fa-whatsapp"></i></a>
-                            <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fas fa-linkedin"></i></a>
+                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa fa-facebook"></i></a>
+                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa fa-instagram"></i></a>
+                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa fa-whatsapp"></i></a>
+                            <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fa fa-linkedin"></i></a>
 
                         </div>
                     </div>
@@ -395,7 +395,7 @@
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
                             <h5>Entre em Contato</h5>
-                            <div class="fw-bold text-white"><i class="fa fa-locationn me-2 id-color"></i>Endereço</div>
+                            <div class="fw-bold text-white"><i class="fa fa-location me-2 id-color"></i>Endereço</div>
                             <?= $d['contato']['endereco'] ?>
                             <div class="spacer-20"></div>
                             <div class="fw-bold text-white"><i class="fa fa-phone me-2 id-color"></i>Telefones</div>
