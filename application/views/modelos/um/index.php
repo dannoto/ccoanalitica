@@ -14,15 +14,15 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/plugins.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
-
-
-    <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
     <style>
         :root {
             --body-font-color-dark: <?= $d['schema']['background'] ?> !important;
             --bg-dark-1:  <?= $d['schema']['background'] ?> !important;
         }
     </style>
+
+    <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
+
     <style>
         * {
 
