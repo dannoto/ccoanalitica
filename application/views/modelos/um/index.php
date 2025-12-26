@@ -16,6 +16,11 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
     <link id="colors" href="<?= base_url() ?>dist/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/solid.min.css" integrity="sha512-EHa6vH03/Ty92WahM0/tet1Qicl76zihDCkBnFhN3kFGQkC+mc86d7V+6y2ypiLbk3h0beZAGdUpzfMcb06cMg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/regular.min.css" integrity="sha512-x3gns+l9p4mIK7vYLOCUoFS2P1gavFvnO9Its8sr0AkUk46bgf9R51D8xeRUwCSk+W93YbXWi19BYzXDNBH5SA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -87,7 +92,7 @@
                                             <div class="de-flex justify-content-start align-items-center">
                                                 <div class="me-3">5.0</div>
                                                 <div class="d-flex fs-14 d-rating me-3">
-                                                    <?php for($i=0; $i<5; $i++): ?><i class="fa fa-star m-1"></i><?php endfor; ?>
+                                                    <?php for ($i = 0; $i < 5; $i++): ?><i class="fa fa-star m-1"></i><?php endfor; ?>
                                                 </div>
                                             </div>
                                             <div class="me-3"><?= $d['hero']['bottom']['avaliacoes'] ?></div>
@@ -103,19 +108,19 @@
             <section class="bg-dark text-light pt-50 pb-30">
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
-                        <?php 
+                        <?php
                         $icones = ['atendimento' => 'icon_phone', 'horario' => 'icon_clock', 'contato' => 'icon_mail'];
-                        foreach ($d['hero']['informacoes'] as $key => $info): 
+                        foreach ($d['hero']['informacoes'] as $key => $info):
                         ?>
-                        <div class="col-lg-4 col-md-6 mb-sm-30">
-                            <div class="d-flex justify-content-center">
-                                <i class="fs-60 id-color <?= $icones[$key] ?>"></i>
-                                <div class="ms-3">
-                                    <h4 class="mb-0"><?= $info['titulo'] ?></h4>
-                                    <p><?= $info['descricao'] ?></p>
+                            <div class="col-lg-4 col-md-6 mb-sm-30">
+                                <div class="d-flex justify-content-center">
+                                    <i class="fs-60 id-color <?= $icones[$key] ?>"></i>
+                                    <div class="ms-3">
+                                        <h4 class="mb-0"><?= $info['titulo'] ?></h4>
+                                        <p><?= $info['descricao'] ?></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -170,17 +175,17 @@
                     </div>
                     <div class="row g-4">
                         <?php foreach ($d['servicos']['items'] as $servico): ?>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="hover">
-                                <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="<?= base_url($servico['imagem']) ?>" class="w-70px mb-3 wow scaleIn" alt="">
-                                    <div class="relative mt-4 wow fadeInUp">
-                                        <h4><?= $servico['titulo'] ?></h4>
-                                        <p><?= $servico['descricao'] ?></p>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="hover">
+                                    <div class="bg-white h-100 p-40 rounded-1">
+                                        <img src="<?= base_url($servico['imagem']) ?>" class="w-70px mb-3 wow scaleIn" alt="">
+                                        <div class="relative mt-4 wow fadeInUp">
+                                            <h4><?= $servico['titulo'] ?></h4>
+                                            <p><?= $servico['descricao'] ?></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -190,12 +195,12 @@
                 <div class="container">
                     <div class="row g-4">
                         <?php foreach ($d['contadores'] as $index => $cont): ?>
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="de_count wow fadeInRight" data-wow-delay="<?= $index * 0.2 ?>s">
-                                <h3 class="fs-40 mb-0"><span class="timer" data-to="<?= $cont['numero'] ?>">0</span>+</h3>
-                                <?= $cont['texto'] ?>
+                            <div class="col-md-3 col-sm-6 text-center">
+                                <div class="de_count wow fadeInRight" data-wow-delay="<?= $index * 0.2 ?>s">
+                                    <h3 class="fs-40 mb-0"><span class="timer" data-to="<?= $cont['numero'] ?>">0</span>+</h3>
+                                    <?= $cont['texto'] ?>
+                                </div>
                             </div>
-                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -211,12 +216,12 @@
                             <div class="border-bottom mb-4"></div>
                             <div class="row g-4">
                                 <?php foreach ($d['porque']['items'] as $item): ?>
-                                <div class="col-lg-6">
-                                    <div class="relative wow fadeInUp">
-                                        <h5><?= $item['titulo'] ?></h5>
-                                        <p class="mb-0"><?= $item['descricao'] ?></p>
+                                    <div class="col-lg-6">
+                                        <div class="relative wow fadeInUp">
+                                            <h5><?= $item['titulo'] ?></h5>
+                                            <p class="mb-0"><?= $item['descricao'] ?></p>
+                                        </div>
                                     </div>
-                                </div>
                                 <?php endforeach; ?>
                             </div>
                         </div>
@@ -240,10 +245,10 @@
                     </div>
                 </div>
             </section>
-           
 
 
-<section id="team" class="bg-color-op-1">
+
+            <section id="team" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -253,20 +258,20 @@
                         </div>
                     </div>
                     <div class="row g-4">
-                        <?php foreach($d['equipe']['items'] as $item): ?>
-                        <div class="col-lg-3">
-                            <div class="relative rounded-1 overflow-hidden">
-                                <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="<?= base_url($item['imagem']) ?>" class="w-100 wow scaleIn" alt="<?= $item['texto'] ?>">
-                                </div>
-                                <div class="abs w-100 start-0 bottom-0 z-3">
-                                    <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
-                                        <h4 class="mb-0"><?= $item['texto'] ?></h4>
-                                        <p class="mb-2"><?= $item['descripcao'] ?></p>
+                        <?php foreach ($d['equipe']['items'] as $item): ?>
+                            <div class="col-lg-3">
+                                <div class="relative rounded-1 overflow-hidden">
+                                    <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
+                                        <img src="<?= base_url($item['imagem']) ?>" class="w-100 wow scaleIn" alt="<?= $item['texto'] ?>">
+                                    </div>
+                                    <div class="abs w-100 start-0 bottom-0 z-3">
+                                        <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
+                                            <h4 class="mb-0"><?= $item['texto'] ?></h4>
+                                            <p class="mb-2"><?= $item['descripcao'] ?></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
@@ -285,13 +290,13 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
-                            <?php foreach($d['depoimentos']['items'] as $item): ?>
-                            <div class="item">
-                                <div class="p-4 bg-color-op-1 rounded-1 m-2">
-                                    <p>"<?= $item['texto'] ?>"</p>
-                                    <div class="fw-bold"><?= $item['nome'] ?></div>
+                            <?php foreach ($d['depoimentos']['items'] as $item): ?>
+                                <div class="item">
+                                    <div class="p-4 bg-color-op-1 rounded-1 m-2">
+                                        <p>"<?= $item['texto'] ?>"</p>
+                                        <div class="fw-bold"><?= $item['nome'] ?></div>
+                                    </div>
                                 </div>
-                            </div>
                             <?php endforeach; ?>
                         </div>
                     </div>
@@ -366,9 +371,11 @@
                         <div class="spacer-20"></div>
                         <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
-                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa fa-facebook-f"></i></a>
+                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa fa-instagram"></i></a>
+                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa fa-whatsapp"></i></a>
+                            <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fa fa-linkedin"></i></a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
@@ -425,4 +432,5 @@
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/custom-marquee.js"></script>
     <script src="<?= base_url() ?>dist/js/model-loader.js"></script>
 </body>
+
 </html>
