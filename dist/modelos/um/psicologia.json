@@ -199,14 +199,17 @@
         "titulo": "O que Nossos Pacientes Relatam",
         "items": [
             {
+                "imagem": "dist/modelos/um/assets/images/testimonial/5.webp",
                 "texto": "Me senti acolhida desde a primeira sessão. O acompanhamento fez toda a diferença na minha vida.",
                 "nome": "Juliana Martins"
             },
             {
+                "imagem": "dist/modelos/um/assets/images/testimonial/7.webp",
                 "texto": "Profissionais extremamente humanos e competentes. Recomendo de olhos fechados.",
                 "nome": "Eduardo Ramos"
             },
             {
+                "imagem": "dist/modelos/um/assets/images/testimonial/8.webp",
                 "texto": "Um espaço seguro para falar e se entender. Sou muito grata.",
                 "nome": "Patrícia Souza"
             }

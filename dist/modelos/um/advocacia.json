@@ -199,14 +199,20 @@
         "titulo": "O que Nossos Clientes Dizem",
         "items": [
             {
+                        "imagem": "dist/modelos/um/assets/images/testimonial/2.webp",
+
                 "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo.",
                 "nome": "Fernando Lima"
             },
             {
+                        "imagem": "dist/modelos/um/assets/images/testimonial/3.webp",
+
                 "texto": "Equipe extremamente profissional e comprometida. Obtive um ótimo resultado.",
                 "nome": "Mariana Costa"
             },
             {
+                        "imagem": "dist/modelos/um/assets/images/testimonial/4.webp",
+
                 "texto": "Me senti segura desde a primeira consulta. Advogados muito preparados.",
                 "nome": "Carlos Menezes"
             }
