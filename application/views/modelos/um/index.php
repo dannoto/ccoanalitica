@@ -20,6 +20,7 @@
     <style>
         :root {
             --body-font-color-dark: <?= $d['schema']['background'] ?> !important;
+            --bg-dark-1:  <?= $d['schema']['background'] ?> !important;
         }
     </style>
     <style>
