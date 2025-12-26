@@ -16,7 +16,7 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
     <link id="colors" href="<?= base_url() ?>dist/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
-    
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -369,10 +369,10 @@
                         <div class="spacer-20"></div>
                         <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
-                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa fa-facebook-f"></i></a>
-                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa fa-instagram"></i></a>
-                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa fa-whatsapp"></i></a>
-                            <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fa fa-linkedin"></i></a>
+                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fas fa-facebook"></i></a>
+                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fas fa-instagram"></i></a>
+                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fas fa-whatsapp"></i></a>
+                            <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fas fa-linkedin"></i></a>
 
                         </div>
                     </div>
