@@ -12,11 +12,11 @@
     <meta name="keywords" content="{{seo.keywords}}">
     <meta name="author" content="{{seo.author}}">
     <!-- CSS Files -->
-    <link href="./assets/modelos/um/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="./assets/modelos/um/assets/css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="./assets/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
-    <link href="./assets/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
-    <link id="colors" href="assets/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url() ?>?>dist/modelos/um/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="<?= base_url() ?>?>dist/modelos/um/assets/css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url() ?>?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="<?= base_url() ?>?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link id="colors" href="<?= base_url() ?>?>dist/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -37,11 +37,11 @@
                                 <div class="de-flex-col">
                                     <div id="logo">
                                         <a href="#top">
-                                            <img class="logo-main" src="./assets/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-main" src="<?= base_url() ?>?>dist/modelos/um/assets/images/logo-black.webp"
                                                 alt="Clínica Sorriso Perfeito">
-                                            <img class="logo-scroll" src="./assets/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-scroll" src="<?= base_url() ?>?>dist/modelos/um/assets/images/logo-black.webp"
                                                 alt="Clínica Sorriso Perfeito">
-                                            <img class="logo-mobile" src="./assets/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-mobile" src="<?= base_url() ?>?>dist/modelos/um/assets/images/logo-black.webp"
                                                 alt="Clínica Sorriso Perfeito">
                                         </a>
                                     </div>
@@ -165,7 +165,7 @@
                                     <div class="row g-4">
                                         <div class="col-lg-12">
                                             <div class="rounded-1 overflow-hidden wow zoomIn">
-                                                <img src="./assets/modelos/um/assets/images/misc/p1.webp" class="w-100 wow scaleIn"
+                                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/misc/p1.webp" class="w-100 wow scaleIn"
                                                     alt="Clínica Sorriso Perfeito">
                                             </div>
                                         </div>
@@ -176,7 +176,7 @@
                                         <div class="spacer-single sm-hide"></div>
                                         <div class="col-lg-12">
                                             <div class="rounded-1 overflow-hidden wow zoomIn" data-wow-delay=".3s">
-                                                <img src="./assets/modelos/um/assets/images/misc/p2.webp" class="w-100 wow scaleIn"
+                                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/misc/p2.webp" class="w-100 wow scaleIn"
                                                     alt="Paciente feliz">
                                             </div>
                                         </div>
@@ -228,7 +228,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="./assets/modelos/um/assets/images/icons/tooth-1.png" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/icons/tooth-1.png" class="w-70px mb-3 wow scaleIn" alt="">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Implantes Dentários</h4>
                                         <p>Dentes fixos no mesmo dia com carga imediata e garantia vitalícia.</p>
@@ -240,7 +240,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="./assets/modelos/um/assets/images/icons/tooth-2.png" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/icons/tooth-2.png" class="w-70px mb-3 wow scaleIn" alt="">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Lentes de Contato Dental</h4>
                                         <p>Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais.</p>
@@ -252,7 +252,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="./assets/modelos/um/assets/images/icons/tooth-3.png" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/icons/tooth-3.png" class="w-70px mb-3 wow scaleIn" alt="">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Invisalign & Ortodontia</h4>
                                         <p>Alinhamento perfeito sem aparelho metálico. Conforto e discrição.</p>
@@ -264,7 +264,7 @@
                         <div class="col-lg-3 col-sm-6">
                             <div class="hover">
                                 <div class="bg-white h-100 p-40 rounded-1">
-                                    <img src="./assets/modelos/um/assets/images/icons/tooth-4.png" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/icons/tooth-4.png" class="w-70px mb-3 wow scaleIn" alt="">
                                     <div class="relative mt-4 wow fadeInUp">
                                         <h4>Clareamento Dental</h4>
                                         <p>Até 8 tons mais branco em apenas 1 hora com tecnologia LED.</p>
@@ -354,15 +354,15 @@
                             <div class="row g-4 align-items-center">
                                 <div class="col-6 text-end">
                                     <div class="w-80 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="./assets/modelos/um/assets/images/misc/s2.webp" class="w-100 wow scaleIn" alt="">
+                                        <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/misc/s2.webp" class="w-100 wow scaleIn" alt="">
                                     </div>
                                     <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="./assets/modelos/um/assets/images/misc/s3.webp" class="w-100 wow scaleIn" alt="">
+                                        <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/misc/s3.webp" class="w-100 wow scaleIn" alt="">
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="w-100 rounded-1 overflow-hidden mb-25 wow zoomIn d-inline-block">
-                                        <img src="./assets/modelos/um/assets/images/misc/p3.webp" class="w-100 wow scaleIn" alt="">
+                                        <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/misc/p3.webp" class="w-100 wow scaleIn" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -385,7 +385,7 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="./assets/modelos/um/assets/images/team/1.webp" class="w-100 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/team/1.webp" class="w-100 wow scaleIn" alt="">
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -398,7 +398,7 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="./assets/modelos/um/assets/images/team/2.webp" class="w-100 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/team/2.webp" class="w-100 wow scaleIn" alt="">
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -411,7 +411,7 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="./assets/modelos/um/assets/images/team/3.webp" class="w-100 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/team/3.webp" class="w-100 wow scaleIn" alt="">
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -424,7 +424,7 @@
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="./assets/modelos/um/assets/images/team/4.webp" class="w-100 wow scaleIn" alt="">
+                                    <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/team/4.webp" class="w-100 wow scaleIn" alt="">
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
@@ -570,7 +570,7 @@
             <div class="container">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-sm-6">
-                        <img src="./assets/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt="Clínica Sorriso Perfeito">
+                        <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt="Clínica Sorriso Perfeito">
                         <div class="spacer-20"></div>
                         <p>Referência em implantes dentários, lentes de contato dental, Invisalign e estética do sorriso
                             em São Paulo. Tecnologia de ponta com o carinho que seu sorriso merece.</p>
@@ -632,12 +632,12 @@
     </div>
 
     <!-- Javascript Files -->
-    <script src="./assets/modelos/um/assets/js/plugins.js"></script>
-    <script src="./assets/modelos/um/assets/js/designesia.js"></script>
-    <script src="./assets/modelos/um/assets/js/swiper.js"></script>
-    <script src="./assets/modelos/um/assets/js/custom-swiper-1.js"></script>
-    <script src="./assets/modelos/um/assets/js/custom-marquee.js"></script>
-    <script src="./assets/js/model-loader.js"></script>
+    <script src="<?= base_url() ?>?>dist/modelos/um/assets/js/plugins.js"></script>
+    <script src="<?= base_url() ?>?>dist/modelos/um/assets/js/designesia.js"></script>
+    <script src="<?= base_url() ?>?>dist/modelos/um/assets/js/swiper.js"></script>
+    <script src="<?= base_url() ?>?>dist/modelos/um/assets/js/custom-swiper-1.js"></script>
+    <script src="<?= base_url() ?>?>dist/modelos/um/assets/js/custom-marquee.js"></script>
+    <script src="<?= base_url() ?>?>dist/js/model-loader.js"></script>
 </body>
 
 </html>
