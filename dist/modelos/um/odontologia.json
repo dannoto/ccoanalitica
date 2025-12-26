@@ -194,14 +194,17 @@
     "titulo": "O que nossos Pacientes Dizem",
     "items": [
       {
+        "imagem": "dist/modelos/um/assets/images/testimonial/1.webp",
         "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
         "nome": "Maria Silva"
       },
       {
+        "imagem": "dist/modelos/um/assets/images/testimonial/2.webp",
         "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
         "nome": "Ana Oliveira"
       },
       {
+        "imagem": "dist/modelos/um/assets/images/testimonial/3.webp",
         "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
         "nome": "Carlos Pereira"
       }

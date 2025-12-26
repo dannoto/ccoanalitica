@@ -339,12 +339,14 @@
                 </div>
             </section>
 
-            <section id="depoimentos">
+          
+             <section id="depoimentos" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3"><?= $d['depoimentos']['subtitlo'] ?></div>
                             <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['depoimentos']['titulo'] ?></h2>
+                            <!-- <p class="wow fadeInUp">Join thousands of happy patients who trust us for gentle, expert care and beautiful smiles. Your perfect dental experience starts here!</p> -->
                             <div class="spacer-single"></div>
                         </div>
                     </div>
@@ -352,46 +354,21 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
-                            <?php foreach ($d['depoimentos']['items'] as $item): ?>
-                                <div class="item">
-                                    <div class="p-4 bg-color-op-1 rounded-1 m-2">
-                                        <p>"<?= $item['texto'] ?>"</p>
-                                        <div class="fw-bold"><?= $item['nome'] ?></div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-             <section class="bg-color-op-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 offset-lg-3 text-center">
-                            <div class="subtitle wow fadeInUp mb-3">Testimonials</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Happy Customers</h2>
-                            <p class="wow fadeInUp">Join thousands of happy patients who trust us for gentle, expert care and beautiful smiles. Your perfect dental experience starts here!</p>
-                            <div class="spacer-single"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
+                              <?php foreach ($d['depoimentos']['items'] as $item): ?>
                             <div class="item">
                                 <div class="gradient-white-top p-40 py-4 rounded-1">
                                     <blockquote>
                                         <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
                                         <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/1.webp"> <div>Michael S.<span>Customer</span></div>
+                                            <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>"> <div><?= $item['nome'] ?><span>Cliente</span></div>
                                         </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"I’ve always been nervous about dental visits, but the staff made me feel completely comfortable. Their gentle care and attention to detail truly stand out."
+                                        <p class="mt-4 mb-0 text-dark op-6"><?= $item['texto'] ?>
                                         </p>
                                     </blockquote>
                                 </div>
                             </div>
-                            <div class="item">
+                               <?php endforeach; ?>
+                            <!-- <div class="item">
                                 <div class="gradient-white-top p-40 py-4 rounded-1">
                                     <blockquote>
                                         <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
@@ -467,7 +444,7 @@
                                         <p class="mt-4 mb-0 text-dark op-6">"From the moment I walked in, I felt at ease. The staff made me feel like family, and the care I received was exceptional. I’m so happy with my smile—thank you for everything!"</p>
                                     </blockquote>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
