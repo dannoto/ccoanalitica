@@ -107,7 +107,7 @@
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
                         <?php
-                        $icones = ['atendimento' => 'fa fa-help', 'horario' => 'fa fa-clock', 'contato' => 'fa fa-envelope'];
+                        $icones = ['atendimento' => 'fa fa-headset', 'horario' => 'fa fa-clock', 'contato' => 'fa fa-envelope'];
                         foreach ($d['hero']['informacoes'] as $key => $info):
                         ?>
                             <div class="col-lg-4 col-md-6 mb-sm-30">
