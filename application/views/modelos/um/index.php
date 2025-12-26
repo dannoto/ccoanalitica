@@ -557,10 +557,10 @@
                                 <div class="accordion-section">
                                     <?php foreach ($d['faq']['items'] as $key => $item): ?>
                                         <div class="accordion-section-title" data-tab="#accordion-a<?= $key ?>?>">
-                                            <?= $item['item']['pergunta']?>
+                                            <?= $item['pergunta']?>
                                         </div>
                                         <div class="accordion-section-content" id="accordion-a<?= $key ?>?>">
-                                            <?= $item['item']['resposta']?>
+                                            <?= $item['resposta']?>
                                         </div>
                                     
                                     <?php endforeach; ?>
