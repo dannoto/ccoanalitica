@@ -17,8 +17,8 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
 
     <style>
-        body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
-            background: <?= $d['schema']['background'] ?>;
+        .header-light {
+            background: <?= $d['schema']['background'] ?> !important;
         }
     </style>
     <style>
