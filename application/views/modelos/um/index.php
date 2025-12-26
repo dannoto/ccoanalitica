@@ -389,7 +389,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l1.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l1.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -401,7 +401,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l2.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l2.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -413,7 +413,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l3.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l3.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -425,7 +425,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l4.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l4.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -437,7 +437,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l5.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l5.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -449,7 +449,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l6.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l6.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -461,7 +461,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l7.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l7.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -473,7 +473,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l8.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l8.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -485,7 +485,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l9.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l9.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -497,7 +497,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l10.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l10.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -509,7 +509,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l11.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l11.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
@@ -521,7 +521,7 @@
                                     View
                                 </div>
                                 <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                <img src="images/gallery/l12.webp" class="w-100 hover-scale-1-2" alt="">
+                                <img src="<?= base_url() ?>?>dist/modelos/um/assets/images/gallery/l12.webp" class="w-100 hover-scale-1-2" alt="">
                             </div>
                         </a>
                     </div>
