@@ -64,17 +64,14 @@
                                                 role="img"
                                                 aria-label="Sua logo aqui">
                                                 <style>
-                                                    :root {
-                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['background'] ?>);
-                                                        --logo-text-color: var(--secondary-color, <?= $d['schema']['background'] ?>);
-                                                    }
+                                                   
 
                                                     .logo-icon {
-                                                        fill: var(--logo-icon-color);
+                                                        fill:<?= $d['schema']['background'] ?>;
                                                     }
 
                                                     .logo-text {
-                                                        fill: var(--logo-text-color);
+                                                        fill:  <?= $d['schema']['background'] ?>;
                                                         font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
                                                         font-weight: 600;
                                                         font-size: 22px;
