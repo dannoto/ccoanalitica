@@ -17,7 +17,7 @@
     <style>
         :root {
             --body-font-color-dark: <?= $d['schema']['color'] ?> !important;
-            --bg-dark-1:  <?= $d['schema']['background'] ?> !important;
+            --bg-dark-1: <?= $d['schema']['background'] ?> !important;
         }
     </style>
 
@@ -52,9 +52,56 @@
                                 <div class="de-flex-col">
                                     <div id="logo">
                                         <a href="#top">
-                                            <img class="logo-main" src="<?= base_url($d['header']['logo']) ?>" alt="<?= $d['seo']['title'] ?>">
-                                            <img class="logo-scroll" src="<?= base_url($d['header']['logo']) ?>" alt="<?= $d['seo']['title'] ?>">
-                                            <img class="logo-mobile" src="<?= base_url($d['header']['logo']) ?>" alt="<?= $d['seo']['title'] ?>">
+                                            <!-- <img class="logo-main" src="<?// base_url($d['header']['logo']) ?>" alt="<?// $d['seo']['title'] ?>">
+                                            <img class="logo-scroll" src="<?// base_url($d['header']['logo']) ?>" alt="<?// $d['seo']['title'] ?>">
+                                            <img class="logo-mobile" src="<?// base_url($d['header']['logo']) ?>" alt="<?// $d['seo']['title'] ?>"> -->
+                                            <svg
+                                                width="260"
+                                                height="48"
+                                                viewBox="0 0 260 48"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                role="img"
+                                                aria-label="Sua logo aqui">
+                                                <style>
+                                                    :root {
+                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['color'] ?>);
+                                                        --logo-text-color: var(--secondary-color, <?= $d['schema']['color'] ?>);
+                                                    }
+
+                                                    .logo-icon {
+                                                        fill: var(--logo-icon-color);
+                                                    }
+
+                                                    .logo-text {
+                                                        fill: var(--logo-text-color);
+                                                        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                                        font-weight: 600;
+                                                        font-size: 22px;
+                                                        letter-spacing: -0.3px;
+                                                    }
+                                                </style>
+
+                                                <!-- ÍCONE -->
+                                                <g class="logo-icon" transform="translate(0,4)">
+                                                    <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                                                    <path
+                                                        d="M12 20 L18 26 L28 14"
+                                                        fill="none"
+                                                        stroke="white"
+                                                        stroke-width="3"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </g>
+
+                                                <!-- TEXTO -->
+                                                <text
+                                                    x="54"
+                                                    y="31"
+                                                    class="logo-text">
+                                                    Sua logo aqui
+                                                </text>
+                                            </svg>
+
                                         </a>
                                     </div>
                                 </div>
