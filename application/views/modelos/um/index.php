@@ -320,7 +320,7 @@
                                     <?= $d['contato']['horarios'] ?>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="fa fa-location me-2 id-color-2"></i>Endereço</div>
+                                    <div class="fw-bold text-dark"><i class="fa fa-location-dot me-2 id-color-2"></i>Endereço</div>
                                     <?= $d['contato']['endereco'] ?>
                                 </div>
                                 <div class="col-lg-6">
@@ -395,7 +395,7 @@
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
                             <h5>Entre em Contato</h5>
-                            <div class="fw-bold text-white"><i class="fa fa-location me-2 id-color"></i>Endereço</div>
+                            <div class="fw-bold text-white"><i class="fa fa-location-dot me-2 id-color"></i>Endereço</div>
                             <?= $d['contato']['endereco'] ?>
                             <div class="spacer-20"></div>
                             <div class="fw-bold text-white"><i class="fa fa-phone me-2 id-color"></i>Telefones</div>
