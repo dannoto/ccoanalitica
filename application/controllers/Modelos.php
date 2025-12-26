@@ -85,10 +85,6 @@ class Modelos extends CI_Controller
 			die('JSON inválido');
 		}
 
-		// Passa tudo pra view
-		$this->load->view('site', [
-			'model' => $data
-		]);
 
 		$data = array(
 			'segmento' => $segmento,
