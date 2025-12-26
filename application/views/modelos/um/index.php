@@ -64,8 +64,8 @@
                                                 aria-label="Sua logo aqui">
                                                 <style>
                                                     :root {
-                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['background'] ?>);
-                                                        --logo-text-color: var(--secondary-color, <?= $d['schema']['color'] ?>);
+                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['color'] ?>);
+                                                        --logo-text-color: var(--secondary-color, <?= $d['schema']['background'] ?>);
                                                     }
 
                                                     .logo-icon {
