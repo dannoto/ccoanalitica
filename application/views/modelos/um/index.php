@@ -440,12 +440,12 @@
                             role="img"
                             aria-label="Sua logo aqui">
                             <style>
-                                .logo-icon {
-                                    fill: <?= $d['schema']['color'] ?> !important;
+                                .logo-icon-footer {
+                                    fill: <?= $d['schema']['color'] ?>;
                                 }
 
-                                .logo-text {
-                                    fill: <?= $d['schema']['color'] ?>!important;
+                                .logo-text-ooter {
+                                    fill: <?= $d['schema']['color'] ?>;
                                     font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
                                     font-weight: 600;
                                     font-size: 22px;
@@ -454,7 +454,7 @@
                             </style>
 
                             <!-- ÍCONE -->
-                            <g class="logo-icon" transform="translate(0,4)">
+                            <g class="logo-icon-footer" transform="translate(0,4)">
                                 <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
                                 <path
                                     d="M12 20 L18 26 L28 14"
@@ -469,7 +469,7 @@
                             <text
                                 x="54"
                                 y="31"
-                                class="logo-text">
+                                class="logo-text-footer">
                                 Sua logo aqui
                             </text>
                         </svg>
