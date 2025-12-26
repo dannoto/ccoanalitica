@@ -358,7 +358,7 @@
                             <div class="item">
                                 <div class="gradient-white-top p-40 py-4 rounded-1">
                                     <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
+                                        <i class="fs-32 fa fa-quote-left absolute start-0 mt-2 p-0 id-color"></i>
                                         <div class="de_testi_by">
                                             <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>"> <div><?= $item['nome'] ?><span>Cliente</span></div>
                                         </div>
