@@ -1,0 +1,202 @@
+{
+  "schema": {
+    "primary-color": "#2F7F7A",
+    "primary-color-rgb": "47,127,122",
+    "secondary-color": "#B79AD9",
+    "secondary-color-rgb": "183,154,217"
+  },
+  "seo": {
+    "title": "Clínica Equilíbrio — Psicologia e Saúde Emocional",
+    "description": "Clínica de psicologia especializada em terapia individual, familiar, infantil e desenvolvimento emocional.",
+    "keywords": "psicologia, psicólogo, terapia, saúde mental, clínica psicológica",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.webp"
+  },
+  "header": {
+    "logo": "dist/modelos/um/assets/images/logo-black.webp",
+    "navbar": [
+      { "texto": "Início", "link": "#inicio" },
+      { "texto": "Sobre", "link": "#sobre" },
+      { "texto": "Atendimentos", "link": "#servicos" },
+      { "texto": "Equipe", "link": "#equipe" },
+      { "texto": "Depoimentos", "link": "#depoimentos" },
+      { "texto": "Contato", "link": "#contato" }
+    ],
+    "botao": {
+      "texto": "Agendar Sessão",
+      "link": "https://wa.me/6299365459"
+    }
+  },
+  "hero": {
+    "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
+    "top": "Bem-vindo à Clínica Equilíbrio",
+    "title": "Cuidar da Mente é um Ato de Coragem",
+    "description": "Há mais de 12 anos ajudando pessoas a desenvolverem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicoterapia.",
+    "botao": {
+      "texto": "Agendar Primeira Sessão",
+      "link": "https://wa.me/6299365459"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 3 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa Conversar?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sexta das 08h às 19h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@clinicaequilibrio.com.br"
+      }
+    }
+  },
+  "sobre": {
+    "subtitulo": "Sobre a Clínica",
+    "titulo": "Um Espaço Seguro para Cuidar da Sua Saúde Emocional",
+    "description": "Atendimento psicológico humanizado, ético e baseado em ciência.",
+    "solucoes": [
+      "Escuta Qualificada",
+      "Sigilo e Ética Profissional",
+      "Abordagens Baseadas em Evidências",
+      "Acolhimento Individualizado"
+    ],
+    "imagens": [
+      "dist/modelos/um/assets/images/misc/p1.webp",
+      "dist/modelos/um/assets/images/misc/p2.webp"
+    ]
+  },
+  "servicos": {
+    "subtitulo": " Atendimentos Psicológicos ",
+    "titulo": "Cuidado Emocional em Todas as Fases da Vida",
+    "descricao": "Oferecemos acompanhamento psicológico personalizado para diferentes demandas e faixas etárias.",
+    "items": [
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
+        "titulo": "Psicoterapia Individual",
+        "descricao": "Acompanhamento emocional para ansiedade, depressão, estresse e autoconhecimento."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
+        "titulo": "Terapia de Casal",
+        "descricao": "Fortalecimento do diálogo, resolução de conflitos e reconexão emocional."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
+        "titulo": "Psicologia Infantil",
+        "descricao": "Apoio ao desenvolvimento emocional de crianças e orientação aos pais."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+        "titulo": "Terapia Familiar",
+        "descricao": "Mediação de conflitos e fortalecimento dos vínculos familiares."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+        "titulo": "Orientação Psicológica",
+        "descricao": "Apoio em momentos pontuais de decisão ou crise emocional."
+      }
+    ]
+  },
+  "contadores": [
+    { "numero": 6200, "texto": "Pacientes Acompanhados" },
+    { "numero": 48000, "texto": "Sessões Realizadas" },
+    { "numero": 96, "texto": "Satisfação dos Pacientes (%)" },
+    { "numero": 12, "texto": "Anos de Experiência" }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher a Clínica Equilíbrio ",
+    "titulo": "Acolhimento, Ética e Profissionalismo",
+    "descricao": "Cada pessoa é única, e o cuidado psicológico deve respeitar sua história e seu tempo.",
+    "items": [
+      {
+        "titulo": "Ambiente Seguro",
+        "descricao": "Espaço acolhedor e confidencial para expressão emocional."
+      },
+      {
+        "titulo": "Profissionais Qualificados",
+        "descricao": "Psicólogos registrados e em constante atualização."
+      },
+      {
+        "titulo": "Abordagem Humanizada",
+        "descricao": "Respeito à individualidade e às necessidades de cada paciente."
+      },
+      {
+        "titulo": "Atendimento Personalizado",
+        "descricao": "Planos terapêuticos construídos em conjunto."
+      }
+    ],
+    "imagens": [
+      "dist/modelos/um/assets/images/misc/s2.webp",
+      "dist/modelos/um/assets/images/misc/p3.webp",
+      "dist/modelos/um/assets/images/misc/s3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Nossa Equipe",
+    "titulo": "Psicólogos Especialistas",
+    "items": [
+      {
+        "texto": "Dra. Mariana Alves",
+        "descripcao": "Psicologia Clínica",
+        "imagem": "dist/modelos/um/assets/images/team/1.webp"
+      },
+      {
+        "texto": "Dr. Felipe Nogueira",
+        "descripcao": "Terapia Cognitivo-Comportamental",
+        "imagem": "dist/modelos/um/assets/images/team/2.webp"
+      },
+      {
+        "texto": "Dra. Renata Pires",
+        "descripcao": "Psicologia Infantil",
+        "imagem": "dist/modelos/um/assets/images/team/3.webp"
+      },
+      {
+        "texto": "Dr. Lucas Monteiro",
+        "descripcao": "Terapia Familiar e Casal",
+        "imagem": "dist/modelos/um/assets/images/team/4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que Nossos Pacientes Relatam",
+    "items": [
+      {
+        "texto": "Me senti acolhida desde a primeira sessão. O acompanhamento fez toda a diferença na minha vida.",
+        "nome": "Juliana Martins"
+      },
+      {
+        "texto": "Profissionais extremamente humanos e competentes. Recomendo de olhos fechados.",
+        "nome": "Eduardo Ramos"
+      },
+      {
+        "texto": "Um espaço seguro para falar e se entender. Sou muito grata.",
+        "nome": "Patrícia Souza"
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Contato",
+    "titulo": "Agende Seu Atendimento",
+    "descricao": "Entre em contato e dê o primeiro passo para cuidar da sua saúde emocional.",
+    "horarios": "Seg - Sex: 08:00 - 19:00",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@clinicaequilibrio.com.br",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#"
+    }
+  },
+  "footer": {
+    "description": "Psicologia com acolhimento, ética e responsabilidade.",
+    "copyright": "© 2025 Clínica Equilíbrio"
+  }
+}
