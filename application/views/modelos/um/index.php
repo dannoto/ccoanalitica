@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>{{seo.title}}</title>
+    <title><?=$d['seo']['title']?></title>
     <link rel="icon" href="{{seo.favicon}}" type="image/webp" sizes="16x16">
 
     <meta charset="utf-8">

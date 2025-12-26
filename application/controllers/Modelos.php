@@ -68,9 +68,32 @@ class Modelos extends CI_Controller
 	public function demo($segmento, $modelo)
 	{
 
+		// Caminho do JSON
+		$jsonPath = FCPATH . "dist/modelos/{$modelo}/{$segmento}.json";
+
+		if (!file_exists($jsonPath)) {
+			show_404();
+		}
+
+		// Lê o JSON
+		$json = file_get_contents($jsonPath);
+
+		// Converte pra array PHP
+		$data = json_decode($json, true);
+
+		if ($data === null) {
+			die('JSON inválido');
+		}
+
+		// Passa tudo pra view
+		$this->load->view('site', [
+			'model' => $data
+		]);
+
 		$data = array(
 			'segmento' => $segmento,
-			'modelo' => $modelo
+			'modelo' => $modelo,
+			'd' => $data
 		);
 
 		$this->load->view('modelos/' . $modelo . '/index', $data);
