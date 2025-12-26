@@ -3,12 +3,9 @@
     "title": "Clínica Sorriso Perfeito — Implantes Dentários e Estética do Sorriso",
     "description": "Clínica odontológica especializada em implantes, lentes de contato dental, Invisalign e clareamento.",
     "keywords": "implante dentário, lentes de contato dental, dentista, clínica odontológica",
-    "author": "Clínica Sorriso Perfeito",
+    "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.webp"
   },
-
-
-
   "header": {
     "logo": "dist/modelos/um/assets/images/logo-black.webp",
     "navbar": [
@@ -37,13 +34,39 @@
         "link": "#contato"
       }
     ],
-    "botao": 
-      {
-        "texto": "Agendar Consulta",
-        "link": "https://wa.me/6299365459"
-      }
-    
+    "botao": {
+      "texto": "Agendar Consulta",
+      "link": "https://wa.me/6299365459"
+    }
   },
+  "hero": {
+    "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
+    "top": "Bem-vindo à Clínica Sorriso Perfeito",
+    "title": "Seu Sorriso dos Sonhos Começa Aqui",
+    "description": "Há mais de 15 anos transformando vidas com implantes dentários, lentes de contato dental ultrafinas, Invisalign e clareamento a laser. Atendimento humanizado e resultados naturais.",
+    "botao": {
+      "texto": "Agendar Avaliação Gratuita",
+      "link": "https://wa.me/6299365459"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de Atendimento?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sábado das 08h às 20h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@sorrisperfeito.com.br"
+      }
+    }
+  }
 
 
 

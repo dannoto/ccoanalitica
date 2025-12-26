@@ -3,14 +3,14 @@
 
 <head>
     <title><?= $d['seo']['title'] ?></title>
-    <link rel="icon" href="{{seo.favicon}}" type="image/webp" sizes="16x16">
+    <link rel="icon" href="<?= $d['seo']['favicon'] ?>" type="image/webp" sizes="16x16">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="{{seo.description}}">
-    <meta name="keywords" content="{{seo.keywords}}">
-    <meta name="author" content="{{seo.author}}">
+    <meta name="description" content="<?= $d['seo']['description'] ?>">
+    <meta name="keywords" content="<?= $d['seo']['keywords'] ?>">
+    <meta name="author" content="<?= $d['seo']['author'] ?>">
     <!-- CSS Files -->
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/plugins.css" rel="stylesheet" type="text/css">
@@ -82,7 +82,7 @@
             <div id="top"></div>
 
             <!-- HERO ESCURO -->
-            <section class="text-light bg-dark no-top no-bottom overflow-hidden">
+            <!-- <section class="text-light bg-dark no-top no-bottom overflow-hidden">
                 <div class="container-fluid position-relative half-fluid">
                     <div class="container">
                         <div class="row">
@@ -125,10 +125,74 @@
                         </div>
                     </div>
                 </div>
+            </section> -->
+            <section class="text-light bg-dark no-top no-bottom overflow-hidden">
+                <div class="container-fluid position-relative half-fluid">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-6 position-lg-absolute right-half h-100">
+                                <div class="image"
+                                    data-bgimage="url(<?= base_url($d['hero']['imagem']) ?>) center">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="pt-lg-5 mt-lg-5 me-lg-3">
+                                    <div class="py-5 mt-5 mb-3 me-lg-3">
+
+                                        <div class="subtitle id-color">
+                                            <?= $d['hero']['top'] ?>
+                                        </div>
+
+                                        <h1>
+                                            <?= $d['hero']['title'] ?>
+                                        </h1>
+
+                                        <p class="col-lg-10">
+                                            <?= $d['hero']['description'] ?>
+                                        </p>
+
+                                        <a class="btn-main mb10 mb-3"
+                                            href="<?= $d['hero']['botao']['link'] ?>">
+                                            <span><?= $d['hero']['botao']['texto'] ?></span>
+                                        </a>
+
+                                        <div class="border-bottom my-3"></div>
+
+                                        <div class="d-lg-flex align-items-center">
+                                            <div class="me-3">
+                                                <?= $d['hero']['bottom']['google'] ?>
+                                            </div>
+
+                                            <div class="de-flex justify-content-start align-items-center">
+                                                <div class="me-3">5.0</div>
+                                                <div class="d-flex fs-14 d-rating me-3">
+                                                    <i class="fa fa-star m-1"></i>
+                                                    <i class="fa fa-star m-1"></i>
+                                                    <i class="fa fa-star m-1"></i>
+                                                    <i class="fa fa-star m-1"></i>
+                                                    <i class="fa fa-star m-1"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="me-3">
+                                                <?= $d['hero']['bottom']['avaliacoes'] ?>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </section>
 
+
             <!-- CONTATO RÁPIDO -->
-            <section class="bg-dark text-light pt-50 pb-30">
+            <!-- <section class="bg-dark text-light pt-50 pb-30">
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
                         <div class="col-lg-4 col-md-6 mb-sm-30">
@@ -160,7 +224,57 @@
                         </div>
                     </div>
                 </div>
+            </section> -->
+            <section class="bg-dark text-light pt-50 pb-30">
+                <div class="container relative">
+                    <div class="row g-4 grid-divider slider-extra sm-hide">
+
+                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                            <div class="d-flex justify-content-center">
+                                <i class="fs-60 id-color icon_phone"></i>
+                                <div class="ms-3">
+                                    <h4 class="mb-0">
+                                        <?= $d['hero']['informacoes']['atendimento']['titulo'] ?>
+                                    </h4>
+                                    <p>
+                                        <?= $d['hero']['informacoes']['atendimento']['descricao'] ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                            <div class="d-flex justify-content-center">
+                                <i class="fs-60 id-color icon_clock"></i>
+                                <div class="ms-3">
+                                    <h4 class="mb-0">
+                                        <?= $d['hero']['informacoes']['horario']['titulo'] ?>
+                                    </h4>
+                                    <p>
+                                        <?= $d['hero']['informacoes']['horario']['descricao'] ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-sm-30">
+                            <div class="d-flex justify-content-center">
+                                <i class="fs-60 id-color icon_mail"></i>
+                                <div class="ms-3">
+                                    <h4 class="mb-0">
+                                        <?= $d['hero']['informacoes']['contato']['titulo'] ?>
+                                    </h4>
+                                    <p>
+                                        <?= $d['hero']['informacoes']['contato']['descricao'] ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
+
 
             <!-- SOBRE NÓS -->
             <section id="about">
