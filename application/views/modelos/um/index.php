@@ -15,7 +15,15 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/plugins.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
-    <link id="colors" href="<?= base_url() ?>dist/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+
+    <style>
+        * {
+            --primary-color: '<?= $d['schema']['primary-color'] ?>';
+            --primary-color-rgb: '<?= $d['schema']['primary-color-rgb'] ?>';
+            --secondary-color: '<?= $d['schema']['secondary-color'] ?>';
+            --secondary-color-rgb:'<?= $d['schema']['secondary-color-rgb'] ?>';
+        }
+    </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -26,7 +34,7 @@
         <a href="#" id="back-to-top"></a>
 
         <div id="de-loader"></div>
-        <header  class="transparent header-light header-float">
+        <header class="transparent header-light header-float">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -103,7 +111,7 @@
                 </div>
             </section>
 
-            <section  class="bg-dark text-light pt-50 pb-30">
+            <section class="bg-dark text-light pt-50 pb-30">
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
                         <?php
@@ -328,7 +336,7 @@
                                     <?= $d['contato']['telefone'] ?>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="fw-bold text-dark"><i class="fa a-envelope me-2 id-color-2"></i>E-mail</div>
+                                    <div class="fw-bold text-dark"><i class="fa fa-envelope me-2 id-color-2"></i>E-mail</div>
                                     <?= $d['contato']['email'] ?>
                                 </div>
                             </div>

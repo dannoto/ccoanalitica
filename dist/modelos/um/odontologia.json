@@ -1,4 +1,10 @@
 {
+  "schema": {
+    "primary-color": "#4A7CD2",
+    "primary-color-rgb": "74,124,210",
+    "secondary-color": "#EAA638",
+    "secondary-color-rgb": "59, 157, 31"
+  },
   "seo": {
     "title": "Clínica Sorriso Perfeito — Implantes Dentários e Estética do Sorriso",
     "description": "Clínica odontológica especializada em implantes, lentes de contato dental, Invisalign e clareamento.",
@@ -214,8 +220,6 @@
       "linkedin": "#"
     }
   },
-
-
   "footer": {
     "description": "Referência em odontologia moderna e humanizada.",
     "copyright": "© 2025 Clínica Sorriso Perfeito"
