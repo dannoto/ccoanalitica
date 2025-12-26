@@ -64,4 +64,15 @@ class Modelos extends CI_Controller
 
 		$this->load->view('main/modelos', $data);
 	}
+
+	public function demo($modelo, $segmento)
+	{
+
+		$data = array(
+			'segmento' => $segmento,
+			'modelo' => $modelo
+		);
+
+		$this->load->view('modelos/' . $modelo . '/', $data);
+	}
 }

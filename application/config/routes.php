@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
+$route['demo/(:any)/(:any)'] = 'modelos/demo/$1/$2';
 
 $route['modelos/(:any)/(:any)'] = 'modelos/index/$1/$2';
 $route['modelos/(:any)'] = 'modelos/index/$1';
