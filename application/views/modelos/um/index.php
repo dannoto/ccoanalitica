@@ -392,20 +392,20 @@
                     </div>
 
                     <div id="gallery" class="row g-3 wow fadeIn" data-wow-delay=".3s">
-
-                        <div class="col-md-3 col-sm-6 col-12 item facilities">
-                            <a href="<?= base_url() ?>dist/modelos/um/assets/images/gallery/l1.webp" class="image-popup d-block hover">
-                                <div class="relative overflow-hidden rounded-1">
-                                    <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
-                                        View
+                        <?php foreach ($d['galeria']['imagens'] as $item): ?>
+                            <div class="col-md-3 col-sm-6 col-12 item <?=$item['categoria'] ?>">
+                                <a href="<?= base_url() ?><?= $item['imagem'] ?>" class="image-popup d-block hover">
+                                    <div class="relative overflow-hidden rounded-1">
+                                        <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
+                                            View
+                                        </div>
+                                        <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
+                                        <img src="<?= base_url() ?><?=$item['imagem'] ?>" class="w-100 hover-scale-1-2" alt="">
                                     </div>
-                                    <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                    <img src="<?= base_url() ?>dist/modelos/um/assets/images/gallery/l1.webp" class="w-100 hover-scale-1-2" alt="">
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12 item facilities">
+                                </a>
+                            </div>
+                        <?php endforeach; ?>
+                        <!-- <div class="col-md-3 col-sm-6 col-12 item facilities">
                             <a href="<?= base_url() ?>dist/modelos/um/assets/images/gallery/l2.webp" class="image-popup d-block hover">
                                 <div class="relative overflow-hidden rounded-1">
                                     <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
@@ -535,7 +535,7 @@
                                     <img src="<?= base_url() ?>dist/modelos/um/assets/images/gallery/l12.webp" class="w-100 hover-scale-1-2" alt="">
                                 </div>
                             </a>
-                        </div>
+                        </div> -->
 
                     </div>
 
@@ -548,8 +548,8 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-5">
-                            <div class="subtitle id-color wow fadeInUp"> <?= $d['faq']['subtitulo']?></div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['faq']['titulo']?></h2>
+                            <div class="subtitle id-color wow fadeInUp"> <?= $d['faq']['subtitulo'] ?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['faq']['titulo'] ?></h2>
                         </div>
 
                         <div class="col-lg-7">
@@ -557,38 +557,14 @@
                                 <div class="accordion-section">
                                     <?php foreach ($d['faq']['items'] as $key => $item): ?>
                                         <div class="accordion-section-title" data-tab="#accordion-a<?= $key ?>">
-                                            <?= $item['pergunta']?>
+                                            <?= $item['pergunta'] ?>
                                         </div>
                                         <div class="accordion-section-content" id="accordion-a<?= $key ?>">
-                                            <?= $item['resposta']?>
+                                            <?= $item['resposta'] ?>
                                         </div>
-                                    
+
                                     <?php endforeach; ?>
-                                    <!-- <div class="accordion-section-content" id="accordion-a2">
-                                        Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente
-                                        quebrado ou inchaço.
-                                    </div>
-                                    <div class="accordion-section-title" data-tab="#accordion-a3">
-                                        Vocês atendem crianças?
-                                    </div>
-                                    <div class="accordion-section-content" id="accordion-a3">
-                                        Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em
-                                        atendimento infantil.
-                                    </div>
-                                    <div class="accordion-section-title" data-tab="#accordion-a4">
-                                        Quais opções para substituir dentes perdidos?
-                                    </div>
-                                    <div class="accordion-section-content" id="accordion-a4">
-                                        Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga
-                                        imediata.
-                                    </div>
-                                    <div class="accordion-section-title" data-tab="#accordion-a5">
-                                        Clareamento dental é seguro?
-                                    </div>
-                                    <div class="accordion-section-content" id="accordion-a5">
-                                        Totalmente seguro quando realizado por profissionais. Resultados duradouros e
-                                        naturais.
-                                    </div> -->
+
                                 </div>
                             </div>
                         </div>

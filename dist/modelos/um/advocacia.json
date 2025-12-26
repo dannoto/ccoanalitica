@@ -215,6 +215,64 @@
             }
         ]
     },
+    "galeria": {
+        "navbar": [
+            "todos",
+            "advogados",
+            "escritório",
+            "serviços"
+        ],
+        "imagens": [
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l1.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l2.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l3.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l4.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l5.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l6.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l7.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l8.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l9.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l10.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l11.webp"
+            },
+            {
+                "categoria": "advogados",
+                "imagem": "dist/modelos/um/assets/images/gallery/l12.webp"
+            }
+        ]
+    },
     "faq": {
         "subtitulo": "Tudo o que Você Precisa Saber",
         "titulo": "Perguntas Frequentes",
