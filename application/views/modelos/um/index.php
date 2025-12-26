@@ -17,7 +17,7 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
 
     <style>
-        .header.transparent  {
+        .header  {
             background: <?= $d['schema']['background'] ?> !important;
         }
     </style>
