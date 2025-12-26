@@ -17,11 +17,18 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
 
     <style>
+        body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
+            background: <?= $d['schema']['background'] ?>;
+        }
+    </style>
+    <style>
         * {
+
+
             --primary-color: <?= $d['schema']['primary-color'] ?>;
             --primary-color-rgb: <?= $d['schema']['primary-color-rgb'] ?>;
             --secondary-color: <?= $d['schema']['secondary-color'] ?>;
-            --secondary-color-rgb:<?= $d['schema']['secondary-color-rgb'] ?>;
+            --secondary-color-rgb: <?= $d['schema']['secondary-color-rgb'] ?>;
         }
     </style>
 

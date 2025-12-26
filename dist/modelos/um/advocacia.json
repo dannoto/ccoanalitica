@@ -1,202 +1,233 @@
 {
-  "schema": {
-    "primary-color": "#1F2A44",
-    "primary-color-rgb": "31,42,68",
-    "secondary-color": "#C9A24D",
-    "secondary-color-rgb": "201,162,77"
-  },
-  "seo": {
-    "title": "Almeida & Rocha Advogados — Excelência em Direito e Soluções Jurídicas",
-    "description": "Escritório de advocacia especializado em direito civil, trabalhista, empresarial e familiar. Atendimento estratégico e humanizado.",
-    "keywords": "advocacia, advogado, direito civil, direito trabalhista, escritório de advocacia",
-    "author": "CCO ANALITICA | ccoanalitica.com",
-    "favicon": "images/icon.webp"
-  },
-  "header": {
-    "logo": "dist/modelos/um/assets/images/logo-black.webp",
-    "navbar": [
-      { "texto": "Início", "link": "#inicio" },
-      { "texto": "Sobre", "link": "#sobre" },
-      { "texto": "Áreas de Atuação", "link": "#servicos" },
-      { "texto": "Equipe", "link": "#equipe" },
-      { "texto": "Depoimentos", "link": "#depoimentos" },
-      { "texto": "Contato", "link": "#contato" }
-    ],
-    "botao": {
-      "texto": "Fale com um Advogado",
-      "link": "https://wa.me/6299365459"
-    }
-  },
-  "hero": {
-    "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
-    "top": "Bem-vindo ao Almeida & Rocha Advogados",
-    "title": "Defendendo Seus Direitos com Estratégia e Confiança",
-    "description": "Há mais de 18 anos oferecendo soluções jurídicas sólidas, atendimento ético e estratégias personalizadas para pessoas físicas e empresas.",
-    "botao": {
-      "texto": "Agendar Consulta",
-      "link": "https://wa.me/6299365459"
+    "schema": {
+        "background": "rgba(255, 13, 13, 0)",
+        "primary-color": "#1F2A44",
+        "primary-color-rgb": "31,42,68",
+        "secondary-color": "#C9A24D",
+        "secondary-color-rgb": "201,162,77"
     },
-    "bottom": {
-      "google": "Avaliação no Google",
-      "avaliacoes": "Mais de 5 mil avaliações"
+    "seo": {
+        "title": "Almeida & Rocha Advogados — Excelência em Direito e Soluções Jurídicas",
+        "description": "Escritório de advocacia especializado em direito civil, trabalhista, empresarial e familiar. Atendimento estratégico e humanizado.",
+        "keywords": "advocacia, advogado, direito civil, direito trabalhista, escritório de advocacia",
+        "author": "CCO ANALITICA | ccoanalitica.com",
+        "favicon": "images/icon.webp"
     },
-    "informacoes": {
-      "atendimento": {
-        "titulo": "Precisa de Atendimento?",
-        "descricao": "Ligue agora: (11) 99999-9999"
-      },
-      "horario": {
-        "titulo": "Horário de Atendimento",
-        "descricao": "Segunda a Sexta das 08h às 18h"
-      },
-      "contato": {
-        "titulo": "Envie uma Mensagem",
-        "descricao": "contato@almeidarocha.adv.br"
-      }
-    }
-  },
-  "sobre": {
-    "subtitulo": "Sobre o Escritório",
-    "titulo": "Compromisso com Ética, Resultado e Transparência",
-    "description": "Atuação jurídica estratégica com foco em resultados consistentes e atendimento próximo ao cliente.",
-    "solucoes": [
-      "Atendimento Personalizado",
-      "Estratégias Jurídicas Sob Medida",
-      "Atuação Preventiva e Contenciosa",
-      "Transparência em Cada Etapa"
+    "header": {
+        "logo": "dist/modelos/um/assets/images/logo-black.webp",
+        "navbar": [
+            {
+                "texto": "Início",
+                "link": "#inicio"
+            },
+            {
+                "texto": "Sobre",
+                "link": "#sobre"
+            },
+            {
+                "texto": "Áreas de Atuação",
+                "link": "#servicos"
+            },
+            {
+                "texto": "Equipe",
+                "link": "#equipe"
+            },
+            {
+                "texto": "Depoimentos",
+                "link": "#depoimentos"
+            },
+            {
+                "texto": "Contato",
+                "link": "#contato"
+            }
+        ],
+        "botao": {
+            "texto": "Fale com um Advogado",
+            "link": "https://wa.me/6299365459"
+        }
+    },
+    "hero": {
+        "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
+        "top": "Bem-vindo ao Almeida & Rocha Advogados",
+        "title": "Defendendo Seus Direitos com Estratégia e Confiança",
+        "description": "Há mais de 18 anos oferecendo soluções jurídicas sólidas, atendimento ético e estratégias personalizadas para pessoas físicas e empresas.",
+        "botao": {
+            "texto": "Agendar Consulta",
+            "link": "https://wa.me/6299365459"
+        },
+        "bottom": {
+            "google": "Avaliação no Google",
+            "avaliacoes": "Mais de 5 mil avaliações"
+        },
+        "informacoes": {
+            "atendimento": {
+                "titulo": "Precisa de Atendimento?",
+                "descricao": "Ligue agora: (11) 99999-9999"
+            },
+            "horario": {
+                "titulo": "Horário de Atendimento",
+                "descricao": "Segunda a Sexta das 08h às 18h"
+            },
+            "contato": {
+                "titulo": "Envie uma Mensagem",
+                "descricao": "contato@almeidarocha.adv.br"
+            }
+        }
+    },
+    "sobre": {
+        "subtitulo": "Sobre o Escritório",
+        "titulo": "Compromisso com Ética, Resultado e Transparência",
+        "description": "Atuação jurídica estratégica com foco em resultados consistentes e atendimento próximo ao cliente.",
+        "solucoes": [
+            "Atendimento Personalizado",
+            "Estratégias Jurídicas Sob Medida",
+            "Atuação Preventiva e Contenciosa",
+            "Transparência em Cada Etapa"
+        ],
+        "imagens": [
+            "dist/modelos/um/assets/images/misc/p1.webp",
+            "dist/modelos/um/assets/images/misc/p2.webp"
+        ]
+    },
+    "servicos": {
+        "subtitulo": " Áreas de Atuação ",
+        "titulo": "Soluções Jurídicas Completas",
+        "descricao": "Atuamos de forma estratégica e especializada em diversas áreas do Direito.",
+        "items": [
+            {
+                "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
+                "titulo": "Direito Civil",
+                "descricao": "Contratos, indenizações, responsabilidade civil e ações judiciais."
+            },
+            {
+                "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
+                "titulo": "Direito Trabalhista",
+                "descricao": "Defesa de empresas e trabalhadores em ações e consultoria preventiva."
+            },
+            {
+                "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
+                "titulo": "Direito Empresarial",
+                "descricao": "Assessoria jurídica para empresas, contratos e estruturação societária."
+            },
+            {
+                "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+                "titulo": "Direito de Família",
+                "descricao": "Divórcios, pensão alimentícia, guarda e planejamento familiar."
+            },
+            {
+                "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+                "titulo": "Direito Previdenciário",
+                "descricao": "Aposentadorias, revisões e benefícios do INSS."
+            }
+        ]
+    },
+    "contadores": [
+        {
+            "numero": 7200,
+            "texto": "Clientes Atendidos"
+        },
+        {
+            "numero": 4800,
+            "texto": "Processos Concluídos"
+        },
+        {
+            "numero": 95,
+            "texto": "Índice de Satisfação (%)"
+        },
+        {
+            "numero": 18,
+            "texto": "Anos de Experiência"
+        }
     ],
-    "imagens": [
-      "dist/modelos/um/assets/images/misc/p1.webp",
-      "dist/modelos/um/assets/images/misc/p2.webp"
-    ]
-  },
-  "servicos": {
-    "subtitulo": " Áreas de Atuação ",
-    "titulo": "Soluções Jurídicas Completas",
-    "descricao": "Atuamos de forma estratégica e especializada em diversas áreas do Direito.",
-    "items": [
-      {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
-        "titulo": "Direito Civil",
-        "descricao": "Contratos, indenizações, responsabilidade civil e ações judiciais."
-      },
-      {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
-        "titulo": "Direito Trabalhista",
-        "descricao": "Defesa de empresas e trabalhadores em ações e consultoria preventiva."
-      },
-      {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
-        "titulo": "Direito Empresarial",
-        "descricao": "Assessoria jurídica para empresas, contratos e estruturação societária."
-      },
-      {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
-        "titulo": "Direito de Família",
-        "descricao": "Divórcios, pensão alimentícia, guarda e planejamento familiar."
-      },
-      {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
-        "titulo": "Direito Previdenciário",
-        "descricao": "Aposentadorias, revisões e benefícios do INSS."
-      }
-    ]
-  },
-  "contadores": [
-    { "numero": 7200, "texto": "Clientes Atendidos" },
-    { "numero": 4800, "texto": "Processos Concluídos" },
-    { "numero": 95, "texto": "Índice de Satisfação (%)" },
-    { "numero": 18, "texto": "Anos de Experiência" }
-  ],
-  "porque": {
-    "subtitulo": " Por que Escolher Nosso Escritório ",
-    "titulo": "Advocacia Estratégica e Humanizada",
-    "descricao": "Cada caso é tratado com máxima dedicação, sigilo e responsabilidade jurídica.",
-    "items": [
-      {
-        "titulo": "Equipe Especializada",
-        "descricao": "Advogados experientes e atualizados com a legislação vigente."
-      },
-      {
-        "titulo": "Atendimento Próximo",
-        "descricao": "Relacionamento transparente e acompanhamento contínuo do cliente."
-      },
-      {
-        "titulo": "Estratégia Jurídica",
-        "descricao": "Análise profunda para decisões seguras e eficazes."
-      },
-      {
-        "titulo": "Ética e Confiança",
-        "descricao": "Compromisso absoluto com a ética profissional."
-      }
-    ],
-    "imagens": [
-      "dist/modelos/um/assets/images/misc/s2.webp",
-      "dist/modelos/um/assets/images/misc/p3.webp",
-      "dist/modelos/um/assets/images/misc/s3.webp"
-    ]
-  },
-  "equipe": {
-    "subtitulo": "Nossa Equipe",
-    "titulo": "Advogados Especialistas",
-    "items": [
-      {
-        "texto": "Dr. Ricardo Almeida",
-        "descripcao": "Direito Civil e Empresarial",
-        "imagem": "dist/modelos/um/assets/images/team/1.webp"
-      },
-      {
-        "texto": "Dra. Juliana Rocha",
-        "descripcao": "Direito Trabalhista",
-        "imagem": "dist/modelos/um/assets/images/team/2.webp"
-      },
-      {
-        "texto": "Dr. Marcos Vieira",
-        "descripcao": "Direito Previdenciário",
-        "imagem": "dist/modelos/um/assets/images/team/3.webp"
-      },
-      {
-        "texto": "Dra. Paula Nogueira",
-        "descripcao": "Direito de Família",
-        "imagem": "dist/modelos/um/assets/images/team/4.webp"
-      }
-    ]
-  },
-  "depoimentos": {
-    "subtitlo": "Depoimentos",
-    "titulo": "O que Nossos Clientes Dizem",
-    "items": [
-      {
-        "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo.",
-        "nome": "Fernando Lima"
-      },
-      {
-        "texto": "Equipe extremamente profissional e comprometida. Obtive um ótimo resultado.",
-        "nome": "Mariana Costa"
-      },
-      {
-        "texto": "Me senti segura desde a primeira consulta. Advogados muito preparados.",
-        "nome": "Carlos Menezes"
-      }
-    ]
-  },
-  "contato": {
-    "subtitulo": "Contato",
-    "titulo": "Fale com um Advogado",
-    "descricao": "Entre em contato para uma análise inicial do seu caso.",
-    "horarios": "Seg - Sex: 08:00 - 18:00",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "telefone": "(11) 99999-9999",
-    "email": "contato@almeidarocha.adv.br",
-    "social": {
-      "facebook": "#",
-      "instagram": "#",
-      "whatsapp": "#",
-      "linkedin": "#"
+    "porque": {
+        "subtitulo": " Por que Escolher Nosso Escritório ",
+        "titulo": "Advocacia Estratégica e Humanizada",
+        "descricao": "Cada caso é tratado com máxima dedicação, sigilo e responsabilidade jurídica.",
+        "items": [
+            {
+                "titulo": "Equipe Especializada",
+                "descricao": "Advogados experientes e atualizados com a legislação vigente."
+            },
+            {
+                "titulo": "Atendimento Próximo",
+                "descricao": "Relacionamento transparente e acompanhamento contínuo do cliente."
+            },
+            {
+                "titulo": "Estratégia Jurídica",
+                "descricao": "Análise profunda para decisões seguras e eficazes."
+            },
+            {
+                "titulo": "Ética e Confiança",
+                "descricao": "Compromisso absoluto com a ética profissional."
+            }
+        ],
+        "imagens": [
+            "dist/modelos/um/assets/images/misc/s2.webp",
+            "dist/modelos/um/assets/images/misc/p3.webp",
+            "dist/modelos/um/assets/images/misc/s3.webp"
+        ]
+    },
+    "equipe": {
+        "subtitulo": "Nossa Equipe",
+        "titulo": "Advogados Especialistas",
+        "items": [
+            {
+                "texto": "Dr. Ricardo Almeida",
+                "descripcao": "Direito Civil e Empresarial",
+                "imagem": "dist/modelos/um/assets/images/team/1.webp"
+            },
+            {
+                "texto": "Dra. Juliana Rocha",
+                "descripcao": "Direito Trabalhista",
+                "imagem": "dist/modelos/um/assets/images/team/2.webp"
+            },
+            {
+                "texto": "Dr. Marcos Vieira",
+                "descripcao": "Direito Previdenciário",
+                "imagem": "dist/modelos/um/assets/images/team/3.webp"
+            },
+            {
+                "texto": "Dra. Paula Nogueira",
+                "descripcao": "Direito de Família",
+                "imagem": "dist/modelos/um/assets/images/team/4.webp"
+            }
+        ]
+    },
+    "depoimentos": {
+        "subtitlo": "Depoimentos",
+        "titulo": "O que Nossos Clientes Dizem",
+        "items": [
+            {
+                "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo.",
+                "nome": "Fernando Lima"
+            },
+            {
+                "texto": "Equipe extremamente profissional e comprometida. Obtive um ótimo resultado.",
+                "nome": "Mariana Costa"
+            },
+            {
+                "texto": "Me senti segura desde a primeira consulta. Advogados muito preparados.",
+                "nome": "Carlos Menezes"
+            }
+        ]
+    },
+    "contato": {
+        "subtitulo": "Contato",
+        "titulo": "Fale com um Advogado",
+        "descricao": "Entre em contato para uma análise inicial do seu caso.",
+        "horarios": "Seg - Sex: 08:00 - 18:00",
+        "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+        "telefone": "(11) 99999-9999",
+        "email": "contato@almeidarocha.adv.br",
+        "social": {
+            "facebook": "#",
+            "instagram": "#",
+            "whatsapp": "#",
+            "linkedin": "#"
+        }
+    },
+    "footer": {
+        "description": "Advocacia moderna, ética e orientada a resultados.",
+        "copyright": "© 2025 Almeida & Rocha Advogados"
     }
-  },
-  "footer": {
-    "description": "Advocacia moderna, ética e orientada a resultados.",
-    "copyright": "© 2025 Almeida & Rocha Advogados"
-  }
 }
