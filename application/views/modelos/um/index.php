@@ -427,7 +427,51 @@
             <div class="container">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-sm-6">
-                        <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt="">
+                        <!-- <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt=""> -->
+                          <svg
+                                                width="260"
+                                                height="48"
+                                                viewBox="0 0 260 48"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                role="img"
+                                                aria-label="Sua logo aqui">
+                                                <style>
+                                                   
+
+                                                    .logo-icon {
+                                                        fill:<?= $d['schema']['color'] ?>;
+                                                    }
+
+                                                    .logo-text {
+                                                        fill:  <?= $d['schema']['background'] ?>;
+                                                        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                                        font-weight: 600;
+                                                        font-size: 22px;
+                                                        letter-spacing: -0.3px;
+                                                    }
+                                                </style>
+
+                                                <!-- ÍCONE -->
+                                                <g class="logo-icon" transform="translate(0,4)">
+                                                    <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                                                    <path
+                                                        d="M12 20 L18 26 L28 14"
+                                                        fill="none"
+                                                        stroke="white"
+                                                        stroke-width="3"
+                                                        stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </g>
+
+                                                <!-- TEXTO -->
+                                                <text
+                                                    x="54"
+                                                    y="31"
+                                                    class="logo-text">
+                                                    Sua logo aqui
+                                                </text>
+                                            </svg>
+
                         <div class="spacer-20"></div>
                         <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
