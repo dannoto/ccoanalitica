@@ -1,5 +1,7 @@
 {
   "schema": {
+        "background": "#2F7F7A",
+
     "primary-color": "#2F7F7A",
     "primary-color-rgb": "47,127,122",
     "secondary-color": "#B79AD9",
