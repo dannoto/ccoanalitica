@@ -548,14 +548,14 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-5">
-                            <div class="subtitle id-color wow fadeInUp"> <?= $d['subtitulo']?></div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['titulo']?></h2>
+                            <div class="subtitle id-color wow fadeInUp"> <?= $d['faq']['subtitulo']?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['faq']['titulo']?></h2>
                         </div>
 
                         <div class="col-lg-7">
                             <div class="accordion s2 wow fadeInUp">
                                 <div class="accordion-section">
-                                    <?php foreach ($d['depoimentos']['items'] as $key => $item): ?>
+                                    <?php foreach ($d['faq']['items'] as $key => $item): ?>
                                         <div class="accordion-section-title" data-tab="#accordion-a<?= $key ?>?>">
                                             <?= $item['item']['pergunta']?>
                                         </div>
