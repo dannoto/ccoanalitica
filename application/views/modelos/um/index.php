@@ -26,8 +26,6 @@
 
     <style>
         * {
-
-
             --primary-color: <?= $d['schema']['primary-color'] ?>;
             --primary-color-rgb: <?= $d['schema']['primary-color-rgb'] ?>;
             --secondary-color: <?= $d['schema']['secondary-color'] ?>;
@@ -55,13 +53,13 @@
                                         <a href="#top">
                                             <!-- <img class="logo-main" src="<? // base_url($d['header']['logo']) 
                                                                                 ?>" alt="<? // $d['seo']['title'] 
-                                                                                                                            ?>">
+                                                                                            ?>">
                                             <img class="logo-scroll" src="<? // base_url($d['header']['logo']) 
                                                                             ?>" alt="<? // $d['seo']['title'] 
-                                                                                                                        ?>">
+                                                                                        ?>">
                                             <img class="logo-mobile" src="<? // base_url($d['header']['logo']) 
                                                                             ?>" alt="<? // $d['seo']['title'] 
-                                                                                                                        ?>"> -->
+                                                                                        ?>"> -->
                                             <svg
                                                 width="260"
                                                 height="48"
@@ -362,6 +360,58 @@
                                     </div>
                                 </div>
                             <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-5">
+                            <div class="subtitle id-color wow fadeInUp">Tudo o que Você Precisa Saber</div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Perguntas Frequentes</h2>
+                        </div>
+
+                        <div class="col-lg-7">
+                            <div class="accordion s2 wow fadeInUp">
+                                <div class="accordion-section">
+                                    <div class="accordion-section-title" data-tab="#accordion-a1">
+                                        Com que frequência devo ir ao dentista?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a1">Recomendamos consultas a
+                                        cada 6 meses para limpeza e check-up, exceto em casos específicos.</div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a2">
+                                        O que fazer em caso de emergência odontológica?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a2">
+                                        Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente
+                                        quebrado ou inchaço.
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a3">
+                                        Vocês atendem crianças?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a3">
+                                        Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em
+                                        atendimento infantil.
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a4">
+                                        Quais opções para substituir dentes perdidos?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a4">
+                                        Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga
+                                        imediata.
+                                    </div>
+                                    <div class="accordion-section-title" data-tab="#accordion-a5">
+                                        Clareamento dental é seguro?
+                                    </div>
+                                    <div class="accordion-section-content" id="accordion-a5">
+                                        Totalmente seguro quando realizado por profissionais. Resultados duradouros e
+                                        naturais.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
