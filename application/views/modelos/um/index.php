@@ -395,13 +395,13 @@
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
                             <h5>Entre em Contato</h5>
-                            <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color"></i>Endereço</div>
+                            <div class="fw-bold text-white"><i class="fa fa-locationn me-2 id-color"></i>Endereço</div>
                             <?= $d['contato']['endereco'] ?>
                             <div class="spacer-20"></div>
-                            <div class="fw-bold text-white"><i class="icofont-phone me-2 id-color"></i>Telefones</div>
+                            <div class="fw-bold text-white"><i class="fa fa-phone me-2 id-color"></i>Telefones</div>
                             <?= $d['contato']['telefone'] ?>
                             <div class="spacer-20"></div>
-                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color"></i>E-mail</div>
+                            <div class="fw-bold text-white"><i class="fa fa-envelope me-2 id-color"></i>E-mail</div>
                             <?= $d['contato']['email'] ?>
                         </div>
                     </div>
