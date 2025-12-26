@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title><?=$d['seo']['title']?></title>
+    <title><?= $d['seo']['title'] ?></title>
     <link rel="icon" href="{{seo.favicon}}" type="image/webp" sizes="16x16">
 
     <meta charset="utf-8">
@@ -37,28 +37,35 @@
                                 <div class="de-flex-col">
                                     <div id="logo">
                                         <a href="#top">
-                                            <img class="logo-main" src="<?= base_url() ?>dist/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-main" src="<?= base_url() ?><?= $d['header']['logo'] ?>"
                                                 alt="Clínica Sorriso Perfeito">
-                                            <img class="logo-scroll" src="<?= base_url() ?>dist/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-scroll" src="<?= base_url() ?><?= $d['header']['logo'] ?>"
                                                 alt="Clínica Sorriso Perfeito">
-                                            <img class="logo-mobile" src="<?= base_url() ?>dist/modelos/um/assets/images/logo-black.webp"
+                                            <img class="logo-mobile" src="<?= base_url() ?><?= $d['header']['logo'] ?>"
                                                 alt="Clínica Sorriso Perfeito">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="de-flex-col header-col-mid">
                                     <ul id="mainmenu">
-                                        <li><a class="menu-item" href="#top">Início</a></li>
-                                        <li><a class="menu-item" href="#about">Sobre</a></li>
+
+                                        <?php foreach ($d['header']['navbar'] as $navbar): ?>
+                                            <li>
+                                                <a class="menu-item" href="<?= $navbar['link'] ?>">
+                                                    <?= $navbar['texto'] ?>
+                                                </a>
+                                            </li>
+                                        <?php endforeach; ?>
+                                        <!-- <li><a class="menu-item" href="#about">Sobre</a></li>
                                         <li><a class="menu-item" href="#services">Tratamentos</a></li>
                                         <li><a class="menu-item" href="#team">Equipe</a></li>
                                         <li><a class="menu-item" href="#testimonials">Depoimentos</a></li>
-                                        <li><a href="#contact">Contato</a></li>
+                                        <li><a href="#contact">Contato</a></li> -->
                                     </ul>
                                 </div>
                                 <div class="de-flex-col">
                                     <div class="menu_side_area">
-                                        <a href="#contact" class="btn-main"><span>Agendar Consulta</span></a>
+                                        <a href="<?= $d['header']['botao']['link'] ?>" class="btn-main"><span><?= $d['header']['botao']['texto'] ?></span></a>
                                         <span id="menu-btn"></span>
                                     </div>
                                 </div>

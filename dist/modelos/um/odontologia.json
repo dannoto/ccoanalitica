@@ -7,20 +7,58 @@
     "favicon": "images/icon.webp"
   },
 
-  "header": {
 
+
+  "header": {
+    "logo": "dist/modelos/um/assets/images/logo-black.webp",
+    "navbar": [
+      {
+        "texto": "Início",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
+    ],
+    "botao": 
+      {
+        "titulo": "Agendar Consulta",
+        "link": "https://wa.me/6299365459"
+      }
+    
   },
+
+
+
+
+
+
 
   "theme": {
     "color_scheme": "scheme-01.css"
   },
-
   "brand": {
     "name": "Clínica Sorriso Perfeito",
     "logo_dark": "images/logo-black.webp",
     "logo_light": "images/logo-white.webp"
   },
-
   "hero": {
     "subtitle": "Bem-vindo à Clínica Sorriso Perfeito",
     "title": "Seu Sorriso dos Sonhos Começa Aqui",
@@ -29,13 +67,11 @@
     "cta_link": "#contact",
     "image": "images/misc/s1.webp"
   },
-
   "quick_contact": {
     "phone": "(11) 99999-9999",
     "email": "contato@sorrisoperfeito.com.br",
     "hours": "Segunda a Sábado das 08h às 20h"
   },
-
   "about": {
     "subtitle": "Sobre a Clínica",
     "title": "Excelência em Odontologia com Atendimento Humanizado",
@@ -51,7 +87,6 @@
       "images/misc/p2.webp"
     ]
   },
-
   "services": [
     {
       "icon": "images/icons/tooth-1.png",
@@ -74,14 +109,24 @@
       "description": "Resultado imediato com tecnologia LED."
     }
   ],
-
   "counters": [
-    { "number": 10000, "label": "Pacientes Felizes" },
-    { "number": 2500, "label": "Sorrisos Clareados" },
-    { "number": 800, "label": "Implantes Realizados" },
-    { "number": 15, "label": "Anos de Experiência" }
+    {
+      "number": 10000,
+      "label": "Pacientes Felizes"
+    },
+    {
+      "number": 2500,
+      "label": "Sorrisos Clareados"
+    },
+    {
+      "number": 800,
+      "label": "Implantes Realizados"
+    },
+    {
+      "number": 15,
+      "label": "Anos de Experiência"
+    }
   ],
-
   "team": [
     {
       "name": "Dra. Fernanda Lima",
@@ -94,7 +139,6 @@
       "photo": "images/team/2.webp"
     }
   ],
-
   "testimonials": [
     {
       "text": "O atendimento foi espetacular!",
@@ -105,7 +149,6 @@
       "author": "João Souza"
     }
   ],
-
   "contact": {
     "address": "Av. Paulista, 1000 - São Paulo - SP",
     "phone": "(11) 99999-9999",
@@ -116,7 +159,6 @@
       "whatsapp": "#"
     }
   },
-
   "footer": {
     "description": "Referência em odontologia moderna e humanizada.",
     "copyright": "© 2025 Clínica Sorriso Perfeito"
