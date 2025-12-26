@@ -215,6 +215,33 @@
             }
         ]
     },
+      "faq": {
+        "subtitulo": "Tudo o que Você Precisa Saber",
+        "titulo": "Perguntas Frequentes",
+        "items": [
+            {
+                "pergunta": "Com que frequência devo ir ao dentista? ",
+                "resposta": "Recomendamos consultas a cada 6 meses para limpeza e check-up, exceto em casos específicos.",
+            },
+              {
+                "pergunta": "O que fazer em caso de emergência odontológica? ",
+                "resposta": "Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente quebrado ou inchaço. ",
+            },
+              {
+                "pergunta": "Vocês atendem crianças? ",
+                "resposta": "Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em atendimento infantil. ",
+            },
+              {
+                "pergunta": "Quais opções para substituir dentes perdidos? ",
+                "resposta": "Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga imediata.",
+            },
+              {
+                "pergunta": "Clareamento dental é seguro? ",
+                "resposta": " Totalmente seguro quando realizado por profissionais. Resultados duradouros e naturais. ",
+            },
+          
+        ]
+    },
     "contato": {
         "subtitulo": "Contato",
         "titulo": "Agende Seu Atendimento",

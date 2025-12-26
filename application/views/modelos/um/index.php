@@ -339,8 +339,8 @@
                 </div>
             </section>
 
-          
-             <section id="depoimentos" class="bg-color-op-1">
+
+            <section id="depoimentos" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -354,101 +354,26 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
-                              <?php foreach ($d['depoimentos']['items'] as $item): ?>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 fa fa-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>"> <div><?= $item['nome'] ?><span>Cliente</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6"><?= $item['texto'] ?>
-                                        </p>
-                                    </blockquote>
+                            <?php foreach ($d['depoimentos']['items'] as $item): ?>
+                                <div class="item">
+                                    <div class="gradient-white-top p-40 py-4 rounded-1">
+                                        <blockquote>
+                                            <i class="fs-32 fa fa-quote-left absolute start-0 mt-2 p-0 id-color"></i>
+                                            <div class="de_testi_by">
+                                                <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>">
+                                                <div><?= $item['nome'] ?><span>Cliente</span></div>
+                                            </div>
+                                            <p class="mt-4 mb-0 text-dark op-6"><?= $item['texto'] ?>
+                                            </p>
+                                        </blockquote>
+                                    </div>
                                 </div>
-                            </div>
-                               <?php endforeach; ?>
-                            <!-- <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/2.webp"> <div>Robert L.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"My family and I have been coming here for years. The service is exceptional, and the team always goes the extra mile to make sure we’re happy and well taken care of."</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/3.webp"> <div>Jake M.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"I came in for a whitening treatment and left with a brand new level of confidence. The results were amazing, and the staff made it such a relaxing experience."</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/4.webp"> <div>Alex P.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">""They’re professional, friendly, and genuinely care about your dental health. I trust them completely and recommend them to anyone looking for great care."</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/5.webp"> <div>Carlos R.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"Hands down the best dental experience I’ve ever had. Everything from scheduling to treatment was smooth, comfortable, and handled with a personal touch."</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/6.webp"> <div>Edward B.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"I’ve never felt more comfortable at a dentist’s office. The team is so kind, professional, and thorough. They always explain everything in detail, and I leave with a smile every time!"</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/7.webp"> <div>Daniel H.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"My experience here has been wonderful! The staff is friendly, the office is spotless, and the care is top-notch. I always feel relaxed, and my teeth have never looked better!"</p>
-                                    </blockquote>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="gradient-white-top p-40 py-4 rounded-1">
-                                    <blockquote>
-                                        <i class="fs-32 icofont-quote-left absolute start-0 mt-2 p-0 id-color"></i>
-                                        <div class="de_testi_by">
-                                            <img class="circle" alt="" src="<?= base_url() ?>dist/modelos/um/assets/images/testimonial/8.webp"> <div>Bryan G.<span>Customer</span></div>
-                                        </div>
-                                        <p class="mt-4 mb-0 text-dark op-6">"From the moment I walked in, I felt at ease. The staff made me feel like family, and the care I received was exceptional. I’m so happy with my smile—thank you for everything!"</p>
-                                    </blockquote>
-                                </div>
-                            </div> -->
+                            <?php endforeach; ?>
+
                         </div>
                     </div>
                 </div>
-            </section>                      
+            </section>
 
 
             <section id="section-gallery" class="bg-light">
@@ -623,22 +548,23 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-5">
-                            <div class="subtitle id-color wow fadeInUp">Tudo o que Você Precisa Saber</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Perguntas Frequentes</h2>
+                            <div class="subtitle id-color wow fadeInUp"> <?= $d['subtitulo']?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['titulo']?></h2>
                         </div>
 
                         <div class="col-lg-7">
                             <div class="accordion s2 wow fadeInUp">
                                 <div class="accordion-section">
-                                    <div class="accordion-section-title" data-tab="#accordion-a1">
-                                        Com que frequência devo ir ao dentista?
-                                    </div>
-                                    <div class="accordion-section-content" id="accordion-a1">Recomendamos consultas a
-                                        cada 6 meses para limpeza e check-up, exceto em casos específicos.</div>
-                                    <div class="accordion-section-title" data-tab="#accordion-a2">
-                                        O que fazer em caso de emergência odontológica?
-                                    </div>
-                                    <div class="accordion-section-content" id="accordion-a2">
+                                    <?php foreach ($d['depoimentos']['items'] as $key => $item): ?>
+                                        <div class="accordion-section-title" data-tab="#accordion-a<?= $key ?>?>">
+                                            <?= $item['item']['pergunta']?>
+                                        </div>
+                                        <div class="accordion-section-content" id="accordion-a<?= $key ?>?>">
+                                            <?= $item['item']['resposta']?>
+                                        </div>
+                                    
+                                    <?php endforeach; ?>
+                                    <!-- <div class="accordion-section-content" id="accordion-a2">
                                         Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente
                                         quebrado ou inchaço.
                                     </div>
@@ -662,7 +588,7 @@
                                     <div class="accordion-section-content" id="accordion-a5">
                                         Totalmente seguro quando realizado por profissionais. Resultados duradouros e
                                         naturais.
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
