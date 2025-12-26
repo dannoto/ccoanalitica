@@ -219,7 +219,7 @@
         "navbar": [
             "todos",
             "advogados",
-            "escritório",
+            "escritorio",
             "serviços"
         ],
         "imagens": [
@@ -240,7 +240,7 @@
                 "imagem": "dist/modelos/um/assets/images/gallery/l4.webp"
             },
             {
-                "categoria": "advogados",
+                "categoria": "escritorio",
                 "imagem": "dist/modelos/um/assets/images/gallery/l5.webp"
             },
             {
