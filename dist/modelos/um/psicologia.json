@@ -1,6 +1,6 @@
 {
     "schema": {
-        "background": "#000",
+        "background": "rgb(3, 68, 64)",
         "color": "#FFF",
         "primary-color": "#2F7F7A",
         "primary-color-rgb": "47,127,122",
