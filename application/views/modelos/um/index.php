@@ -51,15 +51,7 @@
                                 <div class="de-flex-col">
                                     <div id="logo">
                                         <a href="#top">
-                                            <!-- <img class="logo-main" src="<? // base_url($d['header']['logo']) 
-                                                                                ?>" alt="<? // $d['seo']['title'] 
-                                                                                            ?>">
-                                            <img class="logo-scroll" src="<? // base_url($d['header']['logo']) 
-                                                                            ?>" alt="<? // $d['seo']['title'] 
-                                                                                        ?>">
-                                            <img class="logo-mobile" src="<? // base_url($d['header']['logo']) 
-                                                                            ?>" alt="<? // $d['seo']['title'] 
-                                                                                        ?>"> -->
+                                           
                                             <svg
                                                 width="260"
                                                 height="48"
@@ -620,7 +612,7 @@
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/swiper.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/custom-swiper-1.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/custom-marquee.js"></script>
-    <script src="<?= base_url() ?>dist/js/model-loader.js"></script>
+    <script src="<?= base_url() ?>assets/js/model-loader.js"></script>
 </body>
 
 </html>

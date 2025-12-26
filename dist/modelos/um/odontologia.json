@@ -15,7 +15,6 @@
     "favicon": "images/icon.webp"
   },
   "header": {
-    "logo": "dist/modelos/um/assets/images/logo-black.webp",
     "navbar": [
       {
         "texto": "Início",
@@ -48,7 +47,7 @@
     }
   },
   "hero": {
-    "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
+    "imagem": "dist/imagens/hero/odontologia/hero-1.webp",
     "top": "Bem-vindo à Clínica Sorriso Perfeito",
     "title": "Seu Sorriso dos Sonhos Começa Aqui",
     "description": "Há mais de 15 anos transformando vidas com implantes dentários, lentes de contato dental ultrafinas, Invisalign e clareamento a laser. Atendimento humanizado e resultados naturais.",
@@ -86,32 +85,32 @@
       "Clareamento a Laser"
     ],
     "imagens": [
-      "dist/modelos/um/assets/images/misc/p1.webp",
-      "dist/modelos/um/assets/images/misc/p2.webp"
+      "dist/imagens/sobre/odontologia/sobre-1.webp",
+      "dist/imagens/sobre/odontologia/sobre-2.webp"
     ]
   },
   "servicos": {
-    "subtitulo": " Nossos Tratamentos ",
+    "subtitulo": "Nossos Tratamentos ",
     "titulo": "Cuidado Completo para Todos os Sorrisos",
     "descricao": "Dos check-ups de rotina aos tratamentos estéticos mais avançados, cuidamos do seu sorriso com carinho e excelência.",
     "items": [
       {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-1.png",
         "titulo": "Implantes Dentários",
         "descricao": "Dentes fixos no mesmo dia com carga imediata."
       },
       {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-2.png",
         "titulo": "Lentes de Contato Dental",
         "descricao": "Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais."
       },
       {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-3.png",
         "titulo": "Invisalign & Ortodontia",
         "descricao": "Alinhamento perfeito sem aparelho metálico. Conforto e discrição."
       },
       {
-        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-4.png",
         "titulo": "Clareamento Dental",
         "descricao": "Até 8 tons mais branco em apenas 1 hora com tecnologia LED."
       }
@@ -158,9 +157,9 @@
       }
     ],
     "imagens": [
-      "dist/modelos/um/assets/images/misc/s2.webp",
-      "dist/modelos/um/assets/images/misc/p3.webp",
-      "dist/modelos/um/assets/images/misc/s3.webp"
+      "dist/imagens/porquenos/odontologia/porquenos-1.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-2.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-3.webp"
     ]
   },
   "equipe": {
@@ -170,22 +169,22 @@
       {
         "texto": "Dra. Fernanda Lima",
         "descripcao": "Especialista em Estética",
-        "imagem": "dist/modelos/um/assets/images/team/1.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-1.webp"
       },
       {
         "texto": "Dr. Rafael Santos",
         "descripcao": "Implantes e Prótese",
-        "imagem": "dist/modelos/um/assets/images/team/2.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-2.webp"
       },
       {
         "texto": "Dra. Camila Oliveira",
         "descripcao": "Ortodontia & Invisalign",
-        "imagem": "dist/modelos/um/assets/images/team/3.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-3.webp"
       },
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Clínica Geral",
-        "imagem": "dist/modelos/um/assets/images/team/4.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-4.webp"
       }
     ]
   },
@@ -194,17 +193,17 @@
     "titulo": "O que nossos Pacientes Dizem",
     "items": [
       {
-        "imagem": "dist/modelos/um/assets/images/testimonial/1.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-1.webp",
         "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
         "nome": "Maria Silva"
       },
       {
-        "imagem": "dist/modelos/um/assets/images/testimonial/2.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-2.webp",
         "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
         "nome": "Ana Oliveira"
       },
       {
-        "imagem": "dist/modelos/um/assets/images/testimonial/3.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-3.webp",
         "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
         "nome": "Carlos Pereira"
       }
