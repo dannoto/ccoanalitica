@@ -444,7 +444,7 @@
                                     fill: <?= $d['schema']['color'] ?>;
                                 }
 
-                                .logo-text-ooter {
+                                .logo-text-footer {
                                     fill: <?= $d['schema']['color'] ?>;
                                     font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
                                     font-weight: 600;
