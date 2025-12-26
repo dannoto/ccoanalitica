@@ -441,11 +441,11 @@
                             aria-label="Sua logo aqui">
                             <style>
                                 .logo-icon {
-                                    fill: <?= $d['schema']['color'] ?>;
+                                    fill: <?= $d['schema']['color'] ?> !important;
                                 }
 
                                 .logo-text {
-                                    fill: <?= $d['schema']['color'] ?>;
+                                    fill: <?= $d['schema']['color'] ?>!important;
                                     font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
                                     font-weight: 600;
                                     font-size: 22px;
