@@ -16,8 +16,8 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/swiper.css" rel="stylesheet" type="text/css">
     <style>
         :root {
-            --body-font-color-dark: <?= $d['schema']['background'] ?> !important;
-            --bg-dark-1:  <?= $d['schema']['color'] ?> !important;
+            --body-font-color-dark: <?= $d['schema']['color'] ?> !important;
+            --bg-dark-1:  <?= $d['schema']['background'] ?> !important;
         }
     </style>
 
