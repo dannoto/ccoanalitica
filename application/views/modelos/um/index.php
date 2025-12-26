@@ -18,6 +18,7 @@
         :root {
             --body-font-color-dark: <?= $d['schema']['color'] ?> !important;
             --bg-dark-1: <?= $d['schema']['background'] ?> !important;
+            --bg-dark-2: <?= $d['schema']['background'] ?> !important;
         }
     </style>
 
@@ -64,7 +65,7 @@
                                                 aria-label="Sua logo aqui">
                                                 <style>
                                                     :root {
-                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['color'] ?>);
+                                                        --logo-icon-color: var(--primary-color, <?= $d['schema']['background'] ?>);
                                                         --logo-text-color: var(--secondary-color, <?= $d['schema']['background'] ?>);
                                                     }
 
