@@ -67,114 +67,155 @@
       }
     }
   },
-
-
-
-
-
-
-
-  "theme": {
-    "color_scheme": "scheme-01.css"
-  },
-  "brand": {
-    "name": "Clínica Sorriso Perfeito",
-    "logo_dark": "images/logo-black.webp",
-    "logo_light": "images/logo-white.webp"
-  },
-
-  "quick_contact": {
-    "phone": "(11) 99999-9999",
-    "email": "contato@sorrisoperfeito.com.br",
-    "hours": "Segunda a Sábado das 08h às 20h"
-  },
-  "about": {
-    "subtitle": "Sobre a Clínica",
-    "title": "Excelência em Odontologia com Atendimento Humanizado",
+  "sobre": {
+    "subtitulo": "Sobre a Clínica",
+    "titulo": "Excelência em Odontologia com Atendimento Humanizado",
     "description": "Referência em implantes, estética dental e ortodontia moderna.",
-    "features": [
+    "solucoes": [
       "Implantes com Carga Imediata",
       "Lentes de Contato Dental",
       "Invisalign Oficial",
       "Clareamento a Laser"
     ],
-    "images": [
-      "images/misc/p1.webp",
-      "images/misc/p2.webp"
+    "imagens": [
+      "dist/modelos/um/assets/images/misc/p1.webp",
+      "dist/modelos/um/assets/images/misc/p2.webp"
     ]
   },
-  "services": [
+  "servicos": {
+    "subtitulo": " Nossos Tratamentos ",
+    "titulo": "Cuidado Completo para Todos os Sorrisos",
+    "descricao": "Dos check-ups de rotina aos tratamentos estéticos mais avançados, cuidamos do seu sorriso com carinho e excelência.",
+    "items": [
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
+        "titulo": "Implantes Dentários",
+        "descricao": "Dentes fixos no mesmo dia com carga imediata."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
+        "titulo": "Lentes de Contato Dental",
+        "descricao": "Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
+        "titulo": "Invisalign & Ortodontia",
+        "descricao": "Alinhamento perfeito sem aparelho metálico. Conforto e discrição."
+      },
+      {
+        "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
+        "titulo": "Clareamento Dental",
+        "descricao": "Até 8 tons mais branco em apenas 1 hora com tecnologia LED."
+      }
+    ]
+  },
+  "contadores": [
     {
-      "icon": "images/icons/tooth-1.png",
-      "title": "Implantes Dentários",
-      "description": "Dentes fixos no mesmo dia com carga imediata."
+      "numero": 10000,
+      "texto": "Pacientes Felizes"
     },
     {
-      "icon": "images/icons/tooth-2.png",
-      "title": "Lentes de Contato Dental",
-      "description": "Ultrafinas, naturais e rápidas."
+      "numero": 2500,
+      "texto": "Sorrisos Clareados"
     },
     {
-      "icon": "images/icons/tooth-3.png",
-      "title": "Invisalign",
-      "description": "Alinhamento moderno e discreto."
+      "numero": 800,
+      "texto": "Implantes Realizados"
     },
     {
-      "icon": "images/icons/tooth-4.png",
-      "title": "Clareamento Dental",
-      "description": "Resultado imediato com tecnologia LED."
+      "numero": 15,
+      "texto": "Anos de Experiência"
     }
   ],
-  "counters": [
-    {
-      "number": 10000,
-      "label": "Pacientes Felizes"
-    },
-    {
-      "number": 2500,
-      "label": "Sorrisos Clareados"
-    },
-    {
-      "number": 800,
-      "label": "Implantes Realizados"
-    },
-    {
-      "number": 15,
-      "label": "Anos de Experiência"
-    }
-  ],
-  "team": [
-    {
-      "name": "Dra. Fernanda Lima",
-      "role": "Especialista em Estética",
-      "photo": "images/team/1.webp"
-    },
-    {
-      "name": "Dr. Rafael Santos",
-      "role": "Implantes e Prótese",
-      "photo": "images/team/2.webp"
-    }
-  ],
-  "testimonials": [
-    {
-      "text": "O atendimento foi espetacular!",
-      "author": "Maria Silva"
-    },
-    {
-      "text": "Equipe muito atenciosa.",
-      "author": "João Souza"
-    }
-  ],
-  "contact": {
-    "address": "Av. Paulista, 1000 - São Paulo - SP",
-    "phone": "(11) 99999-9999",
+  "porque": {
+    "subtitulo": " Por que Escolher a Sorriso Perfeito ",
+    "titulo": "Atendimento Excepcional com Toque Humano",
+    "descricao": "Escolher o dentista certo faz toda a diferença. Unimos expertise, tecnologia de ponta e um ambiente acolhedor para que cada consulta seja confortável e personalizada. ",
+    "items": [
+      {
+        "titulo": "Equipe Experiente",
+        "descricao": "Profissionais altamente capacitados e constantemente atualizados."
+      },
+      {
+        "titulo": "Tecnologia Avançada",
+        "descricao": "Equipamentos modernos para diagnósticos precisos e tratamentos eficazes."
+      },
+      {
+        "titulo": "Tratamento Personalizado",
+        "descricao": "Plano exclusivo feito sob medida para o seu sorriso."
+      },
+      {
+        "titulo": "Ambiente Familiar",
+        "descricao": "Espaço acolhedor para crianças, adolescentes, adultos e idosos."
+      }
+    ],
+    "imagens": [
+      "dist/modelos/um/assets/images/misc/s2.webp",
+      "dist/modelos/um/assets/images/misc/p3.webp",
+      "dist/modelos/um/assets/images/misc/s3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Conheça Nossa Equipe",
+    "titulo": "Nossos Especialistas",
+    "items": [
+      {
+        "texto": "Dra. Fernanda Lima",
+        "descripcao": "Especialista em Estética",
+        "imagem": "dist/modelos/um/assets/images/team/1.webp"
+      },
+      {
+        "texto": "Dr. Rafael Santos",
+        "descripcao": "Implantes e Prótese",
+        "imagem": "dist/modelos/um/assets/images/team/2.webp"
+      },
+      {
+        "texto": "Dra. Camila Oliveira",
+        "descripcao": "Ortodontia & Invisalign",
+        "imagem": "dist/modelos/um/assets/images/team/3.webp"
+      },
+      {
+        "texto": "Dr. Lucas Mendes",
+        "descripcao": "Clínica Geral",
+        "imagem": "dist/modelos/um/assets/images/team/4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que nossos Pacientes Dizem",
+    "items": [
+      {
+        "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
+        "nome": "Maria Silva"
+      },
+      {
+        "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
+        "nome": "Ana Oliveira"
+      },
+      {
+        "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
+        "nome": "Carlos Pereira"
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Fale Conosco",
+    "titulo": "Agende sua Consulta",
+    "descricao": "Preencha o formulário abaixo ou utilize nossos canais de atendimento para agendar sua avaliação.",
+    "horarios": "Seg - Sex: 08:00 - 20:00 Sáb: 08:00 - 14:00 ",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
     "email": "contato@sorrisoperfeito.com.br",
     "social": {
       "facebook": "#",
       "instagram": "#",
-      "whatsapp": "#"
+      "whatsapp": "#",
+      "linkedin": "#"
     }
   },
+
+
   "footer": {
     "description": "Referência em odontologia moderna e humanizada.",
     "copyright": "© 2025 Clínica Sorriso Perfeito"
