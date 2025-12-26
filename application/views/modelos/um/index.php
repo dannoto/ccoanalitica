@@ -17,7 +17,7 @@
     <link href="<?= base_url() ?>dist/modelos/um/assets/css/style.css" rel="stylesheet" type="text/css">
     <link id="colors" href="<?= base_url() ?>dist/modelos/um/assets/css/colors/scheme-01.css" rel="stylesheet" type="text/css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -26,7 +26,7 @@
         <a href="#" id="back-to-top"></a>
 
         <div id="de-loader"></div>
-        <header class="transparent header-light header-float">
+        <header  class="transparent header-light header-float">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -68,7 +68,7 @@
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
 
-            <section class="text-light bg-dark no-top no-bottom overflow-hidden">
+            <section id="inicio" class="text-light bg-dark no-top no-bottom overflow-hidden">
                 <div class="container-fluid position-relative half-fluid">
                     <div class="container">
                         <div class="row">
@@ -103,7 +103,7 @@
                 </div>
             </section>
 
-            <section class="bg-dark text-light pt-50 pb-30">
+            <section  class="bg-dark text-light pt-50 pb-30">
                 <div class="container relative">
                     <div class="row g-4 grid-divider slider-extra sm-hide">
                         <?php
@@ -246,7 +246,7 @@
 
 
 
-            <section id="team" class="bg-color-op-1">
+            <section id="equipe" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -275,7 +275,7 @@
                 </div>
             </section>
 
-            <section id="testimonials">
+            <section id="depoimentos">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -301,7 +301,7 @@
                 </div>
             </section>
 
-            <section id="contact">
+            <section id="contato">
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-12 text-center">
@@ -382,11 +382,11 @@
                                 <div class="widget">
                                     <h5>Menu</h5>
                                     <ul>
-                                        <li><a href="#top">Início</a></li>
-                                        <li><a href="#about">Sobre</a></li>
-                                        <li><a href="#services">Tratamentos</a></li>
-                                        <li><a href="#team">Equipe</a></li>
-                                        <li><a href="#contact">Contato</a></li>
+                                        <li><a href="#inicio">Início</a></li>
+                                        <li><a href="#sobre">Sobre</a></li>
+                                        <li><a href="#servicos">Tratamentos</a></li>
+                                        <li><a href="#equipe">Equipe</a></li>
+                                        <li><a href="#contato">Contato</a></li>
                                     </ul>
                                 </div>
                             </div>
