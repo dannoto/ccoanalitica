@@ -18,10 +18,10 @@
 
     <style>
         * {
-            --primary-color: '<?= $d['schema']['primary-color'] ?>';
-            --primary-color-rgb: '<?= $d['schema']['primary-color-rgb'] ?>';
-            --secondary-color: '<?= $d['schema']['secondary-color'] ?>';
-            --secondary-color-rgb:'<?= $d['schema']['secondary-color-rgb'] ?>';
+            --primary-color: <?= $d['schema']['primary-color'] ?>;
+            --primary-color-rgb: <?= $d['schema']['primary-color-rgb'] ?>;
+            --secondary-color: <?= $d['schema']['secondary-color'] ?>;
+            --secondary-color-rgb:<?= $d['schema']['secondary-color-rgb'] ?>;
         }
     </style>
 
