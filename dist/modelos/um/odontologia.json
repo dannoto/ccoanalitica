@@ -39,7 +39,7 @@
     ],
     "botao": 
       {
-        "titulo": "Agendar Consulta",
+        "texto": "Agendar Consulta",
         "link": "https://wa.me/6299365459"
       }
     
