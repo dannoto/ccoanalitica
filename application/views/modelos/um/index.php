@@ -382,25 +382,35 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                                <li><a href="#" data-filter="*" class="selected">View All</a></li>
-                                <li><a href="#" data-filter=".dentists">dentists</a></li>
+                                <?php foreach ($d['galeria']['navbar'] as $key =>  $item): ?>
+
+                                    <?php if ($key == 0) { ?>
+                                        <li><a href="#" data-filter="*" class="selected"><?= $item ?></a></li>
+                                    <?php   } else { ?>
+                                        <li><a href="#" data-filter=".<?= $item ?>"><?= $item ?></a></li>
+
+                                    <?php  } ?>
+
+
+                                <?php endforeach; ?>
+                                <!-- <li><a href="#" data-filter=".dentists">dentists</a></li>
                                 <li><a href="#" data-filter=".facilities">facilities</a></li>
                                 <li><a href="#" data-filter=".services">services</a>
-                                <li>
+                                <li> -->
                             </ul>
                         </div>
                     </div>
 
                     <div id="gallery" class="row g-3 wow fadeIn" data-wow-delay=".3s">
                         <?php foreach ($d['galeria']['imagens'] as $item): ?>
-                            <div class="col-md-3 col-sm-6 col-12 item <?=$item['categoria'] ?>">
+                            <div class="col-md-3 col-sm-6 col-12 item <?= $item['categoria'] ?>">
                                 <a href="<?= base_url() ?><?= $item['imagem'] ?>" class="image-popup d-block hover">
                                     <div class="relative overflow-hidden rounded-1">
                                         <div class="absolute start-0 w-100 hover-op-1 p-5 abs-middle z-2 text-center text-white z-3">
-                                            View
+                                            <?= ucfirst($item['categoria']) ?>
                                         </div>
                                         <div class="absolute start-0 w-100 h-100 overlay-black-5 hover-op-1 z-2"></div>
-                                        <img src="<?= base_url() ?><?=$item['imagem'] ?>" class="w-100 hover-scale-1-2" alt="">
+                                        <img src="<?= base_url() ?><?= $item['imagem'] ?>" class="w-100 hover-scale-1-2" alt="">
                                     </div>
                                 </a>
                             </div>
