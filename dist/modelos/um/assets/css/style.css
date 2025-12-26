@@ -218,7 +218,7 @@ header.transparent {
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
-  background: rgba(255, 255, 255, 0.0);
+  background: var(--body-font-color-dark);
 }
 
 header.autoshow {
