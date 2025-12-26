@@ -220,24 +220,24 @@
         "titulo": "Perguntas Frequentes",
         "items": [
             {
-                "pergunta": "Com que frequência devo ir ao dentista? ",
-                "resposta": "Recomendamos consultas a cada 6 meses para limpeza e check-up, exceto em casos específicos."
+                "pergunta": "Com que frequência devo fazer terapia?",
+                "resposta": "A frequência varia conforme a necessidade de cada pessoa, mas geralmente as sessões acontecem uma vez por semana, podendo ser ajustadas ao longo do processo."
             },
             {
-                "pergunta": "O que fazer em caso de emergência odontológica? ",
-                "resposta": "Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente quebrado ou inchaço. "
+                "pergunta": "Como funciona a primeira sessão de terapia?",
+                "resposta": "Na primeira sessão, o psicólogo conhece sua história, suas demandas e explica como funciona o processo terapêutico, sempre respeitando seu tempo e seus limites."
             },
             {
-                "pergunta": "Vocês atendem crianças? ",
-                "resposta": "Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em atendimento infantil. "
+                "pergunta": "Vocês atendem crianças e adolescentes?",
+                "resposta": "Sim. Realizamos atendimento psicológico infantil e para adolescentes, com abordagens adequadas a cada fase do desenvolvimento."
             },
             {
-                "pergunta": "Quais opções para substituir dentes perdidos? ",
-                "resposta": "Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga imediata."
+                "pergunta": "A terapia é confidencial?",
+                "resposta": "Sim. O sigilo profissional é garantido pelo Código de Ética da Psicologia, assegurando total confidencialidade das informações compartilhadas."
             },
             {
-                "pergunta": "Clareamento dental é seguro? ",
-                "resposta": " Totalmente seguro quando realizado por profissionais. Resultados duradouros e naturais. "
+                "pergunta": "A terapia pode ser feita online?",
+                "resposta": "Sim. Oferecemos atendimento psicológico online, realizado de forma segura e conforme as normas do Conselho Federal de Psicologia."
             }
         ]
     },

@@ -220,24 +220,24 @@
         "titulo": "Perguntas Frequentes",
         "items": [
             {
-                "pergunta": "Com que frequência devo ir ao dentista? ",
-                "resposta": "Recomendamos consultas a cada 6 meses para limpeza e check-up, exceto em casos específicos."
+                "pergunta": "Como funciona a primeira consulta com o advogado?",
+                "resposta": "Na primeira consulta, analisamos o caso, esclarecemos dúvidas iniciais e orientamos sobre as possíveis estratégias jurídicas, sempre com transparência."
             },
             {
-                "pergunta": "O que fazer em caso de emergência odontológica? ",
-                "resposta": "Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente quebrado ou inchaço. "
+                "pergunta": "É possível realizar atendimento online?",
+                "resposta": "Sim. Oferecemos atendimento jurídico online para consultas, orientações e acompanhamento de processos, conforme permitido pela OAB."
             },
             {
-                "pergunta": "Vocês atendem crianças? ",
-                "resposta": "Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em atendimento infantil. "
+                "pergunta": "Quais documentos devo levar para a consulta?",
+                "resposta": "Depende do caso, mas geralmente documentos pessoais e aqueles relacionados ao problema jurídico são suficientes para uma análise inicial."
             },
             {
-                "pergunta": "Quais opções para substituir dentes perdidos? ",
-                "resposta": "Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga imediata."
+                "pergunta": "O escritório atende pessoas físicas e empresas?",
+                "resposta": "Sim. Atuamos tanto para pessoas físicas quanto para empresas, oferecendo soluções jurídicas personalizadas."
             },
             {
-                "pergunta": "Clareamento dental é seguro? ",
-                "resposta": " Totalmente seguro quando realizado por profissionais. Resultados duradouros e naturais. "
+                "pergunta": "Como funcionam os honorários advocatícios?",
+                "resposta": "Os honorários são definidos conforme a complexidade do caso e seguem os parâmetros da tabela da OAB, sempre informados de forma clara ao cliente."
             }
         ]
     },
