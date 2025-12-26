@@ -369,7 +369,7 @@
                         <div class="spacer-20"></div>
                         <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
-                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa fa-facebook"></i></a>
+                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa fa-facebook-f"></i></a>
                             <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa fa-instagram"></i></a>
                             <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa fa-whatsapp"></i></a>
                             <a href="<?= $d['contato']['social']['linkedin'] ?>"><i class="fa fa-linkedin"></i></a>
