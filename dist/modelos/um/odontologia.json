@@ -82,14 +82,7 @@
     "logo_dark": "images/logo-black.webp",
     "logo_light": "images/logo-white.webp"
   },
-  // "hero": {
-  //   "subtitle": "Bem-vindo à Clínica Sorriso Perfeito",
-  //   "title": "Seu Sorriso dos Sonhos Começa Aqui",
-  //   "description": "Atendimento humanizado com tecnologia de ponta para transformar seu sorriso.",
-  //   "cta_text": "Agendar Avaliação Gratuita",
-  //   "cta_link": "#contact",
-  //   "image": "images/misc/s1.webp"
-  // },
+
   "quick_contact": {
     "phone": "(11) 99999-9999",
     "email": "contato@sorrisoperfeito.com.br",
