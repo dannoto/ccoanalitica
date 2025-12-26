@@ -243,27 +243,26 @@
            
 
 
-
-            <section id="team" class="bg-color-op-1">
+<section id="team" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
-                            <div class="subtitle wow fadeInUp mb-3"><?= $equipe->subtitulo ?></div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $equipe->titulo ?></h2>
+                            <div class="subtitle wow fadeInUp mb-3"><?= $d['equipe']['subtitulo'] ?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['equipe']['titulo'] ?></h2>
                             <div class="spacer-single"></div>
                         </div>
                     </div>
                     <div class="row g-4">
-                        <?php foreach($equipe->items as $item): ?>
+                        <?php foreach($d['equipe']['items'] as $item): ?>
                         <div class="col-lg-3">
                             <div class="relative rounded-1 overflow-hidden">
                                 <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                    <img src="<?= base_url($item->imagem) ?>" class="w-100 wow scaleIn" alt="<?= $item->texto ?>">
+                                    <img src="<?= base_url($item['imagem']) ?>" class="w-100 wow scaleIn" alt="<?= $item['texto'] ?>">
                                 </div>
                                 <div class="abs w-100 start-0 bottom-0 z-3">
                                     <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
-                                        <h4 class="mb-0"><?= $item->texto ?></h4>
-                                        <p class="mb-2"><?= $item->descripcao ?></p>
+                                        <h4 class="mb-0"><?= $item['texto'] ?></h4>
+                                        <p class="mb-2"><?= $item['descripcao'] ?></p>
                                     </div>
                                 </div>
                             </div>
@@ -277,8 +276,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 text-center">
-                            <div class="subtitle wow fadeInUp mb-3"><?= $depoimentos->subtitlo ?></div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $depoimentos->titulo ?></h2>
+                            <div class="subtitle wow fadeInUp mb-3"><?= $d['depoimentos']['subtitlo'] ?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['depoimentos']['titulo'] ?></h2>
                             <div class="spacer-single"></div>
                         </div>
                     </div>
@@ -286,11 +285,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="owl-carousel owl-theme wow fadeInUp four-cols-center-dots text-center">
-                            <?php foreach($depoimentos->items as $item): ?>
+                            <?php foreach($d['depoimentos']['items'] as $item): ?>
                             <div class="item">
                                 <div class="p-4 bg-color-op-1 rounded-1 m-2">
-                                    <p>"<?= $item->texto ?>"</p>
-                                    <div class="fw-bold"><?= $item->nome ?></div>
+                                    <p>"<?= $item['texto'] ?>"</p>
+                                    <div class="fw-bold"><?= $item['nome'] ?></div>
                                 </div>
                             </div>
                             <?php endforeach; ?>
@@ -303,31 +302,31 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-12 text-center">
-                            <div class="subtitle wow fadeInUp mb-3"><?= $contato->subtitulo ?></div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $contato->titulo ?></h2>
+                            <div class="subtitle wow fadeInUp mb-3"><?= $d['contato']['subtitulo'] ?></div>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s"><?= $d['contato']['titulo'] ?></h2>
                             <div class="spacer-single"></div>
                         </div>
 
                         <div class="col-lg-6">
                             <h3>Entre em Contato</h3>
-                            <p><?= $contato->descricao ?></p>
+                            <p><?= $d['contato']['descricao'] ?></p>
 
                             <div class="row g-4 gx-5">
                                 <div class="col-lg-6">
                                     <div class="fw-bold text-dark"><i class="icofont-clock-time me-2 id-color-2"></i>Horário</div>
-                                    <?= $contato->horarios ?>
+                                    <?= $d['contato']['horarios'] ?>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="fw-bold text-dark"><i class="icofont-location-pin me-2 id-color-2"></i>Endereço</div>
-                                    <?= $contato->endereco ?>
+                                    <?= $d['contato']['endereco'] ?>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="fw-bold text-dark"><i class="icofont-phone me-2 id-color-2"></i>Telefone</div>
-                                    <?= $contato->telefone ?>
+                                    <?= $d['contato']['telefone'] ?>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="fw-bold text-dark"><i class="icofont-envelope me-2 id-color-2"></i>E-mail</div>
-                                    <?= $contato->email ?>
+                                    <?= $d['contato']['email'] ?>
                                 </div>
                             </div>
                         </div>
@@ -365,11 +364,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt="">
                         <div class="spacer-20"></div>
-                        <p><?= $footer->description ?></p>
+                        <p><?= $d['footer']['description'] ?></p>
                         <div class="social-icons mb-sm-30">
-                            <a href="<?= $contato->social->facebook ?>"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="<?= $contato->social->instagram ?>"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="<?= $contato->social->whatsapp ?>"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="<?= $d['contato']['social']['facebook'] ?>"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="<?= $d['contato']['social']['instagram'] ?>"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="<?= $d['contato']['social']['whatsapp'] ?>"><i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
@@ -392,13 +391,13 @@
                         <div class="widget">
                             <h5>Entre em Contato</h5>
                             <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color"></i>Endereço</div>
-                            <?= $contato->endereco ?>
+                            <?= $d['contato']['endereco'] ?>
                             <div class="spacer-20"></div>
                             <div class="fw-bold text-white"><i class="icofont-phone me-2 id-color"></i>Telefones</div>
-                            <?= $contato->telefone ?>
+                            <?= $d['contato']['telefone'] ?>
                             <div class="spacer-20"></div>
                             <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color"></i>E-mail</div>
-                            <?= $contato->email ?>
+                            <?= $d['contato']['email'] ?>
                         </div>
                     </div>
                 </div>
@@ -409,7 +408,7 @@
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                    <?= $footer->copyright ?>
+                                    <?= $d['footer']['copyright'] ?>
                                 </div>
                             </div>
                         </div>
