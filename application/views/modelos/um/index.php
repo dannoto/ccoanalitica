@@ -245,7 +245,7 @@
                 </div>
             </section>
 
-            <section class="bg-dark text-light pt-60 pb-60">
+            <section id="contadores" class="bg-dark text-light pt-60 pb-60">
                 <div class="container">
                     <div class="row g-4">
                         <?php foreach ($d['contadores'] as $index => $cont): ?>
@@ -260,7 +260,7 @@
                 </div>
             </section>
 
-            <section>
+            <section id="porquenos">
                 <div class="container">
                     <div class="row gy-4 gx-5 align-items-center">
                         <div class="col-lg-6">
@@ -368,7 +368,7 @@
             </section>
 
 
-            <section id="section-gallery" class="bg-light">
+            <section id="galeria" class="bg-light">
                 <div class="container">
 
                     <div class="row">
@@ -415,7 +415,7 @@
             </section>
 
 
-            <section>
+            <section id="faq">
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-5">
@@ -584,7 +584,7 @@
                                     <ul>
                                         <?php foreach ($d['servicos']['items'] as $item): ?>
 
-                                            <li><a href="#servicos"><?= $item['texto'] ?></a></li>
+                                            <li><a href="#servicos"><?= $item['titulo'] ?></a></li>
                                         <?php endforeach; ?>
                                         <!-- <li><a href="#inicio">Início</a></li>
                                         <li><a href="#sobre">Sobre</a></li>
