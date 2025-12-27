@@ -51,7 +51,7 @@
                                 <div class="de-flex-col">
                                     <div id="logo">
                                         <a href="#top">
-                                           
+
                                             <svg
                                                 width="260"
                                                 height="48"
@@ -407,7 +407,7 @@
                                 </a>
                             </div>
                         <?php endforeach; ?>
-                       
+
                     </div>
 
 
@@ -560,6 +560,7 @@
 
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
@@ -571,6 +572,26 @@
                                         <li><a href="#servicos">Tratamentos</a></li>
                                         <li><a href="#equipe">Equipe</a></li>
                                         <li><a href="#contato">Contato</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Menu</h5>
+                                    <ul>
+                                        <?php foreach ($d['header']['navbar'] as $navbar): ?>
+
+                                            <li><a href="<?= $navbar['link'] ?>"><?= $navbar['texto'] ?></a></li>
+                                        <?php endforeach; ?>
+                                        <!-- <li><a href="#inicio">Início</a></li>
+                                        <li><a href="#sobre">Sobre</a></li>
+                                        <li><a href="#servicos">Tratamentos</a></li>
+                                        <li><a href="#equipe">Equipe</a></li>
+                                        <li><a href="#contato">Contato</a></li> -->
                                     </ul>
                                 </div>
                             </div>

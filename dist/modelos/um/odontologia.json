@@ -183,7 +183,7 @@
       },
       {
         "texto": "Dr. Lucas Mendes",
-        "descripcao": "Clínica Geral",
+        "descripcao": "Clínico Geral",
         "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
       }
     ]
@@ -193,17 +193,17 @@
     "titulo": "O que nossos Pacientes Dizem",
     "items": [
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-1.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-1.webp",
         "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
-        "nome": "Maria Silva"
+        "nome": "João Santos"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-2.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-2.webp",
         "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
-        "nome": "Ana Oliveira"
+        "nome": "Júlio Oliveira"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-3.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-3.webp",
         "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
         "nome": "Carlos Pereira"
       }
