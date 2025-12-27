@@ -193,17 +193,17 @@
     "titulo": "O que nossos Pacientes Dizem",
     "items": [
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-1.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-1.webp",
         "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
         "nome": "Maria Silva"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-2.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-2.webp",
         "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
         "nome": "Ana Oliveira"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimentos-3.webp",
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-3.webp",
         "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
         "nome": "Carlos Pereira"
       }
@@ -212,58 +212,58 @@
   "galeria": {
     "navbar": [
       "todos",
-      "clinica",
-      "dentistas",
-      "serviços"
+      "empresa",
+      "profissionais",
+      "servicos"
     ],
     "imagens": [
       {
-        "categoria": "clinica",
-        "imagem": "dist/modelos/um/assets/images/gallery/l1.webp"
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-1.webp"
       },
       {
-        "categoria": "clinica",
-        "imagem": "dist/modelos/um/assets/images/gallery/l2.webp"
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-2.webp"
       },
       {
-        "categoria": "clinica",
-        "imagem": "dist/modelos/um/assets/images/gallery/l3.webp"
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-3.webp"
       },
       {
-        "categoria": "clinica",
-        "imagem": "dist/modelos/um/assets/images/gallery/l4.webp"
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-4.webp"
       },
       {
-        "categoria": "dentistas",
-        "imagem": "dist/modelos/um/assets/images/gallery/l5.webp"
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-5.webp"
       },
       {
-        "categoria": "dentistas",
-        "imagem": "dist/modelos/um/assets/images/gallery/l6.webp"
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-6.webp"
       },
       {
-        "categoria": "dentistas",
-        "imagem": "dist/modelos/um/assets/images/gallery/l7.webp"
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-7.webp"
       },
       {
-        "categoria": "dentistas",
-        "imagem": "dist/modelos/um/assets/images/gallery/l8.webp"
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-8.webp"
       },
       {
-        "categoria": "serviços",
-        "imagem": "dist/modelos/um/assets/images/gallery/l9.webp"
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-9.webp"
       },
       {
-        "categoria": "serviços",
-        "imagem": "dist/modelos/um/assets/images/gallery/l10.webp"
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-10.webp"
       },
       {
-        "categoria": "serviços",
-        "imagem": "dist/modelos/um/assets/images/gallery/l11.webp"
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-11.webp"
       },
       {
-        "categoria": "serviços",
-        "imagem": "dist/modelos/um/assets/images/gallery/l12.webp"
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-12.webp"
       }
     ]
   },
