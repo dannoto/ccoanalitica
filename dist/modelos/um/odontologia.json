@@ -169,22 +169,22 @@
       {
         "texto": "Dra. Fernanda Lima",
         "descripcao": "Especialista em Estética",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-1.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-1.webp"
       },
       {
-        "texto": "Dr. Rafael Santos",
+        "texto": "Dr. Rafaela Santos",
         "descripcao": "Implantes e Prótese",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-2.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-2.webp"
       },
       {
-        "texto": "Dra. Camila Oliveira",
+        "texto": "Dra. Carlos Oliveira",
         "descripcao": "Ortodontia & Invisalign",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-3.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-3.webp"
       },
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Clínica Geral",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-4.webp"
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
       }
     ]
   },
