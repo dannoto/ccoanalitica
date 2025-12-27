@@ -69,7 +69,7 @@ class Modelos extends CI_Controller
 	{
 
 		// Caminho do JSON
-		$jsonPath = FCPATH . "dist/modelos/{$modelo}/{$segmento}.json";
+		$jsonPath = FCPATH . "dist/modelos/".modelo."/".$segmento.".json";
 
 		if (!file_exists($jsonPath)) {
 			show_404();
