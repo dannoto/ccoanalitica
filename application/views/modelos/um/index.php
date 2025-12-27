@@ -58,7 +58,7 @@
                                                 viewBox="0 0 260 48"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 role="img"
-                                                aria-label="Sua logo aqui">
+                                                aria-label="Sua Logo Aqui">
                                                 <style>
                                                     .logo-icon {
                                                         fill: <?= $d['schema']['background'] ?>;
@@ -546,7 +546,7 @@
                                 x="54"
                                 y="31"
                                 class="logo-text-footer">
-                                Sua logo aqui
+                                Sua Logo Aqui
                             </text>
                         </svg>
 
