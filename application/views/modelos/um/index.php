@@ -517,7 +517,18 @@
                 </div>
             </section>
         </div>
-
+<section class="bg-color text-light pt-40 pb-40" style="background-size: cover; background-repeat: no-repeat;">
+                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
+                    <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
+                        <div class="col-md-9" style="background-size: cover; background-repeat: no-repeat;">
+                            <h3 class="mb-0 fs-32"><?=$d['acao']['texto']?></h3>
+                        </div>
+                        <div class="col-lg-3 text-lg-end" style="background-size: cover; background-repeat: no-repeat;">
+                            <a class="btn-main btn-line fx-slide" href="<?=$d['acao']['botao']['link']?>" data-hover="<?=$d['acao']['botao']['texto']?>"><span><?=$d['acao']['botao']['texto']?></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         <footer class="section-dark">
             <div class="container">
                 <div class="row gx-2">
