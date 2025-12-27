@@ -505,7 +505,7 @@
 
         <footer class="section-dark">
             <div class="container">
-                <div class="row gx-3">
+                <div class="row gx-2">
                     <div class="col-lg-3 col-sm-6">
                         <!-- <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt=""> -->
                         <svg
