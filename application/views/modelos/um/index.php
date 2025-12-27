@@ -641,14 +641,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-12">
-                            <div class="de-flex">
+                            <div class="de-flex justify-content-start">
                                 <div class="de-flex-col">
                                     <?= $d['footer']['copyright'] ?>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
-                            <div class="de-flex">
+                            <div class="de-flex justify-content-end">
                                 <div class="de-flex-col">
                                     Feito por <a href="https://ccoanalitica.com">CCO ANALÍTICA</a>
                                 </div>
