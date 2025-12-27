@@ -506,7 +506,7 @@
         <footer class="section-dark">
             <div class="container">
                 <div class="row gx-2">
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-3 col-sm-12">
                         <!-- <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt=""> -->
                         <svg
                             width="260"
@@ -596,7 +596,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 order-lg-2 order-sm-1">
+                    <div class="col-lg-3 col-sm-12 order-lg-2 order-sm-1">
                         <div class="widget">
                             <h5>Entre em Contato</h5>
                             <div class="fw-bold text-white"><i class="fa fa-location-dot me-2 id-color"></i>Endereço</div>
