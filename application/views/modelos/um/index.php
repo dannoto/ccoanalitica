@@ -42,6 +42,7 @@
         <a href="#" id="back-to-top"></a>
 
         <div id="de-loader"></div>
+
         <header class="transparent header-light header-float">
             <div class="container">
                 <div class="row">
@@ -300,8 +301,6 @@
                 </div>
             </section>
 
-
-
             <section id="equipe" class="bg-color-op-1">
                 <div class="container">
                     <div class="row">
@@ -367,7 +366,6 @@
                 </div>
             </section>
 
-
             <section id="galeria" class="bg-light">
                 <div class="container">
 
@@ -414,6 +412,23 @@
                 </div>
             </section>
 
+            <section id="video" aria-label="section" class="p-0" style="background-size: cover; background-repeat: no-repeat;">
+                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
+                    <div class="row" style="background-size: cover; background-repeat: no-repeat;">
+                        <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
+                            <a class="d-block hover popup-youtube mb-min-100" href="<?=$d['video']['link']?>">
+                                <div class="relative overflow-hidden rounded-1" style="background-size: cover; background-repeat: no-repeat;">
+                                    <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2" style="background-size: cover; background-repeat: no-repeat;">
+                                        <div class="player circle wow scaleIn animated" style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-name: scaleIn;"><span></span></div>
+                                    </div> 
+                                    <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05" style="background-size: cover; background-repeat: no-repeat;"></div>
+                                    <img src="<?= base_url() ?><?=$d['video']['imagem']?>" class="w-100 hover-scale-1-1" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section id="faq">
                 <div class="container">
