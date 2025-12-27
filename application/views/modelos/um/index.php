@@ -506,7 +506,7 @@
         <footer class="section-dark">
             <div class="container">
                 <div class="row gx-2">
-                    <div class="col-lg-3 col-sm-12">
+                    <div class="col-lg-4 col-sm-12">
                         <!-- <img src="<?= base_url() ?>dist/modelos/um/assets/images/logo-white.webp" class="logo-footer" alt=""> -->
                         <svg
                             width="260"
@@ -562,7 +562,7 @@
                     </div>
                     <div class="col-lg-2 col-sm-12 order-lg-1 order-sm-2">
                         <div class="row">
-                            <div class="col-lg-6 col-sm-6">
+                            <div class="col-lg-12 col-sm-12">
                                 <div class="widget">
                                     <h5>Menu</h5>
                                     <ul>
