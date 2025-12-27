@@ -578,7 +578,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-12 order-lg-1 order-sm-2">
                         <div class="row">
-                            <div class="col-lg-6 col-sm-6">
+                            <div class="col-lg-12 col-sm-12">
                                 <div class="widget">
                                     <h5>Serviços</h5>
                                     <ul>
