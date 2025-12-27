@@ -1,322 +1,327 @@
 {
-    "schema": {
-        "background": "rgb(3, 68, 64)",
-        "color": "#FFF",
-        "primary-color": "#2F7F7A",
-        "primary-color-rgb": "47,127,122",
-        "secondary-color": "#B79AD9",
-        "secondary-color-rgb": "183,154,217"
-    },
-    "seo": {
-        "title": "Clínica Equilíbrio — Psicologia e Saúde Emocional",
-        "description": "Clínica de psicologia especializada em terapia individual, familiar, infantil e desenvolvimento emocional.",
-        "keywords": "psicologia, psicólogo, terapia, saúde mental, clínica psicológica",
-        "author": "CCO ANALITICA | ccoanalitica.com",
-        "favicon": "images/icon.webp"
-    },
-    "header": {
-        "logo": "dist/modelos/um/assets/images/logo-black.webp",
-        "navbar": [
-            {
-                "texto": "Início",
-                "link": "#inicio"
-            },
-            {
-                "texto": "Sobre",
-                "link": "#sobre"
-            },
-            {
-                "texto": "Atendimentos",
-                "link": "#servicos"
-            },
-            {
-                "texto": "Equipe",
-                "link": "#equipe"
-            },
-            {
-                "texto": "Depoimentos",
-                "link": "#depoimentos"
-            },
-            {
-                "texto": "Contato",
-                "link": "#contato"
-            }
-        ],
-        "botao": {
-            "texto": "Agendar Sessão",
-            "link": "https://wa.me/6299365459"
-        }
-    },
-    "hero": {
-        "imagem": "dist/modelos/um/assets/images/misc/s1.webp",
-        "top": "Bem-vindo à Clínica Equilíbrio",
-        "title": "Cuidar da Mente é um Ato de Coragem",
-        "description": "Há mais de 12 anos ajudando pessoas a desenvolverem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicoterapia.",
-        "botao": {
-            "texto": "Agendar Primeira Sessão",
-            "link": "https://wa.me/6299365459"
-        },
-        "bottom": {
-            "google": "Avaliação no Google",
-            "avaliacoes": "Mais de 3 mil avaliações"
-        },
-        "informacoes": {
-            "atendimento": {
-                "titulo": "Precisa Conversar?",
-                "descricao": "Ligue agora: (11) 99999-9999"
-            },
-            "horario": {
-                "titulo": "Horário de Atendimento",
-                "descricao": "Segunda a Sexta das 08h às 19h"
-            },
-            "contato": {
-                "titulo": "Envie uma Mensagem",
-                "descricao": "contato@clinicaequilibrio.com.br"
-            }
-        }
-    },
-    "sobre": {
-        "subtitulo": "Sobre a Clínica",
-        "titulo": "Um Espaço Seguro para Cuidar da Sua Saúde Emocional",
-        "description": "Atendimento psicológico humanizado, ético e baseado em ciência.",
-        "solucoes": [
-            "Escuta Qualificada",
-            "Sigilo e Ética Profissional",
-            "Abordagens Baseadas em Evidências",
-            "Acolhimento Individualizado"
-        ],
-        "imagens": [
-            "dist/modelos/um/assets/images/misc/p1.webp",
-            "dist/modelos/um/assets/images/misc/p2.webp"
-        ]
-    },
-    "servicos": {
-        "subtitulo": " Atendimentos Psicológicos ",
-        "titulo": "Cuidado Emocional em Todas as Fases da Vida",
-        "descricao": "Oferecemos acompanhamento psicológico personalizado para diferentes demandas e faixas etárias.",
-        "items": [
-            {
-                "imagem": "dist/modelos/um/assets/images/icons/tooth-1.png",
-                "titulo": "Psicoterapia Individual",
-                "descricao": "Acompanhamento emocional para ansiedade, depressão, estresse e autoconhecimento."
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/icons/tooth-2.png",
-                "titulo": "Terapia de Casal",
-                "descricao": "Fortalecimento do diálogo, resolução de conflitos e reconexão emocional."
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/icons/tooth-3.png",
-                "titulo": "Psicologia Infantil",
-                "descricao": "Apoio ao desenvolvimento emocional de crianças e orientação aos pais."
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
-                "titulo": "Terapia Familiar",
-                "descricao": "Mediação de conflitos e fortalecimento dos vínculos familiares."
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/icons/tooth-4.png",
-                "titulo": "Orientação Psicológica",
-                "descricao": "Apoio em momentos pontuais de decisão ou crise emocional."
-            }
-        ]
-    },
-    "contadores": [
-        {
-            "numero": 6200,
-            "texto": "Pacientes Acompanhados"
-        },
-        {
-            "numero": 48000,
-            "texto": "Sessões Realizadas"
-        },
-        {
-            "numero": 96,
-            "texto": "Satisfação dos Pacientes (%)"
-        },
-        {
-            "numero": 12,
-            "texto": "Anos de Experiência"
-        }
+  "schema": {
+    "background": "#0F2A2E",
+    "color": "#FFFFFF",
+    "primary-color": "#4FA3A5",
+    "primary-color-rgb": "79,163,165",
+    "secondary-color": "#C8B08A",
+    "secondary-color-rgb": "200,176,138"
+  },
+  "seo": {
+    "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
+    "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
+    "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.webp"
+  },
+  "header": {
+    "navbar": [
+      {
+        "texto": "Início",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
     ],
-    "porque": {
-        "subtitulo": " Por que Escolher a Clínica Equilíbrio ",
-        "titulo": "Acolhimento, Ética e Profissionalismo",
-        "descricao": "Cada pessoa é única, e o cuidado psicológico deve respeitar sua história e seu tempo.",
-        "items": [
-            {
-                "titulo": "Ambiente Seguro",
-                "descricao": "Espaço acolhedor e confidencial para expressão emocional."
-            },
-            {
-                "titulo": "Profissionais Qualificados",
-                "descricao": "Psicólogos registrados e em constante atualização."
-            },
-            {
-                "titulo": "Abordagem Humanizada",
-                "descricao": "Respeito à individualidade e às necessidades de cada paciente."
-            },
-            {
-                "titulo": "Atendimento Personalizado",
-                "descricao": "Planos terapêuticos construídos em conjunto."
-            }
-        ],
-        "imagens": [
-            "dist/modelos/um/assets/images/misc/s2.webp",
-            "dist/modelos/um/assets/images/misc/p3.webp",
-            "dist/modelos/um/assets/images/misc/s3.webp"
-        ]
-    },
-    "equipe": {
-        "subtitulo": "Nossa Equipe",
-        "titulo": "Psicólogos Especialistas",
-        "items": [
-            {
-                "texto": "Dra. Mariana Alves",
-                "descripcao": "Psicologia Clínica",
-                "imagem": "dist/modelos/um/assets/images/team/1.webp"
-            },
-            {
-                "texto": "Dr. Felipe Nogueira",
-                "descripcao": "Terapia Cognitivo-Comportamental",
-                "imagem": "dist/modelos/um/assets/images/team/2.webp"
-            },
-            {
-                "texto": "Dra. Renata Pires",
-                "descripcao": "Psicologia Infantil",
-                "imagem": "dist/modelos/um/assets/images/team/3.webp"
-            },
-            {
-                "texto": "Dr. Lucas Monteiro",
-                "descripcao": "Terapia Familiar e Casal",
-                "imagem": "dist/modelos/um/assets/images/team/4.webp"
-            }
-        ]
-    },
-    "depoimentos": {
-        "subtitlo": "Depoimentos",
-        "titulo": "O que Nossos Pacientes Relatam",
-        "items": [
-            {
-                "imagem": "dist/modelos/um/assets/images/testimonial/5.webp",
-                "texto": "Me senti acolhida desde a primeira sessão. O acompanhamento fez toda a diferença na minha vida.",
-                "nome": "Juliana Martins"
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/testimonial/7.webp",
-                "texto": "Profissionais extremamente humanos e competentes. Recomendo de olhos fechados.",
-                "nome": "Eduardo Ramos"
-            },
-            {
-                "imagem": "dist/modelos/um/assets/images/testimonial/8.webp",
-                "texto": "Um espaço seguro para falar e se entender. Sou muito grata.",
-                "nome": "Patrícia Souza"
-            }
-        ]
-    },
-    "galeria": {
-        "navbar": [
-            "todos",
-            "profissionais",
-            "escritorio",
-            "serviços"
-        ],
-        "imagens": [
-            {
-                "categoria": "profissionais",
-                "imagem": "dist/modelos/um/assets/images/gallery/l1.webp"
-            },
-            {
-                "categoria": "profissionais",
-                "imagem": "dist/modelos/um/assets/images/gallery/l2.webp"
-            },
-            {
-                "categoria": "profissionais",
-                "imagem": "dist/modelos/um/assets/images/gallery/l3.webp"
-            },
-            {
-                "categoria": "profissionais",
-                "imagem": "dist/modelos/um/assets/images/gallery/l4.webp"
-            },
-            {
-                "categoria": "escritorio",
-                "imagem": "dist/modelos/um/assets/images/gallery/l5.webp"
-            },
-            {
-                "categoria": "escritorio",
-                "imagem": "dist/modelos/um/assets/images/gallery/l6.webp"
-            },
-            {
-                "categoria": "escritorio",
-                "imagem": "dist/modelos/um/assets/images/gallery/l7.webp"
-            },
-            {
-                "categoria": "escritorio",
-                "imagem": "dist/modelos/um/assets/images/gallery/l8.webp"
-            },
-            {
-                "categoria": "serviços",
-                "imagem": "dist/modelos/um/assets/images/gallery/l9.webp"
-            },
-            {
-                "categoria": "serviços",
-                "imagem": "dist/modelos/um/assets/images/gallery/l10.webp"
-            },
-            {
-                "categoria": "serviços",
-                "imagem": "dist/modelos/um/assets/images/gallery/l11.webp"
-            },
-            {
-                "categoria": "serviços",
-                "imagem": "dist/modelos/um/assets/images/gallery/l12.webp"
-            }
-        ]
-    },
-    "faq": {
-        "subtitulo": "Tudo o que Você Precisa Saber",
-        "titulo": "Perguntas Frequentes",
-        "items": [
-            {
-                "pergunta": "Com que frequência devo fazer terapia?",
-                "resposta": "A frequência varia conforme a necessidade de cada pessoa, mas geralmente as sessões acontecem uma vez por semana, podendo ser ajustadas ao longo do processo."
-            },
-            {
-                "pergunta": "Como funciona a primeira sessão de terapia?",
-                "resposta": "Na primeira sessão, o psicólogo conhece sua história, suas demandas e explica como funciona o processo terapêutico, sempre respeitando seu tempo e seus limites."
-            },
-            {
-                "pergunta": "Vocês atendem crianças e adolescentes?",
-                "resposta": "Sim. Realizamos atendimento psicológico infantil e para adolescentes, com abordagens adequadas a cada fase do desenvolvimento."
-            },
-            {
-                "pergunta": "A terapia é confidencial?",
-                "resposta": "Sim. O sigilo profissional é garantido pelo Código de Ética da Psicologia, assegurando total confidencialidade das informações compartilhadas."
-            },
-            {
-                "pergunta": "A terapia pode ser feita online?",
-                "resposta": "Sim. Oferecemos atendimento psicológico online, realizado de forma segura e conforme as normas do Conselho Federal de Psicologia."
-            }
-        ]
-    },
-    "contato": {
-        "subtitulo": "Contato",
-        "titulo": "Agende Seu Atendimento",
-        "descricao": "Entre em contato e dê o primeiro passo para cuidar da sua saúde emocional.",
-        "horarios": "Seg - Sex: 08:00 - 19:00",
-        "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-        "telefone": "(11) 99999-9999",
-        "email": "contato@clinicaequilibrio.com.br",
-        "social": {
-            "facebook": "#",
-            "instagram": "#",
-            "whatsapp": "#",
-            "linkedin": "#",
-            "x": "#"
-        }
-    },
-    "footer": {
-        "description": "Psicologia com acolhimento, ética e responsabilidade.",
-        "copyright": "© 2025 Clínica Equilíbrio"
+    "botao": {
+      "texto": "Agendar Sessão",
+      "link": "https://wa.me/5562982045122"
     }
+  },
+  "hero": {
+    "imagem": "dist/imagens/hero/odontologia/hero-1.webp",
+    "top": "Bem-vindo ao Instituto Harmonia",
+    "title": "Cuidar da Mente é um Ato de Amor Próprio",
+    "description": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
+    "botao": {
+      "texto": "Agendar Primeira Sessão",
+      "link": "https://wa.me/5562982045122"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de Apoio?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sábado das 08h às 20h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@seudominio.com.br"
+      }
+    }
+  },
+  "sobre": {
+    "subtitulo": "Sobre a Clínica",
+    "titulo": "Psicologia Humanizada e Baseada em Evidências",
+    "description": "Um espaço seguro, acolhedor e ético para o cuidado da saúde emocional.",
+    "solucoes": [
+      "Atendimento Individual",
+      "Psicoterapia para Casais",
+      "Acompanhamento Emocional",
+      "Desenvolvimento Pessoal"
+    ],
+    "imagens": [
+      "dist/imagens/sobre/odontologia/sobre-1.webp",
+      "dist/imagens/sobre/odontologia/sobre-2.webp"
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Nossos Atendimentos",
+    "titulo": "Cuidado Emocional em Todas as Fases da Vida",
+    "descricao": "Atendimentos personalizados para promover equilíbrio emocional, autoconhecimento e bem-estar.",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servico-1.png",
+        "titulo": "Terapia Individual",
+        "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servico-2.png",
+        "titulo": "Terapia de Casal",
+        "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servico-3.png",
+        "titulo": "Terapia Familiar",
+        "descricao": "Acompanhamento psicológico para melhorar relações familiares."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servico-4.png",
+        "titulo": "Orientação Psicológica",
+        "descricao": "Suporte emocional em momentos de crise e tomada de decisões."
+      }
+    ]
+  },
+  "contadores": [
+    {
+      "numero": 10000,
+      "texto": "Sessões Realizadas"
+    },
+    {
+      "numero": 2500,
+      "texto": "Pacientes Acompanhados"
+    },
+    {
+      "numero": 800,
+      "texto": "Planos Terapêuticos"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher o Instituto Harmonia ",
+    "titulo": "Um Espaço Seguro para Cuidar de Você",
+    "descricao": "Nossa missão é oferecer acolhimento, escuta ativa e intervenções terapêuticas eficazes, sempre respeitando a singularidade de cada pessoa.",
+    "items": [
+      {
+        "titulo": "Profissionais Qualificados",
+        "descricao": "Psicólogos experientes e constantemente atualizados."
+      },
+      {
+        "titulo": "Atendimento Humanizado",
+        "descricao": "Escuta empática e respeito ao tempo de cada paciente."
+      },
+      {
+        "titulo": "Abordagens Científicas",
+        "descricao": "Terapias baseadas em evidências psicológicas."
+      },
+      {
+        "titulo": "Ambiente Acolhedor",
+        "descricao": "Espaço seguro, confortável e confidencial."
+      }
+    ],
+    "imagens": [
+      "dist/imagens/porquenos/odontologia/porquenos-1.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-2.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Conheça Nossa Equipe",
+    "titulo": "Psicólogos Especialistas",
+    "items": [
+      {
+        "texto": "Dra. Fernanda Lima",
+        "descripcao": "Psicologia Clínica",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-1.webp"
+      },
+      {
+        "texto": "Dra. Rafaela Santos",
+        "descripcao": "Terapia Cognitivo-Comportamental",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-2.webp"
+      },
+      {
+        "texto": "Dr. Carlos Oliveira",
+        "descripcao": "Psicologia Familiar",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-3.webp"
+      },
+      {
+        "texto": "Dr. Lucas Mendes",
+        "descripcao": "Psicologia Humanista",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que Nossos Pacientes Dizem",
+    "items": [
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-1.webp",
+        "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
+        "nome": "João Santos"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-2.webp",
+        "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
+        "nome": "Júlio Oliveira"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-3.webp",
+        "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
+        "nome": "Carlos Pereira"
+      }
+    ]
+  },
+  "galeria": {
+    "navbar": [
+      "todos",
+      "empresa",
+      "profissionais",
+      "servicos"
+    ],
+    "imagens": [
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-1.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-2.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-3.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-4.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-5.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-6.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-7.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-8.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-9.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-10.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-11.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-12.webp"
+      }
+    ]
+  },
+  "video": {
+    "link": "https://youtu.be/awQhrV-gTK8",
+    "imagem": "dist/imagens/video/odontologia/video-1.webp"
+  },
+  "faq": {
+    "subtitulo": "Tudo o que Você Precisa Saber",
+    "titulo": "Perguntas Frequentes",
+    "items": [
+      {
+        "pergunta": "Com que frequência devo fazer terapia?",
+        "resposta": "Geralmente semanal, mas a frequência é definida conforme a necessidade de cada paciente."
+      },
+      {
+        "pergunta": "A terapia é sigilosa?",
+        "resposta": "Sim. Todo atendimento segue rigorosamente o código de ética profissional."
+      },
+      {
+        "pergunta": "Vocês atendem crianças e adolescentes?",
+        "resposta": "Sim. Temos profissionais especializados em atendimento infantil e juvenil."
+      },
+      {
+        "pergunta": "A terapia pode ser online?",
+        "resposta": "Sim. Oferecemos atendimento presencial e online."
+      },
+      {
+        "pergunta": "Quando devo procurar um psicólogo?",
+        "resposta": "Sempre que sentir necessidade de apoio emocional ou autoconhecimento."
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Fale Conosco",
+    "titulo": "Agende sua Sessão",
+    "descricao": "Entre em contato e dê o primeiro passo para cuidar da sua saúde emocional.",
+    "horarios": "Seg - Sex: 08:00 - 20:00 Sáb: 08:00 - 14:00 ",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@seudominio.com.br",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#",
+      "x": "#"
+    }
+  },
+  "acao": {
+    "texto": "Pronto para cuidar da sua saúde emocional?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Agendar Sessão"
+    }
+  },
+  "footer": {
+    "description": "Cuidado psicológico ético, humanizado e profissional.",
+    "copyright": "© 2025 Instituto Harmonia"
+  }
 }
