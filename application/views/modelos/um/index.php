@@ -650,7 +650,7 @@
                         <div class="col-md-6 col-12">
                             <div class="de-flex justify-content-end">
                                 <div class="de-flex-col">
-                                    Feito por <a href="https://ccoanalitica.com">CCO ANALÍTICA</a>
+                                    <span>Feito por <a target="_blank" href="https://ccoanalitica.com">CCO ANALÍTICA</a></span>
                                 </div>
                             </div>
                         </div>
