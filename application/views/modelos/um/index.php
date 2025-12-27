@@ -580,11 +580,11 @@
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="widget">
-                                    <h5>Menu</h5>
+                                    <h5>Serviços</h5>
                                     <ul>
-                                        <?php foreach ($d['header']['navbar'] as $navbar): ?>
+                                        <?php foreach ($d['servicos']['items'] as $item): ?>
 
-                                            <li><a href="<?= $navbar['link'] ?>"><?= $navbar['texto'] ?></a></li>
+                                            <li><a href="#servicos"><?= $item['texto'] ?></a></li>
                                         <?php endforeach; ?>
                                         <!-- <li><a href="#inicio">Início</a></li>
                                         <li><a href="#sobre">Sobre</a></li>
