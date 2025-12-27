@@ -70,7 +70,7 @@
       },
       "contato": {
         "titulo": "Envie uma Mensagem",
-        "descricao": "contato@sorrisperfeito.com.br"
+        "descricao": "contato@seudominio.com.br"
       }
     }
   },
@@ -304,7 +304,7 @@
     "horarios": "Seg - Sex: 08:00 - 20:00 Sáb: 08:00 - 14:00 ",
     "endereco": "Av. Paulista, 1000 - São Paulo - SP",
     "telefone": "(11) 99999-9999",
-    "email": "contato@sorrisoperfeito.com.br",
+    "email": "contato@seudominio.com.br",
     "social": {
       "facebook": "#",
       "instagram": "#",
