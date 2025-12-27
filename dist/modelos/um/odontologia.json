@@ -43,7 +43,7 @@
     ],
     "botao": {
       "texto": "Agendar Consulta",
-      "link": "https://wa.me/6299365459"
+      "link": "https://wa.me/5562982045122"
     }
   },
   "hero": {
@@ -53,7 +53,7 @@
     "description": "Há mais de 15 anos transformando vidas com implantes dentários, lentes de contato dental ultrafinas, Invisalign e clareamento a laser. Atendimento humanizado e resultados naturais.",
     "botao": {
       "texto": "Agendar Avaliação Gratuita",
-      "link": "https://wa.me/6299365459"
+      "link": "https://wa.me/5562982045122"
     },
     "bottom": {
       "google": "Avaliação no Google",
@@ -311,6 +311,13 @@
       "whatsapp": "#",
       "linkedin": "#",
       "x": "#"
+    }
+  },
+  "acao": {
+    "texto":"Pronto para agendar sua consulta?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Agendar Agora"
     }
   },
   "footer": {

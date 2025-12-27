@@ -416,13 +416,13 @@
                 <div class="container mb-5" style="background-size: cover; background-repeat: no-repeat;">
                     <div class="row" style="background-size: cover; background-repeat: no-repeat;">
                         <div class="col-lg-12" style="background-size: cover; background-repeat: no-repeat;">
-                            <a class="d-block hover popup-youtube mb-min-100" href="<?=$d['video']['link']?>">
+                            <a class="d-block hover popup-youtube mb-min-100" href="<?= $d['video']['link'] ?>">
                                 <div class="relative overflow-hidden rounded-1" style="background-size: cover; background-repeat: no-repeat;">
                                     <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2" style="background-size: cover; background-repeat: no-repeat;">
                                         <div class="player circle wow scaleIn animated" style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-name: scaleIn;"><span></span></div>
-                                    </div> 
+                                    </div>
                                     <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05" style="background-size: cover; background-repeat: no-repeat;"></div>
-                                    <img src="<?= base_url() ?><?=$d['video']['imagem']?>" class="w-100 hover-scale-1-1" alt="">
+                                    <img src="<?= base_url() ?><?= $d['video']['imagem'] ?>" class="w-100 hover-scale-1-1" alt="">
                                 </div>
                             </a>
                         </div>
@@ -517,18 +517,18 @@
                 </div>
             </section>
         </div>
-<section class="bg-color text-light pt-40 pb-40" style="background-size: cover; background-repeat: no-repeat;">
-                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
-                    <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
-                        <div class="col-md-9" style="background-size: cover; background-repeat: no-repeat;">
-                            <h3 class="mb-0 fs-32"><?=$d['acao']['texto']?></h3>
-                        </div>
-                        <div class="col-lg-3 text-lg-end" style="background-size: cover; background-repeat: no-repeat;">
-                            <a class="btn-main btn-line fx-slide" href="<?=$d['acao']['botao']['link']?>" data-hover="<?=$d['acao']['botao']['texto']?>"><span><?=$d['acao']['botao']['texto']?></span></a>
-                        </div>
+        <section class="bg-color text-light pt-40 pb-40" style="background-size: cover; background-repeat: no-repeat;">
+            <div class="container" style="background-size: cover; background-repeat: no-repeat;">
+                <div class="row g-4" style="background-size: cover; background-repeat: no-repeat;">
+                    <div class="col-md-9" style="background-size: cover; background-repeat: no-repeat;">
+                        <h3 class="mb-0 fs-32"><?= $d['acao']['texto'] ?></h3>
+                    </div>
+                    <div class="col-lg-3 text-lg-end" style="background-size: cover; background-repeat: no-repeat;">
+                        <a class="btn-main btn-line fx-slide" href="<?= $d['acao']['botao']['link'] ?>" data-hover="<?= $d['acao']['botao']['texto'] ?>"><span><?= $d['acao']['botao']['texto'] ?></span></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
         <footer class="section-dark">
             <div class="container">
                 <div class="row gx-2">
