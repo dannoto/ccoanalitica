@@ -650,7 +650,7 @@
                         <div class="col-md-6 col-12">
                             <div class="de-flex justify-content-end">
                                 <div class="de-flex-col">
-                                    <span>Feito por <a target="_blank" href="https://ccoanalitica.com"><strong>Tálio | Sites</strong></a></span>
+                                    <span>Feito por <a target="_blank" href="https://sites.talio.com.br"><strong>Tálio | Sites</strong></a></span>
                                 </div>
                             </div>
                         </div>
