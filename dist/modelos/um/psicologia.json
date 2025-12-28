@@ -47,7 +47,7 @@
     }
   },
   "hero": {
-    "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
+    "imagem": "dist/imagens/hero/psicologia/hero-2.jpg",
     "top": "Bem-vindo ao Instituto Harmonia",
     "title": "Cuidar da Mente é um Ato de Amor Próprio",
     "description": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
@@ -184,7 +184,7 @@
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Psicologia Humanista",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-5.jpg"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-6.jpg"
       }
     ]
   },
