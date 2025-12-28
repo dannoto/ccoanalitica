@@ -12,7 +12,7 @@
     "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
     "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica",
     "author": "CCO ANALITICA | ccoanalitica.com",
-    "favicon": "images/icon.webp"
+    "favicon": "images/icon.jpg"
   },
   "header": {
     "navbar": [
@@ -85,8 +85,8 @@
       "Desenvolvimento Pessoal"
     ],
     "imagens": [
-      "dist/imagens/sobre/psicologia/sobre-1.webp",
-      "dist/imagens/sobre/psicologia/sobre-2.webp"
+      "dist/imagens/sobre/psicologia/sobre-1.jpg",
+      "dist/imagens/sobre/psicologia/sobre-2.jpg"
     ]
   },
   "servicos": {
@@ -157,9 +157,9 @@
       }
     ],
     "imagens": [
-      "dist/imagens/porquenos/psicologia/porquenos-1.webp",
-      "dist/imagens/porquenos/psicologia/porquenos-2.webp",
-      "dist/imagens/porquenos/psicologia/porquenos-3.webp"
+      "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
+      "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
+      "dist/imagens/porquenos/psicologia/porquenos-3.jpg"
     ]
   },
   "equipe": {
@@ -169,22 +169,22 @@
       {
         "texto": "Dra. Fernanda Lima",
         "descripcao": "Psicologia Clínica",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.jpg"
       },
       {
         "texto": "Dra. Rafaela Santos",
         "descripcao": "Terapia Cognitivo-Comportamental",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.jpg"
       },
       {
         "texto": "Dr. Carlos Oliveira",
         "descripcao": "Psicologia Familiar",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.jpg"
       },
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Psicologia Humanista",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-4.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-4.jpg"
       }
     ]
   },
@@ -193,17 +193,17 @@
     "titulo": "O que Nossos Pacientes Dizem",
     "items": [
       {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.jpg",
         "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
         "nome": "João Santos"
       },
       {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.jpg",
         "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
         "nome": "Júlio Oliveira"
       },
       {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.jpg",
         "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
         "nome": "Carlos Pereira"
       }
@@ -219,57 +219,57 @@
     "imagens": [
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-1.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-1.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-2.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-2.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-4.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-4.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-5.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-5.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-6.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-6.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-7.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-7.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-8.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-8.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-9.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-9.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-10.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-10.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-11.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-11.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-12.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-12.jpg"
       }
     ]
   },
   "video": {
     "link": "https://youtu.be/awQhrV-gTK8",
-    "imagem": "dist/imagens/video/psicologia/video-1.webp"
+    "imagem": "dist/imagens/video/psicologia/video-1.jpg"
   },
   "faq": {
     "subtitulo": "Tudo o que Você Precisa Saber",
