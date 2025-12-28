@@ -47,7 +47,7 @@
     }
   },
   "hero": {
-    "imagem": "dist/imagens/hero/odontologia/hero-1.webp",
+    "imagem": "dist/imagens/hero/psicologia/hero-1.webp",
     "top": "Bem-vindo ao Instituto Harmonia",
     "title": "Cuidar da Mente é um Ato de Amor Próprio",
     "description": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
@@ -85,8 +85,8 @@
       "Desenvolvimento Pessoal"
     ],
     "imagens": [
-      "dist/imagens/sobre/odontologia/sobre-1.webp",
-      "dist/imagens/sobre/odontologia/sobre-2.webp"
+      "dist/imagens/sobre/psicologia/sobre-1.webp",
+      "dist/imagens/sobre/psicologia/sobre-2.webp"
     ]
   },
   "servicos": {
@@ -95,22 +95,22 @@
     "descricao": "Atendimentos personalizados para promover equilíbrio emocional, autoconhecimento e bem-estar.",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-1.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-1.png",
         "titulo": "Terapia Individual",
         "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-2.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-2.png",
         "titulo": "Terapia de Casal",
         "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-3.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-3.png",
         "titulo": "Terapia Familiar",
         "descricao": "Acompanhamento psicológico para melhorar relações familiares."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-4.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-4.png",
         "titulo": "Orientação Psicológica",
         "descricao": "Suporte emocional em momentos de crise e tomada de decisões."
       }
@@ -157,9 +157,9 @@
       }
     ],
     "imagens": [
-      "dist/imagens/porquenos/odontologia/porquenos-1.webp",
-      "dist/imagens/porquenos/odontologia/porquenos-2.webp",
-      "dist/imagens/porquenos/odontologia/porquenos-3.webp"
+      "dist/imagens/porquenos/psicologia/porquenos-1.webp",
+      "dist/imagens/porquenos/psicologia/porquenos-2.webp",
+      "dist/imagens/porquenos/psicologia/porquenos-3.webp"
     ]
   },
   "equipe": {
@@ -169,22 +169,22 @@
       {
         "texto": "Dra. Fernanda Lima",
         "descripcao": "Psicologia Clínica",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-1.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.webp"
       },
       {
         "texto": "Dra. Rafaela Santos",
         "descripcao": "Terapia Cognitivo-Comportamental",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-2.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.webp"
       },
       {
         "texto": "Dr. Carlos Oliveira",
         "descripcao": "Psicologia Familiar",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-3.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.webp"
       },
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Psicologia Humanista",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-4.webp"
       }
     ]
   },
@@ -193,17 +193,17 @@
     "titulo": "O que Nossos Pacientes Dizem",
     "items": [
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-1.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp",
         "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
         "nome": "João Santos"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-2.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp",
         "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
         "nome": "Júlio Oliveira"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-3.webp",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp",
         "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
         "nome": "Carlos Pereira"
       }
@@ -219,57 +219,57 @@
     "imagens": [
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-1.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-1.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-2.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-2.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-3.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-4.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-4.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-5.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-5.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-6.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-6.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-7.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-7.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-8.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-8.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-9.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-9.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-10.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-10.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-11.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-11.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-12.webp"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-12.webp"
       }
     ]
   },
   "video": {
     "link": "https://youtu.be/awQhrV-gTK8",
-    "imagem": "dist/imagens/video/odontologia/video-1.webp"
+    "imagem": "dist/imagens/video/psicologia/video-1.webp"
   },
   "faq": {
     "subtitulo": "Tudo o que Você Precisa Saber",
