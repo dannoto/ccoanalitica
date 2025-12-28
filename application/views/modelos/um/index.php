@@ -315,7 +315,7 @@
                             <div class="col-lg-3">
                                 <div class="relative rounded-1 overflow-hidden">
                                     <div class="rounded-1 overflow-hidden wow fadeIn zoomIn">
-                                        <img style="max-height:276px" src="<?= base_url($item['imagem']) ?>" class="w-100 wow scaleIn" alt="<?= $item['texto'] ?>">
+                                        <img style="max-height:276px;object-fit:cover" src="<?= base_url($item['imagem']) ?>" class="w-100 wow scaleIn" alt="<?= $item['texto'] ?>">
                                     </div>
                                     <div class="abs w-100 start-0 bottom-0 z-3">
                                         <div class="p-2 rounded-10 m-3 text-center bg-white wow fadeInDown">
