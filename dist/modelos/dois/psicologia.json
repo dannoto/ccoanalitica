@@ -23,6 +23,7 @@
     "localizacao": "São Paulo, SP",
     "horario_top": "Seg-Sex: 08:00-20:00",
     "navbar": [
+            { "texto": "Inicio", "link": "#inicio" },
       { "texto": "Sobre", "link": "#sobre" },
       { "texto": "Serviços", "link": "#servicos" },
       { "texto": "Equipe", "link": "#equipe" },
