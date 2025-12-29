@@ -214,9 +214,9 @@
                             <ul class="list-unstyled about-one__points">
                                 <?php foreach ($d['sobre']['pontos'] as $ponto): ?>
                                     <li>
-                                        <div class="icon" style="background-image: url(assets/images/shapes/about-one-points-shape-<?= $loop->index % 2 == 0 ? 1 : 2 ?>.png);">
-                                            <span class="<?= $ponto['icone'] ?>"></span>
-                                        </div>
+                                        <!-- <div class="icon" style="background-image: url(assets/images/shapes/about-one-points-shape-<?= $loop->index % 2 == 0 ? 1 : 2 ?>.png);">
+                                            <span class="<?= //$ponto['icone'] ?>"></span>
+                                        </div> -->
                                         <div class="content">
                                             <h4><?= $ponto['titulo'] ?></h4>
                                             <p><?= $ponto['descricao'] ?></p>
