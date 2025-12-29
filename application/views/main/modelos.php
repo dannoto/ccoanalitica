@@ -79,7 +79,7 @@
       display: block;
       height: 350px;
 
-      object-fit: cover;
+      object-fit: revert;
     }
 
     .modelo-conteudo {
