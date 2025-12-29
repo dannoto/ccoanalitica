@@ -422,7 +422,7 @@
                                         <div class="player circle wow scaleIn animated" style="background-size: cover; background-repeat: no-repeat; visibility: visible; animation-name: scaleIn;"><span></span></div>
                                     </div>
                                     <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05" style="background-size: cover; background-repeat: no-repeat;"></div>
-                                    <img src="<?= base_url() ?><?= $d['video']['imagem'] ?>" class="w-100 hover-scale-1-1" alt="">
+                                    <img style="height:450px;object-fit:cover" src="<?= base_url() ?><?= $d['video']['imagem'] ?>" class="w-100 hover-scale-1-1" alt="">
                                 </div>
                             </a>
                         </div>
