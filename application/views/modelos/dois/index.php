@@ -418,7 +418,7 @@
 
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
-                <img src="<?= base_url() ?><?= $d['sobre']['imagem_terciaria'] ?>" alt="">
+                <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="team-one__inner">
@@ -523,7 +523,7 @@
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
-                <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
+                <img src="<?= base_url() ?><?= $d['sobre']['imagem_terciaria'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="section-title text-center">
