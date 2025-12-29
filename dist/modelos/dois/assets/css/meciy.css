@@ -3834,7 +3834,7 @@ position: absolute;
   display: block;
   background-color: #fefaf9;
   overflow: hidden;
-  padding: 220px 0 180px;
+  padding: 220px 0 20px;
   /* margin-top:70px; */
   margin-top: -90px;
   z-index: 1;
@@ -3921,7 +3921,7 @@ position: absolute;
   right: 30px;
   height: 57px;
   width: 57px;
-  background-color: var(--meciy-base);
+  background-color: var(--meciy-primary);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -302,7 +302,7 @@
                     <?php foreach ($d['contadores'] as $contador): ?>
                         <li>
                             <div class="counter-one__icon">
-                                <span class="icon-start"></span>
+                                <span class="icon-star"></span>
                             </div>
                             <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
                             <div class="counter-one__count-box">
