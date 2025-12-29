@@ -71,53 +71,9 @@
     "titulo": "Psicologia Humanizada e Baseada em Evidências",
     "descricao": "Um espaço seguro, acolhedor e ético para o cuidado da saúde emocional. Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida.",
     "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-    "imagem_secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg",
-    "anos_experiencia": 15,
-    "pontos": [
-      {
-        "icone": "icon-counseling",
-        "titulo": "Atendimento Individual",
-        "descricao": "Apoio psicológico personalizado para ansiedade, depressão, estresse e autoconhecimento."
-      },
-      {
-        "icone": "icon-mental-health",
-        "titulo": "Terapia de Casal e Familiar",
-        "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos em relações."
-      }
-    ],
-    "video": "https://www.youtube.com/watch?v=vqLSwt_V_Bg",
-    "botao_agendar": {
-      "texto": "Agendar uma Consulta",
-      "link": "https://wa.me/5562982045122"
-    }
+    "imagem_secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg",   
   },
 
-  "feature_one": {
-    "subtitulo": "Nossos Serviços",
-    "titulo": "Cuidado Emocional em Todas as Fases da Vida",
-    "items": [
-      {
-        "titulo": "Terapia Individual",
-        "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento.",
-        "icone": "icon-consulting"
-      },
-      {
-        "titulo": "Terapia de Casal",
-        "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos.",
-        "icone": "icon-meditation"
-      },
-      {
-        "titulo": "Terapia Familiar",
-        "descricao": "Acompanhamento psicológico para melhorar relações familiares.",
-        "icone": "icon-personality"
-      },
-      {
-        "titulo": "Orientação Psicológica",
-        "descricao": "Suporte emocional em momentos de crise e tomada de decisões.",
-        "icone": "icon-negative"
-      }
-    ]
-  },
 
   "servicos": {
     "subtitulo": "Nossos Atendimentos",
@@ -137,6 +93,11 @@
         "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
         "titulo": "Terapia Familiar",
         "descricao": "Acompanhamento psicológico para melhorar relações familiares."
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
+        "titulo": "Orientação Psicológica",
+        "descricao":"Suporte emocional em momentos de crise e tomada de decisões."
       }
     ]
   },
