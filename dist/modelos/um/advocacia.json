@@ -259,7 +259,7 @@
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3jpg"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3.jpg"
       },
       {
         "categoria": "servicos",
@@ -268,7 +268,7 @@
     ]
   },
   "video": {
-    "link": "https://youtu.be/awQhrV-gTK8",
+    "link": "https://youtu.be/wDchsz8nmbo",
     "imagem": "dist/imagens/video/advocacia/video-1.webp"
   },
   "faq": {
