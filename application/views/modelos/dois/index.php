@@ -393,6 +393,27 @@
             </div>
         </section>
 
+        <section class="appointments-one">
+            <div class="container">
+                <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
+                    <div class="appointments-one__big-text img-bounce">Psicologista</div>
+                    <div class="appointments-one__img">
+                        <img src="assets/images/resources/appointments-one-img-1.jpg" alt="">
+                    </div>
+                    <div class="appointments-one__left">
+                        <div class="appointments-one__icon">
+                            <span class="icon-brain"></span>
+                        </div>
+                        <div class="appointments-one__content">
+                            <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
+                        </div>
+                    </div>
+                    <div class="appointments-one__btn-box">
+                        <a href="#LINK_WHATSAPP" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Equipe -->
       
         <section class="team-one" id="equipe">
@@ -497,27 +518,7 @@
 
         <!-- Depoimentos -->
 
-<section class="appointments-one">
-            <div class="container">
-                <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <div class="appointments-one__big-text img-bounce">Psicologista</div>
-                    <div class="appointments-one__img">
-                        <img src="assets/images/resources/appointments-one-img-1.jpg" alt="">
-                    </div>
-                    <div class="appointments-one__left">
-                        <div class="appointments-one__icon">
-                            <span class="icon-brain"></span>
-                        </div>
-                        <div class="appointments-one__content">
-                            <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
-                        </div>
-                    </div>
-                    <div class="appointments-one__btn-box">
-                        <a href="#LINK_WHATSAPP" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
 
         <section class="testimonial-one" id="depoimentos">
