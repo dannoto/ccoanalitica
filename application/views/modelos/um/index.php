@@ -80,10 +80,9 @@
                             <div class="de-flex sm-pt10">
                                 <div class="de-flex-col">
                                     <div id="logo">
-                                        <a href="#top">
+                                        <a href="#top" style="margin-top: 10px;">
 
                                             <svg
-                                            style="margin-top:15px"
                                                 width="260"
                                                 height="48"
                                                 viewBox="0 0 260 48"
@@ -91,6 +90,7 @@
                                                 role="img"
                                                 aria-label="Sua Logo Aqui">
                                                 <style>
+                                                    
                                                     .logo-icon {
                                                         fill: <?= $d['schema']['background'] ?>;
                                                     }
@@ -723,7 +723,7 @@
     </a>
 
 
-
+    
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/plugins.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/designesia.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/swiper.js"></script>
