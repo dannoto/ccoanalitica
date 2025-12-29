@@ -80,12 +80,12 @@
     "titulo": "Serviços Jurídicos Especializados",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-terapia-individual-1.jpg",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-civil-1.jpg",
         "titulo": "Direito Civil",
         "descricao": "Atuação em contratos, indenizações, responsabilidade civil e relações patrimoniais."
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-terapia-casal-1.jpg",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-trabalhista-1.jpg",
         "titulo": "Direito Trabalhista",
         "descricao": "Defesa de empresas e trabalhadores em ações trabalhistas e consultoria preventiva."
       },
@@ -113,9 +113,9 @@
     "subtitulo": "Por que nos escolher",
     "titulo": "Compromisso com Justiça e Resultado",
     "descricao": "Nosso escritório atua com visão estratégica, atendimento humanizado e profundo conhecimento jurídico, buscando sempre a melhor solução para cada cliente.",
-    "imagem_lateral": "dist/imagens/porquenos/advocacia/porquenos-1.jpg",
-    "imagem_principal": "dist/imagens/porquenos/advocacia/porquenos-2.jpg",
-    "imagem_terciaria": "dist/imagens/porquenos/advocacia/porquenos-3.jpg",
+    "imagem_lateral": "dist/imagens/porquenos/advocacia/porquenos-1.webp",
+    "imagem_principal": "dist/imagens/porquenos/advocacia/porquenos-2.webp",
+    "imagem_terciaria": "dist/imagens/porquenos/advocacia/porquenos-3.webp",
     "pontos": [
       { "titulo": "Atendimento Personalizado", "icone": "icon-counseling" },
       { "titulo": "Equipe Especializada", "icone": "icon-doctor" }
@@ -130,22 +130,22 @@
       {
         "nome": "Dr. Ricardo Almeida",
         "especialidade": "Direito Civil e Empresarial",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-1.jpg"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
       },
       {
         "nome": "Dra. Mariana Torres",
         "especialidade": "Direito Trabalhista",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.jpg"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
       },
       {
         "nome": "Dr. Felipe Rocha",
         "especialidade": "Direito de Família",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.jpg"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
       },
       {
         "nome": "Dr. André Mendes",
         "especialidade": "Consultoria Jurídica",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-6.jpg"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
       }
     ]
   },
