@@ -394,31 +394,7 @@
         </section>
 
         <!-- Equipe -->
-        <section class="team-one" id="equipe">
-            <div class="container">
-                <div class="team-one__inner">
-                    <div class="section-title text-center">
-                        <span class="section-title__tagline"><?= $d['equipe']['subtitulo'] ?></span>
-                        <h2 class="section-title__title"><?= $d['equipe']['titulo'] ?></h2>
-                    </div>
-                    <div class="row">
-                        <?php foreach ($d['equipe']['items'] as $index => $membro): ?>
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
-                                <div class="team-one__single">
-                                    <div class="team-one__img">
-                                        <img style="height:310px;max-height:310px;object-fit:cover" src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="<?= $membro['nome'] ?>">
-                                    </div>
-                                    <div class="team-one__content">
-                                        <h4 class="team-one__name"><a href="#"><?= $membro['nome'] ?></a></h4>
-                                        <p class="team-one__sub-title"><?= $membro['especialidade'] ?></p>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-        </section>
+      
 
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
@@ -437,7 +413,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                                 <div class="team-one__single">
                                     <div class="team-one__img">
-                                        <img src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="">
+                                        <img style="height:310px;max-height:310px;object-fit:cover" src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="">
                                         <ul class="list-unstyled team-one__social-two">
                                             <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                         </ul>
@@ -449,8 +425,8 @@
                                         </ul>
                                     </div>
                                     <div class="team-one__content">
-                                        <h4 class="team-one__name"><a href="team-details.html">Camilla Vaz</a></h4>
-                                        <p class="team-one__sub-title">Psicóloga</p>
+                                        <h4 class="team-one__name"><a href="team-details.html"><?= $membro['nome'] ?></a></h4>
+                                        <p class="team-one__sub-title"><?= $membro['especialidade'] ?></p>
                                     </div>
                                 </div>
                             </div>
