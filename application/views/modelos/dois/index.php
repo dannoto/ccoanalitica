@@ -78,11 +78,15 @@
                             <ul class="list-unstyled main-header__contact-list">
                                 <li>
                                     <div class="icon"><i class="icon-phone-call"></i></div>
-                                    <div class="text"><p><a href="tel:<?= str_replace(['(',')',' ','-'], '', $d['header']['telefone_top']) ?>"><?= $d['header']['telefone_top'] ?></a></p></div>
+                                    <div class="text">
+                                        <p><a href="tel:<?= str_replace(['(', ')', ' ', '-'], '', $d['header']['telefone_top']) ?>"><?= $d['header']['telefone_top'] ?></a></p>
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="icon"><i class="icon-message"></i></div>
-                                    <div class="text"><p><a href="mailto:<?= $d['header']['email_top'] ?>"><?= $d['header']['email_top'] ?></a></p></div>
+                                    <div class="text">
+                                        <p><a href="mailto:<?= $d['header']['email_top'] ?>"><?= $d['header']['email_top'] ?></a></p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -93,11 +97,15 @@
                             <ul class="list-unstyled main-header__contact-list-two">
                                 <li>
                                     <div class="icon"><i class="icon-location"></i></div>
-                                    <div class="text"><p><?= $d['header']['localizacao'] ?></p></div>
+                                    <div class="text">
+                                        <p><?= $d['header']['localizacao'] ?></p>
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="icon"><i class="icon-back-in-time"></i></div>
-                                    <div class="text"><p><?= $d['header']['horario_top'] ?></p></div>
+                                    <div class="text">
+                                        <p><?= $d['header']['horario_top'] ?></p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -236,8 +244,8 @@
                 </div>
                 <div class="row">
                     <?php foreach ($d['feature_one']['items'] as $index => $item): ?>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index+1)*100 ?>ms">
-                            <div class="feature-one__single <?= $index == 1 || $index == 3 ? 'feature-one__single--'.($index+1) : '' ?>">
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
+                            <div class="feature-one__single <?= $index == 1 || $index == 3 ? 'feature-one__single--' . ($index + 1) : '' ?>">
                                 <div class="feature-one__title-box">
                                     <h3 class="feature-one__title"><a href="#servicos"><?= $item['titulo'] ?></a></h3>
                                 </div>
@@ -265,7 +273,7 @@
                 </div>
                 <div class="row">
                     <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="<?= ($index+1)*100 ?>ms">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
                             <div class="services-one__single">
                                 <div class="services-one__content">
                                     <h3 class="services-one__title"><?= $servico['titulo'] ?></h3>
@@ -303,6 +311,55 @@
                 </ul>
             </div>
         </section>
+        <section class="counter-one">
+            <div class="container">
+                <ul class="list-unstyled counter-one__list">
+                     <?php foreach ($d['contadores'] as $contador): ?>
+                    <li>
+                        <div class="counter-one__icon">
+                            <span class="icon-certificate"></span>
+                        </div>
+                        <h4 class="counter-one__title"><?= $contador['texto'] ?></h4>
+                        <div class="counter-one__count-box">
+                            <h3 class="odometer" data-count="<?= $contador['numero'] ?>">00</h3>
+                            <span class="counter-one__plus">+</span>
+                        </div>
+                    </li>
+                     <?php endforeach; ?>
+                    <!-- <li>
+                        <div class="counter-one__icon">
+                            <span class="icon-family"></span>
+                        </div>
+                        <h4 class="counter-one__title">Psicologia da <br> Família</h4>
+                        <div class="counter-one__count-box">
+                            <h3 class="odometer" data-count="2710">00</h3>
+                            <span class="counter-one__letter">k</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="counter-one__icon">
+                            <span class="icon-communication"></span>
+                        </div>
+                        <h4 class="counter-one__title">Terapia em <br> Grupo</h4>
+                        <div class="counter-one__count-box">
+                            <h3 class="odometer" data-count="121">00</h3>
+                            <span class="counter-one__letter">k</span>
+                            <span class="counter-one__plus">+</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="counter-one__icon">
+                            <span class="icon-discussion"></span>
+                        </div>
+                        <h4 class="counter-one__title">Terapia de <br> Casal</h4>
+                        <div class="counter-one__count-box">
+                            <h3 class="odometer" data-count="27">00</h3>
+                            <span class="counter-one__letter">k</span>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
 
         <!-- Por Que Escolher -->
         <section class="why-choose-one">
@@ -320,7 +377,9 @@
                                     <?php foreach (array_slice($d['porque']['pontos'], 0, 2) as $ponto): ?>
                                         <li>
                                             <div class="icon"><span class="<?= $ponto['icone'] ?>"></span></div>
-                                            <div class="text"><h5><?= $ponto['titulo'] ?></h5></div>
+                                            <div class="text">
+                                                <h5><?= $ponto['titulo'] ?></h5>
+                                            </div>
                                         </li>
                                     <?php endforeach; ?>
                                 </ul>
@@ -329,7 +388,7 @@
                                 <div class="why-choose-one__call">
                                     <div class="why-choose-one__call-icon"><span class="fas fa-phone-alt"></span></div>
                                     <div class="why-choose-one__call-content">
-                                        <h4 class="why-choose-one__call-number"><a href="tel:<?= str_replace(['(',')',' ','-'], '', $d['porque']['telefone_chamada']) ?>"><?= $d['porque']['telefone_chamada'] ?></a></h4>
+                                        <h4 class="why-choose-one__call-number"><a href="tel:<?= str_replace(['(', ')', ' ', '-'], '', $d['porque']['telefone_chamada']) ?>"><?= $d['porque']['telefone_chamada'] ?></a></h4>
                                         <p class="why-choose-one__call-sub-title">Fale com os nossos especialistas</p>
                                     </div>
                                 </div>
@@ -359,7 +418,7 @@
                     </div>
                     <div class="row">
                         <?php foreach ($d['equipe']['items'] as $index => $membro): ?>
-                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index+1)*100 ?>ms">
+                            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
                                 <div class="team-one__single">
                                     <div class="team-one__img">
                                         <img style="height:310px;max-height:310px;object-fit:cover" src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="<?= $membro['nome'] ?>">
@@ -447,7 +506,7 @@
                                         <div class="contact-page__contact-list-content">
                                             <h4 class="contact-page__contact-list-title">Telefone</h4>
                                             <p class="contact-page__contact-list-text">
-                                                <a href="tel:<?= str_replace(['(',')',' ','-'], '', $d['contato']['telefone1']) ?>"><?= $d['contato']['telefone1'] ?></a>
+                                                <a href="tel:<?= str_replace(['(', ')', ' ', '-'], '', $d['contato']['telefone1']) ?>"><?= $d['contato']['telefone1'] ?></a>
                                             </p>
                                         </div>
                                     </li>
@@ -503,15 +562,21 @@
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp">
                             <div class="footer-widget__column footer-widget__contact">
-                                <div class="footer-widget__title-box"><h4 class="footer-widget__title">Contato</h4></div>
+                                <div class="footer-widget__title-box">
+                                    <h4 class="footer-widget__title">Contato</h4>
+                                </div>
                                 <ul class="list-unstyled footer-widget__contact-list">
                                     <li>
                                         <div class="icon"><i class="fas fa-envelope"></i></div>
-                                        <div class="text"><p><a href="mailto:<?= $d['footer']['email'] ?>"><?= $d['footer']['email'] ?></a></p></div>
+                                        <div class="text">
+                                            <p><a href="mailto:<?= $d['footer']['email'] ?>"><?= $d['footer']['email'] ?></a></p>
+                                        </div>
                                     </li>
                                     <li>
                                         <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-                                        <div class="text"><p><?= $d['footer']['endereco'] ?></p></div>
+                                        <div class="text">
+                                            <p><?= $d['footer']['endereco'] ?></p>
+                                        </div>
                                     </li>
                                 </ul>
                                 <div class="footer-widget__open-hours">
@@ -550,4 +615,5 @@
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/wow/wow.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/js/meciy.js"></script>
 </body>
+
 </html>
