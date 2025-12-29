@@ -395,7 +395,6 @@
 
         <!-- Equipe -->
       
-
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="assets/images/shapes/team-one-shape-1.png" alt="">
@@ -404,8 +403,8 @@
                 <div class="team-one__inner">
                     <div class="team-one__big-text">Team</div>
                     <div class="section-title text-center">
-                        <span class="section-title__tagline">Nossos Especialistas</span>
-                        <h2 class="section-title__title">Conheça os membros da nossa equipe</h2>
+                        <span class="section-title__tagline"><?= $d['equipe']['subtitulo'] ?></span>
+                        <h2 class="section-title__title"><?= $d['equipe']['titulo'] ?></h2>
                     </div>
                     <div class="row">
                         <?php foreach ($d['equipe']['items'] as $index => $membro): ?>
