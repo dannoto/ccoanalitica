@@ -409,7 +409,7 @@
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
-                        <a target="_blank" href="<?= $d['header']['botao_agendar']['texto'] ?>" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
+                        <a target="_blank" href="<?= $d['header']['botao_agendar']['link'] ?>" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
                     </div>
                 </div>
             </div>
