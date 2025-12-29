@@ -140,7 +140,39 @@
         </header>
 
         <!-- Slider Principal -->
-    
+        <section class="main-slider">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {"el": "#main-slider-pagination", "type": "bullets", "clickable": true}, "navigation": {"nextEl": "#main-slider__swiper-button-next", "prevEl": "#main-slider__swiper-button-prev"}, "autoplay": {"delay": 5000}}'>
+                <div class="swiper-wrapper">
+                    <?php foreach ($d['slider']['slides'] as $slide): ?>
+                        <div class="swiper-slide">
+                            <div class="image-layer" style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="main-slider__content">
+                                            <!-- <div class="main-slider__shape-one float-bob-x" style="background: orange"></div> -->
+                                            <h2 class="main-slider__title"><?= $slide['titulo'] ?></h2>
+                                            <div class="main-slider__btn-box">
+                                                <a href="<?= $slide['botao']['link'] ?>" class="thm-btn main-slider__btn-one">
+                                                    <?= $slide['botao']['texto'] ?> <i class="icon-right-arrow1"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i class="icon-right-arrow"></i></div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i class="icon-right-arrow1"></i></div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Sobre -->
         <section class="about-one" id="sobre">
             <div class="container">
@@ -163,7 +195,7 @@
                                         </div>
                                     </div> -->
                                 </div>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -258,22 +290,22 @@
         </section>
 
         <!-- Contadores -->
-      
+
         <section class="counter-one">
             <div class="container">
                 <ul class="list-unstyled counter-one__list">
-                     <?php foreach ($d['contadores'] as $contador): ?>
-                    <li>
-                        <!-- <div class="counter-one__icon">
+                    <?php foreach ($d['contadores'] as $contador): ?>
+                        <li>
+                            <!-- <div class="counter-one__icon">
                             <span class="icon-certificate"></span>
                         </div> -->
-                        <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
-                        <div class="counter-one__count-box">
-                            <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
-                            <span class="counter-one__plus">+</span>
-                        </div>
-                    </li>
-                     <?php endforeach; ?>
+                            <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
+                            <div class="counter-one__count-box">
+                                <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
+                                <span class="counter-one__plus">+</span>
+                            </div>
+                        </li>
+                    <?php endforeach; ?>
                     <!-- <li>
                         <div class="counter-one__icon">
                             <span class="icon-family"></span>
