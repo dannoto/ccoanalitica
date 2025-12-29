@@ -409,7 +409,7 @@
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
-                        <a href="#LINK_WHATSAPP" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
+                        <a target="_blank" href="<?= $d['header']['botao_agendar']['texto'] ?>" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
                     </div>
                 </div>
             </div>
