@@ -265,7 +265,7 @@
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
-            <div class="services-one__bg" style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);"></div>
+          
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline"><?= $d['servicos']['subtitulo'] ?></span>
