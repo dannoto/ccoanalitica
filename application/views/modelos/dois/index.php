@@ -163,13 +163,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="about-one__video-link">
-                                    <a href="<?= $d['sobre']['video'] ?>" class="video-popup">
-                                        <div class="about-one__video-icon">
-                                            <span class="fa fa-play"></span><i class="ripple"></i>
-                                        </div>
-                                    </a>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
