@@ -408,11 +408,9 @@
                             <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
                         </div>
                     </div>
-                    <a href="#LINK_WHATSAPP" class="">
                     <div class="appointments-one__btn-box">
-                        Agendar uma Consulta
+                        <a href="#LINK_WHATSAPP" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
                     </div>
-                    </a>
                 </div>
             </div>
         </section>
@@ -888,14 +886,45 @@
     </a>
 
     <!-- Scripts -->
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <!-- <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jarallax/jarallax.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/odometer/odometer.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/swiper/swiper.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/wow/wow.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/js/meciy.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/assets/js/meciy.js"></script> -->
+
+
+     <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jarallax/jarallax.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/nouislider/nouislider.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/odometer/odometer.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/swiper/swiper.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/wnumb/wNumb.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/wow/wow.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/isotope/isotope.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/countdown/countdown.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/vegas/vegas.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/timepicker/timePicker.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/circleType/jquery.circleType.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/circleType/jquery.lettering.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/sidebar-content/jquery-sidebar-content.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/tweenmax/TweenMax.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/vendors/nice-select/jquery.nice-select.min.js"></script>
+
+    <script src="<?= base_url() ?>dist/modelos/dois/js/meciy.js"></script>
 </body>
 
 </html>
