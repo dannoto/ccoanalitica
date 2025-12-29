@@ -45,7 +45,7 @@
         :root {
             --meciy-base: <?= $d['schema']['background'] ?> !important;
             --meciy-primary: <?= $d['schema']['primary-color'] ?> !important;
-        
+
 
         }
     </style>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="main-header__logo">
 
-                        <svg
+                            <svg
                                 width="260"
                                 height="48"
                                 viewBox="0 0 260 48"
@@ -421,7 +421,7 @@
         </section>
 
         <!-- Depoimentos -->
-     
+
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
@@ -439,35 +439,7 @@
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
                                 <img src="<?= base_url() ?><?= $d['porque']['imagem_lateral'] ?>" alt="">
-                                <!-- <ul class="list-unstyled testimonial-one__counter">
-                                    <li>
-                                        <div class="testimonial-one__counter-icon">
-                                            <span class="icon-happy"></span>
-                                        </div>
-                                        <div class="testimonial-one__counter-content">
-                                            <h3 class="odometer" data-count="2100">00</h3>
-                                            <h5>Projetos Concluídos</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-one__counter-icon">
-                                            <span class="icon-medal"></span>
-                                        </div>
-                                        <div class="testimonial-one__counter-content">
-                                            <h3 class="odometer" data-count="120">00</h3>
-                                            <h5>Prêmios</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-one__counter-icon">
-                                            <span class="icon-good-review"></span>
-                                        </div>
-                                        <div class="testimonial-one__counter-content">
-                                            <h3 class="odometer" data-count="1900">00</h3>
-                                            <h5>Clientes Felizes</h5>
-                                        </div>
-                                    </li>
-                                </ul> -->
+
                             </div>
                         </div>
                     </div>
@@ -480,40 +452,40 @@
 
                                 <div class="swiper-container" id="testimonial-one__thumb">
                                     <div class="swiper-wrapper">
-                                         <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                        <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-one__img-holder">
+                                                    <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                                </div>
                                             </div>
-                                        </div>
-                                          <?php endforeach; ?>
-                                      
+                                        <?php endforeach; ?>
+
                                     </div>
                                 </div>
                                 <div class="testimonial-one__main-content">
                                     <div class="swiper-container" id="testimonial-one__carousel">
                                         <div class="swiper-wrapper">
-                                           <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                            <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-one__content-box">
+                                                        <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
+                                                        <div class="testimonial-one__client-info-box">
+                                                            <div class="testimonial-one__client-info">
+                                                                <div class="testimonial-one__client-img">
+                                                                    <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                                                </div>
+                                                                <div class="testimonial-one__client-content">
+                                                                    <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
+                                                                    <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                                </div>
                                                             </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                            <div class="testimonial-one__client-review">
+                                                                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
                                                             </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        <?php endforeach; ?>
+                                            <?php endforeach; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -571,22 +543,42 @@
                     </div>
                     <div class="col-xl-8 col-lg-7">
                         <div class="contact-page__right">
-                            <form action="assets/inc/sendemail.php" class="contact-page-form__form-box contact-form-validated" novalidate="novalidate">
+                            <form action="assets/inc/sendemail.php"
+                                class="contact-page-form__form-box contact-form-validated" novalidate="novalidate">
                                 <div class="row">
-                                    <div class="col-xl-6"><input type="text" placeholder="Seu Nome" name="name"></div>
-                                    <div class="col-xl-6"><input type="email" placeholder="Seu E-mail" name="email"></div>
-                                    <div class="col-xl-6"><input type="text" placeholder="Seu WhatsApp" name="Phone"></div>
-                                    <div class="col-xl-6"><input type="text" placeholder="Assunto" name="Subject"></div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="contact-page-form__input-box">
+                                            <input type="text" placeholder="Seu Nome" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="contact-page-form__input-box">
+                                            <input type="email" placeholder="Seu E-mail" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="contact-page-form__input-box">
+                                            <input type="text" placeholder="Seu WhatsApp" name="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6">
+                                        <div class="contact-page-form__input-box">
+                                            <input type="text" placeholder="Assunto" name="Subject">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-12">
-                                        <textarea name="message" placeholder="Digite aqui o que você precisa..."></textarea>
+                                        <div class="contact-page-form__input-box text-message-box">
+                                            <textarea name="message" placeholder="Digite aqui o que você precisa..."></textarea>
+                                        </div>
                                         <div class="contact-page-form__btn-box">
                                             <button type="submit" class="thm-btn contact-page-form__btn">Enviar Mensagem</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
+                            <div class="result"></div>
                         </div>
                     </div>
                 </div>
