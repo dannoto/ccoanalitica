@@ -432,10 +432,12 @@
                         <h2 class="section-title__title">Conheça os membros da nossa equipe</h2>
                     </div>
                     <div class="row">
+                                                <?php foreach ($d['equipe']['items'] as $index => $membro): ?>
+
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div class="team-one__single">
                                 <div class="team-one__img">
-                                    <img src="assets/images/team/team-1-1.png" alt="">
+                                    <img src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="">
                                     <ul class="list-unstyled team-one__social-two">
                                         <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                     </ul>
@@ -452,6 +454,7 @@
                                 </div>
                             </div>
                         </div>
+                         <?php endforeach; ?>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="team-one__single">
                                 <div class="team-one__img">
