@@ -1,6 +1,6 @@
 Este é um modelo de template para odontologia.
 
-- Eu preciso que voce crie uma versão para: Odontologia. 
+- Eu preciso que voce crie uma versão para: engenharia. 
 - Seja criativo, simule uma empresa real.
 - Mas respeite todos os campos (indexes), nao troque os valores.
 - A quantidade de items você pode manter o mesmo, como serviços, depoimentos e afins. 
@@ -9,197 +9,328 @@ Este é um modelo de template para odontologia.
 
 {
   "schema": {
-    "background": "#0F2A2E",
-    "primary-color": "#4FA3A5"
-
+    "background": "#0E1A2B",
+    "color": "#FFFFFF",
+    "primary-color": "#1F3C88",
+    "primary-color-rgb": "31,60,136",
+    "secondary-color": "#C9A24D",
+    "secondary-color-rgb": "201,162,77"
   },
-
   "seo": {
-    "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
-    "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
-    "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica",
+    "title": "Almeida & Torres Advogados — Soluções Jurídicas Estratégicas",
+    "description": "Escritório de advocacia especializado em Direito Civil, Trabalhista, Empresarial e Previdenciário.",
+    "keywords": "advocacia, advogado, direito civil, direito trabalhista, direito empresarial",
     "author": "CCO ANALITICA | ccoanalitica.com",
-    "favicon": "images/icon.jpg"
+    "favicon": "images/icon.webp"
   },
-
   "header": {
-    "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
-    "telefone_top": "(11) 99999-9999",
-    "email_top": "contato@seudominio.com.br",
-    "localizacao": "São Paulo, SP",
-    "horario_top": "Seg-Sex: 08:00-20:00",
     "navbar": [
-            { "texto": "Inicio", "link": "#inicio" },
-      { "texto": "Sobre", "link": "#sobre" },
-      { "texto": "Serviços", "link": "#servicos" },
-      { "texto": "Equipe", "link": "#equipe" },
-      { "texto": "Depoimentos", "link": "#depoimentos" },
-      { "texto": "Contato", "link": "#contato" }
-    ],
-    "botao_agendar": {
-      "texto": "Agendar uma Consulta",
-      "link": "https://wa.me/5562982045122"
-    },
-    "whatsapp_float": "https://wa.me/5562982045122"
-  },
-
-  "slider": {
-    "slides": [
       {
-        "imagem": "dist/imagens/slides/psicologia/slide-1.jpg",
-        "titulo": "Cuidar da <br>mente é um <br>ato de amor próprio.",
-        "botao": {
-          "texto": "Agendar uma Consulta",
-          "link": "https://wa.me/5562982045122"
-        }
+        "texto": "Início",
+        "link": "#inicio"
       },
       {
-        "imagem": "dist/imagens/slides/psicologia/slide-2.jpg",
-        "titulo": "Equilíbrio emocional <br>começa com <br>autoconhecimento.",
-        "botao": {
-          "texto": "Agendar uma Consulta",
-          "link": "https://wa.me/5562982045122"
-        }
+        "texto": "Sobre",
+        "link": "#sobre"
       },
       {
-        "imagem": "dist/imagens/slides/psicologia/slide-3.jpg",
-        "titulo": "Sua saúde mental <br>merece cuidado <br>de qualidade.",
-        "botao": {
-          "texto": "Agendar uma Consulta",
-          "link": "https://wa.me/5562982045122"
-        }
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
       }
-    ]
-  },
-
-  "sobre": {
-    "subtitulo": "Sobre a Clínica",
-    "titulo": "Psicologia Humanizada e Baseada em Evidências",
-    "descricao": "Um espaço seguro, acolhedor e ético para o cuidado da saúde emocional. Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida.",
-    "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-    "imagem_secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg",
-    "imagem_terciaria": "dist/imagens/hero/psicologia/hero-4.jpg",
-    "botao_agendar": {
-      "texto": "Agendar uma Consulta",
+    ],
+    "botao": {
+      "texto": "Falar com Advogado",
       "link": "https://wa.me/5562982045122"
     }
   },
-
-  "servicos": {
-    "subtitulo": "Nossos Atendimentos",
-    "titulo": "Serviços Psicológicos Especializados",
-    "items": [
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-individual-1.jpg",
-        "titulo": "Terapia Individual",
-        "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento."
+  "hero": {
+    "imagem": "dist/imagens/hero/advocacia/hero-1.jpg",
+    "top": "Bem-vindo ao Almeida & Torres Advogados",
+    "title": "Defendendo Seus Direitos com Excelência e Estratégia",
+    "description": "Há mais de 15 anos oferecendo assessoria jurídica completa, com atuação ética, estratégica e focada em resultados concretos para pessoas físicas e empresas.",
+    "botao": {
+      "texto": "Agendar Consultoria",
+      "link": "https://wa.me/5562982045122"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de Ajuda Jurídica?",
+        "descricao": "Ligue agora: (11) 99999-9999"
       },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-casal-1.jpg",
-        "titulo": "Terapia de Casal",
-        "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos."
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sexta das 08h às 19h"
       },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
-        "titulo": "Terapia Familiar",
-        "descricao": "Acompanhamento psicológico para melhorar relações familiares."
-      },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-orientacao-psicologica-1.jpg",
-        "titulo": "Orientação Psicológica",
-        "descricao":"Suporte emocional em momentos de crise e tomada de decisões."
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@seudominio.com.br"
       }
-    ]
+    }
   },
-
-  "contadores": [
-    { "numero": 10000, "texto": "Sessões Realizadas" },
-    { "numero": 2500, "texto": "Pacientes Acompanhados" },
-    { "numero": 800, "texto": "Planos Terapêuticos" },
-    { "numero": 15, "texto": "Anos de Experiência" }
-  ],
-
-  "porque": {
-    "subtitulo": "Por que nos escolher",
-    "titulo": "Um Espaço Seguro para Cuidar de Você",
-    "descricao": "Nossa missão é oferecer acolhimento, escuta ativa e intervenções terapêuticas eficazes, sempre respeitando a singularidade de cada pessoa.",
-    "imagem_lateral": "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
-    "imagem_principal": "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
-     "imagem_terciaria": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
-    "pontos": [
-      { "titulo": "Consultas Online", "icone": "icon-counseling" },
-      { "titulo": "Equipe Qualificada", "icone": "icon-doctor" }
+  "sobre": {
+    "subtitulo": "Sobre o Escritório",
+    "titulo": "Compromisso com Justiça, Ética e Resultados",
+    "description": "Atuação jurídica sólida, transparente e personalizada.",
+    "solucoes": [
+      "Atendimento Personalizado",
+      "Estratégia Jurídica Preventiva",
+      "Defesa Técnica Especializada",
+      "Acompanhamento Processual Completo"
     ],
-    "telefone_chamada": "(11) 99999-9999"
+    "imagens": [
+      "dist/imagens/sobre/advocacia/sobre-1.jpg",
+      "dist/imagens/sobre/advocacia/sobre-2.jpg"
+    ]
   },
-
+  "servicos": {
+    "subtitulo": "Áreas de Atuação",
+    "titulo": "Soluções Jurídicas para Cada Necessidade",
+    "descricao": "Atuamos de forma estratégica em diversas áreas do Direito, sempre focados na melhor solução para o cliente.",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
+        "titulo": "Direito Civil",
+        "descricao": "Contratos, indenizações, família, sucessões e responsabilidade civil."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-trabalhista-1.jpg",
+        "titulo": "Direito Trabalhista",
+        "descricao": "Defesa de empregados e empregadores, ações trabalhistas e consultoria preventiva."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-empresarial-1.jpg",
+        "titulo": "Direito Empresarial",
+        "descricao": "Assessoria jurídica para empresas, contratos, compliance e litígios."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-previdenciario-1.jpg",
+        "titulo": "Direito Previdenciário",
+        "descricao": "Aposentadorias, benefícios previdenciários e revisões."
+      }
+    ]
+  },
+  "contadores": [
+    {
+      "numero": 10000,
+      "texto": "Clientes Atendidos"
+    },
+    {
+      "numero": 2500,
+      "texto": "Processos Concluídos"
+    },
+    {
+      "numero": 800,
+      "texto": "Acordos Realizados"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Atuação"
+    }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher Nosso Escritório ",
+    "titulo": "Confiança, Estratégia e Transparência",
+    "descricao": "Nossa atuação é pautada pela ética, clareza nas informações e foco absoluto na defesa dos interesses do cliente.",
+    "items": [
+      {
+        "titulo": "Equipe Especializada",
+        "descricao": "Advogados experientes e atualizados com a legislação vigente."
+      },
+      {
+        "titulo": "Atendimento Humanizado",
+        "descricao": "Cada caso é tratado de forma única e personalizada."
+      },
+      {
+        "titulo": "Estratégia Jurídica",
+        "descricao": "Análise técnica e planejamento focado no melhor resultado."
+      },
+      {
+        "titulo": "Transparência Total",
+        "descricao": "Comunicação clara e acompanhamento em todas as etapas."
+      }
+    ],
+    "imagens": [
+      "dist/imagens/porquenos/advocacia/porquenos-1.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-2.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-3.webp"
+    ]
+  },
   "equipe": {
-    "subtitulo": "Conheça Nossa Equipe",
-    "titulo": "Psicólogos Especialistas",
+    "subtitulo": "Nossa Equipe",
+    "titulo": "Advogados Especialistas",
     "items": [
       {
-        "nome": "Dra. Fernanda Lima",
-        "especialidade": "Psicologia Clínica",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.jpg"
+        "texto": "Dr. Marcelo Almeida",
+        "descripcao": "Direito Civil e Empresarial",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
       },
       {
-        "nome": "Dra. Rafaela Santos",
-        "especialidade": "Terapia Cognitivo-Comportamental",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.jpg"
+        "texto": "Dra. Renata Torres",
+        "descripcao": "Direito Trabalhista",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
       },
       {
-        "nome": "Dr. Carlos Oliveira",
-        "especialidade": "Psicologia Familiar",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.jpg"
+        "texto": "Dr. Felipe Costa",
+        "descripcao": "Direito Previdenciário",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp"
       },
       {
-        "nome": "Dr. Lucas Mendes",
-        "especialidade": "Psicologia Humanista",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-6.jpg"
+        "texto": "Dr. Maria Mendes",
+        "descripcao": "Consultoria Jurídica",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
       }
     ]
   },
-
   "depoimentos": {
-    "subtitulo": "Depoimentos",
-    "titulo": "O que Nossos Pacientes Dizem",
+    "subtitlo": "Depoimentos",
+    "titulo": "O que Nossos Clientes Dizem",
     "items": [
       {
-        "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
-        "nome": "João Santos",
-       "tipo":"Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp"
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
+        "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo fortemente.",
+        "nome": "João Santos"
       },
       {
-        "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
-        "nome": "Júlio Oliveira",
-       "tipo":"Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-2.webp",
+        "texto": "Profissionais extremamente competentes e atenciosos. Resolveram meu caso com agilidade.",
+        "nome": "Júlio Oliveira"
       },
       {
-        "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
-        "nome": "Carlos Pereira",
-       "tipo":"Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp"
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-3.webp",
+        "texto": "Escritório sério, ético e muito comprometido com o cliente.",
+        "nome": "Carlos Pereira"
       }
     ]
   },
-
-  "contato": {
-    "subtitulo": "Fale Conosco",
-    "titulo": "Agende sua Sessão",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "telefone1": "(11) 99999-9999",
-    "telefone2": "(11) 99999-9999",
-    "email1": "contato@seudominio.com.br",
-    "email2": "contato@seudominio.com.br"
+  "galeria": {
+    "navbar": [
+      "todos",
+      "empresa",
+      "profissionais",
+      "servicos"
+    ],
+    "imagens": [
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.jpg"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-1.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-2.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-3.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-4.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-1.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-2.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-4.jpg"
+      }
+    ]
   },
-
-  "footer": {
-    "descricao": "Cuidado psicológico ético, humanizado e profissional.",
+  "video": {
+    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+    "imagem": "dist/imagens/video/advocacia/video-1.jpeg"
+  },
+  "faq": {
+    "subtitulo": "Dúvidas Frequentes",
+    "titulo": "Perguntas Mais Comuns",
+    "items": [
+      {
+        "pergunta": "Como funciona a primeira consulta?",
+        "resposta": "Realizamos uma análise detalhada do caso e orientamos sobre as melhores estratégias jurídicas."
+      },
+      {
+        "pergunta": "O atendimento é presencial ou online?",
+        "resposta": "Atendemos de forma presencial e também por videoconferência."
+      },
+      {
+        "pergunta": "Quanto tempo dura um processo?",
+        "resposta": "O prazo varia conforme o caso, a complexidade e o órgão responsável."
+      },
+      {
+        "pergunta": "Vocês atendem empresas?",
+        "resposta": "Sim, prestamos assessoria jurídica completa para empresas de diversos portes."
+      },
+      {
+        "pergunta": "As informações são sigilosas?",
+        "resposta": "Sim, todo atendimento é realizado com absoluto sigilo e ética profissional."
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Entre em Contato",
+    "titulo": "Fale com um Advogado",
+    "descricao": "Entre em contato conosco e agende uma consultoria jurídica especializada.",
+    "horarios": "Seg - Sex: 08:00 - 19:00",
     "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
     "email": "contato@seudominio.com.br",
-    "horario": "Segunda - Sexta: 08:00 às 20:00<br>Sábado: 08:00 às 14:00<br>Domingo: Fechado",
-    "copyright": "© 2025 Instituto Harmonia. Todos os direitos reservados. Desenvolvido por CCO Analítica."
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#",
+      "x": "#"
+    }
+  },
+  "acao": {
+    "texto": "Precisa de orientação jurídica agora?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Falar com Advogado"
+    }
+  },
+  "footer": {
+    "description": "Atuação jurídica sólida, ética e focada em resultados.",
+    "copyright": "© 2025 Almeida & Torres Advogados"
   }
 }
