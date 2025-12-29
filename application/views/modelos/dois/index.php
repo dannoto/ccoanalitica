@@ -398,7 +398,7 @@
                 <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                     <div class="appointments-one__big-text img-bounce">Psicologista</div>
                     <div class="appointments-one__img">
-                        <img src="assets/images/resources/appointments-one-img-1.jpg" alt="">
+                        <img src="<?= $d['sobre']['imagem_secundaria'] ?>" alt="">
                     </div>
                     <div class="appointments-one__left">
                         <div class="appointments-one__icon">
@@ -418,7 +418,7 @@
       
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
-                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
+                <img src="<?= $d['sobre']['imagem_secundaria'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="team-one__inner">
