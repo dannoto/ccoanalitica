@@ -508,7 +508,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-1.jpg"
+                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
@@ -532,7 +532,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-2.jpg"
+                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
@@ -557,7 +557,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-3.jpg"
+                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
