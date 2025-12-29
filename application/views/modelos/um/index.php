@@ -722,6 +722,7 @@
     </a>
 
 
+    
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/plugins.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/designesia.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/swiper.js"></script>
