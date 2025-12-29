@@ -425,7 +425,7 @@
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
-                <img src="assets/images/testimonial/testimonial-one-side-img.jpg" alt="">
+                <img src="<?= base_url() ?><?= $d['porque']['imagem_lateral'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="section-title text-center">
