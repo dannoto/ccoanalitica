@@ -522,21 +522,14 @@
 
                                 <div class="swiper-container" id="testimonial-one__thumb">
                                     <div class="swiper-wrapper">
+                                         <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
                                             </div>
                                         </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
-                                            </div>
-                                        </div>
+                                          <?php endforeach; ?>
+                                      
                                     </div>
                                 </div>
                                 <div class="testimonial-one__main-content">
