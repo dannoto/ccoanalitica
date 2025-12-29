@@ -578,99 +578,39 @@
 
                                 <div class="swiper-container" id="testimonial-one__thumb">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
+                                       <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-one__img-holder">
+                                                    <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
-                                            </div>
-                                        </div>
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                                 <div class="testimonial-one__main-content">
                                     <div class="swiper-container" id="testimonial-one__carousel">
                                         <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">Cheguei perdida, sem saber por onde começar. Hoje consigo organizar meus pensamentos e enxergar soluções com mais clareza. A terapia mudou minha rotina. </p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
-                                                                    alt="">
+                                             <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                                <div class="swiper-slide">
+                                                    <div class="testimonial-one__content-box">
+                                                        <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
+                                                        <div class="testimonial-one__client-info-box">
+                                                            <div class="testimonial-one__client-info">
+                                                                <div class="testimonial-one__client-img">
+                                                                    <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                                                </div>
+                                                                <div class="testimonial-one__client-content">
+                                                                    <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
+                                                                    <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                                </div>
                                                             </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Amanda Silva</h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                            <div class="testimonial-one__client-review">
+                                                                <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
                                                             </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">Aprendi a reconhecer meus limites e a cuidar de mim. O espaço é acolhedor e me sinto realmente ouvido. Minha evolução tem sido constante. </p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Carlos Augusto
-                                                                </h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">O acompanhamento tem me ajudado a entender minhas emoções e lidar melhor com a ansiedade. Me sinto mais segura e confiante a cada sessão.</p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Maria Luiza</h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <?php endforeach; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -885,15 +825,7 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Scripts -->
-    <!-- <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jarallax/jarallax.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/odometer/odometer.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/swiper/swiper.min.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/wow/wow.js"></script>
-    <script src="<?= base_url() ?>dist/modelos/dois/assets/js/meciy.js"></script> -->
+
 
 
      <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
