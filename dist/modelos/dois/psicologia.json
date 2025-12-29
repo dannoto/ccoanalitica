@@ -115,6 +115,7 @@
     "descricao": "Nossa missão é oferecer acolhimento, escuta ativa e intervenções terapêuticas eficazes, sempre respeitando a singularidade de cada pessoa.",
     "imagem_lateral": "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
     "imagem_principal": "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
+     "imagem_terciaria": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
     "pontos": [
       { "titulo": "Consultas Online", "icone": "icon-counseling" },
       { "titulo": "Equipe Qualificada", "icone": "icon-doctor" }
