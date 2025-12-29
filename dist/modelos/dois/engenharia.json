@@ -1,0 +1,195 @@
+{
+  "schema": {
+    "background": "#1A2633",
+    "primary-color": "#F2A900"
+  },
+
+  "seo": {
+    "title": "Atlas Engenharia — Soluções em Engenharia Civil",
+    "description": "Empresa de engenharia especializada em projetos, obras, consultoria técnica e gerenciamento de construções.",
+    "keywords": "engenharia, engenharia civil, obras, projetos estruturais, construção civil",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.jpg"
+  },
+
+  "header": {
+    "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
+    "telefone_top": "(11) 99999-9999",
+    "email_top": "contato@seudominio.com.br",
+    "localizacao": "São Paulo, SP",
+    "horario_top": "Seg-Sex: 08:00-20:00",
+    "navbar": [
+      { "texto": "Inicio", "link": "#inicio" },
+      { "texto": "Sobre", "link": "#sobre" },
+      { "texto": "Serviços", "link": "#servicos" },
+      { "texto": "Equipe", "link": "#equipe" },
+      { "texto": "Depoimentos", "link": "#depoimentos" },
+      { "texto": "Contato", "link": "#contato" }
+    ],
+    "botao_agendar": {
+      "texto": "Solicitar Orçamento",
+      "link": "https://wa.me/5562982045122"
+    },
+    "whatsapp_float": "https://wa.me/5562982045122"
+  },
+
+  "slider": {
+    "slides": [
+      {
+        "imagem": "dist/imagens/slides/psicologia/slide-1.jpg",
+        "titulo": "Engenharia <br>que transforma <br>projetos em realidade.",
+        "botao": {
+          "texto": "Solicitar Orçamento",
+          "link": "https://wa.me/5562982045122"
+        }
+      },
+      {
+        "imagem": "dist/imagens/slides/psicologia/slide-2.jpg",
+        "titulo": "Planejamento, <br>segurança e <br>excelência técnica.",
+        "botao": {
+          "texto": "Solicitar Orçamento",
+          "link": "https://wa.me/5562982045122"
+        }
+      },
+      {
+        "imagem": "dist/imagens/slides/psicologia/slide-3.jpg",
+        "titulo": "Soluções em <br>engenharia para <br>obras de alto padrão.",
+        "botao": {
+          "texto": "Solicitar Orçamento",
+          "link": "https://wa.me/5562982045122"
+        }
+      }
+    ]
+  },
+
+  "sobre": {
+    "subtitulo": "Sobre a Empresa",
+    "titulo": "Engenharia com Qualidade, Segurança e Inovação",
+    "descricao": "Com mais de 15 anos de atuação, entregamos soluções completas em engenharia civil, desde o projeto até a execução da obra, sempre com foco em qualidade, prazo e segurança.",
+    "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
+    "imagem_secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg",
+    "imagem_terciaria": "dist/imagens/hero/psicologia/hero-4.jpg",
+    "botao_agendar": {
+      "texto": "Solicitar Orçamento",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
+
+  "servicos": {
+    "subtitulo": "Nossos Serviços",
+    "titulo": "Soluções em Engenharia",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-individual-1.jpg",
+        "titulo": "Projetos Estruturais",
+        "descricao": "Desenvolvimento de projetos estruturais seguros, eficientes e normatizados."
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-casal-1.jpg",
+        "titulo": "Execução de Obras",
+        "descricao": "Construções residenciais, comerciais e industriais com alto padrão de qualidade."
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
+        "titulo": "Gerenciamento de Obras",
+        "descricao": "Planejamento, controle de prazos, custos e qualidade da obra."
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servico-orientacao-psicologica-1.jpg",
+        "titulo": "Consultoria Técnica",
+        "descricao": "Assessoria técnica especializada para tomada de decisões seguras."
+      }
+    ]
+  },
+
+  "contadores": [
+    { "numero": 10000, "texto": "m² Construídos" },
+    { "numero": 2500, "texto": "Projetos Executados" },
+    { "numero": 800, "texto": "Obras Gerenciadas" },
+    { "numero": 15, "texto": "Anos de Experiência" }
+  ],
+
+  "porque": {
+    "subtitulo": "Por que nos escolher",
+    "titulo": "Engenharia com Responsabilidade e Resultado",
+    "descricao": "Atuamos com rigor técnico, transparência e compromisso com normas e prazos, garantindo segurança e eficiência em cada projeto.",
+    "imagem_lateral": "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
+    "imagem_principal": "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
+    "imagem_terciaria": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
+    "pontos": [
+      { "titulo": "Projetos Normatizados", "icone": "icon-counseling" },
+      { "titulo": "Equipe Técnica Especializada", "icone": "icon-doctor" }
+    ],
+    "telefone_chamada": "(11) 99999-9999"
+  },
+
+  "equipe": {
+    "subtitulo": "Nossa Equipe",
+    "titulo": "Engenheiros Especialistas",
+    "items": [
+      {
+        "nome": "Eng. Ricardo Almeida",
+        "especialidade": "Engenharia Civil",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.jpg"
+      },
+      {
+        "nome": "Eng. Mariana Santos",
+        "especialidade": "Gerenciamento de Obras",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.jpg"
+      },
+      {
+        "nome": "Eng. Felipe Oliveira",
+        "especialidade": "Projetos Estruturais",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.jpg"
+      },
+      {
+        "nome": "Eng. Lucas Mendes",
+        "especialidade": "Consultoria Técnica",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-6.jpg"
+      }
+    ]
+  },
+
+  "depoimentos": {
+    "subtitulo": "Depoimentos",
+    "titulo": "O que Nossos Clientes Dizem",
+    "items": [
+      {
+        "texto": "Empresa extremamente profissional, cumpriu prazos e entregou a obra com alta qualidade.",
+        "nome": "João Santos",
+        "tipo": "Cliente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp"
+      },
+      {
+        "texto": "Equipe técnica muito preparada e atendimento transparente.",
+        "nome": "Júlio Oliveira",
+        "tipo": "Cliente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+      },
+      {
+        "texto": "Confiança e segurança do projeto à execução.",
+        "nome": "Carlos Pereira",
+        "tipo": "Cliente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp"
+      }
+    ]
+  },
+
+  "contato": {
+    "subtitulo": "Fale Conosco",
+    "titulo": "Solicite um Orçamento",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone1": "(11) 99999-9999",
+    "telefone2": "(11) 99999-9999",
+    "email1": "contato@seudominio.com.br",
+    "email2": "contato@seudominio.com.br"
+  },
+
+  "footer": {
+    "descricao": "Soluções em engenharia com qualidade, segurança e compromisso.",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "email": "contato@seudominio.com.br",
+    "horario": "Segunda - Sexta: 08:00 às 20:00<br>Sábado: 08:00 às 14:00<br>Domingo: Fechado",
+    "copyright": "© 2025 Atlas Engenharia. Todos os direitos reservados. Desenvolvido por CCO Analítica."
+  }
+}
