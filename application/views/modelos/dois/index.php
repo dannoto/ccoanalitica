@@ -306,7 +306,7 @@
                         </div> -->
                         <h4 class="counter-one__title"><?= $contador['texto'] ?></h4>
                         <div class="counter-one__count-box">
-                            <h3 class="odometer" data-count="<?= $contador['numero'] ?>">00</h3>
+                            <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
                             <span class="counter-one__plus">+</span>
                         </div>
                     </li>
