@@ -185,7 +185,7 @@
                                 </div>
                                 <div class="about-one__img-two">
                                     <img style="height:350px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
-                                    
+
                                 </div>
 
                             </div>
@@ -198,7 +198,7 @@
                                 <h2 class="section-title__title"><?= $d['sobre']['titulo'] ?></h2>
                             </div>
                             <p class="about-one__text-1"><?= $d['sobre']['descricao'] ?></p>
-                            
+
                             <div class="about-one__btn-box">
                                 <a href="<?= $d['sobre']['botao_agendar']['link'] ?>" class="thm-btn about-one__btn">
                                     <?= $d['sobre']['botao_agendar']['texto'] ?> <i class="icon-right-arrow1"></i>
@@ -210,7 +210,7 @@
             </div>
         </section>
 
-       
+
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
@@ -222,7 +222,7 @@
                 </div>
                 <div class="row">
                     <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
-                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
+                        <div class="col-xl-3 col-lg-3 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
                             <div class="services-one__single">
                                 <div class="services-one__content">
                                     <h3 class="services-one__title"><?= $servico['titulo'] ?></h3>
@@ -251,8 +251,8 @@
                     <?php foreach ($d['contadores'] as $contador): ?>
                         <li>
                             <div class="counter-one__icon">
-                            <span class="icon-start"></span>
-                        </div>
+                                <span class="icon-start"></span>
+                            </div>
                             <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
                             <div class="counter-one__count-box">
                                 <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
