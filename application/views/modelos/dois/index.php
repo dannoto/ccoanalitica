@@ -398,7 +398,7 @@
                 <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                     <div class="appointments-one__big-text img-bounce">Psicologista</div>
                     <div class="appointments-one__img">
-                        <img src="<?= $d['sobre']['imagem_secundaria'] ?>" alt="">
+                        <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
                     </div>
                     <div class="appointments-one__left">
                         <div class="appointments-one__icon">
@@ -523,7 +523,7 @@
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
-                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
+                <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="section-title text-center">
@@ -536,7 +536,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
-                                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
+                                <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
                                 <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
