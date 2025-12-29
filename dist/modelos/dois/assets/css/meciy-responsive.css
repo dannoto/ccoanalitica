@@ -2080,7 +2080,7 @@
     }
 
     .main-menu__btn-box {
-        display: none;
+        display: block;
     }
 
     .main-menu__search-box {
@@ -2243,7 +2243,7 @@
     .main-menu__wrapper {
         margin-left: 30px;
         margin-right: 30px;
-        /* padding: 0px 20px 0px; */
+       padding: 0px 20px 0px 50px;
     }
 
     .main-menu__search-box {
