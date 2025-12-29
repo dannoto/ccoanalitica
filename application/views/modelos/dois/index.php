@@ -265,7 +265,7 @@
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
-            <div class="services-one__bg" style="background-image: url(assets/images/backgrounds/services-one-bg.jpg);"></div>
+            <div class="services-one__bg" style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);"></div>
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline"><?= $d['servicos']['subtitulo'] ?></span>
@@ -516,7 +516,7 @@
                     <div class="col-xl-8">
                         <div class="testimonial-one__right">
                             <div class="testimonial-one__right-shape-1"
-                                style="background-image: url(assets/images/shapes/testimonial-one-right-shape-1.png);">
+                                style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);">
                             </div>
                             <div class="testimonial-one__slider">
 
