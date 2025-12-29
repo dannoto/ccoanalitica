@@ -807,7 +807,7 @@
                                     <h4 class="footer-widget__title">Páginas</h4>
                                     <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;" >
                                         <?php foreach ($d['header']['navbar'] as $item): ?>
-                                            <li style="margin-bottom:5px;text-decoration:none;color:#FFF" ><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
+                                            <li style="margin-bottom:5px;text-decoration:none;color:#FFF" ><a  style="text-decoration:none;" href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
