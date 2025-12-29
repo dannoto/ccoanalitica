@@ -3380,23 +3380,23 @@ ul {
 }
 
 .about-one__img-box:before {
-  content: "";
+  /* content: "";
   position: absolute;
   bottom: 246px;
   left: -17px;
   height: 300px;
   width: 17px;
-  background-color: var(--meciy-primary);
+  background-color: var(--meciy-primary); */
 }
 
 .about-one__img-box:after {
-  content: "";
+  /* content: "";
   position: absolute;
   bottom: 85px;
   left: -17px;
   height: 150px;
   width: 17px;
-  background-color: var(--meciy-base);
+  background-color: var(--meciy-base); */
 }
 
 .about-one__img {
