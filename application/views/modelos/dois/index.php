@@ -397,11 +397,13 @@
             <div class="container">
                 <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                     <div class="appointments-one__big-text img-bounce">Psicologista</div>
-                   
-                    <div class="appointments-one__left">
+                    <div class="appointments-one__img">
                         <div class="appointments-one__icon">
                             <span class="icon-brain"></span>
                         </div>
+                    </div>
+                    <div class="appointments-one__left">
+                       
                         <div class="appointments-one__content">
                             <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
                         </div>
