@@ -420,6 +420,103 @@
             </div>
         </section>
 
+           <section class="team-one" id="equipe">
+            <div class="team-one__shape-1 float-bob-y">
+                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="team-one__inner">
+                    <div class="team-one__big-text">Team</div>
+                    <div class="section-title text-center">
+                        <span class="section-title__tagline">Nossos Especialistas</span>
+                        <h2 class="section-title__title">Conheça os membros da nossa equipe</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="team-one__single">
+                                <div class="team-one__img">
+                                    <img src="assets/images/team/team-1-1.png" alt="">
+                                    <ul class="list-unstyled team-one__social-two">
+                                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                                    </ul>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-one__content">
+                                    <h4 class="team-one__name"><a href="team-details.html">Camilla Vaz</a></h4>
+                                    <p class="team-one__sub-title">Psicóloga</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="team-one__single">
+                                <div class="team-one__img">
+                                    <img src="assets/images/team/team-1-2.png" alt="">
+                                    <ul class="list-unstyled team-one__social-two">
+                                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                                    </ul>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-one__content">
+                                    <h4 class="team-one__name"><a href="team-details.html">Alberto Luiz</a></h4>
+                                    <p class="team-one__sub-title">Psicanalista</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="team-one__single">
+                                <div class="team-one__img">
+                                    <img src="assets/images/team/team-1-3.png" alt="">
+                                    <ul class="list-unstyled team-one__social-two">
+                                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                                    </ul>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-one__content">
+                                    <h4 class="team-one__name"><a href="team-details.html">Paula Nogueira</a></h4>
+                                    <p class="team-one__sub-title">Psicopedagoga</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="team-one__single">
+                                <div class="team-one__img">
+                                    <img src="assets/images/team/team-1-4.png" alt="">
+                                    <ul class="list-unstyled team-one__social-two">
+                                        <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                                    </ul>
+                                    <ul class="list-unstyled team-one__social">
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-one__content">
+                                    <h4 class="team-one__name"><a href="team-details.html">Júlia Souza</a></h4>
+                                    <p class="team-one__sub-title">Psicoterapeuta</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Depoimentos -->
 
 
