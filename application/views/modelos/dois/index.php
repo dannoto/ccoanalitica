@@ -623,6 +623,52 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="footer-widget__column footer-widget__instagram">
+                                <div class="footer-widget__title-box">
+                                    <h4 class="footer-widget__title">Instagram</h4>
+                                </div>
+                                <ul class="footer-widget__instagram-list list-unstyled clearfix">
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-1.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-2.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-3.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-4.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-5.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="footer-widget__instagram-img">
+                                            <img src="assets/images/resources/footer-widget-instagram-6.jpg" alt="">
+                                            <a href="#"><span class="fab fa-instagram"></span></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="site-footer__bottom">
