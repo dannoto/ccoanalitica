@@ -41,6 +41,14 @@
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/dois/assets/vendors/timepicker/timePicker.css" />
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/dois/assets/vendors/nice-select/nice-select.css" />
 
+    <style>
+        :root {
+            --meciy-base:<?= $d['schema']['primary-color'] ?> !important;
+            --meciy-primary: <?= $d['schema']['#C8B08A'] ?> !important;
+      
+        }
+    </style>
+
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/dois/assets/css/meciy.css" />
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/dois/assets/css/meciy-responsive.css" />
 
