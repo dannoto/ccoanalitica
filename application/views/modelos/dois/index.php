@@ -150,7 +150,7 @@
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="main-slider__content">
-                                            <!-- <div class="main-slider__shape-one float-bob-x" style="background-image: url(assets/images/shapes/main-slider-shape-1.png);"></div> -->
+                                            <div class="main-slider__shape-one float-bob-x" style="background: orange"></div>
                                             <h2 class="main-slider__title"><?= $slide['titulo'] ?></h2>
                                             <div class="main-slider__btn-box">
                                                 <a href="<?= $slide['botao']['link'] ?>" class="thm-btn main-slider__btn-one">
