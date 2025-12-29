@@ -397,7 +397,7 @@
       
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
-                <img src="assets/images/shapes/team-one-shape-1.png" alt="">
+                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="team-one__inner">
@@ -502,7 +502,7 @@
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
-                <img src="assets/images/testimonial/testimonial-one-side-img.jpg" alt="">
+                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
             </div>
             <div class="container">
                 <div class="section-title text-center">
@@ -515,7 +515,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
-                                <img src="assets/images/testimonial/testimonial-one-left-img-1.jpg" alt="">
+                                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
                                 <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
@@ -551,7 +551,7 @@
                     <div class="col-xl-8">
                         <div class="testimonial-one__right">
                             <div class="testimonial-one__right-shape-1"
-                                style="background-image: url(assets/images/shapes/testimonial-one-right-shape-1.png);">
+                                style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);">
                             </div>
                             <div class="testimonial-one__slider">
 
