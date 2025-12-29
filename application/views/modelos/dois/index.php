@@ -794,7 +794,7 @@
                                     <h4 class="footer-widget__title">Serviços</h4>
                                       <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;" >
                                         <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
-                                            <li><span class="main-menu-border"><?= $servico['titulo'] ?></span></li>
+                                            <li style="margin-bottom:5px;text-decoration:none;color:#FFF"><span class="main-menu-border"><?= $servico['titulo'] ?></span></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
@@ -807,7 +807,7 @@
                                     <h4 class="footer-widget__title">Páginas</h4>
                                     <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;" >
                                         <?php foreach ($d['header']['navbar'] as $item): ?>
-                                            <li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
+                                            < style="margin-bottom:5px;text-decoration:none;color:#FFF"li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
