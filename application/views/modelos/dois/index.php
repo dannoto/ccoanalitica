@@ -572,7 +572,7 @@
                     <div class="col-xl-8">
                         <div class="testimonial-one__right">
                             <div class="testimonial-one__right-shape-1"
-                                style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);">
+                                style="background-image: url(<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>);">
                             </div>
                             <div class="testimonial-one__slider">
 
