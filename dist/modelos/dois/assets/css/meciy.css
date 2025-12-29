@@ -3835,8 +3835,8 @@ position: absolute;
   background-color: #fefaf9;
   overflow: hidden;
   padding: 220px 0 180px;
-  margin-top:70px;
-  margin-top: -150px;
+  /* margin-top:70px; */
+  margin-top: -90px;
   z-index: 1;
 }
 
