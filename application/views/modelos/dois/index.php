@@ -304,7 +304,7 @@
                         <!-- <div class="counter-one__icon">
                             <span class="icon-certificate"></span>
                         </div> -->
-                        <h4 class="counter-one__title"><?= $contador['texto'] ?></h4>
+                        <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
                         <div class="counter-one__count-box">
                             <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
                             <span class="counter-one__plus">+</span>
