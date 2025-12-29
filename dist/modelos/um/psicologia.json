@@ -95,22 +95,22 @@
     "descricao": "Atendimentos personalizados para promover equilíbrio emocional, autoconhecimento e bem-estar.",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/psicologia/servico-1.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-individual-1.jpg",
         "titulo": "Terapia Individual",
         "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento."
       },
       {
-        "imagem": "dist/imagens/servicos/psicologia/servico-2.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-casal-1.jpg",
         "titulo": "Terapia de Casal",
         "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos."
       },
       {
-        "imagem": "dist/imagens/servicos/psicologia/servico-1.jpg",
+        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
         "titulo": "Terapia Familiar",
         "descricao": "Acompanhamento psicológico para melhorar relações familiares."
       },
       {
-        "imagem": "dist/imagens/servicos/psicologia/servico-4.png",
+        "imagem": "dist/imagens/servicos/psicologia/servico-orientacao-psicologica-1.jpg",
         "titulo": "Orientação Psicológica",
         "descricao": "Suporte emocional em momentos de crise e tomada de decisões."
       }
