@@ -233,7 +233,7 @@
                             <div class="col-lg-3 col-sm-6">
                                 <div class="hover">
                                     <div class="bg-white h-100 p-30 rounded-1">
-                                        <img style="max-height:250px;height:250px" src="<?= base_url($servico['imagem']) ?>" class="w-100 mb-3 wow scaleIn" alt="">
+                                        <img style="max-height:150px;height:150px;object-fit:cover" src="<?= base_url($servico['imagem']) ?>" class="w-100 mb-3 wow scaleIn" alt="">
                                         <div class="relative mt-4 wow fadeInUp">
                                             <h4><?= $servico['titulo'] ?></h4>
                                             <p><?= $servico['descricao'] ?></p>
