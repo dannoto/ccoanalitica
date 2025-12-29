@@ -3437,9 +3437,9 @@ ul {
 }
 
 .about-one__img-two {
-  position: absolute;
-  right: -102px;
-  bottom: -60px;
+position: absolute;
+  right: -58px;
+  bottom: -190px;
   z-index: 2;
 }
 
