@@ -421,14 +421,58 @@
         </section>
 
         <!-- Depoimentos -->
-          <section class="testimonial-one" id="depoimentos">
+        <section class="testimonial-one" id="depoimentos">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline"><?= $d['depoimentos']['subtitulo'] ?></span>
+                    <h2 class="section-title__title"><?= $d['depoimentos']['titulo'] ?></h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8">
+                        <div class="testimonial-one__right">
+                            <div class="testimonial-one__slider">
+                                <div class="swiper-container" id="testimonial-one__carousel">
+                                    <div class="swiper-wrapper">
+                                        <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-one__content-box">
+                                                    <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
+                                                    <div class="testimonial-one__client-info-box">
+                                                        <div class="testimonial-one__client-info">
+                                                            <div class="testimonial-one__client-img">
+                                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
+                                                            </div>
+                                                            <div class="testimonial-one__client-content">
+                                                                <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
+                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="testimonial-one__client-review">
+                                                            <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <?php endforeach; ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
                 <img src="assets/images/testimonial/testimonial-one-side-img.jpg" alt="">
             </div>
             <div class="container">
                 <div class="section-title text-center">
-                    <span class="section-title__tagline">Depoimentos</span>
-                    <h2 class="section-title__title">Veja o que nossos pacientes têm a dizer<br></h2>
+                    <span class="section-title__tagline"><?= $d['depoimentos']['subtitulo'] ?></span>
+                    <h2 class="section-title__title"><?= $d['depoimentos']['titulo'] ?><br></h2>
                 </div>
             </div>
             <div class="container">
@@ -437,7 +481,7 @@
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
                                 <img src="assets/images/testimonial/testimonial-one-left-img-1.jpg" alt="">
-                                <ul class="list-unstyled testimonial-one__counter">
+                                <!-- <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
                                             <span class="icon-happy"></span>
@@ -465,7 +509,7 @@
                                             <h5>Clientes Felizes</h5>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -482,88 +526,45 @@
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
                                             </div>
-                                        </div><div class="swiper-slide">
+                                        </div>
+                                        <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
                                             </div>
-                                        </div><div class="swiper-slide">
+                                        </div>
+                                        <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
                                             </div>
-                                        </div></div></div><div class="testimonial-one__main-content">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-one__main-content">
                                     <div class="swiper-container" id="testimonial-one__carousel">
                                         <div class="swiper-wrapper">
+                                           <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
                                             <div class="swiper-slide">
                                                 <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">Cheguei perdida, sem saber por onde começar. Hoje consigo organizar meus pensamentos e enxergar soluções com mais clareza. A terapia mudou minha rotina. </p>
+                                                    <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-1.jpg"
-                                                                    alt="">
+                                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Amanda Silva</h4>
+                                                                <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
                                                                 <p class="testimonial-one__client-sub-title">Paciente</p>
                                                             </div>
                                                         </div>
                                                         <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
+                                                            <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div><div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">Aprendi a reconhecer meus limites e a cuidar de mim. O espaço é acolhedor e me sinto realmente ouvido. Minha evolução tem sido constante. </p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-2.jpg"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Carlos Augusto
-                                                                </h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div><div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text">O acompanhamento tem me ajudado a entender minhas emoções e lidar melhor com a ansiedade. Me sinto mais segura e confiante a cada sessão.</p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="assets/images/testimonial/testimonial-client-1-3.jpg"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name">Maria Luiza</h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                            <i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div></div></div>
+                                            </div>
+                                        <?php endforeach; ?>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -571,6 +572,8 @@
                     </div>
                 </div>
             </div>
+        </section>
+
 
         <!-- Contato -->
         <section class="contact-page" id="contato">
