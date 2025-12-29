@@ -408,7 +408,7 @@
                             <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
                         </div>
                     </div>
-                    <a href="#LINK_WHATSAPP" class="appointments-one__btn thm-btn">
+                    <a href="#LINK_WHATSAPP" class="">
                     <div class="appointments-one__btn-box">
                         Agendar uma Consulta
                     </div>
