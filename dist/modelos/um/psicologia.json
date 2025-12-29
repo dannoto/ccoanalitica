@@ -227,7 +227,7 @@
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.webp"
       },
       {
         "categoria": "empresa",
@@ -235,35 +235,35 @@
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-5.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-1.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-6.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-2.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-7.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-3.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-8.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-4.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-9.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-1.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-10.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-2.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-11.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-3.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-12.jpg"
+        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-4.jpg"
       }
     ]
   },
