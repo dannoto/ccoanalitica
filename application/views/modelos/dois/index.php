@@ -821,7 +821,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="site-footer__bottom-inner">
-                                <p class="site-footer__bottom-text"><?= $d['footer']['copyright'] ?>. Desenvolvido por <a target="_blank" href="https://site.tallio.com.br">Talio | Sites</a>.</p>
+                                <p class="site-footer__bottom-text"><?= $d['footer']['copyright'] ?>. Desenvolvido por <a target="_blank" href="https://sites.talio.com.br">Talio | Sites</a>.</p>
                             </div>
                         </div>
                     </div>
