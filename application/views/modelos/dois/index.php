@@ -232,9 +232,9 @@
                                     <div class="services-one__img">
                                         <img src="<?= base_url() ?><?= $servico['imagem'] ?>" alt="">
                                     </div>
-                                    <div class="services-one__icon">
+                                    <!-- <div class="services-one__icon">
                                         <span class="icon-happy"></span>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
