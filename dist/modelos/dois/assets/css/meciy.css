@@ -3834,7 +3834,8 @@ position: absolute;
   display: block;
   background-color: #fefaf9;
   overflow: hidden;
-  padding: 220px 70px 180px;
+  padding: 220px 0 180px;
+  margin-top:70px;
   margin-top: -150px;
   z-index: 1;
 }
