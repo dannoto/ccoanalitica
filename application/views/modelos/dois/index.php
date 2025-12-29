@@ -421,49 +421,7 @@
         </section>
 
         <!-- Depoimentos -->
-        <section class="testimonial-one" id="depoimentos">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline"><?= $d['depoimentos']['subtitulo'] ?></span>
-                    <h2 class="section-title__title"><?= $d['depoimentos']['titulo'] ?></h2>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8">
-                        <div class="testimonial-one__right">
-                            <div class="testimonial-one__slider">
-                                <div class="swiper-container" id="testimonial-one__carousel">
-                                    <div class="swiper-wrapper">
-                                        <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
-                                            <div class="swiper-slide">
-                                                <div class="testimonial-one__content-box">
-                                                    <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
-                                                    <div class="testimonial-one__client-info-box">
-                                                        <div class="testimonial-one__client-info">
-                                                            <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
-                                                            </div>
-                                                            <div class="testimonial-one__client-content">
-                                                                <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
-                                                                <p class="testimonial-one__client-sub-title">Paciente</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="testimonial-one__client-review">
-                                                            <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        <?php endforeach; ?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+     
 
         <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
