@@ -44,7 +44,7 @@
     <style>
         :root {
             --meciy-base:<?= $d['schema']['primary-color'] ?> !important;
-            --meciy-primary: <?= $d['schema']['#C8B08A'] ?> !important;
+            --meciy-primary: <?= $d['schema']['secundary-color'] ?> !important;
       
         }
     </style>
