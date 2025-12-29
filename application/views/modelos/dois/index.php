@@ -794,7 +794,7 @@
                                     <h4 class="footer-widget__title">Serviços</h4>
                                       <ul>
                                         <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
-                                            <li><span class="main-menu-border"><?= $item['titulo'] ?></span></li>
+                                            <li><span class="main-menu-border"><?= $servico['titulo'] ?></span></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
