@@ -47,7 +47,7 @@
     }
   },
   "hero": {
-    "imagem": "dist/imagens/hero/odontologia/hero-1.webp",
+    "imagem": "dist/imagens/hero/advocacia/hero-1.webp",
     "top": "Bem-vindo ao Almeida & Torres Advogados",
     "title": "Defendendo Seus Direitos com Excelência e Estratégia",
     "description": "Há mais de 15 anos oferecendo assessoria jurídica completa, com atuação ética, estratégica e focada em resultados concretos para pessoas físicas e empresas.",
@@ -85,8 +85,8 @@
       "Acompanhamento Processual Completo"
     ],
     "imagens": [
-      "dist/imagens/sobre/odontologia/sobre-1.webp",
-      "dist/imagens/sobre/odontologia/sobre-2.webp"
+      "dist/imagens/sobre/advocacia/sobre-1.webp",
+      "dist/imagens/sobre/advocacia/sobre-2.webp"
     ]
   },
   "servicos": {
@@ -95,22 +95,22 @@
     "descricao": "Atuamos de forma estratégica em diversas áreas do Direito, sempre focados na melhor solução para o cliente.",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-1.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-1.png",
         "titulo": "Direito Civil",
         "descricao": "Contratos, indenizações, família, sucessões e responsabilidade civil."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-2.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-2.png",
         "titulo": "Direito Trabalhista",
         "descricao": "Defesa de empregados e empregadores, ações trabalhistas e consultoria preventiva."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-3.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-3.png",
         "titulo": "Direito Empresarial",
         "descricao": "Assessoria jurídica para empresas, contratos, compliance e litígios."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-4.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-4.png",
         "titulo": "Direito Previdenciário",
         "descricao": "Aposentadorias, benefícios previdenciários e revisões."
       }
@@ -157,9 +157,9 @@
       }
     ],
     "imagens": [
-      "dist/imagens/porquenos/odontologia/porquenos-1.webp",
-      "dist/imagens/porquenos/odontologia/porquenos-2.webp",
-      "dist/imagens/porquenos/odontologia/porquenos-3.webp"
+      "dist/imagens/porquenos/advocacia/porquenos-1.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-2.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-3.webp"
     ]
   },
   "equipe": {
@@ -169,22 +169,22 @@
       {
         "texto": "Dr. Marcelo Almeida",
         "descripcao": "Direito Civil e Empresarial",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-1.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-1.webp"
       },
       {
         "texto": "Dra. Renata Torres",
         "descripcao": "Direito Trabalhista",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-2.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
       },
       {
         "texto": "Dr. Felipe Costa",
         "descripcao": "Direito Previdenciário",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-3.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp"
       },
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Consultoria Jurídica",
-        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-4.webp"
       }
     ]
   },
@@ -193,17 +193,17 @@
     "titulo": "O que Nossos Clientes Dizem",
     "items": [
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-1.webp",
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
         "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo fortemente.",
         "nome": "João Santos"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-2.webp",
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-2.webp",
         "texto": "Profissionais extremamente competentes e atenciosos. Resolveram meu caso com agilidade.",
         "nome": "Júlio Oliveira"
       },
       {
-        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-3.webp",
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-3.webp",
         "texto": "Escritório sério, ético e muito comprometido com o cliente.",
         "nome": "Carlos Pereira"
       }
@@ -219,57 +219,57 @@
     "imagens": [
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-1.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-2.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-3.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.webp"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-4.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-5.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-5.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-6.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-6.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-7.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-7.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-8.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-8.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-9.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-9.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-10.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-10.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-11.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-11.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-12.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-12.webp"
       }
     ]
   },
   "video": {
     "link": "https://youtu.be/awQhrV-gTK8",
-    "imagem": "dist/imagens/video/odontologia/video-1.webp"
+    "imagem": "dist/imagens/video/advocacia/video-1.webp"
   },
   "faq": {
     "subtitulo": "Dúvidas Frequentes",
