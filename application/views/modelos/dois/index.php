@@ -484,17 +484,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
+                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
+                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                     </div>
