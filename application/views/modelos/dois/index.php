@@ -250,9 +250,9 @@
                 <ul class="list-unstyled counter-one__list">
                     <?php foreach ($d['contadores'] as $contador): ?>
                         <li>
-                            <!-- <div class="counter-one__icon">
-                            <span class="icon-certificate"></span>
-                        </div> -->
+                            <div class="counter-one__icon">
+                            <span class="icon-start"></span>
+                        </div>
                             <h2 class="counter-one__title"><?= $contador['texto'] ?></h2>
                             <div class="counter-one__count-box">
                                 <h3 class="odometer" data-count="<?= $contador['numero'] ?>"><?= $contador['numero'] ?></h3>
