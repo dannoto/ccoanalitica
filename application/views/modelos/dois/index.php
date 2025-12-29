@@ -204,17 +204,17 @@
                             </div>
                             <p class="about-one__text-1"><?= $d['sobre']['descricao'] ?></p>
                             <ul class="list-unstyled about-one__points">
-                                <?php foreach ($d['sobre']['pontos'] as $ponto) { ?>
+                                <?php foreach ($d['sobre']['pontos'] as $ponto): ?>
                                     <li>
                                         <div class="icon" style="background-image: url(assets/images/shapes/about-one-points-shape-<?= $loop->index % 2 == 0 ? 1 : 2 ?>.png);">
-                                            <span class="<?= $ponto->icone ?>"></span>
+                                            <span class="<?= $ponto['icone'] ?>"></span>
                                         </div>
                                         <div class="content">
-                                            <h4><?= $ponto->titulo ?></h4>
-                                            <p><?= $ponto->descricao ?></p>
+                                            <h4><?= $ponto['titulo'] ?></h4>
+                                            <p><?= $ponto['descricao'] ?></p>
                                         </div>
                                     </li>
-                                <?php } ?>
+                                <?php endforeach; ?>
                             </ul>
                             <div class="about-one__btn-box">
                                 <a href="<?= $d['sobre']['botao_agendar']['link'] ?>" class="thm-btn about-one__btn">
@@ -362,7 +362,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index+1)*100 ?>ms">
                                 <div class="team-one__single">
                                     <div class="team-one__img">
-                                        <img src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="<?= $membro['nome'] ?>">
+                                        <img style="height:310px;max-height:310px;object-fit:cover" src="<?= base_url() ?><?= $membro['imagem'] ?>" alt="<?= $membro['nome'] ?>">
                                     </div>
                                     <div class="team-one__content">
                                         <h4 class="team-one__name"><a href="#"><?= $membro['nome'] ?></a></h4>
