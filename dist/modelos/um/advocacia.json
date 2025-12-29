@@ -169,7 +169,7 @@
       {
         "texto": "Dr. Marcelo Almeida",
         "descripcao": "Direito Civil e Empresarial",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-1.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
       },
       {
         "texto": "Dra. Renata Torres",
@@ -184,7 +184,7 @@
       {
         "texto": "Dr. Lucas Mendes",
         "descripcao": "Consultoria Jurídica",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-4.webp"
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
       }
     ]
   },
