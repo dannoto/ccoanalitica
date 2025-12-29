@@ -206,19 +206,7 @@
                                 <h2 class="section-title__title"><?= $d['sobre']['titulo'] ?></h2>
                             </div>
                             <p class="about-one__text-1"><?= $d['sobre']['descricao'] ?></p>
-                            <ul class="list-unstyled about-one__points">
-                                <?php foreach ($d['sobre']['pontos'] as $ponto): ?>
-                                    <li>
-                                        <div class="icon" style="background-image: url(assets/images/shapes/about-one-points-shape-1.png);">
-                                            <span class="<?= $ponto['icone'] ?>"></span>
-                                        </div>
-                                        <div class="content">
-                                            <h4><?= $ponto['titulo'] ?></h4>
-                                            <p><?= $ponto['descricao'] ?></p>
-                                        </div>
-                                    </li>
-                                <?php endforeach; ?>
-                            </ul>
+                            
                             <div class="about-one__btn-box">
                                 <a href="<?= $d['sobre']['botao_agendar']['link'] ?>" class="thm-btn about-one__btn">
                                     <?= $d['sobre']['botao_agendar']['texto'] ?> <i class="icon-right-arrow1"></i>
