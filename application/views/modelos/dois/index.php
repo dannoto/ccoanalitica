@@ -295,30 +295,15 @@
         </section>
 
         <!-- Contadores -->
-        <section class="counter-one">
-            <div class="container">
-                <ul class="list-unstyled counter-one__list">
-                    <?php foreach ($d['contadores'] as $contador): ?>
-                        <li>
-                            <div class="counter-one__icon"><span class="icon-certificate"></span></div>
-                            <h4 class="counter-one__title"><?= $contador['texto'] ?></h4>
-                            <div class="counter-one__count-box">
-                                <h3 class="odometer" data-count="<?= $contador['numero'] ?>">00</h3>
-                                <span class="counter-one__plus">+</span>
-                            </div>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </section>
+      
         <section class="counter-one">
             <div class="container">
                 <ul class="list-unstyled counter-one__list">
                      <?php foreach ($d['contadores'] as $contador): ?>
                     <li>
-                        <div class="counter-one__icon">
+                        <!-- <div class="counter-one__icon">
                             <span class="icon-certificate"></span>
-                        </div>
+                        </div> -->
                         <h4 class="counter-one__title"><?= $contador['texto'] ?></h4>
                         <div class="counter-one__count-box">
                             <h3 class="odometer" data-count="<?= $contador['numero'] ?>">00</h3>
