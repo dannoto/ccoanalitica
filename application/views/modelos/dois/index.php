@@ -484,17 +484,17 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
+                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
+                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
-                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
+                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -508,7 +508,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
@@ -532,7 +532,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
@@ -557,7 +557,7 @@
                                                     <div class="testimonial-one__client-info-box">
                                                         <div class="testimonial-one__client-info">
                                                             <div class="testimonial-one__client-img">
-                                                                <img src="<?= base_url() ?>?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+                                                                <img src="<?= base_url() ?>dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
                                                                     alt="">
                                                             </div>
                                                             <div class="testimonial-one__client-content">
