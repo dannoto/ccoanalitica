@@ -31,6 +31,35 @@
             --secondary-color: <?= $d['schema']['secondary-color'] ?>;
             --secondary-color-rgb: <?= $d['schema']['secondary-color-rgb'] ?>;
         }
+
+        #whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 56px;
+            height: 56px;
+            background-color: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
+            cursor: pointer;
+            z-index: 9999;
+            transition: transform .3s ease, box-shadow .3s ease;
+        }
+
+        #whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, .35);
+        }
+
+        #whatsapp-float svg {
+            width: 28px;
+            height: 28px;
+            fill: #fff;
+        }
+    </style>
     </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -352,7 +381,7 @@
                                             <i class="fs-32 fa fa-quote-left absolute start-0 mt-2 p-0 id-color"></i>
                                             <div class="de_testi_by">
                                                 <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>">
-                                                <div><?= $item['nome'] ?><span><?= $item['tipo']?? "Cliente"; ?></span></div>
+                                                <div><?= $item['nome'] ?><span><?= $item['tipo'] ?? "Cliente"; ?></span></div>
                                             </div>
                                             <p class="mt-4 mb-0 text-dark op-6"><?= $item['texto'] ?>
                                             </p>
@@ -686,12 +715,28 @@
         </footer>
     </div>
 
+    <a href="javascript:void(0)" id="whatsapp-float" aria-label="Falar no WhatsApp">
+        <svg viewBox="0 0 32 32">
+            <path d="M19.11 17.53c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.6.14-.18.27-.69.88-.85 1.06-.16.18-.31.2-.58.07-.27-.14-1.14-.42-2.18-1.35-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.14-.6-1.45-.83-1.99-.22-.53-.45-.46-.6-.46h-.52c-.18 0-.47.07-.72.34-.25.27-.94.92-.94 2.25 0 1.33.97 2.61 1.1 2.79.14.18 1.9 2.9 4.6 4.07.64.28 1.14.44 1.53.56.64.2 1.23.17 1.69.1.52-.08 1.6-.65 1.83-1.28.22-.63.22-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM16.04 2.67c-7.37 0-13.37 5.98-13.37 13.33 0 2.35.62 4.64 1.79 6.65L2.6 29.33l6.89-1.81a13.3 13.3 0 0 0 6.55 1.71c7.37 0 13.37-5.98 13.37-13.33 0-7.35-6-13.33-13.37-13.33zm0 24.11c-2.12 0-4.19-.56-6-1.63l-.43-.25-4.09 1.07 1.09-3.98-.28-.41a10.74 10.74 0 0 1-1.66-5.75c0-5.92 4.85-10.74 10.81-10.74s10.81 4.82 10.81 10.74-4.85 10.74-10.81 10.74z" />
+        </svg>
+    </a>
+
+
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/plugins.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/designesia.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/swiper.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/custom-swiper-1.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/custom-marquee.js"></script>
     <script src="<?= base_url() ?>assets/js/model-loader.js"></script>
+    <script>
+        document.getElementById('whatsapp-float').addEventListener('click', function() {
+            const phone = '5599999999999'; // DDI + DDD + número
+            const message = encodeURIComponent('Olá! Gostaria de mais informações.');
+            const url = `https://wa.me/${phone}?text=${message}`;
+
+            window.open(url, '_blank');
+        });
+    </script>
 </body>
 
 </html>
