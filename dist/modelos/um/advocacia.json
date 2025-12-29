@@ -219,51 +219,51 @@
     "imagens": [
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.jpg"
       },
       {
         "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.jpg"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-5.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-1.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-6.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-2.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-7.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-3.webp"
       },
       {
         "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-8.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-4.webp"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-9.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-1.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-10.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-2.jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-11.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3jpg"
       },
       {
         "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-12.webp"
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-4.jpg"
       }
     ]
   },
