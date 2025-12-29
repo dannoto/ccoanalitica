@@ -232,8 +232,8 @@
                         <?php foreach ($d['servicos']['items'] as $servico): ?>
                             <div class="col-lg-3 col-sm-6">
                                 <div class="hover">
-                                    <div class="bg-white h-100 p-40 rounded-1">
-                                        <img src="<?= base_url($servico['imagem']) ?>" class="w-70px mb-3 wow scaleIn" alt="">
+                                    <div class="bg-white h-100 p-30 rounded-1">
+                                        <img src="<?= base_url($servico['imagem']) ?>" class="w-100 mb-3 wow scaleIn" alt="">
                                         <div class="relative mt-4 wow fadeInUp">
                                             <h4><?= $servico['titulo'] ?></h4>
                                             <p><?= $servico['descricao'] ?></p>
