@@ -792,7 +792,7 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Serviços</h4>
-                                      <ul>
+                                      <ul class="main-menu__list" >
                                         <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
                                             <li><span class="main-menu-border"><?= $servico['titulo'] ?></span></li>
                                         <?php endforeach; ?>
@@ -805,7 +805,7 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Páginas</h4>
-                                    <ul>
+                                    <ul class="main-menu__list" >
                                         <?php foreach ($d['header']['navbar'] as $item): ?>
                                             <li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
                                         <?php endforeach; ?>
