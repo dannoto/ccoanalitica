@@ -95,22 +95,22 @@
     "descricao": "Atuamos de forma estratégica em diversas áreas do Direito, sempre focados na melhor solução para o cliente.",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-1.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-civil-1.jpg",
         "titulo": "Direito Civil",
         "descricao": "Contratos, indenizações, família, sucessões e responsabilidade civil."
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-2.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-trabalhista-2.jpg",
         "titulo": "Direito Trabalhista",
         "descricao": "Defesa de empregados e empregadores, ações trabalhistas e consultoria preventiva."
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-3.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-empresarial-3.jpg",
         "titulo": "Direito Empresarial",
         "descricao": "Assessoria jurídica para empresas, contratos, compliance e litígios."
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servico-4.png",
+        "imagem": "dist/imagens/servicos/advocacia/servico-direito-previdenciario-4.jpg",
         "titulo": "Direito Previdenciário",
         "descricao": "Aposentadorias, benefícios previdenciários e revisões."
       }
