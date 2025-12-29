@@ -181,7 +181,7 @@
                         <div class="about-one__left">
                             <div class="about-one__img-box wow slideInLeft">
                                 <div class="about-one__img">
-                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
                                 </div>
                                 <div class="about-one__img-two">
                                     <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
