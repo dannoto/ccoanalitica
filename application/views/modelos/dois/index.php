@@ -537,7 +537,7 @@
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
                                 <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
-                                <ul class="list-unstyled testimonial-one__counter">
+                                <!-- <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
                                             <span class="icon-happy"></span>
@@ -565,7 +565,7 @@
                                             <h5>Clientes Felizes</h5>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                     </div>
