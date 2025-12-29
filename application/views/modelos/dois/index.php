@@ -397,9 +397,7 @@
             <div class="container">
                 <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                     <div class="appointments-one__big-text img-bounce">Psicologista</div>
-                    <div class="appointments-one__img">
-                        <img style="height: 230px;width:250px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
-                    </div>
+                   
                     <div class="appointments-one__left">
                         <div class="appointments-one__icon">
                             <span class="icon-brain"></span>
