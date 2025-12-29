@@ -730,7 +730,7 @@
     <script src="<?= base_url() ?>assets/js/model-loader.js"></script>
     <script>
         document.getElementById('whatsapp-float').addEventListener('click', function() {
-            const phone = '5599999999999'; // DDI + DDD + número
+            const phone = '<?= $d['botao']['link'] ?>'; // DDI + DDD + número
             const message = encodeURIComponent('Olá! Gostaria de mais informações.');
             const url = `https://wa.me/${phone}?text=${message}`;
 
