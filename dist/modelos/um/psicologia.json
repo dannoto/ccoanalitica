@@ -194,16 +194,19 @@
     "items": [
       {
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp",
+        "tipo": "Paciente",
         "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
         "nome": "João Santos"
       },
       {
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp",
+        "tipo": "Paciente",
         "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
         "nome": "Júlio Oliveira"
       },
       {
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp",
+        "tipo": "Paciente",
         "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
         "nome": "Carlos Pereira"
       }

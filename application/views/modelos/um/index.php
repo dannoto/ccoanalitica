@@ -352,7 +352,7 @@
                                             <i class="fs-32 fa fa-quote-left absolute start-0 mt-2 p-0 id-color"></i>
                                             <div class="de_testi_by">
                                                 <img class="circle" alt="" src="<?= base_url() ?><?= $item['imagem'] ?>">
-                                                <div><?= $item['nome'] ?><span>Cliente</span></div>
+                                                <div><?= $item['nome'] ?><span><?= $item['tipo']?? "Cliente"; ?></span></div>
                                             </div>
                                             <p class="mt-4 mb-0 text-dark op-6"><?= $item['texto'] ?>
                                             </p>
