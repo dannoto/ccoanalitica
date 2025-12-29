@@ -290,7 +290,7 @@ ul {
   left: 0;
   bottom: 0;
   width: 3px;
-  background-color: #fcbba4;
+  background-color: var(--mercy-primary);
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -3626,7 +3626,7 @@ position: absolute;
   font-family: var(--meciy-font-two);
   letter-spacing: 0.205em;
   color: transparent;
-  -webkit-text-stroke: 1px #fcbba4;
+  -webkit-text-stroke: 1px var(--mercy-primary);
   transform: rotate(-90deg);
   opacity: .18;
 }
@@ -4583,7 +4583,7 @@ position: absolute;
   font-family: var(--meciy-font-two);
   letter-spacing: 0.205em;
   color: transparent;
-  -webkit-text-stroke: 1px #fcbba4;
+  -webkit-text-stroke: 1px var(--mercy-primary);
   transform: rotate(-90deg);
   opacity: .18;
 }
@@ -4815,7 +4815,7 @@ position: absolute;
   font-family: var(--meciy-font-two);
   letter-spacing: 0.205em;
   color: transparent;
-  -webkit-text-stroke: 1px #fcbba4;
+  -webkit-text-stroke: 1px var(--mercy-primary);
   transform: rotate(-90deg);
   opacity: .18;
 }
@@ -5310,7 +5310,7 @@ position: absolute;
   font-family: var(--meciy-font-two);
   letter-spacing: 0.205em;
   color: transparent;
-  -webkit-text-stroke: 1px #fcbba4;
+  -webkit-text-stroke: 1px var(--mercy-primary);
   transform: rotate(-90deg);
   opacity: .18;
 }
