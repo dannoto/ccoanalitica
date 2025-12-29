@@ -210,33 +210,7 @@
             </div>
         </section>
 
-        <!-- Feature One (Pilares) -->
-        <section class="feature-one">
-            <div class="container">
-                <div class="section-title text-center">
-                    <span class="section-title__tagline"><?= $d['feature_one']['subtitulo'] ?></span>
-                    <h2 class="section-title__title"><?= $d['feature_one']['titulo'] ?></h2>
-                </div>
-                <div class="row">
-                    <?php foreach ($d['feature_one']['items'] as $index => $item): ?>
-                        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="<?= ($index + 1) * 100 ?>ms">
-                            <div class="feature-one__single <?= $index == 1 || $index == 3 ? 'feature-one__single--' . ($index + 1) : '' ?>">
-                                <div class="feature-one__title-box">
-                                    <h3 class="feature-one__title"><a href="#servicos"><?= $item['titulo'] ?></a></h3>
-                                </div>
-                                <div class="feature-one__text-box">
-                                    <p class="feature-one__text"><?= $item['descricao'] ?></p>
-                                </div>
-                                <div class="feature-one__icon">
-                                    <span class="<?= $item['icone'] ?>"></span>
-                                </div>
-                                <div class="feature-one__count"></div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-        </section>
+       
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
