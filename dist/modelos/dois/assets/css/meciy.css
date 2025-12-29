@@ -928,7 +928,7 @@ ul {
 
 .main-header__logo {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 20px;
   right: 0;
   max-width: 220px;
