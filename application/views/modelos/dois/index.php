@@ -480,7 +480,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
-                                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
+                                <img src="<?= $slide['imagem'] ?>" alt="">
                                 <!-- <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
@@ -516,7 +516,7 @@
                     <div class="col-xl-8">
                         <div class="testimonial-one__right">
                             <div class="testimonial-one__right-shape-1"
-                                style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);">
+                                style="background-image: url(<?= $slide['imagem'] ?>);">
                             </div>
                             <div class="testimonial-one__slider">
 
