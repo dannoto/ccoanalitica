@@ -140,38 +140,7 @@
         </header>
 
         <!-- Slider Principal -->
-        <section class="main-slider">
-            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {"el": "#main-slider-pagination", "type": "bullets", "clickable": true}, "navigation": {"nextEl": "#main-slider__swiper-button-next", "prevEl": "#main-slider__swiper-button-prev"}, "autoplay": {"delay": 5000}}'>
-                <div class="swiper-wrapper">
-                    <?php foreach ($d['slider']['slides'] as $slide): ?>
-                        <div class="swiper-slide">
-                            <div class="image-layer" style="background-image: url(<?= base_url() ?><?= $slide['imagem'] ?>);"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xl-12">
-                                        <div class="main-slider__content">
-                                            <!-- <div class="main-slider__shape-one float-bob-x" style="background: orange"></div> -->
-                                            <h2 class="main-slider__title"><?= $slide['titulo'] ?></h2>
-                                            <div class="main-slider__btn-box">
-                                                <a href="<?= $slide['botao']['link'] ?>" class="thm-btn main-slider__btn-one">
-                                                    <?= $slide['botao']['texto'] ?> <i class="icon-right-arrow1"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-
-                <div class="main-slider__nav">
-                    <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i class="icon-right-arrow"></i></div>
-                    <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i class="icon-right-arrow1"></i></div>
-                </div>
-            </div>
-        </section>
-
+    
         <!-- Sobre -->
         <section class="about-one" id="sobre">
             <div class="container">
