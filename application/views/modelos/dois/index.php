@@ -601,7 +601,7 @@
                                                                 </div>
                                                                 <div class="testimonial-one__client-content">
                                                                     <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
-                                                                    <p class="testimonial-one__client-sub-title">Paciente</p>
+                                                                    <p class="testimonial-one__client-sub-title"><?= $depoimento['tipo']?? "Cliente" ?></p>
                                                                 </div>
                                                             </div>
                                                             <div class="testimonial-one__client-review">
