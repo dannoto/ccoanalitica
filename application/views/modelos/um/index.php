@@ -79,8 +79,8 @@
                         <div class="header-inner">
                             <div class="de-flex sm-pt10">
                                 <div class="de-flex-col">
-                                    <div id="logo">
-                                        <a href="#top" style="margin-top: 10px;">
+                                    <div id="logo"  style="padding-top: 10px;">
+                                        <a href="#top">
 
                                             <svg
                                                 width="260"
