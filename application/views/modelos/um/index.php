@@ -83,6 +83,7 @@
                                         <a href="#top">
 
                                             <svg
+                                            style="margin-top:15px"
                                                 width="260"
                                                 height="48"
                                                 viewBox="0 0 260 48"
@@ -722,7 +723,7 @@
     </a>
 
 
-    
+
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/plugins.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/designesia.js"></script>
     <script src="<?= base_url() ?>dist/modelos/um/assets/js/swiper.js"></script>
