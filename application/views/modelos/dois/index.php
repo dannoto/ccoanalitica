@@ -800,6 +800,11 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Páginas</h4>
+                                    <ul>
+                                           <?php foreach ($d['header']['navbar'] as $item): ?>
+                                        <li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
+                                    <?php endforeach; ?>
+                                    </ul>
                                 </div>
 
                             </div>
