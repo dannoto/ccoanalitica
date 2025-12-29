@@ -415,7 +415,7 @@
             </div>
         </section>
         <!-- Equipe -->
-      
+
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
@@ -578,7 +578,7 @@
 
                                 <div class="swiper-container" id="testimonial-one__thumb">
                                     <div class="swiper-wrapper">
-                                       <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                        <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
                                             <div class="swiper-slide">
                                                 <div class="testimonial-one__img-holder">
                                                     <img src="<?= base_url() ?><?= $depoimento['imagem'] ?>" alt="">
@@ -590,7 +590,7 @@
                                 <div class="testimonial-one__main-content">
                                     <div class="swiper-container" id="testimonial-one__carousel">
                                         <div class="swiper-wrapper">
-                                             <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
+                                            <?php foreach ($d['depoimentos']['items'] as $depoimento): ?>
                                                 <div class="swiper-slide">
                                                     <div class="testimonial-one__content-box">
                                                         <p class="testimonial-one__text"><?= $depoimento['texto'] ?></p>
@@ -601,7 +601,7 @@
                                                                 </div>
                                                                 <div class="testimonial-one__client-content">
                                                                     <h4 class="testimonial-one__client-name"><?= $depoimento['nome'] ?></h4>
-                                                                    <p class="testimonial-one__client-sub-title"><?= $depoimento['tipo']?? "Cliente" ?></p>
+                                                                    <p class="testimonial-one__client-sub-title"><?= $depoimento['tipo'] ?? "Cliente" ?></p>
                                                                 </div>
                                                             </div>
                                                             <div class="testimonial-one__client-review">
@@ -792,6 +792,11 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Serviços</h4>
+                                      <ul>
+                                        <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
+                                            <li><span class="main-menu-border"><?= $item['titulo'] ?></span></li>
+                                        <?php endforeach; ?>
+                                    </ul>
                                 </div>
 
                             </div>
@@ -801,9 +806,9 @@
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Páginas</h4>
                                     <ul>
-                                           <?php foreach ($d['header']['navbar'] as $item): ?>
-                                        <li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
-                                    <?php endforeach; ?>
+                                        <?php foreach ($d['header']['navbar'] as $item): ?>
+                                            <li><a href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
+                                        <?php endforeach; ?>
                                     </ul>
                                 </div>
 
@@ -833,7 +838,7 @@
 
 
 
-     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jarallax/jarallax.min.js"></script>
     <script src="<?= base_url() ?>dist/modelos/dois/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
