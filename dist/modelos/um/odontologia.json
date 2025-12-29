@@ -96,22 +96,22 @@
     "items": [
 
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-clareamento-1.jpg",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-clareamento-1.jpg",
         "titulo": "Implantes Dentários",
         "descricao": "Dentes fixos no mesmo dia com carga imediata."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-implante-dentario-1.jpg",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-implante-dentario-1.jpg",
         "titulo": "Lentes de Contato Dental",
         "descricao": "Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-invalisgn-1.jpg",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-invalisgn-1.jpg",
         "titulo": "Invisalign & Ortodontia",
         "descricao": "Alinhamento perfeito sem aparelho metálico. Conforto e discrição."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-lentes-de-contato-1.jpg",
+        "imagem": "dist/imagens/servicos/odontologia/servicos-lentes-de-contato-1.jpg",
         "titulo": "Clareamento Dental",
         "descricao": "Até 8 tons mais branco em apenas 1 hora com tecnologia LED."
       }
