@@ -480,7 +480,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
-                                <img src="assets/images/testimonial/testimonial-one-left-img-1.jpg" alt="">
+                                <img src="<?= base_url() ?><?= $slide['imagem'] ?>" alt="">
                                 <!-- <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
