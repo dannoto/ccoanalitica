@@ -423,9 +423,9 @@
         <!-- Depoimentos -->
 
 
-      
 
-         <section class="testimonial-one" id="depoimentos">
+
+        <section class="testimonial-one" id="depoimentos">
             <div class="testimonial-one__side-img">
                 <img src="assets/images/testimonial/testimonial-one-side-img.jpg" alt="">
             </div>
@@ -486,15 +486,20 @@
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
                                             </div>
-                                        </div><div class="swiper-slide">
+                                        </div>
+                                        <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
                                             </div>
-                                        </div><div class="swiper-slide">
+                                        </div>
+                                        <div class="swiper-slide">
                                             <div class="testimonial-one__img-holder">
                                                 <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
                                             </div>
-                                        </div></div></div><div class="testimonial-one__main-content">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-one__main-content">
                                     <div class="swiper-container" id="testimonial-one__carousel">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
@@ -520,7 +525,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div><div class="swiper-slide">
+                                            </div>
+                                            <div class="swiper-slide">
                                                 <div class="testimonial-one__content-box">
                                                     <p class="testimonial-one__text">Aprendi a reconhecer meus limites e a cuidar de mim. O espaço é acolhedor e me sinto realmente ouvido. Minha evolução tem sido constante. </p>
                                                     <div class="testimonial-one__client-info-box">
@@ -544,7 +550,8 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div><div class="swiper-slide">
+                                            </div>
+                                            <div class="swiper-slide">
                                                 <div class="testimonial-one__content-box">
                                                     <p class="testimonial-one__text">O acompanhamento tem me ajudado a entender minhas emoções e lidar melhor com a ansiedade. Me sinto mais segura e confiante a cada sessão.</p>
                                                     <div class="testimonial-one__client-info-box">
@@ -567,7 +574,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -673,47 +682,47 @@
                         <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__logo">
-                                  <svg
-                                width="260"
-                                height="48"
-                                viewBox="0 0 260 48"
-                                xmlns="http://www.w3.org/2000/svg"
-                                role="img"
-                                aria-label="Sua Logo Aqui">
-                                <style>
-                                    .logo-icon {
-                                        fill: <?= $d['schema']['primary-color'] ?>;
-                                    }
+                                    <svg
+                                        width="260"
+                                        height="48"
+                                        viewBox="0 0 260 48"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        role="img"
+                                        aria-label="Sua Logo Aqui">
+                                        <style>
+                                            .logo-icon {
+                                                fill: <?= $d['schema']['primary-color'] ?>;
+                                            }
 
-                                    .logo-text {
-                                        fill: <?= $d['schema']['primary-color'] ?>;
-                                        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-                                        font-weight: 600;
-                                        font-size: 22px;
-                                        letter-spacing: -0.3px;
-                                    }
-                                </style>
+                                            .logo-text {
+                                                fill: <?= $d['schema']['primary-color'] ?>;
+                                                font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                                font-weight: 600;
+                                                font-size: 22px;
+                                                letter-spacing: -0.3px;
+                                            }
+                                        </style>
 
-                                <!-- ÍCONE -->
-                                <g class="logo-icon" transform="translate(0,4)">
-                                    <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
-                                    <path
-                                        d="M12 20 L18 26 L28 14"
-                                        fill="none"
-                                        stroke="white"
-                                        stroke-width="3"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </g>
+                                        <!-- ÍCONE -->
+                                        <g class="logo-icon" transform="translate(0,4)">
+                                            <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                                            <path
+                                                d="M12 20 L18 26 L28 14"
+                                                fill="none"
+                                                stroke="white"
+                                                stroke-width="3"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
 
-                                <!-- TEXTO -->
-                                <text
-                                    x="54"
-                                    y="31"
-                                    class="logo-text">
-                                    Sua Logo Aqui
-                                </text>
-                            </svg>
+                                        <!-- TEXTO -->
+                                        <text
+                                            x="54"
+                                            y="31"
+                                            class="logo-text">
+                                            Sua Logo Aqui
+                                        </text>
+                                    </svg>
                                 </div>
                                 <p class="footer-widget__about-text"><?= $d['footer']['descricao'] ?></p>
                             </div>
@@ -748,15 +757,15 @@
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Serviços</h4>
                                 </div>
-                                
+
                             </div>
                         </div>
-                         <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="col-xl-2 col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Páginas</h4>
                                 </div>
-                                
+
                             </div>
                         </div>
 
