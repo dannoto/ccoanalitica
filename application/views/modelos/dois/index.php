@@ -43,9 +43,9 @@
 
     <style>
         :root {
-            --meciy-base:<?= $d['schema']['primary-color'] ?> !important;
+            --meciy-base: <?= $d['schema']['primary-color'] ?> !important;
             --meciy-primary: <?= $d['schema']['secundary-color'] ?> !important;
-      
+
         }
     </style>
 
@@ -99,7 +99,49 @@
                             </ul>
                         </div>
                         <div class="main-header__logo">
-                            <a href="index.html"><img src="<?= base_url() ?><?= $d['header']['logo'] ?>" alt="Instituto Harmonia"></a>
+                            <!-- <a href="index.html"><img src="<?= base_url() ?><?= $d['header']['logo'] ?>" alt="Instituto Harmonia"></a> -->
+                            <svg
+                                width="260"
+                                height="48"
+                                viewBox="0 0 260 48"
+                                xmlns="http://www.w3.org/2000/svg"
+                                role="img"
+                                aria-label="Sua Logo Aqui">
+                                <style>
+                                    .logo-icon {
+                                        fill: <?= $d['schema']['secundary-color'] ?>;
+                                    }
+
+                                    .logo-text {
+                                        fill: <?= $d['schema']['secundary-color'] ?>;
+                                        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                        font-weight: 600;
+                                        font-size: 22px;
+                                        letter-spacing: -0.3px;
+                                    }
+                                </style>
+
+                                <!-- ÍCONE -->
+                                <g class="logo-icon" transform="translate(0,4)">
+                                    <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                                    <path
+                                        d="M12 20 L18 26 L28 14"
+                                        fill="none"
+                                        stroke="white"
+                                        stroke-width="3"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+
+                                <!-- TEXTO -->
+                                <text
+                                    x="54"
+                                    y="31"
+                                    class="logo-text">
+                                    Sua Logo Aqui
+                                </text>
+                            </svg>
+
                         </div>
                         <div class="main-header__top-right">
                             <ul class="list-unstyled main-header__contact-list-two">
