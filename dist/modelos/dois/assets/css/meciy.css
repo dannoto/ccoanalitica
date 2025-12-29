@@ -3834,7 +3834,7 @@ position: absolute;
   display: block;
   background-color: #fefaf9;
   overflow: hidden;
-  padding: 220px 0 180px;
+  padding: 220px 70px 180px;
   margin-top: -150px;
   z-index: 1;
 }
@@ -4429,7 +4429,7 @@ position: absolute;
   align-items: center;
   flex-wrap: wrap;
   background-color: var(--meciy-base);
-  padding: 70px 0 14px;
+  padding: 30px 0 14px;
   z-index: 1;
 }
 
