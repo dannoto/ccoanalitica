@@ -3,7 +3,7 @@
     "background": "#0F2A2E",
     "color": "#FFFFFF",
     "primary-color": "#000000",
-    "secondary-color": "#4FA3A5"
+    "secondary-color": "red"
   },
 
   "seo": {
