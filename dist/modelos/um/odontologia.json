@@ -94,23 +94,24 @@
     "titulo": "Cuidado Completo para Todos os Sorrisos",
     "descricao": "Dos check-ups de rotina aos tratamentos estéticos mais avançados, cuidamos do seu sorriso com carinho e excelência.",
     "items": [
+
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-1.png",
+        "imagem": "dist/imagens/servicos/odontologia/servico-clareamento-1.png",
         "titulo": "Implantes Dentários",
         "descricao": "Dentes fixos no mesmo dia com carga imediata."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-2.png",
+        "imagem": "dist/imagens/servicos/odontologia/servico-implante-dentario-1.png",
         "titulo": "Lentes de Contato Dental",
         "descricao": "Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-3.png",
+        "imagem": "dist/imagens/servicos/odontologia/servico-invalisgn-1.png",
         "titulo": "Invisalign & Ortodontia",
         "descricao": "Alinhamento perfeito sem aparelho metálico. Conforto e discrição."
       },
       {
-        "imagem": "dist/imagens/servicos/odontologia/servico-4.png",
+        "imagem": "dist/imagens/servicos/odontologia/servico-lentes-de-contato-1.png",
         "titulo": "Clareamento Dental",
         "descricao": "Até 8 tons mais branco em apenas 1 hora com tecnologia LED."
       }
