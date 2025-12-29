@@ -153,7 +153,7 @@
                                 </div>
                                 <div class="about-one__img-two">
                                     <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
-                                    <div class="about-one__experience">
+                                    <!-- <div class="about-one__experience">
                                         <div class="about-one__experience-year">
                                             <h3 class="odometer" data-count="<?= $d['sobre']['anos_experiencia'] ?>">00</h3>
                                             <span class="about-one__experience-year-plus">+</span>
@@ -161,7 +161,7 @@
                                         <div class="about-one__experience-text-box">
                                             <p class="about-one__experience-text">Anos de <br> Experiência</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                
                             </div>
