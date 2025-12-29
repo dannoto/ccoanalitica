@@ -43,8 +43,9 @@
 
     <style>
         :root {
-            --meciy-base: <?= $d['schema']['primary-color'] ?> !important;
-            --meciy-primary: <?= $d['schema']['secundary-color'] ?> !important;
+            --meciy-base: <?= $d['schema']['background'] ?> !important;
+            --meciy-primary: <?= $d['schema']['primary-color'] ?> !important;
+        
 
         }
     </style>
@@ -99,8 +100,8 @@
                             </ul>
                         </div>
                         <div class="main-header__logo">
-                            <!-- <a href="index.html"><img src="<?= base_url() ?><?= $d['header']['logo'] ?>" alt="Instituto Harmonia"></a> -->
-                            <svg
+
+                        <svg
                                 width="260"
                                 height="48"
                                 viewBox="0 0 260 48"
@@ -109,11 +110,11 @@
                                 aria-label="Sua Logo Aqui">
                                 <style>
                                     .logo-icon {
-                                        fill: <?= $d['schema']['secundary-color'] ?>;
+                                        fill: <?= $d['schema']['primary-color'] ?>;
                                     }
 
                                     .logo-text {
-                                        fill: <?= $d['schema']['secundary-color'] ?>;
+                                        fill: <?= $d['schema']['primary-color'] ?>;
                                         font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
                                         font-weight: 600;
                                         font-size: 22px;
