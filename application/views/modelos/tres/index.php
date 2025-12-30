@@ -255,7 +255,7 @@
 
                                                 <?php foreach ($d['hero']['social'] as $social) { ?>
 
-                                                    <a href=" <?= $social['facebook']['link'] ?>">
+                                                    <a href="<?= $social['facebook']['link'] ?>">
                                                         <i class=" <?= $social['facebook']['icone'] ?>" aria-hidden="true"></i>
                                                     </a>
 
