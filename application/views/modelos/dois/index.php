@@ -397,6 +397,7 @@
                         </div>
                         <div class="appointments-one__content">
                             <h3 class="appointments-one__title"><a href="#contato"><?$d['call']['texto']?></a></h3>
+                            <?$d['call']['texto']?>
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
