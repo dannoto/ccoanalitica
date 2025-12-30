@@ -139,7 +139,7 @@
         </header>
         <section class="main-slider-two" id="home">
             <div class="main-slider-two__carousel mediox-owl__carousel--with-counter mediox-owl__carousel--basic-nav owl-carousel" data-owl-options='{ "loop": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "items": 1,"autoplay": true,  "smartSpeed": 1000,  "nav": true,"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],"dots": false,  "margin": 0 }'>
-<?php foreach ($d['hero'] as $hero) { ?>
+<?php foreach ($d['hero']['slides'] as $hero) { ?>
                 <div class="item">
                     <div class="main-slider-two__item">
 
