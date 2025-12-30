@@ -320,7 +320,7 @@
 
                                     <div class="about-two__image__two__shape-box">
 
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/about-shape-2-2.png" alt="shape" class="about-two__image__two__shape">
+                                        <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="shape" class="about-two__image__two__shape">
 
                                         <div class="about-two__image__two__bg-top">
 
@@ -366,7 +366,7 @@
 
 
 
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="About Us" class="sec-title__img">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="About Us" class="sec-title__img">
                                     <h6 class="sec-title__tagline"><?= $d['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
                                 <h3 class="sec-title__title"><?= $d['sobre']['titulo'] ?></h3><!-- /.sec-title__title -->
