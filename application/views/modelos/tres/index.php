@@ -302,13 +302,13 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="about-two__image">
                             <div class="about-two__image__one">
-                                <img src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="about">
+                                <img src="<?= $d['sobre']['imagem_principal'] ?>" alt="about">
                             </div>
                             <div class="about-two__image__two">
                                 <div class="about-two__image__two__inner">
-                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria1'] ?>" alt="about">
+                                    <img src="<?= $d['sobre']['imagem_secundaria1'] ?>" alt="about">
                                     <div class="about-two__image__two__shape-box">
-                                        <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="shape" class="about-two__image__two__shape">
+                                        <img src="<?= $d['sobre']['imagem_secundaria2'] ?>" alt="shape" class="about-two__image__two__shape">
                                         <div class="about-two__image__two__bg-top">
                                             <div class="about-two__image__two__bg-top__1">
                                                 <div class="about-two__image__two__bg-top__2"></div>
