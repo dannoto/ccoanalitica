@@ -104,7 +104,7 @@
 
                             </a>
 
-                            <div class="main-header__logo__shape"></div>
+                        
 
                         </div>
 
