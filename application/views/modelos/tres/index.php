@@ -253,13 +253,12 @@
 
                                             <div class="main-slider-two__social__links">
 
-                                                <?php foreach ($d['hero']['social'] as $social) { ?>
+                                               <?php foreach ($d['hero']['social'] as $social) { ?>
+    <a href="<?= $social['link'] ?>">
+        <i class="<?= $social['icone'] ?>" aria-hidden="true"></i>
+    </a>
+<?php } ?>
 
-                                                    <a href="<?= $social['link'] ?>">
-                                                        <i class=" <?= $social['icone'] ?>" aria-hidden="true"></i>
-                                                    </a>
-
-                                                <?php } ?>
                                                
 
                                             </div><!-- /.main-slider-two__social__links -->
