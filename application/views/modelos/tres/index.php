@@ -308,7 +308,7 @@
 
                             <div class="about-two__image__one">
 
-                                <img src="<?= base_url() ?><?= $feature['sobre']['imagem_principal'] ?>" alt="about">
+                                <img src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="about">
 
                             </div><!-- /.about-two__image__one -->
 
@@ -316,7 +316,7 @@
 
                                 <div class="about-two__image__two__inner">
 
-                                    <img src="<?= base_url() ?><?= $feature['sobre']['imagem_secundaria1'] ?>" alt="about">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria1'] ?>" alt="about">
 
                                     <div class="about-two__image__two__shape-box">
 
@@ -348,7 +348,7 @@
 
                             </div><!-- /.about-two__image__two -->
 
-                            <img src="<?= base_url() ?><?= $feature['sobre']['imagem_secundaria2'] ?>" alt="about" class="about-two__image__three">
+                            <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="about" class="about-two__image__three">
 
                             <div class="about-two__image__shape"></div><!-- /.about-two__image__shape -->
 
@@ -367,12 +367,12 @@
 
 
                                     <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="About Us" class="sec-title__img">
-                                    <h6 class="sec-title__tagline"><?= $feature['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
+                                    <h6 class="sec-title__tagline"><?= $d['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
-                                <h3 class="sec-title__title"><?= $feature['sobre']['titulo'] ?></h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title"><?= $d['sobre']['titulo'] ?></h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <div class="about-two__description wow fadeInUp" data-wow-duration="1500ms">
-                                <p class="about-two__text"><?= $feature['sobre']['descricao'] ?></p><!-- /.about-two__text -->
+                                <p class="about-two__text"><?= $d['sobre']['descricao'] ?></p><!-- /.about-two__text -->
                             </div><!-- /.about-two__description -->
                             <ul class="about-two__list list-unstyled wow fadeInUp" data-wow-duration="1500ms">
                                 <?php foreach ($d['sobre']['lista'] as $lista) { ?>
