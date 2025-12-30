@@ -189,79 +189,80 @@
     "imagem_secundaria": "dist/imagens/diferenciais/psicologia/diferenciais-2.jpg",
     "imagem_terciaria": "dist/imagens/diferenciais/psicologia/diferenciais-3.jpg",
     "subtitulo": "Nossos Diferenciais",
-    "titulo": "We are leading mental healths consultation center for you.",
-    "descricao": "Torems isum dolor amet consectetur adipisicing sed dole there eiusie mod tempor incididublabore dolore magna aliqua denim joredstdi larfe htue goose to tomasto gigeria juteeo gte edites dekes hokes.",
+    "titulo": "Somos o centro líder em consultas de saúde mental dedicado a você.",
+    "descricao": "Oferecemos um atendimento personalizado e acolhedor, com profissionais qualificados para ajudar você a superar desafios emocionais e promover uma vida mais equilibrada e feliz. Nosso compromisso é proporcionar um espaço seguro e confidencial para o seu crescimento pessoal.",
     "items": [
-      "Anxiety Disorder",
-      "Dating & Relation",
-      "Personal Meeting",
-      "Family Counseling"
+      "Tratamento de Transtornos de Ansiedade",
+      "Orientação em Namoro e Relacionamentos",
+      "Atendimentos Presenciais Individuais",
+      "Aconselhamento Familiar"
     ]
-  },
-  "depoimentos": {
-    "subtitulo": "Depoimentos",
-    "titulo": "O que Nossos Pacientes Dizem",
-    "items": [
-      {
-        "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
-        "nome": "João Santos",
-        "tipo": "Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp"
-      },
-      {
-        "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
-        "nome": "Júlio Oliveira",
-        "tipo": "Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
-      },
-      {
-        "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
-        "nome": "Carlos Pereira",
-        "tipo": "Paciente",
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp"
-      }
-    ]
-  },
-  "faq": {
-    "titulo": "Perguntas Frequentes",
-    "imagem": "dist/imagens/faq/psicologia/faq-1.jpg",
-    "items": [
-      {
-        "pergunta": "Com que frequência devo fazer terapia?",
-        "resposta": "Geralmente semanal, mas a frequência é definida conforme a necessidade de cada paciente."
-      },
-      {
-        "pergunta": "A terapia é sigilosa?",
-        "resposta": "Sim. Todo atendimento segue rigorosamente o código de ética profissional."
-      },
-      {
-        "pergunta": "Vocês atendem crianças e adolescentes?",
-        "resposta": "Sim. Temos profissionais especializados em atendimento infantil e juvenil."
-      },
-      {
-        "pergunta": "A terapia pode ser online?",
-        "resposta": "Sim. Oferecemos atendimento presencial e online."
-      },
-      {
-        "pergunta": "Quando devo procurar um psicólogo?",
-        "resposta": "Sempre que sentir necessidade de apoio emocional ou autoconhecimento."
-      }
-    ]
-  },
-  "contato": {
-    "subtitulo": "Fale Conosco",
-    "titulo": "Agende sua Sessão",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "telefone1": "(11) 99999-9999",
-    "telefone2": "(11) 99999-9999",
-    "email1": "contato@seudominio.com.br",
-    "email2": "contato@seudominio.com.br"
-  },
-  "footer": {
-    "descricao": "Cuidado psicológico ético, humanizado e profissional.",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "email": "contato@seudominio.com.br",
-    "horario": "Segunda - Sexta: 08:00 às 20:00<br>Sábado: 08:00 às 14:00<br>Domingo: Fechado",
-    "copyright": "© 2025 Instituto Harmonia. Todos os direitos reservados. "
   }
+},
+"depoimentos": {
+  "subtitulo": "Depoimentos",
+  "titulo": "O que Nossos Pacientes Dizem",
+  "items": [
+    {
+      "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
+      "nome": "João Santos",
+      "tipo": "Paciente",
+      "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp"
+    },
+    {
+      "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
+      "nome": "Júlio Oliveira",
+      "tipo": "Paciente",
+      "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
+    },
+    {
+      "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
+      "nome": "Carlos Pereira",
+      "tipo": "Paciente",
+      "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp"
+    }
+  ]
+},
+"faq": {
+  "titulo": "Perguntas Frequentes",
+  "imagem": "dist/imagens/faq/psicologia/faq-1.jpg",
+  "items": [
+    {
+      "pergunta": "Com que frequência devo fazer terapia?",
+      "resposta": "Geralmente semanal, mas a frequência é definida conforme a necessidade de cada paciente."
+    },
+    {
+      "pergunta": "A terapia é sigilosa?",
+      "resposta": "Sim. Todo atendimento segue rigorosamente o código de ética profissional."
+    },
+    {
+      "pergunta": "Vocês atendem crianças e adolescentes?",
+      "resposta": "Sim. Temos profissionais especializados em atendimento infantil e juvenil."
+    },
+    {
+      "pergunta": "A terapia pode ser online?",
+      "resposta": "Sim. Oferecemos atendimento presencial e online."
+    },
+    {
+      "pergunta": "Quando devo procurar um psicólogo?",
+      "resposta": "Sempre que sentir necessidade de apoio emocional ou autoconhecimento."
+    }
+  ]
+},
+"contato": {
+  "subtitulo": "Fale Conosco",
+  "titulo": "Agende sua Sessão",
+  "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+  "telefone1": "(11) 99999-9999",
+  "telefone2": "(11) 99999-9999",
+  "email1": "contato@seudominio.com.br",
+  "email2": "contato@seudominio.com.br"
+},
+"footer": {
+  "descricao": "Cuidado psicológico ético, humanizado e profissional.",
+  "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+  "email": "contato@seudominio.com.br",
+  "horario": "Segunda - Sexta: 08:00 às 20:00<br>Sábado: 08:00 às 14:00<br>Domingo: Fechado",
+  "copyright": "© 2025 Instituto Harmonia. Todos os direitos reservados. "
+}
 }
