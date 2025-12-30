@@ -638,7 +638,7 @@
                     <div class="col-xl-4">
                         <div class="testimonial-one__left">
                             <div class="testimonial-one__left-img">
-                                <img src="<?= base_url() ?><?= $d['sobre']['imagem_terciaria'] ?>" alt="">
+                                <img style="max-height: 500px;object-fit: cover;" src="<?= base_url() ?><?= $d['sobre']['imagem_terciaria'] ?>" alt="">
                                 <!-- <ul class="list-unstyled testimonial-one__counter">
                                     <li>
                                         <div class="testimonial-one__counter-icon">
