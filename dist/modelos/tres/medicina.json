@@ -133,9 +133,9 @@
     }
   ],
   "sobre": {
-    "imagem_principal": "dist/imagens/hero/medicina/hero-1.jpg",
-    "imagem_secundaria1": "dist/imagens/hero/medicina/hero-2.jpg",
-    "imagem_secundaria2": "dist/imagens/hero/medicina/hero-3.jpg",
+     "imagem_principal": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
+    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
     "subtitulo": "Sobre Nós",
     "titulo": "Cuidado Médico Completo com Excelência e Humanização",
     "descricao": "O Instituto Vida Plena é uma clínica médica dedicada à promoção da saúde, prevenção de doenças e tratamento humanizado.",
