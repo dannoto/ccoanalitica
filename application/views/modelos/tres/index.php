@@ -363,10 +363,6 @@
                             <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
 
                                 <div class="sec-title__top">
-
-
-
-                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" class="sec-title__img">
                                     <h6 class="sec-title__tagline"><?= $d['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
                                 <h3 class="sec-title__title"><?= $d['sobre']['titulo'] ?></h3><!-- /.sec-title__title -->
