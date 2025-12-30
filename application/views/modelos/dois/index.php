@@ -754,7 +754,7 @@
                     <div class="col-xl-5 col-lg-6">
                         <div class="faq-two__right">
                             <div class="faq-two__img">
-                                <img src="<?= $d['faq']['imagem'] ?>" alt="">
+                                <img src="<?= base_url() ?><?= $d['faq']['imagem'] ?>" alt="">
                             </div>
                         </div>
                     </div>
