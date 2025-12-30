@@ -3,7 +3,6 @@
     "background": "#0E2A47",
     "primary-color": "#2FA4E7"
   },
-
   "seo": {
     "title": "Clínica Sorriso Prime — Odontologia Avançada",
     "description": "Clínica odontológica especializada em estética dental, implantes, ortodontia e saúde bucal completa.",
@@ -11,7 +10,6 @@
     "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.jpg"
   },
-
   "header": {
     "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
     "telefone_top": "(11) 99999-9999",
@@ -19,12 +17,30 @@
     "localizacao": "São Paulo, SP",
     "horario_top": "Seg-Sex: 08:00-20:00",
     "navbar": [
-      { "texto": "Inicio", "link": "#inicio" },
-      { "texto": "Sobre", "link": "#sobre" },
-      { "texto": "Serviços", "link": "#servicos" },
-      { "texto": "Equipe", "link": "#equipe" },
-      { "texto": "Depoimentos", "link": "#depoimentos" },
-      { "texto": "Contato", "link": "#contato" }
+      {
+        "texto": "Inicio",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
     ],
     "botao_agendar": {
       "texto": "Agendar uma Consulta",
@@ -32,7 +48,6 @@
     },
     "whatsapp_float": "https://wa.me/5562982045122"
   },
-
   "slider": {
     "slides": [
       {
@@ -61,7 +76,6 @@
       }
     ]
   },
-
   "sobre": {
     "subtitulo": "Sobre a Clínica",
     "titulo": "Odontologia Moderna e Humanizada",
@@ -74,7 +88,6 @@
       "link": "https://wa.me/5562982045122"
     }
   },
-
   "servicos": {
     "subtitulo": "Nossos Tratamentos",
     "titulo": "Serviços Odontológicos Especializados",
@@ -101,14 +114,24 @@
       }
     ]
   },
-
   "contadores": [
-    { "numero": 10000, "texto": "Procedimentos Realizados" },
-    { "numero": 2500, "texto": "Pacientes Atendidos" },
-    { "numero": 800, "texto": "Sorrisos Transformados" },
-    { "numero": 15, "texto": "Anos de Experiência" }
+    {
+      "numero": 10000,
+      "texto": "Procedimentos Realizados"
+    },
+    {
+      "numero": 2500,
+      "texto": "Pacientes Atendidos"
+    },
+    {
+      "numero": 800,
+      "texto": "Sorrisos Transformados"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
   ],
-
   "porque": {
     "subtitulo": "Por que nos escolher",
     "titulo": "Excelência em Saúde Bucal",
@@ -117,12 +140,17 @@
     "imagem_principal": "dist/imagens/porquenos/odontologia/porquenos-2.jpg",
     "imagem_terciaria": "dist/imagens/porquenos/odontologia/porquenos-3.jpg",
     "pontos": [
-      { "titulo": "Tecnologia Avançada", "icone": "icon-counseling" },
-      { "titulo": "Equipe Especializada", "icone": "icon-doctor" }
+      {
+        "titulo": "Tecnologia Avançada",
+        "icone": "icon-counseling"
+      },
+      {
+        "titulo": "Equipe Especializada",
+        "icone": "icon-doctor"
+      }
     ],
     "telefone_chamada": "(11) 99999-9999"
   },
-
   "equipe": {
     "subtitulo": "Conheça Nossa Equipe",
     "titulo": "Cirurgiões-Dentistas Especialistas",
@@ -149,7 +177,20 @@
       }
     ]
   },
-
+  "diferenciais": {
+    "imagem_primaria": "dist/imagens/diferenciais/odontologia/diferenciais-1.jpg",
+    "imagem_secundaria": "dist/imagens/diferenciais/odontologia/diferenciais-2.jpg",
+    "imagem_terciaria": "dist/imagens/diferenciais/odontologia/diferenciais-3.jpg",
+    "subtitulo": "Nossos Diferenciais",
+    "titulo": "Somos a clínica odontológica líder dedicada ao seu sorriso perfeito.",
+    "descricao": "Oferecemos atendimento personalizado com tecnologia de ponta e profissionais altamente qualificados para cuidar da sua saúde bucal. Nosso compromisso é proporcionar tratamentos seguros, confortáveis e eficazes em um ambiente acolhedor e moderno.",
+    "items": [
+      "Implantes Dentários",
+      "Ortodontia e Aparelhos",
+      "Estética Dental e Clareamento",
+      "Tratamentos Preventivos e Clínicos"
+    ]
+  },
   "depoimentos": {
     "subtitulo": "Depoimentos",
     "titulo": "O que Nossos Pacientes Dizem",
@@ -174,7 +215,33 @@
       }
     ]
   },
-
+  
+  "faq": {
+    "titulo": "Perguntas Frequentes",
+    "imagem": "dist/imagens/faq/odontologia/faq-1.jpg",
+    "items": [
+      {
+        "pergunta": "Com que frequência devo fazer consultas odontológicas?",
+        "resposta": "Recomendamos visitas a cada 6 meses para prevenção e manutenção da saúde bucal, mas pode variar conforme a necessidade individual."
+      },
+      {
+        "pergunta": "Os tratamentos são dolorosos?",
+        "resposta": "Utilizamos técnicas modernas e anestesia adequada para garantir o máximo conforto. A maioria dos procedimentos é indolor ou com desconforto mínimo."
+      },
+      {
+        "pergunta": "Vocês atendem crianças?",
+        "resposta": "Sim. Contamos com profissionais especializados em odontopediatria para atender crianças de todas as idades."
+      },
+      {
+        "pergunta": "É possível parcelar o tratamento?",
+        "resposta": "Sim. Oferecemos opções de parcelamento e aceitamos diversos convênios e formas de pagamento para facilitar o acesso ao tratamento."
+      },
+      {
+        "pergunta": "Quando devo trazer meu filho pela primeira vez ao dentista?",
+        "resposta": "Idealmente a partir do nascimento do primeiro dente ou até o primeiro ano de vida, para orientações preventivas e acompanhamento."
+      }
+    ]
+  },
   "contato": {
     "subtitulo": "Fale Conosco",
     "titulo": "Agende sua Consulta",
@@ -184,7 +251,6 @@
     "email1": "contato@seudominio.com.br",
     "email2": "contato@seudominio.com.br"
   },
-
   "footer": {
     "descricao": "Odontologia moderna, ética e focada no seu sorriso.",
     "endereco": "Av. Paulista, 1000 - São Paulo - SP",

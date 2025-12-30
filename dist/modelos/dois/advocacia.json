@@ -3,7 +3,6 @@
     "background": "#0B1C2D",
     "primary-color": "#C9A24D"
   },
-
   "seo": {
     "title": "Almeida & Torres Advogados — Advocacia Estratégica",
     "description": "Escritório de advocacia especializado em direito civil, trabalhista, empresarial e consultoria jurídica preventiva.",
@@ -11,7 +10,6 @@
     "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.jpg"
   },
-
   "header": {
     "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
     "telefone_top": "(11) 99999-9999",
@@ -19,12 +17,30 @@
     "localizacao": "São Paulo, SP",
     "horario_top": "Seg-Sex: 08:00-20:00",
     "navbar": [
-      { "texto": "Inicio", "link": "#inicio" },
-      { "texto": "Sobre", "link": "#sobre" },
-      { "texto": "Serviços", "link": "#servicos" },
-      { "texto": "Equipe", "link": "#equipe" },
-      { "texto": "Depoimentos", "link": "#depoimentos" },
-      { "texto": "Contato", "link": "#contato" }
+      {
+        "texto": "Inicio",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
     ],
     "botao_agendar": {
       "texto": "Falar com um Advogado",
@@ -32,7 +48,6 @@
     },
     "whatsapp_float": "https://wa.me/5562982045122"
   },
-
   "slider": {
     "slides": [
       {
@@ -61,7 +76,6 @@
       }
     ]
   },
-
   "sobre": {
     "subtitulo": "Sobre o Escritório",
     "titulo": "Advocacia Moderna, Ética e Estratégica",
@@ -74,7 +88,6 @@
       "link": "https://wa.me/5562982045122"
     }
   },
-
   "servicos": {
     "subtitulo": "Áreas de Atuação",
     "titulo": "Serviços Jurídicos Especializados",
@@ -101,14 +114,24 @@
       }
     ]
   },
-
   "contadores": [
-    { "numero": 10000, "texto": "Processos Atendidos" },
-    { "numero": 2500, "texto": "Clientes Assessorados" },
-    { "numero": 800, "texto": "Contratos Elaborados" },
-    { "numero": 15, "texto": "Anos de Experiência" }
+    {
+      "numero": 10000,
+      "texto": "Processos Atendidos"
+    },
+    {
+      "numero": 2500,
+      "texto": "Clientes Assessorados"
+    },
+    {
+      "numero": 800,
+      "texto": "Contratos Elaborados"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
   ],
-
   "porque": {
     "subtitulo": "Por que nos escolher",
     "titulo": "Compromisso com Justiça e Resultado",
@@ -117,12 +140,17 @@
     "imagem_principal": "dist/imagens/porquenos/advocacia/porquenos-2.webp",
     "imagem_terciaria": "dist/imagens/porquenos/advocacia/porquenos-3.webp",
     "pontos": [
-      { "titulo": "Atendimento Personalizado", "icone": "icon-counseling" },
-      { "titulo": "Equipe Especializada", "icone": "icon-doctor" }
+      {
+        "titulo": "Atendimento Personalizado",
+        "icone": "icon-counseling"
+      },
+      {
+        "titulo": "Equipe Especializada",
+        "icone": "icon-doctor"
+      }
     ],
     "telefone_chamada": "(11) 99999-9999"
   },
-
   "equipe": {
     "subtitulo": "Nossa Equipe",
     "titulo": "Advogados Especialistas",
@@ -149,7 +177,20 @@
       }
     ]
   },
-
+  "diferenciais": {
+    "imagem_primaria": "dist/imagens/diferenciais/advocacia/diferenciais-1.jpg",
+    "imagem_secundaria": "dist/imagens/diferenciais/advocacia/diferenciais-2.jpg",
+    "imagem_terciaria": "dist/imagens/diferenciais/advocacia/diferenciais-3.jpg",
+    "subtitulo": "Nossos Diferenciais",
+    "titulo": "Somos o escritório líder em soluções jurídicas dedicado a você.",
+    "descricao": "Oferecemos atendimento personalizado e especializado, com profissionais altamente qualificados para defender seus direitos e interesses. Nosso compromisso é proporcionar soluções jurídicas eficientes, éticas e inovadoras em um ambiente de confiança e excelência.",
+    "items": [
+      "Direito Civil e Contratual",
+      "Direito Trabalhista",
+      "Direito de Família e Sucessões",
+      "Direito Empresarial"
+    ]
+  },
   "depoimentos": {
     "subtitulo": "Depoimentos",
     "titulo": "O que Nossos Clientes Dizem",
@@ -174,7 +215,32 @@
       }
     ]
   },
-
+  "faq": {
+    "titulo": "Perguntas Frequentes",
+    "imagem": "dist/imagens/faq/advocacia/faq-1.jpg",
+    "items": [
+      {
+        "pergunta": "Quanto tempo leva para resolver um processo judicial?",
+        "resposta": "O tempo varia conforme a complexidade do caso e o tribunal, mas trabalhamos para agilizar sempre que possível com estratégias eficientes."
+      },
+      {
+        "pergunta": "As consultas e informações são sigilosas?",
+        "resposta": "Sim. Todo atendimento segue rigorosamente o sigilo profissional previsto no Código de Ética da OAB."
+      },
+      {
+        "pergunta": "Vocês atendem empresas e pessoas físicas?",
+        "resposta": "Sim. Temos profissionais especializados em direito para pessoas físicas e jurídicas."
+      },
+      {
+        "pergunta": "É possível realizar consulta online?",
+        "resposta": "Sim. Oferecemos atendimento presencial e também consultas remotas por videoconferência."
+      },
+      {
+        "pergunta": "Quando devo procurar um advogado?",
+        "resposta": "Sempre que enfrentar questões jurídicas, precisar prevenir riscos ou defender seus direitos, mesmo antes de um problema se tornar processo."
+      }
+    ]
+  },
   "contato": {
     "subtitulo": "Fale Conosco",
     "titulo": "Agende uma Consulta Jurídica",
@@ -184,7 +250,6 @@
     "email1": "contato@seudominio.com.br",
     "email2": "contato@seudominio.com.br"
   },
-
   "footer": {
     "descricao": "Advocacia comprometida com ética, estratégia e resultados.",
     "endereco": "Av. Paulista, 1000 - São Paulo - SP",
