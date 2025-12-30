@@ -253,26 +253,17 @@
 
                                             <div class="main-slider-two__social__links">
 
-                                               <?php foreach ($d['hero']['social'] as $social) { ?>
-    <a href="<?= $social['link'] ?>">
-        <i class="<?= $social['icone'] ?>" aria-hidden="true"></i>
-    </a>
-<?php } ?>
-
-                                               
-
-                                            </div><!-- /.main-slider-two__social__links -->
-
-                                        </div><!-- /.main-slider-two__social -->
-
-                                    </div><!-- /.main-slider-two__info__inner -->
-
+                                                <?php foreach ($d['hero']['social'] as $social) { ?>
+                                                    <a href="<?= $social['link'] ?>">
+                                                        <i class="<?= $social['icone'] ?>" aria-hidden="true"></i>
+                                                    </a>
+                                                <?php } ?>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
                 <?php } ?>
 
@@ -290,27 +281,19 @@
 
                 <div class="row gutter-y-30">
 
-                    <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="features-one__card">
-
-                            <div class="features-one__card__content">
-
-                                <span class="features-one__card__icon">
-
-                                    <i class="icon-doctor-3"></i>
-
-                                </span>
-
-                                <h3 class="features-one__card__title">Experience Doctor</h3>
-
-                                <p class="features-one__card__text">Our team of skilled nurses, and special patients</p>
-
+                    <?php foreach ($d['features'] as $feature) { ?>
+                        <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="features-one__card">
+                                <div class="features-one__card__content">
+                                    <span class="features-one__card__icon">
+                                        <i class="icon-doctor-3"></i>
+                                    </span>
+                                    <h3 class="features-one__card__title"><?= $$feature['title'] ?></h3>
+                                    <p class="features-one__card__text"><?= $$feature['text'] ?></p>
+                                </div>
                             </div>
-
                         </div>
-
-                    </div>
+                    <?php } ?>
 
                     <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
 
@@ -332,7 +315,7 @@
 
                         </div><!-- /.features-one__card -->
 
-                    </div><!-- /.col-xl-3 col-md-6 -->
+                    </div>
 
                     <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
 
@@ -354,7 +337,7 @@
 
                         </div><!-- /.features-one__card -->
 
-                    </div><!-- /.col-xl-3 col-md-6 -->
+                    </div>
 
                     <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
 
@@ -376,14 +359,14 @@
 
                         </div><!-- /.features-one__card -->
 
-                    </div><!-- /.col-xl-3 col-md-6 -->
+                    </div>
 
-                </div><!-- /.row gutter-y-30 -->
+                </div>
 
-            </div><!-- /.container -->
+            </div>
 
         </section>
-        <!-- /.features-one section-space-bottom -->
+     
 
 
         <section class="about-two section-space-two" id="about">
