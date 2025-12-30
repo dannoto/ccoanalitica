@@ -116,7 +116,7 @@
 
                             <span></span>
 
-                        </div><!-- /.sidebar-btn__toggler -->
+                        </div>
 
                     </div>
                     <div class="main-header__right">
@@ -139,19 +139,19 @@
         </header>
         <section class="main-slider-two" id="home">
             <div class="main-slider-two__carousel mediox-owl__carousel--with-counter mediox-owl__carousel--basic-nav owl-carousel" data-owl-options='{ "loop": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "items": 1,"autoplay": true,  "smartSpeed": 1000,  "nav": true,"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],"dots": false,  "margin": 0 }'>
-
+<?php foreach ($d['header']['hero'] as $hero) { ?>
                 <div class="item">
                     <div class="main-slider-two__item">
 
                         <div class="main-slider-two__item__shape">
 
-                            <div class="main-slider-two__item__shape__bg" style="background-image: url(assets/images/shapes/features-bg-1-1.png);"></div>
+                            <div class="main-slider-two__item__shape__bg" style="background-image: url(<?= $hero['imagem'] ?>);"></div>
 
-                        </div><!-- /.main-slider-two__item__shape -->
+                        </div>
 
                         <div class="main-slider-two__wrapper">
 
-                            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/main-slider-bg-2-1.jpg);"></div><!-- /.slider-bg -->
+                            <div class="main-slider-two__bg" style="background-image: url(<?= $hero['imagem'] ?>);"></div><!-- /.slider-bg -->
 
                             <div class="main-slider-two__container container">
 
@@ -161,11 +161,11 @@
 
                                         <div class="main-slider-two__content">
 
-                                            <p class="main-slider-two__sub-title">24/7 EMERGENCY SERVICE</p><!--/.sub-title -->
+                                            <p class="main-slider-two__sub-title"><?= $hero['subtitle'] ?></p><!--/.sub-title -->
 
                                             <h2 class="main-slider-two__title">
 
-                                                best dental care <br> in town
+                                                <?= $hero['title'] ?>
 
                                                 <span class="main-slider-two__title__overlay-group">
 
@@ -185,7 +185,7 @@
 
                                             </h2><!--/.title -->
 
-                                            <p class="main-slider-two__text">From annual physicals to lab work and vaccinations, and all steps in between, Vivo Clinic patients can get all</p><!--/.text -->
+                                            <p class="main-slider-two__text"><?= $hero['text'] ?></p><!--/.text -->
 
                                             <div class="main-slider-two__button-group">
 
@@ -299,8 +299,8 @@
 
                     </div><!-- /.main-slider-two__item -->
 
-                </div><!-- /.item -->
-
+                </div>
+  <?php } ?>
                 <div class="item">
 
                     <div class="main-slider-two__item">
@@ -461,7 +461,7 @@
 
                     </div><!-- /.main-slider-two__item -->
 
-                </div><!-- /.item -->
+                </div>
 
                 <div class="item">
 
@@ -471,11 +471,11 @@
 
                             <div class="main-slider-two__item__shape__bg" style="background-image: url(assets/images/shapes/features-bg-1-1.png);"></div>
 
-                        </div><!-- /.main-slider-two__item__shape -->
+                        </div>
 
                         <div class="main-slider-two__wrapper">
 
-                            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/main-slider-bg-2-3.jpg);"></div><!-- /.slider-bg -->
+                            <div class="main-slider-two__bg" style="background-image: url(assets/images/backgrounds/main-slider-bg-2-3.jpg);"></div>
 
                             <div class="main-slider-two__container container">
 
@@ -485,7 +485,7 @@
 
                                         <div class="main-slider-two__content">
 
-                                            <p class="main-slider-two__sub-title">24/7 EMERGENCY SERVICE</p><!--/.sub-title -->
+                                            <p class="main-slider-two__sub-title">24/7 EMERGENCY SERVICE</p>
 
                                             <h2 class="main-slider-two__title">
 
@@ -507,7 +507,7 @@
 
                                                 </span>
 
-                                            </h2><!--/.title -->
+                                            </h2>
 
                                             <p class="main-slider-two__text">Can you champion this loop back, nor curate, or we don't want to boil the ocean. Customer centric i called</p><!--/.text -->
 
@@ -521,9 +521,9 @@
 
                                                         <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
 
-                                                    </a><!-- /.mediox-btn -->
+                                                    </a>
 
-                                                </div><!-- /.button-1 -->
+                                                </div>
 
                                                 <div class="main-slider-two__button-2">
 
@@ -623,7 +623,7 @@
 
                     </div><!-- /.main-slider-two__item -->
 
-                </div><!-- /.item -->
+                </div>
 
             </div><!-- /.main-slider-two__carousel -->
 
@@ -634,7 +634,7 @@
 
         <section class="features-one section-space-bottom">
 
-            <div class="features-one__bg" style="background-image: url(assets/images/shapes/features-bg-1-1.png);"></div><!-- /.features-one__bg -->
+            <div class="features-one__bg" style="background-image: url(assets/images/shapes/features-bg-1-1.png);"></div>
 
             <div class="container">
 
@@ -650,17 +650,17 @@
 
                                     <i class="icon-doctor-3"></i>
 
-                                </span><!-- /.features-one__card__icon -->
+                                </span>
 
-                                <h3 class="features-one__card__title">Experience Doctor</h3><!-- /.features-one__card__title -->
+                                <h3 class="features-one__card__title">Experience Doctor</h3>
 
-                                <p class="features-one__card__text">Our team of skilled nurses, and special patients</p><!-- /.features-one__card__text -->
+                                <p class="features-one__card__text">Our team of skilled nurses, and special patients</p>
 
-                            </div><!-- /.features-one__card__content -->
+                            </div>
 
-                        </div><!-- /.features-one__card -->
+                        </div>
 
-                    </div><!-- /.col-xl-3 col-md-6 -->
+                    </div>
 
                     <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
 
