@@ -87,28 +87,26 @@
         }
       }
     ],
-    "informacoes": {
-      "atendimento": {
-        "titulo": "Precisa de Apoio?",
-        "telefone": "(11) 99999-9999"
+    "atendimento": {
+      "titulo": "Precisa de Apoio?",
+      "telefone": "(11) 99999-9999"
+    },
+    "social": {
+      "facebook": {
+        "icone": "fab fa-facebook-f",
+        "link": "#"
       },
-      "social": {
-        "facebook": {
-          "icone" : "fab fa-facebook-f",
-          "link" : "#"
-        },
-        "x":  {
-          "icone" : "",
-          "link" : "#"
-        },
-        "instagram":  {
-          "icone" : "",
-          "link" : "#"
-        },
-        "youtube":  {
-          "icone" : "",
-          "link" : "#"
-        }
+      "x": {
+        "icone": "",
+        "link": "#"
+      },
+      "instagram": {
+        "icone": "",
+        "link": "#"
+      },
+      "youtube": {
+        "icone": "",
+        "link": "#"
       }
     }
   },

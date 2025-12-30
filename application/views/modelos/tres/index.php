@@ -235,11 +235,11 @@
 
                                             <div class="main-slider-two__call__content">
 
-                                                <p class="main-slider-two__call__title"><?= $d['hero']['informacoes']['atendimento']['titulo'] ?></p><!-- /.call__title -->
+                                                <p class="main-slider-two__call__title"><?= $d['hero']['informacoes']['ateulo'] ?></p><!-- /.call__title -->
 
                                                 <h4 class="main-slider-two__call__number">
 
-                                                    <a href="tel:<?= $d['hero']['informacoes']['atendimento']['telefone'] ?>"><?= $d['hero']['informacoes']['atendimento']['telefone'] ?></a>
+                                                    <a href="tel:<?= $d['hero']['atendimento']['telefone'] ?>"><?= $d['hero']['atendimento']['telefone'] ?></a>
 
                                                 </h4><!-- /.main-slider-two__call__number -->
 
@@ -253,7 +253,7 @@
 
                                             <div class="main-slider-two__social__links">
 
-                                                <?php foreach ($d['hero']['informacoes']['social'] as $social) { ?>
+                                                <?php foreach ($d['hero']['social'] as $social) { ?>
 
                                                     <a href=" <?= $social['facebook']['link'] ?>">
                                                         <i class=" <?= $social['facebook']['icone'] ?>" aria-hidden="true"></i>
