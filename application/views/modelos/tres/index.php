@@ -235,7 +235,7 @@
 
                                             <div class="main-slider-two__call__content">
 
-                                                <p class="main-slider-two__call__title"><?= $d['hero']['informacoes']['titulo'] ?></p><!-- /.call__title -->
+                                                <p class="main-slider-two__call__title"><?= $d['hero']['atendimento']['titulo'] ?></p><!-- /.call__title -->
 
                                                 <h4 class="main-slider-two__call__number">
 
