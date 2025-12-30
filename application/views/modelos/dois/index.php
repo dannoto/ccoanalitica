@@ -392,9 +392,9 @@
                         <img style="height: 230px;width:250px;object-fit:cover" src="<?= base_url() ?><?= $d['call']['imagem'] ?>" alt="">
                     </div>
                     <div class="appointments-one__left">
-                        <!-- <div class="appointments-one__icon">
-                            <span class="icon-brain"></span>
-                        </div> -->
+                        <div class="appointments-one__icon">
+                            <!-- <span class="icon-brain"></span> -->
+                        </div>
                         <div class="appointments-one__content">
                             <h3 class="appointments-one__title"><a href="#contato"><?$d['call']['texto']?></a></h3>
                         </div>
