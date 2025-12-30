@@ -252,8 +252,8 @@
                                             <h3 class="main-slider-two__social__title">Siga-nos</h3><!-- /.social__title -->
 
                                             <div class="main-slider-two__social__links">
-                                                
-                                                <?php foreach ($d['hero']['informacoes']['atendimento']['social'] as $social) { ?>
+
+                                                <?php foreach ($d['hero']['informacoes']['social'] as $social) { ?>
 
                                                     <a href=" <?= $social['facebook']['link'] ?>">
                                                         <i class=" <?= $social['facebook']['icone'] ?>" aria-hidden="true"></i>
