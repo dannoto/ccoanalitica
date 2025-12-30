@@ -1,0 +1,327 @@
+{
+  "schema": {
+    "background": "#0E1A2B",
+    "color": "#FFFFFF",
+    "primary-color": "#1F3C88",
+    "primary-color-rgb": "31,60,136",
+    "secondary-color": "#C9A24D",
+    "secondary-color-rgb": "201,162,77"
+  },
+  "seo": {
+    "title": "Almeida & Torres Advogados — Soluções Jurídicas Estratégicas",
+    "description": "Escritório de advocacia especializado em Direito Civil, Trabalhista, Empresarial e Previdenciário.",
+    "keywords": "advocacia, advogado, direito civil, direito trabalhista, direito empresarial",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.webp"
+  },
+  "header": {
+    "navbar": [
+      {
+        "texto": "Início",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
+    ],
+    "botao": {
+      "texto": "Falar com Advogado",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
+  "hero": {
+    "imagem": "dist/imagens/hero/advocacia/hero-1.jpg",
+    "top": "Bem-vindo ao Almeida & Torres Advogados",
+    "title": "Defendendo Seus Direitos com Excelência e Estratégia",
+    "description": "Há mais de 15 anos oferecendo assessoria jurídica completa, com atuação ética, estratégica e focada em resultados concretos para pessoas físicas e empresas.",
+    "botao": {
+      "texto": "Agendar Consultoria",
+      "link": "https://wa.me/5562982045122"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de Ajuda Jurídica?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sexta das 08h às 19h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@seudominio.com.br"
+      }
+    }
+  },
+  "sobre": {
+    "subtitulo": "Sobre o Escritório",
+    "titulo": "Compromisso com Justiça, Ética e Resultados",
+    "description": "Atuação jurídica sólida, transparente e personalizada.",
+    "solucoes": [
+      "Atendimento Personalizado",
+      "Estratégia Jurídica Preventiva",
+      "Defesa Técnica Especializada",
+      "Acompanhamento Processual Completo"
+    ],
+    "imagens": [
+      "dist/imagens/sobre/advocacia/sobre-1.jpg",
+      "dist/imagens/sobre/advocacia/sobre-2.jpg"
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Áreas de Atuação",
+    "titulo": "Soluções Jurídicas para Cada Necessidade",
+    "descricao": "Atuamos de forma estratégica em diversas áreas do Direito, sempre focados na melhor solução para o cliente.",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
+        "titulo": "Direito Civil",
+        "descricao": "Contratos, indenizações, família, sucessões e responsabilidade civil."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-trabalhista-1.jpg",
+        "titulo": "Direito Trabalhista",
+        "descricao": "Defesa de empregados e empregadores, ações trabalhistas e consultoria preventiva."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-empresarial-1.jpg",
+        "titulo": "Direito Empresarial",
+        "descricao": "Assessoria jurídica para empresas, contratos, compliance e litígios."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-previdenciario-1.jpg",
+        "titulo": "Direito Previdenciário",
+        "descricao": "Aposentadorias, benefícios previdenciários e revisões."
+      }
+    ]
+  },
+  "contadores": [
+    {
+      "numero": 10000,
+      "texto": "Clientes Atendidos"
+    },
+    {
+      "numero": 2500,
+      "texto": "Processos Concluídos"
+    },
+    {
+      "numero": 800,
+      "texto": "Acordos Realizados"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Atuação"
+    }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher Nosso Escritório ",
+    "titulo": "Confiança, Estratégia e Transparência",
+    "descricao": "Nossa atuação é pautada pela ética, clareza nas informações e foco absoluto na defesa dos interesses do cliente.",
+    "items": [
+      {
+        "titulo": "Equipe Especializada",
+        "descricao": "Advogados experientes e atualizados com a legislação vigente."
+      },
+      {
+        "titulo": "Atendimento Humanizado",
+        "descricao": "Cada caso é tratado de forma única e personalizada."
+      },
+      {
+        "titulo": "Estratégia Jurídica",
+        "descricao": "Análise técnica e planejamento focado no melhor resultado."
+      },
+      {
+        "titulo": "Transparência Total",
+        "descricao": "Comunicação clara e acompanhamento em todas as etapas."
+      }
+    ],
+    "imagens": [
+      "dist/imagens/porquenos/advocacia/porquenos-1.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-2.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Nossa Equipe",
+    "titulo": "Advogados Especialistas",
+    "items": [
+      {
+        "texto": "Dr. Marcelo Almeida",
+        "descripcao": "Direito Civil e Empresarial",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
+      },
+      {
+        "texto": "Dra. Renata Torres",
+        "descripcao": "Direito Trabalhista",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
+      },
+      {
+        "texto": "Dr. Felipe Costa",
+        "descripcao": "Direito Previdenciário",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp"
+      },
+      {
+        "texto": "Dr. Maria Mendes",
+        "descripcao": "Consultoria Jurídica",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que Nossos Clientes Dizem",
+    "items": [
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
+        "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo fortemente.",
+        "nome": "João Santos"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-2.webp",
+        "texto": "Profissionais extremamente competentes e atenciosos. Resolveram meu caso com agilidade.",
+        "nome": "Júlio Oliveira"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-3.webp",
+        "texto": "Escritório sério, ético e muito comprometido com o cliente.",
+        "nome": "Carlos Pereira"
+      }
+    ]
+  },
+  "galeria": {
+    "navbar": [
+      "todos",
+      "empresa",
+      "profissionais",
+      "servicos"
+    ],
+    "imagens": [
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.jpg"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-1.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-2.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-3.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-4.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-1.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-2.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-4.jpg"
+      }
+    ]
+  },
+  "video": {
+    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+    "imagem": "dist/imagens/video/advocacia/video-1.jpeg"
+  },
+  "faq": {
+    "subtitulo": "Dúvidas Frequentes",
+    "titulo": "Perguntas Mais Comuns",
+    "items": [
+      {
+        "pergunta": "Como funciona a primeira consulta?",
+        "resposta": "Realizamos uma análise detalhada do caso e orientamos sobre as melhores estratégias jurídicas."
+      },
+      {
+        "pergunta": "O atendimento é presencial ou online?",
+        "resposta": "Atendemos de forma presencial e também por videoconferência."
+      },
+      {
+        "pergunta": "Quanto tempo dura um processo?",
+        "resposta": "O prazo varia conforme o caso, a complexidade e o órgão responsável."
+      },
+      {
+        "pergunta": "Vocês atendem empresas?",
+        "resposta": "Sim, prestamos assessoria jurídica completa para empresas de diversos portes."
+      },
+      {
+        "pergunta": "As informações são sigilosas?",
+        "resposta": "Sim, todo atendimento é realizado com absoluto sigilo e ética profissional."
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Entre em Contato",
+    "titulo": "Fale com um Advogado",
+    "descricao": "Entre em contato conosco e agende uma consultoria jurídica especializada.",
+    "horarios": "Seg - Sex: 08:00 - 19:00",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@seudominio.com.br",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#",
+      "x": "#"
+    }
+  },
+  "acao": {
+    "texto": "Precisa de orientação jurídica agora?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Falar com Advogado"
+    }
+  },
+  "footer": {
+    "description": "Atuação jurídica sólida, ética e focada em resultados.",
+    "copyright": "© 2025 Almeida & Torres Advogados"
+  }
+}

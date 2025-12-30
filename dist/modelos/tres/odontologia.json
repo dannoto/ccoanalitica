@@ -1,0 +1,328 @@
+{
+  "schema": {
+    "background": "#000A5B",
+    "color": "#FFF",
+    "primary-color": "#4A7CD2",
+    "primary-color-rgb": "74,124,210",
+    "secondary-color": "#EAA638",
+    "secondary-color-rgb": "59, 157, 31"
+  },
+  "seo": {
+    "title": "Clínica Sorriso Perfeito — Implantes Dentários e Estética do Sorriso",
+    "description": "Clínica odontológica especializada em implantes, lentes de contato dental, Invisalign e clareamento.",
+    "keywords": "implante dentário, lentes de contato dental, dentista, clínica odontológica",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.webp"
+  },
+  "header": {
+    "navbar": [
+      {
+        "texto": "Início",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
+    ],
+    "botao": {
+      "texto": "Agendar Consulta",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
+  "hero": {
+    "imagem": "dist/imagens/hero/odontologia/hero-1.webp",
+    "top": "Bem-vindo à Clínica Sorriso Perfeito",
+    "title": "Seu Sorriso dos Sonhos Começa Aqui",
+    "description": "Há mais de 15 anos transformando vidas com implantes dentários, lentes de contato dental ultrafinas, Invisalign e clareamento a laser. Atendimento humanizado e resultados naturais.",
+    "botao": {
+      "texto": "Agendar Avaliação Gratuita",
+      "link": "https://wa.me/5562982045122"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de Atendimento?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sábado das 08h às 20h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@seudominio.com.br"
+      }
+    }
+  },
+  "sobre": {
+    "subtitulo": "Sobre a Clínica",
+    "titulo": "Excelência em Odontologia com Atendimento Humanizado",
+    "description": "Referência em implantes, estética dental e ortodontia moderna.",
+    "solucoes": [
+      "Implantes com Carga Imediata",
+      "Lentes de Contato Dental",
+      "Invisalign Oficial",
+      "Clareamento a Laser"
+    ],
+    "imagens": [
+      "dist/imagens/sobre/odontologia/sobre-1.webp",
+      "dist/imagens/sobre/odontologia/sobre-2.webp"
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Nossos Tratamentos ",
+    "titulo": "Cuidado Completo para Todos os Sorrisos",
+    "descricao": "Dos check-ups de rotina aos tratamentos estéticos mais avançados, cuidamos do seu sorriso com carinho e excelência.",
+    "items": [
+
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servicos-clareamento-1.jpg",
+        "titulo": "Implantes Dentários",
+        "descricao": "Dentes fixos no mesmo dia com carga imediata."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servicos-implante-dentario-1.jpg",
+        "titulo": "Lentes de Contato Dental",
+        "descricao": "Sorriso perfeito em poucas sessões. Ultrafinas e 100% naturais."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servicos-invaslign-1.jpg",
+        "titulo": "Invisalign & Ortodontia",
+        "descricao": "Alinhamento perfeito sem aparelho metálico. Conforto e discrição."
+      },
+      {
+        "imagem": "dist/imagens/servicos/odontologia/servicos-lentes-de-contato-1.jpg",
+        "titulo": "Clareamento Dental",
+        "descricao": "Até 8 tons mais branco em apenas 1 hora com tecnologia LED."
+      }
+    ]
+  },
+  "contadores": [
+    {
+      "numero": 10000,
+      "texto": "Pacientes Felizes"
+    },
+    {
+      "numero": 2500,
+      "texto": "Sorrisos Clareados"
+    },
+    {
+      "numero": 800,
+      "texto": "Implantes Realizados"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher a Sorriso Perfeito ",
+    "titulo": "Atendimento Excepcional com Toque Humano",
+    "descricao": "Escolher o dentista certo faz toda a diferença. Unimos expertise, tecnologia de ponta e um ambiente acolhedor para que cada consulta seja confortável e personalizada. ",
+    "items": [
+      {
+        "titulo": "Equipe Experiente",
+        "descricao": "Profissionais altamente capacitados e constantemente atualizados."
+      },
+      {
+        "titulo": "Tecnologia Avançada",
+        "descricao": "Equipamentos modernos para diagnósticos precisos e tratamentos eficazes."
+      },
+      {
+        "titulo": "Tratamento Personalizado",
+        "descricao": "Plano exclusivo feito sob medida para o seu sorriso."
+      },
+      {
+        "titulo": "Ambiente Familiar",
+        "descricao": "Espaço acolhedor para crianças, adolescentes, adultos e idosos."
+      }
+    ],
+    "imagens": [
+      "dist/imagens/porquenos/odontologia/porquenos-1.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-2.webp",
+      "dist/imagens/porquenos/odontologia/porquenos-3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Conheça Nossa Equipe",
+    "titulo": "Nossos Especialistas",
+    "items": [
+      {
+        "texto": "Dra. Fernanda Lima",
+        "descripcao": "Especialista em Estética",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-1.webp"
+      },
+      {
+        "texto": "Dr. Rafaela Santos",
+        "descripcao": "Implantes e Prótese",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-mulher-2.webp"
+      },
+      {
+        "texto": "Dra. Carlos Oliveira",
+        "descripcao": "Ortodontia & Invisalign",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-3.webp"
+      },
+      {
+        "texto": "Dr. Lucas Mendes",
+        "descripcao": "Clínico Geral",
+        "imagem": "dist/imagens/equipe/odontologia/equipe-homem-4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que nossos Pacientes Dizem",
+    "items": [
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-1.webp",
+        "texto": "O atendimento foi espetacular! Fiz meus implantes e me senti muito segura. O resultado ficou perfeito.",
+        "nome": "João Santos"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-2.webp",
+        "texto": "Invisalign mudou minha vida. Equipe muito atenciosa e tecnologia de ponta. Recomendo a todos.",
+        "nome": "Júlio Oliveira"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/odontologia/depoimento-homem-3.webp",
+        "texto": "Muito profissionais. Coloquei lentes de contato e meu sorriso está renovado. Gratidão!",
+        "nome": "Carlos Pereira"
+      }
+    ]
+  },
+  "galeria": {
+    "navbar": [
+      "todos",
+      "empresa",
+      "profissionais",
+      "servicos"
+    ],
+    "imagens": [
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-1.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-2.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-3.webp"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-empresa-4.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-5.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-6.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-7.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-profissionais-8.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-9.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-10.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-11.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/odontologia/galeria-servicos-12.webp"
+      }
+    ]
+  },
+  "video": {
+      "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+      "imagem" : "dist/imagens/video/odontologia/video-1.webp"
+  },
+  "faq": {
+    "subtitulo": "Tudo o que Você Precisa Saber",
+    "titulo": "Perguntas Frequentes",
+    "items": [
+      {
+        "pergunta": "Com que frequência devo ir ao dentista? ",
+        "resposta": "Recomendamos consultas a cada 6 meses para limpeza e check-up, exceto em casos específicos."
+      },
+      {
+        "pergunta": "O que fazer em caso de emergência odontológica? ",
+        "resposta": "Ligue imediatamente. Atendemos emergências no mesmo dia para dor intensa, dente quebrado ou inchaço. "
+      },
+      {
+        "pergunta": "Vocês atendem crianças? ",
+        "resposta": "Sim! Temos odontopediatria com ambiente lúdico e profissionais especializados em atendimento infantil. "
+      },
+      {
+        "pergunta": "Quais opções para substituir dentes perdidos? ",
+        "resposta": "Oferecemos implantes dentários, pontes fixas e próteses protocolo com carga imediata."
+      },
+      {
+        "pergunta": "Clareamento dental é seguro? ",
+        "resposta": " Totalmente seguro quando realizado por profissionais. Resultados duradouros e naturais. "
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Fale Conosco",
+    "titulo": "Agende sua Consulta",
+    "descricao": "Preencha o formulário abaixo ou utilize nossos canais de atendimento para agendar sua avaliação.",
+    "horarios": "Seg - Sex: 08:00 - 20:00 Sáb: 08:00 - 14:00 ",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@seudominio.com.br",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#",
+      "x": "#"
+    }
+  },
+  "acao": {
+    "texto":"Pronto para agendar sua consulta?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Agendar Agora"
+    }
+  },
+  "footer": {
+    "description": "Referência em odontologia moderna e humanizada.",
+    "copyright": "© 2025 Clínica Sorriso Perfeito"
+  }
+}
