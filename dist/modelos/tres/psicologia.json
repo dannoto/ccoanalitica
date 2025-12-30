@@ -51,7 +51,7 @@
         "botao2": { "texto": "Agende Agora", "link": "https://wa.me/5562982045122" }
       }
     ],
-    "telefone_emergencia": "+208-555-0112",
+    "telefone": "+208-555-0112",
     "informacoes": {
       "atendimento": {
         "titulo": "Precisa de Apoio?",

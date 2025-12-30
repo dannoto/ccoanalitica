@@ -221,7 +221,77 @@
 
                                 </div>
 
-                                
+                                <div class="main-slider-two__info">
+
+                                    <div class="main-slider-two__info__inner">
+
+                                        <div class="main-slider-two__call">
+
+                                            <span class="main-slider-two__call__icon">
+
+                                                <i class="icon-telephone"></i>
+
+                                            </span><!-- /.main-slider-two__call__icon -->
+
+                                            <div class="main-slider-two__call__content">
+
+                                                <p class="main-slider-two__call__title">call emergency</p><!-- /.call__title -->
+
+                                                <h4 class="main-slider-two__call__number">
+
+                                                    <a href="tel:<?= $hero['telefone'] ?>"><?= $hero['telefone'] ?></a>
+
+                                                </h4><!-- /.main-slider-two__call__number -->
+
+                                            </div><!-- /.main-slider-two__call__content -->
+
+                                        </div><!-- /.main-slider-two__call -->
+
+                                        <div class="main-slider-two__social">
+
+                                            <h3 class="main-slider-two__social__title">follow us</h3><!-- /.social__title -->
+
+                                            <div class="main-slider-two__social__links">
+
+                                                <a href="https://facebook.com">
+
+                                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+
+                                                    <span class="sr-only">Facebook</span>
+
+                                                </a>
+
+                                                <a href="https://twitter.com">
+
+                                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+
+                                                    <span class="sr-only">Twitter</span>
+
+                                                </a>
+
+                                                <a href="https://instagram.com">
+
+                                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+
+                                                    <span class="sr-only">Instagram</span>
+
+                                                </a>
+
+                                                <a href="https://youtube.com">
+
+                                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+
+                                                    <span class="sr-only">Youtube</span>
+
+                                                </a>
+
+                                            </div><!-- /.main-slider-two__social__links -->
+
+                                        </div><!-- /.main-slider-two__social -->
+
+                                    </div><!-- /.main-slider-two__info__inner -->
+
+                                </div>
 
                             </div>
 
