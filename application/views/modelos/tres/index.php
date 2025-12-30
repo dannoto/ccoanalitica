@@ -366,7 +366,7 @@
 
 
 
-                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="About Us" class="sec-title__img">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" class="sec-title__img">
                                     <h6 class="sec-title__tagline"><?= $d['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
                                 <h3 class="sec-title__title"><?= $d['sobre']['titulo'] ?></h3><!-- /.sec-title__title -->
