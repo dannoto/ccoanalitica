@@ -16,12 +16,30 @@
   },
   "header": {
     "navbar": [
-      { "texto": "Início", "link": "#home" },
-      { "texto": "Sobre", "link": "#about" },
-      { "texto": "Serviços", "link": "#services" },
-      { "texto": "Equipe", "link": "#team" },
-      { "texto": "Depoimentos", "link": "#testimonials" },
-      { "texto": "Contato", "link": "#contact" }
+      {
+        "texto": "Início",
+        "link": "#home"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#about"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#services"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#team"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#testimonials"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contact"
+      }
     ]
   },
   "hero": {
@@ -31,39 +49,66 @@
         "subtitle": "ATENDIMENTO HUMANIZADO",
         "title": "Cuidar da Mente é um Ato de Amor Próprio",
         "text": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
-        "botao1": { "texto": "Nossos Serviços", "link": "#services" },
-        "botao2": { "texto": "Agendar Sessão", "link": "https://wa.me/5562982045122" }
+        "botao1": {
+          "texto": "Nossos Serviços",
+          "link": "#services"
+        },
+        "botao2": {
+          "texto": "Agendar Sessão",
+          "link": "https://wa.me/5562982045122"
+        }
       },
       {
         "imagem": "https://media.istockphoto.com/id/1452736789/photo/mature-man-helps-younger-man-verbalize-problems-in-therapy.jpg?s=612x612",
         "subtitle": "TERAPIA INDIVIDUAL E FAMILIAR",
         "title": "Equilíbrio Emocional e Saúde Mental",
         "text": "Sessões personalizadas para promover o bem-estar e o autoconhecimento em um ambiente acolhedor.",
-        "botao1": { "texto": "Saiba Mais", "link": "#about" },
-        "botao2": { "texto": "Contato", "link": "https://wa.me/5562982045122" }
+        "botao1": {
+          "texto": "Saiba Mais",
+          "link": "#about"
+        },
+        "botao2": {
+          "texto": "Contato",
+          "link": "https://wa.me/5562982045122"
+        }
       },
       {
         "imagem": "https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.jpg?s=612x612",
         "subtitle": "APOIO PROFISSIONAL",
         "title": "Encontre Paz e Harmonia Interior",
         "text": "Terapia especializada para ansiedade, depressão, relacionamentos e desenvolvimento pessoal.",
-        "botao1": { "texto": "Ver Serviços", "link": "#services" },
-        "botao2": { "texto": "Agende Agora", "link": "https://wa.me/5562982045122" }
+        "botao1": {
+          "texto": "Ver Serviços",
+          "link": "#services"
+        },
+        "botao2": {
+          "texto": "Agende Agora",
+          "link": "https://wa.me/5562982045122"
+        }
       }
     ],
-    "telefone": "+208-555-0112",
     "informacoes": {
       "atendimento": {
         "titulo": "Precisa de Apoio?",
-        "descricao": "Ligue agora: (11) 99999-9999"
+        "telefone": "(11) 99999-9999"
       },
-      "horario": {
-        "titulo": "Horário de Atendimento",
-        "descricao": "Segunda a Sábado das 08h às 20h"
-      },
-      "contato": {
-        "titulo": "Envie uma Mensagem",
-        "descricao": "contato@harmoniapsicologia.com.br"
+      "social": {
+        "facebook": {
+          "icone" : "fab fa-facebook-f",
+          "link" : "#"
+        },
+        "x":  {
+          "icone" : "",
+          "link" : "#"
+        },
+        "instagram":  {
+          "icone" : "",
+          "link" : "#"
+        },
+        "youtube":  {
+          "icone" : "",
+          "link" : "#"
+        },
       }
     }
   },
@@ -156,4 +201,3 @@
     }
   ]
 }
-

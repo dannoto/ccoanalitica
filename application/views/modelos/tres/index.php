@@ -235,11 +235,11 @@
 
                                             <div class="main-slider-two__call__content">
 
-                                                <p class="main-slider-two__call__title">call emergency</p><!-- /.call__title -->
+                                                <p class="main-slider-two__call__title"><?= $d['hero']['informacoes']['atendimento']['titulo'] ?></p><!-- /.call__title -->
 
                                                 <h4 class="main-slider-two__call__number">
 
-                                                    <a href="tel:<?= $d['hero']['telefone'] ?>"><?= $d['hero']['telefone'] ?></a>
+                                                    <a href="tel:<?= $d['hero']['informacoes']['atendimento']['telefone'] ?>"><?= $d['hero']['informacoes']['atendimento']['telefone'] ?></a>
 
                                                 </h4><!-- /.main-slider-two__call__number -->
 
@@ -249,41 +249,18 @@
 
                                         <div class="main-slider-two__social">
 
-                                            <h3 class="main-slider-two__social__title">follow us</h3><!-- /.social__title -->
+                                            <h3 class="main-slider-two__social__title">Siga-nos</h3><!-- /.social__title -->
 
                                             <div class="main-slider-two__social__links">
+                                                
+                                                <?php foreach ($d['hero']['informacoes']['atendimento']['social'] as $social) { ?>
 
-                                                <a href="https://facebook.com">
+                                                    <a href=" <?= $social['facebook']['link'] ?>">
+                                                        <i class=" <?= $social['facebook']['icone'] ?>" aria-hidden="true"></i>
+                                                    </a>
 
-                                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Facebook</span>
-
-                                                </a>
-
-                                                <a href="https://twitter.com">
-
-                                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Twitter</span>
-
-                                                </a>
-
-                                                <a href="https://instagram.com">
-
-                                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Instagram</span>
-
-                                                </a>
-
-                                                <a href="https://youtube.com">
-
-                                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Youtube</span>
-
-                                                </a>
+                                                <?php } ?>
+                                               
 
                                             </div><!-- /.main-slider-two__social__links -->
 
