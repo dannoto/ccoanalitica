@@ -396,12 +396,12 @@
                             <!-- <span class="icon-brain"></span> -->
                         </div>
                         <div class="appointments-one__content">
-                            <h3 class="appointments-one__title"><a href="#contato"><?$d['call']['texto']?></a></h3>
-                            <?$d['call']['texto']?>
+                            <h3 class="appointments-one__title"><a href="#contato"><?=$d['call']['texto']?></a></h3>
+                            <?=$d['call']['texto']?>
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
-                        <a target="_blank" href="<?= $d['call']['botao']['link'] ?>" class="appointments-one__btn thm-btn"><?$d['call']['botao']['texto']?></a>
+                        <a target="_blank" href="<?= $d['call']['botao']['link'] ?>" class="appointments-one__btn thm-btn"><?= $d['call']['botao']['texto']?></a>
                     </div>
                 </div>
             </div>
