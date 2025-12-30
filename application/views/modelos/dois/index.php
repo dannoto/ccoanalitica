@@ -396,17 +396,17 @@
                             <span class="fas fa-phone-alt"></span>
                         </div>
                         <div class="appointments-one__content">
-                            <h3 class="appointments-one__title" style="color:#FFF"><?=$d['call']['texto']?></h3>
-                          
+                            <h3 class="appointments-one__title" style="color:#FFF"><?= $d['call']['texto'] ?></h3>
+
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
-                        <a target="_blank" href="<?= $d['call']['botao']['link'] ?>" class="appointments-one__btn thm-btn"><?= $d['call']['botao']['texto']?></a>
+                        <a target="_blank" href="<?= $d['call']['botao']['link'] ?>" class="appointments-one__btn thm-btn"><?= $d['call']['botao']['texto'] ?></a>
                     </div>
                 </div>
             </div>
         </section>
-         <!--  call to action -->
+        <!--  call to action -->
 
         <!-- Equipe -->
 
@@ -421,24 +421,24 @@
                                     <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                                         <div class="about-four__left-top-single">
                                             <div class="about-four__left-top-img">
-                                                <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_primaria']?>" alt="">
+                                                <img src="<?= base_url() ?><?= $d['diferenciais']['imagem_primaria'] ?>" alt="">
                                             </div>
-                                            
+
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
                                         <div class="about-four__left-top-single">
                                             <div class="about-four__left-top-img">
-                                                <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_secundaria']?>" alt="">
+                                                <img src="<?= base_url() ?><?= $d['diferenciais']['imagem_secundaria'] ?>" alt="">
                                             </div>
-                                          
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="about-four__left-bottom wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                                 <div class="about-four__left-bottom-img">
-                                    <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_terciaria']?>" alt="">
+                                    <img src="<?= base_url() ?><?= $d['diferenciais']['imagem_terciaria'] ?>" alt="">
                                 </div>
                             </div>
                         </div>
@@ -446,30 +446,25 @@
                     <div class="col-xl-7">
                         <div class="about-four__right">
                             <div class="section-title section-title-two text-left">
-                                <span class="section-title__tagline"><?=$d['diferenciais']['subtitulo']?></span>
-                                <h2 class="section-title__title"><?=$d['diferenciais']['titulo']?></h2>
+                                <span class="section-title__tagline"><?= $d['diferenciais']['subtitulo'] ?></span>
+                                <h2 class="section-title__title"><?= $d['diferenciais']['titulo'] ?></h2>
                             </div>
-                            <p class="about-two__text"><?=$d['diferenciais']['descricao']?></p>
+                            <p class="about-two__text"><?= $d['diferenciais']['descricao'] ?></p>
                             <div class="about-two__points-box">
                                 <ul class="list-unstyled about-two__points">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h5>Anxiety Disorder</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h5>Personal Meeting</h5>
-                                        </div>
-                                    </li>
+                                    <?php foreach ($d['diferenciais']['items'] as  $diferencial): ?>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="icon-checked"></span>
+                                            </div>
+                                            <div class="text">
+                                                <h5><?= $diferencial ?></h5>
+                                            </div>
+                                        </li>
+                                    <?php endforeach; ?>
+
                                 </ul>
-                                <ul class="list-unstyled about-two__points about-two__points--two">
+                                <!-- <ul class="list-unstyled about-two__points about-two__points--two">
                                     <li>
                                         <div class="icon">
                                             <span class="icon-checked"></span>
@@ -486,9 +481,9 @@
                                             <h5>Family Counseling</h5>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
