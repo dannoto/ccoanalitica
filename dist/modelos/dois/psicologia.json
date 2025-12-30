@@ -153,10 +153,10 @@
   "call": {
     "texto": "Consulta Online",
     "imagem": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
-    "botao": {
+    "botao": [
       "texto": "Agendar uma Consulta",
       "link": "https://wa.me/5562982045122"
-    }
+    ]
   },
   "equipe": {
     "subtitulo": "Conheça Nossa Equipe",
