@@ -233,11 +233,6 @@
                                 <div class="about-one__img">
                                     <img style="height:350px;max-width:550px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
                                 </div>
-                                <!-- <div class="about-one__img-two">
-                                    <img style="height:350px;max-width:550px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
-
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
@@ -262,7 +257,6 @@
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
-
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline"><?= $d['servicos']['subtitulo'] ?></span>
@@ -292,7 +286,6 @@
         </section>
 
         <!-- Contadores -->
-
         <section class="counter-one">
             <div class="container">
                 <ul class="list-unstyled counter-one__list">
@@ -390,27 +383,30 @@
             </div>
         </section>
 
+        <!--  call to action -->
         <section class="appointments-one">
             <div class="container">
                 <div class="appointments-one__inner wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <div class="appointments-one__big-text img-bounce">Psicologista</div>
+                    <div class="appointments-one__big-text img-bounce"></div>
                     <div class="appointments-one__img">
-                        <img style="height: 230px;width:250px;object-fit:cover" src="<?= base_url() ?><?= $d['porque']['imagem_terciaria'] ?>" alt="">
+                        <img style="height: 230px;width:250px;object-fit:cover" src="<?= base_url() ?><?= $d['call']['imagem'] ?>" alt="">
                     </div>
                     <div class="appointments-one__left">
-                        <div class="appointments-one__icon">
+                        <!-- <div class="appointments-one__icon">
                             <span class="icon-brain"></span>
-                        </div>
+                        </div> -->
                         <div class="appointments-one__content">
-                            <h3 class="appointments-one__title"><a href="#contato">Consulta Online</a></h3>
+                            <h3 class="appointments-one__title"><a href="#contato"><?$d['call']['texto']?></a></h3>
                         </div>
                     </div>
                     <div class="appointments-one__btn-box">
-                        <a target="_blank" href="<?= $d['header']['botao_agendar']['link'] ?>" class="appointments-one__btn thm-btn">Agendar uma Consulta</a>
+                        <a target="_blank" href="<?= $d['call']['botao']['link'] ?>" class="appointments-one__btn thm-btn"><?$d['call']['botao']['texto']?></a>
                     </div>
                 </div>
             </div>
         </section>
+         <!--  call to action -->
+
         <!-- Equipe -->
 
         <!--  Deferenciais -->
