@@ -730,7 +730,7 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-6 mt-5">
                         <div class="faq-two__left">
-                            <h3 class="faq-two__title"><?= $faq['titulo'] ?></h3>
+                            <h3 class="faq-two__title"><?= $d['faq']['titulo'] ?></h3>
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
 
                                 <?php foreach ($d['faq']['items'] as $index => $faq): ?>
@@ -754,7 +754,7 @@
                     <div class="col-xl-5 col-lg-6">
                         <div class="faq-two__right">
                             <div class="faq-two__img">
-                                <img src="assets/images/resources/faq-two-img-1.jpg" alt="">
+                                <img src="<?= $d['faq']['imagem'] ?>" alt="">
                             </div>
                         </div>
                     </div>
