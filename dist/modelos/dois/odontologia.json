@@ -151,6 +151,14 @@
     ],
     "telefone_chamada": "(11) 99999-9999"
   },
+   "call": {
+    "texto": "Visite-nos",
+    "imagem": "dist/imagens/call/odontologia/call-1.jpg",
+    "botao": {
+      "texto": "Agendar uma Consulta",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
   "equipe": {
     "subtitulo": "Conheça Nossa Equipe",
     "titulo": "Cirurgiões-Dentistas Especialistas",
