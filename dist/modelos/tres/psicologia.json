@@ -134,8 +134,8 @@
   ],
   "sobre": {
     "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-    "imagem_secundaria1": "dist/imagens/sobre/psicologia/sobre-2.jpg",
-    "imagem_secundaria2": "dist/imagens/sobre/psicologia/sobre-3.jpg",
+    "imagem_secundaria1": "",
+    "imagem_secundaria2": "dist/imagens/sobre/psicologia/sobre-2.jpg",
     "subtitulo": "Sobre Nós",
     "titulo": "Seu Bem-Estar Emocional Começa com um Profissional Qualificado",
     "descricao": "No Instituto Harmonia, oferecemos atendimento psicológico humanizado, com foco no autoconhecimento, equilíbrio emocional e qualidade de vida.",
