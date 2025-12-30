@@ -151,7 +151,7 @@
     "telefone_chamada": "(11) 99999-9999"
   },
   "call": {
-    "text": "Consulta Online",
+    "texto": "Consulta Online",
     "imagem": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
     "botao_agendar": {
       "texto": "Agendar uma Consulta",
