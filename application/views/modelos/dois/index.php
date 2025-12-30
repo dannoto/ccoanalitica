@@ -265,7 +265,7 @@
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
-          
+
             <div class="container">
                 <div class="section-title text-center">
                     <span class="section-title__tagline"><?= $d['servicos']['subtitulo'] ?></span>
@@ -416,6 +416,111 @@
         </section>
         <!-- Equipe -->
 
+        <!--  Deferenciais -->
+        <section class="about-four">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="about-four__left">
+                            <div class="about-four__left-top">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
+                                        <div class="about-four__left-top-single">
+                                            <div class="about-four__left-top-img">
+                                                <img src="assets/images/resources/about-four-left-top-img-1-1.jpg" alt="">
+                                            </div>
+                                            <h4 class="about-four__left-top-title">Depression Problem</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                                        <div class="about-four__left-top-single">
+                                            <div class="about-four__left-top-img">
+                                                <img src="assets/images/resources/about-four-left-top-img-1-2.jpg" alt="">
+                                            </div>
+                                            <h4 class="about-four__left-top-title">Couple Counselling</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-four__left-bottom wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                                <div class="about-four__left-bottom-img">
+                                    <img src="assets/images/resources/about-four-left-bottom-img-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="about-four__right">
+                            <div class="section-title section-title-two text-left">
+                                <span class="section-title__tagline">About Company</span>
+                                <h2 class="section-title__title">We are leading mental healths consultation center for
+                                    you.</h2>
+                            </div>
+                            <p class="about-two__text">Torems isum dolor amet consectetur adipisicing sed dole there
+                                eiusie mod tempor incididublabore dolore magna aliqua denim joredstdi larfe htue goose
+                                to tomasto gigeria juteeo gte edites dekes hokes.</p>
+                            <div class="about-two__points-box">
+                                <ul class="list-unstyled about-two__points">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Anxiety Disorder</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Personal Meeting</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled about-two__points about-two__points--two">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Dating &amp; Relation</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-checked"></span>
+                                        </div>
+                                        <div class="text">
+                                            <h5>Family Counseling</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="about-two__bottom">
+                                <div class="about-two__bottom-text-box">
+                                    <p>Over 12 year's experience provings
+                                        tops quality therapy across the
+                                        world orem therapy service.</p>
+                                </div>
+                                <div class="about-two__user-box">
+                                    <div class="about-two__user-img">
+                                        <img src="assets/images/resources/about-two-user-img.jpg" alt="">
+                                    </div>
+                                    <div class="about-two__user-content">
+                                        <h4 class="about-two__user-name">Jasonia Tim</h4>
+                                        <p class="about-two__user-sub-title">CEO, Sycho</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  Deferenciais -->
+
+
         <section class="team-one" id="equipe">
             <div class="team-one__shape-1 float-bob-y">
                 <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
@@ -515,10 +620,7 @@
                 </div>
             </div>
         </section>
-
         <!-- Depoimentos -->
-
-
 
 
         <section class="testimonial-one" id="depoimentos">
@@ -621,6 +723,82 @@
                 </div>
             </div>
         </section>
+        
+        <!--  faq -->
+        <section class="faq-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="faq-two__left">
+                            <h3 class="faq-two__title">Have some law related <br>
+                                question may be need for you</h3>
+                            <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>What is your company privacy policy ?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Stars seed saying together all under signs greater signs dos divide
+                                                likeness gtre blind doesn't it from moved give moveth. Day make night
+                                                our she wons had
+                                                fourth darkness every towan the cosmo period thirds.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div>
+                                <div class="accrodion active">
+                                    <div class="accrodion-title">
+                                        <h4>Do you think you need to know the feel secure ?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="">
+                                        <div class="inner">
+                                            <p>Stars seed saying together all under signs greater signs dos divide
+                                                likeness gtre blind doesn't it from moved give moveth. Day make night
+                                                our she wons had
+                                                fourth darkness every towan the cosmo period thirds.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div>
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>Do i need a referral to see a psychologist ?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Stars seed saying together all under signs greater signs dos divide
+                                                likeness gtre blind doesn't it from moved give moveth. Day make night
+                                                our she wons had
+                                                fourth darkness every towan the cosmo period thirds.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div>
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>What should i expect at my first appointment ?</h4>
+                                    </div>
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Stars seed saying together all under signs greater signs dos divide
+                                                likeness gtre blind doesn't it from moved give moveth. Day make night
+                                                our she wons had
+                                                fourth darkness every towan the cosmo period thirds.</p>
+                                        </div><!-- /.inner -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="faq-two__right">
+                            <div class="faq-two__img">
+                                <img src="assets/images/resources/faq-two-img-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  faq -->
 
 
         <!-- Contato -->
@@ -792,7 +970,7 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Serviços</h4>
-                                      <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;" >
+                                    <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;">
                                         <?php foreach ($d['servicos']['items'] as $index => $servico): ?>
                                             <li style="margin-bottom:5px;text-decoration:none;color:#FFF"><span class="main-menu-border"><?= $servico['titulo'] ?></span></li>
                                         <?php endforeach; ?>
@@ -805,9 +983,9 @@
                             <div class="footer-widget__column footer-widget__instagram">
                                 <div class="footer-widget__title-box">
                                     <h4 class="footer-widget__title">Páginas</h4>
-                                    <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;" >
+                                    <ul class="main-menu__list" style="margin-top:20px;list-style-type:  none;">
                                         <?php foreach ($d['header']['navbar'] as $item): ?>
-                                            <li style="margin-bottom:5px;text-decoration:none;color:#FFF" ><a  style="text-decoration:none;color:#FFF" href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
+                                            <li style="margin-bottom:5px;text-decoration:none;color:#FFF"><a style="text-decoration:none;color:#FFF" href="<?= $item['link'] ?>"><?= $item['texto'] ?><span class="main-menu-border"></span></a></li>
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
