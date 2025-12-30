@@ -239,7 +239,7 @@
 
                                                 <h4 class="main-slider-two__call__number">
 
-                                                    <a href="tel:<?= $hero['telefone'] ?>"><?= $hero['telefone'] ?></a>
+                                                    <a href="tel:<?= $d['hero']['telefone'] ?>"><?= $d['hero']['telefone'] ?></a>
 
                                                 </h4><!-- /.main-slider-two__call__number -->
 
