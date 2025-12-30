@@ -2,9 +2,7 @@
   "schema": {
     "background": "#0F2A2E",
     "primary-color": "#4FA3A5"
-
   },
-
   "seo": {
     "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
     "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
@@ -12,7 +10,6 @@
     "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.jpg"
   },
-
   "header": {
     "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
     "telefone_top": "(11) 99999-9999",
@@ -20,12 +17,30 @@
     "localizacao": "São Paulo, SP",
     "horario_top": "Seg-Sex: 08:00-20:00",
     "navbar": [
-            { "texto": "Inicio", "link": "#inicio" },
-      { "texto": "Sobre", "link": "#sobre" },
-      { "texto": "Serviços", "link": "#servicos" },
-      { "texto": "Equipe", "link": "#equipe" },
-      { "texto": "Depoimentos", "link": "#depoimentos" },
-      { "texto": "Contato", "link": "#contato" }
+      {
+        "texto": "Inicio",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
     ],
     "botao_agendar": {
       "texto": "Agendar uma Consulta",
@@ -33,7 +48,6 @@
     },
     "whatsapp_float": "https://wa.me/5562982045122"
   },
-
   "slider": {
     "slides": [
       {
@@ -62,7 +76,6 @@
       }
     ]
   },
-
   "sobre": {
     "subtitulo": "Sobre a Clínica",
     "titulo": "Psicologia Humanizada e Baseada em Evidências",
@@ -75,7 +88,6 @@
       "link": "https://wa.me/5562982045122"
     }
   },
-
   "servicos": {
     "subtitulo": "Nossos Atendimentos",
     "titulo": "Serviços Psicológicos Especializados",
@@ -98,32 +110,47 @@
       {
         "imagem": "dist/imagens/servicos/psicologia/servico-orientacao-psicologica-1.jpg",
         "titulo": "Orientação Psicológica",
-        "descricao":"Suporte emocional em momentos de crise e tomada de decisões."
+        "descricao": "Suporte emocional em momentos de crise e tomada de decisões."
       }
     ]
   },
-
   "contadores": [
-    { "numero": 10000, "texto": "Sessões Realizadas" },
-    { "numero": 2500, "texto": "Pacientes Acompanhados" },
-    { "numero": 800, "texto": "Planos Terapêuticos" },
-    { "numero": 15, "texto": "Anos de Experiência" }
+    {
+      "numero": 10000,
+      "texto": "Sessões Realizadas"
+    },
+    {
+      "numero": 2500,
+      "texto": "Pacientes Acompanhados"
+    },
+    {
+      "numero": 800,
+      "texto": "Planos Terapêuticos"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
   ],
-
   "porque": {
     "subtitulo": "Por que nos escolher",
     "titulo": "Um Espaço Seguro para Cuidar de Você",
     "descricao": "Nossa missão é oferecer acolhimento, escuta ativa e intervenções terapêuticas eficazes, sempre respeitando a singularidade de cada pessoa.",
     "imagem_lateral": "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
     "imagem_principal": "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
-     "imagem_terciaria": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
+    "imagem_terciaria": "dist/imagens/porquenos/psicologia/porquenos-3.jpg",
     "pontos": [
-      { "titulo": "Consultas Online", "icone": "icon-counseling" },
-      { "titulo": "Equipe Qualificada", "icone": "icon-doctor" }
+      {
+        "titulo": "Consultas Online",
+        "icone": "icon-counseling"
+      },
+      {
+        "titulo": "Equipe Qualificada",
+        "icone": "icon-doctor"
+      }
     ],
     "telefone_chamada": "(11) 99999-9999"
   },
-
   "equipe": {
     "subtitulo": "Conheça Nossa Equipe",
     "titulo": "Psicólogos Especialistas",
@@ -150,7 +177,6 @@
       }
     ]
   },
-
   "depoimentos": {
     "subtitulo": "Depoimentos",
     "titulo": "O que Nossos Pacientes Dizem",
@@ -158,24 +184,49 @@
       {
         "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
         "nome": "João Santos",
-       "tipo":"Paciente",
+        "tipo": "Paciente",
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp"
       },
       {
         "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
         "nome": "Júlio Oliveira",
-       "tipo":"Paciente",
+        "tipo": "Paciente",
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp"
       },
       {
         "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
         "nome": "Carlos Pereira",
-       "tipo":"Paciente",
+        "tipo": "Paciente",
         "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp"
       }
     ]
   },
-
+  "faq": {
+    "titulo": "Perguntas Frequentes",
+    "imagem": "dist/imagens/faq/psicologia/faq-1.jpg",
+    "items": [
+      {
+        "pergunta": "Com que frequência devo fazer terapia?",
+        "resposta": "Geralmente semanal, mas a frequência é definida conforme a necessidade de cada paciente."
+      },
+      {
+        "pergunta": "A terapia é sigilosa?",
+        "resposta": "Sim. Todo atendimento segue rigorosamente o código de ética profissional."
+      },
+      {
+        "pergunta": "Vocês atendem crianças e adolescentes?",
+        "resposta": "Sim. Temos profissionais especializados em atendimento infantil e juvenil."
+      },
+      {
+        "pergunta": "A terapia pode ser online?",
+        "resposta": "Sim. Oferecemos atendimento presencial e online."
+      },
+      {
+        "pergunta": "Quando devo procurar um psicólogo?",
+        "resposta": "Sempre que sentir necessidade de apoio emocional ou autoconhecimento."
+      }
+    ]
+  },
   "contato": {
     "subtitulo": "Fale Conosco",
     "titulo": "Agende sua Sessão",
@@ -185,7 +236,6 @@
     "email1": "contato@seudominio.com.br",
     "email2": "contato@seudominio.com.br"
   },
-
   "footer": {
     "descricao": "Cuidado psicológico ético, humanizado e profissional.",
     "endereco": "Av. Paulista, 1000 - São Paulo - SP",

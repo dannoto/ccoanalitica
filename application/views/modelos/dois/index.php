@@ -723,68 +723,31 @@
                 </div>
             </div>
         </section>
-        
+
         <!--  faq -->
         <section class="faq-two">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7 col-lg-6">
+                    <div class="col-xl-7 col-lg-6 mt-5">
                         <div class="faq-two__left">
-                            <h3 class="faq-two__title">Have some law related <br>
-                                question may be need for you</h3>
+                            <h3 class="faq-two__title"><?= $faq['titulo'] ?></h3>
                             <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>What is your company privacy policy ?</h4>
+
+                                <?php foreach ($d['faq']['items'] as $index => $faq): ?>
+
+                                    <div class="accrodion">
+                                        <div class="accrodion-title">
+                                            <h4><?= $faq['pergunta'] ?></h4>
+                                        </div>
+                                        <div class="accrodion-content" style="display: none;">
+                                            <div class="inner">
+                                                <p><?= $faq['resposta'] ?></p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Stars seed saying together all under signs greater signs dos divide
-                                                likeness gtre blind doesn't it from moved give moveth. Day make night
-                                                our she wons had
-                                                fourth darkness every towan the cosmo period thirds.</p>
-                                        </div><!-- /.inner -->
-                                    </div>
-                                </div>
-                                <div class="accrodion active">
-                                    <div class="accrodion-title">
-                                        <h4>Do you think you need to know the feel secure ?</h4>
-                                    </div>
-                                    <div class="accrodion-content" style="">
-                                        <div class="inner">
-                                            <p>Stars seed saying together all under signs greater signs dos divide
-                                                likeness gtre blind doesn't it from moved give moveth. Day make night
-                                                our she wons had
-                                                fourth darkness every towan the cosmo period thirds.</p>
-                                        </div><!-- /.inner -->
-                                    </div>
-                                </div>
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Do i need a referral to see a psychologist ?</h4>
-                                    </div>
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Stars seed saying together all under signs greater signs dos divide
-                                                likeness gtre blind doesn't it from moved give moveth. Day make night
-                                                our she wons had
-                                                fourth darkness every towan the cosmo period thirds.</p>
-                                        </div><!-- /.inner -->
-                                    </div>
-                                </div>
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>What should i expect at my first appointment ?</h4>
-                                    </div>
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Stars seed saying together all under signs greater signs dos divide
-                                                likeness gtre blind doesn't it from moved give moveth. Day make night
-                                                our she wons had
-                                                fourth darkness every towan the cosmo period thirds.</p>
-                                        </div><!-- /.inner -->
-                                    </div>
-                                </div>
+
+                                <?php endforeach; ?>
+
                             </div>
                         </div>
                     </div>
@@ -799,7 +762,6 @@
             </div>
         </section>
         <!--  faq -->
-
 
         <!-- Contato -->
         <section class="contact-page" id="contato">
