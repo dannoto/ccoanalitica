@@ -47,7 +47,7 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
-    <!-- /.preloader -->
+
     <div class="page-wrapper">
 
         <header class="main-header main-header--three sticky-header sticky-header--normal">
@@ -137,6 +137,7 @@
                 </div>
             </div>
         </header>
+
         <section class="main-slider-two" id="home">
             <div class="main-slider-two__carousel mediox-owl__carousel--with-counter mediox-owl__carousel--basic-nav owl-carousel" data-owl-options='{ "loop": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "items": 1,"autoplay": true,  "smartSpeed": 1000,  "nav": true,"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],"dots": false,  "margin": 0 }'>
                 <?php foreach ($d['hero']['slides'] as $hero) { ?>
@@ -151,7 +152,7 @@
 
                             <div class="main-slider-two__wrapper">
 
-                                <div class="main-slider-two__bg" style="background-image: url(<?= $hero['imagem'] ?>);"></div><!-- /.slider-bg -->
+                                <div class="main-slider-two__bg" style="background-image: url(<?= $hero['imagem'] ?>);"></div>
 
                                 <div class="main-slider-two__container container">
 
@@ -161,8 +162,7 @@
 
                                             <div class="main-slider-two__content">
 
-                                                <p class="main-slider-two__sub-title"><?= $hero['subtitle'] ?></p><!--/.sub-title -->
-
+                                                <p class="main-slider-two__sub-title"><?= $hero['subtitle'] ?></p>
                                                 <h2 class="main-slider-two__title">
 
                                                     <?= $hero['title'] ?>
@@ -183,129 +183,56 @@
 
                                                     </span>
 
-                                                </h2><!--/.title -->
-
-                                                <p class="main-slider-two__text"><?= $hero['text'] ?></p><!--/.text -->
-
+                                                </h2>
+                                                <p class="main-slider-two__text"><?= $hero['text'] ?></p>
                                                 <div class="main-slider-two__button-group">
 
                                                     <div class="main-slider-two__button-1">
 
-                                                        <a href="services.html" class="mediox-btn main-slider-two__btn">
+                                                        <a href="<?= $hero['botao2']['link'] ?>" class="mediox-btn main-slider-two__btn">
 
-                                                            <span>view all service</span>
+                                                            <span><?= $hero['botao1']['texto'] ?></span>
 
                                                             <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
 
-                                                        </a><!-- /.mediox-btn -->
+                                                        </a>
 
-                                                    </div><!-- /.button-1 -->
+                                                    </div>
 
                                                     <div class="main-slider-two__button-2">
 
-                                                        <a href="contact.html" class="mediox-btn main-slider-two__btn">
+                                                        <a href="<?= $hero['botao2']['link'] ?>" class="mediox-btn main-slider-two__btn">
 
-                                                            <span>contact us</span>
+                                                            <span><?= $hero['botao2']['texto'] ?></span>
 
                                                             <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
 
-                                                        </a><!-- /.mediox-btn -->
+                                                        </a>
 
-                                                    </div><!-- /.button-1 -->
+                                                    </div>
 
-                                                </div><!-- /.button-group -->
+                                                </div>
 
-                                            </div><!-- /.main-slider-two__content -->
+                                            </div>
 
-                                        </div><!-- /.col-xxl-9 col-xl-11 -->
+                                        </div>
 
-                                    </div><!-- /.row -->
+                                    </div>
 
-                                </div><!-- /.main-slider-two__container container -->
+                                </div>
 
-                                <div class="main-slider-two__info">
+                                
 
-                                    <div class="main-slider-two__info__inner">
+                            </div>
 
-                                        <div class="main-slider-two__call">
-
-                                            <span class="main-slider-two__call__icon">
-
-                                                <i class="icon-telephone"></i>
-
-                                            </span><!-- /.main-slider-two__call__icon -->
-
-                                            <div class="main-slider-two__call__content">
-
-                                                <p class="main-slider-two__call__title">call emergency</p><!-- /.call__title -->
-
-                                                <h4 class="main-slider-two__call__number">
-
-                                                    <a href="tel:+208-555-0112">+208-555-0112</a>
-
-                                                </h4><!-- /.main-slider-two__call__number -->
-
-                                            </div><!-- /.main-slider-two__call__content -->
-
-                                        </div><!-- /.main-slider-two__call -->
-
-                                        <div class="main-slider-two__social">
-
-                                            <h3 class="main-slider-two__social__title">follow us</h3><!-- /.social__title -->
-
-                                            <div class="main-slider-two__social__links">
-
-                                                <a href="https://facebook.com">
-
-                                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Facebook</span>
-
-                                                </a>
-
-                                                <a href="https://twitter.com">
-
-                                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Twitter</span>
-
-                                                </a>
-
-                                                <a href="https://instagram.com">
-
-                                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Instagram</span>
-
-                                                </a>
-
-                                                <a href="https://youtube.com">
-
-                                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                                    <span class="sr-only">Youtube</span>
-
-                                                </a>
-
-                                            </div><!-- /.main-slider-two__social__links -->
-
-                                        </div><!-- /.main-slider-two__social -->
-
-                                    </div><!-- /.main-slider-two__info__inner -->
-
-                                </div><!-- /.main-slider-two__info -->
-
-                            </div><!-- /.main-slider-two__wrapper -->
-
-                        </div><!-- /.main-slider-two__item -->
+                        </div>
 
                     </div>
                 <?php } ?>
-                
-            </div><!-- /.main-slider-two__carousel -->
 
+            </div>
         </section>
-        <!-- /.main-slider-two -->
+
 
 
 
