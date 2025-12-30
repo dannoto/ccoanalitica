@@ -297,71 +297,38 @@
 
 
         <section class="about-two section-space-two" id="about">
-
             <div class="container">
-
                 <div class="row gutter-y-50">
-
                     <div class="col-lg-6 wow fadeInUp" data-wow-duration="1500ms">
-
                         <div class="about-two__image">
-
                             <div class="about-two__image__one">
-
                                 <img src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="about">
-
                             </div><!-- /.about-two__image__one -->
-
                             <div class="about-two__image__two">
-
                                 <div class="about-two__image__two__inner">
-
-                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria1'] ?>" alt="about">
-
+                                    <!-- <img src="<?//= base_url() ?><?//= $d['sobre']['imagem_secundaria1'] ?>" alt="about"> -->
                                     <div class="about-two__image__two__shape-box">
-
                                         <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="shape" class="about-two__image__two__shape">
-
                                         <div class="about-two__image__two__bg-top">
-
                                             <div class="about-two__image__two__bg-top__1">
-
                                                 <div class="about-two__image__two__bg-top__2"></div>
-
                                             </div>
-
                                         </div><!-- /.about-two__image__two__bg-top -->
-
                                         <div class="about-two__image__two__bg-bottom">
-
                                             <div class="about-two__image__two__bg-bottom__1">
-
                                                 <div class="about-two__image__two__bg-bottom__2"></div>
-
                                             </div>
-
                                         </div><!-- /.about-two__image__two__bg-bottom -->
-
                                     </div><!-- /.about-two__image__two__shape-box -->
-
                                 </div><!-- /.about-two__image__two__inner -->
-
                             </div><!-- /.about-two__image__two -->
-
                             <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2'] ?>" alt="about" class="about-two__image__three">
-
                             <div class="about-two__image__shape"></div><!-- /.about-two__image__shape -->
-
                         </div><!-- /.about-two__image -->
-
                     </div><!-- /.col-lg-6 -->
-
                     <div class="col-lg-6">
-
                         <div class="about-two__content">
-
                             <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
-
                                 <div class="sec-title__top">
                                     <h6 class="sec-title__tagline"><?= $d['sobre']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
@@ -372,44 +339,25 @@
                             </div><!-- /.about-two__description -->
                             <ul class="about-two__list list-unstyled wow fadeInUp" data-wow-duration="1500ms">
                                 <?php foreach ($d['sobre']['lista'] as $lista) { ?>
-
                                     <li>
-
                                         <span class="about-two__list__icon">
-
                                             <i class="icon-check"></i>
-
                                         </span><!-- /.about-two__list__icon -->
-
                                         <?= $lista ?>
-
                                     </li>
                                 <?php } ?>
-
                             </ul><!-- /.about-two__list -->
-
                             <div class="about-two__button wow fadeInUp" data-wow-duration="1500ms">
-
                                 <a href="about.html" class="mediox-btn">
-
                                     <span>know more</span>
-
                                     <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
                                 </a><!-- /.mediox-btn -->
-
                             </div><!-- /.about-two__button -->
-
                         </div><!-- /.about-two__content -->
-
                     </div><!-- /.col-lg-6 -->
-
                 </div><!-- /.row gutter-y-50 -->
-
             </div><!-- /.container -->
-
             <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/about-shape-2-1.png" alt="shape" class="about-two__shape">
-
         </section><!-- /.about-two section-space-two -->
 
         <section class="funfact-one funfact-one--home2">
