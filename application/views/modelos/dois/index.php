@@ -464,24 +464,7 @@
                                     <?php endforeach; ?>
 
                                 </ul>
-                                <!-- <ul class="list-unstyled about-two__points about-two__points--two">
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h5>Dating &amp; Relation</h5>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-checked"></span>
-                                        </div>
-                                        <div class="text">
-                                            <h5>Family Counseling</h5>
-                                        </div>
-                                    </li>
-                                </ul> -->
+                                  
                             </div>
 
                         </div>

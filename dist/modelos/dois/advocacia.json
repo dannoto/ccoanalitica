@@ -151,7 +151,7 @@
     ],
     "telefone_chamada": "(11) 99999-9999"
   },
-   "call": {
+  "call": {
     "texto": "Fale Conosco",
     "imagem": "dist/imagens/call/advocacia/call-1.jpg",
     "botao": {
