@@ -421,7 +421,7 @@
                                     <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                                         <div class="about-four__left-top-single">
                                             <div class="about-four__left-top-img">
-                                                <img src="assets/images/resources/about-four-left-top-img-1-1.jpg" alt="">
+                                                <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_primaria']?>" alt="">
                                             </div>
                                             <h4 class="about-four__left-top-title">Depression Problem</h4>
                                         </div>
@@ -429,7 +429,7 @@
                                     <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
                                         <div class="about-four__left-top-single">
                                             <div class="about-four__left-top-img">
-                                                <img src="assets/images/resources/about-four-left-top-img-1-2.jpg" alt="">
+                                                <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_secundaria']?>" alt="">
                                             </div>
                                             <h4 class="about-four__left-top-title">Couple Counselling</h4>
                                         </div>
