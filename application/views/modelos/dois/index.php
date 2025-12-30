@@ -446,13 +446,10 @@
                     <div class="col-xl-7">
                         <div class="about-four__right">
                             <div class="section-title section-title-two text-left">
-                                <span class="section-title__tagline">About Company</span>
-                                <h2 class="section-title__title">We are leading mental healths consultation center for
-                                    you.</h2>
+                                <span class="section-title__tagline"><?=$d['diferenciais']['subtitulo']?></span>
+                                <h2 class="section-title__title"><?=$d['diferenciais']['titulo']?></h2>
                             </div>
-                            <p class="about-two__text">Torems isum dolor amet consectetur adipisicing sed dole there
-                                eiusie mod tempor incididublabore dolore magna aliqua denim joredstdi larfe htue goose
-                                to tomasto gigeria juteeo gte edites dekes hokes.</p>
+                            <p class="about-two__text"><?=$d['diferenciais']['descricao']?></p>
                             <div class="about-two__points-box">
                                 <ul class="list-unstyled about-two__points">
                                     <li>
@@ -491,22 +488,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="about-two__bottom">
-                                <div class="about-two__bottom-text-box">
-                                    <p>Over 12 year's experience provings
-                                        tops quality therapy across the
-                                        world orem therapy service.</p>
-                                </div>
-                                <div class="about-two__user-box">
-                                    <div class="about-two__user-img">
-                                        <img src="assets/images/resources/about-two-user-img.jpg" alt="">
-                                    </div>
-                                    <div class="about-two__user-content">
-                                        <h4 class="about-two__user-name">Jasonia Tim</h4>
-                                        <p class="about-two__user-sub-title">CEO, Sycho</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
