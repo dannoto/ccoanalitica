@@ -393,7 +393,7 @@
                     </div>
                     <div class="appointments-one__left">
                         <div class="appointments-one__icon">
-                            <span class="icon-phone"></span>
+                            <span class="fas fa-phone-alt"></span>
                         </div>
                         <div class="appointments-one__content">
                             <h3 class="appointments-one__title"><a href="#contato"><?=$d['call']['texto']?></a></h3>
