@@ -4005,14 +4005,14 @@ position: absolute;
   justify-content: center;
   height: 110px;
   width: 110px;
-  background-color: var(--meciy-white);
+  /* background-color: var(--meciy-white); */
 }
 
 .appointments-one__icon span {
   position: relative;
   display: inline-block;
   font-size: 65px;
-  color: var(--meciy-primary);
+  color: var(--meciy-white);
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
   -webkit-transition-delay: 0.1s;
