@@ -133,9 +133,9 @@
     }
   ],
   "sobre": {
-    "imagem_principal": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
-    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
+    "imagem_principal": "dist/imagens/sobre/psicologia/sobre-3.jpg",
+    "imagem_secundaria1": "dist/imagens/sobre/psicologia/sobre-4.jpg",
+    "imagem_secundaria2": "dist/imagens/sobre/psicologia/sobre-5.jpg",
     "subtitulo": "Sobre Nós",
     "titulo": "Seu Bem-Estar Emocional Começa com um Profissional Qualificado",
     "descricao": "No Instituto Harmonia, oferecemos atendimento psicológico humanizado, com foco no autoconhecimento, equilíbrio emocional e qualidade de vida.",
