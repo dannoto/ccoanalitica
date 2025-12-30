@@ -10,36 +10,18 @@
   "seo": {
     "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
     "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
-    "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica",
+    "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica, terapia individual, terapia de casal, terapia familiar",
     "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.jpg"
   },
   "header": {
     "navbar": [
-      {
-        "texto": "Início",
-        "link": "#inicio"
-      },
-      {
-        "texto": "Sobre",
-        "link": "#sobre"
-      },
-      {
-        "texto": "Serviços",
-        "link": "#servicos"
-      },
-      {
-        "texto": "Equipe",
-        "link": "#equipe"
-      },
-      {
-        "texto": "Depoimentos",
-        "link": "#depoimentos"
-      },
-      {
-        "texto": "Contato",
-        "link": "#contato"
-      }
+      { "texto": "Início", "link": "#home" },
+      { "texto": "Sobre", "link": "#about" },
+      { "texto": "Serviços", "link": "#services" },
+      { "texto": "Equipe", "link": "#team" },
+      { "texto": "Depoimentos", "link": "#testimonials" },
+      { "texto": "Contato", "link": "#contact" }
     ],
     "botao": {
       "texto": "Agendar Sessão",
@@ -47,18 +29,33 @@
     }
   },
   "hero": {
-    "imagem": "dist/imagens/hero/psicologia/hero-4.jpg",
-    "top": "Bem-vindo ao Instituto Harmonia",
-    "title": "Cuidar da Mente é um Ato de Amor Próprio",
-    "description": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
-    "botao": {
-      "texto": "Agendar Primeira Sessão",
-      "link": "https://wa.me/5562982045122"
-    },
-    "bottom": {
-      "google": "Avaliação no Google",
-      "avaliacoes": "Mais de 23 mil avaliações"
-    },
+    "slides": [
+      {
+        "imagem": "https://img.freepik.com/free-photo/authentic-scene-young-person-undergoing-psychological-therapy_23-2150161978.jpg",
+        "sub_title": "ATENDIMENTO HUMANIZADO",
+        "title": "Cuidar da Mente é um Ato de Amor Próprio",
+        "text": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
+        "botao1": { "texto": "Nossos Serviços", "link": "#services" },
+        "botao2": { "texto": "Agendar Sessão", "link": "https://wa.me/5562982045122" }
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1452736789/photo/mature-man-helps-younger-man-verbalize-problems-in-therapy.jpg?s=612x612",
+        "sub_title": "TERAPIA INDIVIDUAL E FAMILIAR",
+        "title": "Equilíbrio Emocional e Saúde Mental",
+        "text": "Sessões personalizadas para promover o bem-estar e o autoconhecimento em um ambiente acolhedor.",
+        "botao1": { "texto": "Saiba Mais", "link": "#about" },
+        "botao2": { "texto": "Contato", "link": "https://wa.me/5562982045122" }
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.jpg?s=612x612",
+        "sub_title": "APOIO PROFISSIONAL",
+        "title": "Encontre Paz e Harmonia Interior",
+        "text": "Terapia especializada para ansiedade, depressão, relacionamentos e desenvolvimento pessoal.",
+        "botao1": { "texto": "Ver Serviços", "link": "#services" },
+        "botao2": { "texto": "Agende Agora", "link": "https://wa.me/5562982045122" }
+      }
+    ],
+    "telefone_emergencia": "+208-555-0112",
     "informacoes": {
       "atendimento": {
         "titulo": "Precisa de Apoio?",
@@ -70,261 +67,97 @@
       },
       "contato": {
         "titulo": "Envie uma Mensagem",
-        "descricao": "contato@seudominio.com.br"
+        "descricao": "contato@harmoniapsicologia.com.br"
       }
     }
   },
-  "sobre": {
-    "subtitulo": "Sobre a Clínica",
-    "titulo": "Psicologia Humanizada e Baseada em Evidências",
-    "description": "Um espaço seguro, acolhedor e ético para o cuidado da saúde emocional.",
-    "solucoes": [
-      "Atendimento Individual",
-      "Psicoterapia para Casais",
-      "Acompanhamento Emocional",
-      "Desenvolvimento Pessoal"
-    ],
-    "imagens": [
-      "dist/imagens/sobre/psicologia/sobre-1.jpg",
-      "dist/imagens/sobre/psicologia/sobre-2.jpg"
-    ]
-  },
-  "servicos": {
-    "subtitulo": "Nossos Atendimentos",
-    "titulo": "Cuidado Emocional em Todas as Fases da Vida",
-    "descricao": "Atendimentos personalizados para promover equilíbrio emocional, autoconhecimento e bem-estar.",
-    "items": [
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-individual-1.jpg",
-        "titulo": "Terapia Individual",
-        "descricao": "Apoio psicológico para ansiedade, depressão, estresse e autoconhecimento."
-      },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-casal-1.jpg",
-        "titulo": "Terapia de Casal",
-        "descricao": "Fortalecimento de vínculos, comunicação e resolução de conflitos."
-      },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-terapia-familiar-1.jpg",
-        "titulo": "Terapia Familiar",
-        "descricao": "Acompanhamento psicológico para melhorar relações familiares."
-      },
-      {
-        "imagem": "dist/imagens/servicos/psicologia/servico-orientacao-psicologica-1.jpg",
-        "titulo": "Orientação Psicológica",
-        "descricao": "Suporte emocional em momentos de crise e tomada de decisões."
-      }
-    ]
-  },
-  "contadores": [
+  "features": [
     {
-      "numero": 10000,
-      "texto": "Sessões Realizadas"
+      "icon": "icon-brain",
+      "title": "Psicólogos Experientes",
+      "text": "Equipe qualificada com anos de experiência em saúde mental e emocional."
     },
     {
-      "numero": 2500,
-      "texto": "Pacientes Acompanhados"
+      "icon": "icon-heartbeat",
+      "title": "Atendimento Personalizado",
+      "text": "Terapias individuais, de casal e familiar adaptadas às suas necessidades."
     },
     {
-      "numero": 800,
-      "texto": "Planos Terapêuticos"
+      "icon": "icon-meditation",
+      "title": "Ambiente Acolhedor",
+      "text": "Espaço confortável e confidencial para o seu bem-estar."
     },
     {
-      "numero": 15,
-      "texto": "Anos de Experiência"
+      "icon": "icon-support",
+      "title": "Suporte 24/7",
+      "text": "Atendimento emergencial e acompanhamento contínuo."
     }
   ],
-  "porque": {
-    "subtitulo": " Por que Escolher o Instituto Harmonia ",
-    "titulo": "Um Espaço Seguro para Cuidar de Você",
-    "descricao": "Nossa missão é oferecer acolhimento, escuta ativa e intervenções terapêuticas eficazes, sempre respeitando a singularidade de cada pessoa.",
+  "about": {
+    "imagem_principal": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
+    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
+    "tagline": "Sobre Nós",
+    "title": "Seu Bem-Estar Emocional Começa com um Profissional Qualificado",
+    "description": "No Instituto Harmonia, oferecemos atendimento psicológico humanizado, com foco no autoconhecimento, equilíbrio emocional e qualidade de vida.",
+    "lista": [
+      "Atendimento Individual e Familiar",
+      "Técnicas Modernas de Terapia",
+      "Psicólogos Qualificados e Empáticos",
+      "Preços Acessíveis e Acolhimento"
+    ]
+  },
+  "services": {
+    "tagline": "Nossos Serviços",
+    "title": "Especialidades em Psicologia e Saúde Mental",
     "items": [
       {
-        "titulo": "Profissionais Qualificados",
-        "descricao": "Psicólogos experientes e constantemente atualizados."
+        "imagem": "https://www.shutterstock.com/image-photo/young-man-mental-therapy-session-260nw-2607969505.jpg",
+        "title": "Terapia Individual"
       },
       {
-        "titulo": "Atendimento Humanizado",
-        "descricao": "Escuta empática e respeito ao tempo de cada paciente."
+        "imagem": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
+        "title": "Terapia Familiar"
       },
       {
-        "titulo": "Abordagens Científicas",
-        "descricao": "Terapias baseadas em evidências psicológicas."
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "title": "Terapia em Grupo"
       },
       {
-        "titulo": "Ambiente Acolhedor",
-        "descricao": "Espaço seguro, confortável e confidencial."
-      }
-    ],
-    "imagens": [
-      "dist/imagens/porquenos/psicologia/porquenos-1.jpg",
-      "dist/imagens/porquenos/psicologia/porquenos-2.jpg",
-      "dist/imagens/porquenos/psicologia/porquenos-3.jpg"
-    ]
-  },
-  "equipe": {
-    "subtitulo": "Conheça Nossa Equipe",
-    "titulo": "Psicólogos Especialistas",
-    "items": [
-      {
-        "texto": "Dra. Fernanda Lima",
-        "descripcao": "Psicologia Clínica",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.jpg"
+        "imagem": "https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.jpg?s=612x612",
+        "title": "Terapia de Casal"
       },
       {
-        "texto": "Dra. Rafaela Santos",
-        "descripcao": "Terapia Cognitivo-Comportamental",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.jpg"
+        "imagem": "https://drconsulta.com/conteudo/wp-content/uploads/2024/08/dr.consulta_bem_estar_dicas-1024x576.webp",
+        "title": "Apoio para Ansiedade e Depressão"
       },
       {
-        "texto": "Dr. Carlos Oliveira",
-        "descripcao": "Psicologia Familiar",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-3.jpg"
-      },
-      {
-        "texto": "Dr. Lucas Mendes",
-        "descripcao": "Psicologia Humanista",
-        "imagem": "dist/imagens/equipe/psicologia/equipe-homem-6.jpg"
+        "imagem": "https://www.terapiamed.com/wp-content/uploads/2024/04/terapia-em-grupo1.jpg",
+        "title": "Desenvolvimento Pessoal"
       }
     ]
   },
-  "depoimentos": {
-    "subtitlo": "Depoimentos",
-    "titulo": "O que Nossos Pacientes Dizem",
-    "items": [
-      {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-1.webp",
-        "tipo": "Paciente",
-        "texto": "O acompanhamento psicológico mudou minha forma de lidar com a ansiedade. Atendimento acolhedor e profissional.",
-        "nome": "João Santos"
-      },
-      {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-2.webp",
-        "tipo": "Paciente",
-        "texto": "Me senti segura desde a primeira sessão. Profissionais incríveis.",
-        "nome": "Júlio Oliveira"
-      },
-      {
-        "imagem": "dist/imagens/depoimentos/psicologia/depoimento-homem-3.webp",
-        "tipo": "Paciente",
-        "texto": "Um espaço de cuidado, respeito e escuta. Recomendo muito.",
-        "nome": "Carlos Pereira"
-      }
-    ]
-  },
-  "galeria": {
-    "navbar": [
-      "todos",
-      "empresa",
-      "profissionais",
-      "servicos"
-    ],
-    "imagens": [
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-1.jpg"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-2.jpg"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-3.webp"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-empresa-4.jpg"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-1.jpg"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-2.jpg"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-3.jpg"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-profissionais-4.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-1.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-2.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-3.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/psicologia/galeria-servicos-4.jpg"
-      }
-    ]
-  },
-  "video": {
-    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
-    "imagem": "dist/imagens/video/psicologia/video-1.webp"
-  },
-  "faq": {
-    "subtitulo": "Tudo o que Você Precisa Saber",
-    "titulo": "Perguntas Frequentes",
-    "items": [
-      {
-        "pergunta": "Com que frequência devo fazer terapia?",
-        "resposta": "Geralmente semanal, mas a frequência é definida conforme a necessidade de cada paciente."
-      },
-      {
-        "pergunta": "A terapia é sigilosa?",
-        "resposta": "Sim. Todo atendimento segue rigorosamente o código de ética profissional."
-      },
-      {
-        "pergunta": "Vocês atendem crianças e adolescentes?",
-        "resposta": "Sim. Temos profissionais especializados em atendimento infantil e juvenil."
-      },
-      {
-        "pergunta": "A terapia pode ser online?",
-        "resposta": "Sim. Oferecemos atendimento presencial e online."
-      },
-      {
-        "pergunta": "Quando devo procurar um psicólogo?",
-        "resposta": "Sempre que sentir necessidade de apoio emocional ou autoconhecimento."
-      }
-    ]
-  },
-  "contato": {
-    "subtitulo": "Fale Conosco",
-    "titulo": "Agende sua Sessão",
-    "descricao": "Entre em contato e dê o primeiro passo para cuidar da sua saúde emocional.",
-    "horarios": "Seg - Sex: 08:00 - 20:00 Sáb: 08:00 - 14:00 ",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "telefone": "(11) 99999-9999",
-    "email": "contato@seudominio.com.br",
-    "social": {
-      "facebook": "#",
-      "instagram": "#",
-      "whatsapp": "#",
-      "linkedin": "#",
-      "x": "#"
+  "team": [
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-notebook-office-260nw-2630595975.jpg",
+      "name": "Dr. Ana Silva",
+      "cargo": "Psicóloga Clínica"
+    },
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-notebook-office-260nw-2590576733.jpg",
+      "name": "Dr. João Oliveira",
+      "cargo": "Psicólogo Especialista em Casais"
+    },
+    {
+      "imagem": "https://img.freepik.com/fotos-premium/retrato-de-psicologo-profissional-de-mulher-de-meia-idade-no-escritorio_116407-9960.jpg",
+      "name": "Dra. Maria Fernandes",
+      "cargo": "Psicóloga Infantil"
+    },
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-clipboard-office-260nw-2589073943.jpg",
+      "name": "Dr. Pedro Santos",
+      "cargo": "Neuropsicólogo"
     }
-  },
-  "acao": {
-    "texto": "Pronto para cuidar da sua saúde emocional?",
-    "botao": {
-      "link": "https://wa.me/5562982045122",
-      "texto": "Agendar Sessão"
-    }
-  },
-  "footer": {
-    "description": "Cuidado psicológico ético, humanizado e profissional.",
-    "copyright": "© 2025 Instituto Harmonia"
-  }
+  ]
 }
+

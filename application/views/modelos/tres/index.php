@@ -1,105 +1,57 @@
+<?= $d[''][''] ?>
 <!DOCTYPE html>
-
 <html lang="en">
 
-
-
 <head>
-
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Home Two || Mediox || Medical & Healthcare HTML Template</title>
+    <title><?= $d['seo']['title'] ?></title>
+    <meta name="description" content="<?= $d['seo']['description'] ?>" />
+    <meta name="author" content="<?= $d['seo']['author'] ?>" />
+    <meta name="keywords" content="<?= $d['seo']['keywords'] ?>" />
 
     <!-- favicons Icons -->
-
-    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url() ?>dist/modelos/tres/assets/images/favicons/apple-touch-icon.png" />
-
-    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url() ?>dist/modelos/tres/assets/images/favicons/favicon-32x32.png" />
-
-    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>dist/modelos/tres/assets/images/favicons/favicon-16x16.png" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url() ?><?= $d['seo']['favicon'] ?>" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url() ?><?= $d['seo']['favicon'] ?>" />
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?><?= $d['seo']['favicon'] ?>" />
     <link rel="manifest" href="<?= base_url() ?>dist/modelos/tres/assets/images/favicons/site.webmanifest" />
 
-    <meta name="description" content="Mediox is a versatile medical and healthcare HTML Template. You can make a good professional looking websites with our attractive design which is best for medical clinic, healthcare, hospital, dermatology clinic, cosmetology company, skin care, plastic surgery, beauty clinic, cosmetic clinic, laser surgery, spa, wellness hospital and all other medical and health care related websites and businesses." />
-
-
-
     <!-- fonts -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/bootstrap/css/bootstrap.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/bootstrap-select/bootstrap-select.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/animate/animate.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/fontawesome/css/all.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/jquery-ui/jquery-ui.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/jarallax/jarallax.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/nouislider/nouislider.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/nouislider/nouislider.pips.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/tiny-slider/tiny-slider.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/mediox-icons/style.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/owl-carousel/css/owl.carousel.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/vendors/slick/css/slick.css" />
-
-
-
     <!-- template styles -->
-
     <link rel="stylesheet" href="<?= base_url() ?>dist/modelos/tres/assets/css/mediox.css" />
 
 </head>
 
-
-
 <body class="custom-cursor">
 
-
-
     <div class="custom-cursor__cursor"></div>
-
     <div class="custom-cursor__cursor-two"></div>
-
-
-
     <div class="preloader">
-
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
-
     </div>
-
     <!-- /.preloader -->
-
     <div class="page-wrapper">
 
-
-
-
-
         <header class="main-header main-header--three sticky-header sticky-header--normal">
-
             <div class="container-fluid">
 
                 <div class="main-header__inner">
@@ -109,14 +61,53 @@
                         <div class="main-header__logo logo-retina">
 
                             <a href="index.html">
+                                <svg
+                                    width="260"
+                                    height="48"
+                                    viewBox="0 0 260 48"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    role="img"
+                                    aria-label="Sua Logo Aqui">
+                                    <style>
+                                        .logo-icon {
+                                            fill: <?= $d['schema']['primary-color'] ?>;
+                                        }
 
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/logo-light.png" alt="Mediox HTML" width="164">
+                                        .logo-text {
+                                            fill: <?= $d['schema']['primary-color'] ?>;
+                                            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                            font-weight: 600;
+                                            font-size: 22px;
+                                            letter-spacing: -0.3px;
+                                        }
+                                    </style>
+
+                                    <!-- ÍCONE -->
+                                    <g class="logo-icon" transform="translate(0,4)">
+                                        <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                                        <path
+                                            d="M12 20 L18 26 L28 14"
+                                            fill="none"
+                                            stroke="white"
+                                            stroke-width="3"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+
+                                    <!-- TEXTO -->
+                                    <text
+                                        x="54"
+                                        y="31"
+                                        class="logo-text">
+                                        Sua Logo Aqui
+                                    </text>
+                                </svg>
 
                             </a>
 
-                            <div class="main-header__logo__shape"></div><!-- /.main-header__logo__shape -->
+                            <div class="main-header__logo__shape"></div>
 
-                        </div><!-- /.main-header__logo -->
+                        </div>
 
                         <div class="main-header__sidebar-btn sidebar-btn__toggler">
 
@@ -128,298 +119,29 @@
 
                         </div><!-- /.sidebar-btn__toggler -->
 
-                    </div><!-- /.main-header__left -->
-
+                    </div>
                     <div class="main-header__right">
-
                         <nav class="main-header__nav main-menu">
-
                             <ul class="main-menu__list one-page-scroll-menu">
-
-                                <li class="dropdown megamenu scrollToLink current">
-
-                                    <a href="#home">Home</a>
-
-                                    <ul>
-
-                                        <li>
-
-                                            <section class="home-showcase">
-
-                                                <div class="container">
-
-                                                    <div class="home-showcase__inner">
-
-                                                        <div class="row">
-
-                                                            <div class="col-md-6 col-lg-3">
-
-                                                                <div class="demo-one__card">
-
-                                                                    <div class="demo-one__image">
-
-                                                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/home-showcase/home-showcase-1.jpg" alt="">
-
-                                                                        <div class="demo-one__btns">
-
-                                                                            <a href="index.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>Multi Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                            <a href="index-one-page.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>One Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                        </div><!-- /.demo-one__btns -->
-
-                                                                    </div><!-- /.demo-one__image -->
-
-                                                                    <div class="demo-one__content">
-
-                                                                        <h3 class="demo-one__title">
-
-                                                                            <a href="index.html">Home Page 01</a>
-
-                                                                        </h3><!-- /.demo-one__title -->
-
-                                                                    </div><!-- /.demo-one__content -->
-
-                                                                </div><!-- /.demo-one__card -->
-
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-
-                                                            <div class="col-md-6 col-lg-3">
-
-                                                                <div class="demo-one__card">
-
-                                                                    <div class="demo-one__image">
-
-                                                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/home-showcase/home-showcase-2.jpg" alt="">
-
-                                                                        <div class="demo-one__btns">
-
-                                                                            <a href="index-2.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>Multi Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                            <a href="index-2-one-page.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>One Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                        </div><!-- /.demo-one__btns -->
-
-                                                                    </div><!-- /.demo-one__image -->
-
-                                                                    <div class="demo-one__content">
-
-                                                                        <h3 class="demo-one__title">
-
-                                                                            <a href="index-2.html">Home Page 02</a>
-
-                                                                        </h3><!-- /.demo-one__title -->
-
-                                                                    </div><!-- /.demo-one__content -->
-
-                                                                </div><!-- /.demo-one__card -->
-
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-
-                                                            <div class="col-md-6 col-lg-3">
-
-                                                                <div class="demo-one__card">
-
-                                                                    <div class="demo-one__image">
-
-                                                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/home-showcase/home-showcase-3.jpg" alt="">
-
-                                                                        <div class="demo-one__btns">
-
-                                                                            <a href="index-3.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>Multi Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                            <a href="index-3-one-page.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>One Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                        </div><!-- /.demo-one__btns -->
-
-                                                                    </div><!-- /.demo-one__image -->
-
-                                                                    <div class="demo-one__content">
-
-                                                                        <h3 class="demo-one__title">
-
-                                                                            <a href="index-3.html">Home Page 03</a>
-
-                                                                        </h3><!-- /.demo-one__title -->
-
-                                                                    </div><!-- /.demo-one__content -->
-
-                                                                </div><!-- /.demo-one__card -->
-
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-
-                                                            <div class="col-md-6 col-lg-3">
-
-                                                                <div class="demo-one__card">
-
-                                                                    <div class="demo-one__image">
-
-                                                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/home-showcase/home-showcase-4.jpg" alt="">
-
-                                                                        <div class="demo-one__btns">
-
-                                                                            <a href="index-dark.html" class="mediox-btn demo-one__btn">
-
-                                                                                <span>View Page</span>
-
-                                                                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                                                                            </a><!-- /.thm-btn demo-one__btn -->
-
-                                                                        </div><!-- /.demo-one__btns -->
-
-                                                                    </div><!-- /.demo-one__image -->
-
-                                                                    <div class="demo-one__content">
-
-                                                                        <h3 class="demo-one__title">
-
-                                                                            <a href="index-dark.html">Home Dark</a>
-
-                                                                        </h3><!-- /.demo-one__title -->
-
-                                                                    </div><!-- /.demo-one__content -->
-
-                                                                </div><!-- /.demo-one__card -->
-
-                                                            </div><!-- /.col-md-6 col-lg-3 -->
-
-                                                        </div><!-- /.row -->
-
-                                                    </div><!-- /.home-showcase__inner -->
-
-                                                </div><!-- /.container -->
-
-                                            </section>
-
-                                        </li>
-
-                                    </ul>
-
-                                </li>
-
-                                <li class="scrollToLink"><a href="#about">About</a></li>
-
-                                <li class="scrollToLink"><a href="#services">Services</a></li>
-
-                                <li class="scrollToLink"><a href="#testimonials">Testimonials</a></li>
-
-                                <li class="scrollToLink"><a href="#team">team</a></li>
-
-                                <li class="scrollToLink"><a href="#blog">Blog</a></li>
-
+                                <?php foreach ($d['header']['navbar'] as $navbar) { ?>
+                                    <li class="scrollToLink"><a href="<?= $navbar['link'] ?>"><?= $navbar['texto'] ?></a> </li>
+                                <?php } ?>
                             </ul>
-
-                        </nav><!-- /.main-header__nav -->
-
+                        </nav>
                         <div class="mobile-nav__btn mobile-nav__toggler">
-
                             <span></span>
-
                             <span></span>
-
                             <span></span>
-
-                        </div><!-- /.mobile-nav__toggler -->
-
-                        <a href="#" class="search-toggler main-header__search">
-
-                            <i class="icon-search" aria-hidden="true"></i>
-
-                            <span class="sr-only">Search</span>
-
-                        </a><!-- /.search-toggler -->
-
-                        <a href="cart.html" class="main-header__cart">
-
-                            <i class="icon-cart" aria-hidden="true"></i>
-
-                            <span class="sr-only">Shopping Cart</span>
-
-                        </a><!-- /.search-toggler -->
-
-                        <a href="appointment.html" class="mediox-btn main-header__btn">
-
-                            <span>make an appointment</span>
-
-                            <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                        </a><!-- /.mediox-btn -->
-
-                    </div><!-- /.main-header__right -->
-
-                </div><!-- /.main-header__inner -->
-
-            </div><!-- /.container-fluid -->
-
-        </header><!-- /.main-header -->
-
-
-
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </header>
         <section class="main-slider-two" id="home">
-
-            <div class="main-slider-two__carousel mediox-owl__carousel--with-counter mediox-owl__carousel--basic-nav owl-carousel" data-owl-options='{
-
-		"loop": true,
-
-		"animateOut": "fadeOut",
-
-		"animateIn": "fadeIn",
-
-		"items": 1,
-
-		"autoplay": true,
-
-		"smartSpeed": 1000,
-
-		"nav": true,
-
-        "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-
-		"dots": false,
-
-		"margin": 0
-
-	    }'>
+            <div class="main-slider-two__carousel mediox-owl__carousel--with-counter mediox-owl__carousel--basic-nav owl-carousel" data-owl-options='{ "loop": true, "animateOut": "fadeOut", "animateIn": "fadeIn", "items": 1,"autoplay": true,  "smartSpeed": 1000,  "nav": true,"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],"dots": false,  "margin": 0 }'>
 
                 <div class="item">
-
                     <div class="main-slider-two__item">
 
                         <div class="main-slider-two__item__shape">
@@ -906,7 +628,8 @@
 
             </div><!-- /.main-slider-two__carousel -->
 
-        </section><!-- /.main-slider-two -->
+        </section>
+        <!-- /.main-slider-two -->
 
 
 
@@ -1010,8 +733,8 @@
 
             </div><!-- /.container -->
 
-        </section><!-- /.features-one section-space-bottom -->
-
+        </section>
+        <!-- /.features-one section-space-bottom -->
 
 
         <section class="about-two section-space-two" id="about">
@@ -1186,8 +909,6 @@
 
         </section><!-- /.about-two section-space-two -->
 
-
-
         <section class="funfact-one funfact-one--home2">
 
             <div class="container">
@@ -1262,13 +983,11 @@
 
         </section><!-- /.funfact-one -->
 
-
-
         <section class="services-two section-space-bottom" id="services">
 
             <div class="services-two__bg" style="background-image: url(assets/images/shapes/services-bg-2-1.png);"></div>
 
-            <!-- /.services-two__bg -->
+
 
             <div class="container">
 
@@ -1318,109 +1037,109 @@
 
                 <div class="services-two__carousel mediox-owl__carousel mediox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
 
-			"items": 1,
+                            "items": 1,
 
-			"margin": 10,
+                            "margin": 10,
 
-			"loop": true,
+                            "loop": true,
 
-			"smartSpeed": 700,
+                            "smartSpeed": 700,
 
-            "navContainer": ".services-two__custome-navs",
+                            "navContainer": ".services-two__custome-navs",
 
-			"nav": true,
+                            "nav": true,
 
-			"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+                            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
 
-			"dots": false,
+                            "dots": false,
 
-			"autoplay": true,
+                            "autoplay": true,
 
-			"responsive": {
+                            "responsive": {
 
-				"0": {
+                                "0": {
 
-                    "items": 1,
+                                    "items": 1,
 
-                    "margin": 10
+                                    "margin": 10
 
-                },
+                                },
 
-                "768": {
+                                "768": {
 
-                    "items": 2,
+                                    "items": 2,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "992": {
+                                "992": {
 
-                    "items": 2,
+                                    "items": 2,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1200": {
+                                "1200": {
 
-                    "items": 2.05,
+                                    "items": 2.05,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1300": {
+                                "1300": {
 
-                    "items": 2.15,
+                                    "items": 2.15,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1400": {
+                                "1400": {
 
-                    "items": 2.2,
+                                    "items": 2.2,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1500": {
+                                "1500": {
 
-                    "items": 2.3,
+                                    "items": 2.3,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1600": {
+                                "1600": {
 
-                    "items": 2.4,
+                                    "items": 2.4,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1700": {
+                                "1700": {
 
-                    "items": 2.5,
+                                    "items": 2.5,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "1800": {
+                                "1800": {
 
-                    "items": 2.61,
+                                    "items": 2.61,
 
-                    "margin": 30
+                                    "margin": 30
 
-                }
+                                }
 
-			}
+                            }
 
-		}'>
+                        }'>
 
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
 
@@ -1942,75 +1661,75 @@
 
                 <div class="client-carousel__one mediox-owl__carousel owl-theme owl-carousel" data-owl-options='{
 
-            "items": 5,
+                            "items": 5,
 
-            "margin": 65,
+                            "margin": 65,
 
-            "smartSpeed": 700,
+                            "smartSpeed": 700,
 
-            "loop":true,
+                            "loop":true,
 
-            "autoplay": 6000,
+                            "autoplay": 6000,
 
-            "nav":false,
+                            "nav":false,
 
-            "dots":false,
+                            "dots":false,
 
-            "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                            "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
 
-            "responsive":{
+                            "responsive":{
 
-                "0":{
+                                "0":{
 
-                    "items": 1,
+                                    "items": 1,
 
-                    "margin": 30
+                                    "margin": 30
 
-                },
+                                },
 
-                "361":{
+                                "361":{
 
-                    "items": 2,
+                                    "items": 2,
 
-                    "margin": 40
+                                    "margin": 40
 
-                },
+                                },
 
-                "576":{
+                                "576":{
 
-                    "items": 3,
+                                    "items": 3,
 
-                    "margin": 60
+                                    "margin": 60
 
-                },
+                                },
 
-                "768":{
+                                "768":{
 
-                    "items": 4,
+                                    "items": 4,
 
-                    "margin": 60
+                                    "margin": 60
 
-                },
+                                },
 
-                "992":{
+                                "992":{
 
-                    "items": 5,
+                                    "items": 5,
 
-                    "margin": 60
+                                    "margin": 60
 
-                },
+                                },
 
-                "1200":{
+                                "1200":{
 
-                    "items": 5,
+                                    "items": 5,
 
-                    "margin": 80
+                                    "margin": 80
 
-                }
+                                }
 
-            }
+                            }
 
-            }'>
+                            }'>
 
                     <div class="client-carousel__one__item">
 
@@ -2532,7 +2251,7 @@
 
             }
 
-        }'>
+                }'>
 
                     <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
 
@@ -3474,7 +3193,7 @@
 
             }
 
-        }'>
+            }'>
 
                     <div class="item">
 
@@ -3842,7 +3561,7 @@
 
 				}
 
-		}'>
+		    }'>
 
                     <div class="item">
 
