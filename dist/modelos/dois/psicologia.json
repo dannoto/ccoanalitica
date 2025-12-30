@@ -184,13 +184,14 @@
       }
     ]
   },
-  "diferenciais" : {
+  "diferenciais": {
     "imagem_primaria": "dist/imagens/diferenciais/psicologia/diferenciais-1.jpg",
-    "imagem_secundaria": "dist/imagens/diferenciais/psicologia/diferenciais-2.jpg", 
-    "subtitulo" : "Nossos Diferenciais",
-    "titulo": "We are leading mental healths consultation center for you.", 
+    "imagem_secundaria": "dist/imagens/diferenciais/psicologia/diferenciais-2.jpg",
+    "imagem_terciaria": "dist/imagens/diferenciais/psicologia/diferenciais-3.jpg",
+    "subtitulo": "Nossos Diferenciais",
+    "titulo": "We are leading mental healths consultation center for you.",
     "descricao": "Torems isum dolor amet consectetur adipisicing sed dole there eiusie mod tempor incididublabore dolore magna aliqua denim joredstdi larfe htue goose to tomasto gigeria juteeo gte edites dekes hokes.",
-    "items" : [
+    "items": [
       "Anxiety Disorder",
       "Dating & Relation",
       "Personal Meeting",

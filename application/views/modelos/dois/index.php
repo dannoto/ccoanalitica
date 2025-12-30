@@ -438,7 +438,7 @@
                             </div>
                             <div class="about-four__left-bottom wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
                                 <div class="about-four__left-bottom-img">
-                                    <img src="assets/images/resources/about-four-left-bottom-img-1.jpg" alt="">
+                                    <img src="<?= base_url() ?><?=$d['diferenciais']['imagem_terciaria']?>" alt="">
                                 </div>
                             </div>
                         </div>
