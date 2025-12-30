@@ -11,7 +11,7 @@
     "favicon": "images/icon.jpg"
   },
   "header": {
-    "logo": "dist/modelos/dois/assets/images/resources/logo-1.png",
+   
     "telefone_top": "(11) 99999-9999",
     "email_top": "contato@seudominio.com.br",
     "localizacao": "São Paulo, SP",

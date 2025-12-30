@@ -223,7 +223,6 @@
             </div>
         </section>
 
-
         <!-- Sobre -->
         <section class="about-one" id="sobre">
             <div class="container">
@@ -232,12 +231,12 @@
                         <div class="about-one__left">
                             <div class="about-one__img-box wow slideInLeft">
                                 <div class="about-one__img">
-                                    <img style="height:350px;max-width:550px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria'] ?>" alt="">
+                                    <img style="height:350px;max-width:550px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
                                 </div>
-                                <div class="about-one__img-two">
+                                <!-- <div class="about-one__img-two">
                                     <img style="height:350px;max-width:550px;object-fit:cover" src="<?= base_url() ?><?= $d['sobre']['imagem_principal'] ?>" alt="">
 
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -260,8 +259,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <!-- Serviços -->
         <section class="services-one" id="servicos">
