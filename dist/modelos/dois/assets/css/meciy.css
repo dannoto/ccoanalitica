@@ -4005,7 +4005,7 @@ position: absolute;
   justify-content: center;
   height: 110px;
   width: 110px;
-  background-color: transparent;
+  background-color: var(--meciy-white);
 }
 
 .appointments-one__icon span {
