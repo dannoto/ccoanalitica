@@ -1,0 +1,8 @@
+PRA SUBIR AS ALTERAÇÕES
+git add -A
+git commit -m "."
+git push
+
+
+PARA ATUALIZAR ANTES
+git pull
