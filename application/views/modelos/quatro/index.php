@@ -86,11 +86,11 @@
       <div class="container-fluid">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="<?= base_url() ?>">
+            <a class="cs_site_branding" href="<?= base_url() ?>" style="max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block;">
               <?php if (isset($d['header']['logo']) && $d['header']['logo']): ?>
                 <img src="<?= base_url($d['header']['logo']) ?>" alt="Logo">
               <?php else: ?>
-                <h3><?= $d['seo']['title'] ?></h3>
+                <h3 style="font-size: 20px; margin: 0; line-height: 1.2;"><?= $d['seo']['title'] ?></h3>
               <?php endif; ?>
             </a>
           </div>
@@ -116,6 +116,17 @@
     </div>
   </header>
   <!-- End Header Section -->
+  
+  <!-- Helper for mobile menu since main.js appends to .cs_nav but might need layout help -->
+  <style>
+    @media (max-width: 991px) {
+        .cs_nav { display: block !important; }
+        .cs_nav_list_wrap { display: none; }
+        .cs_nav_list_wrap.cs_active { display: block; position: absolute; top: 100%; left: 0; width: 100%; background: #fff; padding: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .cs_menu_toggle { display: block; position: absolute; right: 15px; top: 50%; transform: translateY(-50%); cursor: pointer; }
+        .cs_site_branding { max-width: 200px; }
+    }
+  </style>
 
   <section id="inicio" class="cs_hero cs_style_1 cs_type_5 cs_bg_filed position-relative"
     data-src="<?= base_url($d['hero']['background'] ?? 'dist/modelos/quatro/assets/img/hero_bg_3.png') ?>">
@@ -346,9 +357,9 @@
       <div class="cs_height_50 cs_height_lg_40"></div>
       <div class="row cs_row_gap_40">
         <div class="col-lg-12">
-          <div class="cs_accordian cs_type_1 active">
+          <div class="">
             <?php foreach ($d['faq']['items'] as $index => $item): ?>
-              <div class="cs_accordian_item">
+              <div class="cs_accordian cs_type_1 <?= $index == 0 ? 'active' : '' ?>">
                 <div class="cs_accordian_head">
                   <h2 class="cs_accordian_title cs_fs_20 cs_semibold"><?= $item['pergunta'] ?></h2>
                   <span class="cs_accordian_toggle cs_center cs_radius_50"><i class="fa-solid fa-plus"></i></span>

@@ -43,7 +43,7 @@
         }
     },
     "hero": {
-        "background": "dist/modelos/quatro/assets/img/hero_bg_3.png",
+        "background": "dist/modelos/quatro/assets/img/hero_img_3.png",
         "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
         "top": "Saúde Mental Importa",
         "title": "Reencontre seu Equilíbrio e Bem-Estar",
