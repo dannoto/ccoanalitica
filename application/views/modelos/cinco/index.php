@@ -928,11 +928,7 @@
 
 
     <div class="contact7-section-area sp1"
-        style="background-image: url(<?=base_url()?><?= $d['contato']['background']; ?>);
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;">
+        style="background-image: url(<?=base_url()?><?= $d['contato']['background']; ?>);background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;">
 
         <div class="container">
 
