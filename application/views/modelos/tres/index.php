@@ -526,7 +526,7 @@
 
                                 <div class="service-card-two__content">
 
-                                    <img src="<?= base_url() ?><?= $servico['imagem'] ?>" alt="Cosmetic Dentistry" class="service-card-two__image">
+                                    <img src="<?= $servico['imagem'] ?>" alt="Cosmetic Dentistry" class="service-card-two__image">
 
                                     <h3 class="service-card-two__title"><a href="<?= $servico['link'] ?>"><?= $servico['titulo'] ?></a></h3><!-- /.service-card-two__title -->
 
