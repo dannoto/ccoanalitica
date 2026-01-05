@@ -152,7 +152,7 @@
                                             <ul>
                                                 <li>
                                                     <a href="mailto:<?= $d['header']['contato']['email'] ?>">
-                                                        <img src="<?= $d['header']['icones']['email'] ?>" alt="email">
+                                                        <img src="<?= base_url() ?><?= $d['header']['icones']['email'] ?>" alt="email">
                                                         <?= $d['header']['contato']['email'] ?>
                                                     </a>
                                                 </li>
@@ -160,7 +160,7 @@
                                             <ul class="list">
                                                 <li>
                                                     <a href="tel:<?= $d['header']['contato']['telefone_link'] ?>">
-                                                        <img src="<?= $d['header']['icones']['telefone'] ?>" alt="telefone">
+                                                        <img src="<?= base_url() ?><?= $d['header']['icones']['telefone'] ?>" alt="telefone">
                                                         <?= $d['header']['contato']['telefone'] ?>
                                                     </a>
                                                 </li>
@@ -177,7 +177,7 @@
                                 <!-- LOGO -->
                                 <div class="site-logo">
                                     <a href="<?= $d['header']['logo']['link'] ?>">
-                                        <img src="<?= $d['header']['logo']['imagem'] ?>" alt="logo">
+                                        <img src="<?= base_url() ?><?= $d['header']['logo']['imagem'] ?>" alt="logo">
                                     </a>
                                 </div>
 
@@ -249,7 +249,7 @@
 
                     <div class="mobile-logo">
                         <a href="<?= $d['mobile_header']['logo']['link'] ?>">
-                            <img src="<?= $d['mobile_header']['logo']['imagem'] ?>" alt="logo">
+                            <img src="<?= base_url() ?><?= $d['mobile_header']['logo']['imagem'] ?>" alt="logo">
                         </a>
                     </div>
 
@@ -267,7 +267,7 @@
 
         <div class="logosicon-area">
             <div class="logos">
-                <img src="<?= $d['mobile_header']['logo']['imagem'] ?>" alt="logo">
+                <img src="<?= base_url() ?><?= $d['mobile_header']['logo']['imagem'] ?>" alt="logo">
             </div>
             <div class="menu-close">
                 <i class="fa-solid fa-xmark"></i>
@@ -311,7 +311,7 @@
 
                         <div class="contact-info-single">
                             <div class="contact-info-icon">
-                                <img src="<?= $d['mobile_header']['icones']['telefone'] ?>" alt="telefone">
+                                <img src="<?= base_url() ?><?= $d['mobile_header']['icones']['telefone'] ?>" alt="telefone">
                             </div>
                             <div class="contact-info-text">
                                 <a href="tel:<?= $d['mobile_header']['contato']['telefone_link'] ?>">
@@ -322,7 +322,7 @@
 
                         <div class="contact-info-single">
                             <div class="contact-info-icon">
-                                <img src="<?= $d['mobile_header']['icones']['email'] ?>" alt="email">
+                                <img src="<?= base_url() ?><?= $d['mobile_header']['icones']['email'] ?>" alt="email">
                             </div>
                             <div class="contact-info-text">
                                 <a href="mailto:<?= $d['mobile_header']['contato']['email'] ?>">
@@ -368,8 +368,8 @@
                 style="background-image: url(<?= $slide['background'] ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
 
                 <div class="lawer-images">
-                    <img src="<?= $slide['imagem_principal'] ?>" alt="<?= $slide['titulo'] ?>" class="law">
-                    <img src="<?= $slide['imagem_decorativa'] ?>" alt="decoração" class="polygon5">
+                    <img src="<?= base_url() ?><?= $slide['imagem_principal'] ?>" alt="<?= $slide['titulo'] ?>" class="law">
+                    <img src="<?= base_url() ?><?= $slide['imagem_decorativa'] ?>" alt="decoração" class="polygon5">
                 </div>
 
                 <div class="container">
@@ -447,14 +447,14 @@
 
                             <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800">
                                 <div class="about5-img1">
-                                    <img src="<?= $d['sobre']['imagem_principal']; ?>" alt="Psicologia - Atendimento Humanizado">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_principal']; ?>" alt="Psicologia - Atendimento Humanizado">
                                 </div>
                             </div>
 
                             <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
                                 <div class="about5-img1">
                                     <div class="space50"></div>
-                                    <img src="<?= $d['sobre']['imagem_secundaria1']; ?>" alt="Sessão de Psicoterapia">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria1']; ?>" alt="Sessão de Psicoterapia">
                                 </div>
                             </div>
 
@@ -464,7 +464,7 @@
                                         <span class="counter"><?= $d['contadores']['items'][0]['numero']; ?></span><?= $d['contadores']['items'][0]['simbolo']; ?>
                                     </h1>
                                     <p><?= $d['contadores']['items'][0]['titulo']; ?></p>
-                                    <img src="<?= $d['sobre']['imagem_secundaria2']; ?>" alt="Psicologia Clínica">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria2']; ?>" alt="Psicologia Clínica">
                                     <p><?= $d['contadores']['items'][1]['titulo']; ?></p>
                                 </div>
                             </div>
@@ -472,7 +472,7 @@
                             <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1400">
                                 <div class="space30"></div>
                                 <div class="about5-img1">
-                                    <img src="<?= $d['sobre']['imagem_secundaria3']; ?>" alt="Saúde Mental e Bem-estar">
+                                    <img src="<?= base_url() ?><?= $d['sobre']['imagem_secundaria3']; ?>" alt="Saúde Mental e Bem-estar">
                                 </div>
                             </div>
 
@@ -569,13 +569,13 @@
                             <div class="service7-boxarea">
 
                                 <div class="service-images">
-                                    <img src="<?= $servico['imagem']; ?>" alt="<?= $servico['titulo']; ?>">
+                                    <img src="<?= base_url() ?><?= $servico['imagem']; ?>" alt="<?= $servico['titulo']; ?>">
                                 </div>
 
                                 <div class="service7-author-area">
 
                                     <div class="service-icons">
-                                        <img src="<?= $servico['icone']; ?>" alt="<?= $servico['titulo']; ?>">
+                                        <img src="<?= base_url() ?><?= $servico['icone']; ?>" alt="<?= $servico['titulo']; ?>">
                                     </div>
 
                                     <div class="service-7-content">
@@ -645,7 +645,7 @@
                                     </div>
 
                                     <div class="works-icon">
-                                        <img src="<?= $etapa['icone']; ?>" alt="<?= $etapa['titulo']; ?>">
+                                        <img src="<?= base_url() ?><?= $etapa['icone']; ?>" alt="<?= $etapa['titulo']; ?>">
                                     </div>
 
                                     <div class="point">
@@ -661,7 +661,7 @@
                 <div class="col-lg-6">
                     <div class="works-modify-area">
                         <div class="work-img">
-                            <img src="<?= $d['como_funciona']['imagem_principal']; ?>"
+                            <img src="<?= base_url() ?><?= $d['como_funciona']['imagem_principal']; ?>"
                                 alt="Processo terapêutico"
                                 class="works-img1"
                                 data-aos="zoom-out"
@@ -686,7 +686,7 @@
                                     </div>
 
                                     <div class="works-icon">
-                                        <img src="<?= $etapa['icone']; ?>" alt="<?= $etapa['titulo']; ?>">
+                                        <img src="<?= base_url() ?><?= $etapa['icone']; ?>" alt="<?= $etapa['titulo']; ?>">
                                     </div>
 
                                     <div class="point">
@@ -737,7 +737,7 @@
                                 <div class="case-study7-boxarea">
 
                                     <div class="case-study-casousel-img">
-                                        <img src="<?= $item['imagem']; ?>" alt="<?= $item['titulo']; ?>">
+                                        <img src="<?= base_url() ?><?= $item['imagem']; ?>" alt="<?= $item['titulo']; ?>">
                                     </div>
 
                                     <div class="polygon-author"
@@ -808,7 +808,7 @@
 
                             <div class="team6-boxarea">
                                 <div class="team6-img">
-                                    <img src="<?= $item['imagem']; ?>" alt="<?= $item['nome']; ?>">
+                                    <img src="<?= base_url() ?><?= $item['imagem']; ?>" alt="<?= $item['nome']; ?>">
                                 </div>
 
                                 <div class="team6-images">
@@ -882,7 +882,7 @@
                             <div class="testimonial7-area">
 
                                 <div class="quito7-img">
-                                    <img src="<?= $d['depoimentos']['icone']; ?>" alt="Ícone de depoimento">
+                                    <img src="<?= base_url() ?><?= $d['depoimentos']['icone']; ?>" alt="Ícone de depoimento">
                                 </div>
 
                                 <ul>
@@ -898,7 +898,7 @@
 
                                 <div class="mans-img-area">
                                     <div class="img">
-                                        <img src="<?= $item['imagem']; ?>" alt="<?= $item['nome']; ?>">
+                                        <img src="<?= base_url() ?><?= $item['imagem']; ?>" alt="<?= $item['nome']; ?>">
                                     </div>
 
                                     <div class="img-content">
@@ -1021,7 +1021,7 @@
                             <div class="div" data-aos="fade-up" data-aos-duration="<?= $info['aos']; ?>">
                                 <div class="contact-box-area">
                                     <div class="contact-icon">
-                                        <img src="<?= $info['icone']; ?>" alt="">
+                                        <img src="<?= base_url() ?><?= $info['icone']; ?>" alt="">
                                     </div>
                                     <div class="contact-content">
                                         <h4><?= $info['titulo']; ?></h4>
@@ -1153,7 +1153,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-last-section">
                                 <div class="footer-imgage">
-                                    <img src="<?= $d['footer']['logo']; ?>" alt="<?= $d['footer']['nome_clinica']; ?>">
+                                    <img src="<?= base_url() ?><?= $d['footer']['logo']; ?>" alt="<?= $d['footer']['nome_clinica']; ?>">
                                 </div>
 
                                 <div class="footer-text-area">
@@ -1196,21 +1196,21 @@
                                 <h3><?= $d['footer']['contato']['titulo']; ?></h3>
                                 <ul>
                                     <li>
-                                        <img src="<?= $d['footer']['contato']['icone_email']; ?>" alt="">
+                                        <img src="<?= base_url() ?><?= $d['footer']['contato']['icone_email']; ?>" alt="">
                                         <a href="mailto:<?= $d['footer']['contato']['email']; ?>">
                                             <?= $d['footer']['contato']['email']; ?>
                                         </a>
                                     </li>
 
                                     <li>
-                                        <img src="<?= $d['footer']['contato']['icone_endereco']; ?>" alt="">
+                                        <img src="<?= base_url() ?><?= $d['footer']['contato']['icone_endereco']; ?>" alt="">
                                         <a href="#">
                                             <?= $d['footer']['contato']['endereco']; ?>
                                         </a>
                                     </li>
 
                                     <li>
-                                        <img src="<?= $d['footer']['contato']['icone_telefone']; ?>" alt="">
+                                        <img src="<?= base_url() ?><?= $d['footer']['contato']['icone_telefone']; ?>" alt="">
                                         <a href="tel:<?= $d['footer']['contato']['telefone']; ?>">
                                             <?= $d['footer']['contato']['telefone']; ?>
                                         </a>
