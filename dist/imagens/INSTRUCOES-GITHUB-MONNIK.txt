@@ -1,0 +1,9 @@
+
+
+1- ATUALIZAR SEMPRE ANTES DAR SUBIR
+git pull
+
+2 - SUBIR AS ALTERAÇÕES
+git add -A
+git commit -m "."
+git push
