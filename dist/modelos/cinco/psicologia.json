@@ -162,9 +162,9 @@
     "slider": {
         "slides": [
             {
-                "background": "dist/imagens/slider/advocacia/slide-1.jpg",
-                "imagem_principal": "dist/imagens/slider/advocacia/slider-1.png",
-                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
+                "background": "dist/imagens/slidsr/psicologia/slide-1.jpg",
+                "imagem_principal": "dist/imagens/slides/psicologia/slider-1.png",
+                "imagem_decorativa": "dist/imagens/slides/psicologia/slider-decoracao-1.png",
                 "subtitulo": "Cuidado emocional com acolhimento e ética",
                 "titulo": "Apoio psicológico para",
                 "titulo_destaque": "transformar sua vida",
@@ -176,13 +176,13 @@
                 "cta_flotante": {
                     "texto": "Primeira conversa gratuita",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slides/psicologia/slider-cta-bg-1.svg"
                 }
             },
             {
-                "background": "dist/imagens/slider/advocacia/slide-2.jpg",
-                "imagem_principal": "dist/imagens/slider/advocacia/slider-2.png",
-                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
+                "background": "dist/imagens/slidsr/psicologia/slide-2.jpg",
+                "imagem_principal": "dist/imagens/slides/psicologia/slider-2.png",
+                "imagem_decorativa": "dist/imagens/slides/psicologia/slider-decoracao-1.png",
                 "subtitulo": "Psicoterapia para todas as fases da vida",
                 "titulo": "Cuidar da mente é",
                 "titulo_destaque": "um ato de coragem",
@@ -194,13 +194,13 @@
                 "cta_flotante": {
                     "texto": "Atendimento humanizado",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slides/psicologia/slider-cta-bg-1.svg"
                 }
             },
             {
-                "background": "dist/imagens/slider/advocacia/slide-3.jpg",
-                "imagem_principal": "dist/imagens/slider/advocacia/slider-3.png",
-                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
+                "background": "dist/imagens/slidsr/psicologia/slide-3.jpg",
+                "imagem_principal": "dist/imagens/slides/psicologia/slider-3.png",
+                "imagem_decorativa": "dist/imagens/slides/psicologia/slider-decoracao-1.png",
                 "subtitulo": "Sua saúde mental em primeiro lugar",
                 "titulo": "Acolhimento, escuta e",
                 "titulo_destaque": "crescimento emocional",
@@ -212,7 +212,7 @@
                 "cta_flotante": {
                     "texto": "Agende sua sessão",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slides/psicologia/slider-cta-bg-1.svg"
                 }
             }
         ]
@@ -258,43 +258,43 @@
             {
                 "titulo": "Psicoterapia Individual",
                 "descricao": "Atendimento personalizado para promover autoconhecimento, equilíbrio emocional e saúde mental.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-1.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-1.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-1.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Terapia de Casal",
                 "descricao": "Apoio profissional para melhorar a comunicação, resolver conflitos e fortalecer relacionamentos.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-2.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-2.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-2.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-2.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Terapia Familiar",
                 "descricao": "Intervenções terapêuticas focadas no equilíbrio das relações familiares e bem-estar coletivo.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-3.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-3.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-3.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-3.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Psicoterapia Infantil",
                 "descricao": "Atendimento especializado para crianças, auxiliando no desenvolvimento emocional e comportamental.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-4.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-4.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-4.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-4.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Avaliação Psicológica",
                 "descricao": "Processos avaliativos com responsabilidade técnica para fins clínicos, educacionais ou profissionais.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-5.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-5.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-5.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-5.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Orientação Emocional",
                 "descricao": "Suporte psicológico para lidar com ansiedade, estresse, luto e desafios do cotidiano.",
-                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-6.jpg",
-                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-6.svg",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-6.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-terapia-familiar-icon-6.svg",
                 "link": "https://wa.me/5562982045122"
             }
         ]
