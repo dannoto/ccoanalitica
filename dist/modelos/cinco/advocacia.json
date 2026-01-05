@@ -162,9 +162,9 @@
     "slider": {
         "slides": [
             {
-                "background": "dist/imagens/slider/psicologia/slide-1.jpg",
-                "imagem_principal": "dist/imagens/slider/psicologia/slider-1.png",
-                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "background": "dist/imagens/slider/advocacia/slide-1.jpg",
+                "imagem_principal": "dist/imagens/slider/advocacia/slider-1.png",
+                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
                 "subtitulo": "Cuidado emocional com acolhimento e ética",
                 "titulo": "Apoio psicológico para",
                 "titulo_destaque": "transformar sua vida",
@@ -176,13 +176,13 @@
                 "cta_flotante": {
                     "texto": "Primeira conversa gratuita",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
                 }
             },
             {
-                "background": "dist/imagens/slider/psicologia/slide-2.jpg",
-                "imagem_principal": "dist/imagens/slider/psicologia/slider-2.png",
-                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "background": "dist/imagens/slider/advocacia/slide-2.jpg",
+                "imagem_principal": "dist/imagens/slider/advocacia/slider-2.png",
+                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
                 "subtitulo": "Psicoterapia para todas as fases da vida",
                 "titulo": "Cuidar da mente é",
                 "titulo_destaque": "um ato de coragem",
@@ -194,13 +194,13 @@
                 "cta_flotante": {
                     "texto": "Atendimento humanizado",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
                 }
             },
             {
-                "background": "dist/imagens/slider/psicologia/slide-3.jpg",
-                "imagem_principal": "dist/imagens/slider/psicologia/slider-3.png",
-                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "background": "dist/imagens/slider/advocacia/slide-3.jpg",
+                "imagem_principal": "dist/imagens/slider/advocacia/slider-3.png",
+                "imagem_decorativa": "dist/imagens/slider/advocacia/slider-decoracao-1.png",
                 "subtitulo": "Sua saúde mental em primeiro lugar",
                 "titulo": "Acolhimento, escuta e",
                 "titulo_destaque": "crescimento emocional",
@@ -212,7 +212,7 @@
                 "cta_flotante": {
                     "texto": "Agende sua sessão",
                     "link": "/contato",
-                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                    "background": "dist/imagens/slider/advocacia/slider-cta-bg-1.svg"
                 }
             }
         ]
