@@ -133,7 +133,7 @@
     }
   ],
   "sobre": {
-     "imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
+    "imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
     "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
     "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
     "subtitulo": "Sobre Nós",
@@ -144,38 +144,74 @@
       "Medicina Preventiva",
       "Equipe Médica Especializada",
       "Compromisso com o Bem-Estar"
-    ]
+    ],
+    "botao": {
+      "title": "Saiba Mais",
+      "link": "https://wa.me/5562982045122"
+    }
   },
-  "services": {
-    "tagline": "Nossos Serviços",
-    "title": "Especialidades Médicas",
+ 
+  "contadores": {
     "items": [
       {
-        "imagem": "https://media.istockphoto.com/id/1366374031/photo/doctor-meeting-with-patient.jpg?s=612x612",
-        "title": "Clínica Geral"
+        "titlo": "Satisfied Patients",
+        "numero": 65,
+        "simbolo": "%"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1298800629/photo/cardiologist-examining-patient.jpg?s=612x612",
-        "title": "Cardiologia"
+        "titlo": "Professional Doctors",
+        "numero": 99,
+        "simbolo": "+"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1319031310/photo/doctor-examining-patient.jpg?s=612x612",
-        "title": "Endocrinologia"
+        "titlo": "Operations Successful",
+        "numero": 125,
+        "simbolo": "%"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1406412663/photo/doctor-with-stethoscope.jpg?s=612x612",
-        "title": "Geriatria"
-      },
-      {
-        "imagem": "https://media.istockphoto.com/id/1372002650/photo/medical-checkup.jpg?s=612x612",
-        "title": "Medicina Preventiva"
-      },
-      {
-        "imagem": "https://media.istockphoto.com/id/1366374044/photo/doctor-consultation.jpg?s=612x612",
-        "title": "Check-up Completo"
+        "titlo": "Awards Win",
+        "numero": 125,
+        "simbolo": "+"
       }
     ]
   },
+   "servicos": {
+    "subtitulo": "Nossos Serviços",
+    "titulo": "Especialidades Médicas",
+    "items": [
+      {
+        "imagem": "https://media.istockphoto.com/id/1366374031/photo/doctor-meeting-with-patient.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Clínica Geral"
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1298800629/photo/cardiologist-examining-patient.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Cardiologia"
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1319031310/photo/doctor-examining-patient.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Endocrinologia"
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1406412663/photo/doctor-with-stethoscope.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Geriatria"
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1372002650/photo/medical-checkup.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Medicina Preventiva"
+      },
+      {
+        "imagem": "https://media.istockphoto.com/id/1366374044/photo/doctor-consultation.jpg?s=612x612",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Check-up Completo"
+      }
+    ]
+  },
+
   "team": [
     {
       "imagem": "https://www.shutterstock.com/image-photo/portrait-confident-doctor-office-260nw-2148007067.jpg",

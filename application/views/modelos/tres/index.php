@@ -348,8 +348,8 @@
                                 <?php } ?>
                             </ul>
                             <div class="about-two__button wow fadeInUp" data-wow-duration="1500ms">
-                                <a href="about.html" class="mediox-btn">
-                                    <span>know more</span>
+                                <a href="<?= $d['sobre']['botao']['link'] ?>" class="mediox-btn">
+                                    <span><?= $d['sobre']['botao']['titulo'] ?></span>
                                     <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
                                 </a>
                             </div>
@@ -369,121 +369,47 @@
                     <div class="funfact-one__inner__bg" style="background-image: url(assets/images/resources/funfact-bg-2-1.jpg);"></div><!-- /.funfact-one__inner__bg -->
 
                     <div class="funfact-one__row">
+                        <?php foreach ($d['contadores']['items'] as $item) { ?>
 
-                        <div class="funfact-one__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="funfact-one__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                                <h3 class="funfact-one__item__number count-box">
+                                    <span class="count-text" data-stop="<?= $item['numero'] ?>" data-speed="1500"></span>
+                                    <span><?= $item['simbolo'] ?></span>
+                                </h3>
+                                <p class="funfact-one__item__title"><?= $item['titulo'] ?></p>
+                            </div>
 
-                            <h3 class="funfact-one__item__number count-box">
+                        <?php } ?>
 
-                                <span class="count-text" data-stop="89" data-speed="1500"></span>
 
-                                <span>%</span>
+                    </div>
 
-                            </h3>
+                </div>
 
-                            <p class="funfact-one__item__title">Satisfied Patients</p>
+            </div>
 
-                        </div><!-- /.funfact-one__item -->
-
-                        <div class="funfact-one__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                            <h3 class="funfact-one__item__number count-box">
-
-                                <span class="count-text" data-stop="65" data-speed="1500"></span>
-
-                                <span>+</span>
-
-                            </h3>
-
-                            <p class="funfact-one__item__title">Professional Doctors</p>
-
-                        </div><!-- /.funfact-one__item -->
-
-                        <div class="funfact-one__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                            <h3 class="funfact-one__item__number count-box">
-
-                                <span class="count-text" data-stop="99" data-speed="1500"></span>
-
-                                <span>%</span>
-
-                            </h3>
-
-                            <p class="funfact-one__item__title">Operations Successful</p>
-
-                        </div><!-- /.funfact-one__item -->
-
-                        <div class="funfact-one__item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-
-                            <h3 class="funfact-one__item__number count-box">
-
-                                <span class="count-text" data-stop="125" data-speed="1500"></span>
-
-                                <span>+</span>
-
-                            </h3>
-
-                            <p class="funfact-one__item__title">Awards Win</p>
-
-                        </div><!-- /.funfact-one__item -->
-
-                    </div><!-- /funfact-one__row -->
-
-                </div><!-- /.funfact-one__inner -->
-
-            </div><!-- /.container -->
-
-        </section><!-- /.funfact-one -->
+        </section>
 
         <section class="services-two section-space-bottom" id="services">
-
             <div class="services-two__bg" style="background-image: url(assets/images/shapes/services-bg-2-1.png);"></div>
-
-
-
             <div class="container">
-
                 <div class="services-two__top">
-
                     <div class="row gutter-y-40 align-items-end">
-
                         <div class="col-xl-9 col-lg-8">
-
                             <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
-
                                 <div class="sec-title__top">
-
-
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-2.png" alt="our services" class="sec-title__img">
-
-
-
-
-
-                                    <h6 class="sec-title__tagline">our services</h6><!-- /.sec-title__tagline -->
-
-
-
+                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-2.png" alt="<?= $d['servicos']['subtitulo'] ?>" class="sec-title__img">
+                                    <h6 class="sec-title__tagline"><?= $d['servicos']['subtitulo'] ?></h6><!-- /.sec-title__tagline -->
                                 </div><!-- /.sec-title__top -->
-
-                                <h3 class="sec-title__title">Our Mediox Specialties <br> Technical Service</h3><!-- /.sec-title__title -->
-
+                                <h3 class="sec-title__title"><?= $d['servicos']['titulo'] ?></h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
-
                         </div><!-- /.col-xl-9 col-lg-8 -->
-
                         <div class="col-xl-3 col-lg-4">
-
                             <div class="services-two__custome-navs"></div><!-- /.services-two__cutome-navs -->
-
                         </div><!-- /.col-xl-3 col-lg-4 -->
-
                     </div><!-- /.row -->
-
                 </div><!-- /.services-two__top -->
-
             </div><!-- /.container -->
-
             <div class="services-two__container container">
 
                 <div class="services-two__carousel mediox-owl__carousel mediox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
@@ -591,168 +517,50 @@
                             }
 
                         }'>
+                    <?php foreach ($d['servicos']['items'] as $servico) { ?>
+                        <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
 
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                            <div class="service-card-two">
 
-                        <div class="service-card-two">
+                                <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
 
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
+                                <div class="service-card-two__content">
 
-                            <div class="service-card-two__content">
+                                    <img src="<?= base_url() ?><?= $servico['imagem'] ?>" alt="Cosmetic Dentistry" class="service-card-two__image">
 
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-1.jpg" alt="Cosmetic Dentistry" class="service-card-two__image">
+                                    <h3 class="service-card-two__title"><a href="<?= $servico['link'] ?>"><?= $servico['titulo'] ?></a></h3><!-- /.service-card-two__title -->
 
-                                <h3 class="service-card-two__title"><a href="service-d-dental-care.html">Cosmetic Dentistry</a></h3><!-- /.service-card-two__title -->
+                                    <a href="<?= $servico['link'] ?>" class="service-card-two__link">
 
-                                <a href="service-d-dental-care.html" class="service-card-two__link">
+                                        <i class="icon-up-right-arrow"></i>
 
-                                    <i class="icon-up-right-arrow"></i>
+                                    </a><!-- /.service-card-two__link -->
 
-                                </a><!-- /.service-card-two__link -->
+                                </div><!-- /.service-card-two__content -->
 
-                            </div><!-- /.service-card-two__content -->
+                            </div><!-- /.service-card-two -->
 
-                        </div><!-- /.service-card-two -->
+                        </div><!-- /.item -->
+                    <?php } ?>
 
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                        <div class="service-card-two">
-
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
-
-                            <div class="service-card-two__content">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-2.jpg" alt="immediate care" class="service-card-two__image">
-
-                                <h3 class="service-card-two__title"><a href="service-d-immediate-care.html">immediate care</a></h3><!-- /.service-card-two__title -->
-
-                                <a href="service-d-immediate-care.html" class="service-card-two__link">
-
-                                    <i class="icon-up-right-arrow"></i>
-
-                                </a><!-- /.service-card-two__link -->
-
-                            </div><!-- /.service-card-two__content -->
-
-                        </div><!-- /.service-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-
-                        <div class="service-card-two">
-
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
-
-                            <div class="service-card-two__content">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-3.jpg" alt="neurology care" class="service-card-two__image">
-
-                                <h3 class="service-card-two__title"><a href="service-d-neurology-care.html">neurology care</a></h3><!-- /.service-card-two__title -->
-
-                                <a href="service-d-neurology-care.html" class="service-card-two__link">
-
-                                    <i class="icon-up-right-arrow"></i>
-
-                                </a><!-- /.service-card-two__link -->
-
-                            </div><!-- /.service-card-two__content -->
-
-                        </div><!-- /.service-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="service-card-two">
-
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
-
-                            <div class="service-card-two__content">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-4.jpg" alt="gynaecologists" class="service-card-two__image">
-
-                                <h3 class="service-card-two__title"><a href="service-d-gynaecologists.html">gynaecologists</a></h3><!-- /.service-card-two__title -->
-
-                                <a href="service-d-gynaecologists.html" class="service-card-two__link">
-
-                                    <i class="icon-up-right-arrow"></i>
-
-                                </a><!-- /.service-card-two__link -->
-
-                            </div><!-- /.service-card-two__content -->
-
-                        </div><!-- /.service-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                        <div class="service-card-two">
-
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
-
-                            <div class="service-card-two__content">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-5.jpg" alt="orthopaedics" class="service-card-two__image">
-
-                                <h3 class="service-card-two__title"><a href="service-d-orthopaedics.html">orthopaedics</a></h3><!-- /.service-card-two__title -->
-
-                                <a href="service-d-orthopaedics.html" class="service-card-two__link">
-
-                                    <i class="icon-up-right-arrow"></i>
-
-                                </a><!-- /.service-card-two__link -->
-
-                            </div><!-- /.service-card-two__content -->
-
-                        </div><!-- /.service-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-
-                        <div class="service-card-two">
-
-                            <div class="service-card-two__bg"></div><!-- /.service-card-two__bg -->
-
-                            <div class="service-card-two__content">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/services/service-2-6.jpg" alt="cardiology" class="service-card-two__image">
-
-                                <h3 class="service-card-two__title"><a href="service-d-cardiology.html">cardiology</a></h3><!-- /.service-card-two__title -->
-
-                                <a href="service-d-cardiology.html" class="service-card-two__link">
-
-                                    <i class="icon-up-right-arrow"></i>
-
-                                </a><!-- /.service-card-two__link -->
-
-                            </div><!-- /.service-card-two__content -->
-
-                        </div><!-- /.service-card-two -->
-
-                    </div><!-- /.item -->
 
                 </div><!-- /.services-two__carousel -->
 
             </div><!-- /.services-two__container container -->
 
-            <div class="container">
+            <!-- <div class="container">
 
                 <div class="services-two__bottom wow fadeInUp" data-wow-duration="1500ms">
 
-                    <p class="services-two__bottom__text">Click any of the above services to learn more <a href="services.html">View Our All Services</a></p><!-- /.services-two__bottom__text -->
+                    <p class="services-two__bottom__text">Click any of the above services to learn more <a href="services.html">View Our All Services</a></p>
 
-                </div><!-- /.services-two__bottom -->
+                </div>
 
-            </div><!-- /.container -->
+            </div> -->
 
             <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/services-shape-2-1.png" alt="shape" class="services-two__shape">
 
-        </section><!-- /.services-two section-space-bottom -->
+        </section>
 
 
 
@@ -1102,7 +910,7 @@
 
             <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/why-choose-shape-2-2.png" alt="shape" class="why-choose-two__shape-4">
 
-        </section><!-- /.why-choose-two section-space-top-two -->
+        </section>
 
 
 
@@ -1214,9 +1022,9 @@
 
                 </div><!-- /.thm-owl__slider -->
 
-            </div><!-- /.container -->
+            </div>
 
-        </div><!-- /.client-carousel -->
+        </div>
 
 
 
@@ -1316,7 +1124,7 @@
 
                 </div><!-- /.row gutter-y-50 -->
 
-            </div><!-- /.container -->
+            </div>
 
         </section><!-- /.skills-one section-space -->
 
@@ -1454,7 +1262,7 @@
 
                 </div><!-- /.work-process-one__inner -->
 
-            </div><!-- /.container -->
+            </div>
 
         </section><!-- /.work-process-one section-space-two -->
 

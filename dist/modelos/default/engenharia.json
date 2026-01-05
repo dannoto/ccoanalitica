@@ -1,0 +1,327 @@
+{
+  "schema": {
+    "background": "#0B1F2A",
+    "color": "#FFFFFF",
+    "primary-color": "#0D3B66",
+    "primary-color-rgb": "13,59,102",
+    "secondary-color": "#F4A261",
+    "secondary-color-rgb": "244,162,97"
+  },
+  "seo": {
+    "title": "Almeida & Torres Engenharia — Soluções Técnicas e Inovadoras",
+    "description": "Empresa de engenharia especializada em projetos estruturais, obras, consultoria técnica e gestão de engenharia.",
+    "keywords": "engenharia, projetos estruturais, obras, engenharia civil, consultoria técnica",
+    "author": "CCO ANALITICA | ccoanalitica.com",
+    "favicon": "images/icon.webp"
+  },
+  "header": {
+    "navbar": [
+      {
+        "texto": "Início",
+        "link": "#inicio"
+      },
+      {
+        "texto": "Sobre",
+        "link": "#sobre"
+      },
+      {
+        "texto": "Serviços",
+        "link": "#servicos"
+      },
+      {
+        "texto": "Equipe",
+        "link": "#equipe"
+      },
+      {
+        "texto": "Depoimentos",
+        "link": "#depoimentos"
+      },
+      {
+        "texto": "Contato",
+        "link": "#contato"
+      }
+    ],
+    "botao": {
+      "texto": "Falar com Engenheiro",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
+  "hero": {
+    "imagem": "dist/imagens/hero/advocacia/hero-1.jpg",
+    "top": "Bem-vindo à Almeida & Torres Engenharia",
+    "title": "Engenharia Inteligente para Projetos Sólidos e Seguros",
+    "description": "Há mais de 15 anos entregando soluções completas em engenharia, com foco em qualidade, segurança, inovação e eficiência técnica para obras e projetos de todos os portes.",
+    "botao": {
+      "texto": "Solicitar Orçamento",
+      "link": "https://wa.me/5562982045122"
+    },
+    "bottom": {
+      "google": "Avaliação no Google",
+      "avaliacoes": "Mais de 23 mil avaliações"
+    },
+    "informacoes": {
+      "atendimento": {
+        "titulo": "Precisa de um Projeto?",
+        "descricao": "Ligue agora: (11) 99999-9999"
+      },
+      "horario": {
+        "titulo": "Horário de Atendimento",
+        "descricao": "Segunda a Sexta das 08h às 19h"
+      },
+      "contato": {
+        "titulo": "Envie uma Mensagem",
+        "descricao": "contato@seudominio.com.br"
+      }
+    }
+  },
+  "sobre": {
+    "subtitulo": "Sobre a Empresa",
+    "titulo": "Compromisso com Qualidade, Segurança e Inovação",
+    "description": "Engenharia aplicada com precisão técnica e responsabilidade.",
+    "solucoes": [
+      "Projetos Personalizados",
+      "Soluções Técnicas Eficientes",
+      "Gestão Completa de Obras",
+      "Acompanhamento Técnico Especializado"
+    ],
+    "imagens": [
+      "dist/imagens/sobre/advocacia/sobre-1.jpg",
+      "dist/imagens/sobre/advocacia/sobre-2.jpg"
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Nossos Serviços",
+    "titulo": "Soluções em Engenharia para Cada Necessidade",
+    "descricao": "Atuamos em diversas áreas da engenharia, oferecendo soluções técnicas modernas, seguras e eficientes.",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
+        "titulo": "Projetos Estruturais",
+        "descricao": "Elaboração de projetos estruturais seguros, econômicos e conforme normas técnicas."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-trabalhista-1.jpg",
+        "titulo": "Gerenciamento de Obras",
+        "descricao": "Planejamento, execução e controle de obras com foco em prazo, custo e qualidade."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-empresarial-1.jpg",
+        "titulo": "Consultoria Técnica",
+        "descricao": "Análises técnicas, laudos, vistorias e pareceres de engenharia."
+      },
+      {
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-previdenciario-1.jpg",
+        "titulo": "Regularização e Aprovações",
+        "descricao": "Acompanhamento de processos legais, licenças e aprovações técnicas."
+      }
+    ]
+  },
+  "contadores": [
+    {
+      "numero": 10000,
+      "texto": "Projetos Entregues"
+    },
+    {
+      "numero": 2500,
+      "texto": "Obras Concluídas"
+    },
+    {
+      "numero": 800,
+      "texto": "Clientes Corporativos"
+    },
+    {
+      "numero": 15,
+      "texto": "Anos de Experiência"
+    }
+  ],
+  "porque": {
+    "subtitulo": " Por que Escolher Nossa Engenharia ",
+    "titulo": "Precisão Técnica, Confiança e Resultados",
+    "descricao": "Trabalhamos com rigor técnico, transparência e compromisso total com a segurança e eficiência dos projetos.",
+    "items": [
+      {
+        "titulo": "Equipe Especializada",
+        "descricao": "Engenheiros experientes e atualizados com normas e tecnologias."
+      },
+      {
+        "titulo": "Soluções Inteligentes",
+        "descricao": "Projetos pensados para reduzir custos e maximizar resultados."
+      },
+      {
+        "titulo": "Gestão Eficiente",
+        "descricao": "Controle rigoroso de prazos, orçamento e qualidade."
+      },
+      {
+        "titulo": "Transparência Total",
+        "descricao": "Comunicação clara em todas as etapas do projeto."
+      }
+    ],
+    "imagens": [
+      "dist/imagens/porquenos/advocacia/porquenos-1.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-2.webp",
+      "dist/imagens/porquenos/advocacia/porquenos-3.webp"
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Nossa Equipe",
+    "titulo": "Engenheiros Especialistas",
+    "items": [
+      {
+        "texto": "Eng. Marcelo Almeida",
+        "descripcao": "Engenharia Estrutural",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
+      },
+      {
+        "texto": "Eng. Renata Torres",
+        "descripcao": "Gerenciamento de Obras",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
+      },
+      {
+        "texto": "Eng. Felipe Costa",
+        "descripcao": "Consultoria Técnica",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp"
+      },
+      {
+        "texto": "Eng. Maria Mendes",
+        "descripcao": "Planejamento e Projetos",
+        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
+      }
+    ]
+  },
+  "depoimentos": {
+    "subtitlo": "Depoimentos",
+    "titulo": "O que Nossos Clientes Dizem",
+    "items": [
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
+        "texto": "Projeto extremamente bem executado, com alto nível técnico e organização.",
+        "nome": "João Santos"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-2.webp",
+        "texto": "Equipe comprometida, prazos cumpridos e excelente suporte técnico.",
+        "nome": "Júlio Oliveira"
+      },
+      {
+        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-3.webp",
+        "texto": "Engenharia de confiança, com soluções modernas e eficientes.",
+        "nome": "Carlos Pereira"
+      }
+    ]
+  },
+  "galeria": {
+    "navbar": [
+      "todos",
+      "empresa",
+      "profissionais",
+      "servicos"
+    ],
+    "imagens": [
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.jpg"
+      },
+      {
+        "categoria": "empresa",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.jpg"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-1.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-2.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-3.webp"
+      },
+      {
+        "categoria": "profissionais",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-4.webp"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-1.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-2.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3.jpg"
+      },
+      {
+        "categoria": "servicos",
+        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-4.jpg"
+      }
+    ]
+  },
+  "video": {
+    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+    "imagem": "dist/imagens/video/advocacia/video-1.jpeg"
+  },
+  "faq": {
+    "subtitulo": "Dúvidas Frequentes",
+    "titulo": "Perguntas Mais Comuns",
+    "items": [
+      {
+        "pergunta": "Vocês atendem projetos residenciais e comerciais?",
+        "resposta": "Sim, atuamos em projetos residenciais, comerciais e industriais."
+      },
+      {
+        "pergunta": "O acompanhamento da obra está incluso?",
+        "resposta": "Sim, oferecemos acompanhamento técnico conforme o serviço contratado."
+      },
+      {
+        "pergunta": "Os projetos seguem normas técnicas?",
+        "resposta": "Todos os projetos seguem rigorosamente as normas da ABNT."
+      },
+      {
+        "pergunta": "Atendem empresas?",
+        "resposta": "Sim, prestamos serviços completos para empresas de todos os portes."
+      },
+      {
+        "pergunta": "Os projetos possuem responsabilidade técnica?",
+        "resposta": "Sim, todos os serviços possuem ART e responsabilidade técnica."
+      }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Entre em Contato",
+    "titulo": "Fale com um Engenheiro",
+    "descricao": "Entre em contato conosco e solicite uma avaliação técnica especializada.",
+    "horarios": "Seg - Sex: 08:00 - 19:00",
+    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@seudominio.com.br",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "whatsapp": "#",
+      "linkedin": "#",
+      "x": "#"
+    }
+  },
+  "acao": {
+    "texto": "Precisa de um projeto de engenharia agora?",
+    "botao": {
+      "link": "https://wa.me/5562982045122",
+      "texto": "Falar com Engenheiro"
+    }
+  },
+  "footer": {
+    "description": "Soluções em engenharia com qualidade, segurança e inovação.",
+    "copyright": "© 2025 Almeida & Torres Engenharia"
+  }
+}
