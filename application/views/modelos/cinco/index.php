@@ -131,7 +131,7 @@
                         <!-- TOPO -->
                         <div class="header-top-area">
                             <div class="header-top-border"
-                                style="background-image: url(<?= $d['header']['topo']['background'] ?>);">
+                                style="background-image: url(<?=base_url()?><?= $d['header']['topo']['background'] ?>);">
 
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -365,7 +365,7 @@
 
         <?php foreach ($d['slider']['slides'] as $slide): ?>
             <div class="welcome7-section-area"
-                style="background-image: url(<?= $slide['background'] ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                style="background-image: url(<?=base_url()?><?= $slide['background'] ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
 
                 <div class="lawer-images">
                     <img src="<?= base_url() ?><?= $slide['imagem_principal'] ?>" alt="<?= $slide['titulo'] ?>" class="law">
@@ -404,7 +404,7 @@
                         <div class="col-lg-5">
                             <div class="welcome6-elements-area">
                                 <div class="polygon-author aniamtion-key-1"
-                                    style="background-image: url(<?= $slide['cta_flotante']['background'] ?>);">
+                                    style="background-image: url(<?=base_url()?><?= $slide['cta_flotante']['background'] ?>);">
 
                                     <div class="polygon-arrow">
                                         <span>
@@ -928,7 +928,7 @@
 
 
     <div class="contact7-section-area sp1"
-        style="background-image: url(<?= $d['contato']['background']; ?>);
+        style="background-image: url(<?=base_url()?><?= $d['contato']['background']; ?>);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -1049,7 +1049,7 @@
     <!--===== CTA STARTS =======-->
 
     <div class="cta7-section-area"
-        style="background-image: url(<?= $d['cta']['imagem_fundo']; ?>); background-size: cover; background-position: center;">
+        style="background-image: url(<?=base_url()?><?= $d['cta']['imagem_fundo']; ?>); background-size: cover; background-position: center;">
 
         <div class="container">
             <div class="row align-items-center">
