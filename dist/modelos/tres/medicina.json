@@ -146,11 +146,10 @@
       "Compromisso com o Bem-Estar"
     ],
     "botao": {
-      "title": "Saiba Mais",
+      "titulo": "Saiba Mais",
       "link": "https://wa.me/5562982045122"
     }
   },
- 
   "contadores": {
     "items": [
       {
@@ -175,7 +174,7 @@
       }
     ]
   },
-   "servicos": {
+  "servicos": {
     "subtitulo": "Nossos Serviços",
     "titulo": "Especialidades Médicas",
     "items": [
@@ -211,7 +210,70 @@
       }
     ]
   },
-
+  "porque_escolher": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Por que escolher a gente",
+    "titulo": "Somos Apaixonados, <br> Dedicados e Acessíveis",
+    "abas": [
+      {
+        "label": "Casos de Emergência",
+        "titulo": "Atendimento de Emergência Odontológica",
+        "descricao": "Atendimento rápido para emergências dentárias como dor intensa, dentes quebrados ou acidentes.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-1.jpg",
+          "assets/images/why-choose/why-choose-2-2.jpg",
+          "assets/images/why-choose/why-choose-2-3.jpg"
+        ],
+        "lista": [
+          "Atendimento Humanizado",
+          "Tecnologia Moderna",
+          "Dentistas Especializados",
+          "Custos Acessíveis"
+        ]
+      },
+      {
+        "label": "Habilidades Profissionais",
+        "titulo": "Equipe Altamente Qualificada",
+        "descricao": "Profissionais experientes, atualizados e preparados para oferecer o melhor tratamento.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-4.jpg",
+          "assets/images/why-choose/why-choose-2-5.jpg",
+          "assets/images/why-choose/why-choose-2-6.jpg"
+        ],
+        "lista": [
+          "Excelência Clínica",
+          "Equipamentos de Última Geração",
+          "Equipe Multidisciplinar",
+          "Foco no Paciente"
+        ]
+      },
+      {
+        "label": "Horário de Funcionamento",
+        "titulo": "Horários Flexíveis para Você",
+        "descricao": "Atendemos em horários pensados para se adaptar à sua rotina.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-7.jpg",
+          "assets/images/why-choose/why-choose-2-8.jpg",
+          "assets/images/why-choose/why-choose-2-9.jpg"
+        ],
+        "lista": [
+          "Atendimento Estendido",
+          "Agendamento Facilitado",
+          "Pontualidade",
+          "Suporte Contínuo"
+        ]
+      }
+    ]
+  },
+  "clientes": {
+    "logos": [
+      "assets/images/brand/brand-1-1.png",
+      "assets/images/brand/brand-1-2.png",
+      "assets/images/brand/brand-1-3.png",
+      "assets/images/brand/brand-1-4.png",
+      "assets/images/brand/brand-1-5.png"
+    ]
+  },
   "team": [
     {
       "imagem": "https://www.shutterstock.com/image-photo/portrait-confident-doctor-office-260nw-2148007067.jpg",
