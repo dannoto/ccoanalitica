@@ -258,43 +258,43 @@
             {
                 "titulo": "Psicoterapia Individual",
                 "descricao": "Atendimento personalizado para promover autoconhecimento, equilíbrio emocional e saúde mental.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-1.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-1.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-1.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Terapia de Casal",
                 "descricao": "Apoio profissional para melhorar a comunicação, resolver conflitos e fortalecer relacionamentos.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-2.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-2.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-2.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-2.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Terapia Familiar",
                 "descricao": "Intervenções terapêuticas focadas no equilíbrio das relações familiares e bem-estar coletivo.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-3.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-3.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-3.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-3.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Psicoterapia Infantil",
                 "descricao": "Atendimento especializado para crianças, auxiliando no desenvolvimento emocional e comportamental.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-4.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-4.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-4.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-4.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Avaliação Psicológica",
                 "descricao": "Processos avaliativos com responsabilidade técnica para fins clínicos, educacionais ou profissionais.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-5.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-5.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-5.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-5.svg",
                 "link": "https://wa.me/5562982045122"
             },
             {
                 "titulo": "Orientação Emocional",
                 "descricao": "Suporte psicológico para lidar com ansiedade, estresse, luto e desafios do cotidiano.",
-                "imagem": "dist/imagens/servicos/psicologia/servicos-6.jpg",
-                "icone": "dist/imagens/servicos/psicologia/servicos-icon-6.svg",
+                "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-6.jpg",
+                "icone": "dist/imagens/servicos/advocacia/servicos-direito-civil-icon-6.svg",
                 "link": "https://wa.me/5562982045122"
             }
         ]
