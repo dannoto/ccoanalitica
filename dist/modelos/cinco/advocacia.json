@@ -1,7 +1,7 @@
 {
     "header": {
         "topo": {
-            "background": "dist/imagens/header/psicologia/header-topo-1.png",
+            "background": "dist/imagens/hero/psicologia/hero-1.jpg",
             "mensagem": "Pronto para cuidar da sua saúde emocional hoje?",
             "texto_cta": "Agende sua sessão",
             "link_cta": "/contato"
