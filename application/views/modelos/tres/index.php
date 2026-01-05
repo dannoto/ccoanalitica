@@ -721,2505 +721,484 @@
             </div>
         </section>
 
-
-
         <section class="welcome-one welcome-one--home2 section-space-bottom">
-
-            <div class="welcome-one__bg" style="background-image: url(assets/images/backgrounds/welcome-bg-2-1.jpg);"></div><!-- /.welcome-one__bg -->
+            <!-- Background principal da seção -->
+            <div class="welcome-one__bg"
+                style="background-image: url(<?= $d['boas_vindas']['background'] ?>);">
+            </div>
 
             <div class="container">
-
                 <div class="welcome-one__inner">
 
-                    <div class="welcome-one__inner__bg" style="background-image: url(assets/images/shapes/welcome-inner-bg-1-1.jpg);"></div>
+                    <!-- Background interno -->
+                    <div class="welcome-one__inner__bg"
+                        style="background-image: url(<?= $d['boas_vindas']['background_interno'] ?>);">
+                    </div>
 
+                    <!-- Conteúdo -->
                     <div class="welcome-one__content">
 
-                        <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
-
+                        <div class="sec-title wow fadeInUp" data-wow-duration="1500ms">
                             <div class="sec-title__top">
+                                <img src="<?= $d['boas_vindas']['icone'] ?>"
+                                    alt="<?= $d['boas_vindas']['subtitulo'] ?>"
+                                    class="sec-title__img">
 
+                                <h6 class="sec-title__tagline">
+                                    <?= $d['boas_vindas']['subtitulo'] ?>
+                                </h6>
+                            </div>
 
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-2.png" alt="welcome new patientâs" class="sec-title__img">
-
-
-
-
-
-                                <h6 class="sec-title__tagline">welcome new patientâs</h6><!-- /.sec-title__tagline -->
-
-
-
-                            </div><!-- /.sec-title__top -->
-
-                            <h3 class="sec-title__title">Weâre Welcoming New <br> Patients</h3><!-- /.sec-title__title -->
-
-                        </div><!-- /.sec-title -->
-
-                        <p class="welcome-one__text wow fadeInUp" data-wow-duration="1500ms">A brief statement outlining the purpose and mission of the clinic. This can include the commitment to patient care, community health.</p><!-- /.welcome-one__text -->
-
-                        <div class="wow fadeInUp" data-wow-duration="1500ms">
-
-                            <a href="appointment.html" class="mediox-btn">
-
-                                <span>book appointment</span>
-
-                                <span class="mediox-btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                            </a><!-- /.mediox-btn -->
-
+                            <h3 class="sec-title__title">
+                                <?= $d['boas_vindas']['titulo'] ?>
+                            </h3>
                         </div>
 
-                    </div><!-- /.welcome-one__content -->
+                        <p class="welcome-one__text wow fadeInUp" data-wow-duration="1500ms">
+                            <?= $d['boas_vindas']['descricao'] ?>
+                        </p>
 
+                        <?php if (!empty($d['boas_vindas']['botao'])): ?>
+                            <div class="wow fadeInUp" data-wow-duration="1500ms">
+                                <a href="<?= $d['boas_vindas']['botao']['link'] ?>" class="mediox-btn">
+                                    <span><?= $d['boas_vindas']['botao']['titulo'] ?></span>
+                                    <span class="mediox-btn__icon">
+                                        <i class="icon-up-right-arrow"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        <?php endif; ?>
+
+                    </div>
+
+                    <!-- Imagem lateral -->
                     <div class="welcome-one__image">
+                        <div class="welcome-one__image__bg"
+                            style="background-image: url(<?= $d['boas_vindas']['imagem'] ?>);">
+                        </div>
+                    </div>
 
-                        <div class="welcome-one__image__bg" style="background-image: url(assets/images/resources/welcome-1-1.jpg);"></div>
-
-                    </div><!-- /.welcome-one__image -->
-
-                </div><!-- /.welcome-one__inner -->
-
-            </div><!-- /.container -->
-
-        </section><!-- /.welcome-one section-space-bottom -->
-
+                </div>
+            </div>
+        </section>
 
 
         <section class="testimonials-two section-space" id="testimonials">
 
             <div class="container">
 
+                <!-- Título da seção -->
                 <div class="sec-title sec-title--center wow fadeInUp" data-wow-duration="1500ms">
-
                     <div class="sec-title__top">
-
-
-
-                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="our testimonials" class="sec-title__img">
-
-
-
-
-
-                        <h6 class="sec-title__tagline">our testimonials</h6><!-- /.sec-title__tagline -->
-
-
-
-                    </div><!-- /.sec-title__top -->
-
-                    <h3 class="sec-title__title">peoples talk about <br> mediox</h3><!-- /.sec-title__title -->
-
-                </div><!-- /.sec-title -->
-
-                <div class="testimonials-two__carousel mediox-owl__carousel mediox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-
-            "items": 1,
-
-            "margin": 10,
-
-            "loop": true,
-
-            "smartSpeed": 700,
-
-            "nav": false,
-
-            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-
-            "dots": true,
-
-            "autoplay": true,
-
-            "responsive": {
-
-                "0": {
-
-                    "items": 1,
-
-                    "nav": true,
-
-                    "dots": false,
-
-                    "margin": 10
-
-                },
-
-                "992": {
-
-                    "items": 2,
-
-                    "margin": 30
-
-                }
-
-            }
-
-                }'>
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">Medios health care Company also impressed us with their transpa regarding costs. The initial quote was very low</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Michael G. Ware</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-1.jpg" alt="Michael G. Ware">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">That will be a conversation piece. I'll pay you in a week we don't need to pay upfront i hope you understand</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Mike Hardson</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-2.jpg" alt="Mike Hardson">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">Make it pop. Can the black be darker is this the best we can do. Give us a complimentary logo along with the website</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">John R. Green</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-3.jpg" alt="John R. Green">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">I cant pay you i know you've made thirty iterations but can we go back to the first one that was the best version</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Judith White</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-4.jpg" alt="Judith White">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">Medios health care Company also impressed us with their transpa regarding costs. The initial quote was very low</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Michael G. Ware</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-1.jpg" alt="Michael G. Ware">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">That will be a conversation piece. I'll pay you in a week we don't need to pay upfront i hope you understand</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Mike Hardson</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-2.jpg" alt="Mike Hardson">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">Make it pop. Can the black be darker is this the best we can do. Give us a complimentary logo along with the website</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">John R. Green</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-3.jpg" alt="John R. Green">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="testimonial-card-two">
-
-                            <div class="testimonial-card-two__bg" style="background-image: url(assets/images/shapes/testimonial-card-bg-2-1.png);"></div>
-
-                            <div class="testimonial-card-two__content">
-
-                                <div class="testimonial-card-two__top">
-
-                                    <span class="testimonial-card-two__quote-icon">
-
-                                        <i class="icon-quote"></i>
-
-                                    </span><!-- /.testimonial-card-two__quote-icon -->
-
-                                    <div class="testimonial-card-two__ratings">
-
-                                        <div class="mediox-ratings">
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                            <span class="mediox-ratings__icon">
-
-                                                <i class="icon-star"></i>
-
-                                            </span><!-- /.mediox-ratings__icon -->
-
-                                        </div><!-- /.product-ratings -->
-
-                                    </div><!-- /.testimonial-card-two__ratings -->
-
-                                </div><!-- /.testimonial-card-two__top -->
-
-                                <p class="testimonial-card-two__quote">I cant pay you i know you've made thirty iterations but can we go back to the first one that was the best version</p><!-- /.testimonial-card-two__quote -->
-
-                                <div class="testimonial-card-two__bottom">
-
-                                    <div class="testimonial-card-two__identity">
-
-                                        <div class="testimonial-card-two__info">
-
-                                            <h4 class="testimonial-card-two__name">Judith White</h4><!-- /.testimonial-card-two__name -->
-
-                                            <p class="testimonial-card-two__designation">managing director</p><!-- /.testimonial-card-two__designation -->
-
-                                        </div><!-- /.testimonial-card-two__info -->
-
-                                    </div><!-- /.testimonial-card-two__identity -->
-
-                                    <div class="testimonial-card-two__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/testimonials/testimonial-2-4.jpg" alt="Judith White">
-
-                                    </div><!-- /.testimonial-card-two__image -->
-
-                                </div><!-- /.testimonial-card-two__bottom -->
-
-                            </div><!-- /.testimonial-card-two__content -->
-
-                        </div><!-- /.testimonial-card-two -->
-
-                    </div><!-- /.item -->
-
-                </div><!-- /.testimonials-two__carousel -->
-
-            </div><!-- /.container -->
-
-            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/testimonials-shape-2-1.png" alt="shape" class="testimonials-two__shape">
-
-        </section><!-- /.testimonials-two section-space -->
-
-
+                        <img src="<?= $d['depoimentos']['icone'] ?>"
+                            alt="<?= $d['depoimentos']['subtitulo'] ?>"
+                            class="sec-title__img">
+
+                        <h6 class="sec-title__tagline">
+                            <?= $d['depoimentos']['subtitulo'] ?>
+                        </h6>
+                    </div>
+
+                    <h3 class="sec-title__title">
+                        <?= $d['depoimentos']['titulo'] ?>
+                    </h3>
+                </div>
+
+                <!-- Carrossel -->
+                <div class="testimonials-two__carousel mediox-owl__carousel mediox-owl__carousel--basic-nav owl-carousel owl-theme"
+                    data-owl-options='<?= json_encode($d['depoimentos']['carousel_options']) ?>'>
+
+                    <?php foreach ($d['depoimentos']['items'] as $item): ?>
+                        <div class="item wow fadeInUp" data-wow-duration="1500ms">
+
+                            <div class="testimonial-card-two">
+
+                                <div class="testimonial-card-two__bg"
+                                    style="background-image: url(<?= $item['background'] ?>);">
+                                </div>
+
+                                <div class="testimonial-card-two__content">
+
+                                    <div class="testimonial-card-two__top">
+
+                                        <span class="testimonial-card-two__quote-icon">
+                                            <i class="icon-quote"></i>
+                                        </span>
+
+                                        <div class="testimonial-card-two__ratings">
+                                            <div class="mediox-ratings">
+                                                <?php for ($i = 0; $i < $item['avaliacao']; $i++): ?>
+                                                    <span class="mediox-ratings__icon">
+                                                        <i class="icon-star"></i>
+                                                    </span>
+                                                <?php endfor; ?>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="testimonial-card-two__quote">
+                                        <?= $item['texto'] ?>
+                                    </p>
+
+                                    <div class="testimonial-card-two__bottom">
+
+                                        <div class="testimonial-card-two__identity">
+                                            <div class="testimonial-card-two__info">
+                                                <h4 class="testimonial-card-two__name">
+                                                    <?= $item['nome'] ?>
+                                                </h4>
+                                                <p class="testimonial-card-two__designation">
+                                                    <?= $item['cargo'] ?>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="testimonial-card-two__image">
+                                            <img src="<?= $item['imagem'] ?>"
+                                                alt="<?= $item['nome'] ?>">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                </div>
+            </div>
+
+            <img src="<?= $d['depoimentos']['shape'] ?>"
+                alt="shape"
+                class="testimonials-two__shape">
+
+        </section>
 
         <section class="faq-one faq-one--home2">
 
-            <div class="faq-one__bg" style="background-image: url(assets/images/shapes/faq-bg-2-1.png);"></div><!-- /.faq-one__bg -->
+            <!-- Background da seção -->
+            <div class="faq-one__bg"
+                style="background-image: url(<?= $d['faq']['background'] ?>);">
+            </div>
 
             <div class="container section-space-two">
-
                 <div class="row gutter-y-50">
 
+                    <!-- Conteúdo FAQ -->
                     <div class="col-xl-6 col-lg-9">
-
                         <div class="faq-one__content">
 
-                            <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
-
+                            <!-- Título -->
+                            <div class="sec-title wow fadeInUp" data-wow-duration="1500ms">
                                 <div class="sec-title__top">
+                                    <img src="<?= $d['faq']['icone'] ?>"
+                                        alt="<?= $d['faq']['subtitulo'] ?>"
+                                        class="sec-title__img">
 
+                                    <h6 class="sec-title__tagline">
+                                        <?= $d['faq']['subtitulo'] ?>
+                                    </h6>
+                                </div>
 
+                                <h3 class="sec-title__title">
+                                    <?= $d['faq']['titulo'] ?>
+                                </h3>
+                            </div>
 
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="FAQâS" class="sec-title__img">
-
-
-
-
-
-                                    <h6 class="sec-title__tagline">FAQâS</h6><!-- /.sec-title__tagline -->
-
-
-
-                                </div><!-- /.sec-title__top -->
-
-                                <h3 class="sec-title__title">Frequently Asked Have <br> Any Question?</h3><!-- /.sec-title__title -->
-
-                            </div><!-- /.sec-title -->
-
+                            <!-- Accordion -->
                             <div class="faq-one__accordion">
+                                <div class="faq-accordion mediox-accordion"
+                                    data-grp-name="mediox-accordion">
 
-                                <div class="faq-accordion mediox-accordion" data-grp-name="mediox-accordion">
+                                    <?php foreach ($d['faq']['itens'] as $index => $item): ?>
+                                        <div class="accordion <?= $index === 0 ? 'active' : '' ?> wow fadeInUp"
+                                            data-wow-duration="1500ms"
+                                            data-wow-delay="<?= $index * 50 ?>ms">
 
-                                    <div class="accordion active wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                                            <div class="accordion-title">
+                                                <h4>
+                                                    <?= $item['pergunta'] ?>
+                                                    <span class="accordion-title__icon"></span>
+                                                </h4>
+                                            </div>
 
-                                        <div class="accordion-title">
+                                            <div class="accordion-content">
+                                                <div class="inner">
+                                                    <p><?= $item['resposta'] ?></p>
+                                                </div>
+                                            </div>
 
-                                            <h4>
+                                        </div>
+                                    <?php endforeach; ?>
 
-                                                Wound healing genes
+                                </div>
+                            </div>
 
-                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
+                        </div>
+                    </div>
 
-                                            </h4>
-
-                                        </div><!-- /.accordion-title -->
-
-                                        <div class="accordion-content">
-
-                                            <div class="inner">
-
-                                                <p>Lorem ipsum dolor sit amet consecteitur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit a sapien fringilla, mattis ligula consectietur, ultrices mauris. Maecenas vitae mattis tellus.</p>
-
-                                            </div><!-- /.inner -->
-
-                                        </div><!-- /.accordion-content -->
-
-                                    </div><!-- /.accordion-item -->
-
-                                    <div class="accordion wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="50ms">
-
-                                        <div class="accordion-title">
-
-                                            <h4>
-
-                                                Blood clotting disorder
-
-                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
-
-                                            </h4>
-
-                                        </div><!-- /.accordion-title -->
-
-                                        <div class="accordion-content">
-
-                                            <div class="inner">
-
-                                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
-
-                                                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-
-                                                    generators on the Internet tend to repeat predefined chunks as necessary.</p>
-
-                                            </div><!-- /.inner -->
-
-                                        </div><!-- /.accordion-content -->
-
-                                    </div><!-- /.accordion-item -->
-
-                                    <div class="accordion wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                                        <div class="accordion-title">
-
-                                            <h4>
-
-                                                Studies of genetic
-
-                                                <span class="accordion-title__icon"></span><!-- /.accordion-title__icon -->
-
-                                            </h4>
-
-                                        </div><!-- /.accordion-title -->
-
-                                        <div class="accordion-content">
-
-                                            <div class="inner">
-
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority
-
-                                                    have suffered alteration in some form, by injected humour, or randomised words
-
-                                                    which don't look even slightly believable.</p>
-
-                                            </div><!-- /.inner -->
-
-                                        </div><!-- /.accordion-content -->
-
-                                    </div><!-- /.accordion-item -->
-
-                                </div><!-- /.faq-accordion -->
-
-                            </div><!-- /.faq-one__accordion -->
-
-                        </div><!-- /.faq-one__content -->
-
-                    </div><!-- /.col-xl-6 col-lg-9 -->
-
-                    <div class="col-xl-6 wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="00ms">
-
+                    <!-- Imagens laterais -->
+                    <div class="col-xl-6 wow fadeInRight" data-wow-duration="1500ms">
                         <div class="faq-one__image">
 
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/resources/faq-1-1.png" alt="faq" class="faq-one__image__one">
+                            <img src="<?= $d['faq']['imagem_principal'] ?>"
+                                alt="FAQ"
+                                class="faq-one__image__one">
 
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/resources/faq-1-2.png" alt="faq" class="faq-one__image__two">
+                            <img src="<?= $d['faq']['imagem_secundaria'] ?>"
+                                alt="FAQ"
+                                class="faq-one__image__two">
 
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/faq-shape-2-2.png" alt="shape" class="faq-one__image__shape">
+                            <img src="<?= $d['faq']['imagem_shape'] ?>"
+                                alt="shape"
+                                class="faq-one__image__shape">
 
-                        </div><!-- /.faq-one__image -->
+                        </div>
+                    </div>
 
-                    </div><!-- /.col-xl-6 -->
+                </div>
+            </div>
 
-                </div><!-- /.row gutter-y-50 -->
+            <img src="<?= $d['faq']['shape_inferior'] ?>"
+                alt="shape"
+                class="faq-one__shape">
 
-            </div><!-- /.container section-space-two -->
-
-            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/faq-shape-2-1.png" alt="shape" class="faq-one__shape">
-
-        </section><!-- /.faq-one -->
-
+        </section>
 
 
         <section class="team-two section-space-two" id="team">
 
             <div class="container">
 
+                <!-- Título da seção -->
                 <div class="sec-title sec-title--center wow fadeInUp" data-wow-duration="1500ms">
-
                     <div class="sec-title__top">
+                        <img src="<?= $d['equipe']['icone'] ?>"
+                            alt="<?= $d['equipe']['subtitulo'] ?>"
+                            class="sec-title__img">
 
+                        <h6 class="sec-title__tagline">
+                            <?= $d['equipe']['subtitulo'] ?>
+                        </h6>
+                    </div>
 
+                    <h3 class="sec-title__title">
+                        <?= $d['equipe']['titulo'] ?>
+                    </h3>
+                </div>
 
-                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="our expert team" class="sec-title__img">
+                <!-- Carousel da equipe -->
+                <div class="team-two__carousel mediox-owl__carousel mediox-owl__carousel--with-shadow mediox-owl__carousel--basic-nav owl-carousel owl-theme"
+                    data-owl-options='<?= json_encode($d['equipe']['carousel_config']) ?>'>
 
+                    <?php foreach ($d['equipe']['membros'] as $index => $membro): ?>
+                        <div class="item">
 
+                            <div class="team-card-two <?= $membro['top_identity'] ? 'team-card-two--top-identity' : '' ?> wow fadeInUp"
+                                data-wow-duration="1500ms"
+                                data-wow-delay="<?= $index * 100 ?>ms">
 
+                                <div class="team-card-two__image">
+                                    <div class="team-card-two__image__inner">
 
+                                        <img src="<?= $membro['imagem'] ?>"
+                                            alt="<?= $membro['nome'] ?>">
 
-                        <h6 class="sec-title__tagline">our expert team</h6><!-- /.sec-title__tagline -->
+                                        <?php if (!empty($membro['redes_sociais'])): ?>
+                                            <div class="team-card-two__social social-links">
+                                                <?php foreach ($membro['redes_sociais'] as $rede): ?>
+                                                    <a href="<?= $rede['link'] ?>" target="_blank">
+                                                        <i class="<?= $rede['icone'] ?>" aria-hidden="true"></i>
+                                                        <span class="sr-only"><?= $rede['nome'] ?></span>
+                                                    </a>
+                                                <?php endforeach; ?>
+                                            </div>
+                                        <?php endif; ?>
 
+                                    </div>
+                                </div>
 
-
-                    </div><!-- /.sec-title__top -->
-
-                    <h3 class="sec-title__title">meet our expert team</h3><!-- /.sec-title__title -->
-
-                </div><!-- /.sec-title -->
-
-                <div class="team-two__carousel mediox-owl__carousel mediox-owl__carousel--with-shadow mediox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-
-            "items": 1,
-
-            "margin": 10,
-
-            "loop": false,
-
-            "smartSpeed": 700,
-
-            "nav": false,
-
-            "dots": true,
-
-            "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-
-            "autoplay": true,
-
-            "responsive": {
-
-                "0": {
-
-                    "items": 1,
-
-                    "nav": true,
-
-                    "dots": false,
-
-                    "margin": 10
-
-                },
-
-                "576": {
-
-                    "items": 2,
-
-                    "margin": 30
-
-                },
-
-                "992": {
-
-                    "items": 3,
-
-                    "margin": 30
-
-                },
-
-                "1200": {
-
-                    "items": 4,
-
-                    "margin": 30,
-
-                    "dots": false
-
-                }
-
-            }
-
-            }'>
-
-                    <div class="item">
-
-                        <div class="team-card-two team-card-two--top-identity wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='00ms'>
-
-                            <div class="team-card-two__image">
-
-                                <div class="team-card-two__image__inner">
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/team/team-2-1.jpg" alt="Anthony B. Castillo">
-
-                                    <div class="team-card-two__social social-links">
-
-                                        <a href="https://facebook.com">
-
-                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Facebook</span>
-
+                                <div class="team-card-two__identity">
+                                    <h3 class="team-card-two__name">
+                                        <a href="<?= $membro['link'] ?>">
+                                            <?= $membro['nome'] ?>
                                         </a>
+                                    </h3>
 
-                                        <a href="https://twitter.com">
+                                    <p class="team-card-two__designation">
+                                        <?= $membro['cargo'] ?>
+                                    </p>
+                                </div>
 
-                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </div>
 
-                                            <span class="sr-only">Twitter</span>
+                        </div>
+                    <?php endforeach; ?>
 
-                                        </a>
+                </div>
 
-                                        <a href="https://instagram.com">
+            </div>
 
-                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+        </section>
 
-                                            <span class="sr-only">Instagram</span>
 
-                                        </a>
+       <footer class="main-footer section-space-top">
 
-                                        <a href="https://youtube.com">
+    <div class="main-footer__bg"
+         style="background-image: url(<?= $d['footer']['background'] ?>);"></div>
 
-                                            <i class="fab fa-youtube" aria-hidden="true"></i>
+    <div class="container">
+        <div class="row gutter-y-40">
 
-                                            <span class="sr-only">Youtube</span>
+            <!-- SOBRE / LOGO -->
+            <div class="col-xl-4 col-lg-6 col-md-7">
+                <div class="footer-widget footer-widget--about">
 
-                                        </a>
+                    <div class="footer-widget__logo logo-retina">
+                        <a href="<?= $d['footer']['logo']['link'] ?>">
+                            <img src="<?= $d['footer']['logo']['imagem'] ?>"
+                                 alt="<?= $d['footer']['logo']['alt'] ?>"
+                                 width="164">
+                        </a>
+                    </div>
 
-                                    </div><!-- /.team-card-two__social -->
-
-                                </div><!-- /.team-card-two__image__inner -->
-
-                            </div><!-- /.team-card-two__image -->
-
-                            <div class="team-card-two__identity">
-
-                                <h3 class="team-card-two__name">
-
-                                    <a href="team-details.html">Anthony B. Castillo</a>
-
-                                </h3><!-- /.team-card-two__name -->
-
-                                <p class="team-card-two__designation">Cardiologists</p><!-- /.team-card-two__designation -->
-
-                            </div><!-- /.team-card-two__identity -->
-
-                        </div><!-- /.team-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="team-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-
-                            <div class="team-card-two__image">
-
-                                <div class="team-card-two__image__inner">
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/team/team-2-2.jpg" alt="david cooper">
-
-                                    <div class="team-card-two__social social-links">
-
-                                        <a href="https://facebook.com">
-
-                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Facebook</span>
-
-                                        </a>
-
-                                        <a href="https://twitter.com">
-
-                                            <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Twitter</span>
-
-                                        </a>
-
-                                        <a href="https://instagram.com">
-
-                                            <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Instagram</span>
-
-                                        </a>
-
-                                        <a href="https://youtube.com">
-
-                                            <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Youtube</span>
-
-                                        </a>
-
-                                    </div><!-- /.team-card-two__social -->
-
-                                </div><!-- /.team-card-two__image__inner -->
-
-                            </div><!-- /.team-card-two__image -->
-
-                            <div class="team-card-two__identity">
-
-                                <h3 class="team-card-two__name">
-
-                                    <a href="team-details.html">david cooper</a>
-
-                                </h3><!-- /.team-card-two__name -->
-
-                                <p class="team-card-two__designation">Audiologists</p><!-- /.team-card-two__designation -->
-
-                            </div><!-- /.team-card-two__identity -->
-
-                        </div><!-- /.team-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="team-card-two team-card-two--top-identity wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-
-                            <div class="team-card-two__image">
-
-                                <div class="team-card-two__image__inner">
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/team/team-2-3.jpg" alt="kevin martin">
-
-                                    <div class="team-card-two__social social-links">
-
-                                        <a href="https://facebook.com">
-
-                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Facebook</span>
-
-                                        </a>
-
-                                        <a href="https://twitter.com">
-
-                                            <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Twitter</span>
-
-                                        </a>
-
-                                        <a href="https://instagram.com">
-
-                                            <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Instagram</span>
-
-                                        </a>
-
-                                        <a href="https://youtube.com">
-
-                                            <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Youtube</span>
-
-                                        </a>
-
-                                    </div><!-- /.team-card-two__social -->
-
-                                </div><!-- /.team-card-two__image__inner -->
-
-                            </div><!-- /.team-card-two__image -->
-
-                            <div class="team-card-two__identity">
-
-                                <h3 class="team-card-two__name">
-
-                                    <a href="team-details.html">kevin martin</a>
-
-                                </h3><!-- /.team-card-two__name -->
-
-                                <p class="team-card-two__designation">Dentist</p><!-- /.team-card-two__designation -->
-
-                            </div><!-- /.team-card-two__identity -->
-
-                        </div><!-- /.team-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="team-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
-
-                            <div class="team-card-two__image">
-
-                                <div class="team-card-two__image__inner">
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/team/team-2-4.jpg" alt="Adlof Carone">
-
-                                    <div class="team-card-two__social social-links">
-
-                                        <a href="https://facebook.com">
-
-                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Facebook</span>
-
-                                        </a>
-
-                                        <a href="https://twitter.com">
-
-                                            <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Twitter</span>
-
-                                        </a>
-
-                                        <a href="https://instagram.com">
-
-                                            <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Instagram</span>
-
-                                        </a>
-
-                                        <a href="https://youtube.com">
-
-                                            <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                            <span class="sr-only">Youtube</span>
-
-                                        </a>
-
-                                    </div><!-- /.team-card-two__social -->
-
-                                </div><!-- /.team-card-two__image__inner -->
-
-                            </div><!-- /.team-card-two__image -->
-
-                            <div class="team-card-two__identity">
-
-                                <h3 class="team-card-two__name">
-
-                                    <a href="team-details.html">Adlof Carone</a>
-
-                                </h3><!-- /.team-card-two__name -->
-
-                                <p class="team-card-two__designation">Neurologist</p><!-- /.team-card-two__designation -->
-
-                            </div><!-- /.team-card-two__identity -->
-
-                        </div><!-- /.team-card-two -->
-
-                    </div><!-- /.item -->
-
-                </div><!-- /.team-two__carousel -->
-
-            </div><!-- /.container -->
-
-        </section><!-- /.team-two section-space-two -->
-
-
-
-        <section class="blog-two section-space" id="blog">
-
-            <div class="blog-two__bg" style="background-image: url(assets/images/shapes/blog-bg-2-1.png);"></div><!-- /.blog-two__bg -->
-
-            <div class="container">
-
-                <div class="blog-two__top">
-
-                    <div class="row gutter-y-40 align-items-end">
-
-                        <div class="col-xl-9 col-lg-8">
-
-                            <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
-
-                                <div class="sec-title__top">
-
-
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="latest blog" class="sec-title__img">
-
-
-
-
-
-                                    <h6 class="sec-title__tagline">latest blog</h6><!-- /.sec-title__tagline -->
-
-
-
-                                </div><!-- /.sec-title__top -->
-
-                                <h3 class="sec-title__title">our latest blog & news</h3><!-- /.sec-title__title -->
-
-                            </div><!-- /.sec-title -->
-
-                        </div><!-- /.col-xl-9 col-lg-8 -->
-
-                        <div class="col-xl-3 col-lg-4">
-
-                            <div class="blog-two__custome-navs"></div><!-- /.blog-two__cutome-navs -->
-
-                        </div><!-- /.col-xl-3 col-lg-4 -->
-
-                    </div><!-- /.row -->
-
-                </div><!-- /.blog-two__top -->
-
-                <div class="blog-two__carousel mediox-owl__carousel mediox-owl__carousel--basic-nav owl-carousel owl-theme" data-owl-options='{
-
-				"items": 1,
-
-				"margin": 10,
-
-				"loop": true,
-
-				"smartSpeed": 700,
-
-                "navContainer": ".blog-two__custome-navs",
-
-				"nav": true,
-
-				"navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
-
-				"dots": false,
-
-				"autoplay": true,
-
-				"responsive": {
-
-					"0": {
-
-						"items": 1,
-
-						"margin": 10
-
-					},
-
-					"768": {
-
-						"items": 2,
-
-						"margin": 30
-
-					},
-
-					"992": {
-
-						"items": 3,
-
-						"margin": 30
-
-					}
-
-				}
-
-		    }'>
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='000ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-1.jpg" alt="cupidatat nonproident, sunt in culpa qui official of">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">cupidatat nonproident, sunt in culpa qui official of</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">cupidatat nonproident, sunt in culpa qui official of</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='100ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-2.jpg" alt="Nail jelly to the hothouse wall pixel pushing c-suite">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">Nail jelly to the hothouse wall pixel pushing c-suite</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">Nail jelly to the hothouse wall pixel pushing c-suite</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='200ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-3.jpg" alt="Copy and paste from stack overflow can you put it into">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">Copy and paste from stack overflow can you put it into</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">Copy and paste from stack overflow can you put it into</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='300ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-4.jpg" alt="catching and not too giant, yet drink from the firehose">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">catching and not too giant, yet drink from the firehose</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">catching and not too giant, yet drink from the firehose</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='400ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-5.jpg" alt="Big data. Are there any leftovers in the kitchen at">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">Big data. Are there any leftovers in the kitchen at</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">Big data. Are there any leftovers in the kitchen at</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='500ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-6.jpg" alt="a simple lift and shift job going forward. Price point">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">a simple lift and shift job going forward. Price point</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">a simple lift and shift job going forward. Price point</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='600ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-7.jpg" alt="my capacity is full we're building the plane while we">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">my capacity is full we're building the plane while we</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">my capacity is full we're building the plane while we</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='700ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-8.jpg" alt="ny leftovers in the kitchen?. Touch base that's mint, well">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">ny leftovers in the kitchen?. Touch base that's mint, well</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">ny leftovers in the kitchen?. Touch base that's mint, well</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                    <div class="item">
-
-                        <div class="blog-card-two wow fadeInUp" data-wow-duration='1500ms' data-wow-delay='800ms'>
-
-                            <div class="blog-card-two__image">
-
-                                <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/blog-2-9.jpg" alt="circle back, if you want to motivate these clowns">
-
-                                <a href="blog-details-right.html" class="blog-card-two__hover">
-
-                                    <span class="sr-only">circle back, if you want to motivate these clowns</span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--1"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--2"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--3"></span>
-
-                                    <span class="blog-card-two__hover__box blog-card-two__hover__box--4"></span>
-
-                                </a><!-- /.blog-card-two-two__hover -->
-
-                            </div><!-- /.blog-card-two__image -->
-
-                            <div class="blog-card-two__content">
-
-                                <h3 class="blog-card-two__title"><a href="blog-details-right.html">circle back, if you want to motivate these clowns</a></h3><!-- /.blog-card-two__title -->
-
-                                <ul class="list-unstyled blog-card-two__meta">
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-user"></i>
-
-                                            </span>
-
-                                            by Admin
-
-                                        </a>
-
-                                    </li>
-
-                                    <li>
-
-                                        <a href="#">
-
-                                            <span class="blog-card-two__meta__icon">
-
-                                                <i class="icon-comments"></i>
-
-                                            </span>
-
-                                            2 Comments
-
-                                        </a>
-
-                                    </li>
-
-                                </ul><!-- /.list-unstyled blog-card-two__meta -->
-
-                                <div class="blog-card-two__date">
-
-                                    <span class="blog-card-two__date__day">25</span>
-
-                                    <span class="blog-card-two__date__month">june</span>
-
-                                </div><!-- /.blog-card-two__date -->
-
-                            </div><!-- /.blog-card-two__content -->
-
-                        </div><!-- /.blog-card-two -->
-
-                    </div><!-- /.item -->
-
-                </div><!-- /.blog-two__carousel -->
-
-            </div><!-- /.container -->
-
-        </section><!-- /.blog-two section-space -->
-
-
-
-        <footer class="main-footer section-space-top">
-
-            <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg.png);"></div>
-
-            <!-- /.main-footer__bg -->
-
-            <div class="container">
-
-                <div class="row gutter-y-40">
-
-                    <div class="col-xl-4 col-lg-6 col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                        <div class="footer-widget footer-widget--about">
-
-                            <div class="footer-widget__logo logo-retina">
-
-                                <a href="index.html">
-
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/logo-light.png" alt="Mediox HTML" width="164">
-
-                                </a>
-
-                            </div><!-- /.footer-widget__logo -->
-
-                            <p class="footer-widget__about-text">Morem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elita Florai Psum Dolor Sit Amet, Consecteture.Borem Ipsum Dolor</p><!-- /.footer-widget__about-text -->
-
-                            <a href="appointment.html" class="footer-widget__btn">
-
-                                <span>get consultant</span>
-
-                                <span class="footer-widget__btn__icon"><i class="icon-up-right-arrow"></i></span>
-
-                            </a><!-- /.footer-widget__btn -->
-
-                            <div class="social-links">
-
-                                <a href="https://facebook.com">
-
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                                    <span class="sr-only">Facebook</span>
-
-                                </a>
-
-                                <a href="https://twitter.com">
-
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                                    <span class="sr-only">Twitter</span>
-
-                                </a>
-
-                                <a href="https://instagram.com">
-
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                                    <span class="sr-only">Instagram</span>
-
-                                </a>
-
-                                <a href="https://youtube.com">
-
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                                    <span class="sr-only">Youtube</span>
-
-                                </a>
-
-                            </div><!-- /.social-links -->
-
-                        </div><!-- /.footer-widget -->
-
-                    </div><!-- /.col-xl-4 -->
-
-                    <div class="col-xl-2 col-lg-3 col-md-5 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="footer-widget footer-widget--links">
-
-                            <h2 class="footer-widget__title">our <span>Services</span></h2><!-- /.footer-widget__title -->
-
-                            <ul class="list-unstyled footer-widget__links">
-
-                                <li><a href="service-d-cardiology.html">Cardiology Care</a></li>
-
-                                <li><a href="service-d-immediate-care.html">Urgent Care</a></li>
-
-                                <li><a href="service-d-orthopaedics.html">Orthopedic Care</a></li>
-
-                                <li><a href="service-d-neurology-care.html">neurology care</a></li>
-
-                                <li><a href="service-d-gynaecologists.html">gynaecologists</a></li>
-
-                                <li><a href="services.html">Therapy</a></li>
-
-                                <li><a href="service-d-dental-care.html">Dental service</a></li>
-
-                            </ul><!-- /.list-unstyled footer-widget__links -->
-
-                        </div><!-- /.footer-widget -->
-
-                    </div><!-- /.col-xl-2 -->
-
-                    <div class="col-xl-2 col-lg-3 col-md-5 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                        <div class="footer-widget footer-widget--links">
-
-                            <h2 class="footer-widget__title">useful <span>links</span></h2><!-- /.footer-widget__title -->
-
-                            <ul class="list-unstyled footer-widget__links">
-
-                                <li><a href="about.html">About Us</a></li>
-
-                                <li><a href="services.html">Our Services</a></li>
-
-                                <li><a href="team.html">Our Team</a></li>
-
-                                <li><a href="blog-grid-right.html">Latest Blog</a></li>
-
-                                <li><a href="appointment.html">Appointments</a></li>
-
-                                <li><a href="faq.html">Help & FAQS</a></li>
-
-                                <li><a href="contact.html">Contact Us</a></li>
-
-                            </ul><!-- /.list-unstyled footer-widget__links -->
-
-                        </div><!-- /.footer-widget -->
-
-                    </div><!-- /.col-xl-2 -->
-
-                    <div class="col-xl-4 col-lg-6 col-md-7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-
-                        <div class="footer-widget footer-widget--blog">
-
-                            <h2 class="footer-widget__title">recent <span>news</span></h2><!-- /.footer-widget__title -->
-
-                            <ul class="footer-widget__posts list-unstyled">
-
-                                <li class="footer-widget__posts__item">
-
-                                    <div class="footer-widget__posts__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/footer-rp-1-1.jpg" alt="Recent posts">
-
-                                    </div><!-- /.footer-widget__posts__image -->
-
-                                    <div class="footer-widget__posts__content">
-
-                                        <div class="footer-widget__posts__meta">
-
-                                            <a href="#">
-
-                                                <span class="footer-widget__posts__meta__icon">
-
-                                                    <i class="icon-user"></i>
-
-                                                </span><!-- /.footer-widget__posts__meta__icon -->
-
-                                                By Admin
-
-                                            </a>
-
-                                            <a href="#">
-
-                                                <span class="footer-widget__posts__meta__icon">
-
-                                                    <i class="icon-comments"></i>
-
-                                                </span><!-- /.footer-widget__posts__meta__icon -->
-
-                                                2 comments
-
-                                            </a>
-
-                                        </div><!-- /.footer-widget__posts__meta -->
-
-                                        <h4 class="footer-widget__posts__title">
-
-                                            <a href="blog-details-right.html">Collaboratively pontificate bleedi edge resources</a>
-
-                                        </h4><!-- /.footer-widget__posts__title -->
-
-                                    </div><!-- /.footer-widget__posts__content -->
-
-                                </li>
-
-                                <li class="footer-widget__posts__item">
-
-                                    <div class="footer-widget__posts__image">
-
-                                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/blog/footer-rp-1-2.jpg" alt="Recent posts">
-
-                                    </div><!-- /.footer-widget__posts__image -->
-
-                                    <div class="footer-widget__posts__content">
-
-                                        <div class="footer-widget__posts__meta">
-
-                                            <a href="#">
-
-                                                <span class="footer-widget__posts__meta__icon">
-
-                                                    <i class="icon-user"></i>
-
-                                                </span><!-- /.footer-widget__posts__meta__icon -->
-
-                                                By Admin
-
-                                            </a>
-
-                                            <a href="#">
-
-                                                <span class="footer-widget__posts__meta__icon">
-
-                                                    <i class="icon-comments"></i>
-
-                                                </span><!-- /.footer-widget__posts__meta__icon -->
-
-                                                2 comments
-
-                                            </a>
-
-                                        </div><!-- /.footer-widget__posts__meta -->
-
-                                        <h4 class="footer-widget__posts__title">
-
-                                            <a href="blog-details-right.html">Quick sync the horse is out of the barn, yet this vendor</a>
-
-                                        </h4><!-- /.footer-widget__posts__title -->
-
-                                    </div><!-- /.footer-widget__posts__content -->
-
-                                </li>
-
-                            </ul><!-- /.footer-widget__posts list-unstyled -->
-
-                        </div><!-- /.footer-widget -->
-
-                    </div><!-- /.col-xl-4 -->
-
-                </div><!-- /.row -->
-
-                <div class="main-footer__bottom">
-
-                    <div class="main-footer__info">
-
-                        <div class="main-footer__info__bg" style="background-image: url(assets/images/backgrounds/footer-contact-bg.jpg);"></div><!-- /.main-footer__info__bg -->
-
-                        <div class="row main-footer__info__row gutter-y-40">
-
-                            <div class="main-footer__info__col-1 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
-
-                                <div class="main-footer__contact">
-
-                                    <span class="main-footer__contact__icon">
-
-                                        <i class="icon-location"></i>
-
-                                    </span><!-- /.main-footer__contact__icon -->
-
-                                    <div class="main-footer__contact__content">
-
-                                        <p class="main-footer__contact__title">office address</p>
-
-                                        <h4 class="main-footer__contact__text">
-
-                                            <a href="https://www.google.com/maps">4648 Rocky Road Philadelphia PA, 1920</a>
-
-                                        </h4>
-
-                                    </div><!-- /.main-footer__contact__content -->
-
-                                </div><!-- /.main-footer__contact -->
-
-                            </div><!-- /.main-footer__info__col-1 -->
-
-                            <div class="main-footer__info__col-2 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                                <div class="main-footer__contact">
-
-                                    <span class="main-footer__contact__icon">
-
-                                        <i class="icon-email"></i>
-
-                                    </span><!-- /.main-footer__contact__icon -->
-
-                                    <div class="main-footer__contact__content">
-
-                                        <p class="main-footer__contact__title">send email</p>
-
-                                        <h4 class="main-footer__contact__text">
-
-                                            <a href="mailto:info@mediox.com">info@mediox.com</a>
-
-                                        </h4>
-
-                                    </div><!-- /.main-footer__contact__content -->
-
-                                </div><!-- /.main-footer__contact -->
-
-                            </div><!-- /.main-footer__info__col-2 -->
-
-                            <div class="main-footer__info__col-3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                                <div class="main-footer__contact">
-
-                                    <span class="main-footer__contact__icon">
-
-                                        <i class="icon-telephone"></i>
-
-                                    </span><!-- /.main-footer__contact__icon -->
-
-                                    <div class="main-footer__contact__content">
-
-                                        <p class="main-footer__contact__title">call emergency</p>
-
-                                        <h4 class="main-footer__contact__text">
-
-                                            <a href="tel:+208-555-0112">+208-555-0112</a>
-
-                                        </h4>
-
-                                    </div><!-- /.main-footer__contact__content -->
-
-                                </div><!-- /.main-footer__contact -->
-
-                            </div><!-- /.main-footer__info__col-3 -->
-
-                        </div><!-- /.row main-footer__info__row -->
-
-                    </div><!-- /.main-footer__info -->
-
-                    <p class="main-footer__copyright">
-
-                        &copy; Copyright <span class="dynamic-year"></span> by Mediox HTML Template.
-
+                    <p class="footer-widget__about-text">
+                        <?= $d['footer']['sobre_texto'] ?>
                     </p>
 
-                </div><!-- /.main-footer__bottom -->
+                    <a href="<?= $d['footer']['botao']['link'] ?>" class="footer-widget__btn">
+                        <span><?= $d['footer']['botao']['titulo'] ?></span>
+                        <span class="footer-widget__btn__icon">
+                            <i class="icon-up-right-arrow"></i>
+                        </span>
+                    </a>
 
-            </div><!-- /.container -->
+                    <div class="social-links">
+                        <?php foreach ($d['footer']['redes_sociais'] as $rede): ?>
+                            <a href="<?= $rede['link'] ?>">
+                                <i class="<?= $rede['icone'] ?>"></i>
+                                <span class="sr-only"><?= $rede['nome'] ?></span>
+                            </a>
+                        <?php endforeach; ?>
+                    </div>
 
-        </footer><!-- /.main-footer section-space-top -->
+                </div>
+            </div>
+
+            <!-- SERVIÇOS -->
+            <div class="col-xl-2 col-lg-3 col-md-5">
+                <div class="footer-widget footer-widget--links">
+                    <h2 class="footer-widget__title">
+                        <?= $d['footer']['servicos']['titulo'] ?>
+                    </h2>
+
+                    <ul class="list-unstyled footer-widget__links">
+                        <?php foreach ($d['footer']['servicos']['links'] as $link): ?>
+                            <li>
+                                <a href="<?= $link['url'] ?>">
+                                    <?= $link['titulo'] ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- LINKS ÚTEIS -->
+            <div class="col-xl-2 col-lg-3 col-md-5">
+                <div class="footer-widget footer-widget--links">
+                    <h2 class="footer-widget__title">
+                        <?= $d['footer']['links_uteis']['titulo'] ?>
+                    </h2>
+
+                    <ul class="list-unstyled footer-widget__links">
+                        <?php foreach ($d['footer']['links_uteis']['links'] as $link): ?>
+                            <li>
+                                <a href="<?= $link['url'] ?>">
+                                    <?= $link['titulo'] ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- NOTÍCIAS -->
+            <div class="col-xl-4 col-lg-6 col-md-7">
+                <div class="footer-widget footer-widget--blog">
+                    <h2 class="footer-widget__title">
+                        <?= $d['footer']['noticias']['titulo'] ?>
+                    </h2>
+
+                    <ul class="footer-widget__posts list-unstyled">
+                        <?php foreach ($d['footer']['noticias']['items'] as $post): ?>
+                            <li class="footer-widget__posts__item">
+
+                                <div class="footer-widget__posts__image">
+                                    <img src="<?= $post['imagem'] ?>" alt="<?= $post['titulo'] ?>">
+                                </div>
+
+                                <div class="footer-widget__posts__content">
+
+                                    <div class="footer-widget__posts__meta">
+                                        <a href="#">
+                                            <i class="icon-user"></i>
+                                            <?= $post['autor'] ?>
+                                        </a>
+                                        <a href="#">
+                                            <i class="icon-comments"></i>
+                                            <?= $post['comentarios'] ?> comentários
+                                        </a>
+                                    </div>
+
+                                    <h4 class="footer-widget__posts__title">
+                                        <a href="<?= $post['link'] ?>">
+                                            <?= $post['titulo'] ?>
+                                        </a>
+                                    </h4>
+
+                                </div>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CONTATOS -->
+        <div class="main-footer__bottom">
+            <div class="main-footer__info"
+                 style="background-image: url(<?= $d['footer']['contato']['background'] ?>);">
+
+                <div class="row gutter-y-40">
+                    <?php foreach ($d['footer']['contato']['items'] as $item): ?>
+                        <div class="col">
+                            <div class="main-footer__contact">
+                                <i class="<?= $item['icone'] ?>"></i>
+                                <div>
+                                    <p><?= $item['titulo'] ?></p>
+                                    <h4>
+                                        <a href="<?= $item['link'] ?>">
+                                            <?= $item['texto'] ?>
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+            <p class="main-footer__copyright">
+                <?= $d['footer']['copyright'] ?>
+            </p>
+        </div>
+
+    </div>
+</footer>
+
 
 
 

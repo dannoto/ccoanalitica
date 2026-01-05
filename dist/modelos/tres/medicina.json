@@ -274,7 +274,6 @@
       "assets/images/brand/brand-1-5.png"
     ]
   },
-  
   "habilidades": {
     "background": "assets/images/shapes/skills-bg-2-1.png",
     "icone": "assets/images/shapes/sec-title-s-1-1.png",
@@ -293,7 +292,6 @@
       }
     ]
   },
-
   "processo": {
     "icone": "assets/images/shapes/sec-title-s-1-1.png",
     "subtitulo": "Nosso Processo de Trabalho",
@@ -322,7 +320,6 @@
       }
     ]
   },
-
   "instagram": {
     "imagens": [
       {
@@ -351,8 +348,80 @@
       }
     ]
   },
-
-
+  "boas_vindas": {
+    "background": "assets/images/backgrounds/welcome-bg-2-1.jpg",
+    "background_interno": "assets/images/shapes/welcome-inner-bg-1-1.jpg",
+    "icone": "assets/images/shapes/sec-title-s-1-2.png",
+    "subtitulo": "Bem-vindo, novos pacientes",
+    "titulo": "Estamos de Portas Abertas <br> para Novos Pacientes",
+    "descricao": "Uma breve apresentação sobre a missão da clínica, destacando o compromisso com o cuidado humanizado, a saúde da comunidade e o bem-estar dos pacientes.",
+    "imagem": "assets/images/resources/welcome-1-1.jpg",
+    "botao": {
+      "titulo": "Agendar Consulta",
+      "link": "appointment.html"
+    }
+  },
+  "depoimentos": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossos Depoimentos",
+    "titulo": "O que as pessoas dizem <br> sobre a Mediox",
+    "shape": "assets/images/shapes/testimonials-shape-2-1.png",
+    "carousel_options": {
+      "items": 1,
+      "margin": 10,
+      "loop": true,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "992": {
+          "items": 2,
+          "margin": 30
+        }
+      }
+    },
+    "items": [
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "A Mediox nos impressionou pela transparência nos custos e pela qualidade do atendimento desde o primeiro contato.",
+        "nome": "Michael G. Ware",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-1.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "O atendimento foi excelente e o processo muito claro. Recomendo fortemente a clínica.",
+        "nome": "Mike Hardson",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-2.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Equipe extremamente profissional, desde a recepção até os médicos. Me senti muito seguro.",
+        "nome": "John R. Green",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-3.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Mesmo após várias consultas, o cuidado e a atenção continuam impecáveis.",
+        "nome": "Judith White",
+        "cargo": "Diretora Executiva",
+        "imagem": "assets/images/testimonials/testimonial-2-4.jpg"
+      }
+    ]
+  },
   "team": [
     {
       "imagem": "https://www.shutterstock.com/image-photo/portrait-confident-doctor-office-260nw-2148007067.jpg",
@@ -374,5 +443,290 @@
       "name": "Dr. Marcos Pereira",
       "cargo": "Geriatra"
     }
-  ]
+  ],
+  "faq": {
+    "background": "assets/images/shapes/faq-bg-2-1.png",
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Perguntas Frequentes",
+    "titulo": "Perguntas Frequentes <br> Tem Alguma Dúvida?",
+    "imagem_principal": "assets/images/resources/faq-1-1.png",
+    "imagem_secundaria": "assets/images/resources/faq-1-2.png",
+    "imagem_shape": "assets/images/shapes/faq-shape-2-2.png",
+    "shape_inferior": "assets/images/shapes/faq-shape-2-1.png",
+    "itens": [
+      {
+        "pergunta": "Como funciona o processo de atendimento?",
+        "resposta": "Nosso atendimento começa com uma avaliação completa, seguida da definição do tratamento mais adequado para cada paciente."
+      },
+      {
+        "pergunta": "A clínica aceita convênios?",
+        "resposta": "Trabalhamos com diversos convênios médicos. Entre em contato para confirmar se o seu plano é aceito."
+      },
+      {
+        "pergunta": "É possível agendar consultas online?",
+        "resposta": "Sim, você pode agendar sua consulta online de forma rápida e segura através do nosso site ou WhatsApp."
+      }
+    ]
+  },
+  "equipe": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossa Equipe Especialista",
+    "titulo": "Conheça Nosso Time de Especialistas",
+    "carousel_config": {
+      "items": 1,
+      "margin": 10,
+      "loop": false,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "576": {
+          "items": 2,
+          "margin": 30
+        },
+        "992": {
+          "items": 3,
+          "margin": 30
+        },
+        "1200": {
+          "items": 4,
+          "margin": 30,
+          "dots": false
+        }
+      }
+    },
+    "membros": [
+      {
+        "nome": "Anthony B. Castillo",
+        "cargo": "Cardiologista",
+        "imagem": "assets/images/team/team-2-1.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          },
+          {
+            "nome": "YouTube",
+            "icone": "fab fa-youtube",
+            "link": "https://youtube.com"
+          }
+        ]
+      },
+      {
+        "nome": "David Cooper",
+        "cargo": "Audiologista",
+        "imagem": "assets/images/team/team-2-2.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          },
+          {
+            "nome": "YouTube",
+            "icone": "fab fa-youtube",
+            "link": "https://youtube.com"
+          }
+        ]
+      },
+      {
+        "nome": "Kevin Martin",
+        "cargo": "Dentista",
+        "imagem": "assets/images/team/team-2-3.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          }
+        ]
+      },
+      {
+        "nome": "Adlof Carone",
+        "cargo": "Neurologista",
+        "imagem": "assets/images/team/team-2-4.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "background": "assets/images/shapes/footer-bg.png",
+    "logo": {
+      "imagem": "assets/images/logo-light.png",
+      "link": "/",
+      "alt": "Logo da Clínica"
+    },
+    "sobre_texto": "Somos uma clínica focada em cuidado médico humanizado, tecnologia e excelência no atendimento.",
+    "botao": {
+      "titulo": "Fale com um especialista",
+      "link": "/contato"
+    },
+    "redes_sociais": [
+      {
+        "nome": "Facebook",
+        "icone": "fab fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "nome": "Twitter",
+        "icone": "fab fa-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "nome": "Instagram",
+        "icone": "fab fa-instagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "nome": "YouTube",
+        "icone": "fab fa-youtube",
+        "link": "https://youtube.com"
+      }
+    ],
+    "servicos": {
+      "titulo": "Nossos Serviços",
+      "links": [
+        {
+          "titulo": "Cardiologia",
+          "url": "/servicos/cardiologia"
+        },
+        {
+          "titulo": "Urgência",
+          "url": "/servicos/urgencia"
+        },
+        {
+          "titulo": "Ortopedia",
+          "url": "/servicos/ortopedia"
+        },
+        {
+          "titulo": "Neurologia",
+          "url": "/servicos/neurologia"
+        },
+        {
+          "titulo": "Ginecologia",
+          "url": "/servicos/ginecologia"
+        }
+      ]
+    },
+    "links_uteis": {
+      "titulo": "Links Úteis",
+      "links": [
+        {
+          "titulo": "Sobre Nós",
+          "url": "/sobre"
+        },
+        {
+          "titulo": "Serviços",
+          "url": "/servicos"
+        },
+        {
+          "titulo": "Equipe",
+          "url": "/equipe"
+        },
+        {
+          "titulo": "Blog",
+          "url": "/blog"
+        },
+        {
+          "titulo": "Contato",
+          "url": "/contato"
+        }
+      ]
+    },
+    "noticias": {
+      "titulo": "Últimas Notícias",
+      "items": [
+        {
+          "imagem": "assets/images/blog/post-1.jpg",
+          "titulo": "Avanços na medicina preventiva",
+          "autor": "Admin",
+          "comentarios": 2,
+          "link": "/blog/1"
+        },
+        {
+          "imagem": "assets/images/blog/post-2.jpg",
+          "titulo": "Cuidados essenciais para sua saúde",
+          "autor": "Admin",
+          "comentarios": 3,
+          "link": "/blog/2"
+        }
+      ]
+    },
+    "contato": {
+      "background": "assets/images/backgrounds/footer-contact-bg.jpg",
+      "items": [
+        {
+          "icone": "icon-location",
+          "titulo": "Endereço",
+          "texto": "Av. Central, 123 - São Paulo",
+          "link": "https://maps.google.com"
+        },
+        {
+          "icone": "icon-email",
+          "titulo": "E-mail",
+          "texto": "contato@clinica.com",
+          "link": "mailto:contato@clinica.com"
+        },
+        {
+          "icone": "icon-telephone",
+          "titulo": "Telefone",
+          "texto": "(11) 99999-9999",
+          "link": "tel:11999999999"
+        }
+      ]
+    },
+    "copyright": "© Copyright 2026 - Clínica Médica. Todos os direitos reservados."
+  }
 }
