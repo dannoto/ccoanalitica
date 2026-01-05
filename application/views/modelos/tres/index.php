@@ -526,7 +526,7 @@
 
                                 <div class="service-card-two__content">
 
-                                    <img src="<?= $servico['imagem'] ?>" alt="<?= $servico['titulo'] ?>" class="service-card-two__image">
+                                    <img src="<?= $servico['imagem'] ?>" alt="<?= $servico['titulo'] ?>" style="width: 260px;max-width: 400px;object-fit:cover" class="service-card-two__image">
 
                                     <h3 class="service-card-two__title"><a href="<?= $servico['link'] ?>"><?= $servico['titulo'] ?></a></h3><!-- /.service-card-two__title -->
 
