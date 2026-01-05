@@ -1,0 +1,152 @@
+{
+    "header": {
+        "logo": "dist/imagens/header/psicologia/logo-1.svg",
+        "logo_alt": "Site Logo – Clínica de Psicologia – Talking Minds",
+        "home_link": "index.html",
+        "telefone": "+556255629820422",
+        "telefone_formatado": "(62) 5562-9820-422",
+        "menu": [
+            {
+                "titulo": "Home",
+                "link": "index.html",
+                "active": true,
+                "id": "home_menu"
+            },
+            {
+                "titulo": "Sobre Nós",
+                "link": "sobre.html",
+                "active": false,
+                "id": "sobre_menu"
+            },
+            {
+                "titulo": "Programas",
+                "id": "programas_submenu",
+                "submenu": [
+                    {
+                        "titulo": "Terapia Individual",
+                        "link": "terapia_individual.html"
+                    },
+                    {
+                        "titulo": "Terapia de Casal",
+                        "link": "terapia_casal.html"
+                    },
+                    {
+                        "titulo": "Terapia Infantil",
+                        "link": "terapia_infantil.html"
+                    }
+                ]
+            },
+            {
+                "titulo": "Recursos",
+                "id": "recursos_submenu",
+                "submenu": [
+                    {
+                        "titulo": "Blog",
+                        "link": "blog.html"
+                    },
+                    {
+                        "titulo": "FAQ",
+                        "link": "faq.html"
+                    }
+                ]
+            },
+            {
+                "titulo": "Contato",
+                "id": "contato_submenu",
+                "submenu": [
+                    {
+                        "titulo": "Agende uma Consulta",
+                        "link": "contato.html"
+                    },
+                    {
+                        "titulo": "Localização",
+                        "link": "localizacao.html"
+                    }
+                ]
+            }
+        ]
+    },
+    "hero": {
+        "titulo": "Consulta Particular em Saúde Mental com Profissional",
+        "descricao": "Oferecemos atendimento personalizado em psicologia, com foco no bem-estar emocional e mental.",
+        "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
+        "imagem_alt": "Consulta de Psicologia – Clínica de Saúde Mental",
+        "decoracao": "dist/imagens/hero/psicologia/decoracao-1.svg",
+        "botoes": [
+            {
+                "titulo": "Agende Uma Consulta",
+                "link": "contato.html",
+                "classe": "btn-primary"
+            },
+            {
+                "titulo": "Saiba Mais",
+                "link": "sobre.html",
+                "classe": "btn-outline-secondary"
+            }
+        ],
+        "contadores": [
+            {
+                "descricao": "Anos de experiência",
+                "numero": 20,
+                "simbolo": "+"
+            },
+            {
+                "descricao": "Pacientes atendidos este ano",
+                "numero": 840,
+                "simbolo": "+"
+            },
+            {
+                "descricao": "Clientes melhoraram sua condição",
+                "numero": 98,
+                "simbolo": "%"
+            }
+        ]
+    },
+    "servicos": {
+        "titulo": "Nossos Serviços",
+        "descricao": "Tratamentos especializados em psicologia para todas as idades e necessidades.",
+        "items": [
+            {
+                "titulo": "Terapia de Depressão",
+                "descricao": "Tratamento especializado para melhorar a saúde emocional e mental.",
+                "imagem": "dist/imagens/servicos/psicologia/depressao.jpg",
+                "link": "service_details.html"
+            },
+            {
+                "titulo": "Aconselhamento de Casais",
+                "descricao": "Auxílio para melhorar o relacionamento e a comunicação entre casais.",
+                "imagem": "dist/imagens/servicos/psicologia/casais.jpg",
+                "link": "service_details.html"
+            },
+            {
+                "titulo": "Relacionamentos",
+                "descricao": "Orientação para resolver conflitos e fortalecer vínculos afetivos.",
+                "imagem": "dist/imagens/servicos/psicologia/relacionamentos.jpg",
+                "link": "service_details.html"
+            }
+        ],
+        "botao_todos": "Todos os Programas",
+        "link_todos": "service.html"
+    },
+    "sobre": {
+        "titulo": "Dr. Merry Stone — Psicólogo Licenciado e Psicoterapeuta",
+        "descricao": "Atendimento individualizado para cuidado mental, terapia de grupo e acompanhamento online.",
+        "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
+        "video": "https://www.youtube.com/watch?v=7e90gBu4pas",
+        "listas": [
+            [
+                "Consultas Pessoais",
+                "Terapia em Grupo",
+                "Terapia Online"
+            ],
+            [
+                "Técnica Única",
+                "Problemas de Casal"
+            ]
+        ],
+        "botao": {
+            "titulo": "Saiba Mais",
+            "link": "sobre.html"
+        }
+    }
+}

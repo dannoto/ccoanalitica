@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home - Talking Minds – Psychotherapist Site Template</title>
+    <link rel="shortcut icon" href="<?= base_url() ?>dist/modelos/quatro/assets/images/site_logo/favourite_icon.svg">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/cursor.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/odometer.min.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>dist/modelos/quatro/assets/css/style.min.css">
+</head>
+
+<body>
+    <div class="page_wrapper">
+        <div class="backtotop"><a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a></div>
+      <header class="site_header">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Logo -->
+            <div class="col-lg-3 col-5">
+                <div class="site_logo">
+                    <a class="site_link" href="<?= $d['header']['home_link'] ?>">
+                        <img src="<?= $d['header']['logo'] ?>" alt="<?= $d['header']['logo_alt'] ?>">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Menu Principal -->
+            <div class="col-lg-6 col-2">
+                <nav class="main_menu navbar navbar-expand-lg">
+                    <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
+                        <ul class="main_menu_list unordered_list">
+                            <?php foreach ($d['header']['menu'] as $menu_item): ?>
+                                <?php if (!empty($menu_item['submenu'])): ?>
+                                    <li class="dropdown">
+                                        <a class="nav-link" href="#" id="<?= $menu_item['id'] ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <?= $menu_item['titulo'] ?>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="<?= $menu_item['id'] ?>">
+                                            <?php foreach ($menu_item['submenu'] as $sub_item): ?>
+                                                <?php if (!empty($sub_item['submenu'])): ?>
+                                                    <li class="dropdown">
+                                                        <a class="nav-link" href="#" id="<?= $sub_item['id'] ?>" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <?= $sub_item['titulo'] ?>
+                                                        </a>
+                                                        <ul class="dropdown-menu" aria-labelledby="<?= $sub_item['id'] ?>">
+                                                            <?php foreach ($sub_item['submenu'] as $nested_item): ?>
+                                                                <li><a href="<?= $nested_item['link'] ?>"><?= $nested_item['titulo'] ?></a></li>
+                                                            <?php endforeach; ?>
+                                                        </ul>
+                                                    </li>
+                                                <?php else: ?>
+                                                    <li><a href="<?= $sub_item['link'] ?>"><?= $sub_item['titulo'] ?></a></li>
+                                                <?php endif; ?>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    </li>
+                                <?php else: ?>
+                                    <li class="<?= $menu_item['active'] ? 'active' : '' ?>"><a class="nav-link" href="<?= $menu_item['link'] ?>"><?= $menu_item['titulo'] ?></a></li>
+                                <?php endif; ?>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Botões do Header -->
+            <div class="col-lg-3 col-5">
+                <ul class="header_btns_group unordered_list justify-content-end">
+                    <li>
+                        <button class="mobile_menu_btn" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="far fa-bars"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <a class="btn_hotline" href="tel:<?= $d['header']['telefone'] ?>">
+                            <span class="btn_icon"><i class="fa-solid fa-phone"></i></span>
+                            <span class="btn_text"><?= $d['header']['telefone_formatado'] ?></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <main class="page_content">
+
+           <section class="hero_section decoration_wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hero_content_wrap">
+                    <h1 class="heading_text"><?= $d['hero']['titulo'] ?></h1>
+                    <p class="heading_description"><?= $d['hero']['descricao'] ?></p>
+
+                    <ul class="btns_group unordered_list">
+                        <?php foreach ($d['hero']['botoes'] as $btn): ?>
+                        <li>
+                            <a class="btn <?= $btn['classe'] ?>" href="<?= $btn['link'] ?>">
+                                <span class="btn_text" data-text="<?= $btn['titulo'] ?>"><?= $btn['titulo'] ?></span>
+                                <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
+                            </a>
+                        </li>
+                        <?php endforeach; ?>
+                    </ul>
+
+                    <ul class="hero_section_counter unordered_list">
+                        <?php foreach ($d['hero']['contadores'] as $contador): ?>
+                        <li>
+                            <div class="counter_item">
+                                <div class="counter_value mb-0">
+                                    <span class="odometer" data-count="<?= $contador['numero'] ?>">0</span>
+                                    <span><?= $contador['simbolo'] ?></span>
+                                </div>
+                                <hr>
+                                <p class="counter_description mb-0"><?= $contador['descricao'] ?></p>
+                            </div>
+                        </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero_image_wrap">
+                    <img src="<?= $d['hero']['imagem'] ?>" alt="<?= $d['hero']['imagem_alt'] ?>">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="decoration_item shape_blur_shadow"></div>
+    <div class="decoration_item shape_leaf">
+        <img src="<?= $d['hero']['decoracao'] ?>" alt="Decoração">
+    </div>
+</section>
+
+         <section class="service_section section_space_lg bg_primary_light">
+    <div class="container">
+        <div class="section_heading text-center">
+            <h2 class="section_heading_text"><?= $d['servicos']['titulo'] ?></h2>
+            <p class="section_heading_description mb-0"><?= $d['servicos']['descricao'] ?></p>
+        </div>
+        <div class="row justify-content-center">
+            <?php foreach ($d['servicos']['items'] as $item): ?>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="service_item">
+                    <div class="item_icon">
+                        <img src="<?= $item['imagem'] ?>" alt="<?= $item['titulo'] ?>">
+                    </div>
+                    <div class="item_contact">
+                        <h3 class="item_title"><?= $item['titulo'] ?></h3>
+                        <p><?= $item['descricao'] ?></p>
+                        <a class="btn-link" href="<?= $item['link'] ?>">
+                            <span class="btn_text">Mais Informações</span>
+                            <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+        <div class="btn_wrap pb-0 text-center">
+            <a class="btn btn-primary" href="<?= $d['servicos']['link_todos'] ?>">
+                <span class="btn_text" data-text="<?= $d['servicos']['botao_todos'] ?>"><?= $d['servicos']['botao_todos'] ?></span>
+                <span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+           <section class="about_section section_space_lg">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 order-lg-last">
+                <div class="image_widget">
+                    <img src="<?= $d['sobre']['imagem_principal'] ?>" alt="<?= $d['sobre']['titulo'] ?>">
+                    <div class="image_shape bg_primary_light"></div>
+                    <?php if (!empty($d['sobre']['video'])): ?>
+                    <div class="about_video_icon">
+                        <a class="video_play_btn popup_video" href="<?= $d['sobre']['video'] ?>">
+                            <i class="fa-duotone fa-play"></i>
+                        </a>
+                    </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about_content">
+                    <div class="section_heading mb-4">
+                        <h2 class="section_heading_text"><?= $d['sobre']['titulo'] ?></h2>
+                        <p class="section_heading_description mb-0"><?= $d['sobre']['descricao'] ?></p>
+                    </div>
+                    <div class="row">
+                        <?php foreach ($d['sobre']['listas'] as $lista): ?>
+                        <div class="col-md-5 col-sm-6">
+                            <ul class="info_list unordered_list_block">
+                                <?php foreach ($lista as $item): ?>
+                                <li>
+                                    <span class="info_icon"><i class="fa-light fa-circle-check"></i></span>
+                                    <span class="info_text"><?= $item ?></span>
+                                </li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                        <?php endfore
+
+
+            <section class="pricing_section section_space_lg bg_primary_light decoration_wrapper">
+                <div class="container">
+                    <div class="section_heading text-center">
+                        <h2 class="section_heading_text">Pricing Plans</h2>
+                        <p class="section_heading_description mb-0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry</p>
+                    </div>
+                    <div class="pricing_toggle_btn_wrap"><button class="pricing_toggle_btn"
+                            type="button"><span>Monthly</span> <span>Annually <mark>Save 20%</mark></span></button>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="pricing_item">
+                                <h3 class="pricing_heading">Light Session</h3>
+                                <div class="pricing_price_value"><span class="pricing_monthly">$150 <sub>Per
+                                            Month</sub></span> <span class="pricing_annually">$1,440 <sub>You'll Save
+                                            $360</sub></span></div>
+                                <hr>
+                                <ul class="info_list unordered_list_block">
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">6 Session Therapy</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Duration 30 Minutes</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Group Meetting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Personal Meeting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Support 24 Hours</span></li>
+                                </ul>
+                                <div class="btn_wrap pb-0 text-center"><a class="btn btn-outline-primary"
+                                        href="#!"><span class="btn_text" data-text="Buy Now">Buy Now </span><span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="pricing_item">
+                                <h3 class="badge_popular">Most Popular</h3>
+                                <h4 class="pricing_heading">Standart Session</h4>
+                                <div class="pricing_price_value"><span class="pricing_monthly">$250 <sub>Per
+                                            Month</sub></span> <span class="pricing_annually">$2,400 <sub>You'll Save
+                                            $600</sub></span></div>
+                                <hr>
+                                <ul class="info_list unordered_list_block">
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">10 Session Therapy</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Duration 30 Minutes</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Group Meetting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Personal Meeting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Support 24 Hours</span></li>
+                                </ul>
+                                <div class="btn_wrap pb-0 text-center"><a class="btn btn-primary" href="#!"><span
+                                            class="btn_text" data-text="Buy Now">Buy Now </span><span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="pricing_item">
+                                <h3 class="pricing_heading">Individual Session</h3>
+                                <div class="pricing_price_value"><span class="pricing_monthly">$400 <sub>Per
+                                            Month</sub></span> <span class="pricing_annually">$3,840 <sub>You'll Save
+                                            $960</sub></span></div>
+                                <hr>
+                                <ul class="info_list unordered_list_block">
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">1 Year Therapy</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Duration 30 Minutes</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Group Meetting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Personal Meeting</span></li>
+                                    <li><span class="info_icon"><i class="fa-light fa-circle-check"></i> </span><span
+                                            class="info_text">Support 24 Hours</span></li>
+                                </ul>
+                                <div class="btn_wrap pb-0 text-center"><a class="btn btn-outline-primary"
+                                        href="#!"><span class="btn_text" data-text="Buy Now">Buy Now </span><span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="decoration_item shape_leaf_1"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/shapes/shape_leaf_right_top.svg"
+                        alt="Shape Leaf - Talking Minds - Psychotherapist Site Template"></div>
+                <div class="decoration_item shape_leaf_2"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/shapes/shape_leaf_left_bottom.svg"
+                        alt="Shape Leaf - Talking Minds - Psychotherapist Site Template"></div>
+            </section>
+            <section class="testimonial_section section_space_lg">
+                <div class="container">
+                    <div class="section_heading text-center">
+                        <h2 class="section_heading_text">What Patients Say</h2>
+                        <p class="section_heading_description mb-0">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry</p>
+                    </div>
+                    <div class="testimonial_carousel">
+                        <div class="carousel_2col row" data-slick='{"arrows":false}'>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Kerry Banks</h3><span
+                                                class="author_box_designation">Housewife</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        text industry. Lorem Ipsum has been the industry's standard dumm ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to make a
+                                        type specimen book.</p>
+                                </div>
+                            </div>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Damian York</h3><span
+                                                class="author_box_designation">Entrepreneur</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type text of the printing and
+                                        typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Kerry Banks</h3><span
+                                                class="author_box_designation">Housewife</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        text industry. Lorem Ipsum has been the industry's standard dumm ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to make a
+                                        type specimen book.</p>
+                                </div>
+                            </div>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Damian York</h3><span
+                                                class="author_box_designation">Entrepreneur</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type text of the printing and
+                                        typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Kerry Banks</h3><span
+                                                class="author_box_designation">Housewife</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        text industry. Lorem Ipsum has been the industry's standard dumm ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to make a
+                                        type specimen book.</p>
+                                </div>
+                            </div>
+                            <div class="carousel_item col-">
+                                <div class="testimonial_item">
+                                    <ul class="rating_star unordered_list">
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    </ul>
+                                    <div class="author_box">
+                                        <div class="author_box_image"><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/meta/author_image_1.png"
+                                                alt="Reviewer Image - Talking Minds - Psychotherapist Site Template">
+                                        </div>
+                                        <div class="author_box_content">
+                                            <h3 class="author_box_name">Damian York</h3><span
+                                                class="author_box_designation">Entrepreneur</span>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type text of the printing and
+                                        typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="consultation_section">
+                <div class="container">
+                    <div class="consultation_form bg_primary_light decoration_wrapper">
+                        <div class="section_heading text-center">
+                            <h2 class="section_heading_text mb-0"><span class="d-md-block">Get your first free</span>
+                                online consultation</h2>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"><label for="input_name">Name</label> <input
+                                                id="input_name" class="form-control" type="text" name="name"
+                                                placeholder="Your Name"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"><label for="input_phone">Phone</label> <input
+                                                id="input_phone" class="form-control" type="tel" name="phone"
+                                                placeholder="Mobile phone number"></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"><label for="select_therapy">Section</label> <select
+                                                id="select_therapy" class="form-select"
+                                                aria-label="Therapy Select Options">
+                                                <option selected="selected">Select Therapy</option>
+                                                <option value="Therapy One">Therapy One</option>
+                                                <option value="Therapy Two">Therapy Two</option>
+                                                <option value="Therapy Three">Therapy Three</option>
+                                            </select></div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"><label for="input_calendar">Phone</label> <input
+                                                id="input_calendar" class="form-control" type="date" name="date"></div>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap pb-0 text-center"><button type="submit"
+                                        class="btn btn-primary"><span class="btn_text"
+                                            data-text="Get A Consultation">Get A Consultation </span><span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="decoration_item shape_leaf_1"><img
+                                src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/shapes/shape_leaf_right_top.svg"
+                                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template"></div>
+                        <div class="decoration_item shape_leaf_2"><img
+                                src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/shapes/shape_leaf_left_bottom.svg"
+                                alt="Shape Leaf - Talking Minds - Psychotherapist Site Template"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog_section section_space_lg">
+                <div class="container">
+                    <div class="section_heading">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h2 class="section_heading_text mb-0">Latest Articles</h2>
+                            </div>
+                            <div class="col-md-6 d-none d-md-flex justify-content-end"><a class="btn btn-primary"
+                                    href="blog.html"><span class="btn_text" data-text="Read More Articles">Read More
+                                        Articles </span><span class="btn_icon"><i
+                                            class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="blog_item">
+                                <div class="blog_image"><a class="blog_image_wrap" href="blog_details.html"><img
+                                            src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/blogs/blog_image_1-min.jpg"
+                                            alt="Talking Minds - The pros and cons of group psychotherapy"></a></div>
+                                <div class="blog_content">
+                                    <ul class="post_category unordered_list">
+                                        <li><a href="#!">Family Problem</a></li>
+                                    </ul>
+                                    <ul class="post_meta unordered_list">
+                                        <li>26 July 2023</li>
+                                        <li><a href="#!">120 Views</a></li>
+                                        <li><a href="#!">No Comments</a></li>
+                                    </ul>
+                                    <h3 class="item_title"><a href="blog_details.html">The pros and cons of group
+                                            psychotherapy</a></h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt
+                                        in similique culpa qui officia deserunt.</p><a class="btn-link"
+                                        href="blog_details.html"><span class="btn_text">Read More</span> <span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="blog_item">
+                                <div class="blog_image"><a class="blog_image_wrap" href="blog_details.html"><img
+                                            src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/blogs/blog_image_2-min.jpg"
+                                            alt="Talking Minds - Top seven challenges in counselling children"></a>
+                                </div>
+                                <div class="blog_content">
+                                    <ul class="post_category unordered_list">
+                                        <li><a href="#!">Family Problem</a></li>
+                                    </ul>
+                                    <ul class="post_meta unordered_list">
+                                        <li>26 July 2023</li>
+                                        <li><a href="#!">120 Views</a></li>
+                                        <li><a href="#!">No Comments</a></li>
+                                    </ul>
+                                    <h3 class="item_title"><a href="blog_details.html">Top seven challenges in
+                                            counselling children</a></h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt
+                                        in similique culpa qui officia deserunt.</p><a class="btn-link"
+                                        href="blog_details.html"><span class="btn_text">Read More</span> <span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="blog_item">
+                                <div class="blog_image"><a class="blog_image_wrap" href="blog_details.html"><img
+                                            src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/blogs/blog_image_3-min.jpg"
+                                            alt="Talking Minds - Actions, types and tips for finding group therapy"></a>
+                                </div>
+                                <div class="blog_content">
+                                    <ul class="post_category unordered_list">
+                                        <li><a href="#!">Family Problem</a></li>
+                                    </ul>
+                                    <ul class="post_meta unordered_list">
+                                        <li>26 July 2023</li>
+                                        <li><a href="#!">120 Views</a></li>
+                                        <li><a href="#!">No Comments</a></li>
+                                    </ul>
+                                    <h3 class="item_title"><a href="blog_details.html">Actions, types and tips for
+                                            finding group therapy</a></h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Sunt
+                                        in similique culpa qui officia deserunt.</p><a class="btn-link"
+                                        href="blog_details.html"><span class="btn_text">Read More</span> <span
+                                            class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn_wrap pb-0 text-center d-md-none d-block"><a class="btn btn-primary"
+                            href="blog.html"><span class="btn_text" data-text="Read More Articles">Read More Articles
+                            </span><span class="btn_icon"><i class="fa-solid fa-arrow-up-right"></i></span></a></div>
+                </div>
+            </section>
+            <section class="faq_section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="images_group_widget">
+                                <ul class="unordered_list">
+                                    <li><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/about/about_image_2-min.png"
+                                            alt="Talking Minds - Psychotherapist Site Template"> <img
+                                            src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/about/about_image_4-min.png"
+                                            alt="Talking Minds - Psychotherapist Site Template"></li>
+                                    <li><img src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/about/about_image_3-min.png"
+                                            alt="Talking Minds - Psychotherapist Site Template"> <img
+                                            src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/about/about_image_5-min.png"
+                                            alt="Talking Minds - Psychotherapist Site Template"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="ps-lg-5">
+                                <div class="section_heading mb-lg-4 mb-2">
+                                    <h2 class="section_heading_text mb-0">The most popular questions to discuss mental
+                                        health</h2>
+                                </div>
+                                <div class="accordion" id="faq_accordion">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading_one"><button class="accordion-button"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_one"
+                                                aria-expanded="true" aria-controls="collapse_one">What is mental
+                                                health?</button></div>
+                                        <div id="collapse_one" class="accordion-collapse collapse show"
+                                            aria-labelledby="heading_one" data-bs-parent="#faq_accordion">
+                                            <div class="accordion-body">
+                                                <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever since the 1500s, when an unknown printer took a
+                                                    galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading_two"><button
+                                                class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_two"
+                                                aria-expanded="false" aria-controls="collapse_two">What do I do if the
+                                                support doesn't help?</button></div>
+                                        <div id="collapse_two" class="accordion-collapse collapse"
+                                            aria-labelledby="heading_two" data-bs-parent="#faq_accordion">
+                                            <div class="accordion-body">
+                                                <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever since the 1500s, when an unknown printer took a
+                                                    galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading_three"><button
+                                                class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_three"
+                                                aria-expanded="false" aria-controls="collapse_three">Can you prevent
+                                                mental health problems?</button></div>
+                                        <div id="collapse_three" class="accordion-collapse collapse"
+                                            aria-labelledby="heading_three" data-bs-parent="#faq_accordion">
+                                            <div class="accordion-body">
+                                                <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever since the 1500s, when an unknown printer took a
+                                                    galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading_four"><button
+                                                class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_four"
+                                                aria-expanded="false" aria-controls="collapse_four">What are the 7
+                                                components of mental health?</button></div>
+                                        <div id="collapse_four" class="accordion-collapse collapse"
+                                            aria-labelledby="heading_four" data-bs-parent="#faq_accordion">
+                                            <div class="accordion-body">
+                                                <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever since the 1500s, when an unknown printer took a
+                                                    galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="heading_five"><button
+                                                class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapse_five"
+                                                aria-expanded="false" aria-controls="collapse_five">Are there cures for
+                                                mental health problems?</button></div>
+                                        <div id="collapse_five" class="accordion-collapse collapse"
+                                            aria-labelledby="heading_five" data-bs-parent="#faq_accordion">
+                                            <div class="accordion-body">
+                                                <p class="m-0">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever since the 1500s, when an unknown printer took a
+                                                    galley of type and scrambled it to make a type specimen book.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact_section section_space_lg">
+                <div class="container">
+                    <div class="row align-items-center justify-content-lg-between">
+                        <div class="col-lg-5">
+                            <div class="section_heading mb-lg-5">
+                                <h2 class="section_heading_text">Contact Info</h2>
+                                <p class="section_heading_description mb-0">If you are going to use a passage of Lorem
+                                    Ipsum, you need to be sure there isn't anything embarrassing</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <ul class="contact_info_list unordered_list_block">
+                                        <li>
+                                            <div class="item_icon"><i class="fa-solid fa-phone"></i></div>
+                                            <div class="item_content">
+                                                <h3 class="item_title">Phone Number</h3>
+                                                <p class="item_info mb-0">+1 234 56 78 123</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item_icon"><i class="fa-solid fa-fax"></i></div>
+                                            <div class="item_content">
+                                                <h3 class="item_title">Fax</h3>
+                                                <p class="item_info mb-0">+1 234 56 78 123</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <ul class="contact_info_list unordered_list_block">
+                                        <li>
+                                            <div class="item_icon"><i class="fa-solid fa-envelope"></i></div>
+                                            <div class="item_content">
+                                                <h3 class="item_title">Email</h3>
+                                                <p class="item_info mb-0">info@talkingminds.com</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item_icon"><i class="fa-solid fa-location-dot"></i></div>
+                                            <div class="item_content">
+                                                <h3 class="item_title">Location</h3>
+                                                <p class="item_info mb-0">49, Caradon Hill, ULBSTER</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="office_hour_list bg_primary_light mt-5">
+                                <h3 class="area_title">Working Time</h3>
+                                <ul class="unordered_list_block">
+                                    <li><span>Monday - Friday:</span> <span>8 am - 5 pm</span></li>
+                                    <li><span>Saturday - Sunday</span> <span>9 am - 2 pm</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="gmap_canvas"><iframe
+                                    src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site_footer bg_primary">
+            <div class="container">
+                <div class="site_footer_content">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="site_logo"><a class="site_link" href="index_1.html"><img
+                                        src="asse<?= base_url() ?>dist/modelos/quatro/ts/images/site_logo/site_logo_white.svg"
+                                        alt="Site Logo – Talking Minds – Psychotherapist Site Template"></a></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="info_list unordered_list justify-content-center">
+                                <li><a href="index_1.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">Home</span></a></li>
+                                <li><a href="about.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">About</span></a></li>
+                                <li><a href="service.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">Program</span></a></li>
+                                <li><a href="blog.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">Blog</span></a></li>
+                                <li><a href="gallery.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">Gallery</span></a></li>
+                                <li><a href="contact.html"><span class="info_icon"><i class="fa-solid fa-circle"></i>
+                                        </span><span class="info_text">Contacts</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <ul class="social_links unordered_list justify-content-center justify-content-lg-end">
+                                <li><a href="#!"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#!"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright_widget text-center">
+                    <p class="copyright_text m-0">Merkulove © <b>TalkingMinds</b> Template All rights reserved
+                        Copyrights 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/jquery.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/popper.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/cursor.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/slick.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/magnific-popup.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/appear.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/odometer.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/quatro/assets/js/main.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8CZB4YJTLB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8CZB4YJTLB');
+    </script>
+</body>
+
+</html>
