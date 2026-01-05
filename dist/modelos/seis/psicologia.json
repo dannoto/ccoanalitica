@@ -265,12 +265,12 @@
                 "titulo": "Contato",
                 "link": "contact.html"
             }
-        ]
-    },
-    "acoes": {
-        "botao": {
-            "titulo": "Agendar Consulta",
-            "link": "https://wa.me/5562982045122"
+        ],
+        "acoes": {
+            "botao": {
+                "titulo": "Agendar Consulta",
+                "link": "https://wa.me/5562982045122"
+            }
         }
     },
     "search": {
