@@ -43,7 +43,7 @@
         }
     },
     "hero": {
-        "background": "dist/modelos/quatro/assets/img/hero_bg_3.png",
+        "background": "dist/modelos/quatro/assets/img/hero_img_3.png",
         "imagem": "dist/imagens/hero/odontologia/hero-1.jpg",
         "top": "Tecnologia e Cuidado",
         "title": "Seu Sorriso Merece o Melhor Tratamento",
