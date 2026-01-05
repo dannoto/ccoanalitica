@@ -1,0 +1,150 @@
+{
+  "seo": {
+    "title": "Almeida & Torres Advogados — Especialistas em Direito",
+    "description": "Escritório de advocacia especializado em Direito Civil, Trabalhista e Empresarial.",
+    "keywords": "advocacia, advogado, direito civil, trabalhista, empresarial",
+    "author": "CCO ANALITICA",
+    "favicon": "dist/modelos/quatro/assets/img/favicon.png"
+  },
+  "schema": {
+    "background": "#0E1A2B",
+    "color": "#1c2539",
+    "primary-color": "#1F3C88",
+    "secondary-color": "#C9A24D",
+    "accent-color": "#C9A24D"
+  },
+  "header": {
+    "logo": "",
+    "navbar": [
+      { "texto": "Início", "link": "#inicio" },
+      { "texto": "Sobre", "link": "#sobre" },
+      { "texto": "Áreas de Atuação", "link": "#servicos" },
+      { "texto": "Equipe", "link": "#equipe" },
+      { "texto": "Contato", "link": "#contato" }
+    ],
+    "botao": {
+      "texto": "Agendar Consulta",
+      "link": "#contato"
+    }
+  },
+  "hero": {
+    "background": "dist/modelos/quatro/assets/img/hero_bg_3.png",
+    "imagem": "dist/imagens/hero/advocacia/hero-1.jpg",
+    "top": "Compromisso e Ética",
+    "title": "Defesa Jurídica de Excelência para Você",
+    "description": "Atuamos com estratégia e dedicação para garantir os seus direitos nas mais diversas áreas do direito.",
+    "botao": {
+      "texto": "Fale com um Especialista",
+      "link": "#contato"
+    }
+  },
+  "video": {
+    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+    "imagem": "dist/imagens/video/advocacia/video-1.jpeg"
+  },
+  "contadores": [
+    { "numero": 15, "texto": "Anos de Experiência" },
+    { "numero": 2500, "texto": "Casos Vencidos" },
+    { "numero": 4000, "texto": "Clientes Atendidos" },
+    { "numero": 12, "texto": "Advogados Parceiros" }
+  ],
+  "features": {
+    "items": [
+      { "titulo": "Direito Civil", "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_1.svg" },
+      { "titulo": "Direito Trabalhista", "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_2.svg" },
+      { "titulo": "Direito Empresarial", "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_3.svg" },
+      { "titulo": "Consultoria", "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_4.svg" }
+    ]
+  },
+  "sobre": {
+    "subtitulo": "Sobre Nós",
+    "titulo": "Advocacia com Transparência e Resultado",
+    "description": "Nosso escritório preza pelo atendimento humanizado e pela busca incessante da justiça para nossos clientes.",
+    "imagens": [
+      "dist/imagens/sobre/advocacia/sobre-1.jpg",
+      "dist/imagens/sobre/advocacia/sobre-2.jpg"
+    ],
+    "solucoes": [
+      "Atendimento Personalizado",
+      "Sigilo Absoluto",
+      "Especialistas Qualificados",
+      "Tecnologia Jurídica"
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Nossas Áreas",
+    "titulo": "Atuação Jurídica Completa",
+    "descricao": "Oferecemos suporte jurídico em diversas frentes para garantir a proteção integral dos seus direitos.",
+    "items": [
+      {
+        "titulo": "Direito de Família",
+        "descricao": "Divórcios, pensão, guarda e inventários.",
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg"
+      },
+      {
+        "titulo": "Direito Trabalhista",
+        "descricao": "Reclamações trabalhistas, defesa de empresas e compliance.",
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-trabalhista-1.jpg"
+      },
+      {
+        "titulo": "Direito Criminal",
+        "descricao": "Defesa em inquéritos e processos criminais.",
+        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-empresarial-1.jpg"
+      }
+    ]
+  },
+  "porque": {
+    "subtitulo": "Processo de Trabalho",
+    "titulo": "Como Atuamos no Seu Caso",
+    "items": [
+      { "titulo": "Análise do Caso", "descricao": "Estudamos detalhadamente sua situação para definir a melhor estratégia." },
+      { "titulo": "Planejamento", "descricao": "Definimos os passos jurídicos e administrativos necessários." },
+      { "titulo": "Ação e Acompanhamento", "descricao": "Executamos as ações e mantemos você informado de cada etapa." }
+    ]
+  },
+  "contato": {
+    "subtitulo": "Fale Conosco",
+    "titulo": "Agende sua Consulta",
+    "descricao": "Entre em contato para uma avaliação preliminar do seu caso.",
+    "endereco": "Av. Paulista, 1000 - São Paulo, SP",
+    "telefone": "(11) 99999-9999",
+    "email": "contato@almeidatorres.adv.br",
+    "social": {
+      "facebook-f": "#",
+      "x-twitter": "#",
+      "instagram": "#",
+      "linkedin-in": "#"
+    }
+  },
+  "faq": {
+    "subtitulo": "Dúvidas",
+    "titulo": "Perguntas Frequentes",
+    "items": [
+      { "pergunta": "Qual o valor da consulta?", "resposta": "O valor varia conforme a complexidade e a área de atuação. Entre em contato para saber mais." },
+      { "pergunta": "Vocês atendem online?", "resposta": "Sim, realizamos atendimentos por videoconferência para todo o Brasil." },
+      { "pergunta": "Quanto tempo demora um processo?", "resposta": "Cada caso é único e depende do sistema judiciário, mas trabalhamos para dar celeridade." }
+    ]
+  },
+  "depoimentos": {
+    "subtitulo": "Depoimentos",
+    "titulo": "O que Nossos Clientes Dizem",
+    "imagem_destaque": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
+    "items": [
+      { "nome": "Carlos Mendes", "texto": "Profissionais excelentes, resolveram meu problema com rapidez e competência.", "funcao": "Empresário" },
+      { "nome": "Mariana Silva", "texto": "Muito atenciosos, me explicaram tudo e me senti segura durante todo o processo.", "funcao": "Cliente Civil" }
+    ]
+  },
+  "equipe": {
+    "subtitulo": "Nossos Advogados",
+    "titulo": "Especialistas ao Seu Dispor",
+    "items": [
+      { "texto": "Dr. Marcelo Almeida", "descripcao": "Direito Civil", "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp" },
+      { "texto": "Dra. Renata Torres", "descripcao": "Direito Trabalhista", "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp" },
+      { "texto": "Dr. Felipe Costa", "descripcao": "Direito Criminal", "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp" }
+    ]
+  },
+  "footer": {
+    "description": "Escritório de advocacia comprometido com a ética e a justiça.",
+    "copyright": "© 2026 Almeida & Torres Advogados. Todos os direitos reservados."
+  }
+}

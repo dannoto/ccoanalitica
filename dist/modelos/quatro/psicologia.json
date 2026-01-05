@@ -1,0 +1,225 @@
+{
+    "seo": {
+        "title": "Mente Serena — Psicologia e Bem-Estar",
+        "description": "Clínica de psicologia focada em terapia cognitivo-comportamental, psicanálise e desenvolvimento humano.",
+        "keywords": "psicologia, terapia, psicologo, ansiedade, depressao",
+        "author": "CCO ANALITICA",
+        "favicon": "dist/modelos/quatro/assets/img/favicon.png"
+    },
+    "schema": {
+        "background": "#fdfbf7",
+        "color": "#4a4a4a",
+        "primary-color": "#a81874",
+        "secondary-color": "#e0a8c5",
+        "accent-color": "#a81874"
+    },
+    "header": {
+        "logo": "",
+        "navbar": [
+            {
+                "texto": "Início",
+                "link": "#inicio"
+            },
+            {
+                "texto": "Abordagem",
+                "link": "#sobre"
+            },
+            {
+                "texto": "Terapias",
+                "link": "#servicos"
+            },
+            {
+                "texto": "Profissionais",
+                "link": "#equipe"
+            },
+            {
+                "texto": "Contato",
+                "link": "#contato"
+            }
+        ],
+        "botao": {
+            "texto": "Agendar Sessão",
+            "link": "#contato"
+        }
+    },
+    "hero": {
+        "background": "dist/modelos/quatro/assets/img/hero_bg_3.png",
+        "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
+        "top": "Saúde Mental Importa",
+        "title": "Reencontre seu Equilíbrio e Bem-Estar",
+        "description": "Um espaço seguro e acolhedor para você explorar seus sentimentos e construir uma vida mais plena.",
+        "botao": {
+            "texto": "Começar Terapia",
+            "link": "#contato"
+        }
+    },
+    "video": {
+        "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
+        "imagem": "dist/imagens/video/psicologia/video-1.jpeg"
+    },
+    "contadores": [
+        {
+            "numero": 8,
+            "texto": "Anos de Escuta"
+        },
+        {
+            "numero": 3000,
+            "texto": "Vidas Impactadas"
+        },
+        {
+            "numero": 15000,
+            "texto": "Sessões Realizadas"
+        },
+        {
+            "numero": 5,
+            "texto": "Psicólogos"
+        }
+    ],
+    "features": {
+        "items": [
+            {
+                "titulo": "Terapia Individual",
+                "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_1.svg"
+            },
+            {
+                "titulo": "Terapia de Casal",
+                "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_2.svg"
+            },
+            {
+                "titulo": "Infantil",
+                "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_3.svg"
+            },
+            {
+                "titulo": "Online",
+                "icone": "dist/modelos/quatro/assets/img/icons/feature_icon_4.svg"
+            }
+        ]
+    },
+    "sobre": {
+        "subtitulo": "Nossa Abordagem",
+        "titulo": "Acolhimento e Profissionalismo",
+        "description": "Acreditamos que cada pessoa é única, e por isso oferecemos um tratamento personalizado e empático.",
+        "imagens": [
+            "dist/imagens/sobre/psicologia/sobre-1.jpg",
+            "dist/imagens/sobre/psicologia/sobre-2.jpg"
+        ],
+        "solucoes": [
+            "Sigilo Garantido",
+            "Ambiente Acolhedor",
+            "Profissionais Especializados",
+            "Atendimento Online"
+        ]
+    },
+    "servicos": {
+        "subtitulo": "Especialidades",
+        "titulo": "Como Podemos Ajudar",
+        "descricao": "Tratamentos focados em ansiedade, depressão, autoconhecimento e relacionamentos.",
+        "items": [
+            {
+                "titulo": "Ansiedade e Estresse",
+                "descricao": "Aprenda a lidar com a ansiedade e recupere sua tranquilidade.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-1.jpg"
+            },
+            {
+                "titulo": "Depressão",
+                "descricao": "Apoio profissional para superar momentos difíceis e reencontrar a alegria.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-2.jpg"
+            },
+            {
+                "titulo": "Autoconhecimento",
+                "descricao": "Entenda seus padrões e desenvolva seu potencial máximo.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-terapia-3.jpg"
+            }
+        ]
+    },
+    "porque": {
+        "subtitulo": "Metodologia",
+        "titulo": "Jornada de Transformação",
+        "items": [
+            {
+                "titulo": "Avaliação Inicial",
+                "descricao": "Entendemos suas necessidades e objetivos."
+            },
+            {
+                "titulo": "Plano Terapêutico",
+                "descricao": "Definimos a melhor abordagem para você."
+            },
+            {
+                "titulo": "Evolução Contínua",
+                "descricao": "Acompanhamos seu progresso a cada sessão."
+            }
+        ]
+    },
+    "contato": {
+        "subtitulo": "Vamos Conversar?",
+        "titulo": "Agende sua Sessão",
+        "descricao": "Dê o primeiro passo para uma vida mais leve e equilibrada.",
+        "endereco": "Centro Clínico Vida, Sala 302",
+        "telefone": "(11) 97777-7777",
+        "email": "contato@menteserena.com",
+        "social": {
+            "instagram": "#",
+            "whatsapp": "#"
+        }
+    },
+    "faq": {
+        "subtitulo": "Dúvidas",
+        "titulo": "Perguntas Comuns",
+        "items": [
+            {
+                "pergunta": "Como funciona a terapia online?",
+                "resposta": "É realizada por videochamada, com a mesma eficácia e sigilo da presencial."
+            },
+            {
+                "pergunta": "Qual a duração da sessão?",
+                "resposta": "As sessões duram em média 50 minutos."
+            },
+            {
+                "pergunta": "Aceita plano de saúde?",
+                "resposta": "Trabalhamos com sistema de reembolso."
+            }
+        ]
+    },
+    "depoimentos": {
+        "subtitulo": "Relatos",
+        "titulo": "Experiências Reais",
+        "imagem_destaque": "dist/imagens/depoimentos/psicologia/depoimento-mulher-2.webp",
+        "items": [
+            {
+                "nome": "Juliana Costa",
+                "texto": "A terapia mudou minha vida. Me sinto muito mais segura e confiante.",
+                "funcao": "Designer"
+            },
+            {
+                "nome": "Pedro Alves",
+                "texto": "Profissional excelente, me ajudou a superar uma fase muito difícil.",
+                "funcao": "Advogado"
+            }
+        ]
+    },
+    "equipe": {
+        "subtitulo": "Profissionais",
+        "titulo": "Nossa Equipe",
+        "items": [
+            {
+                "texto": "Dra. Sofia",
+                "descripcao": "Psicóloga Clínica",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-1.webp"
+            },
+            {
+                "texto": "Dr. Lucas",
+                "descripcao": "Psicanalista",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-homem-1.webp"
+            },
+            {
+                "texto": "Dra. Beatriz",
+                "descripcao": "Neuropsicóloga",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-mulher-2.webp"
+            }
+        ]
+    },
+    "footer": {
+        "description": "Seu bem-estar emocional é a nossa prioridade.",
+        "copyright": "© 2026 Mente Serena. Todos os direitos reservados."
+    }
+}
