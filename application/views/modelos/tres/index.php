@@ -1242,7 +1242,7 @@
 
                     </span>
 
-                    <a href="mailto:needhelp@mediox.com">needhelp@mediox.com</a>
+                    <a href="mailto:<?=$d['contato']['items'][1]['texto']?>"><?=$d['contato']['items'][1]['texto']?></a>
 
                 </li>
 
@@ -1254,7 +1254,7 @@
 
                     </span>
 
-                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                    <a href="<?=$d['contato']['items'][2]['link']?>"><?=$d['contato']['items'][2]['texto']?></a>
 
                 </li>
 
@@ -1394,7 +1394,7 @@
 
                         </span>
 
-                        <a href="tel:+9156980036420">+9156980036420</a>
+                        <a href="tel:+<?=$d['contato']['items'][2]['link']?>">+<?=$d['contato']['items'][2]['link']?></a>
 
                     </li>
 
