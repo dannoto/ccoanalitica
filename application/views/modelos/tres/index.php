@@ -564,201 +564,99 @@
 
 
 
-      <section class="why-choose-two section-space-top-two">
-
-    <div class="container">
-
-        <!-- Título da seção -->
-        <div class="sec-title sec-title--center wow fadeInUp" data-wow-duration="1500ms">
-            <div class="sec-title__top">
-                <img src="<?= $d['porque_escolher']['icone'] ?>" alt="porque escolher" class="sec-title__img">
-                <h6 class="sec-title__tagline"><?= $d['porque_escolher']['subtitulo'] ?></h6>
-            </div>
-            <h3 class="sec-title__title">
-                <?= $d['porque_escolher']['titulo'] ?>
-            </h3>
-        </div>
-
-        <div class="why-choose-two__inner">
-
-            <!-- Abas -->
-            <div class="why-choose-two__tab-box tabs-box">
-
-                <ul class="tab-buttons">
-                    <?php foreach ($d['porque_escolher']['abas'] as $index => $aba): ?>
-                        <li 
-                            data-tab="#aba<?= $index ?>" 
-                            class="tab-btn <?= $index === 0 ? 'active-btn' : '' ?>">
-                            <?= $aba['label'] ?>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-
-                <div class="tabs-content">
-                    <?php foreach ($d['porque_escolher']['abas'] as $index => $aba): ?>
-                        <div 
-                            class="tab <?= $index === 0 ? 'active-tab' : '' ?> fadeInUp animated"
-                            id="aba<?= $index ?>"
-                            style="display: <?= $index === 0 ? 'block' : 'none' ?>;">
-
-                            <div class="row gutter-y-40">
-
-                                <!-- Imagens -->
-                                <div class="why-choose-two__tab-col-1">
-                                    <div class="why-choose-two__image">
-                                        <div class="why-choose-two__image__one">
-                                            <img src="<?= $aba['imagens'][0] ?>" alt="imagem principal">
-                                        </div>
-                                        <div class="why-choose-two__image__two">
-                                            <img src="<?= $aba['imagens'][1] ?>" alt="imagem secundaria">
-                                            <img src="<?= $aba['imagens'][2] ?>" alt="imagem secundaria">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Conteúdo -->
-                                <div class="why-choose-two__tab-col-2">
-                                    <div class="why-choose-two__content">
-                                        <h3 class="why-choose-two__title"><?= $aba['titulo'] ?></h3>
-                                        <p class="why-choose-two__text"><?= $aba['descricao'] ?></p>
-
-                                        <ul class="why-choose-two__list list-unstyled">
-                                            <?php foreach ($aba['lista'] as $item): ?>
-                                                <li>
-                                                    <span class="why-choose-two__list__icon">
-                                                        <i class="icon-check"></i>
-                                                    </span>
-                                                    <?= $item ?>
-                                                </li>
-                                            <?php endforeach; ?>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Carrossel de Clientes -->
-<div class="client-carousel">
-    <div class="container">
-        <div class="client-carousel__one owl-carousel owl-theme">
-            <?php foreach ($d['clientes']['logos'] as $logo): ?>
-                <div class="client-carousel__one__item">
-                    <img src="<?= $logo ?>" alt="cliente" class="client-carousel__one__image">
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</div>
-
-
-
-        <section class="skills-one skills-one--home2 section-space">
-
-            <div class="skills-one__bg" style="background-image: url(assets/images/shapes/skills-bg-2-1.png);"></div><!-- /.skills-one__bg -->
+        <section class="why-choose-two section-space-top-two">
 
             <div class="container">
 
-                <div class="row gutter-y-50 align-items-center">
+                <!-- Título da seção -->
+                <div class="sec-title sec-title--center wow fadeInUp" data-wow-duration="1500ms">
+                    <div class="sec-title__top">
+                        <img src="<?= $d['porque_escolher']['icone'] ?>" alt="porque escolher" class="sec-title__img">
+                        <h6 class="sec-title__tagline"><?= $d['porque_escolher']['subtitulo'] ?></h6>
+                    </div>
+                    <h3 class="sec-title__title">
+                        <?= $d['porque_escolher']['titulo'] ?>
+                    </h3>
+                </div>
 
-                    <div class="col-lg-6">
+                <div class="why-choose-two__inner">
 
-                        <div class="skills-one__content">
+                    <!-- Abas -->
+                    <div class="why-choose-two__tab-box tabs-box">
 
-                            <div class="sec-title @@extraClassName wow fadeInUp" data-wow-duration="1500ms">
+                        <ul class="tab-buttons">
+                            <?php foreach ($d['porque_escolher']['abas'] as $index => $aba): ?>
+                                <li
+                                    data-tab="#aba<?= $index ?>"
+                                    class="tab-btn <?= $index === 0 ? 'active-btn' : '' ?>">
+                                    <?= $aba['label'] ?>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
 
-                                <div class="sec-title__top">
+                        <div class="tabs-content">
+                            <?php foreach ($d['porque_escolher']['abas'] as $index => $aba): ?>
+                                <div
+                                    class="tab <?= $index === 0 ? 'active-tab' : '' ?> fadeInUp animated"
+                                    id="aba<?= $index ?>"
+                                    style="display: <?= $index === 0 ? 'block' : 'none' ?>;">
 
+                                    <div class="row gutter-y-40">
 
+                                        <!-- Imagens -->
+                                        <div class="why-choose-two__tab-col-1">
+                                            <div class="why-choose-two__image">
+                                                <div class="why-choose-two__image__one">
+                                                    <img src="<?= $aba['imagens'][0] ?>" alt="imagem principal">
+                                                </div>
+                                                <div class="why-choose-two__image__two">
+                                                    <img src="<?= $aba['imagens'][1] ?>" alt="imagem secundaria">
+                                                    <img src="<?= $aba['imagens'][2] ?>" alt="imagem secundaria">
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="we are skillful health care" class="sec-title__img">
+                                        <!-- Conteúdo -->
+                                        <div class="why-choose-two__tab-col-2">
+                                            <div class="why-choose-two__content">
+                                                <h3 class="why-choose-two__title"><?= $aba['titulo'] ?></h3>
+                                                <p class="why-choose-two__text"><?= $aba['descricao'] ?></p>
 
-
-
-
-
-                                    <h6 class="sec-title__tagline">we are skillful health care</h6><!-- /.sec-title__tagline -->
-
-
-
-                                </div><!-- /.sec-title__top -->
-
-                                <h3 class="sec-title__title">We Are leading health <br> care medical in town</h3><!-- /.sec-title__title -->
-
-                            </div><!-- /.sec-title -->
-
-                            <div class="skills-one__text-box wow fadeInUp" data-wow-duration="1500ms">
-
-                                <p class="skills-one__text">
-
-                                    Our team of dedicated healthcare professionals combines years of experience with a genuine commitment to providing.
-
-                                </p>
-
-                            </div><!-- /.skills-one__text-box -->
-
-                            <div class="skills-one__skills wow fadeInUp" data-wow-duration="1500ms">
-
-                                <div class="progress-box">
-
-                                    <h4 class="progress-box__title">critical operation</h4>
-
-                                    <div class="progress-box__bar">
-
-                                        <div class="progress-box__bar__inner count-bar" data-percent="90%">
-
-                                            <div class="progress-box__number count-text">90%</div>
-
+                                                <ul class="why-choose-two__list list-unstyled">
+                                                    <?php foreach ($aba['lista'] as $item): ?>
+                                                        <li>
+                                                            <span class="why-choose-two__list__icon">
+                                                                <i class="icon-check"></i>
+                                                            </span>
+                                                            <?= $item ?>
+                                                        </li>
+                                                    <?php endforeach; ?>
+                                                </ul>
+                                            </div>
                                         </div>
 
                                     </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
 
-                                </div><!-- /.skills-item -->
-
-                                <div class="progress-box">
-
-                                    <h4 class="progress-box__title">health care charity</h4>
-
-                                    <div class="progress-box__bar">
-
-                                        <div class="progress-box__bar__inner count-bar" data-percent="95%">
-
-                                            <div class="progress-box__number count-text">95%</div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div><!-- /.skills-item -->
-
-                            </div><!-- /.skills-one__skills -->
-
-                        </div><!-- /.skills-one__content -->
-
-                    </div><!-- /.col-lg-6 -->
-
-                    <div class="col-lg-6">
-
-                        <div class="skills-one__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/resources/skills-2-1.png" alt="skills">
-
-                        </div><!-- /.skills-one__image -->
-
-                    </div><!-- /.col-lg-6 -->
-
-                </div><!-- /.row gutter-y-50 -->
-
+                    </div>
+                </div>
             </div>
+        </section>
 
-        </section><!-- /.skills-one section-space -->
+        <!-- Carrossel de Clientes -->
+        <div class="client-carousel">
+            <div class="container">
+                <div class="client-carousel__one owl-carousel owl-theme">
+                    <?php foreach ($d['clientes']['logos'] as $logo): ?>
+                        <div class="client-carousel__one__item">
+                            <img src="<?= $logo ?>" alt="cliente" class="client-carousel__one__image">
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -767,246 +665,61 @@
             <div class="container">
 
                 <div class="sec-title sec-title--center wow fadeInUp" data-wow-duration="1500ms">
-
                     <div class="sec-title__top">
-
-
-
-                        <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/sec-title-s-1-1.png" alt="Our Work Prcocess" class="sec-title__img">
-
-
-
-
-
-                        <h6 class="sec-title__tagline">Our Work Prcocess</h6><!-- /.sec-title__tagline -->
-
-
-
-                    </div><!-- /.sec-title__top -->
-
-                    <h3 class="sec-title__title">How We Work Process</h3><!-- /.sec-title__title -->
-
-                </div><!-- /.sec-title -->
+                        <img src="<?= $d['processo']['icone'] ?>" alt="<?= $d['processo']['subtitulo'] ?>" class="sec-title__img">
+                        <h6 class="sec-title__tagline"><?= $d['processo']['subtitulo'] ?></h6>
+                    </div>
+                    <h3 class="sec-title__title"><?= $d['processo']['titulo'] ?></h3>
+                </div>
 
                 <div class="work-process-one__inner wow fadeInUp" data-wow-duration="1500ms">
-
                     <div class="row gutter-y-40">
 
-                        <div class="col-xl-3 col-md-6">
+                        <?php foreach ($d['processo']['etapas'] as $index => $etapa): ?>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="work-process-one__item <?= $index % 2 !== 0 ? 'work-process-one__item--reverse' : '' ?>">
+                                    <span class="work-process-one__item__icon">
+                                        <i class="<?= $etapa['icone'] ?>"></i>
+                                        <span class="work-process-one__item__number"></span>
+                                    </span>
+                                    <div class="work-process-one__item__content">
+                                        <h3 class="work-process-one__item__title"><?= $etapa['titulo'] ?></h3>
+                                        <p class="work-process-one__item__text"><?= $etapa['descricao'] ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
 
-                            <div class="work-process-one__item">
+                    </div>
 
-                                <span class="work-process-one__item__icon">
-
-                                    <i class="icon-doctor-2"></i>
-
-                                    <span class="work-process-one__item__number"></span>
-
-                                </span><!-- /.work-process-one__item__icon -->
-
-                                <div class="work-process-one__item__content">
-
-                                    <h3 class="work-process-one__item__title">Choose A Doctor</h3><!-- /.work-process-one__item__title -->
-
-                                    <p class="work-process-one__item__text">In a free hour, when our power of choice is untrammeled</p><!-- /.work-process-one__item__text -->
-
-                                </div><!-- /.work-process-one__item__content -->
-
-                            </div><!-- /.work-process-one__item -->
-
-                        </div><!-- /.col-xl-3 col-md-6 -->
-
-                        <div class="col-xl-3 col-md-6">
-
-                            <div class="work-process-one__item work-process-one__item--reverse">
-
-                                <span class="work-process-one__item__icon">
-
-                                    <i class="icon-assessment"></i>
-
-                                    <span class="work-process-one__item__number"></span>
-
-                                </span><!-- /.work-process-one__item__icon -->
-
-                                <div class="work-process-one__item__content">
-
-                                    <h3 class="work-process-one__item__title">Define Requirements</h3><!-- /.work-process-one__item__title -->
-
-                                    <p class="work-process-one__item__text">Quick sync the horse is out of the barn, yet this vendor</p><!-- /.work-process-one__item__text -->
-
-                                </div><!-- /.work-process-one__item__content -->
-
-                            </div><!-- /.work-process-one__item -->
-
-                        </div><!-- /.col-xl-3 col-md-6 -->
-
-                        <div class="col-xl-3 col-md-6">
-
-                            <div class="work-process-one__item">
-
-                                <span class="work-process-one__item__icon">
-
-                                    <i class="icon-consultation"></i>
-
-                                    <span class="work-process-one__item__number"></span>
-
-                                </span><!-- /.work-process-one__item__icon -->
-
-                                <div class="work-process-one__item__content">
-
-                                    <h3 class="work-process-one__item__title">Request A Meeting</h3><!-- /.work-process-one__item__title -->
-
-                                    <p class="work-process-one__item__text">Price point can we take this offline, and nail it down</p><!-- /.work-process-one__item__text -->
-
-                                </div><!-- /.work-process-one__item__content -->
-
-                            </div><!-- /.work-process-one__item -->
-
-                        </div><!-- /.col-xl-3 col-md-6 -->
-
-                        <div class="col-xl-3 col-md-6">
-
-                            <div class="work-process-one__item work-process-one__item--reverse">
-
-                                <span class="work-process-one__item__icon">
-
-                                    <i class="icon-handshake"></i>
-
-                                    <span class="work-process-one__item__number"></span>
-
-                                </span><!-- /.work-process-one__item__icon -->
-
-                                <div class="work-process-one__item__content">
-
-                                    <h3 class="work-process-one__item__title">Finial Solution</h3><!-- /.work-process-one__item__title -->
-
-                                    <p class="work-process-one__item__text">Gain traction forcing function , and we've got kpis for that</p><!-- /.work-process-one__item__text -->
-
-                                </div><!-- /.work-process-one__item__content -->
-
-                            </div><!-- /.work-process-one__item -->
-
-                        </div><!-- /.col-xl-3 col-md-6 -->
-
-                    </div><!-- /.row gutter-y-40 -->
-
-                    <img src="<?= base_url() ?>dist/modelos/tres/assets/images/shapes/work-process-shape-1-1.png" alt="shape" class="work-process-one__shape">
-
-                </div><!-- /.work-process-one__inner -->
+                    <img src="<?= $d['processo']['shape'] ?>" alt="shape" class="work-process-one__shape">
+                </div>
 
             </div>
-
-        </section><!-- /.work-process-one section-space-two -->
-
-
+        </section>
 
         <section class="gallery-instagram gallery-instagram--home2">
-
             <div class="container-fluid">
-
                 <div class="row gutter-y-30">
 
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="00ms">
+                    <?php foreach ($d['instagram']['imagens'] as $index => $img): ?>
+                        <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp"
+                            data-wow-duration="1500ms"
+                            data-wow-delay="<?= $index * 100 ?>ms">
 
-                        <div class="gallery-instagram__image">
+                            <div class="gallery-instagram__image">
+                                <img src="<?= $img['imagem'] ?>" alt="instagram">
+                                <a href="<?= $img['link'] ?>" class="gallery-instagram__image__link" target="_blank">
+                                    <span class="icon-instagram"></span>
+                                </a>
+                            </div>
 
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-1.jpg" alt="gallery-instagram">
+                        </div>
+                    <?php endforeach; ?>
 
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-
-                        <div class="gallery-instagram__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-2.jpg" alt="gallery-instagram">
-
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-
-                        <div class="gallery-instagram__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-3.jpg" alt="gallery-instagram">
-
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-
-                        <div class="gallery-instagram__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-4.jpg" alt="gallery-instagram">
-
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-
-                        <div class="gallery-instagram__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-5.jpg" alt="gallery-instagram">
-
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                    <div class="col-xxl-2 col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="500ms">
-
-                        <div class="gallery-instagram__image">
-
-                            <img src="<?= base_url() ?>dist/modelos/tres/assets/images/gallery/gallery-instagram-1-6.jpg" alt="gallery-instagram">
-
-                            <a href="https://www.instagram.com/" class="gallery-instagram__image__link">
-
-                                <span class="icon-instagram"></span>
-
-                            </a><!-- /.gallery-instagram__image__link -->
-
-                        </div><!-- /.gallery-instagram__image -->
-
-                    </div><!-- /.col-xxl-2 col-md-4 col-sm-6 -->
-
-                </div><!-- /.row gutter-y-30 -->
-
-            </div><!-- /.container-fluid -->
-
-        </section><!-- /.gallery-instagram -->
+                </div>
+            </div>
+        </section>
 
 
 
