@@ -1,0 +1,582 @@
+{
+    "header": {
+        "topo": {
+            "background": "dist/imagens/header/psicologia/header-topo-1.png",
+            "mensagem": "Pronto para cuidar da sua saúde emocional hoje?",
+            "texto_cta": "Agende sua sessão",
+            "link_cta": "/contato"
+        },
+        "contato": {
+            "email": "contato@seudominio.com",
+            "telefone": "(62) 5562982045122",
+            "telefone_link": "625562982045122"
+        },
+        "icones": {
+            "email": "dist/imagens/header/psicologia/header-icone-email.svg",
+            "telefone": "dist/imagens/header/psicologia/header-icone-telefone.svg"
+        },
+        "logo": {
+            "imagem": "dist/imagens/header/psicologia/header-logo-1.png",
+            "link": "/"
+        },
+        "menu": [
+            {
+                "titulo": "Início",
+                "link": "/",
+                "submenu": []
+            },
+            {
+                "titulo": "Sobre",
+                "link": "/sobre",
+                "submenu": []
+            },
+            {
+                "titulo": "Serviços",
+                "link": "#",
+                "submenu": [
+                    {
+                        "titulo": "Psicoterapia Individual",
+                        "link": "/servicos/psicoterapia-individual"
+                    },
+                    {
+                        "titulo": "Terapia de Casal",
+                        "link": "/servicos/terapia-casal"
+                    },
+                    {
+                        "titulo": "Terapia Infantil",
+                        "link": "/servicos/terapia-infantil"
+                    },
+                    {
+                        "titulo": "Avaliação Psicológica",
+                        "link": "/servicos/avaliacao-psicologica"
+                    }
+                ]
+            },
+            {
+                "titulo": "Conteúdos",
+                "link": "#",
+                "submenu": [
+                    {
+                        "titulo": "Blog",
+                        "link": "/blog"
+                    },
+                    {
+                        "titulo": "Artigos",
+                        "link": "/artigos"
+                    }
+                ]
+            },
+            {
+                "titulo": "Contato",
+                "link": "/contato",
+                "submenu": []
+            }
+        ]
+    },
+    "mobile_header": {
+        "logo": {
+            "imagem": "dist/imagens/mobile-header/psicologia/mobile-header-logo-1.png",
+            "link": "/"
+        },
+        "menu": [
+            {
+                "titulo": "Início",
+                "link": "/",
+                "submenu": []
+            },
+            {
+                "titulo": "Sobre",
+                "link": "/sobre",
+                "submenu": []
+            },
+            {
+                "titulo": "Atendimentos",
+                "link": "#",
+                "submenu": [
+                    {
+                        "titulo": "Psicoterapia Individual",
+                        "link": "/servicos/psicoterapia-individual"
+                    },
+                    {
+                        "titulo": "Terapia de Casal",
+                        "link": "/servicos/terapia-de-casal"
+                    },
+                    {
+                        "titulo": "Terapia Infantil",
+                        "link": "/servicos/terapia-infantil"
+                    },
+                    {
+                        "titulo": "Avaliação Psicológica",
+                        "link": "/servicos/avaliacao-psicologica"
+                    }
+                ]
+            },
+            {
+                "titulo": "Conteúdos",
+                "link": "#",
+                "submenu": [
+                    {
+                        "titulo": "Blog",
+                        "link": "/blog"
+                    },
+                    {
+                        "titulo": "Artigos",
+                        "link": "/artigos"
+                    }
+                ]
+            },
+            {
+                "titulo": "Contato",
+                "link": "/contato",
+                "submenu": []
+            }
+        ],
+        "cta": {
+            "titulo": "Agendar Consulta",
+            "link": "https://wa.me/55625562982045122"
+        },
+        "contato": {
+            "telefone": "(62) 5562982045122",
+            "telefone_link": "625562982045122",
+            "email": "contato@seudominio.com"
+        },
+        "icones": {
+            "telefone": "dist/imagens/mobile-header/psicologia/mobile-header-icone-telefone.svg",
+            "email": "dist/imagens/mobile-header/psicologia/mobile-header-icone-email.svg"
+        },
+        "redes_sociais": [
+            {
+                "icone": "fa-brands fa-facebook-f",
+                "link": "#"
+            },
+            {
+                "icone": "fa-brands fa-instagram",
+                "link": "#"
+            },
+            {
+                "icone": "fa-brands fa-linkedin-in",
+                "link": "#"
+            }
+        ]
+    },
+    "slider": {
+        "slides": [
+            {
+                "background": "dist/imagens/slider/psicologia/slider-bg-1.png",
+                "imagem_principal": "dist/imagens/slider/psicologia/slider-1.png",
+                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "subtitulo": "Cuidado emocional com acolhimento e ética",
+                "titulo": "Apoio psicológico para",
+                "titulo_destaque": "transformar sua vida",
+                "descricao": "Oferecemos um espaço seguro e acolhedor para você cuidar da sua saúde mental, desenvolver o autoconhecimento e fortalecer suas emoções.",
+                "botao": {
+                    "titulo": "Agendar Consulta",
+                    "link": "https://wa.me/55625562982045122"
+                },
+                "cta_flotante": {
+                    "texto": "Primeira conversa gratuita",
+                    "link": "/contato",
+                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                }
+            },
+            {
+                "background": "dist/imagens/slider/psicologia/slider-bg-2.png",
+                "imagem_principal": "dist/imagens/slider/psicologia/slider-2.png",
+                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "subtitulo": "Psicoterapia para todas as fases da vida",
+                "titulo": "Cuidar da mente é",
+                "titulo_destaque": "um ato de coragem",
+                "descricao": "Atendimentos personalizados para adultos, casais e crianças, respeitando sua história, seu tempo e suas emoções.",
+                "botao": {
+                    "titulo": "Falar com um Psicólogo",
+                    "link": "https://wa.me/55625562982045122"
+                },
+                "cta_flotante": {
+                    "texto": "Atendimento humanizado",
+                    "link": "/contato",
+                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                }
+            },
+            {
+                "background": "dist/imagens/slider/psicologia/slider-bg-3.png",
+                "imagem_principal": "dist/imagens/slider/psicologia/slider-3.png",
+                "imagem_decorativa": "dist/imagens/slider/psicologia/slider-decoracao-1.png",
+                "subtitulo": "Sua saúde mental em primeiro lugar",
+                "titulo": "Acolhimento, escuta e",
+                "titulo_destaque": "crescimento emocional",
+                "descricao": "A psicoterapia é um caminho de cuidado, fortalecimento emocional e desenvolvimento pessoal. Você não precisa passar por isso sozinho.",
+                "botao": {
+                    "titulo": "Iniciar Psicoterapia",
+                    "link": "https://wa.me/55625562982045122"
+                },
+                "cta_flotante": {
+                    "texto": "Agende sua sessão",
+                    "link": "/contato",
+                    "background": "dist/imagens/slider/psicologia/slider-cta-bg-1.svg"
+                }
+            }
+        ]
+    },
+    "sobre": {
+        "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
+        "imagem_secundaria1": "dist/imagens/sobre/psicologia/sobre-2.jpg",
+        "imagem_secundaria2": "dist/imagens/sobre/psicologia/sobre-3.jpg",
+        "imagem_secundaria3": "dist/imagens/sobre/psicologia/sobre-4.jpg",
+        "subtitulo": "Sobre Nós",
+        "titulo": "Cuidado Psicológico Humanizado para o Seu Bem-Estar Emocional",
+        "descricao": "Somos uma clínica de psicologia dedicada a promover saúde mental, equilíbrio emocional e qualidade de vida por meio de atendimentos éticos, acolhedores e personalizados.",
+        "titulo_lista": "Nossos Diferenciais:",
+        "lista": [
+            "Atendimento psicológico individualizado",
+            "Profissionais qualificados e experientes",
+            "Ambiente seguro, ético e acolhedor",
+            "Sigilo absoluto e respeito ao paciente"
+        ],
+        "botao": {
+            "titulo": "Agendar Atendimento",
+            "link": "https://wa.me/5562982045122"
+        }
+    },
+    "contadores": {
+        "items": [
+            {
+                "titulo": "Anos de Experiência Clínica",
+                "numero": 15,
+                "simbolo": "+"
+            },
+            {
+                "titulo": "Pacientes Acompanhados",
+                "numero": 1200,
+                "simbolo": "+"
+            }
+        ]
+    },
+    "servicos": {
+        "subtitulo": "Nossos Serviços",
+        "titulo": "Áreas de Atuação em Psicologia Clínica",
+        "items": [
+            {
+                "titulo": "Psicoterapia Individual",
+                "descricao": "Atendimento personalizado para promover autoconhecimento, equilíbrio emocional e saúde mental.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-1.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-1.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "titulo": "Terapia de Casal",
+                "descricao": "Apoio profissional para melhorar a comunicação, resolver conflitos e fortalecer relacionamentos.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-2.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-2.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "titulo": "Terapia Familiar",
+                "descricao": "Intervenções terapêuticas focadas no equilíbrio das relações familiares e bem-estar coletivo.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-3.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-3.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "titulo": "Psicoterapia Infantil",
+                "descricao": "Atendimento especializado para crianças, auxiliando no desenvolvimento emocional e comportamental.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-4.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-4.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "titulo": "Avaliação Psicológica",
+                "descricao": "Processos avaliativos com responsabilidade técnica para fins clínicos, educacionais ou profissionais.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-5.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-5.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "titulo": "Orientação Emocional",
+                "descricao": "Suporte psicológico para lidar com ansiedade, estresse, luto e desafios do cotidiano.",
+                "imagem": "dist/imagens/servicos/psicologia/servicos-6.jpg",
+                "icone": "dist/imagens/servicos/psicologia/servicos-icon-6.svg",
+                "link": "https://wa.me/5562982045122"
+            }
+        ]
+    },
+    "como_funciona": {
+        "subtitulo": "Como Funciona",
+        "titulo": "Um Processo Terapêutico Acolhedor, Ético e Personalizado",
+        "imagem_principal": "dist/imagens/como-funciona/psicologia/como-funciona-1.jpg",
+        "etapas_esquerda": [
+            {
+                "numero": "01",
+                "titulo": "Primeira Conversa",
+                "descricao": "Agendamos uma escuta inicial para compreender suas necessidades, queixas e objetivos terapêuticos.",
+                "icone": "dist/imagens/como-funciona/psicologia/como-funciona-icon-1.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "numero": "02",
+                "titulo": "Avaliação Psicológica",
+                "descricao": "Realizamos uma avaliação cuidadosa para compreender aspectos emocionais, comportamentais e cognitivos.",
+                "icone": "dist/imagens/como-funciona/psicologia/como-funciona-icon-2.svg",
+                "link": "https://wa.me/5562982045122"
+            }
+        ],
+        "etapas_direita": [
+            {
+                "numero": "03",
+                "titulo": "Plano Terapêutico",
+                "descricao": "Definimos juntos um plano de acompanhamento personalizado, respeitando seu ritmo e individualidade.",
+                "icone": "dist/imagens/como-funciona/psicologia/como-funciona-icon-3.svg",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "numero": "04",
+                "titulo": "Acompanhamento Contínuo",
+                "descricao": "Oferecemos suporte psicológico contínuo, promovendo autoconhecimento, equilíbrio emocional e bem-estar.",
+                "icone": "dist/imagens/como-funciona/psicologia/como-funciona-icon-4.svg",
+                "link": "https://wa.me/5562982045122"
+            }
+        ]
+    },
+    "estudos_caso": {
+        "subtitulo": "Conteúdos Terapêuticos",
+        "titulo": "Histórias, Abordagens e Caminhos para o Equilíbrio Emocional",
+        "items": [
+            {
+                "titulo": "Ansiedade e Autoconhecimento",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-1.jpg",
+                "link": "/conteudos/ansiedade-autoconhecimento",
+                "botao": "Ler Mais"
+            },
+            {
+                "titulo": "Superando Crises Emocionais",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-2.jpg",
+                "link": "/conteudos/superando-crises-emocionais",
+                "botao": "Ler Mais"
+            },
+            {
+                "titulo": "Relacionamentos e Saúde Mental",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-3.jpg",
+                "link": "/conteudos/relacionamentos-saude-mental",
+                "botao": "Ler Mais"
+            },
+            {
+                "titulo": "Autocuidado no Dia a Dia",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-4.jpg",
+                "link": "/conteudos/autocuidado-dia-a-dia",
+                "botao": "Ler Mais"
+            },
+            {
+                "titulo": "Depressão: Caminhos Possíveis",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-5.jpg",
+                "link": "/conteudos/depressao-caminhos-possiveis",
+                "botao": "Ler Mais"
+            },
+            {
+                "titulo": "Inteligência Emocional",
+                "imagem": "dist/imagens/estudos-caso/psicologia/estudos-caso-6.jpg",
+                "link": "/conteudos/inteligencia-emocional",
+                "botao": "Ler Mais"
+            }
+        ]
+    },
+    "equipe": {
+        "subtitulo": "Nossa Equipe",
+        "titulo": "Profissionais dedicados ao seu",
+        "titulo_destaque": "bem-estar emocional",
+        "items": [
+            {
+                "nome": "Dra. Ana Ribeiro",
+                "cargo": "Psicóloga Clínica • CRP 00/00000",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-1.jpg",
+                "link": "https://wa.me/5562982045122",
+                "redes": {
+                    "instagram": "https://instagram.com/",
+                    "linkedin": "https://linkedin.com/",
+                    "facebook": ""
+                }
+            },
+            {
+                "nome": "Dr. Lucas Menezes",
+                "cargo": "Psicólogo • Terapia Cognitivo-Comportamental",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-2.jpg",
+                "link": "https://wa.me/5562982045122",
+                "redes": {
+                    "instagram": "https://instagram.com/",
+                    "linkedin": "",
+                    "facebook": ""
+                }
+            },
+            {
+                "nome": "Dra. Mariana Costa",
+                "cargo": "Psicóloga • Psicoterapia para Adultos",
+                "imagem": "dist/imagens/equipe/psicologia/equipe-3.jpg",
+                "link": "https://wa.me/5562982045122",
+                "redes": {
+                    "instagram": "",
+                    "linkedin": "https://linkedin.com/",
+                    "facebook": "https://facebook.com/"
+                }
+            }
+        ],
+        "contato_padrao": {
+            "email": "contato@seudominio.com",
+            "telefone": "(62) 5562982045122"
+        }
+    },
+    "depoimentos": {
+        "subtitulo": "Depoimentos",
+        "titulo": "Histórias reais de quem encontrou",
+        "titulo_destaque": "acolhimento e transformação",
+        "icone": "dist/imagens/depoimentos/psicologia/depoimentos-icone.svg",
+        "items": [
+            {
+                "nome": "Mariana Souza",
+                "perfil": "Paciente em Psicoterapia Individual",
+                "texto": "A terapia me ajudou a compreender melhor minhas emoções e enfrentar momentos difíceis com mais segurança. O acolhimento foi essencial no meu processo.",
+                "avaliacao": 5,
+                "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-1.jpg"
+            },
+            {
+                "nome": "Carlos Henrique",
+                "perfil": "Paciente • Ansiedade e Estresse",
+                "texto": "Encontrei um espaço seguro para falar, refletir e evoluir. Hoje me sinto mais confiante para lidar com meus desafios diários.",
+                "avaliacao": 5,
+                "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-2.jpg"
+            },
+            {
+                "nome": "Fernanda Lima",
+                "perfil": "Paciente em Terapia de Autoconhecimento",
+                "texto": "O processo terapêutico foi transformador. Aprendi a me respeitar mais e a cuidar da minha saúde emocional.",
+                "avaliacao": 5,
+                "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-3.jpg"
+            }
+        ]
+    },
+    "contato": {
+        "background": "dist/imagens/contato/psicologia/contato-bg-1.jpg",
+        "subtitulo": "Contato",
+        "titulo": "Dê o primeiro passo para o seu",
+        "titulo_destaque": "bem-estar emocional",
+        "formulario": {
+            "titulo": "Entre em contato conosco",
+            "descricao": "Se você sente que precisa de apoio emocional ou deseja iniciar um processo terapêutico, estamos aqui para ouvir você com acolhimento e profissionalismo.",
+            "action": "#",
+            "placeholders": {
+                "nome": "Nome completo*",
+                "email": "E-mail*",
+                "telefone": "Telefone / WhatsApp*",
+                "mensagem": "Escreva sua mensagem*",
+                "assunto": "Assunto"
+            },
+            "botao": "Agendar conversa inicial"
+        },
+        "infos": [
+            {
+                "titulo": "Endereço",
+                "texto": "Atendimento presencial e online",
+                "link": "#",
+                "icone": "dist/imagens/contato/psicologia/contato-icone-1.svg",
+                "aos": "800"
+            },
+            {
+                "titulo": "Telefone / WhatsApp",
+                "texto": "(62) 5562982045122",
+                "link": "https://wa.me/5562982045122",
+                "icone": "dist/imagens/contato/psicologia/contato-icone-2.svg",
+                "aos": "1000"
+            },
+            {
+                "titulo": "E-mail",
+                "texto": "contato@seudominio.com",
+                "link": "mailto:contato@seudominio.com",
+                "icone": "dist/imagens/contato/psicologia/contato-icone-3.svg",
+                "aos": "1200"
+            }
+        ]
+    },
+    "cta": {
+        "imagem_fundo": "dist/imagens/cta/psicologia/cta-1.jpg",
+        "subtitulo": "Agende seu Atendimento",
+        "titulo": "Dê o primeiro passo para o seu",
+        "titulo_destaque": "bem-estar emocional",
+        "descricao": "Nossa equipe de psicólogos está pronta para te acolher em um ambiente seguro, ético e humanizado. Agende uma conversa inicial e entenda como a psicoterapia pode ajudar você a viver com mais equilíbrio e qualidade de vida.",
+        "form": {
+            "action": "#",
+            "campos": {
+                "nome": "Seu nome completo",
+                "email": "Seu melhor e-mail",
+                "assunto": "Motivo do contato"
+            },
+            "botao": {
+                "titulo": "Agendar Consulta"
+            }
+        },
+        "contato": {
+            "email": "contato@seudominio.com",
+            "telefone": "(62) 5562982045122"
+        }
+    },
+    "footer": {
+        "nome_clinica": "Clínica Equilíbrio Mental",
+        "logo": "dist/imagens/footer/psicologia/footer-1.png",
+        "descricao": "Somos uma clínica de psicologia dedicada ao cuidado da saúde emocional, oferecendo acolhimento, escuta qualificada e acompanhamento psicológico com ética e empatia.",
+        "redes_sociais": [
+            {
+                "icone": "fa-brands fa-facebook-f",
+                "link": "#"
+            },
+            {
+                "icone": "fa-brands fa-instagram",
+                "link": "#"
+            },
+            {
+                "icone": "fa-brands fa-linkedin",
+                "link": "#"
+            }
+        ],
+        "links": {
+            "titulo": "Links Rápidos",
+            "items": [
+                {
+                    "titulo": "Sobre a Clínica",
+                    "link": "#sobre"
+                },
+                {
+                    "titulo": "Serviços",
+                    "link": "#servicos"
+                },
+                {
+                    "titulo": "Equipe",
+                    "link": "#equipe"
+                },
+                {
+                    "titulo": "Depoimentos",
+                    "link": "#depoimentos"
+                },
+                {
+                    "titulo": "Contato",
+                    "link": "#contato"
+                }
+            ]
+        },
+        "contato": {
+            "titulo": "Fale Conosco",
+            "email": "contato@seudominio.com",
+            "telefone": "(62) 5562982045122",
+            "endereco": "Atendimento psicológico presencial e online em ambiente seguro e acolhedor.",
+            "icone_email": "dist/imagens/footer/psicologia/footer-2.svg",
+            "icone_telefone": "dist/imagens/footer/psicologia/footer-3.svg",
+            "icone_endereco": "dist/imagens/footer/psicologia/footer-4.svg"
+        },
+        "newsletter": {
+            "titulo": "Receba Conteúdos sobre Saúde Mental",
+            "placeholder": "Digite seu e-mail",
+            "botao": "Inscrever-se",
+            "action": "#"
+        },
+        "copyright": {
+            "texto": "© 2026 Clínica Equilíbrio Mental. Todos os direitos reservados.",
+            "politica": "Política de Privacidade",
+            "link_politica": "#politica-privacidade"
+        }
+    }
+}

@@ -1,131 +1,150 @@
 turn this html into a strutured
  
-   <aside class="sidebar-one">
+   
 
-        <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
+  <div class="footer7-section-area">
 
-        <div class="sidebar-one__content">
+        <div class="container">
 
-            <span class="sidebar-one__close sidebar-btn__toggler"><i class="icon-close"></i></span>
+            <div class="row">
 
-            <div class="sidebar-one__logo sidebar-one__item logo-retina">
+                <div class="col-lg-12">
 
-                <a href="index.html" aria-label="logo image"><img src="<?= base_url() ?>dist/modelos/tres/assets/images/logo-light.png" width="164" alt="logo" />
+                    <div class="footer-all-section-area sp5">
 
-                </a>
+                        <div class="row">
 
-            </div><!-- /.sidebar-one__logo -->
+                            <div class="col-lg-3 col-md-6">
 
-            <div class="sidebar-one__about sidebar-one__item">
+                                <div class="footer-last-section">
 
-                <p class="sidebar-one__about__text">Here is main text quis nostrud exercitation ullamco laboris nisi here is itealic aliquip ex ea com</p>
+                                    <div class="footer-imgage">
 
-            </div><!-- /.sidebar-one__about -->
+                                        <img src="assets/img/logo/logo12.png" alt="">
 
-            <div class="sidebar-one__info sidebar-one__item">
+                                    </div>
 
-                <h4 class="sidebar-one__title">Contact</h4>
+                                    <div class="footer-text-area">
 
-                <ul class="sidebar-one__info__list">
+                                        <p>Include any additional information that may be relevant or helpful for visitors, such as FAQs, pricing options.</p>
 
-                    <li>
+                                        <div class="social-list-area">
 
-                        <span class="sidebar-one__info__icon sidebar-one__info__icon--location">
+                                            <ul>
 
-                            <i class="icon-location"></i>
+                                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
 
-                        </span>
+                                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
 
-                        <address>85 Ketch Harbour Road Bensal
+                                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
 
-                            PA 19020</address>
+                                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
 
-                    </li>
+                                            </ul>
 
-                    <li>
+                                        </div>
 
-                        <span class="sidebar-one__info__icon">
+                                    </div>
 
-                            <i class="icon-paper-plane"></i>
+                                </div>
 
-                        </span>
+                            </div>
 
-                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                            <div class="col-lg-2 col-md-6">
 
-                    </li>
+                                <div class="about-links-area">
 
-                    <li>
+                                    <h3>About Link</h3>
 
-                        <span class="sidebar-one__info__icon">
+                                    <ul>
 
-                            <i class="icon-telephone"></i>
+                                        <li><a href="blog1.html">Our Blog</a></li>
 
-                        </span>
+                                        <li><a href="about.html">About Us</a></li>
 
-                        <a href="tel:+9156980036420">+9156980036420</a>
+                                        <li><a href="service1.html">Practice Areas</a></li>
 
-                    </li>
+                                        <li><a href="testimonial1.html">Testimonials </a></li>
 
-                </ul><!-- /.sidebar-one__info__list -->
+                                        <li><a href="contact1.html">Contact Us</a></li>
 
-            </div><!-- /.sidebar-one__info -->
 
-            <div class="social-links sidebar-one__item">
 
-                <a href="https://facebook.com">
+                                    </ul>
 
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                </div>
 
-                    <span class="sr-only">Facebook</span>
+                            </div>
 
-                </a>
 
-                <a href="https://twitter.com">
 
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <div class="col-lg-3 col-md-6">
 
-                    <span class="sr-only">Twitter</span>
+                                <div class="get-links-area">
 
-                </a>
+                                    <h3>Get In Touch</h3>
 
-                <a href="https://instagram.com">
+                                    <ul>
 
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        <li><img src="assets/img/icons/footer-email2.svg" alt=""><a href="maito:demolawsy@gmail.com">demolawsy@gmail.com</a></li>
 
-                    <span class="sr-only">Instagram</span>
+                                        <li><img src="assets/img/icons/footer-location1.svg" alt=""><a href="#">8708 Technology Forest <br> Pl Suite 125 -G, The <br> Woodlands, TX 77381</a></li>
 
-                </a>
+                                        <li><img src="assets/img/icons/footer-phn.svg" alt=""><a href="tel:123-456-7890">123-456-7890</a></li>
 
-                <a href="https://youtube.com">
+                                    </ul>
 
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                </div>
 
-                    <span class="sr-only">Youtube</span>
+                            </div>
 
-                </a>
+                            <div class="col-lg-4 col-md-6">
 
-            </div><!-- /sidebar-one__social -->
+                                <div class="footer-contact-area">
 
-            <div class="sidebar-one__newsletter sidebar-one__item">
+                                    <h3>Subscribe Our Newsletter</h3>
 
-                <label class="sidebar-one__title" for="sidebar-email">Newsletter</label>
+                                    <div class="footer-form-area">
 
-                <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
+                                        <form>
 
-                    <input type="email" name="EMAIL" id="sidebar-email" class="sidebar-one__newsletter__input" placeholder="Email Address">
+                                            <input type="email" placeholder=" Email">
 
-                    <button type="submit" class="sidebar-one__newsletter__btn"><span class="icon-email" aria-hidden="true"></span></button>
+                                            <div class="footer-btn">
 
-                </form>
+                                                <button type="submit">Subscribe <i class="fa-regular fa-arrow-right"></i></button>
 
-                <div class="mc-form__response"></div><!-- /.mc-form__response -->
+                                            </div>
 
-            </div><!-- /.sidebar-one__form -->
+                                        </form>
 
-        </div><!-- /.sidebar__content -->
+                                    </div>
 
-    </aside><!-- /.sidebar-one -->
+                                </div>
 
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="copyright-pera">
+
+                        <p>Â© Copyright 2024 Lawsy Lawyer</p>
+
+                        <a href="#">Privacy Policy</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 
  json like this 
@@ -216,3 +235,6 @@ Give me back two think the html with variables considering the variables are pas
 - Give the html with variables
 - Give the json structurted of the section
 - All in portugues.
+- - O email padrao sera contato@seudominio.com o telefone (62) 5562982045122
+- As imagens devem seguir o padrao 'dist/imagens/[nome da seçao]/psicologia/[nome da seçao]-[x].[extensao]' 
+- Considere que o modelo a ser construido é para um site de psicologia entao adapte o copy para isso em na seçao.
