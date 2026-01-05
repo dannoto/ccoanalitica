@@ -54,9 +54,9 @@
 
     <!--=====JQUERY=======-->
 
-    <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/jquery-3-6-0.min.js"></script>
 
-    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/waypoints.js"></script>
 
 </head>
 
@@ -80,7 +80,7 @@
 
                     <div class="Preloader-icon">
 
-                        <img src="assets/img/logo/preloader.svg" alt="">
+                        <img src="<?= base_url() ?>dist/modelos/cinco/assets/img/logo/preloader.svg" alt="">
 
                     </div>
 
@@ -1263,27 +1263,27 @@
 
     <!--=====JS=======-->
 
-    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/bootstrap.min.js"></script>
 
-    <script src="assets/js/plugins/fontawesome.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/fontawesome.js"></script>
 
-    <script src="assets/js/plugins/counter.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/counter.js"></script>
 
-    <script src="assets/js/plugins/owl-carousel.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/owl-carousel.min.js"></script>
 
-    <script src="assets/js/plugins/jquery-modal.min.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/jquery-modal.min.js"></script>
 
-    <script src="assets/js/plugins/sidebar.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/sidebar.js"></script>
 
-    <script src="assets/js/plugins/jquery.nice-select.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/jquery.nice-select.js"></script>
 
-    <script src="assets/js/plugins/aos.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/aos.js"></script>
 
-    <script src="assets/js/plugins/slider.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/slider.js"></script>
 
-    <script src="assets/js/plugins/mobilemenu.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/plugins/mobilemenu.js"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="<?= base_url() ?>dist/modelos/cinco/assets/js/main.js"></script>
 
 
 
