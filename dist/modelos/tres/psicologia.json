@@ -1,16 +1,16 @@
 {
   "schema": {
-    "background": "#0F2A2E",
+    "background": "#1F2F3D",
     "color": "#FFFFFF",
-    "primary-color": "#4FA3A5",
-    "primary-color-rgb": "79,163,165",
-    "secondary-color": "#C8B08A",
-    "secondary-color-rgb": "200,176,138"
+    "primary-color": "#7FB3D5",
+    "primary-color-rgb": "127,179,213",
+    "secondary-color": "#A9DFBF",
+    "secondary-color-rgb": "169,223,191"
   },
   "seo": {
-    "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
-    "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
-    "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica, terapia individual, terapia de casal, terapia familiar",
+    "title": "Mente Serena — Psicologia e Bem-Estar Mental",
+    "description": "Clínica de psicologia especializada em psicoterapia individual, infantil e familiar com foco no acolhimento e saúde mental.",
+    "keywords": "psicologia, psicoterapia, saúde mental, terapeuta, ansiedade, depressão, terapia online, bem-estar emocional",
     "author": "CCO ANALITICA | ccoanalitica.com",
     "favicon": "images/icon.jpg"
   },
@@ -45,12 +45,12 @@
   "hero": {
     "slides": [
       {
-        "imagem": "https://img.freepik.com/free-photo/authentic-scene-young-person-undergoing-psychological-therapy_23-2150161978.jpg",
-        "subtitle": "ATENDIMENTO HUMANIZADO",
-        "title": "Cuidar da Mente é um Ato de Amor Próprio",
-        "text": "Há mais de 15 anos ajudando pessoas a encontrarem equilíbrio emocional, autoconhecimento e qualidade de vida por meio da psicologia.",
+        "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
+        "subtitle": "CUIDADO EMOCIONAL HUMANIZADO",
+        "title": "Sua Saúde Mental é Nossa Prioridade",
+        "text": "Há mais de 10 anos promovendo o autoconhecimento e o equilíbrio emocional através de uma escuta ética e acolhedora.",
         "botao1": {
-          "texto": "Nossos Serviços",
+          "texto": "Nossas Abordagens",
           "link": "#services"
         },
         "botao2": {
@@ -59,12 +59,12 @@
         }
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1452736789/photo/mature-man-helps-younger-man-verbalize-problems-in-therapy.jpg?s=612x612",
-        "subtitle": "TERAPIA INDIVIDUAL E FAMILIAR",
-        "title": "Equilíbrio Emocional e Saúde Mental",
-        "text": "Sessões personalizadas para promover o bem-estar e o autoconhecimento em um ambiente acolhedor.",
+        "imagem": "dist/imagens/hero/psicologia/hero-2.jpg",
+        "subtitle": "EQUILÍBRIO E PAZ",
+        "title": "Apoio Psicológico para Todas as Fases da Vida",
+        "text": "Psicoterapia personalizada para ajudar você a superar desafios, reduzir a ansiedade e encontrar seu propósito.",
         "botao1": {
-          "texto": "Saiba Mais",
+          "texto": "Conheça a Clínica",
           "link": "#about"
         },
         "botao2": {
@@ -73,23 +73,23 @@
         }
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.jpg?s=612x612",
-        "subtitle": "APOIO PROFISSIONAL",
-        "title": "Encontre Paz e Harmonia Interior",
-        "text": "Terapia especializada para ansiedade, depressão, relacionamentos e desenvolvimento pessoal.",
+        "imagem": "dist/imagens/hero/psicologia/hero-3.jpg",
+        "subtitle": "TRANSFORMAÇÃO INTERNA",
+        "title": "Acolhimento Especializado e Sigilo Profissional",
+        "text": "Uma equipe de psicólogos preparada para oferecer suporte emocional seguro e transformador.",
         "botao1": {
-          "texto": "Ver Serviços",
+          "texto": "Ver Especialidades",
           "link": "#services"
         },
         "botao2": {
-          "texto": "Agende Agora",
+          "texto": "Inicie Agora",
           "link": "https://wa.me/5562982045122"
         }
       }
     ],
     "atendimento": {
-      "titulo": "Precisa de Apoio?",
-      "telefone": "(11) 99999-9999"
+      "titulo": "Precisa de Ajuda?",
+      "telefone": "(62) 98204-5122"
     },
     "social": {
       "facebook": {
@@ -97,105 +97,616 @@
         "link": "#"
       },
       "x": {
-        "icone": "",
+        "icone": "fab fa-x-twitter",
         "link": "#"
       },
       "instagram": {
-        "icone": "",
+        "icone": "fab fa-instagram",
         "link": "#"
       },
       "youtube": {
-        "icone": "",
+        "icone": "fab fa-youtube",
         "link": "#"
       }
     }
   },
   "features": [
     {
+      "icon": "icon-psychology",
+      "title": "Psicólogos CRP Ativo",
+      "text": "Profissionais registrados e qualificados com especializações em diversas áreas da saúde mental."
+    },
+    {
       "icon": "icon-brain",
-      "title": "Psicólogos Experientes",
-      "text": "Equipe qualificada com anos de experiência em saúde mental e emocional."
+      "title": "Escuta Acolhedora",
+      "text": "Espaço seguro livre de julgamentos, focado na subjetividade e história de vida de cada paciente."
     },
     {
-      "icon": "icon-heartbeat",
-      "title": "Atendimento Personalizado",
-      "text": "Terapias individuais, de casal e familiar adaptadas às suas necessidades."
+      "icon": "icon-peace",
+      "title": "Ambiente Terapêutico",
+      "text": "Consultórios projetados para proporcionar máximo conforto, tranquilidade e privacidade total."
     },
     {
-      "icon": "icon-meditation",
-      "title": "Ambiente Acolhedor",
-      "text": "Espaço confortável e confidencial para o seu bem-estar."
-    },
-    {
-      "icon": "icon-support",
-      "title": "Suporte 24/7",
-      "text": "Atendimento emergencial e acompanhamento contínuo."
+      "icon": "icon-calendar",
+      "title": "Flexibilidade de Horários",
+      "text": "Atendimento presencial e online, com horários que se adaptam à sua rotina pessoal e profissional."
     }
   ],
   "sobre": {
-    "imagem_principal": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
-    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
-    "subtitutlo": "Sobre Nós",
-    "title": "Seu Bem-Estar Emocional Começa com um Profissional Qualificado",
-    "description": "No Instituto Harmonia, oferecemos atendimento psicológico humanizado, com foco no autoconhecimento, equilíbrio emocional e qualidade de vida.",
+    "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
+    "imagem_secundaria1": "dist/imagens/sobre/psicologia/sobre-2.jpg",
+    "imagem_secundaria2": "dist/imagens/sobre/psicologia/sobre-3.jpg",
+    "subtitulo": "Quem Somos",
+    "titulo": "Apoio Psicológico com Ética, Empatia e Compromisso",
+    "descricao": "A Mente Serena é um centro de referência em psicologia clínica, dedicado a auxiliar indivíduos na busca por uma vida mais equilibrada e saudável emocionalmente.",
     "lista": [
-      "Atendimento Individual e Familiar",
-      "Técnicas Modernas de Terapia",
-      "Psicólogos Qualificados e Empáticos",
-      "Preços Acessíveis e Acolhimento"
-    ]
+      "Psicoterapia Individual e Grupal",
+      "Avaliação Neuropsicológica",
+      "Orientação Vocacional e de Carreira",
+      "Apoio em Momentos de Crise"
+    ],
+    "botao": {
+      "titulo": "Saiba Mais",
+      "link": "https://wa.me/5562982045122"
+    }
   },
-  "services": {
-    "tagline": "Nossos Serviços",
-    "title": "Especialidades em Psicologia e Saúde Mental",
+  "contadores": {
     "items": [
       {
-        "imagem": "https://www.shutterstock.com/image-photo/young-man-mental-therapy-session-260nw-2607969505.jpg",
-        "title": "Terapia Individual"
+        "titulo": "Vidas Transformadas",
+        "numero": 85,
+        "simbolo": "%"
       },
       {
-        "imagem": "https://img.freepik.com/free-photo/family-therapy-psychologist-office_23-2149175227.jpg",
-        "title": "Terapia Familiar"
+        "titulo": "Psicólogos Especialistas",
+        "numero": 12,
+        "simbolo": "+"
       },
       {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "title": "Terapia em Grupo"
+        "titulo": "Sessões Realizadas",
+        "numero": 1500,
+        "simbolo": "+"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1649071889/photo/vulnerable-woman-shares-something-with-therapist-during-therapy-session.jpg?s=612x612",
-        "title": "Terapia de Casal"
+        "titulo": "Anos de Experiência",
+        "numero": 10,
+        "simbolo": "+"
+      }
+    ]
+  },
+  "servicos": {
+    "subtitulo": "Como Podemos Ajudar",
+    "titulo": "Nossas Modalidades",
+    "items": [
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servicos-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Terapia Cognitivo-Comportamental"
       },
       {
-        "imagem": "https://drconsulta.com/conteudo/wp-content/uploads/2024/08/dr.consulta_bem_estar_dicas-1024x576.webp",
-        "title": "Apoio para Ansiedade e Depressão"
+        "imagem": "dist/imagens/servicos/psicologia/servicos-2.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Ludoterapia (Infantil)"
       },
       {
-        "imagem": "https://www.terapiamed.com/wp-content/uploads/2024/04/terapia-em-grupo1.jpg",
-        "title": "Desenvolvimento Pessoal"
+        "imagem": "dist/imagens/servicos/psicologia/servicos-3.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Psicoterapia de Casal"
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servicos-4.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Tratamento de Ansiedade"
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servicos-5.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Terapia para Adolescentes"
+      },
+      {
+        "imagem": "dist/imagens/servicos/psicologia/servicos-6.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Acompanhamento Terapêutico"
+      }
+    ]
+  },
+  "porque_escolher": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Diferenciais",
+    "titulo": "Um Espaço para Você Ser <br> Escutado e Compreendido",
+    "abas": [
+      {
+        "label": "Apoio em Crises",
+        "titulo": "Suporte Emocional Imediato",
+        "descricao": "Auxílio psicológico focado na regulação emocional para momentos de luto, traumas ou crises agudas de pânico.",
+        "imagens": [
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-1.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-2.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-3.jpg"
+        ],
+        "lista": [
+          "Acolhimento Humanizado",
+          "Técnicas de Respiração",
+          "Psicólogos Experientes",
+          "Sigilo Absoluto"
+        ]
+      },
+      {
+        "label": "Abordagem Científica",
+        "titulo": "Práticas Baseadas em Evidências",
+        "descricao": "Utilizamos abordagens reconhecidas pelo Conselho Federal de Psicologia para garantir resultados eficazes.",
+        "imagens": [
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-4.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-5.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-6.jpg"
+        ],
+        "lista": [
+          "Evolução Constante",
+          "Metodologias Validadas",
+          "Estudo de Caso",
+          "Foco na Autonomia"
+        ]
+      },
+      {
+        "label": "Atendimento Híbrido",
+        "titulo": "Terapia Onde Você Estiver",
+        "descricao": "Oferecemos a flexibilidade da terapia online via plataformas seguras ou o conforto do presencial.",
+        "imagens": [
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-7.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-8.jpg",
+          "dist/imagens/porque_escolher/psicologia/porque_escolher-9.jpg"
+        ],
+        "lista": [
+          "Conveniência Digital",
+          "Flexibilidade de Agenda",
+          "Mesma Qualidade Clínica",
+          "Suporte Técnico"
+        ]
+      }
+    ]
+  },
+  "clientes": {
+    "logos": [
+      "dist/imagens/clientes/psicologia/clientes-1.png",
+      "dist/imagens/clientes/psicologia/clientes-2.png",
+      "dist/imagens/clientes/psicologia/clientes-3.png",
+      "dist/imagens/clientes/psicologia/clientes-4.png",
+      "dist/imagens/clientes/psicologia/clientes-5.png"
+    ]
+  },
+  "habilidades": {
+    "background": "assets/images/shapes/skills-bg-2-1.png",
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossa Expertise",
+    "titulo": "Referência em Saúde Mental e Autoconhecimento",
+    "descricao": "Nossa equipe multidisciplinar trabalha para integrar mente e corpo, focando na resiliência e no crescimento pessoal.",
+    "imagem": "dist/imagens/habilidades/psicologia/habilidades-1.png",
+    "skills": [
+      {
+        "titulo": "Resolução de Conflitos",
+        "percentual": 88
+      },
+      {
+        "titulo": "Promoção de Bem-Estar",
+        "percentual": 98
+      }
+    ]
+  },
+  "processo": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Sua Jornada Terapêutica",
+    "titulo": "Como Iniciar Sua Terapia",
+    "shape": "assets/images/shapes/work-process-shape-1-1.png",
+    "etapas": [
+      {
+        "icone": "icon-user-check",
+        "titulo": "Primeiro Contato",
+        "descricao": "Fale conosco para entendermos sua demanda inicial."
+      },
+      {
+        "icone": "icon-calendar-check",
+        "titulo": "Agendamento",
+        "descricao": "Escolha o profissional e o horário que melhor lhe atendem."
+      },
+      {
+        "icone": "icon-chat",
+        "titulo": "Sessão Inicial",
+        "descricao": "Momento de triagem e estabelecimento do vínculo terapêutico."
+      },
+      {
+        "icone": "icon-flower",
+        "titulo": "Processo de Cura",
+        "descricao": "Continuidade do tratamento focado em seus objetivos."
+      }
+    ]
+  },
+  "instagram": {
+    "imagens": [
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-1.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-2.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-3.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-4.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-5.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "dist/imagens/instagram/psicologia/instagram-6.jpg",
+        "link": "https://www.instagram.com/"
+      }
+    ]
+  },
+  "boas_vindas": {
+    "background": "assets/images/backgrounds/welcome-bg-2-1.jpg",
+    "background_interno": "assets/images/shapes/welcome-inner-bg-1-1.jpg",
+    "icone": "assets/images/shapes/sec-title-s-1-2.png",
+    "subtitulo": "Inicie sua jornada",
+    "titulo": "Sinta-se Acolhido <br> em Nossa Clínica",
+    "descricao": "Nossa missão é oferecer um refúgio para sua mente. Acreditamos que todos merecem um espaço para falar, ser ouvido e encontrar novas perspectivas para enfrentar a vida.",
+    "imagem": "dist/imagens/boas_vindas/psicologia/boas_vindas-1.jpg",
+    "botao": {
+      "titulo": "Agendar Minha Vaga",
+      "link": "appointment.html"
+    }
+  },
+  "depoimentos": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Vozes da Mudança",
+    "titulo": "O que nossos pacientes <br> dizem sobre a Mente Serena",
+    "shape": "assets/images/shapes/testimonials-shape-2-1.png",
+    "carousel_options": {
+      "items": 1,
+      "margin": 10,
+      "loop": true,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "992": {
+          "items": 2,
+          "margin": 30
+        }
+      }
+    },
+    "items": [
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "A terapia mudou minha forma de enxergar o mundo. Me sinto muito mais confiante e em paz comigo mesma hoje.",
+        "nome": "Marina S. Oliveira",
+        "cargo": "Paciente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-1.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Excelente ambiente e profissionais incríveis. O atendimento online funciona super bem e é muito prático.",
+        "nome": "Ricardo Pereira",
+        "cargo": "Paciente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-2.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Encontrei o suporte que precisava para lidar com o luto. A psicóloga foi extremamente sensível e técnica.",
+        "nome": "Carla F. Mendes",
+        "cargo": "Paciente",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-3.jpg"
+      },
+      {
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "As sessões de casal salvaram nosso relacionamento. Aprendemos a nos comunicar de forma saudável.",
+        "nome": "João e Ana",
+        "cargo": "Pacientes",
+        "imagem": "dist/imagens/depoimentos/psicologia/depoimentos-4.jpg"
       }
     ]
   },
   "team": [
     {
-      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-notebook-office-260nw-2630595975.jpg",
-      "name": "Dr. Ana Silva",
-      "cargo": "Psicóloga Clínica"
+      "imagem": "dist/imagens/team/psicologia/team-1.jpg",
+      "name": "Dra. Beatriz Santos",
+      "cargo": "Psicóloga Clínica (TCC)"
     },
     {
-      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-notebook-office-260nw-2590576733.jpg",
-      "name": "Dr. João Oliveira",
-      "cargo": "Psicólogo Especialista em Casais"
+      "imagem": "dist/imagens/team/psicologia/team-2.jpg",
+      "name": "Dr. Henrique Lima",
+      "cargo": "Psicanalista"
     },
     {
-      "imagem": "https://img.freepik.com/fotos-premium/retrato-de-psicologo-profissional-de-mulher-de-meia-idade-no-escritorio_116407-9960.jpg",
-      "name": "Dra. Maria Fernandes",
-      "cargo": "Psicóloga Infantil"
+      "imagem": "dist/imagens/team/psicologia/team-3.jpg",
+      "name": "Dra. Juliana Costa",
+      "cargo": "Neuropsicóloga"
     },
     {
-      "imagem": "https://www.shutterstock.com/image-photo/portrait-professional-psychologist-clipboard-office-260nw-2589073943.jpg",
-      "name": "Dr. Pedro Santos",
-      "cargo": "Neuropsicólogo"
+      "imagem": "dist/imagens/team/psicologia/team-4.jpg",
+      "name": "Dr. Roberto Alves",
+      "cargo": "Psicólogo Infantil"
     }
-  ]
+  ],
+  "faq": {
+    "background": "assets/images/shapes/faq-bg-2-1.png",
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Dúvidas Comuns",
+    "titulo": "Perguntas Frequentes <br> Sobre Psicoterapia",
+    "imagem_principal": "dist/imagens/faq/psicologia/faq-1.png",
+    "imagem_secundaria": "dist/imagens/faq/psicologia/faq-2.png",
+    "imagem_shape": "assets/images/shapes/faq-shape-2-2.png",
+    "shape_inferior": "assets/images/shapes/faq-shape-2-1.png",
+    "itens": [
+      {
+        "pergunta": "Quanto tempo dura uma sessão de terapia?",
+        "resposta": "Em média, as sessões individuais têm duração de 50 minutos, ocorrendo uma vez por semana, conforme a necessidade do paciente."
+      },
+      {
+        "pergunta": "A clínica atende por planos de saúde?",
+        "resposta": "Atendemos diversos convênios por sistema de reembolso ou rede credenciada. Consulte nossa recepção para detalhes específicos."
+      },
+      {
+        "pergunta": "Como saber se preciso de um psicólogo?",
+        "resposta": "Se você sente que suas emoções estão afetando sua rotina, sono ou relações, ou simplesmente busca autoconhecimento, a terapia é indicada."
+      }
+    ]
+  },
+  "equipe": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossos Terapeutas",
+    "titulo": "Conheça Quem Vai te Acompanhar",
+    "carousel_config": {
+      "items": 1,
+      "margin": 10,
+      "loop": false,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "576": {
+          "items": 2,
+          "margin": 30
+        },
+        "992": {
+          "items": 3,
+          "margin": 30
+        },
+        "1200": {
+          "items": 4,
+          "margin": 30,
+          "dots": false
+        }
+      }
+    },
+    "membros": [
+      {
+        "nome": "Dra. Beatriz Santos",
+        "cargo": "CRP 09/12345",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-1.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          }
+        ]
+      },
+      {
+        "nome": "Dr. Henrique Lima",
+        "cargo": "CRP 09/67890",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-2.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          },
+          {
+            "nome": "YouTube",
+            "icone": "fab fa-youtube",
+            "link": "https://youtube.com"
+          }
+        ]
+      },
+      {
+        "nome": "Dra. Juliana Costa",
+        "cargo": "CRP 09/11223",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-3.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          }
+        ]
+      },
+      {
+        "nome": "Dr. Roberto Alves",
+        "cargo": "CRP 09/44556",
+        "imagem": "dist/imagens/equipe/psicologia/equipe-4.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "background": "assets/images/shapes/footer-bg.png",
+    "logo": {
+      "imagem": "dist/imagens/footer/psicologia/logo-light.png",
+      "link": "/",
+      "alt": "Logo Mente Serena"
+    },
+    "sobre_texto": "Somos uma clínica focada na saúde mental, oferecendo suporte psicológico com excelência, ética e profundo respeito ao ser humano.",
+    "botao": {
+      "titulo": "Agende uma conversa",
+      "link": "/contato"
+    },
+    "redes_sociais": [
+      {
+        "nome": "Facebook",
+        "icone": "fab fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "nome": "Twitter",
+        "icone": "fab fa-x-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "nome": "Instagram",
+        "icone": "fab fa-instagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "nome": "YouTube",
+        "icone": "fab fa-youtube",
+        "link": "https://youtube.com"
+      }
+    ],
+    "servicos": {
+      "titulo": "Áreas de Atuação",
+      "links": [
+        {
+          "titulo": "Ansiedade",
+          "url": "/servicos/ansiedade"
+        },
+        {
+          "titulo": "Depressão",
+          "url": "/servicos/depressao"
+        },
+        {
+          "titulo": "Terapia Infantil",
+          "url": "/servicos/infantil"
+        },
+        {
+          "titulo": "Luto e Perda",
+          "url": "/servicos/luto"
+        },
+        {
+          "titulo": "Autoconhecimento",
+          "url": "/servicos/autoconhecimento"
+        }
+      ]
+    },
+    "links_uteis": {
+      "titulo": "Links Úteis",
+      "links": [
+        {
+          "titulo": "Sobre Nós",
+          "url": "/sobre"
+        },
+        {
+          "titulo": "Especialidades",
+          "url": "/servicos"
+        },
+        {
+          "titulo": "Nossa Equipe",
+          "url": "/equipe"
+        },
+        {
+          "titulo": "Artigos de Saúde",
+          "url": "/blog"
+        },
+        {
+          "titulo": "Contato",
+          "url": "/contato"
+        }
+      ]
+    },
+    "noticias": {
+      "titulo": "Saúde Mental Blog",
+      "items": [
+        {
+          "imagem": "dist/imagens/blog/psicologia/post-1.jpg",
+          "titulo": "Como gerenciar a ansiedade no trabalho",
+          "autor": "Admin",
+          "comentarios": 5,
+          "link": "/blog/1"
+        },
+        {
+          "imagem": "dist/imagens/blog/psicologia/post-2.jpg",
+          "titulo": "A importância do sono para as emoções",
+          "autor": "Admin",
+          "comentarios": 8,
+          "link": "/blog/2"
+        }
+      ]
+    },
+    "contato": {
+      "background": "assets/images/backgrounds/footer-contact-bg.jpg",
+      "items": [
+        {
+          "icone": "icon-location",
+          "titulo": "Endereço",
+          "texto": "Rua das Oliveiras, 456 - Goiânia/GO",
+          "link": "https://maps.google.com"
+        },
+        {
+          "icone": "icon-email",
+          "titulo": "E-mail",
+          "texto": "contato@seudominio.com",
+          "link": "mailto:contato@seudominio.com"
+        },
+        {
+          "icone": "icon-telephone",
+          "titulo": "Telefone",
+          "texto": "(62) 98204-5122",
+          "link": "tel:62982045122"
+        }
+      ]
+    },
+    "copyright": "© Copyright 2026 - Mente Serena Psicologia. Todos os direitos reservados."
+  }
 }

@@ -1,336 +1,743 @@
 Este é um modelo de template para odontologia.
 
-- Eu preciso que voce crie uma versão para: engenharia. 
+- Eu preciso que voce crie uma versão para: psicologia. 
 - Seja criativo, simule uma empresa real.
 - Mas respeite todos os campos (indexes), nao troque os valores.
 - A quantidade de items você pode manter o mesmo, como serviços, depoimentos e afins. 
-- As imagens, emails, e link do whatsapp nao devem ser alteradas. 
+- O email padrao sera contato@seudominio.com o telefone (62) 5562982045122
+- As imagens devem seguir o padrao 'dist/imagens/[nome da seçao]/psicologia/[nome da seçao]-[x].[extensao]' 
 - Voce pode mecher nas cores para melhorar a paleta de acordo com o novo segmento.
+- Voce nao pode devolver o json encurtado ou abreviado, deve devolver exatamente como esta excepto ajustando os valores.
 
 {
   "schema": {
-    "background": "#0E1A2B",
+    "background": "#0F2A2E",
     "color": "#FFFFFF",
-    "primary-color": "#1F3C88",
-    "primary-color-rgb": "31,60,136",
-    "secondary-color": "#C9A24D",
-    "secondary-color-rgb": "201,162,77"
+    "primary-color": "#4FA3A5",
+    "primary-color-rgb": "79,163,165",
+    "secondary-color": "#C8B08A",
+    "secondary-color-rgb": "200,176,138"
   },
   "seo": {
-    "title": "Almeida & Torres Advogados — Soluções Jurídicas Estratégicas",
-    "description": "Escritório de advocacia especializado em Direito Civil, Trabalhista, Empresarial e Previdenciário.",
-    "keywords": "advocacia, advogado, direito civil, direito trabalhista, direito empresarial",
+    "title": "Instituto Vida Plena — Medicina e Saúde Integral",
+    "description": "Clínica médica especializada em atendimento humanizado, prevenção, diagnóstico e cuidado integral com a saúde.",
+    "keywords": "clínica médica, medicina, saúde integral, atendimento médico, consultas médicas, prevenção, bem-estar",
     "author": "CCO ANALITICA | ccoanalitica.com",
-    "favicon": "images/icon.webp"
+    "favicon": "images/icon.jpg"
   },
   "header": {
     "navbar": [
       {
         "texto": "Início",
-        "link": "#inicio"
+        "link": "#home"
       },
       {
         "texto": "Sobre",
-        "link": "#sobre"
+        "link": "#about"
       },
       {
         "texto": "Serviços",
-        "link": "#servicos"
+        "link": "#services"
       },
       {
         "texto": "Equipe",
-        "link": "#equipe"
+        "link": "#team"
       },
       {
         "texto": "Depoimentos",
-        "link": "#depoimentos"
+        "link": "#testimonials"
       },
       {
         "texto": "Contato",
-        "link": "#contato"
+        "link": "#contact"
       }
-    ],
-    "botao": {
-      "texto": "Falar com Advogado",
-      "link": "https://wa.me/5562982045122"
-    }
+    ]
   },
   "hero": {
-    "imagem": "dist/imagens/hero/advocacia/hero-1.jpg",
-    "top": "Bem-vindo ao Almeida & Torres Advogados",
-    "title": "Defendendo Seus Direitos com Excelência e Estratégia",
-    "description": "Há mais de 15 anos oferecendo assessoria jurídica completa, com atuação ética, estratégica e focada em resultados concretos para pessoas físicas e empresas.",
-    "botao": {
-      "texto": "Agendar Consultoria",
-      "link": "https://wa.me/5562982045122"
-    },
-    "bottom": {
-      "google": "Avaliação no Google",
-      "avaliacoes": "Mais de 23 mil avaliações"
-    },
-    "informacoes": {
-      "atendimento": {
-        "titulo": "Precisa de Ajuda Jurídica?",
-        "descricao": "Ligue agora: (11) 99999-9999"
+    "slides": [
+      {
+        "imagem": "https://img.freepik.com/free-photo/doctor-consulting-patient-clinic_23-2149304270.jpg",
+        "subtitle": "ATENDIMENTO MÉDICO HUMANIZADO",
+        "title": "Cuidar da Sua Saúde é Prioridade",
+        "text": "Há mais de 15 anos oferecendo atendimento médico de excelência, focado na prevenção, diagnóstico preciso e qualidade de vida.",
+        "botao1": {
+          "texto": "Nossas Especialidades",
+          "link": "#services"
+        },
+        "botao2": {
+          "texto": "Agendar Consulta",
+          "link": "https://wa.me/5562982045122"
+        }
       },
-      "horario": {
-        "titulo": "Horário de Atendimento",
-        "descricao": "Segunda a Sexta das 08h às 19h"
+      {
+        "imagem": "https://media.istockphoto.com/id/1366374031/photo/doctor-meeting-with-patient.jpg?s=612x612",
+        "subtitle": "CUIDADO COMPLETO",
+        "title": "Medicina Preventiva e Tratamentos Personalizados",
+        "text": "Consultas individualizadas para acompanhamento, prevenção de doenças e promoção da saúde.",
+        "botao1": {
+          "texto": "Saiba Mais",
+          "link": "#about"
+        },
+        "botao2": {
+          "texto": "Contato",
+          "link": "https://wa.me/5562982045122"
+        }
       },
-      "contato": {
-        "titulo": "Envie uma Mensagem",
-        "descricao": "contato@seudominio.com.br"
+      {
+        "imagem": "https://media.istockphoto.com/id/1319031310/photo/doctor-examining-patient.jpg?s=612x612",
+        "subtitle": "APOIO MÉDICO ESPECIALIZADO",
+        "title": "Diagnóstico Preciso e Cuidado Contínuo",
+        "text": "Equipe médica preparada para cuidar de você em todas as fases da vida.",
+        "botao1": {
+          "texto": "Ver Serviços",
+          "link": "#services"
+        },
+        "botao2": {
+          "texto": "Agende Agora",
+          "link": "https://wa.me/5562982045122"
+        }
+      }
+    ],
+    "atendimento": {
+      "titulo": "Precisa de Atendimento?",
+      "telefone": "(11) 99999-9999"
+    },
+    "social": {
+      "facebook": {
+        "icone": "fab fa-facebook-f",
+        "link": "#"
+      },
+      "x": {
+        "icone": "",
+        "link": "#"
+      },
+      "instagram": {
+        "icone": "",
+        "link": "#"
+      },
+      "youtube": {
+        "icone": "",
+        "link": "#"
       }
     }
   },
+  "features": [
+    {
+      "icon": "icon-doctor",
+      "title": "Médicos Especialistas",
+      "text": "Equipe médica qualificada, com ampla experiência clínica e constante atualização."
+    },
+    {
+      "icon": "icon-heartbeat",
+      "title": "Atendimento Humanizado",
+      "text": "Cuidado individualizado, respeitando a história e as necessidades de cada paciente."
+    },
+    {
+      "icon": "icon-hospital",
+      "title": "Estrutura Moderna",
+      "text": "Ambiente confortável, seguro e equipado com tecnologia atual."
+    },
+    {
+      "icon": "icon-support",
+      "title": "Acompanhamento Contínuo",
+      "text": "Suporte médico antes, durante e após o tratamento."
+    }
+  ],
   "sobre": {
-    "subtitulo": "Sobre o Escritório",
-    "titulo": "Compromisso com Justiça, Ética e Resultados",
-    "description": "Atuação jurídica sólida, transparente e personalizada.",
-    "solucoes": [
-      "Atendimento Personalizado",
-      "Estratégia Jurídica Preventiva",
-      "Defesa Técnica Especializada",
-      "Acompanhamento Processual Completo"
+    "imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
+    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
+    "subtitulo": "Sobre Nós",
+    "titulo": "Cuidado Médico Completo com Excelência e Humanização",
+    "descricao": "O Instituto Vida Plena é uma clínica médica dedicada à promoção da saúde, prevenção de doenças e tratamento humanizado.",
+    "lista": [
+      "Atendimento Clínico Completo",
+      "Medicina Preventiva",
+      "Equipe Médica Especializada",
+      "Compromisso com o Bem-Estar"
     ],
-    "imagens": [
-      "dist/imagens/sobre/advocacia/sobre-1.jpg",
-      "dist/imagens/sobre/advocacia/sobre-2.jpg"
+    "botao": {
+      "titulo": "Saiba Mais",
+      "link": "https://wa.me/5562982045122"
+    }
+  },
+  "contadores": {
+    "items": [
+      {
+        "titulo": "Satisfied Patients",
+        "numero": 65,
+        "simbolo": "%"
+      },
+      {
+        "titulo": "Professional Doctors",
+        "numero": 99,
+        "simbolo": "+"
+      },
+      {
+        "titulo": "Operations Successful",
+        "numero": 125,
+        "simbolo": "%"
+      },
+      {
+        "titulo": "Awards Win",
+        "numero": 125,
+        "simbolo": "+"
+      }
     ]
   },
   "servicos": {
-    "subtitulo": "Áreas de Atuação",
-    "titulo": "Soluções Jurídicas para Cada Necessidade",
-    "descricao": "Atuamos de forma estratégica em diversas áreas do Direito, sempre focados na melhor solução para o cliente.",
+    "subtitulo": "Nossos Serviços",
+    "titulo": "Especialidades Médicas",
     "items": [
       {
-        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-civil-1.jpg",
-        "titulo": "Direito Civil",
-        "descricao": "Contratos, indenizações, família, sucessões e responsabilidade civil."
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Clínica Geral"
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-trabalhista-1.jpg",
-        "titulo": "Direito Trabalhista",
-        "descricao": "Defesa de empregados e empregadores, ações trabalhistas e consultoria preventiva."
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Cardiologia"
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-empresarial-1.jpg",
-        "titulo": "Direito Empresarial",
-        "descricao": "Assessoria jurídica para empresas, contratos, compliance e litígios."
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Endocrinologia"
       },
       {
-        "imagem": "dist/imagens/servicos/advocacia/servicos-direito-previdenciario-1.jpg",
-        "titulo": "Direito Previdenciário",
-        "descricao": "Aposentadorias, benefícios previdenciários e revisões."
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Geriatria"
+      },
+      {
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Medicina Preventiva"
+      },
+      {
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+        "link": "https://wa.me/5562982045122",
+        "titulo": "Check-up Completo"
       }
     ]
   },
-  "contadores": [
-    {
-      "numero": 10000,
-      "texto": "Clientes Atendidos"
-    },
-    {
-      "numero": 2500,
-      "texto": "Processos Concluídos"
-    },
-    {
-      "numero": 800,
-      "texto": "Acordos Realizados"
-    },
-    {
-      "numero": 15,
-      "texto": "Anos de Atuação"
+  "porque_escolher": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Por que escolher a gente",
+    "titulo": "Somos Apaixonados, <br> Dedicados e Acessíveis",
+    "abas": [
+      {
+        "label": "Casos de Emergência",
+        "titulo": "Atendimento de Emergência Odontológica",
+        "descricao": "Atendimento rápido para emergências dentárias como dor intensa, dentes quebrados ou acidentes.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-1.jpg",
+          "assets/images/why-choose/why-choose-2-2.jpg",
+          "assets/images/why-choose/why-choose-2-3.jpg"
+        ],
+        "lista": [
+          "Atendimento Humanizado",
+          "Tecnologia Moderna",
+          "Dentistas Especializados",
+          "Custos Acessíveis"
+        ]
+      },
+      {
+        "label": "Habilidades Profissionais",
+        "titulo": "Equipe Altamente Qualificada",
+        "descricao": "Profissionais experientes, atualizados e preparados para oferecer o melhor tratamento.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-4.jpg",
+          "assets/images/why-choose/why-choose-2-5.jpg",
+          "assets/images/why-choose/why-choose-2-6.jpg"
+        ],
+        "lista": [
+          "Excelência Clínica",
+          "Equipamentos de Última Geração",
+          "Equipe Multidisciplinar",
+          "Foco no Paciente"
+        ]
+      },
+      {
+        "label": "Horário de Funcionamento",
+        "titulo": "Horários Flexíveis para Você",
+        "descricao": "Atendemos em horários pensados para se adaptar à sua rotina.",
+        "imagens": [
+          "assets/images/why-choose/why-choose-2-7.jpg",
+          "assets/images/why-choose/why-choose-2-8.jpg",
+          "assets/images/why-choose/why-choose-2-9.jpg"
+        ],
+        "lista": [
+          "Atendimento Estendido",
+          "Agendamento Facilitado",
+          "Pontualidade",
+          "Suporte Contínuo"
+        ]
+      }
+    ]
+  },
+  "clientes": {
+    "logos": [
+      "assets/images/brand/brand-1-1.png",
+      "assets/images/brand/brand-1-2.png",
+      "assets/images/brand/brand-1-3.png",
+      "assets/images/brand/brand-1-4.png",
+      "assets/images/brand/brand-1-5.png"
+    ]
+  },
+  "habilidades": {
+    "background": "assets/images/shapes/skills-bg-2-1.png",
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Somos especialistas em saúde",
+    "titulo": "Somos referência em cuidados médicos na cidade",
+    "descricao": "Nossa equipe de profissionais altamente qualificados une experiência e dedicação ao cuidado com o paciente.",
+    "imagem": "assets/images/resources/skills-2-1.png",
+    "skills": [
+      {
+        "titulo": "Operações Críticas",
+        "percentual": 90
+      },
+      {
+        "titulo": "Ações Sociais em Saúde",
+        "percentual": 95
+      }
+    ]
+  },
+  "processo": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nosso Processo de Trabalho",
+    "titulo": "Como Funciona Nosso Atendimento",
+    "shape": "assets/images/shapes/work-process-shape-1-1.png",
+    "etapas": [
+      {
+        "icone": "icon-doctor-2",
+        "titulo": "Escolha um Profissional",
+        "descricao": "Selecione o médico ideal conforme sua necessidade."
+      },
+      {
+        "icone": "icon-assessment",
+        "titulo": "Defina os Requisitos",
+        "descricao": "Entendemos suas necessidades de forma personalizada."
+      },
+      {
+        "icone": "icon-consultation",
+        "titulo": "Agende uma Consulta",
+        "descricao": "Escolha o melhor dia e horário para você."
+      },
+      {
+        "icone": "icon-handshake",
+        "titulo": "Solução Final",
+        "descricao": "Atendimento completo e acompanhamento contínuo."
+      }
+    ]
+  },
+  "instagram": {
+    "imagens": [
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-1.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-2.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-3.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-4.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-5.jpg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "imagem": "assets/images/gallery/gallery-instagram-1-6.jpg",
+        "link": "https://www.instagram.com/"
+      }
+    ]
+  },
+  "boas_vindas": {
+    "background": "assets/images/backgrounds/welcome-bg-2-1.jpg",
+    "background_interno": "assets/images/shapes/welcome-inner-bg-1-1.jpg",
+    "icone": "assets/images/shapes/sec-title-s-1-2.png",
+    "subtitulo": "Bem-vindo, novos pacientes",
+    "titulo": "Estamos de Portas Abertas <br> para Novos Pacientes",
+    "descricao": "Uma breve apresentação sobre a missão da clínica, destacando o compromisso com o cuidado humanizado, a saúde da comunidade e o bem-estar dos pacientes.",
+    "imagem": "assets/images/resources/welcome-1-1.jpg",
+    "botao": {
+      "titulo": "Agendar Consulta",
+      "link": "appointment.html"
     }
-  ],
-  "porque": {
-    "subtitulo": " Por que Escolher Nosso Escritório ",
-    "titulo": "Confiança, Estratégia e Transparência",
-    "descricao": "Nossa atuação é pautada pela ética, clareza nas informações e foco absoluto na defesa dos interesses do cliente.",
+  },
+  "depoimentos": {
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossos Depoimentos",
+    "titulo": "O que as pessoas dizem <br> sobre a Mediox",
+    "shape": "assets/images/shapes/testimonials-shape-2-1.png",
+    "carousel_options": {
+      "items": 1,
+      "margin": 10,
+      "loop": true,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "992": {
+          "items": 2,
+          "margin": 30
+        }
+      }
+    },
     "items": [
       {
-        "titulo": "Equipe Especializada",
-        "descricao": "Advogados experientes e atualizados com a legislação vigente."
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "A Mediox nos impressionou pela transparência nos custos e pela qualidade do atendimento desde o primeiro contato.",
+        "nome": "Michael G. Ware",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-1.jpg"
       },
       {
-        "titulo": "Atendimento Humanizado",
-        "descricao": "Cada caso é tratado de forma única e personalizada."
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "O atendimento foi excelente e o processo muito claro. Recomendo fortemente a clínica.",
+        "nome": "Mike Hardson",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-2.jpg"
       },
       {
-        "titulo": "Estratégia Jurídica",
-        "descricao": "Análise técnica e planejamento focado no melhor resultado."
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Equipe extremamente profissional, desde a recepção até os médicos. Me senti muito seguro.",
+        "nome": "John R. Green",
+        "cargo": "Diretor Executivo",
+        "imagem": "assets/images/testimonials/testimonial-2-3.jpg"
       },
       {
-        "titulo": "Transparência Total",
-        "descricao": "Comunicação clara e acompanhamento em todas as etapas."
+        "background": "assets/images/shapes/testimonial-card-bg-2-1.png",
+        "avaliacao": 5,
+        "texto": "Mesmo após várias consultas, o cuidado e a atenção continuam impecáveis.",
+        "nome": "Judith White",
+        "cargo": "Diretora Executiva",
+        "imagem": "assets/images/testimonials/testimonial-2-4.jpg"
       }
-    ],
-    "imagens": [
-      "dist/imagens/porquenos/advocacia/porquenos-1.webp",
-      "dist/imagens/porquenos/advocacia/porquenos-2.webp",
-      "dist/imagens/porquenos/advocacia/porquenos-3.webp"
+    ]
+  },
+  "team": [
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-confident-doctor-office-260nw-2148007067.jpg",
+      "name": "Dr. Carlos Almeida",
+      "cargo": "Clínico Geral"
+    },
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-male-cardiologist-hospital-260nw-2177320151.jpg",
+      "name": "Dr. Rafael Costa",
+      "cargo": "Cardiologista"
+    },
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-female-doctor-hospital-260nw-2156444981.jpg",
+      "name": "Dra. Fernanda Lima",
+      "cargo": "Endocrinologista"
+    },
+    {
+      "imagem": "https://www.shutterstock.com/image-photo/portrait-senior-doctor-office-260nw-2196847345.jpg",
+      "name": "Dr. Marcos Pereira",
+      "cargo": "Geriatra"
+    }
+  ],
+  "faq": {
+    "background": "assets/images/shapes/faq-bg-2-1.png",
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Perguntas Frequentes",
+    "titulo": "Perguntas Frequentes <br> Tem Alguma Dúvida?",
+    "imagem_principal": "assets/images/resources/faq-1-1.png",
+    "imagem_secundaria": "assets/images/resources/faq-1-2.png",
+    "imagem_shape": "assets/images/shapes/faq-shape-2-2.png",
+    "shape_inferior": "assets/images/shapes/faq-shape-2-1.png",
+    "itens": [
+      {
+        "pergunta": "Como funciona o processo de atendimento?",
+        "resposta": "Nosso atendimento começa com uma avaliação completa, seguida da definição do tratamento mais adequado para cada paciente."
+      },
+      {
+        "pergunta": "A clínica aceita convênios?",
+        "resposta": "Trabalhamos com diversos convênios médicos. Entre em contato para confirmar se o seu plano é aceito."
+      },
+      {
+        "pergunta": "É possível agendar consultas online?",
+        "resposta": "Sim, você pode agendar sua consulta online de forma rápida e segura através do nosso site ou WhatsApp."
+      }
     ]
   },
   "equipe": {
-    "subtitulo": "Nossa Equipe",
-    "titulo": "Advogados Especialistas",
-    "items": [
+    "icone": "assets/images/shapes/sec-title-s-1-1.png",
+    "subtitulo": "Nossa Equipe Especialista",
+    "titulo": "Conheça Nosso Time de Especialistas",
+    "carousel_config": {
+      "items": 1,
+      "margin": 10,
+      "loop": false,
+      "smartSpeed": 700,
+      "nav": false,
+      "dots": true,
+      "autoplay": true,
+      "responsive": {
+        "0": {
+          "items": 1,
+          "nav": true,
+          "dots": false,
+          "margin": 10
+        },
+        "576": {
+          "items": 2,
+          "margin": 30
+        },
+        "992": {
+          "items": 3,
+          "margin": 30
+        },
+        "1200": {
+          "items": 4,
+          "margin": 30,
+          "dots": false
+        }
+      }
+    },
+    "membros": [
       {
-        "texto": "Dr. Marcelo Almeida",
-        "descripcao": "Direito Civil e Empresarial",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-1.webp"
+        "nome": "Anthony B. Castillo",
+        "cargo": "Cardiologista",
+        "imagem": "assets/images/team/team-2-1.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          },
+          {
+            "nome": "YouTube",
+            "icone": "fab fa-youtube",
+            "link": "https://youtube.com"
+          }
+        ]
       },
       {
-        "texto": "Dra. Renata Torres",
-        "descripcao": "Direito Trabalhista",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-2.webp"
+        "nome": "David Cooper",
+        "cargo": "Audiologista",
+        "imagem": "assets/images/team/team-2-2.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          },
+          {
+            "nome": "YouTube",
+            "icone": "fab fa-youtube",
+            "link": "https://youtube.com"
+          }
+        ]
       },
       {
-        "texto": "Dr. Felipe Costa",
-        "descripcao": "Direito Previdenciário",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-homem-3.webp"
+        "nome": "Kevin Martin",
+        "cargo": "Dentista",
+        "imagem": "assets/images/team/team-2-3.jpg",
+        "link": "team-details.html",
+        "top_identity": true,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Instagram",
+            "icone": "fab fa-instagram",
+            "link": "https://instagram.com"
+          }
+        ]
       },
       {
-        "texto": "Dr. Maria Mendes",
-        "descripcao": "Consultoria Jurídica",
-        "imagem": "dist/imagens/equipe/advocacia/equipe-mulher-4.webp"
+        "nome": "Adlof Carone",
+        "cargo": "Neurologista",
+        "imagem": "assets/images/team/team-2-4.jpg",
+        "link": "team-details.html",
+        "top_identity": false,
+        "redes_sociais": [
+          {
+            "nome": "Facebook",
+            "icone": "fab fa-facebook-f",
+            "link": "https://facebook.com"
+          },
+          {
+            "nome": "Twitter",
+            "icone": "fab fa-twitter",
+            "link": "https://twitter.com"
+          }
+        ]
       }
     ]
-  },
-  "depoimentos": {
-    "subtitlo": "Depoimentos",
-    "titulo": "O que Nossos Clientes Dizem",
-    "items": [
-      {
-        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-1.webp",
-        "texto": "Excelente atendimento e total transparência durante todo o processo. Recomendo fortemente.",
-        "nome": "João Santos"
-      },
-      {
-        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-2.webp",
-        "texto": "Profissionais extremamente competentes e atenciosos. Resolveram meu caso com agilidade.",
-        "nome": "Júlio Oliveira"
-      },
-      {
-        "imagem": "dist/imagens/depoimentos/advocacia/depoimento-homem-3.webp",
-        "texto": "Escritório sério, ético e muito comprometido com o cliente.",
-        "nome": "Carlos Pereira"
-      }
-    ]
-  },
-  "galeria": {
-    "navbar": [
-      "todos",
-      "empresa",
-      "profissionais",
-      "servicos"
-    ],
-    "imagens": [
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-1.jpg"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-2.jpg"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-3.jpg"
-      },
-      {
-        "categoria": "empresa",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-empresa-4.jpg"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-1.webp"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-2.webp"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-3.webp"
-      },
-      {
-        "categoria": "profissionais",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-profissionais-4.webp"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-1.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-2.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-3.jpg"
-      },
-      {
-        "categoria": "servicos",
-        "imagem": "dist/imagens/galeria/advocacia/galeria-servicos-4.jpg"
-      }
-    ]
-  },
-  "video": {
-    "link": "https://www.youtube.com/embed/vqLSwt_V_Bg",
-    "imagem": "dist/imagens/video/advocacia/video-1.jpeg"
-  },
-  "faq": {
-    "subtitulo": "Dúvidas Frequentes",
-    "titulo": "Perguntas Mais Comuns",
-    "items": [
-      {
-        "pergunta": "Como funciona a primeira consulta?",
-        "resposta": "Realizamos uma análise detalhada do caso e orientamos sobre as melhores estratégias jurídicas."
-      },
-      {
-        "pergunta": "O atendimento é presencial ou online?",
-        "resposta": "Atendemos de forma presencial e também por videoconferência."
-      },
-      {
-        "pergunta": "Quanto tempo dura um processo?",
-        "resposta": "O prazo varia conforme o caso, a complexidade e o órgão responsável."
-      },
-      {
-        "pergunta": "Vocês atendem empresas?",
-        "resposta": "Sim, prestamos assessoria jurídica completa para empresas de diversos portes."
-      },
-      {
-        "pergunta": "As informações são sigilosas?",
-        "resposta": "Sim, todo atendimento é realizado com absoluto sigilo e ética profissional."
-      }
-    ]
-  },
-  "contato": {
-    "subtitulo": "Entre em Contato",
-    "titulo": "Fale com um Advogado",
-    "descricao": "Entre em contato conosco e agende uma consultoria jurídica especializada.",
-    "horarios": "Seg - Sex: 08:00 - 19:00",
-    "endereco": "Av. Paulista, 1000 - São Paulo - SP",
-    "telefone": "(11) 99999-9999",
-    "email": "contato@seudominio.com.br",
-    "social": {
-      "facebook": "#",
-      "instagram": "#",
-      "whatsapp": "#",
-      "linkedin": "#",
-      "x": "#"
-    }
-  },
-  "acao": {
-    "texto": "Precisa de orientação jurídica agora?",
-    "botao": {
-      "link": "https://wa.me/5562982045122",
-      "texto": "Falar com Advogado"
-    }
   },
   "footer": {
-    "description": "Atuação jurídica sólida, ética e focada em resultados.",
-    "copyright": "© 2025 Almeida & Torres Advogados"
+    "background": "assets/images/shapes/footer-bg.png",
+    "logo": {
+      "imagem": "assets/images/logo-light.png",
+      "link": "/",
+      "alt": "Logo da Clínica"
+    },
+    "sobre_texto": "Somos uma clínica focada em cuidado médico humanizado, tecnologia e excelência no atendimento.",
+    "botao": {
+      "titulo": "Fale com um especialista",
+      "link": "/contato"
+    },
+    "redes_sociais": [
+      {
+        "nome": "Facebook",
+        "icone": "fab fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "nome": "Twitter",
+        "icone": "fab fa-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "nome": "Instagram",
+        "icone": "fab fa-instagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "nome": "YouTube",
+        "icone": "fab fa-youtube",
+        "link": "https://youtube.com"
+      }
+    ],
+    "servicos": {
+      "titulo": "Nossos Serviços",
+      "links": [
+        {
+          "titulo": "Cardiologia",
+          "url": "/servicos/cardiologia"
+        },
+        {
+          "titulo": "Urgência",
+          "url": "/servicos/urgencia"
+        },
+        {
+          "titulo": "Ortopedia",
+          "url": "/servicos/ortopedia"
+        },
+        {
+          "titulo": "Neurologia",
+          "url": "/servicos/neurologia"
+        },
+        {
+          "titulo": "Ginecologia",
+          "url": "/servicos/ginecologia"
+        }
+      ]
+    },
+    "links_uteis": {
+      "titulo": "Links Úteis",
+      "links": [
+        {
+          "titulo": "Sobre Nós",
+          "url": "/sobre"
+        },
+        {
+          "titulo": "Serviços",
+          "url": "/servicos"
+        },
+        {
+          "titulo": "Equipe",
+          "url": "/equipe"
+        },
+        {
+          "titulo": "Blog",
+          "url": "/blog"
+        },
+        {
+          "titulo": "Contato",
+          "url": "/contato"
+        }
+      ]
+    },
+    "noticias": {
+      "titulo": "Últimas Notícias",
+      "items": [
+        {
+          "imagem": "assets/images/blog/post-1.jpg",
+          "titulo": "Avanços na medicina preventiva",
+          "autor": "Admin",
+          "comentarios": 2,
+          "link": "/blog/1"
+        },
+        {
+          "imagem": "assets/images/blog/post-2.jpg",
+          "titulo": "Cuidados essenciais para sua saúde",
+          "autor": "Admin",
+          "comentarios": 3,
+          "link": "/blog/2"
+        }
+      ]
+    },
+    "contato": {
+      "background": "assets/images/backgrounds/footer-contact-bg.jpg",
+      "items": [
+        {
+          "icone": "icon-location",
+          "titulo": "Endereço",
+          "texto": "Av. Central, 123 - São Paulo",
+          "link": "https://maps.google.com"
+        },
+        {
+          "icone": "icon-email",
+          "titulo": "E-mail",
+          "texto": "contato@clinica.com",
+          "link": "mailto:contato@clinica.com"
+        },
+        {
+          "icone": "icon-telephone",
+          "titulo": "Telefone",
+          "texto": "(11) 99999-9999",
+          "link": "tel:11999999999"
+        }
+      ]
+    },
+    "copyright": "© Copyright 2026 - Clínica Médica. Todos os direitos reservados."
   }
 }
