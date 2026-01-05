@@ -271,10 +271,10 @@
                 "titulo": "Agendar Consulta",
                 "link": "https://wa.me/5562982045122"
             }
+        },
+        "search": {
+            "placeholder": "Buscar conteúdos, artigos ou serviços..."
         }
-    },
-    "search": {
-        "placeholder": "Buscar conteúdos, artigos ou serviços..."
     },
     "banner": {
         "background": "dist/imagens/banner/psicologia/banner-1.jpg",
