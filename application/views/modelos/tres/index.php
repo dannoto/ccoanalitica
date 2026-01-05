@@ -1206,101 +1206,58 @@
 
 
 
-    <div class="mobile-nav__wrapper">
+<div class="mobile-nav__wrapper">
 
-        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
 
-        <!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
 
-        <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler">
+            <i class="icon-close"></i>
+        </span>
 
-            <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-close"></i></span>
-
-
-
-            <div class="logo-box logo-retina">
-
-                <a href="index.html" aria-label="logo image"><img src="<?= base_url() ?>dist/modelos/tres/assets/images/logo-light.png" width="164" alt="" /></a>
-
-            </div>
-
-            <!-- /.logo-box -->
-
-            <div class="mobile-nav__container"></div>
-
-            <!-- /.mobile-nav__container -->
-
-
-
-            <ul class="mobile-nav__contact list-unstyled">
-
-                <li>
-
-                    <span class="mobile-nav__contact__icon">
-
-                        <i class="fa fa-envelope"></i>
-
-                    </span>
-
-                    <a href="mailto:<?=$d['contato']['items'][1]['texto']?>"><?=$d['contato']['items'][1]['texto']?></a>
-
-                </li>
-
-                <li>
-
-                    <span class="mobile-nav__contact__icon">
-
-                        <i class="fa fa-phone-alt"></i>
-
-                    </span>
-
-                    <a href="<?=$d['contato']['items'][2]['link']?>"><?=$d['contato']['items'][2]['texto']?></a>
-
-                </li>
-
-            </ul><!-- /.mobile-nav__contact -->
-
-            <div class="mobile-nav__social social-links">
-
-                <a href="https://facebook.com">
-
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                    <span class="sr-only">Facebook</span>
-
-                </a>
-
-                <a href="https://twitter.com">
-
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-
-                    <span class="sr-only">Twitter</span>
-
-                </a>
-
-                <a href="https://instagram.com">
-
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-
-                    <span class="sr-only">Instagram</span>
-
-                </a>
-
-                <a href="https://youtube.com">
-
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                    <span class="sr-only">Youtube</span>
-
-                </a>
-
-            </div><!-- /.mobile-nav__social -->
-
+        <!-- LOGO -->
+        <div class="logo-box logo-retina">
+            <a href="<?= $d['mobile_nav']['logo']['link'] ?>" aria-label="logo image">
+                <img 
+                    src="<?= $d['mobile_nav']['logo']['imagem'] ?>" 
+                    width="<?= $d['mobile_nav']['logo']['width'] ?>" 
+                    alt="<?= $d['mobile_nav']['logo']['alt'] ?>" 
+                />
+            </a>
         </div>
 
-        <!-- /.mobile-nav__content -->
+        <!-- MENU DINÂMICO -->
+        <div class="mobile-nav__container">
+            <?= $d['mobile_nav']['menu_html'] ?>
+        </div>
+
+        <!-- CONTATOS -->
+        <ul class="mobile-nav__contact list-unstyled">
+            <?php foreach ($d['mobile_nav']['contatos'] as $contato): ?>
+                <li>
+                    <span class="mobile-nav__contact__icon">
+                        <i class="<?= $contato['icone'] ?>"></i>
+                    </span>
+                    <a href="<?= $contato['link'] ?>">
+                        <?= $contato['texto'] ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+
+        <!-- REDES SOCIAIS -->
+        <div class="mobile-nav__social social-links">
+            <?php foreach ($d['mobile_nav']['redes_sociais'] as $rede): ?>
+                <a href="<?= $rede['link'] ?>">
+                    <i class="<?= $rede['icone'] ?>" aria-hidden="true"></i>
+                    <span class="sr-only"><?= $rede['nome'] ?></span>
+                </a>
+            <?php endforeach; ?>
+        </div>
 
     </div>
+</div>
 
     <!-- /.mobile-nav__wrapper -->
 
@@ -1332,132 +1289,102 @@
 
     <!-- /.search-popup -->
 
-    <aside class="sidebar-one">
+ <aside class="sidebar-one">
 
-        <div class="sidebar-one__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
+    <div class="sidebar-one__overlay sidebar-btn__toggler"></div>
 
-        <div class="sidebar-one__content">
+    <div class="sidebar-one__content">
 
-            <span class="sidebar-one__close sidebar-btn__toggler"><i class="icon-close"></i></span>
+        <span class="sidebar-one__close sidebar-btn__toggler">
+            <i class="icon-close"></i>
+        </span>
 
-            <div class="sidebar-one__logo sidebar-one__item logo-retina">
+        <!-- LOGO -->
+        <div class="sidebar-one__logo sidebar-one__item logo-retina">
+            <a href="<?= $d['sidebar']['logo']['link'] ?>" aria-label="logo image">
+                <img 
+                    src="<?= $d['sidebar']['logo']['imagem'] ?>" 
+                    width="<?= $d['sidebar']['logo']['width'] ?>" 
+                    alt="<?= $d['sidebar']['logo']['alt'] ?>" 
+                />
+            </a>
+        </div>
 
-                <a href="index.html" aria-label="logo image"><img src="<?= base_url() ?>dist/modelos/tres/assets/images/logo-light.png" width="164" alt="logo" />
+        <!-- TEXTO SOBRE -->
+        <div class="sidebar-one__about sidebar-one__item">
+            <p class="sidebar-one__about__text">
+                <?= $d['sidebar']['sobre']['texto'] ?>
+            </p>
+        </div>
 
-                </a>
+        <!-- INFORMAÇÕES DE CONTATO -->
+        <div class="sidebar-one__info sidebar-one__item">
 
-            </div><!-- /.sidebar-one__logo -->
+            <h4 class="sidebar-one__title">
+                <?= $d['sidebar']['contato']['titulo'] ?>
+            </h4>
 
-            <div class="sidebar-one__about sidebar-one__item">
-
-                <p class="sidebar-one__about__text">Here is main text quis nostrud exercitation ullamco laboris nisi here is itealic aliquip ex ea com</p>
-
-            </div><!-- /.sidebar-one__about -->
-
-            <div class="sidebar-one__info sidebar-one__item">
-
-                <h4 class="sidebar-one__title">Contact</h4>
-
-                <ul class="sidebar-one__info__list">
-
+            <ul class="sidebar-one__info__list">
+                <?php foreach ($d['sidebar']['contato']['items'] as $item): ?>
                     <li>
-
-                        <span class="sidebar-one__info__icon sidebar-one__info__icon--location">
-
-                            <i class="icon-location"></i>
-
+                        <span class="sidebar-one__info__icon <?= $item['classe_extra'] ?>">
+                            <i class="<?= $item['icone'] ?>"></i>
                         </span>
 
-                        <address>85 Ketch Harbour Road Bensal
-
-                            PA 19020</address>
-
+                        <?php if ($item['tipo'] === 'endereco'): ?>
+                            <address><?= $item['texto'] ?></address>
+                        <?php else: ?>
+                            <a href="<?= $item['link'] ?>">
+                                <?= $item['texto'] ?>
+                            </a>
+                        <?php endif; ?>
                     </li>
+                <?php endforeach; ?>
+            </ul>
 
-                    <li>
+        </div>
 
-                        <span class="sidebar-one__info__icon">
-
-                            <i class="icon-paper-plane"></i>
-
-                        </span>
-
-                        <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-
-                    </li>
-
-                    <li>
-
-                        <span class="sidebar-one__info__icon">
-
-                            <i class="icon-telephone"></i>
-
-                        </span>
-
-                        <a href="tel:+<?=$d['contato']['items'][2]['link']?>">+<?=$d['contato']['items'][2]['link']?></a>
-
-                    </li>
-
-                </ul><!-- /.sidebar-one__info__list -->
-
-            </div><!-- /.sidebar-one__info -->
-
-            <div class="social-links sidebar-one__item">
-
-                <a href="https://facebook.com">
-
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-
-                    <span class="sr-only">Facebook</span>
-
+        <!-- REDES SOCIAIS -->
+        <div class="social-links sidebar-one__item">
+            <?php foreach ($d['sidebar']['redes_sociais'] as $rede): ?>
+                <a href="<?= $rede['link'] ?>">
+                    <i class="<?= $rede['icone'] ?>" aria-hidden="true"></i>
+                    <span class="sr-only"><?= $rede['nome'] ?></span>
                 </a>
+            <?php endforeach; ?>
+        </div>
 
-                <a href="https://twitter.com">
+        <!-- NEWSLETTER -->
+        <div class="sidebar-one__newsletter sidebar-one__item">
 
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
+            <label class="sidebar-one__title" for="sidebar-email">
+                <?= $d['sidebar']['newsletter']['titulo'] ?>
+            </label>
 
-                    <span class="sr-only">Twitter</span>
+            <form 
+                action="<?= $d['sidebar']['newsletter']['action'] ?>" 
+                class="sidebar-one__newsletter__inner mc-form"
+                data-url="<?= $d['sidebar']['newsletter']['data_url'] ?>"
+            >
+                <input 
+                    type="email" 
+                    name="EMAIL" 
+                    id="sidebar-email"
+                    class="sidebar-one__newsletter__input"
+                    placeholder="<?= $d['sidebar']['newsletter']['placeholder'] ?>"
+                >
 
-                </a>
+                <button type="submit" class="sidebar-one__newsletter__btn">
+                    <span class="<?= $d['sidebar']['newsletter']['icone'] ?>" aria-hidden="true"></span>
+                </button>
+            </form>
 
-                <a href="https://instagram.com">
+            <div class="mc-form__response"></div>
 
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
+        </div>
 
-                    <span class="sr-only">Instagram</span>
-
-                </a>
-
-                <a href="https://youtube.com">
-
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-
-                    <span class="sr-only">Youtube</span>
-
-                </a>
-
-            </div><!-- /sidebar-one__social -->
-
-            <div class="sidebar-one__newsletter sidebar-one__item">
-
-                <label class="sidebar-one__title" for="sidebar-email">Newsletter</label>
-
-                <form action="#" class="sidebar-one__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
-
-                    <input type="email" name="EMAIL" id="sidebar-email" class="sidebar-one__newsletter__input" placeholder="Email Address">
-
-                    <button type="submit" class="sidebar-one__newsletter__btn"><span class="icon-email" aria-hidden="true"></span></button>
-
-                </form>
-
-                <div class="mc-form__response"></div><!-- /.mc-form__response -->
-
-            </div><!-- /.sidebar-one__form -->
-
-        </div><!-- /.sidebar__content -->
-
-    </aside><!-- /.sidebar-one -->
-
+    </div>
+</aside>
 
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">

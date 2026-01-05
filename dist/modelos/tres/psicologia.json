@@ -708,5 +708,119 @@
       ]
     },
     "copyright": "© Copyright 2026 - Mente Serena Psicologia. Todos os direitos reservados."
+  },
+  
+  "mobile_nav": {
+    "logo": {
+      "imagem": "dist/modelos/tres/assets/images/logo-light.png",
+      "link": "index.html",
+      "width": 164,
+      "alt": "Logo do site"
+    },
+    "menu_html": "",
+    "contatos": [
+      {
+        "icone": "fa fa-envelope",
+        "texto": "needhelp@mediox.com",
+        "link": "mailto:needhelp@mediox.com"
+      },
+      {
+        "icone": "fa fa-phone-alt",
+        "texto": "+91 5698 0036 420",
+        "link": "tel:+9156980036420"
+      }
+    ],
+    "redes_sociais": [
+      {
+        "nome": "Facebook",
+        "icone": "fab fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "nome": "Twitter",
+        "icone": "fab fa-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "nome": "Instagram",
+        "icone": "fab fa-instagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "nome": "Youtube",
+        "icone": "fab fa-youtube",
+        "link": "https://youtube.com"
+      }
+    ]
+  },
+
+  
+  "sidebar": {
+    "logo": {
+      "imagem": "dist/modelos/tres/assets/images/logo-light.png",
+      "link": "index.html",
+      "width": 164,
+      "alt": "Logo do site"
+    },
+    "sobre": {
+      "texto": "Aqui vai um texto institucional resumido, apresentando a empresa, seus valores, missão e compromisso com qualidade e atendimento."
+    },
+    "contato": {
+      "titulo": "Contato",
+      "items": [
+        {
+          "tipo": "endereco",
+          "icone": "icon-location",
+          "classe_extra": "sidebar-one__info__icon--location",
+          "texto": "85 Ketch Harbour Road Bensal PA 19020",
+          "link": ""
+        },
+        {
+          "tipo": "email",
+          "icone": "icon-paper-plane",
+          "classe_extra": "",
+          "texto": "needhelp@company.com",
+          "link": "mailto:needhelp@company.com"
+        },
+        {
+          "tipo": "telefone",
+          "icone": "icon-telephone",
+          "classe_extra": "",
+          "texto": "+91 5698 0036 420",
+          "link": "tel:+9156980036420"
+        }
+      ]
+    },
+    "redes_sociais": [
+      {
+        "nome": "Facebook",
+        "icone": "fab fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "nome": "Twitter",
+        "icone": "fab fa-twitter",
+        "link": "https://twitter.com"
+      },
+      {
+        "nome": "Instagram",
+        "icone": "fab fa-instagram",
+        "link": "https://instagram.com"
+      },
+      {
+        "nome": "Youtube",
+        "icone": "fab fa-youtube",
+        "link": "https://youtube.com"
+      }
+    ],
+    "newsletter": {
+      "titulo": "Newsletter",
+      "action": "#",
+      "data_url": "MAILCHIMP_FORM_URL",
+      "placeholder": "Endereço de e-mail",
+      "icone": "icon-email"
+    }
   }
+
+
 }
