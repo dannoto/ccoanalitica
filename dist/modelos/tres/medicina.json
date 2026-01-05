@@ -154,22 +154,22 @@
   "contadores": {
     "items": [
       {
-        "titlo": "Satisfied Patients",
+        "titulo": "Satisfied Patients",
         "numero": 65,
         "simbolo": "%"
       },
       {
-        "titlo": "Professional Doctors",
+        "titulo": "Professional Doctors",
         "numero": 99,
         "simbolo": "+"
       },
       {
-        "titlo": "Operations Successful",
+        "titulo": "Operations Successful",
         "numero": 125,
         "simbolo": "%"
       },
       {
-        "titlo": "Awards Win",
+        "titulo": "Awards Win",
         "numero": 125,
         "simbolo": "+"
       }
@@ -190,22 +190,22 @@
         "titulo": "Cardiologia"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1319031310/photo/doctor-examining-patient.jpg?s=612x612",
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
         "link": "https://wa.me/5562982045122",
         "titulo": "Endocrinologia"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1406412663/photo/doctor-with-stethoscope.jpg?s=612x612",
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
         "link": "https://wa.me/5562982045122",
         "titulo": "Geriatria"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1372002650/photo/medical-checkup.jpg?s=612x612",
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
         "link": "https://wa.me/5562982045122",
         "titulo": "Medicina Preventiva"
       },
       {
-        "imagem": "https://media.istockphoto.com/id/1366374044/photo/doctor-consultation.jpg?s=612x612",
+        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
         "link": "https://wa.me/5562982045122",
         "titulo": "Check-up Completo"
       }
