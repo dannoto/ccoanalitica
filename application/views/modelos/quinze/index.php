@@ -12,7 +12,7 @@
     <link href="https://demo.zytheme.com/medisch/assets/images/favicon/favicon.png" rel="icon" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&amp;family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-    <link href="<?= base_url() ?>assets/css/vendor.min.css" rel="stylesheet" />
+    <link href="<?= base_url() ?>dist/modelos/quize/assets/css/vendor.min.css" rel="stylesheet" />
     <link href="https://demo.zytheme.com/medisch/assets/css/style.css" rel="stylesheet" />
 </head>
 
