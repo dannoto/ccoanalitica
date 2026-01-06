@@ -405,46 +405,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonial testimonial-1 testimonial-2" id="testimonial-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-5">
-                        <div class="clients-img">
-                            <img src="<?= $d['depoimentos']['imagem_lateral'] ?>" alt="image" />
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6 offset-lg-1">
-                        <h6 class="section-head">
-                            <?= $d['depoimentos']['titulo'] ?>
-                        </h6>
-
-                        <div class="carousel owl-carousel carousel-dots">
-                            <?php foreach ($d['depoimentos']['items'] as $dep): ?>
-                                <div class="testimonial-panel testimonial-panel-2">
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p><?= $dep['texto'] ?></p>
-
-                                            <div class="testimonial-thumb">
-                                                <div class="thumb-img">
-                                                    <img src="<?= $dep['imagem'] ?>" alt="Depoimento" />
-                                                    <i class="icon-Quote-Icon"></i>
-                                                </div>
-                                                <div class="thumb-body">
-                                                    <h6><?= $dep['nome'] ?></h6>
-                                                    <p><?= $dep['profissao'] ?></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <section class="team team-modern team-carousel" id="teamCarousel-1">
             <div class="container">
                 <div class="row">
