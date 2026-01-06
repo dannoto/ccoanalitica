@@ -11,25 +11,25 @@
     <title>ConsTimes HTML5 Template</title>
 
     <!-- Apple Favicon -->
-    <link rel="apple-touch-icon" href="assets/img/logo/favicon.svg">
+    <link rel="apple-touch-icon" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/logo/favicon.svg">
 
     <!-- All Device Favicon -->
-    <link rel="icon" href="assets/img/logo/icon.svg">
+    <link rel="icon" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/logo/icon.svg">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/css/bootstrap.min.css">
 
     <!-- All Icons -->
-    <link rel="stylesheet" href="assets/all-icons/myicon.css">
+    <link rel="stylesheet" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/all-icons/myicon.css">
 
     <!-- Plugin -->
-    <link rel="stylesheet" href="assets/css/plugins.min.css">
+    <link rel="stylesheet" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/css/plugins.min.css">
 
     <!-- Style -->
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/css/style.min.css">
 
     <!-- Responsive -->
-    <link rel="stylesheet" href="assets/css/responsive.min.css">
+    <link rel="stylesheet" href="https://techsometimes.com/products/html/constimes/index-2.html/assets/css/responsive.min.css">
 
 </head>
 
@@ -77,7 +77,7 @@
                 <div class="container">
                     <div class="menu-bar-content">
                         <div class="menu-logo">
-                            <a href="index.html"><img src="assets//img/logo/logo-1.svg" alt="Logo"></a>
+                            <a href="index.html"><img src="https://techsometimes.com/products/html/constimes/index-2.html/assets//img/logo/logo-1.svg" alt="Logo"></a>
                         </div>
                         <nav class="main-menu">
                             <ul>
@@ -188,7 +188,7 @@
                         <div class="col-lg-6">
                             <div class="about-img wow animate__fadeInLeft" data-wow-duration="1.5s"
                                 data-wow-delay="0.2s">
-                                <img src="assets/img/about-us/about-img.jpg" alt="about-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/about-us/about-img.jpg" alt="about-img">
                                 <span class="wow animate__fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
                                     <button class="circle-play-btn venobox"
                                         data-background="assets/img/about-us/play-round.png" data-vbtype="video"
@@ -270,7 +270,7 @@
                                     <div class="my-icon icon-Outer-Lines-4"></div>
                                 </div>
                                 <div class="services-img">
-                                    <img src="assets/img/service/v1/card-img-1.jpg" alt="services-img">
+                                    <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/service/v1/card-img-1.jpg" alt="services-img">
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@
                                     <div class="my-icon icon-Outer-Lines-3"></div>
                                 </div>
                                 <div class="services-img">
-                                    <img src="assets/img/service/v1/card-img-2.jpg" alt="services-img">
+                                    <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/service/v1/card-img-2.jpg" alt="services-img">
                                 </div>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
                                     <div class="my-icon icon-Outer-Lines-2"></div>
                                 </div>
                                 <div class="services-img">
-                                    <img src="assets/img/service/v1/card-img-3.jpg" alt="services-img">
+                                    <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/service/v1/card-img-3.jpg" alt="services-img">
                                 </div>
                             </div>
                         </div>
@@ -325,7 +325,7 @@
                         <div class="gallery-img-horizontal">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.2s">
-                                <img src="assets/img/work-gallery/v1/card-img-1.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-1.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -338,7 +338,7 @@
                         <div class="gallery-img-vertical">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.3s">
-                                <img src="assets/img/work-gallery/v1/card-img-2.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-2.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -351,7 +351,7 @@
                         <div class="gallery-img-vertical">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.4s">
-                                <img src="assets/img/work-gallery/v1/card-img-3.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-3.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -364,7 +364,7 @@
                         <div class="gallery-img-vertical">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.2s">
-                                <img src="assets/img/work-gallery/v1/card-img-4.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-4.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -377,7 +377,7 @@
                         <div class="gallery-img-vertical">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.3s">
-                                <img src="assets/img/work-gallery/v1/card-img-5.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-5.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -390,7 +390,7 @@
                         <div class="gallery-img-horizontal">
                             <div class="gallery-card wow animate__fadeInUp" data-wow-duration="1s"
                                 data-wow-delay="0.4s">
-                                <img src="assets/img/work-gallery/v1/card-img-6.jpg" alt="card-img">
+                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/work-gallery/v1/card-img-6.jpg" alt="card-img">
                                 <div class="card-info">
                                     <div class="info-text">
                                         <h4><a href="project-details.html">Digital Business Path</a></h4>
@@ -498,7 +498,7 @@
                             </ul>
                         </div>
                         <div class="faq-img wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><img
-                                src="assets/img/faq/profile-img.jpg" alt="profile"></div>
+                                src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/faq/profile-img.jpg" alt="profile"></div>
                     </div>
                 </div>
             </section>
@@ -582,7 +582,7 @@
                                 </ul>
                                 <div class="profile">
                                     <div class="profile-img">
-                                        <img src="assets/img/clients-review/v1/profile-1.png" alt="profile">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/clients-review/v1/profile-1.png" alt="profile">
                                     </div>
                                     <div class="profile-text">
                                         <h6><a href="#">Courtney Henry</a></h6>
@@ -606,7 +606,7 @@
                                 </ul>
                                 <div class="profile">
                                     <div class="profile-img">
-                                        <img src="assets/img/clients-review/v1/profile-2.png" alt="profile">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/clients-review/v1/profile-2.png" alt="profile">
                                     </div>
                                     <div class="profile-text">
                                         <h6><a href="#">Ralph Edwards</a></h6>
@@ -630,7 +630,7 @@
                                 </ul>
                                 <div class="profile">
                                     <div class="profile-img">
-                                        <img src="assets/img/clients-review/v1/profile-2.png" alt="profile">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/clients-review/v1/profile-2.png" alt="profile">
                                     </div>
                                     <div class="profile-text">
                                         <h6><a href="#">Ralph Edwards</a></h6>
@@ -743,7 +743,7 @@
                                         <h6>11 january,2024</h6>
                                     </div>
                                     <a href="blog-details.html">
-                                        <img src="assets/img/news/v1/post-1.jpg" alt="post-img">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/news/v1/post-1.jpg" alt="post-img">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -765,7 +765,7 @@
                                         <h6>11 january,2024</h6>
                                     </div>
                                     <a href="blog-details.html">
-                                        <img src="assets/img/news/v1/post-2.jpg" alt="post-img">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/news/v1/post-2.jpg" alt="post-img">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -786,7 +786,7 @@
                                         <h6>11 january,2024</h6>
                                     </div>
                                     <a href="blog-details.html">
-                                        <img src="assets/img/news/v1/post-3.jpg" alt="post-img">
+                                        <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/news/v1/post-3.jpg" alt="post-img">
                                     </a>
                                 </div>
                                 <div class="post-content">
@@ -810,7 +810,7 @@
                         <div class="col-md-6 col-xl-3">
                             <div class="footer-left">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="logo"></a>
+                                    <a href="index.html"><img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/logo/logo-2.svg" alt="logo"></a>
                                 </div>
                                 <p>Lorem Ipsum is simply is dumi in thi omy is text Loremo Ipsum is simply is out no our
                                     o dummy text.</p>
@@ -837,7 +837,7 @@
                                     <li>
                                         <div class="post-img">
                                             <a href="#">
-                                                <img src="assets/img/footer-img/post-1.jpg" alt="post-img">
+                                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/footer-img/post-1.jpg" alt="post-img">
                                             </a>
                                         </div>
                                         <div class="post-text">
@@ -851,7 +851,7 @@
                                     <li>
                                         <div class="post-img">
                                             <a href="#">
-                                                <img src="assets/img/footer-img/post-2.jpg" alt="post-img">
+                                                <img src="https://techsometimes.com/products/html/constimes/index-2.html/assets/img/footer-img/post-2.jpg" alt="post-img">
                                             </a>
                                         </div>
                                         <div class="post-text">
@@ -925,16 +925,16 @@
     </div>
 
     <!-- jQuery -->
-    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="https://techsometimes.com/products/html/constimes/index-2.html/assets/js/jquery-3.6.3.min.js"></script>
 
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://techsometimes.com/products/html/constimes/index-2.html/assets/js/bootstrap.min.js"></script>
 
     <!-- Plugins -->
-    <script src="assets/js/plugins.min.js"></script>
+    <script src="https://techsometimes.com/products/html/constimes/index-2.html/assets/js/plugins.min.js"></script>
 
     <!-- Index -->
-    <script src="assets/js/index.min.js"></script>
+    <script src="https://techsometimes.com/products/html/constimes/index-2.html/assets/js/index.min.js"></script>
 </body>
 
 </html>
