@@ -168,7 +168,7 @@
 
                    <a href="javascript:void(0)">
 
-                    <img src="img/logo.png" alt="logo">
+                    <img src="https://winsfolio.net/html/busniz/img/logo.png" alt="logo">
 
                     </a>
 
@@ -386,7 +386,7 @@
 
 
 
-                <img src="img/logo-b.png" alt="Responsive Logo">
+                <img src="https://winsfolio.net/html/busniz/img/logo-b.png" alt="Responsive Logo">
 
 
 
@@ -784,7 +784,7 @@
 
                     <span>
 
-                        <img src="img/develop-2.jpg" alt="girl">
+                        <img src="https://winsfolio.net/html/busniz/img/develop-2.jpg" alt="girl">
 
                         <i class="fa fa-angle-left"></i>
 
@@ -798,7 +798,7 @@
 
                     <span>
 
-                        <img src="img/develop-1.jpg" alt="girl">
+                        <img src="https://winsfolio.net/html/busniz/img/develop-1.jpg" alt="girl">
 
                         <i class="fa fa-angle-right"></i>
 
@@ -824,7 +824,7 @@
 
 
 
-          <img alt="heading-img" src="img/boal.png">
+          <img alt="heading-img" src="https://winsfolio.net/html/busniz/img/boal.png">
 
 
 
@@ -858,7 +858,7 @@
 
 
 
-               <img alt="Planning" src="img/plan-1.jpg" class="w-100 img-fluid">
+               <img alt="Planning" src="https://winsfolio.net/html/busniz/img/plan-1.jpg" class="w-100 img-fluid">
 
 
 
@@ -890,7 +890,7 @@
 
 
 
-               <img alt="Consulting" src="img/plan-2.jpg" class="w-100 img-fluid">
+               <img alt="Consulting" src="https://winsfolio.net/html/busniz/img/plan-2.jpg" class="w-100 img-fluid">
 
 
 
@@ -922,7 +922,7 @@
 
 
 
-               <img alt="Consultant" src="img/plan-3.jpg" class="w-100 img-fluid">
+               <img alt="Consultant" src="https://winsfolio.net/html/busniz/img/plan-3.jpg" class="w-100 img-fluid">
 
 
 
@@ -1002,7 +1002,7 @@
 
 
 
-          <img alt="signature" src="img/sin.png">
+          <img alt="signature" src="https://winsfolio.net/html/busniz/img/sin.png">
 
 
 
@@ -1036,7 +1036,7 @@
 
                
 
-                <img alt="laptop" src="img/audit-1.jpg">
+                <img alt="laptop" src="https://winsfolio.net/html/busniz/img/audit-1.jpg">
 
 
 
@@ -1056,7 +1056,7 @@
 
                
 
-                <img alt="man" src="img/audit-2.jpg">
+                <img alt="man" src="https://winsfolio.net/html/busniz/img/audit-2.jpg">
 
 
 
@@ -1096,7 +1096,7 @@
 
                
 
-                <img alt="men" src="img/audit-3.jpg">
+                <img alt="men" src="https://winsfolio.net/html/busniz/img/audit-3.jpg">
 
 
 
@@ -1128,7 +1128,7 @@
 
         
 
-        <img alt="customer" src="img/customer-1.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-1.png">
 
 
 
@@ -1140,7 +1140,7 @@
 
         
 
-        <img alt="customer" src="img/customer-2.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-2.png">
 
 
 
@@ -1152,7 +1152,7 @@
 
         
 
-        <img alt="customer" src="img/customer-3.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-3.png">
 
 
 
@@ -1164,7 +1164,7 @@
 
         
 
-        <img alt="customer" src="img/customer-4.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-4.png">
 
 
 
@@ -1176,7 +1176,7 @@
 
         
 
-        <img alt="customer" src="img/customer-5.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-5.png">
 
 
 
@@ -1188,7 +1188,7 @@
 
         
 
-        <img alt="customer" src="img/customer-3.png">
+        <img alt="customer" src="https://winsfolio.net/html/busniz/img/customer-3.png">
 
 
 
@@ -1228,7 +1228,7 @@
 
 
 
-           <img alt="heading-img" src="img/boal.png">
+           <img alt="heading-img" src="https://winsfolio.net/html/busniz/img/boal.png">
 
 
 
@@ -1260,9 +1260,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-1.png" alt="company">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-1.png" alt="company">
 
-                   <img src="img/company-2.png" alt="company">
+                   <img src="https://winsfolio.net/html/busniz/img/company-2.png" alt="company">
 
 
 
@@ -1304,9 +1304,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-3.png" alt="company-icon">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-3.png" alt="company-icon">
 
-                   <img src="img/company-4.png" alt="company-icon">
+                   <img src="https://winsfolio.net/html/busniz/img/company-4.png" alt="company-icon">
 
 
 
@@ -1348,9 +1348,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-5.png" alt="company-icon">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-5.png" alt="company-icon">
 
-                   <img src="img/company-6.png" alt="company-icon">
+                   <img src="https://winsfolio.net/html/busniz/img/company-6.png" alt="company-icon">
 
 
 
@@ -1392,9 +1392,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-7.png" alt="company-icon">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-7.png" alt="company-icon">
 
-                   <img src="img/company-8.png" alt="company-icon">
+                   <img src="https://winsfolio.net/html/busniz/img/company-8.png" alt="company-icon">
 
 
 
@@ -1436,9 +1436,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-9.png" alt="company-icon">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-9.png" alt="company-icon">
 
-                   <img src="img/company-10.png" alt="company-icon">
+                   <img src="https://winsfolio.net/html/busniz/img/company-10.png" alt="company-icon">
 
 
 
@@ -1480,9 +1480,9 @@
 
 
 
-                   <img class="img-gapp" src="img/company-11.png" alt="company-icon">
+                   <img class="img-gapp" src="https://winsfolio.net/html/busniz/img/company-11.png" alt="company-icon">
 
-                   <img src="img/company-12.png" alt="company-icon">
+                   <img src="https://winsfolio.net/html/busniz/img/company-12.png" alt="company-icon">
 
 
 
@@ -1552,7 +1552,7 @@
 
 
 
-           <img alt="men work" src="img/bulb.png">
+           <img alt="men work" src="https://winsfolio.net/html/busniz/img/bulb.png">
 
 
 
@@ -1564,7 +1564,7 @@
 
                
 
-                        <img alt="bulb" src="img/bulbb.jpg">
+                        <img alt="bulb" src="https://winsfolio.net/html/busniz/img/bulbb.jpg">
 
 
 
@@ -1684,7 +1684,7 @@
 
 
 
-          <img alt="heading-img" src="img/boal.png">
+          <img alt="heading-img" src="https://winsfolio.net/html/busniz/img/boal.png">
 
 
 
@@ -1718,7 +1718,7 @@
 
                            
 
-                             <img alt="girl" src="img/strategy-1.jpg">
+                             <img alt="girl" src="https://winsfolio.net/html/busniz/img/strategy-1.jpg">
 
 
 
@@ -1754,7 +1754,7 @@
 
                            
 
-                             <img alt="girl" src="img/strategy-2.jpg">
+                             <img alt="girl" src="https://winsfolio.net/html/busniz/img/strategy-2.jpg">
 
 
 
@@ -1790,7 +1790,7 @@
 
                            
 
-                             <img alt="girl" src="img/strategy-3.jpg">
+                             <img alt="girl" src="https://winsfolio.net/html/busniz/img/strategy-3.jpg">
 
 
 
@@ -1826,7 +1826,7 @@
 
                            
 
-                             <img alt="girl" src="img/strategy-4.jpg">
+                             <img alt="girl" src="https://winsfolio.net/html/busniz/img/strategy-4.jpg">
 
 
 
@@ -1862,7 +1862,7 @@
 
                            
 
-                             <img alt="girl" src="img/strategy-1.jpg">
+                             <img alt="girl" src="https://winsfolio.net/html/busniz/img/strategy-1.jpg">
 
 
 
@@ -2178,7 +2178,7 @@
 
 
 
-                    <img alt="man" src="img/kapp-1.jpg">
+                    <img alt="man" src="https://winsfolio.net/html/busniz/img/kapp-1.jpg">
 
                 </div>
 
@@ -2240,7 +2240,7 @@
 
                 <div>
 
-                    <img alt="man" src="img/kapp-2.jpg">
+                    <img alt="man" src="https://winsfolio.net/html/busniz/img/kapp-2.jpg">
 
                 </div>
 
@@ -2300,7 +2300,7 @@
 
                 <div>
 
-                    <img alt="man" src="img/kapp-3.jpg">
+                    <img alt="man" src="https://winsfolio.net/html/busniz/img/kapp-3.jpg">
 
                 </div>
 
@@ -2322,19 +2322,19 @@
 
                 <div>
 
-                    <img alt="man" src="img/kapp-1.jpg">
+                    <img alt="man" src="https://winsfolio.net/html/busniz/img/kapp-1.jpg">
 
                 </div>
 
                 <div>
 
-                    <img alt="girl" src="img/kapp-2.jpg">
+                    <img alt="girl" src="https://winsfolio.net/html/busniz/img/kapp-2.jpg">
 
                 </div>
 
                 <div>
 
-                    <img alt="girl" src="img/kapp-3.jpg">
+                    <img alt="girl" src="https://winsfolio.net/html/busniz/img/kapp-3.jpg">
 
                 </div>
 
@@ -2372,7 +2372,7 @@
 
 
 
-           <img alt="heading-img" src="img/boal.png">
+           <img alt="heading-img" src="https://winsfolio.net/html/busniz/img/boal.png">
 
 
 
@@ -2408,7 +2408,7 @@
 
 
 
-               <img alt="men girl" src="img/mang-1.jpg" class="w-100 img-fluid">
+               <img alt="men girl" src="https://winsfolio.net/html/busniz/img/mang-1.jpg" class="w-100 img-fluid">
 
 
 
@@ -2486,7 +2486,7 @@
 
 
 
-                  <img alt="men girl" src="img/mang-2.jpg" class="w-100 img-fluid">
+                  <img alt="men girl" src="https://winsfolio.net/html/busniz/img/mang-2.jpg" class="w-100 img-fluid">
 
 
 
@@ -2676,7 +2676,7 @@
 
                  <a href="javascript:void(0)">
 
-                  <img alt="logo" src="img/logo.png">
+                  <img alt="logo" src="https://winsfolio.net/html/busniz/img/logo.png">
 
                   </a>
 
@@ -2802,27 +2802,27 @@
 
                 
 
-                <li><a href="img/Instagram-Photos-1.jpg" data-fancybox="gallery"><img alt="girl" src="img/Instagram-Photos-1.jpg"></a></li>
+                <li><a href="img/Instagram-Photos-1.jpg" data-fancybox="gallery"><img alt="girl" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-1.jpg"></a></li>
 
                 
 
-                  <li><a href="img/Instagram-Photos-2.jpg" data-fancybox="gallery"><img alt="laptop" src="img/Instagram-Photos-2.jpg"></a></li>
+                  <li><a href="img/Instagram-Photos-2.jpg" data-fancybox="gallery"><img alt="laptop" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-2.jpg"></a></li>
 
                 
 
-                  <li><a href="img/Instagram-Photos-3.jpg" data-fancybox="gallery"><img alt="boy" src="img/Instagram-Photos-3.jpg"></a></li>
+                  <li><a href="img/Instagram-Photos-3.jpg" data-fancybox="gallery"><img alt="boy" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-3.jpg"></a></li>
 
                 
 
-                  <li><a href="img/Instagram-Photos-4.jpg" data-fancybox="gallery"><img alt="man laptop" src="img/Instagram-Photos-4.jpg"></a></li>
+                  <li><a href="img/Instagram-Photos-4.jpg" data-fancybox="gallery"><img alt="man laptop" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-4.jpg"></a></li>
 
                 
 
-                  <li><a href="img/Instagram-Photos-5.jpg" data-fancybox="gallery"><img alt="boy" src="img/Instagram-Photos-5.jpg"></a></li>
+                  <li><a href="img/Instagram-Photos-5.jpg" data-fancybox="gallery"><img alt="boy" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-5.jpg"></a></li>
 
                 
 
-                   <li><a href="img/Instagram-Photos-6.jpg" data-fancybox="gallery"><img alt="two-man" src="img/Instagram-Photos-6.jpg"></a></li>
+                   <li><a href="img/Instagram-Photos-6.jpg" data-fancybox="gallery"><img alt="two-man" src="https://winsfolio.net/html/busniz/img/Instagram-Photos-6.jpg"></a></li>
 
                  
 
