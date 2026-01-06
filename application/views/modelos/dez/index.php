@@ -134,7 +134,7 @@
                 <main>
                     <!--======  Start Hero Section  ======-->
                     <section class="bizzen-hero">
-                        <div class="bizzen-hero_one bg_cover" style="background-image: url(assets/images/home-one/hero/hero-bg.jpg);">
+                        <div class="bizzen-hero_one bg_cover" style="background-image: url(https://nayonacademy.com/html/bizzen/assets/images/home-one/hero/hero-bg.jpg);">
                             <div class="hero-bg-shape"></div>
                             <div class="container-fluid">
                                 <div class="row">
