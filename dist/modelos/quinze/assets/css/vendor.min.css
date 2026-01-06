@@ -6079,8 +6079,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.eot);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.woff2) format("woff2"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.woff) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.ttf) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-brands-400.eot);
+    src: url(../fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff"), url(../fonts/fa-brands-400.ttf) format("truetype"), url(../fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -6092,8 +6092,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.eot);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.woff2) format("woff2"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.woff) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.ttf) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-regular-400.eot);
+    src: url(../fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff"), url(../fonts/fa-regular-400.ttf) format("truetype"), url(../fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .fab,
@@ -6106,8 +6106,8 @@
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.eot);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.woff2) format("woff2"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.woff) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.ttf) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-solid-900.eot);
+    src: url(../fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff"), url(../fonts/fa-solid-900.ttf) format("truetype"), url(../fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -19771,8 +19771,8 @@ fieldset:disabled .btn {
 
 @font-face {
     font-family: carousel;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/carousel.eot?almtfs);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/carousel.eot?almtfs#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/carousel.ttf?almtfs) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/carousel.woff?almtfs) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/carousel.svg?almtfs#carousel) format("svg");
+    src: url(../fonts/carousel.eot?almtfs);
+    src: url(../fonts/carousel.eot?almtfs#iefix) format("embedded-opentype"), url(../fonts/carousel.ttf?almtfs) format("truetype"), url(../fonts/carousel.woff?almtfs) format("woff"), url(../fonts/carousel.svg?almtfs#carousel) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -19801,8 +19801,8 @@ fieldset:disabled .btn {
 
 @font-face {
     font-family: dental;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/dental.eot?foktzu);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/dental.eot?foktzu#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/dental.ttf?foktzu) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/dental.woff?foktzu) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/dental.svg?foktzu#dental) format("svg");
+    src: url(../fonts/dental.eot?foktzu);
+    src: url(../fonts/dental.eot?foktzu#iefix) format("embedded-opentype"), url(../fonts/dental.ttf?foktzu) format("truetype"), url(../fonts/dental.woff?foktzu) format("woff"), url(../fonts/dental.svg?foktzu#dental) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -20637,8 +20637,8 @@ fieldset:disabled .btn {
 
 @font-face {
     font-family: Flaticon;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/Flaticon.eot);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/Flaticon.eot?#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/Flaticon.woff) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/Flaticon.ttf) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/Flaticon.svg#Flaticon) format("svg");
+    src: url(../fonts/Flaticon.eot);
+    src: url(../fonts/Flaticon.eot?#iefix) format("embedded-opentype"), url(../fonts/Flaticon.woff) format("woff"), url(../fonts/Flaticon.ttf) format("truetype"), url(../fonts/Flaticon.svg#Flaticon) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -21295,8 +21295,8 @@ screen and (max-width:800px) and (orientation:landscape) {
 
 @font-face {
     font-family: medisch;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/medisch.eot?fcod4o);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/medisch.eot?fcod4o#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/medisch.ttf?fcod4o) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/medisch.woff?fcod4o) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/medisch.svg?fcod4o#medisch) format("svg");
+    src: url(../fonts/medisch.eot?fcod4o);
+    src: url(../fonts/medisch.eot?fcod4o#iefix) format("embedded-opentype"), url(../fonts/medisch.ttf?fcod4o) format("truetype"), url(../fonts/medisch.woff?fcod4o) format("woff"), url(../fonts/medisch.svg?fcod4o#medisch) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -21756,8 +21756,8 @@ screen and (max-width:800px) and (orientation:landscape) {
 
 @font-face {
     font-family: icomoon;
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/icomoon.eot?m1lwxe);
-    src: url(https://demo.zytheme.com/medisch/assets/fonts/icomoon.eot?m1lwxe#iefix) format("embedded-opentype"), url(https://demo.zytheme.com/medisch/assets/fonts/icomoon.ttf?m1lwxe) format("truetype"), url(https://demo.zytheme.com/medisch/assets/fonts/icomoon.woff?m1lwxe) format("woff"), url(https://demo.zytheme.com/medisch/assets/fonts/icomoon.svg?m1lwxe#icomoon) format("svg");
+    src: url(../fonts/icomoon.eot?m1lwxe);
+    src: url(../fonts/icomoon.eot?m1lwxe#iefix) format("embedded-opentype"), url(../fonts/icomoon.ttf?m1lwxe) format("truetype"), url(../fonts/icomoon.woff?m1lwxe) format("woff"), url(../fonts/icomoon.svg?m1lwxe#icomoon) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
