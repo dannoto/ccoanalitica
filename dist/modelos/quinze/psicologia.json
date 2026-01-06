@@ -1,460 +1,516 @@
 {
+    "config": {
+        "email": "contato@seudominio.com",
+        "telefone": "625562982045122",
+        "telefone_texto": "(62) 5562982045122"
+    },
     "header": {
-        "logo": "dist/imagens/header/psicologia/logo-1.svg",
-        "logo_alt": "Site Logo – Clínica de Psicologia – Talking Minds",
-        "home_link": "index.html",
-        "telefone": "+556255629820422",
-        "telefone_formatado": "(62) 5562-9820-422",
-        "menu": [
+        "mensagem_destaque": "Atendemos mais de 10.000 pacientes por ano com cuidado psicológico e acolhimento humano.",
+        "localizacao": "Atendimento presencial e online",
+        "horario": "Seg–Sex: 8h às 19h",
+        "logo_dark": "https://demo.zytheme.com/medisch/assets/images/logo/logo-dark.svg",
+        "logo_mobile": "https://demo.zytheme.com/medisch/assets/images/logo/logo-mobile.svg",
+        "links_carrossel": [
             {
-                "titulo": "Home",
-                "link": "index.html",
-                "active": true,
-                "id": "home_menu"
+                "titulo": "Histórias reais de transformação emocional",
+                "link": "#"
             },
             {
-                "titulo": "Sobre Nós",
-                "link": "sobre.html",
-                "active": false,
-                "id": "sobre_menu"
+                "titulo": "Dicas para saúde mental no dia a dia",
+                "link": "#"
             },
             {
-                "titulo": "Programas",
-                "id": "programas_submenu",
-                "submenu": [
-                    {
-                        "titulo": "Terapia Individual",
-                        "link": "terapia_individual.html"
-                    },
-                    {
-                        "titulo": "Terapia de Casal",
-                        "link": "terapia_casal.html"
-                    },
-                    {
-                        "titulo": "Terapia Infantil",
-                        "link": "terapia_infantil.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Recursos",
-                "id": "recursos_submenu",
-                "submenu": [
-                    {
-                        "titulo": "Blog",
-                        "link": "blog.html"
-                    },
-                    {
-                        "titulo": "FAQ",
-                        "link": "faq.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Contato",
-                "id": "contato_submenu",
-                "submenu": [
-                    {
-                        "titulo": "Agende uma Consulta",
-                        "link": "contato.html"
-                    },
-                    {
-                        "titulo": "Localização",
-                        "link": "localizacao.html"
-                    }
-                ]
+                "titulo": "A importância da terapia contínua",
+                "link": "#"
             }
-        ]
-    },
-    "hero": {
-        "titulo": "Consulta Particular em Saúde Mental com Profissional",
-        "descricao": "Oferecemos atendimento personalizado em psicologia, com foco no bem-estar emocional e mental.",
-        "imagem": "dist/imagens/hero/psicologia/hero-1.jpg",
-        "imagem_alt": "Consulta de Psicologia – Clínica de Saúde Mental",
-        "decoracao": "dist/imagens/hero/psicologia/decoracao-1.svg",
-        "botoes": [
-            {
-                "titulo": "Agende Uma Consulta",
-                "link": "contato.html",
-                "classe": "btn-primary"
-            },
-            {
-                "titulo": "Saiba Mais",
-                "link": "sobre.html",
-                "classe": "btn-outline-secondary"
-            }
-        ],
-        "contadores": [
-            {
-                "descricao": "Anos de experiência",
-                "numero": 20,
-                "simbolo": "+"
-            },
-            {
-                "descricao": "Pacientes atendidos este ano",
-                "numero": 840,
-                "simbolo": "+"
-            },
-            {
-                "descricao": "Clientes melhoraram sua condição",
-                "numero": 98,
-                "simbolo": "%"
-            }
-        ]
-    },
-    "servicos": {
-        "titulo": "Nossos Serviços",
-        "descricao": "Tratamentos especializados em psicologia para todas as idades e necessidades.",
-        "items": [
-            {
-                "titulo": "Terapia de Depressão",
-                "descricao": "Tratamento especializado para melhorar a saúde emocional e mental.",
-                "imagem": "dist/imagens/servicos/psicologia/depressao.jpg",
-                "link": "service_details.html"
-            },
-            {
-                "titulo": "Aconselhamento de Casais",
-                "descricao": "Auxílio para melhorar o relacionamento e a comunicação entre casais.",
-                "imagem": "dist/imagens/servicos/psicologia/casais.jpg",
-                "link": "service_details.html"
-            },
-            {
-                "titulo": "Relacionamentos",
-                "descricao": "Orientação para resolver conflitos e fortalecer vínculos afetivos.",
-                "imagem": "dist/imagens/servicos/psicologia/relacionamentos.jpg",
-                "link": "service_details.html"
-            }
-        ],
-        "botao_todos": "Todos os Programas",
-        "link_todos": "service.html"
-    },
-    "sobre": {
-        "titulo": "Dr. Merry Stone — Psicólogo Licenciado e Psicoterapeuta",
-        "descricao": "Atendimento individualizado para cuidado mental, terapia de grupo e acompanhamento online.",
-        "imagem_principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-        "video": "https://www.youtube.com/watch?v=7e90gBu4pas",
-        "listas": [
-            [
-                "Consultas Pessoais",
-                "Terapia em Grupo",
-                "Terapia Online"
-            ],
-            [
-                "Técnica Única",
-                "Problemas de Casal"
-            ]
         ],
         "botao": {
-            "titulo": "Saiba Mais",
-            "link": "sobre.html"
+            "titulo": "Agendar Consulta",
+            "link": "https://wa.me/5562982045122"
         }
     },
-    "planos": {
-        "titulo": "Planos de Sessão",
-        "descricao": "Escolha o plano ideal para seu acompanhamento psicológico, mensal ou anual.",
-        "toggle": {
-            "mensal": "Mensal",
-            "anual": "Anual",
-            "desconto": "Economize 20%"
+    "menu": [
+        {
+            "titulo": "Início",
+            "link": "/"
         },
-        "items": [
+        {
+            "titulo": "Sobre Nós",
+            "link": "/sobre"
+        },
+        {
+            "titulo": "Especialidades",
+            "link": "/servicos"
+        },
+        {
+            "titulo": "Psicólogos",
+            "link": "/profissionais"
+        },
+        {
+            "titulo": "Conteúdos",
+            "link": "/blog"
+        },
+        {
+            "titulo": "Contato",
+            "link": "/contato"
+        }
+    ],
+    "slider": {
+        "slides": [
             {
-                "titulo": "Sessão Leve",
-                "badge": "",
-                "preco_mensal": "$150",
-                "sub_mensal": "Por Mês",
-                "preco_anual": "$1,440",
-                "sub_anual": "Você economiza $360",
-                "beneficios": [
-                    "6 Sessões de Terapia",
-                    "Duração 30 minutos",
-                    "Encontros em Grupo",
-                    "Atendimento Pessoal",
-                    "Suporte 24h"
-                ],
-                "botao_texto": "Contratar Agora",
-                "botao_link": "#",
-                "botao_classe": "btn-outline-primary"
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/1.jpg",
+                "titulo": "Cuidado psicológico para todas as fases da vida",
+                "descricao": "Promovemos saúde mental com escuta ativa, acolhimento e técnicas terapêuticas baseadas em evidência científica.",
+                "itens": [
+                    {
+                        "icone": "flaticon-025-examination",
+                        "titulo": "Avaliação Psicológica"
+                    },
+                    {
+                        "icone": "flaticon-019-prescription",
+                        "titulo": "Plano Terapêutico"
+                    },
+                    {
+                        "icone": "flaticon-043-cardiogram",
+                        "titulo": "Acompanhamento Emocional"
+                    },
+                    {
+                        "icone": "flaticon-046-blood-pressure",
+                        "titulo": "Saúde Mental Preventiva"
+                    }
+                ]
             },
             {
-                "titulo": "Sessão Padrão",
-                "badge": "Mais Popular",
-                "preco_mensal": "$250",
-                "sub_mensal": "Por Mês",
-                "preco_anual": "$2,400",
-                "sub_anual": "Você economiza $600",
-                "beneficios": [
-                    "10 Sessões de Terapia",
-                    "Duração 30 minutos",
-                    "Encontros em Grupo",
-                    "Atendimento Pessoal",
-                    "Suporte 24h"
-                ],
-                "botao_texto": "Contratar Agora",
-                "botao_link": "#",
-                "botao_classe": "btn-primary"
-            },
-            {
-                "titulo": "Sessão Individual",
-                "badge": "",
-                "preco_mensal": "$400",
-                "sub_mensal": "Por Mês",
-                "preco_anual": "$3,840",
-                "sub_anual": "Você economiza $960",
-                "beneficios": [
-                    "1 Ano de Terapia",
-                    "Duração 30 minutos",
-                    "Encontros em Grupo",
-                    "Atendimento Pessoal",
-                    "Suporte 24h"
-                ],
-                "botao_texto": "Contratar Agora",
-                "botao_link": "#",
-                "botao_classe": "btn-outline-primary"
-            }
-        ],
-        "decoracao1": "dist/imagens/planos/psicologia/leaf-top.svg",
-        "decoracao2": "dist/imagens/planos/psicologia/leaf-bottom.svg"
-    },
-    "testemunhos": {
-        "titulo": "O que os pacientes dizem",
-        "descricao": "Depoimentos de pacientes que passaram por nossas sessões de psicologia.",
-        "items": [
-            {
-                "nome": "Kerry Banks",
-                "profissao": "Dona de Casa",
-                "avaliacao": 5,
-                "imagem": "dist/imagens/testemunhos/psicologia/paciente-1.jpg",
-                "depoimento": "As sessões me ajudaram a lidar com ansiedade e melhorar meu bem-estar emocional."
-            },
-            {
-                "nome": "Damian York",
-                "profissao": "Empreendedor",
-                "avaliacao": 5,
-                "imagem": "dist/imagens/testemunhos/psicologia/paciente-2.jpg",
-                "depoimento": "Excelente acompanhamento psicológico, recomendo para todos que buscam equilíbrio mental."
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/2.jpg",
+                "titulo": "Terapia baseada em empatia, ciência e ética",
+                "descricao": "Oferecemos um espaço seguro para o desenvolvimento emocional, autoconhecimento e bem-estar psicológico.",
+                "itens": [
+                    {
+                        "icone": "flaticon-025-examination",
+                        "titulo": "Psicoterapia Individual"
+                    },
+                    {
+                        "icone": "flaticon-019-prescription",
+                        "titulo": "Terapia de Casal"
+                    },
+                    {
+                        "icone": "flaticon-043-cardiogram",
+                        "titulo": "Terapia Infantil"
+                    },
+                    {
+                        "icone": "flaticon-046-blood-pressure",
+                        "titulo": "Orientação Emocional"
+                    }
+                ]
             }
         ]
     },
-    "consulta": {
-        "titulo": "Agende sua primeira consulta online gratuita",
-        "form": {
-            "nome_label": "Nome",
-            "nome_placeholder": "Seu nome",
-            "telefone_label": "Telefone",
-            "telefone_placeholder": "(62) 5562982045122",
-            "sessao_label": "Selecione a Sessão",
-            "sessao_options": [
-                "Terapia Individual",
-                "Terapia de Casal",
-                "Terapia em Grupo"
-            ],
-            "data_label": "Data da Consulta",
-            "botao_texto": "Agendar Consulta"
-        },
-        "decoracao1": "dist/imagens/consulta/psicologia/leaf-top.svg",
-        "decoracao2": "dist/imagens/consulta/psicologia/leaf-bottom.svg"
+    "features": {
+        "background": "https://demo.zytheme.com/medisch/assets/images/background/pattern-2.jpg",
+        "itens": [
+            {
+                "classe": "feature-reservation",
+                "icone": "flaticon-022-medical",
+                "titulo": "Acolhimento emocional",
+                "descricao": "Entre em contato para orientações psicológicas ou agendamento de atendimento.",
+                "acao": {
+                    "texto": "(62) 5562982045122",
+                    "link": "tel:625562982045122"
+                }
+            },
+            {
+                "classe": "feature-timetable",
+                "icone": "flaticon-028-book",
+                "titulo": "Agenda de atendimentos",
+                "descricao": "Sessões presenciais e online com horários flexíveis.",
+                "acao": {
+                    "texto": "ver agenda",
+                    "link": "#"
+                }
+            },
+            {
+                "classe": "feature-opening-hours",
+                "icone": "flaticon-014-uniform",
+                "titulo": "Horários de funcionamento",
+                "lista": [
+                    {
+                        "dia": "Segunda a Sexta",
+                        "horario": "8h às 19h"
+                    },
+                    {
+                        "dia": "Sábado",
+                        "horario": "9h às 13h"
+                    },
+                    {
+                        "dia": "Emergências emocionais",
+                        "horario": "Atendimento sob demanda"
+                    }
+                ]
+            },
+            {
+                "classe": "feature-location",
+                "icone": "flaticon-042-clinic",
+                "titulo": "Atendimento Online",
+                "descricao": "Sessões de psicoterapia por videochamada, com sigilo e conforto.",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/background/map.jpg"
+            }
+        ],
+        "chamada": {
+            "titulo": "Cuidando da sua saúde emocional e bem-estar psicológico",
+            "descricao_curta": "A psicoterapia é um espaço seguro para acolhimento, escuta e desenvolvimento emocional.",
+            "descricao_longa": "Trabalhamos com abordagens baseadas em evidência científica, respeitando a singularidade de cada pessoa e promovendo qualidade de vida.",
+            "botao_principal": {
+                "titulo": "Agendar sessão",
+                "link": "https://wa.me/5562982045122"
+            },
+            "botao_secundario": {
+                "titulo": "Conheça nossa abordagem",
+                "link": "/sobre"
+            }
+        }
+    },
+    "sobre": {
+        "imagem_principal": "https://demo.zytheme.com/medisch/assets/images/about/5.jpg",
+        "video": "https://www.youtube.com/watch?v=nrJtHemSPW4",
+        "texto_video": "assista nossa apresentação",
+        "descricao_lateral": "Cuidamos da sua saúde mental em todas as fases da vida, com ética, empatia e responsabilidade profissional.",
+        "lista": [
+            "Psicoterapia individual",
+            "Terapia de casal",
+            "Atendimento infantil",
+            "Avaliação psicológica"
+        ]
+    },
+    "abordagens": {
+        "subtitulo": "Abordagens terapêuticas",
+        "titulo": "Cuidado psicológico especializado para você",
+        "items": [
+            {
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/departments/1.jpg",
+                "titulo": "Terapia Cognitivo-Comportamental",
+                "descricao": "Abordagem focada na identificação e modificação de padrões de pensamento e comportamento.",
+                "lista": [
+                    "Ansiedade",
+                    "Depressão",
+                    "Estresse",
+                    "Autoconhecimento"
+                ],
+                "botao": "saiba mais",
+                "link": "#"
+            },
+            {
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/departments/2.jpg",
+                "titulo": "Psicoterapia Humanista",
+                "descricao": "Foco no acolhimento, empatia e desenvolvimento do potencial humano.",
+                "lista": [
+                    "Autoestima",
+                    "Relacionamentos",
+                    "Crises emocionais"
+                ],
+                "botao": "saiba mais",
+                "link": "#"
+            },
+            {
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/departments/3.jpg",
+                "titulo": "Psicologia Infantil",
+                "descricao": "Acompanhamento emocional para crianças e adolescentes.",
+                "lista": [
+                    "Desenvolvimento emocional",
+                    "Dificuldades escolares",
+                    "Comportamento infantil"
+                ],
+                "botao": "saiba mais",
+                "link": "#"
+            }
+        ]
+    },
+    "diferenciais": {
+        "items": [
+            {
+                "icone": "flaticon-007-stethoscope",
+                "titulo": "Atendimento Psicológico Individual",
+                "descricao": "Sessões personalizadas focadas em você."
+            },
+            {
+                "icone": "flaticon-026-education",
+                "titulo": "Abordagens Terapêuticas Modernas",
+                "descricao": "Métodos baseados em evidências científicas."
+            },
+            {
+                "icone": "flaticon-036-aid",
+                "titulo": "Acolhimento em Momentos Difíceis",
+                "descricao": "Suporte emocional em situações de crise."
+            },
+            {
+                "icone": "flaticon-032-medicine",
+                "titulo": "Saúde Mental Preventiva",
+                "descricao": "Cuidar da mente antes que o problema cresça."
+            },
+            {
+                "icone": "flaticon-046-blood-pressure",
+                "titulo": "Profissionais Qualificados",
+                "descricao": "Psicólogos registrados e experientes."
+            }
+        ]
+    },
+    "depoimentos": {
+        "titulo": "Histórias reais de transformação emocional",
+        "imagem_lateral": "https://demo.zytheme.com/medisch/assets/images/testimonial/image.png",
+        "items": [
+            {
+                "texto": "O acompanhamento psicológico mudou completamente minha forma de lidar com a ansiedade.",
+                "nome": "Sami Wade",
+                "profissao": "Paciente",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/testimonial/1.jpg"
+            },
+            {
+                "texto": "Me senti acolhido desde a primeira sessão. Profissionais incríveis.",
+                "nome": "John Peter",
+                "profissao": "Paciente",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/testimonial/2.jpg"
+            },
+            {
+                "texto": "Hoje tenho mais equilíbrio emocional e qualidade de vida.",
+                "nome": "Sony Blake",
+                "profissao": "Paciente",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/testimonial/3.jpg"
+            }
+        ]
+    },
+    "equipe": {
+        "titulo": "Conheça nossos psicólogos",
+        "descricao": "Profissionais dedicados ao cuidado da sua saúde emocional.",
+        "items": [
+            {
+                "nome": "Dra. Ana Ribeiro",
+                "especialidade": "Psicologia Clínica",
+                "descricao": "Especialista em ansiedade, depressão e autoconhecimento.",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/team/grid/1.jpg"
+            },
+            {
+                "nome": "Dr. Marcos Silva",
+                "especialidade": "Terapia Cognitivo-Comportamental",
+                "descricao": "Atuação focada em mudanças práticas e emocionais.",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/team/grid/2.jpg"
+            }
+        ]
+    },
+    "cta": {
+        "subtitulo": "Cuidando da sua saúde emocional e da sua família",
+        "titulo": "Atendimento psicológico completo para todas as fases da vida",
+        "descricao": "Nossa clínica de psicologia oferece acompanhamento terapêutico ético, acolhedor e baseado em evidências científicas.",
+        "lista": [
+            "Atendimento humanizado",
+            "Sigilo e ética profissional",
+            "Abordagens terapêuticas modernas"
+        ]
+    },
+    "processos": {
+        "items": [
+            {
+                "numero": "01.",
+                "icone": "flaticon-023-medical-history",
+                "titulo": "Agende sua primeira sessão",
+                "descricao": "Inicie seu processo terapêutico de forma simples e segura.",
+                "botao": "agenda de atendimentos",
+                "link": "doctors-timetable.html"
+            },
+            {
+                "numero": "02.",
+                "icone": "flaticon-043-cardiogram",
+                "titulo": "Compreensão do seu histórico emocional",
+                "descricao": "Análise cuidadosa do seu momento e da sua história.",
+                "botao": "iniciar avaliação",
+                "link": "javascript:void(0)"
+            },
+            {
+                "numero": "03.",
+                "icone": "flaticon-027-medical-report",
+                "titulo": "Definição do plano terapêutico",
+                "descricao": "Escolha da abordagem mais adequada para você.",
+                "botao": "conhecer abordagens",
+                "link": "javascript:void(0)"
+            },
+            {
+                "numero": "04.",
+                "icone": "flaticon-021-medical-1",
+                "titulo": "Acompanhamento com psicólogos qualificados",
+                "descricao": "Profissionais experientes e comprometidos com seu bem-estar.",
+                "botao": "conheça os psicólogos",
+                "link": "page-appointments.html"
+            }
+        ]
+    },
+    "doacoes": {
+        "imagem_fundo": "https://demo.zytheme.com/medisch/assets/images/background/3.jpg",
+        "titulo": "Levando saúde mental para pessoas ao redor do mundo",
+        "descricao": "Acreditamos que o cuidado psicológico deve ser acessível. Apoie iniciativas que ampliam o acesso à saúde mental.",
+        "botoes": [
+            {
+                "titulo": "apoie esta causa ❤️",
+                "link": "contact.html",
+                "classe": "btn--white"
+            },
+            {
+                "titulo": "ajuda & dúvidas",
+                "link": "page-faqs.html",
+                "classe": "btn--transparent btn--inversed"
+            }
+        ],
+        "mapa": {
+            "imagem": "https://demo.zytheme.com/medisch/assets/images/background/world-map.png",
+            "pontos": [
+                {
+                    "x": "15%",
+                    "y": "29%",
+                    "icone": "https://demo.zytheme.com/medisch/assets/images/background/map-pointer.png",
+                    "lado": "right",
+                    "texto": "Atendimento psicológico online"
+                },
+                {
+                    "x": "48%",
+                    "y": "48%",
+                    "icone": "https://demo.zytheme.com/medisch/assets/images/background/map-pointer.png",
+                    "lado": "left",
+                    "texto": "Programas de apoio emocional"
+                },
+                {
+                    "x": "68%",
+                    "y": "23%",
+                    "icone": "https://demo.zytheme.com/medisch/assets/images/background/map-pointer.png",
+                    "lado": "left",
+                    "texto": "Projetos de saúde mental"
+                }
+            ]
+        }
     },
     "blog": {
-        "titulo": "Últimos Artigos",
-        "botao": {
-            "titulo": "Leia Mais Artigos",
-            "link": "#"
-        },
+        "subtitulo": "saúde mental e bem-estar",
+        "titulo": "artigos recentes",
         "posts": [
             {
-                "imagem": "dist/imagens/blog/psicologia/blog-1.jpg",
-                "titulo": "Prós e contras da psicoterapia em grupo",
-                "descricao": "Entenda os benefícios e desafios de participar de sessões de terapia em grupo.",
-                "link": "#",
+                "titulo": "6 dicas para cuidar da saúde mental em momentos difíceis",
+                "resumo": "Estratégias práticas para manter o equilíbrio emocional.",
+                "imagem": "https://demo.zytheme.com/medisch/assets/images/blog/grid/1.jpg",
+                "autor": "Martin King",
                 "categorias": [
-                    {
-                        "nome": "Problemas Familiares",
-                        "link": "#"
-                    }
+                    "saúde mental",
+                    "bem-estar"
                 ],
-                "data": "26 Julho 2023",
-                "views": 120,
-                "comentarios": 0,
-                "botao": {
-                    "titulo": "Leia Mais"
-                }
-            },
-            {
-                "imagem": "dist/imagens/blog/psicologia/blog-2.jpg",
-                "titulo": "Sete principais desafios no aconselhamento de crianças",
-                "descricao": "Descubra as dificuldades mais comuns ao trabalhar com crianças em terapia psicológica.",
-                "link": "#",
-                "categorias": [
-                    {
-                        "nome": "Problemas Familiares",
-                        "link": "#"
-                    }
-                ],
-                "data": "26 Julho 2023",
-                "views": 120,
-                "comentarios": 0,
-                "botao": {
-                    "titulo": "Leia Mais"
-                }
-            },
-            {
-                "imagem": "dist/imagens/blog/psicologia/blog-3.jpg",
-                "titulo": "Ações, tipos e dicas para encontrar terapia em grupo",
-                "descricao": "Saiba como escolher e aproveitar sessões de terapia em grupo para o seu bem-estar.",
-                "link": "#",
-                "categorias": [
-                    {
-                        "nome": "Problemas Familiares",
-                        "link": "#"
-                    }
-                ],
-                "data": "26 Julho 2023",
-                "views": 120,
-                "comentarios": 0,
-                "botao": {
-                    "titulo": "Leia Mais"
-                }
+                "data": {
+                    "dia": "20",
+                    "mes": "jan",
+                    "ano": "2021"
+                },
+                "link": "blog-single-sidebar.html"
             }
         ]
-    },
-    "faq": {
-        "titulo": "As perguntas mais populares sobre saúde mental",
-        "imagens": [
-            [
-                "dist/imagens/faq/psicologia/faq-1.png",
-                "dist/imagens/faq/psicologia/faq-2.png"
-            ],
-            [
-                "dist/imagens/faq/psicologia/faq-3.png",
-                "dist/imagens/faq/psicologia/faq-4.png"
-            ]
-        ],
-        "perguntas": [
-            {
-                "pergunta": "O que é saúde mental?",
-                "resposta": "Saúde mental é o bem-estar emocional, psicológico e social de um indivíduo, que afeta como pensamos, sentimos e agimos."
-            },
-            {
-                "pergunta": "O que fazer se o apoio não ajudar?",
-                "resposta": "Procure orientação profissional e alternativas terapêuticas adequadas à sua situação."
-            },
-            {
-                "pergunta": "É possível prevenir problemas de saúde mental?",
-                "resposta": "Sim, adotando hábitos saudáveis, autocuidado e acompanhamento psicológico regular."
-            },
-            {
-                "pergunta": "Quais são os 7 componentes da saúde mental?",
-                "resposta": "Autoconsciência, autogestão, motivação, empatia, habilidades sociais, resiliência e equilíbrio emocional."
-            },
-            {
-                "pergunta": "Existem curas para problemas de saúde mental?",
-                "resposta": "Com tratamento adequado, muitas condições podem ser gerenciadas e a qualidade de vida melhorada."
-            }
-        ]
-    },
-    "contato": {
-        "titulo": "Fale Conosco",
-        "descricao": "Entre em contato com nossa clínica de psicologia. Estamos à disposição para esclarecer dúvidas e agendar atendimentos.",
-        "info": [
-            [
-                {
-                    "icone": "fa-solid fa-phone",
-                    "titulo": "Telefone",
-                    "valor": "(62) 5562982045122"
-                },
-                {
-                    "icone": "fa-solid fa-fax",
-                    "titulo": "Fax",
-                    "valor": "(62) 5562982045122"
-                }
-            ],
-            [
-                {
-                    "icone": "fa-solid fa-envelope",
-                    "titulo": "Email",
-                    "valor": "contato@seudominio.com"
-                },
-                {
-                    "icone": "fa-solid fa-location-dot",
-                    "titulo": "Localização",
-                    "valor": "Rua Exemplo, 123, Goiânia, GO"
-                }
-            ]
-        ],
-        "horario": {
-            "titulo": "Horário de Atendimento",
-            "horas": [
-                {
-                    "dia": "Segunda - Sexta",
-                    "hora": "08h - 17h"
-                },
-                {
-                    "dia": "Sábado - Domingo",
-                    "hora": "09h - 14h"
-                }
-            ]
-        },
-        "mapa": "https://maps.google.com/maps?q=Goiânia&t=&z=13&ie=UTF8&iwloc=&output=embed"
     },
     "footer": {
-        "logo": {
-            "imagem": "dist/imagens/footer/psicologia/footer-logo-1.svg",
-            "link": "index.html",
-            "alt": "Logo Talking Minds - Psicologia"
+        "contato": {
+            "titulo": "contato rápido",
+            "descricao": "Se tiver dúvidas ou precisar de apoio psicológico, nossa equipe está pronta para ajudar.",
+            "telefone": "(62) 5562982045122",
+            "telefone_link": "+55625562982045122",
+            "endereco": "Atendimento psicológico presencial e online.",
+            "link_direcoes": "javascript:void(0)",
+            "texto_direcoes": "como chegar"
         },
-        "menu": [
+        "especialidades": {
+            "titulo": "especialidades",
+            "links": [
+                {
+                    "titulo": "Psicologia Clínica",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "Terapia Cognitivo-Comportamental",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "Psicoterapia Infantil",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "Terapia de Casal",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "Avaliação Psicológica",
+                    "url": "javascript:void(0)"
+                }
+            ]
+        },
+        "institucional": {
+            "titulo": "links",
+            "links": [
+                {
+                    "titulo": "sobre nós",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "nossa clínica",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "nossos psicólogos",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "artigos",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "agendamentos",
+                    "url": "javascript:void(0)"
+                }
+            ]
+        },
+        "ajuda": {
+            "titulo": "ajuda",
+            "links": [
+                {
+                    "titulo": "dúvidas frequentes",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "contato",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "carreiras",
+                    "url": "javascript:void(0)"
+                },
+                {
+                    "titulo": "mapa do site",
+                    "url": "javascript:void(0)"
+                }
+            ]
+        },
+        "newsletter": {
+            "titulo": "newsletter",
+            "placeholder": "Seu endereço de e-mail",
+            "termos": "aceito a política de privacidade e os termos"
+        },
+        "redes_sociais": [
             {
-                "titulo": "Home",
-                "link": "index.html",
-                "icone": "fa-solid fa-circle"
+                "icone": "fab fa-facebook-f",
+                "classe": "share-facebook",
+                "url": "#"
             },
             {
-                "titulo": "Sobre",
-                "link": "about.html",
-                "icone": "fa-solid fa-circle"
+                "icone": "fab fa-instagram",
+                "classe": "share-instagram",
+                "url": "#"
             },
             {
-                "titulo": "Programas",
-                "link": "service.html",
-                "icone": "fa-solid fa-circle"
-            },
-            {
-                "titulo": "Blog",
-                "link": "blog.html",
-                "icone": "fa-solid fa-circle"
-            },
-            {
-                "titulo": "Galeria",
-                "link": "gallery.html",
-                "icone": "fa-solid fa-circle"
-            },
-            {
-                "titulo": "Contato",
-                "link": "contact.html",
-                "icone": "fa-solid fa-circle"
-            }
-        ],
-        "redes": [
-            {
-                "link": "#",
-                "icone": "fa-brands fa-facebook-f"
-            },
-            {
-                "link": "#",
-                "icone": "fa-brands fa-instagram"
-            },
-            {
-                "link": "#",
-                "icone": "fa-brands fa-twitter"
-            },
-            {
-                "link": "#",
-                "icone": "fa-brands fa-whatsapp"
+                "icone": "fab fa-twitter",
+                "classe": "share-twitter",
+                "url": "#"
             }
         ],
         "copyright": {
-            "texto": "Merkulove © <b>Talking Minds</b> - Todos os direitos reservados. Copyright 2026"
+            "texto": "© 2021 medisch by Zytheme.com. todos os direitos reservados."
         }
     }
 }
