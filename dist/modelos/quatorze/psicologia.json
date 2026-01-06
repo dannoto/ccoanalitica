@@ -1,734 +1,487 @@
 {
-    
-    "aside": {
-        "logo": {
-            "link": "index.html",
-            "imagem": "dist/imagens/aside/psicologia/aside-logo-1.png",
-            "alt": "Logo Clínica de Psicologia"
-        },
-        "menu": [
+    "head": {
+        "seo": {
+            "title": "Clínica de Psicologia | Cuidado Emocional e Bem-Estar",
+            "description": "Clínica de psicologia especializada em saúde emocional, psicoterapia individual, terapia de casal e atendimento humanizado presencial e online.",
+            "author": "Clínica de Psicologia",
+            "keywords": "psicologia, psicoterapia, saúde mental, terapia online, psicólogo, bem-estar emocional"
+        }
+    },
+    "menu": {
+        "logo": "https://labartisan.net/demo/mukti/assets/images/logo/logo.png",
+        "logo_alt": "Clínica de Psicologia",
+        "logo_link": "index.html",
+        "itens": [
             {
+                "classe": "home-nav",
                 "titulo": "Início",
-                "submenu": [
+                "link": "index.html",
+                "subitens": [
                     {
-                        "titulo": "Psicologia Clínica",
+                        "titulo": "Página Inicial",
                         "link": "index.html"
                     },
                     {
-                        "titulo": "Terapia Online",
+                        "titulo": "Versão Alternativa",
                         "link": "index-2.html"
-                    },
-                    {
-                        "titulo": "Psicologia Corporativa",
-                        "link": "index-3.html"
                     }
                 ]
             },
             {
-                "titulo": "Institucional",
-                "submenu": [
+                "classe": "depart-nav",
+                "titulo": "Áreas de Atuação",
+                "link": "department.html",
+                "subitens": []
+            },
+            {
+                "classe": "doctor-nav",
+                "titulo": "Psicólogos",
+                "link": "doctor.html",
+                "subitens": [
                     {
-                        "titulo": "Sobre a Clínica",
-                        "link": "about.html"
+                        "titulo": "Equipe Clínica",
+                        "link": "doctor.html"
                     },
                     {
-                        "titulo": "Sobre a Psicóloga",
-                        "link": "about-2.html"
-                    },
-                    {
-                        "titulo": "Eventos e Palestras",
-                        "link": "events.html"
-                    },
-                    {
-                        "titulo": "Conteúdos em Vídeo",
-                        "link": "videos.html"
-                    },
-                    {
-                        "titulo": "Serviços",
-                        "link": "services.html"
-                    },
-                    {
-                        "titulo": "Equipe",
-                        "submenu": [
-                            {
-                                "titulo": "Nossa Equipe",
-                                "link": "team.html"
-                            },
-                            {
-                                "titulo": "Detalhes do Profissional",
-                                "link": "team-details.html"
-                            }
-                        ]
-                    },
-                    {
-                        "titulo": "Planos e Valores",
-                        "link": "pricing.html"
-                    },
-                    {
-                        "titulo": "Depoimentos",
-                        "link": "testimonials.html"
-                    },
-                    {
-                        "titulo": "Perguntas Frequentes",
-                        "link": "faqs.html"
+                        "titulo": "Perfil Profissional",
+                        "link": "doctor-single.html"
                     }
                 ]
             },
             {
-                "titulo": "Cursos",
-                "submenu": [
+                "classe": "service-nav",
+                "titulo": "Serviços",
+                "link": "service.html",
+                "subitens": [
                     {
-                        "titulo": "Cursos e Workshops",
-                        "link": "courses.html"
+                        "titulo": "Terapias",
+                        "link": "service.html"
                     },
                     {
-                        "titulo": "Detalhes do Curso",
-                        "link": "course-details.html"
+                        "titulo": "Detalhes do Serviço",
+                        "link": "service-single.html"
                     }
                 ]
-            },
-            {
-                "titulo": "Blog",
-                "submenu": [
-                    {
-                        "titulo": "Blog em Grade",
-                        "link": "blog-grid.html"
-                    },
-                    {
-                        "titulo": "Blog em Lista",
-                        "link": "blog-list.html"
-                    },
-                    {
-                        "titulo": "Blog em Mosaico",
-                        "link": "blog-masonry.html"
-                    },
-                    {
-                        "titulo": "Artigo Completo",
-                        "link": "blog-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Conteúdos Terapêuticos",
-                "submenu": [
-                    {
-                        "titulo": "Galeria",
-                        "link": "portfolio-gallery.html"
-                    },
-                    {
-                        "titulo": "Casos e Abordagens",
-                        "link": "portfolio-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Contato",
-                "link": "contact.html",
-                "email": "contato@seudominio.com",
-                "telefone": "(62) 5562982045122"
             }
         ]
     },
     "header": {
-        "topbar": {
-            "mensagem": "Agendamentos abertos para novos atendimentos psicológicos",
-            "countdown": "2026/12/31",
-            "telefone": {
-                "numero": "(62) 5562982045122",
-                "link": "tel:625562982045122"
+        "logo": "https://labartisan.net/demo/mukti/assets/images/logo/logo.png",
+        "logo_alt": "Instituto de Psicologia",
+        "logo_link": "index.html",
+        "info": [
+            {
+                "icone": "https://labartisan.net/demo/mukti/assets/images/header/1.png",
+                "titulo": "Telefone",
+                "valor": "(62) 5562982045122"
             },
-            "email": {
-                "endereco": "contato@seudominio.com",
-                "link": "mailto:contato@seudominio.com"
+            {
+                "icone": "https://labartisan.net/demo/mukti/assets/images/header/2.png",
+                "titulo": "Email",
+                "valor": "contato@seudominio.com"
+            },
+            {
+                "icone": "https://labartisan.net/demo/mukti/assets/images/header/3.png",
+                "titulo": "Endereço",
+                "valor": "Atendimento presencial e online"
             }
-        },
-        "logo": {
+        ]
+    },
+    "menu_principal": [
+        {
+            "titulo": "Início",
             "link": "index.html",
-            "imagem": "dist/imagens/header/psicologia/header-logo-1.png",
-            "alt": "Clínica de Psicologia"
+            "subitens": []
         },
-        "menu": [
+        {
+            "titulo": "Áreas de Atuação",
+            "link": "department.html",
+            "subitens": []
+        },
+        {
+            "titulo": "Psicólogos",
+            "link": "doctor.html",
+            "subitens": []
+        },
+        {
+            "titulo": "Serviços",
+            "link": "service.html",
+            "subitens": []
+        }
+    ],
+    "banner": {
+        "imagem": "https://labartisan.net/demo/mukti/assets/images/banner/1.jpg",
+        "subtitulo": "Cuidado Emocional e Bem-Estar",
+        "titulo": "Psicologia Clínica para uma Vida Mais Equilibrada",
+        "botao": {
+            "titulo": "Agendar Atendimento",
+            "link": "https://wa.me/5562982045122"
+        }
+    },
+    "features": {
+        "subtitulo": "O Que Oferecemos",
+        "titulo": "Atendimento Psicológico Especializado para Você",
+        "items": [
             {
-                "titulo": "Início",
-                "submenu": [
-                    {
-                        "titulo": "Psicologia Clínica",
-                        "link": "index.html"
-                    },
-                    {
-                        "titulo": "Terapia Online",
-                        "link": "index-2.html"
-                    },
-                    {
-                        "titulo": "Psicologia Corporativa",
-                        "link": "index-3.html"
-                    }
-                ]
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/feature/1.png",
+                "titulo": "Psicoterapia Individual",
+                "descricao": "Atendimento personalizado focado no autoconhecimento, equilíbrio emocional e bem-estar mental.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
             },
             {
-                "titulo": "Institucional",
-                "submenu": [
-                    {
-                        "titulo": "Sobre a Clínica",
-                        "link": "about.html"
-                    },
-                    {
-                        "titulo": "Sobre a Psicóloga",
-                        "link": "about-2.html"
-                    },
-                    {
-                        "titulo": "Eventos e Palestras",
-                        "link": "events.html"
-                    },
-                    {
-                        "titulo": "Conteúdos em Vídeo",
-                        "link": "videos.html"
-                    },
-                    {
-                        "titulo": "Serviços",
-                        "link": "services.html"
-                    },
-                    {
-                        "titulo": "Equipe",
-                        "submenu": [
-                            {
-                                "titulo": "Nossa Equipe",
-                                "link": "team.html"
-                            },
-                            {
-                                "titulo": "Perfil do Profissional",
-                                "link": "team-details.html"
-                            }
-                        ]
-                    },
-                    {
-                        "titulo": "Planos e Valores",
-                        "link": "pricing.html"
-                    },
-                    {
-                        "titulo": "Depoimentos",
-                        "link": "testimonials.html"
-                    },
-                    {
-                        "titulo": "Perguntas Frequentes",
-                        "link": "faqs.html"
-                    }
-                ]
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/feature/2.png",
+                "titulo": "Acolhimento Emocional",
+                "descricao": "Suporte psicológico em momentos de crise, ansiedade, estresse e dificuldades emocionais.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
             },
             {
-                "titulo": "Cursos",
-                "submenu": [
-                    {
-                        "titulo": "Cursos e Workshops",
-                        "link": "courses.html"
-                    },
-                    {
-                        "titulo": "Detalhes do Curso",
-                        "link": "course-details.html"
-                    }
-                ]
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/feature/3.png",
+                "titulo": "Profissionais Qualificados",
+                "descricao": "Equipe formada por psicólogos experientes e registrados, com atendimento ético e humanizado.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
             },
             {
-                "titulo": "Blog",
-                "submenu": [
-                    {
-                        "titulo": "Artigos",
-                        "link": "blog-grid.html"
-                    },
-                    {
-                        "titulo": "Lista de Artigos",
-                        "link": "blog-list.html"
-                    },
-                    {
-                        "titulo": "Conteúdo Especial",
-                        "link": "blog-masonry.html"
-                    },
-                    {
-                        "titulo": "Artigo Completo",
-                        "link": "blog-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Conteúdos Terapêuticos",
-                "submenu": [
-                    {
-                        "titulo": "Galeria",
-                        "link": "portfolio-gallery.html"
-                    },
-                    {
-                        "titulo": "Casos e Abordagens",
-                        "link": "portfolio-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Contato",
-                "link": "contact.html"
-            }
-        ],
-        "acoes": {
-            "botao": {
-                "titulo": "Agendar Consulta",
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/feature/4.png",
+                "titulo": "Atendimento Online",
+                "descricao": "Sessões online com a mesma qualidade do atendimento presencial, onde você estiver.",
+                "botao": "Saiba Mais",
                 "link": "https://wa.me/5562982045122"
             }
-        },
-        "search": {
-            "placeholder": "Buscar conteúdos, artigos ou serviços..."
-        }
+        ]
     },
-    "banner": {
-        "background": "dist/imagens/banner/psicologia/banner-1.jpg",
-        "titulo": "Encontre o Apoio Psicológico Ideal para Você",
-        "formulario": {
-            "placeholder_busca": "Buscar por psicólogo ou especialidade",
-            "botao": {
-                "titulo": "Buscar Atendimento"
+    "departamentos": {
+        "subtitulo": "Nossas Abordagens",
+        "titulo": "Áreas da Psicologia que Atuamos",
+        "abas": [
+            {
+                "id": "one",
+                "icone": "https://labartisan.net/demo/mukti/assets/images/depart/icon/01.png"
             },
-            "opcoes": [
-                {
-                    "titulo": "Terapia Individual",
-                    "valor": "individual",
-                    "ativo": true
-                },
-                {
-                    "titulo": "Terapia de Casal",
-                    "valor": "casal",
-                    "ativo": false
-                },
-                {
-                    "titulo": "Terapia Empresarial",
-                    "valor": "empresarial",
-                    "ativo": false,
-                    "desabilitado": true
+            {
+                "id": "two",
+                "icone": "https://labartisan.net/demo/mukti/assets/images/depart/icon/02.png"
+            },
+            {
+                "id": "three",
+                "icone": "https://labartisan.net/demo/mukti/assets/images/depart/icon/03.png"
+            }
+        ],
+        "conteudo": [
+            {
+                "id": "one",
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/depart/07.jpg",
+                "titulo": "Psicoterapia Individual",
+                "descricao": "Processo terapêutico focado no desenvolvimento emocional, autoconhecimento e saúde mental.",
+                "lista": [
+                    "Atendimento humanizado",
+                    "Sessões presenciais e online",
+                    "Plano terapêutico individualizado",
+                    "Sigilo e ética profissional"
+                ],
+                "botao": {
+                    "titulo": "Agendar Sessão",
+                    "link": "https://wa.me/5562982045122"
                 }
-            ]
-        },
-        "elementos": [
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-1.png",
-                "classe": "element_1 slideRightTwo"
             },
             {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-2.png",
-                "classe": "element_2 zoom-fade"
+                "id": "two",
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/depart/08.jpg",
+                "titulo": "Terapia para Ansiedade e Depressão",
+                "descricao": "Acompanhamento psicológico para lidar com sintomas emocionais e promover qualidade de vida.",
+                "lista": [
+                    "Redução da ansiedade",
+                    "Controle emocional",
+                    "Apoio contínuo",
+                    "Abordagens baseadas em evidência"
+                ],
+                "botao": {
+                    "titulo": "Agendar Sessão",
+                    "link": "https://wa.me/5562982045122"
+                }
             },
             {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-3.png",
-                "classe": "element_3 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-4.png",
-                "classe": "element_4 rotate_elem"
+                "id": "three",
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/depart/09.jpg",
+                "titulo": "Terapia Familiar e de Casal",
+                "descricao": "Espaço terapêutico para melhorar relacionamentos, comunicação e vínculos emocionais.",
+                "lista": [
+                    "Mediação de conflitos",
+                    "Fortalecimento de vínculos",
+                    "Escuta ativa",
+                    "Ambiente seguro e acolhedor"
+                ],
+                "botao": {
+                    "titulo": "Agendar Sessão",
+                    "link": "https://wa.me/5562982045122"
+                }
             }
-        ],
-        "destaque": {
-            "imagem": "dist/imagens/banner/psicologia/banner-think-1.png",
-            "percentual": 92,
-            "titulo": "de satisfação",
-            "descricao": "Cuidado psicológico humanizado e eficaz"
-        }
+        ]
     },
-    "sobre": {
-        "background": "dist/imagens/sobre/psicologia/sobre-bg-1.png",
-        "imagens": {
-            "principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-            "secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg"
-        },
-        "elementos": [
+    "contadores": {
+        "items": [
             {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-1.png",
-                "classe": "element_1"
+                "icone": "https://labartisan.net/demo/mukti/assets/images/counter/01.png",
+                "numero": 500,
+                "titulo": "Pacientes Atendidos"
             },
             {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-2.png",
-                "classe": "element_2 rotate_elem"
+                "icone": "https://labartisan.net/demo/mukti/assets/images/counter/02.png",
+                "numero": 15,
+                "titulo": "Psicólogos Especializados"
             },
             {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-3.png",
-                "classe": "element_3 rotate_elem"
+                "icone": "https://labartisan.net/demo/mukti/assets/images/counter/03.png",
+                "numero": 10,
+                "titulo": "Anos de Experiência"
+            },
+            {
+                "icone": "https://labartisan.net/demo/mukti/assets/images/counter/04.png",
+                "numero": 1000,
+                "titulo": "Sessões Realizadas"
             }
-        ],
-        "subtitulo": "Quem Somos",
-        "titulo": "Cuidamos da Sua Saúde Emocional com Profissionalismo e Empatia",
-        "descricao": "Somos uma clínica de psicologia dedicada ao acolhimento, ao autoconhecimento e ao desenvolvimento emocional, oferecendo atendimentos humanizados e baseados em evidências científicas.",
-        "lista": [
-            "Atendimento psicológico individual e personalizado",
-            "Terapia de casal e familiar",
-            "Acompanhamento emocional para empresas"
-        ],
-        "botao": {
-            "titulo": "Conheça Nossa Clínica",
-            "link": "about.html"
-        }
+        ]
     },
     "servicos": {
         "subtitulo": "Nossos Serviços",
-        "titulo": "Atendimentos e Terapias Psicológicas",
+        "titulo": "Atendimento Psicológico Especializado",
         "items": [
             {
-                "imagem": "dist/imagens/psicologia/servicos-1.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Terapia Individual",
-                "descricao": "Atendimento personalizado focado em suas necessidades emocionais."
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/service/01.jpg",
+                "titulo": "Psicoterapia Individual",
+                "descricao": "Atendimento psicológico focado no autoconhecimento, equilíbrio emocional e desenvolvimento pessoal.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
             },
             {
-                "imagem": "dist/imagens/psicologia/servicos-2.jpg",
-                "link": "https://wa.me/5562982045122",
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/service/02.jpg",
+                "titulo": "Terapia Infantil",
+                "descricao": "Acompanhamento psicológico para crianças, promovendo saúde emocional e desenvolvimento saudável.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/service/03.jpg",
+                "titulo": "Terapia para Adolescentes",
+                "descricao": "Suporte psicológico para lidar com emoções, autoestima e desafios da adolescência.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
+            },
+            {
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/service/04.jpg",
                 "titulo": "Terapia de Casal",
-                "descricao": "Fortalecimento de relacionamentos e resolução de conflitos."
-            },
-            {
-                "imagem": "dist/imagens/psicologia/servicos-3.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Terapia em Grupo",
-                "descricao": "Compartilhamento de experiências e apoio emocional coletivo."
-            },
-            {
-                "imagem": "dist/imagens/psicologia/servicos-4.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Aconselhamento Profissional",
-                "descricao": "Orientações psicológicas para desafios pessoais e profissionais."
+                "descricao": "Auxílio profissional para fortalecer vínculos, comunicação e resolução de conflitos.",
+                "botao": "Saiba Mais",
+                "link": "https://wa.me/5562982045122"
             }
         ]
     },
-    "skills": {
-        "background": "dist/imagens/skills/psicologia/skills-bg-1.png",
-        "imagem_principal": "dist/imagens/skills/psicologia/skills-1.jpg",
-        "subtitulo": "Nossas Habilidades",
-        "titulo": "Especialistas em Saúde Mental",
-        "descricao": "Nossa equipe de psicólogos oferece acompanhamento personalizado para promover bem-estar, equilíbrio emocional e desenvolvimento pessoal.",
+    "profissionais": {
+        "subtitulo": "Nossa Equipe",
+        "titulo": "Psicólogos Especializados",
         "items": [
             {
-                "titulo": "Terapia Individual",
-                "percent": 95,
-                "cor": "#4b83fb",
-                "delay": ".20ms"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/team/01.jpg",
+                "nome": "Dra. Ana Ribeiro",
+                "especialidade": "Psicologia Clínica",
+                "telefone": "(62) 5562982045122",
+                "email": "contato@seudominio.com"
             },
             {
-                "titulo": "Terapia de Casal",
-                "percent": 88,
-                "cor": "#65cfa9",
-                "delay": ".30ms"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/team/02.jpg",
+                "nome": "Dr. Carlos Menezes",
+                "especialidade": "Psicoterapia Infantil",
+                "telefone": "(62) 5562982045122",
+                "email": "contato@seudominio.com"
             },
             {
-                "titulo": "Terapia em Grupo",
-                "percent": 92,
-                "cor": "#ffbd3f",
-                "delay": ".40ms"
-            }
-        ]
-    },
-    "planos": {
-        "subtitulo": "Nossos Planos",
-        "titulo": "Planos de Atendimento Psicológico",
-        "tabs": [
-            {
-                "id": "mensal",
-                "titulo": "Mensal",
-                "active": true,
-                "items": [
-                    {
-                        "titulo": "Plano Básico",
-                        "descricao": "Apoio psicológico inicial para equilíbrio emocional.",
-                        "preco": "R$199,90",
-                        "beneficios": [
-                            "1 Sessão Individual por semana",
-                            "Acompanhamento por chat",
-                            "Acesso a materiais de bem-estar",
-                            "Relatórios de progresso"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": true
-                    },
-                    {
-                        "titulo": "Plano Standard",
-                        "descricao": "Acompanhamento contínuo para desenvolvimento pessoal.",
-                        "preco": "R$349,90",
-                        "beneficios": [
-                            "2 Sessões Individuais por semana",
-                            "Acompanhamento por chat e email",
-                            "Acesso a workshops online",
-                            "Relatórios detalhados"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    },
-                    {
-                        "titulo": "Plano Premium",
-                        "descricao": "Suporte completo para saúde mental e emocional.",
-                        "preco": "R$599,90",
-                        "beneficios": [
-                            "Sessões ilimitadas",
-                            "Acompanhamento prioritário",
-                            "Workshops e materiais exclusivos",
-                            "Relatórios detalhados e metas personalizadas"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    }
-                ]
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/team/03.jpg",
+                "nome": "Dra. Juliana Costa",
+                "especialidade": "Terapia de Casal",
+                "telefone": "(62) 5562982045122",
+                "email": "contato@seudominio.com"
             },
             {
-                "id": "anual",
-                "titulo": "Anual",
-                "active": false,
-                "items": [
-                    {
-                        "titulo": "Plano Básico",
-                        "descricao": "Apoio psicológico anual para equilíbrio emocional.",
-                        "preco": "R$1999,90",
-                        "beneficios": [
-                            "1 Sessão Individual por semana",
-                            "Acompanhamento por chat",
-                            "Acesso a materiais de bem-estar",
-                            "Relatórios de progresso"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    },
-                    {
-                        "titulo": "Plano Standard",
-                        "descricao": "Acompanhamento contínuo durante o ano.",
-                        "preco": "R$3499,90",
-                        "beneficios": [
-                            "2 Sessões Individuais por semana",
-                            "Acompanhamento por chat e email",
-                            "Acesso a workshops online",
-                            "Relatórios detalhados"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": true
-                    },
-                    {
-                        "titulo": "Plano Premium",
-                        "descricao": "Suporte completo anual para saúde mental.",
-                        "preco": "R$5999,90",
-                        "beneficios": [
-                            "Sessões ilimitadas",
-                            "Acompanhamento prioritário",
-                            "Workshops e materiais exclusivos",
-                            "Relatórios detalhados e metas personalizadas"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    }
-                ]
-            }
-        ]
-    },
-    "video": {
-        "imagem_principal": "dist/imagens/video/psicologia/video-1.jpg",
-        "link_video": "https://www.youtube.com/watch?v=TKnufs85hXk",
-        "elementos": [
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-1.png",
-                "classe": "element_1 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-2.png",
-                "classe": "element_2 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-3.png",
-                "classe": "element_3 rotate_elem"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/team/04.jpg",
+                "nome": "Dr. Marcos Silva",
+                "especialidade": "Psicologia Comportamental",
+                "telefone": "(62) 5562982045122",
+                "email": "contato@seudominio.com"
             }
         ],
-        "setas": [
-            {
-                "classe": "one",
-                "quantidade": 5
-            },
-            {
-                "classe": "two",
-                "quantidade": 5
-            }
-        ]
-    },
-    "plane": {
-        "titulo": "Nossa Escola de Psicologia Oferece Ferramentas e Treinamentos Avançados",
-        "elementos": [
-            {
-                "imagem": "dist/imagens/plane/psicologia/elemento-1.png",
-                "classe": "element_1 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/plane/psicologia/elemento-2.png",
-                "classe": "element_2 zoom-fade"
-            }
-        ]
-    },
-    "portfolio": {
-        "subtitulo": "Galeria de Projetos",
-        "titulo": "Temos 34520+ Projetos Completados com Sucesso",
         "botao": {
-            "titulo": "Ver Todos os Projetos",
-            "link": "portfolio-grid.html"
+            "titulo": "Ver todos os profissionais",
+            "link": "#"
+        }
+    },
+    "agendamento": {
+        "horarios": {
+            "subtitulo": "Horários",
+            "titulo": "Funcionamento da Clínica",
+            "dias": [
+                {
+                    "dia": "Segunda-feira",
+                    "horario": "08:00 às 18:00"
+                },
+                {
+                    "dia": "Terça-feira",
+                    "horario": "08:00 às 18:00"
+                },
+                {
+                    "dia": "Quarta-feira",
+                    "horario": "08:00 às 18:00"
+                },
+                {
+                    "dia": "Quinta-feira",
+                    "horario": "08:00 às 18:00"
+                },
+                {
+                    "dia": "Sexta-feira",
+                    "horario": "08:00 às 17:00"
+                },
+                {
+                    "dia": "Sábado",
+                    "horario": "09:00 às 13:00"
+                },
+                {
+                    "dia": "Domingo",
+                    "horario": "Fechado"
+                }
+            ]
         },
+        "formulario": {
+            "subtitulo": "Agendamento",
+            "titulo": "Marque sua Sessão",
+            "action": "/",
+            "especialidades": [
+                "Psicoterapia Individual",
+                "Terapia Infantil",
+                "Terapia de Casal"
+            ],
+            "botao": "Agendar Agora"
+        }
+    },
+    "blog": {
+        "subtitulo": "Conteúdos",
+        "titulo": "Artigos e Reflexões em Psicologia",
         "items": [
             {
-                "imagem": "dist/imagens/portfolio/psicologia/projeto-1.jpg",
-                "titulo": "Como Melhorar a Saúde Mental",
-                "subtitulo": "Psicologia Clínica",
-                "link": "portfolio-details.html",
-                "animacao": "fadeInUp",
-                "delay": ".20ms"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/blog/1.jpg",
+                "autor": "Equipe Clínica",
+                "data": "24 de Março, 2021",
+                "titulo": "A Importância da Saúde Mental no Dia a Dia",
+                "descricao": "Entenda como o cuidado com a saúde emocional impacta diretamente a qualidade de vida e os relacionamentos.",
+                "botao": "Ler Artigo",
+                "link": "#",
+                "comentarios": 30
             },
             {
-                "imagem": "dist/imagens/portfolio/psicologia/projeto-2.jpg",
-                "titulo": "Terapias Online",
-                "subtitulo": "Psicologia Online",
-                "link": "portfolio-details.html",
-                "animacao": "fadeInDown",
-                "delay": ".40ms"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/blog/2.jpg",
+                "autor": "Equipe Clínica",
+                "data": "24 de Março, 2021",
+                "titulo": "Ansiedade: Como Identificar e Tratar",
+                "descricao": "Conheça os principais sintomas da ansiedade e como a psicoterapia pode ajudar no controle emocional.",
+                "botao": "Ler Artigo",
+                "link": "#",
+                "comentarios": 30
+            },
+            {
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/blog/3.jpg",
+                "autor": "Equipe Clínica",
+                "data": "24 de Março, 2021",
+                "titulo": "Psicoterapia: Quando Procurar Ajuda Profissional",
+                "descricao": "Buscar ajuda psicológica é um passo essencial para o autoconhecimento e o bem-estar emocional.",
+                "botao": "Ler Artigo",
+                "link": "#",
+                "comentarios": 30
             }
         ]
     },
-    "testemunhos": {
-        "bg": "dist/imagens/testemunhos/psicologia/bg.jpg",
-        "subtitulo": "Depoimentos",
-        "titulo": "O Que Nossos Pacientes e Famílias Dizem",
+    "parceiros": {
         "items": [
             {
-                "comentario": "A terapia me ajudou a superar momentos difíceis e melhorar meu bem-estar emocional."
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/1.png"
             },
             {
-                "comentario": "O atendimento personalizado me trouxe mais segurança e confiança em minhas decisões."
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/2.png"
             },
             {
-                "comentario": "Excelente abordagem humanizada e profissionalismo da equipe de psicologia."
-            }
-        ],
-        "autores": [
-            {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-1.jpg"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/3.png"
             },
             {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-2.jpg"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/4.png"
             },
             {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-3.jpg"
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/5.png"
+            },
+            {
+                "imagem": "https://labartisan.net/demo/mukti/assets/images/sponsor/6.png"
             }
         ]
     },
-    "cta": {
-        "subtitulo": "Nossos Psicólogos",
-        "titulo": "Quer Transformar Sua Vida Emocional Para Melhor?",
-        "botao": {
-            "titulo": "Entre em Contato",
-            "link": "contact.html"
-        },
-        "imagem_principal": "dist/imagens/cta/psicologia/cta-principal.png",
-        "elementos": [
-            {
-                "imagem": "dist/imagens/cta/psicologia/elemento-1.png",
-                "classe": "shape_1 zoom-fade"
-            },
-            {
-                "imagem": "dist/imagens/cta/psicologia/elemento-2.png",
-                "classe": "shape_2 rotate_elem"
-            }
-        ]
+    "newsletter": {
+        "titulo": "Receba Conteúdos sobre Saúde Emocional",
+        "placeholder": "Digite seu e-mail",
+        "botao": "Inscrever-se"
     },
     "footer": {
-        "bg": "dist/imagens/footer/psicologia/bg.png",
-        "logo": {
-            "imagem": "dist/imagens/footer/psicologia/logo.png",
-            "link": "index.html"
-        },
         "contato": {
-            "endereco": "Av. Psicologia, 256 - Centro, Brasília, DF",
-            "telefone": "+5562982045122",
-            "telefone_formatado": "(62) 5562-9840",
-            "email": "contato@seudominio.com"
+            "titulo": "Informações de Contato",
+            "descricao": "Atendimento psicológico humanizado, com foco no bem-estar emocional, escuta ativa e cuidado integral.",
+            "endereco": "Atendimento presencial e online em todo o Brasil",
+            "telefone": "(62) 5562982045122",
+            "email": "contato@seudominio.com",
+            "site": "https://seudominio.com"
         },
-        "redes": [
-            {
-                "link": "#",
-                "icone": "fab fa-facebook-f"
-            },
-            {
-                "link": "#",
-                "icone": "fab fa-twitter"
-            },
-            {
-                "link": "#",
-                "icone": "fab fa-linkedin"
-            },
-            {
-                "link": "#",
-                "icone": "fab fa-behance"
-            },
-            {
-                "link": "#",
-                "icone": "fab fa-youtube"
-            }
-        ],
-        "menus": [
-            {
-                "titulo": "Nossos Serviços",
-                "itens": [
-                    {
-                        "titulo": "Psicologia Clínica",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Terapia Online",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Psicoterapia Infantil",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Orientação Profissional",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Workshops Emocionais",
-                        "link": "#"
-                    }
-                ]
-            },
-            {
-                "titulo": "Sobre Nós",
-                "itens": [
-                    {
-                        "titulo": "Missão e Visão",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Nossa Equipe",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Abordagem Humanizada",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Clientes Satisfeitos",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Carreiras",
-                        "link": "#"
-                    }
-                ]
-            }
-        ],
-        "newsletter": {
-            "titulo": "Newsletter",
-            "descricao": "Receba novidades e dicas de psicologia diretamente no seu e-mail.",
-            "placeholder": "Digite seu e-mail",
-            "botao": "Inscrever-se"
+        "profissionais": {
+            "titulo": "Nossos Psicólogos",
+            "items": [
+                "Dra. Ana Ribeiro – Psicologia Clínica",
+                "Dr. Lucas Martins – Terapia Cognitivo-Comportamental",
+                "Dra. Paula Fernandes – Psicologia Infantil",
+                "Dr. Rafael Souza – Psicologia Familiar",
+                "Dra. Mariana Costa – Psicoterapia para Adultos",
+                "Dr. Felipe Rocha – Saúde Emocional"
+            ]
         },
-        "direitos": "© 2026 Clínica Psicologia Plena. Todos os direitos reservados.",
-        "elemento_extra": "dist/imagens/footer/psicologia/elemento-extra.png"
+        "servicos": {
+            "titulo": "Serviços Psicológicos",
+            "items": [
+                "Psicoterapia Individual",
+                "Terapia de Casal",
+                "Terapia Familiar",
+                "Psicologia Infantil",
+                "Acompanhamento Emocional",
+                "Orientação Psicológica Online"
+            ]
+        },
+        "horarios": {
+            "titulo": "Horários de Atendimento",
+            "items": [
+                {
+                    "dia": "Segunda-feira",
+                    "hora": "08:00 - 18:00"
+                },
+                {
+                    "dia": "Terça-feira",
+                    "hora": "08:00 - 18:00"
+                },
+                {
+                    "dia": "Quarta-feira",
+                    "hora": "08:00 - 18:00"
+                },
+                {
+                    "dia": "Quinta-feira",
+                    "hora": "08:00 - 18:00"
+                },
+                {
+                    "dia": "Sexta-feira",
+                    "hora": "08:00 - 17:00"
+                }
+            ]
+        },
+        "copyright": "© 2026 Clínica de Psicologia. Todos os direitos reservados."
     }
 }

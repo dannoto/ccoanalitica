@@ -22,1260 +22,546 @@
     <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/style.css">
 
     <title>Mukti</title>
+    <meta class="description"></head>
+    <meta class="author"></html>
+    <meta class="keywords"></a>
 </head>
 
 <body>
-    <!-- preloader start here -->
-	<div class="preloader">
-		<div class="preloader-inner">
-			<div class="preloader-icon">
-				<span></span>
-				<span></span>
-			</div>
-		</div>
-	</div>
-	<!-- preloader ending here -->
 
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
 
-    <!-- ========== Mobile-nav section start here ========== -->
+    <!-- MOBILE MENU -->
     <div class="mobile-menu">
         <div class="container">
             <div class="mobile-menu-wrapper">
                 <div class="logo">
-                    <a href="index.html">
-                        <img src="https://labartisan.net/demo/mukti/assets/images/logo/logo.png" alt="Mukti">
+                    <a href="<?= $d['menu']['logo_link'] ?>">
+                        <img src="<?= $d['menu']['logo'] ?>" alt="<?= $d['menu']['logo_alt'] ?>">
                     </a>
                 </div>
                 <div class="open-menu"><i class="icofont-navigation-menu"></i></div>
             </div>
-            <nav id="mobile-nav">
-                <ul class="home-nav">
-                    <li class="home">
-                        <a href="index.html">Home</a>
-                        <ul>
-                            <li><a href="index.html">Home-1</a></li>
-                            <li><a href="index-2.html">Home-2</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="depart-nav">
-                    <li class="depart">
-                        <a href="department.html">Department</a>
-                    </li>
-                </ul>
-                <ul class="doctor-nav">
-                    <li class="doctor">
-                        <a href="doctor.html">Doctors</a>
-                        <ul>
-                            <li><a href="doctor.html">Doctors</a></li>
-                            <li><a href="doctor-single.html">Doctor Single</a></li>
-                            <li><a href="doctor-timeline.html">Doctor Timeline</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="service-nav">
-                    <li class="service">
-                        <a href="service.html">Services</a>
-                        <ul>
-                            <li><a href="service.html">Services</a></li>
-                            <li><a href="service-single.html">Service Single</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="shop-nav">
-                    <li class="shop">
-                        <a href="shop.html">Shop</a>
-                        <ul>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="shop-single.html">Shop Single</a></li>
-                            <li><a href="cart.html">Shop Cart</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="blog-nav">
-                    <li class="blog">
-                        <a href="blog.html">Blog</a>
-                        <ul>
-                            <li><a href="blog.html">Blog Page</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="short-nav">
-                    <li class="short">
-                        <a href="contact.html">Pages</a>
-                        <ul>
-                            <li><a href="about.html">About Page</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="404.html">404 Error</a></li>
-                        </ul>
-                    </li>
-                </ul>
 
+            <nav id="mobile-nav">
+                <?php foreach ($d['menu']['itens'] as $item): ?>
+                    <ul class="<?= $item['classe'] ?>">
+                        <li>
+                            <a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a>
+                            <?php if (!empty($item['subitens'])): ?>
+                                <ul>
+                                    <?php foreach ($item['subitens'] as $sub): ?>
+                                        <li>
+                                            <a href="<?= $sub['link'] ?>"><?= $sub['titulo'] ?></a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            <?php endif; ?>
+                        </li>
+                    </ul>
+                <?php endforeach; ?>
             </nav>
         </div>
     </div>
-    <!-- ========== Mobile-nav section end here ========== -->
 
-
-    <!-- ==========Header Section Starts Here========== -->
+    <!-- HEADER -->
     <header class="header-section d-none d-lg-block">
         <div class="header-top">
             <div class="container">
                 <div class="row justify-content-between align-items-center px-15">
+
                     <div class="header-logo">
-                        <a href="index.html" class="logo"><img src="https://labartisan.net/demo/mukti/assets/images/logo/logo.png" alt="logo"></a>
+                        <a href="<?= $d['header']['logo_link'] ?>" class="logo">
+                            <img src="<?= $d['header']['logo'] ?>" alt="<?= $d['header']['logo_alt'] ?>">
+                        </a>
                     </div>
+
                     <ul class="header-contact-info d-flex align-items-center">
-                        <li class="item">
-                            <div class="item-inner">
-                                <div class="item-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/header/1.png" alt="">
+                        <?php foreach ($d['header']['info'] as $info): ?>
+                            <li class="item">
+                                <div class="item-inner">
+                                    <div class="item-thumb">
+                                        <img src="<?= $info['icone'] ?>" alt="">
+                                    </div>
+                                    <div class="item-content">
+                                        <span><?= $info['titulo'] ?> :</span>
+                                        <p><?= $info['valor'] ?></p>
+                                    </div>
                                 </div>
-                                <div class="item-content">
-                                    <span>Number :</span>
-                                    <p>+880123456789</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="item-inner">
-                                <div class="item-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/header/2.png" alt="">
-                                </div>
-                                <div class="item-content">
-                                    <span>Email :</span>
-                                    <p>Mukti@gmail.com</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="item-inner">
-                                <div class="item-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/header/3.png" alt="">
-                                </div>
-                                <div class="item-content">
-                                    <span>Address :</span>
-                                    <p>12 North West New York 100</p>
-                                </div>
-                            </div>
-                        </li>
+                            </li>
+                        <?php endforeach; ?>
                     </ul>
+
                 </div>
             </div>
         </div>
 
         <div class="header-bottom">
             <nav class="container">
-                <div class="primary-menu">
-                    <div class="menu-area">
-                        <div class="row justify-content-between px-15">
-                            <ul class="main-menu d-flex">
-                                <li class="active">
-                                    <a href="#">Home</a>
-                                    <ul class="submenu">
-                                        <li class="active"><a href="index.html">home page one</a></li>
-                                        <li><a href="index-2.html">home page two</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="department.html">Departments</a></li>
-                                <li><a href="#">Doctors</a>
-                                    <ul class="submenu">
-                                        <li><a href="doctor.html">Doctor Page</a></li>
-                                        <li><a href="doctor-single.html">Doctor Single</a></li>
-                                        <li><a href="doctor-timeline.html">Doctor Timeline</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Services</a>
-                                    <ul class="submenu">
-                                        <li><a href="service.html">Services Page</a></li>
-                                        <li><a href="service-single.html">Services Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Shop</a>
-                                    <ul class="submenu">
-                                        <li><a href="shop.html">Shop Page</a></li>
-                                        <li><a href="shop-single.html">Shop Single</a></li>
-                                        <li><a href="cart.html">Shop Cart</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Blog</a>
-                                    <ul class="submenu">
-                                        <li><a href="blog.html">Blog Page</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="submenu">
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="nav-widget d-flex justify-content-between align-items-center">
-                                <li class="nav-search">
-                                    <input type="text" name="search" placeholder="search here">
-                                    <span class="search"><i class="icofont-search-1"></i></span>
-                                </li>
-                                <li class="buy-cart ml-3">
-                                    <i class="icofont-bag"></i>
-                                    <span>2</span>
-                                    <div class="cart-content">
-                                        <div class="cart-item">
-                                            <div class="cart-img">
-                                                <a href="#"><img src="https://labartisan.net/demo/mukti/assets/images/buycart/1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="cart-des">
-                                                <a href="#">Product Title Hore</a>
-                                                <p>$20.00</p>
-                                            </div>
-                                            <div class="cart-btn">
-                                                <a href="#"><i class="icofont-close"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="cart-item">
-                                            <div class="cart-img">
-                                                <a href="#"><img src="https://labartisan.net/demo/mukti/assets/images/buycart/2.jpg" alt=""></a>
-                                            </div>
-                                            <div class="cart-des">
-                                                <a href="#">Product Title Hore</a>
-                                                <p>$20.00</p>
-                                            </div>
-                                            <div class="cart-btn">
-                                                <a href="#"><i class="icofont-close"></i></a>
-                                            </div>
-                                        </div>
-                                        <div class="cart-bottom">
-                                            <div class="cart-subtotal">
-                                                <p>Total: <b class="float-right">$40.00</b></p>
-                                            </div>
-                                            <div class="cart-action">
-                                                <button type="submit" class="button d-btn2">View cart</button>
-                                                <button type="submit" class="button d-btn2">Checkout</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <ul class="main-menu d-flex">
+                    <?php foreach ($d['menu_principal'] as $item): ?>
+                        <li>
+                            <a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a>
+                            <?php if (!empty($item['subitens'])): ?>
+                                <ul class="submenu">
+                                    <?php foreach ($item['subitens'] as $sub): ?>
+                                        <li>
+                                            <a href="<?= $sub['link'] ?>"><?= $sub['titulo'] ?></a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            <?php endif; ?>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
             </nav>
         </div>
     </header>
-    <!-- ==========Header Section Ends Here========== -->
 
-
-    <!-- ==========Banner Section Start Here========== -->
-    <section class="banner-section" style="background-image: url(assets/images/banner/1.jpg);">
+    <!-- BANNER -->
+    <section class="banner-section" style="background-image: url(<?= $d['banner']['imagem'] ?>);">
         <div class="container">
-            <div class="banner-wrapper">
-                <div class="banner-content">
-                    <h2 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay=".1s">Best Medical
-                        Clinic
-                    </h2>
-                    <h1 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".1s"><b>Bringing
-                            Health</b> To Life For The Whole Family...</h1>
-                    <a href="#" class="lab-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s"><span>Get
-                            Appoinments <i class="icofont-rounded-double-right"></i></span>
-                    </a>
-                </div>
+            <div class="banner-content">
+                <h2><?= $d['banner']['subtitulo'] ?></h2>
+                <h1><?= $d['banner']['titulo'] ?></h1>
+                <a href="<?= $d['banner']['botao']['link'] ?>" class="lab-btn">
+                    <span>
+                        <?= $d['banner']['botao']['titulo'] ?>
+                        <i class="icofont-rounded-double-right"></i>
+                    </span>
+                </a>
             </div>
         </div>
     </section>
-    <!-- ==========Banner Section Ends Here========== -->
 
-
-    <!-- ==========Feature Section Start Here========== -->
+    <!-- DIFERENCIAIS / FEATURES -->
     <section class="feature-section padding-tb bg-color">
         <div class="container">
             <div class="feature-section-wrapper">
-                <div class="section-header wow fadeInUp" data-wow-delay="" data-wow-duration="1s">
-                    <h2><span>We Offer Specialized</span> </h2>
-                    <h2> Orthopedics To Meet Your Needs</h2>
+
+                <div class="section-header">
+                    <h2><span><?= $d['features']['subtitulo'] ?></span></h2>
+                    <h2><?= $d['features']['titulo'] ?></h2>
                 </div>
+
                 <div class="section-content">
                     <div class="row justify-content-center">
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                            <div class="lab-item feature-item wow fadeInLeft" data-wow-delay=".2s"
-                                data-wow-duration="1s">
-                                <div class="lab-inner">
-                                    <div class="lab-thumb">
-                                        <img src="https://labartisan.net/demo/mukti/assets/images/feature/1.png" alt="feature img">
-                                    </div>
-                                    <div class="lab-content">
-                                        <h4>Medical Treatment</h4>
-                                        <p>Lorem ipsum dolor sit amete consectetur adipisicing elite. vlote optio animi?
-                                        </p>
-                                        <a href="#" class=""><span>Read More <i
-                                                    class="icofont-rounded-double-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                            <div class="lab-item feature-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
-                                <div class="lab-inner">
-                                    <div class="lab-thumb">
-                                        <img src="https://labartisan.net/demo/mukti/assets/images/feature/2.png" alt="feature img">
-                                    </div>
-                                    <div class="lab-content">
-                                        <h4>Emergency Help</h4>
-                                        <p>Lorem ipsum dolor sit amete consectetur adipisicing elite. vlote optio animi?
-                                        </p>
-                                        <a href="#" class=""><span>Read More <i
-                                                    class="icofont-rounded-double-right"></i></span></a>
+                        <?php foreach ($d['features']['items'] as $item): ?>
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                                <div class="lab-item feature-item">
+                                    <div class="lab-inner">
+                                        <div class="lab-thumb">
+                                            <img src="<?= $item['imagem'] ?>" alt="">
+                                        </div>
+                                        <div class="lab-content">
+                                            <h4><?= $item['titulo'] ?></h4>
+                                            <p><?= $item['descricao'] ?></p>
+                                            <a href="<?= $item['link'] ?>">
+                                                <span><?= $item['botao'] ?>
+                                                    <i class="icofont-rounded-double-right"></i>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                            <div class="lab-item feature-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s">
-                                <div class="lab-inner">
-                                    <div class="lab-thumb">
-                                        <img src="https://labartisan.net/demo/mukti/assets/images/feature/3.png" alt="feature img">
-                                    </div>
-                                    <div class="lab-content">
-                                        <h4>Medical Professionals</h4>
-                                        <p>Lorem ipsum dolor sit amete consectetur adipisicing elite. vlote optio animi?
-                                        </p>
-                                        <a href="#" class=""><span>Read More <i
-                                                    class="icofont-rounded-double-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                            <div class="lab-item feature-item wow fadeInRight" data-wow-delay=".2s"
-                                data-wow-duration="1s">
-                                <div class="lab-inner">
-                                    <div class="lab-thumb">
-                                        <img src="https://labartisan.net/demo/mukti/assets/images/feature/4.png" alt="feature img">
-                                    </div>
-                                    <div class="lab-content">
-                                        <h4>Qualified Doctors</h4>
-                                        <p>Lorem ipsum dolor sit amete consectetur adipisicing elite. vlote optio animi?
-                                        </p>
-                                        <a href="#" class=""><span>Read More <i
-                                                    class="icofont-rounded-double-right"></i></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- ==========Feature Section Ends Here========== -->
 
-
-    <!-- ==========Department Section Start Here========== -->
+    <!-- DEPARTAMENTOS / ABORDAGENS -->
     <section class="department-section padding-tb style-1">
         <div class="container">
             <div class="department-wrapper">
+
                 <div class="section-header">
-                    <h2><span>We Are The </span></h2>
-                    <h2>Best Our Departments Centers</h2>
+                    <h2><span><?= $d['departamentos']['subtitulo'] ?></span></h2>
+                    <h2><?= $d['departamentos']['titulo'] ?></h2>
                 </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-12 col-xl-12">
-                            <div class="">
-                                <div class="department-top">
-                                    <ul class="nav dep-tab" role="tablist">
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                                            <a class="" href="#one" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/01.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                            <a class="active" href="#two" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/02.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#three" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/03.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                                            <a class="" href="#four" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/04.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                                            <a class="" href="#five" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/05.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                                            <a class="" href="#six" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/06.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                                            <a class="" href="#seven" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/07.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                            <a class="" href="#eight" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/08.png" alt="depart"></a>
-                                        </li>
-                                        <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                                            <a class="" href="#nine" role="tab" data-toggle="tab"><img
-                                                    src="https://labartisan.net/demo/mukti/assets/images/depart/icon/09.png" alt="depart"></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="department-bottom wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <div class="tab-content">
-                                    <div role="tabpanel" class="tab-pane fade in active" id="one">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/07.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 1</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                <div class="department-top">
+                    <ul class="nav dep-tab" role="tablist">
+                        <?php foreach ($d['departamentos']['abas'] as $i => $aba): ?>
+                            <li>
+                                <a class="<?= $i === 0 ? 'active' : '' ?>" href="#<?= $aba['id'] ?>" data-toggle="tab">
+                                    <img src="<?= $aba['icone'] ?>" alt="">
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+
+                <div class="department-bottom">
+                    <div class="tab-content">
+                        <?php foreach ($d['departamentos']['conteudo'] as $i => $dep): ?>
+                            <div class="tab-pane fade <?= $i === 0 ? 'in active' : '' ?>" id="<?= $dep['id'] ?>">
+                                <div class="row flex-row-reverse align-items-center">
+                                    <div class="col-lg-6">
+                                        <img src="<?= $dep['imagem'] ?>" alt="">
                                     </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="two">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/08.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 2</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="three">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/09.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 3</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="four">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/10.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 4</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="five">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/4.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 5</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="six">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/5.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 6</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="seven">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/6.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 7</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="eight">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/07.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 8</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div role="tabpanel" class="tab-pane fade in" id="nine">
-                                        <div class="row flex-row-reverse align-items-center">
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-thumb">
-                                                    <img src="https://labartisan.net/demo/mukti/assets/images/depart/10.jpg" alt="depart">
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-lg-6">
-                                                <div class="post-content">
-                                                    <h3>Speciality Rhinology 9</h3>
-                                                    <p>Procedur arrain manu producs rather convenet cuvate mantna this
-                                                        man
-                                                        Manucur produc rather conven cuvatie mantan this conven cuvate
-                                                        bad
-                                                        Credibly envisioneer ubiquitous niche markets transparent
-                                                        relations
-                                                        Dramatically enable worldwide action items whereas magnetic
-                                                        source motin was procedur arramin</p>
-                                                    <ul>
-                                                        <li>Qualified Doctors</li>
-                                                        <li>Feel like Home Services</li>
-                                                        <li>24×7 Emergency Services</li>
-                                                        <li>Outdoor Checkup</li>
-                                                        <li>General Medical</li>
-                                                        <li>Easy and Affordable Billing</li>
-                                                    </ul>
-                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
-                                                                class="icofont-rounded-double-right"></i></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="col-lg-6">
+                                        <h3><?= $dep['titulo'] ?></h3>
+                                        <p><?= $dep['descricao'] ?></p>
+                                        <ul>
+                                            <?php foreach ($dep['lista'] as $li): ?>
+                                                <li><?= $li ?></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                        <a href="<?= $dep['botao']['link'] ?>" class="lab-btn">
+                                            <span><?= $dep['botao']['titulo'] ?>
+                                                <i class="icofont-rounded-double-right"></i>
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- ==========Department Section Ends Here========== -->
 
-
-    <!-- ==========Counter Section Start Here========== -->
+    <!-- CONTADORES -->
     <div class="counter-section style-1 padding-60">
         <div class="container">
             <div class="section-wrapper">
-                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-                    <div class="counter-item-inner">
-                        <div class="counter-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/counter/01.png" alt="counter">
-                        </div>
-                        <div class="counter-content">
-                            <h3 class="number"><span class="counter">500</span></h3>
-                            <p class="post-content">Patients Every Day</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="counter-item-inner">
-                        <div class="counter-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/counter/02.png" alt="counter">
-                        </div>
-                        <div class="counter-content">
-                            <h3 class="number"><span class="counter">400</span></h3>
-                            <p class="post-content">Qualified Doctors</p>
+                <?php foreach ($d['contadores']['items'] as $item): ?>
+                    <div class="counter-item">
+                        <div class="counter-item-inner">
+                            <div class="counter-thumb">
+                                <img src="<?= $item['icone'] ?>" alt="">
+                            </div>
+                            <div class="counter-content">
+                                <h3 class="number">
+                                    <span class="counter"><?= $item['numero'] ?></span>
+                                </h3>
+                                <p class="post-content"><?= $item['titulo'] ?></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="counter-item-inner">
-                        <div class="counter-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/counter/03.png" alt="counter">
-                        </div>
-                        <div class="counter-content">
-                            <h3 class="number"><span class="counter">12</span></h3>
-                            <p class="post-content">Years Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
-                    <div class="counter-item-inner">
-                        <div class="counter-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/counter/04.png" alt="counter">
-                        </div>
-                        <div class="counter-content">
-                            <h3 class="number"><span class="counter">350</span></h3>
-                            <p class="post-content">Diagnosis Verity</p>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
-    <!-- ==========Counter Section Ends Here========== -->
 
-
-    <!-- ==========Service Section Start Here========== -->
+    <!-- SERVIÇOS -->
     <section class="service-section style-1 padding-tb bg-color">
         <div class="container">
-            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2><span>We Are</span></h2>
-                <h2>Offering Reliable Services</h2>
+            <div class="section-header">
+                <h2><span><?= $d['servicos']['subtitulo']; ?></span></h2>
+                <h2><?= $d['servicos']['titulo']; ?></h2>
             </div>
+
             <div class="section-wrapper">
-                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                    <div class="service-inner">
-                        <div class="service-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/service/01.jpg" alt="service">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Family Health Solutions</a></h4>
-                            <p>Proced arrain manu produc rather conve quvat mantan this conven multscplinari testin
-                                motin was procedur aamng proced arrain manu produc rather conve quvat mantan this
-                                convenmultscplinari testiners motin was procedur arraming</p>
-                            <a href="#" class="lab-btn"><span>Read More <i
-                                        class="icofont-rounded-double-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="service-inner">
-                        <div class="service-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/service/02.jpg" alt="service">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Eye Care Solutions</a></h4>
-                            <p>Cabor levera then andin the
-                                Qualit bwdh then covae thm
-                                Uabor evera then andin meqe
-                                Any value cordin</p>
-                            <a href="#" class="lab-btn"><span>Read More <i
-                                        class="icofont-rounded-double-right"></i></span></a>
+                <?php foreach ($d['servicos']['items'] as $i => $servico): ?>
+                    <div class="service-item">
+                        <div class="service-inner">
+                            <div class="service-thumb">
+                                <img src="<?= $servico['imagem']; ?>" alt="<?= $servico['titulo']; ?>">
+                            </div>
+                            <div class="service-content">
+                                <h4><?= $servico['titulo']; ?></h4>
+                                <p><?= $servico['descricao']; ?></p>
+                                <a href="<?= $servico['link']; ?>" class="lab-btn">
+                                    <span><?= $servico['botao']; ?></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="service-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="service-inner">
-                        <div class="service-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/service/03.jpg" alt="service">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Children’s Health</a></h4>
-                            <p>Cabor levera then andin the
-                                Qualit bwdh then covae thm
-                                Uabor evera then andin meqe
-                                Any value cordin</p>
-                            <a href="#" class="lab-btn"><span>Read More <i
-                                        class="icofont-rounded-double-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                    <div class="service-inner">
-                        <div class="service-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/service/04.jpg" alt="service">
-                        </div>
-                        <div class="service-content">
-                            <h4><a href="#">Dental Surgery</a></h4>
-                            <p>Proced arrain manu produc rather conve quvat mantan this conven multscplinari testin
-                                motin was procedur aamng proced arrain manu produc rather conve quvat mantan this
-                                convenmultscplinari testiners motin was procedur arraming</p>
-                            <a href="#" class="lab-btn"><span>Read More <i
-                                        class="icofont-rounded-double-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
-    <!-- ==========Service Section Ends Here========== -->
 
-
-    <!-- ==========Doctor Section Start Here========== -->
+    <!-- PROFISSIONAIS -->
     <section class="doctor-section style-1 padding-tb">
         <div class="container">
-            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2><span>Meet Our</span></h2>
-                <h2>Mukti Professional Doctors</h2>
+            <div class="section-header">
+                <h2><span><?= $d['profissionais']['subtitulo']; ?></span></h2>
+                <h2><?= $d['profissionais']['titulo']; ?></h2>
             </div>
+
             <div class="section-wrapper">
                 <div class="row justify-content-center">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                            <div class="doctor-inner">
-                                <div class="doctor-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/team/01.jpg" alt="doctor">
-                                </div>
-                                <div class="doctor-content">
-                                    <div class="doctor-name">
-                                        <h4><a href="#">Dr. Jason Kovalsky</a></h4>
-                                        <p class="digi">Cardiologist</p>
+                    <?php foreach ($d['profissionais']['items'] as $prof): ?>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                            <div class="doctor-item style-1">
+                                <div class="doctor-inner">
+                                    <div class="doctor-thumb">
+                                        <img src="<?= $prof['imagem']; ?>" alt="<?= $prof['nome']; ?>">
                                     </div>
-                                    <ul class="doctor-contact">
-                                        <li><span>Phone :</span> 658 222 127 964</li>
-                                        <li><span>Email :</span> admin@gmail.com</li>
-                                    </ul>
+                                    <div class="doctor-content">
+                                        <div class="doctor-name">
+                                            <h4><?= $prof['nome']; ?></h4>
+                                            <p class="digi"><?= $prof['especialidade']; ?></p>
+                                        </div>
+                                        <ul class="doctor-contact">
+                                            <li><span>Telefone:</span> <?= $prof['telefone']; ?></li>
+                                            <li><span>Email:</span> <?= $prof['email']; ?></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="doctor-inner">
-                                <div class="doctor-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/team/02.jpg" alt="doctor">
-                                </div>
-                                <div class="doctor-content">
-                                    <div class="doctor-name">
-                                        <h4><a href="#">Patricia Mcneel</a></h4>
-                                        <p class="digi">Pediatrist</p>
-                                    </div>
-                                    <ul class="doctor-contact">
-                                        <li><span>Phone :</span> 658 222 127 964</li>
-                                        <li><span>Email :</span> admin@gmail.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <div class="doctor-inner">
-                                <div class="doctor-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/team/03.jpg" alt="doctor">
-                                </div>
-                                <div class="doctor-content">
-                                    <div class="doctor-name">
-                                        <h4><a href="#">William Khanna</a></h4>
-                                        <p class="digi">Throat Specialist</p>
-                                    </div>
-                                    <ul class="doctor-contact">
-                                        <li><span>Phone :</span> 658 222 127 964</li>
-                                        <li><span>Email :</span> admin@gmail.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-                        <div class="doctor-item style-1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <div class="doctor-inner">
-                                <div class="doctor-thumb">
-                                    <img src="https://labartisan.net/demo/mukti/assets/images/team/04.jpg" alt="doctor">
-                                </div>
-                                <div class="doctor-content">
-                                    <div class="doctor-name">
-                                        <h4><a href="#">Eric Patterson</a></h4>
-                                        <p class="digi">Therapy</p>
-                                    </div>
-                                    <ul class="doctor-contact">
-                                        <li><span>Phone :</span> 658 222 127 964</li>
-                                        <li><span>Email :</span> admin@gmail.com</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
-            <div class="doctor-btn text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                <a href="#" class="lab-btn"><span> view all doctors <i
-                            class="icofont-rounded-double-right"></i></span></a>
+
+            <div class="doctor-btn text-center">
+                <a href="<?= $d['profissionais']['botao']['link']; ?>" class="lab-btn">
+                    <span><?= $d['profissionais']['botao']['titulo']; ?></span>
+                </a>
             </div>
         </div>
     </section>
-    <!-- ==========Doctor Section Ends Here========== -->
 
-
-    <!-- ==========Appointment Section Start Here========== -->
+    <!-- AGENDAMENTO -->
     <section class="appointment-section style-1">
         <div class="container">
             <div class="section-wrapper">
-                <div class="appointment-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                <div class="appointment-left">
                     <div class="time-info">
                         <div class="al-title">
-                            <h2><span>24 Hours </span></h2>
-                            <h2>Opening Our Services</h2>
+                            <h2><span><?= $d['agendamento']['horarios']['subtitulo']; ?></span></h2>
+                            <h2><?= $d['agendamento']['horarios']['titulo']; ?></h2>
                         </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Satarday</div>
-                                <div class="day-time">8:00 am-10:00 pm</div>
+
+                        <?php foreach ($d['agendamento']['horarios']['dias'] as $dia): ?>
+                            <div class="dep-item">
+                                <div class="dep-item-inner">
+                                    <div class="day-name"><?= $dia['dia']; ?></div>
+                                    <div class="day-time"><?= $dia['horario']; ?></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Sunday</div>
-                                <div class="day-time">6:00 am-8:00 pm</div>
-                            </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Monday</div>
-                                <div class="day-time">6:00 am-2:00 pm</div>
-                            </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Tuesday</div>
-                                <div class="day-time">7:00 am-9:00 pm</div>
-                            </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Widnessday</div>
-                                <div class="day-time">10:00 am-12:00 pm</div>
-                            </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Thirsday</div>
-                                <div class="day-time">2:00 am-6:00 pm</div>
-                            </div>
-                        </div>
-                        <div class="dep-item">
-                            <div class="dep-item-inner">
-                                <div class="day-name">Friday</div>
-                                <div class="day-time">Closed</div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
-                <div class="appointment-right wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">
+
+                <div class="appointment-right">
                     <div class="ar-title">
-                        <h2><span>Make An</span></h2>
-                        <h2>Appointment Now</h2>
+                        <h2><span><?= $d['agendamento']['formulario']['subtitulo']; ?></span></h2>
+                        <h2><?= $d['agendamento']['formulario']['titulo']; ?></h2>
                     </div>
-                    <form action="/">
-                        <input type="text" id="fname" name="firstname" placeholder="Your Name">
-                        <select id="country" name="country">
-                            <option value="1">Select Departments</option>
-                            <option value="2">Dental</option>
-                            <option value="3">U.C</option>
+
+                    <form action="<?= $d['agendamento']['formulario']['action']; ?>">
+                        <input type="text" placeholder="Seu Nome">
+                        <select>
+                            <?php foreach ($d['agendamento']['formulario']['especialidades'] as $esp): ?>
+                                <option><?= $esp; ?></option>
+                            <?php endforeach; ?>
                         </select>
-                        <input type="text" id="lname" name="lastname" placeholder="Phone Number">
-                        <input type="date" id="start" name="trip-start" value="2021-02-21">
-                        <button class="lab-btn" type="submit"><span>Appointment Now <i
-                                    class="icofont-double-right"></i></span> </button>
+                        <input type="text" placeholder="Telefone">
+                        <input type="date">
+                        <button class="lab-btn" type="submit">
+                            <span><?= $d['agendamento']['formulario']['botao']; ?></span>
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ==========Appointment Section Ends Here========== -->
 
-
-    <!-- ==========Blog Section Start Here========== -->
+    <!-- BLOG / CONTEÚDO -->
     <section class="blog-section padding-tb bg-color">
         <div class="container">
-            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                <h2><span>News Feed</span></h2>
-                <h2>Be The First To New Stories</h2>
+            <div class="section-header">
+                <h2><span><?= $d['blog']['subtitulo']; ?></span></h2>
+                <h2><?= $d['blog']['titulo']; ?></h2>
             </div>
+
             <div class="section-wrapper">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                        <div class="post-item-inner">
-                            <div class="post-thumb">
-                                <a href="https://labartisan.net/demo/mukti/assets/images/blog/1.jpg" data-rel="lightcase:myCollection"><img
-                                        src="https://labartisan.net/demo/mukti/assets/images/blog/1.jpg" alt="blog post images"></a>
-                            </div>
-                            <div class="post-content">
-                                <span class="meta">By <a href="#">Admin</a> March 24, 2021</span>
-                                <h4><a href="#">Globa Empoer Extenve Chanels Extensve Creat Method</a></h4>
-                                <p>Complete actuaze centi centrcing colora and sharin without anstaled anding bases
-                                    aweme medicalplus Template.</p>
-                            </div>
-                            <div class="blog-footer">
-                                <a href="#" class="viewall">Read More <i class="icofont-double-right"></i></a>
-                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 30</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                        <div class="post-item-inner">
-                            <div class="post-thumb">
-                                <a href="https://labartisan.net/demo/mukti/assets/images/blog/2.jpg" data-rel="lightcase:myCollection"><img
-                                        src="https://labartisan.net/demo/mukti/assets/images/blog/2.jpg" alt="blog"></a>
-                            </div>
-                            <div class="post-content">
-                                <span class="meta">By <a href="#">Admin</a> March 24, 2021</span>
-                                <h4><a href="#">Globa Empoer Extenve Chanels Extensve Creat Method</a></h4>
-                                <p>Complete actuaze centi centrcing colora and sharin without anstaled anding bases
-                                    aweme medicalplus Template.</p>
-                            </div>
-                            <div class="blog-footer">
-                                <a href="#" class="viewall">Read More <i class="icofont-double-right"></i></a>
-                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 30</a>
+                    <?php foreach ($d['blog']['items'] as $post): ?>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="post-item-inner">
+                                <div class="post-thumb">
+                                    <a href="<?= $post['imagem']; ?>" data-rel="lightcase:myCollection">
+                                        <img src="<?= $post['imagem']; ?>" alt="<?= $post['titulo']; ?>">
+                                    </a>
+                                </div>
+
+                                <div class="post-content">
+                                    <span class="meta">
+                                        Por <a href="#"><?= $post['autor']; ?></a> <?= $post['data']; ?>
+                                    </span>
+                                    <h4><a href="<?= $post['link']; ?>"><?= $post['titulo']; ?></a></h4>
+                                    <p><?= $post['descricao']; ?></p>
+                                </div>
+
+                                <div class="blog-footer">
+                                    <a href="<?= $post['link']; ?>" class="viewall">
+                                        <?= $post['botao']; ?> <i class="icofont-double-right"></i>
+                                    </a>
+                                    <a href="#" class="blog-comment">
+                                        <i class="icofont-comment"></i> <?= $post['comentarios']; ?>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                        <div class="post-item-inner">
-                            <div class="post-thumb">
-                                <a href="https://labartisan.net/demo/mukti/assets/images/blog/3.jpg" data-rel="lightcase:myCollection"><img
-                                        src="https://labartisan.net/demo/mukti/assets/images/blog/3.jpg" alt="blog"></a>
-                            </div>
-                            <div class="post-content">
-                                <span class="meta">By <a href="#">Admin</a> March 24, 2021</span>
-                                <h4><a href="#">Globa Empoer Extenve Chanels Extensve Creat Method</a></h4>
-                                <p>Complete actuaze centi centrcing colora and sharin without anstaled anding bases
-                                    aweme medicalplus Template.</p>
-                            </div>
-                            <div class="blog-footer">
-                                <a href="#" class="viewall">Read More <i class="icofont-double-right"></i></a>
-                                <a href="#" class="blog-comment"><i class="icofont-comment"></i> 30</a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ==========Blog Section Ends Here========== -->
 
-
-    <!-- ==========Sponsor Section Start Here========== -->
+    <!-- PARCEIROS / SPONSORS -->
     <div class="sponsor-section">
         <div class="container">
             <div class="sponsor-area">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/1.png" alt="sponso-img">
+                    <?php foreach ($d['parceiros']['items'] as $logo): ?>
+                        <div class="swiper-slide">
+                            <div class="sponsor-thumb">
+                                <img src="<?= $logo['imagem']; ?>" alt="Parceiro">
+                            </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/2.png" alt="sponso-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/3.png" alt="sponso-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/4.png" alt="sponso-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/5.png" alt="sponso-img">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="sponsor-thumb">
-                            <img src="https://labartisan.net/demo/mukti/assets/images/sponsor/6.png" alt="sponso-img">
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ==========Sponsor Section Ends Here========== -->
 
-
-    <!-- ==========Newsletter Section Ends Here========== -->
+    <!-- NEWSLETTER -->
     <section class="newsletter-section style-1">
         <div class="container">
             <div class="section-wrapper">
-                <div class="left wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                <div class="left">
                     <div class="news-title">
-                        <h2>Join Our Newsletter</h2>
+                        <h2><?= $d['newsletter']['titulo']; ?></h2>
                     </div>
                 </div>
-                <div class="right wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">
+
+                <div class="right">
                     <div class="news-input">
-                        <label for="text"><i class="icofont-paper-plane"></i></label>
-                        <input type="text" name="text" id="text" placeholder="Enter Your Email">
-                        <button class="" type="submit" value="Submit-Now" name="submit">Subscribe Now</button>
+                        <label><i class="icofont-paper-plane"></i></label>
+                        <input type="text" placeholder="<?= $d['newsletter']['placeholder']; ?>">
+                        <button type="submit"><?= $d['newsletter']['botao']; ?></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ==========Newsletter Section Ends Here========== -->
 
 
-    <!-- ==========Footer Section Ends Here========== -->
+
     <section class="footer-section style-1">
         <div class="container">
             <div class="section-wrapper">
+
                 <div class="footer-top">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+
+                        <!-- INFORMAÇÕES DE CONTATO -->
+                        <div class="col-12 col-sm-6 col-xl-3">
                             <div class="contact-info">
-                                <h3>Contact Info</h3>
-                                <p>Rapidiously seize wireless strategic theme areas and corporate testing
-                                    procedures.
-                                    Uniquely</p>
+                                <h3><?= $d['footer']['contato']['titulo']; ?></h3>
+                                <p><?= $d['footer']['contato']['descricao']; ?></p>
+
                                 <ul class="lab-ul">
-                                    <li><i class="icofont-home"></i> Suite 02 New Elephant Road usa</li>
-                                    <li><i class="icofont-phone"></i> +880 142 258 123, 02-96936</li>
-                                    <li><i class="icofont-envelope"></i> <a href="#"> info@mukti.com</a></li>
-                                    <li><i class="icofont-globe"></i> <a href="#"> info@mukti.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="doctor-info mb-5 mb-sm-0">
-                                <h3>Our Doctors</h3>
-                                <ul class="lab-ul">
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Nick Sims</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Michael Linden</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Max Turner</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Amy Adams</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Julia Jameson</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#"> Dr. Michael Linden</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <div class="service-info  mb-5 mb-sm-0">
-                                <h3>Our Services</h3>
-                                <ul class="lab-ul">
-                                    <li><i class="icofont-double-right"></i><a href="#">Outpatient Surgery</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#">Cardiac Clinic</a></li>
-                                    <li><i class="icofont-double-right"></i><a href="#">Ophthalmology Clinic</a>
+                                    <li>
+                                        <i class="icofont-home"></i>
+                                        <?= $d['footer']['contato']['endereco']; ?>
                                     </li>
-                                    <li><i class="icofont-double-right"></i><a href="#">Gynaecological Clinic</a>
+                                    <li>
+                                        <i class="icofont-phone"></i>
+                                        <?= $d['footer']['contato']['telefone']; ?>
                                     </li>
-                                    <li><i class="icofont-double-right"></i><a href="#">Outpatient
-                                            Rehabilitation</a>
+                                    <li>
+                                        <i class="icofont-envelope"></i>
+                                        <a href="mailto:<?= $d['footer']['contato']['email']; ?>">
+                                            <?= $d['footer']['contato']['email']; ?>
+                                        </a>
                                     </li>
-                                    <li><i class="icofont-double-right"></i><a href="#">Ophthalmology Clinic</a>
+                                    <li>
+                                        <i class="icofont-globe"></i>
+                                        <a href="<?= $d['footer']['contato']['site']; ?>">
+                                            <?= $d['footer']['contato']['site']; ?>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-xl-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+
+                        <!-- PROFISSIONAIS -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="doctor-info">
+                                <h3><?= $d['footer']['profissionais']['titulo']; ?></h3>
+                                <ul class="lab-ul">
+                                    <?php foreach ($d['footer']['profissionais']['items'] as $profissional): ?>
+                                        <li>
+                                            <i class="icofont-double-right"></i>
+                                            <a href="#"><?= $profissional; ?></a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- SERVIÇOS -->
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="service-info">
+                                <h3><?= $d['footer']['servicos']['titulo']; ?></h3>
+                                <ul class="lab-ul">
+                                    <?php foreach ($d['footer']['servicos']['items'] as $servico): ?>
+                                        <li>
+                                            <i class="icofont-double-right"></i>
+                                            <a href="#"><?= $servico; ?></a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- HORÁRIOS -->
+                        <div class="col-12 col-sm-6 col-xl-3">
                             <div class="time-info">
-                                <h3>opening hours</h3>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Satarday</div>
-                                        <div class="day-time">8:00 am-10:00 pm</div>
+                                <h3><?= $d['footer']['horarios']['titulo']; ?></h3>
+
+                                <?php foreach ($d['footer']['horarios']['items'] as $horario): ?>
+                                    <div class="dep-item">
+                                        <div class="dep-item-inner d-flex justify-content-between">
+                                            <div class="day-name"><?= $horario['dia']; ?></div>
+                                            <div class="day-time"><?= $horario['hora']; ?></div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Sunday</div>
-                                        <div class="day-time">6:00 am-8:00 pm</div>
-                                    </div>
-                                </div>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Monday</div>
-                                        <div class="day-time">6:00 am-2:00 pm</div>
-                                    </div>
-                                </div>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Tuesday</div>
-                                        <div class="day-time">7:00 am-9:00 pm</div>
-                                    </div>
-                                </div>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Widnessday</div>
-                                        <div class="day-time">10:00 am-12:00 pm</div>
-                                    </div>
-                                </div>
-                                <div class="dep-item">
-                                    <div class="dep-item-inner d-flex justify-content-between">
-                                        <div class="day-name">Thirsday</div>
-                                        <div class="day-time">2:00 am-6:00 pm</div>
-                                    </div>
-                                </div>
+                                <?php endforeach; ?>
+
                             </div>
                         </div>
+
                     </div>
                 </div>
+
+                <!-- COPYRIGHT -->
                 <div class="footer-bottom">
-                    <div class="copyright text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                        <span>Copyright &copy; 2021 <a href="index.html">Mukti</a>. Designed by <a
-                                href="https://themeforest.net/user/labartisan">LabArtisan</a></span>
+                    <div class="copyright text-center">
+                        <span>
+                            <?= $d['footer']['copyright']; ?>
+                        </span>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- ==========Footer Section Ends Here========== -->
 
-    <!-- scrollToTop start here -->
+
+
     <a href="#" class="scrollToTop"><i class="icofont-rounded-up"></i></a>
-    <!-- scrollToTop ending here -->
 
-
-
-
-    <!-- All Scripts -->
     <script src="https://labartisan.net/demo/mukti/assets/js/jquery.js"></script>
     <script src="https://labartisan.net/demo/mukti/assets/js/bootstrap.min.js"></script>
     <script src="https://labartisan.net/demo/mukti/assets/js/waypoints.min.js"></script>

@@ -1,215 +1,97 @@
 turn this html into a strutured
 
-   <footer class="footer footer-1">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="footer-widget widget-contact">
-                                <div class="footer-widget-title">
-                                    <h5>quick contact</h5>
-                                </div>
-                                <div class="widget-content">
-                                    <p>If you have any questions or need help, feel free to contact with our team.</p>
-                                    <ul>
-                                        <li class="phone"><a href="tel:+01061245741"><i class="fas fa-phone-alt"></i> 01061245741</a></li>
-                                        <li class="address"><a href="#">2307 Beverley Rd Brooklyn, New York 11226 United States.</a></li>
-                                    </ul><a class="directions" href="javascript:void(0)"><i class="icon-arrow-right"></i>get directions</a>
-                                </div>
-                            </div>
-                            <!--  End .col-lg-3-->
-                        </div>
-                        <div class="col-sm-6 col-md-3 col-lg-2 offset-lg-0">
-                            <div class="footer-widget widget-links">
-                                <div class="footer-widget-title">
-                                    <h5>departments</h5>
-                                </div>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">neurology clinic</a></li>
-                                        <li><a href="javascript:void(0)">pathology clinic</a></li>
-                                        <li><a href="javascript:void(0)">laboratory analysis</a></li>
-                                        <li><a href="javascript:void(0)">pediatric clinic</a></li>
-                                        <li><a href="javascript:void(0)">cardiac clinic</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  End .col-lg-2-->
-                        <div class="col-sm-6 col-md-3 col-lg-2">
-                            <div class="footer-widget widget-links">
-                                <div class="footer-widget-title">
-                                    <h5>links</h5>
-                                </div>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">abouts us</a></li>
-                                        <li><a href="javascript:void(0)">our clinic</a></li>
-                                        <li><a href="javascript:void(0)">our doctors</a></li>
-                                        <li><a href="javascript:void(0)">news &amp; media</a></li>
-                                        <li><a href="javascript:void(0)">appointments</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  End .col-lg-2-->
-                        <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-0">
-                            <div class="footer-widget widget-links">
-                                <div class="footer-widget-title">
-                                    <h5>help</h5>
-                                </div>
-                                <div class="widget-content">
-                                    <ul>
-                                        <li><a href="javascript:void(0)">help &amp; FAQs</a></li>
-                                        <li><a href="javascript:void(0)">contacts</a></li>
-                                        <li><a href="javascript:void(0)">careers</a></li>
-                                        <li><a href="javascript:void(0)">site map</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  End .col-lg-2-->
-                        <div class="col-12 col-sm-6 col-lg-3">
-                            <div class="footer-widget widget-newsletter">
-                                <div class="footer-widget-title">
-                                    <h5>newsletter</h5>
-                                </div>
-                                <div class="widget-content">
-                                    <form class="form-newsletter mailchimp">
-                                        <div class="form-group">
-                                            <input class="form-control" type="email" name="email" placeholder="Your Email Address" required="required" />
-                                            <div class="submit">
-                                                <input type="submit" value="" />
-                                            </div>
-                                        </div>
-                                        <div class="custom-radio-group">
-                                            <div class="custom-control custom-radio custom-control-inline">
-                                                <input class="custom-control-input" type="radio" id="customRadioInline2" name="customRadioInline2" required="required" />
-                                                <label for="customRadioInline2">i accept the privacy and terms</label>
-                                            </div>
-                                        </div>
-                                        <div class="subscribe-alert"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <!--  End .container-->
-            </div>
-            <!--  End .footer-center-->
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="footer-copyright">
-                                <div class="copyright"><span>&copy; 2021 medisch by <a href="https://1.envato.market/kP9BV"> Zytheme.com</a>. all rights reserved. </span>
-                                    <ul class="list-unstyled social-icons">
-                                        <li> <a class="share-facebook" href="#"><i class="fab fa-facebook-f"> </i></a></li>
-                                        <li> <a class="share-instagram" href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li> <a class="share-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--  End .row-->
-            </div>
-            <!--  End .footer-bottom-->
-        </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://labartisan.net/demo/mukti/assets/images/logo/logo2.png">
+  <!-- Other css -->
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/animate.css">
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/icofont.min.css">
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/swiper.min.css">
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/hc-offcanvas-nav.css">
+  <link rel="stylesheet" href="https://labartisan.net/demo/mukti/assets/css/style.css">
 
- json like this 
+  <!-- SEO -->
+  <title>
+    <?= $d['head']['seo']['title']; ?>
+  </title>
+  <meta name="description" content="<?= $d['head']['seo']['description']; ?>">
+  <meta name="author" content="<?= $d['head']['seo']['author']; ?>">
+  <meta name="keywords" content="<?= $d['head']['seo']['keywords']; ?>">
+</head>
 
-  "sobre": {
-    "imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
-    "imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-    "imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
-    "subtitulo": "Sobre Nós",
-    "titulo": "Cuidado Médico Completo com Excelência e Humanização",
-    "descricao": "O Instituto Vida Plena é uma clínica médica dedicada à promoção da saúde, prevenção de doenças e tratamento humanizado.",
-    "lista": [
-      "Atendimento Clínico Completo",
-      "Medicina Preventiva",
-      "Equipe Médica Especializada",
-      "Compromisso com o Bem-Estar"
-    ],
-    "botao": {
-      "titulo": "Saiba Mais",
-      "link": "https://wa.me/5562982045122"
-    }
-  },
- 
-  "contadores": {
-    "items": [
-      {
-        "titulo": "Satisfied Patients",
-        "numero": 65,
-        "simbolo": "%"
-      },
-      {
-        "titulo": "Professional Doctors",
-        "numero": 99,
-        "simbolo": "+"
-      },
-      {
-        "titulo": "Operations Successful",
-        "numero": 125,
-        "simbolo": "%"
-      },
-      {
-        "titulo": "Awards Win",
-        "numero": 125,
-        "simbolo": "+"
-      }
-    ]
-  },
-   "servicos": {
-    "subtitulo": "Nossos Serviços",
-    "titulo": "Especialidades Médicas",
-    "items": [
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Clínica Geral"
-      },
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Cardiologia"
-      },
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Endocrinologia"
-      },
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Geriatria"
-      },
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Medicina Preventiva"
-      },
-      {
-        "imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-        "link": "https://wa.me/5562982045122",
-        "titulo": "Check-up Completo"
-      }
-    ]
-  },
+json like this
+
+"sobre": {
+"imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
+"imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+"imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
+"subtitulo": "Sobre Nós",
+"titulo": "Cuidado Médico Completo com Excelência e Humanização",
+"descricao": "O Instituto Vida Plena é uma clínica médica dedicada à promoção da saúde, prevenção de doenças e
+tratamento humanizado.",
+"lista": [
+"Atendimento Clínico Completo",
+"Medicina Preventiva",
+[...]
+],
+"botao": {
+"titulo": "Saiba Mais",
+"link": "https://wa.me/5562982045122"
+}
+},
+
+"contadores": {
+"items": [
+{
+"titulo": "Satisfied Patients",
+"numero": 65,
+"simbolo": "%"
+},
+{
+"titulo": "Professional Doctors",
+"numero": 99,
+"simbolo": "+"
+},
+[...]
+]
+},
+"servicos": {
+"subtitulo": "Nossos Serviços",
+"titulo": "Especialidades Médicas",
+"items": [
+{
+"imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+"link": "https://wa.me/5562982045122",
+"titulo": "Clínica Geral"
+},
+{
+"imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+"link": "https://wa.me/5562982045122",
+"titulo": "Cardiologia"
+},
+[...]
+]
+},
 
 
 
-Give me back two think the html with variables considering the variables are passed on view with ex: $d['sobre']['titulo'].
+Give me back two think the html with variables considering the variables are passed on view with ex:
+$d['sobre']['titulo'].
 - Give the html with variables
 - Give the json structurted of the section
 - All in portugues.
 - O email padrao sera contato@seudominio.com o telefone (62) 5562982045122
 - As imagens devem ser mantidas igual as originais do template, porem obvio estruturados no json
 - Considere que o modelo a ser construido é para um site de psicologia entao adapte o copy para isso em na seçao.
-- Apenas estruture json para as seçoes enviada nao drive seçoes de contato, ou configoçoes, ou etc. se elas nao foram pedidas.
+- Apenas estruture json para as seçoes enviada nao drive seçoes de contato, ou configoçoes, ou etc. se elas nao foram
+pedidas.
+- Devolva sempre em uma arquivo unico a view e um arquivo unico o json.
