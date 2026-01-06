@@ -132,6 +132,7 @@
                 "classe": "feature-opening-hours",
                 "icone": "flaticon-014-uniform",
                 "titulo": "Horários de funcionamento",
+                "descricao": "Sessões presenciais e online com horários flexíveis.",
                 "lista": [
                     {
                         "dia": "Segunda a Sexta",
