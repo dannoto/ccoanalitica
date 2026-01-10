@@ -1,112 +1,174 @@
 turn this html into a strutured
 
-<!--======  Start Footer  ======-->
-            <footer class="main-footer">
-                <div class="footer-shape"><img src="https://nayonacademy.com/html/bizzen/assets/images/footer/footer-shape.png" alt="footer shape"></div>
-                <!--=== Footer Widget Wrapper ===-->
-                <div class="footer-widget-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <!--=== Footer Widget ===-->
-                                <div class="footer-widget footer-about-widget pt-100" data-aos="fade-up" data-aos-duration="800">
-                                    <div class="widget-content">
-                                        <div class="footer-logo mb-20">
-                                            <a href="index.html"><img src="https://nayonacademy.com/html/bizzen/assets/images/home-one/logo/logo-white.png" alt="logo white"></a>
-                                        </div>
-                                        <p class="mb-20">Sign up to searing weekly newsletter to get the latest updates</p>
-                                        <form>
-                                            <div class="form-group">
-                                                <input type="email" class="form_control" placeholder="Enter Email Address" name="email" required>
-                                                <button class="submit-btn"><i class="far fa-paper-plane"></i></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <!--=== Footer Widget Wrap ===-->
-                                <div class="footer-widget-inner">
-                                    <!--=== Footer Top ===-->
-                                    <div class="footer-top" data-aos="fade-up" data-aos-duration="1000">
-                                        <div class="big-text">Let’s talk Business?</div>
-                                    </div>
-                                    <div class="footer-widget-area">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <!--=== Footer Widget ===-->
-                                                <div class="footer-widget footer-contact-info-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
-                                                    <div class="widget-content">
-                                                        <h6>Headquarters - USA</h6>
-                                                        <ul>
-                                                            <li>
-                                                                90 Washington. mg Manchester, USA
-                                                            </li>
-                                                            <li>
-                                                                <a href="tel:+1(980)3605-6302">+1 (980) 3605 - 6302</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <!--=== Footer Widget ===-->
-                                                <div class="footer-widget footer-contact-info-widget mb-40" data-aos="fade-up" data-aos-duration="1400">
-                                                    <div class="widget-content">
-                                                        <h6>Headquarters - UK</h6>
-                                                        <ul>
-                                                            <li>
-                                                                993 Renner Burg, West Rond, MT 94251-030
-                                                            </li>
-                                                            <li>
-                                                                <a href="mailto:company@gmail.com">company@gmail.com</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <!--=== Footer Widget ===-->
-                                                <div class="footer-widget footer-social-widget mb-40" data-aos="fade-up" data-aos-duration="1600">
-                                                    <h4 class="widget-title">Follow Us:</h4>
-                                                    <div class="widget-content">
-                                                        <div class="social-box">
-                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--=== Copyright Area ===-->
-                <div class="copyright-area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!--=== Copyright Text ===-->
-                                <div class="copyright-text text-md-start text-center">
-                                    <p>&copy; All copyright 2025 by Bizzen</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!--=== Copyright link ===-->
-                                <div class="copyright-link text-md-end text-center">
-                                    <a href="index.html">Terms & Conditions</a>
-                                    <a href="index.html">Privacy Policy</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+
+	<div class="why-choose-us__three section-padding">
+		<div class="container">
+			<div class="row align-items-center flex-wrap-reverse gy-4">
+				<div class="col-xl-6 col-lg-6 col-md-10">
+					<div class="why-choose-us__three-content"> <span class="subtitle-three">Tools & Calculators</span>
+						<h2>Your Personal Finance Calculators and Tools</h2>
+						<p>Explore our suite of interactive tools and calculators designed to simplify your financial planning from retirement estimators to budgeting aids</p>
+						<div class="why-choose-us__three-content-service">
+							<div class="why-choose-us__three-content-service-single">
+								<div class="service-top"> <i class="flaticon-content-marketing"></i>
+									<h6>Brand Strategy</h6>
+								</div>
+								<p>We work closely with you to develop a brand strategy</p>
+							</div>
+							<div class="why-choose-us__three-content-service-single">
+								<div class="service-top"> <i class="flaticon-growth"></i>
+									<h6>Digital Mastery</h6>
+								</div>
+								<p>In today’s digital world, an effective online presence</p>
+							</div>
+						</div> <a href="about.html" class="btn-three">
+							Get Your Estimate
+							<i class="fas fa-plus"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12">
+					<div class="why-choose-us__three-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/why/why-three-1.jpg" alt="image">
+						<a href="https://www.youtube.com/watch?v=SZEflIVnhH8" class="video-btn video-popup video-pulse"> <i class="fas fa-play"></i> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="blog__three section-padding">
+		<div class="container">
+			<div class="row justify-content-center text-center">
+				<div class="col-xl-6 col-lg-6">
+					<div class="blog__three-title"> <span class="subtitle-three">Latest Blog</span>
+						<h2>Explore Blogs & Insights</h2>
+					</div>
+				</div>
+			</div>
+			<div class="swiper blog__three-slide-active">
+				<div class="swiper-wrapper">
+					<div class="blog__three-single-blog swiper-slide">
+						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-4.jpg" alt="image"> </div>
+						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
+						<div class="blog__three-single-blog-content">
+							<div class="blog__three-single-blog-content-top"> <span>
+									<i class="far fa-user"></i>
+									wpboss
+								</span> <span>
+									<i class="far fa-comment-dots"></i>
+									Comments (05)
+								</span> </div>
+							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">The Power of Storytelling in Digital Marketing</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
+								<i class="fas fa-plus"></i>
+							</a>
+						</div>
+					</div>
+					<div class="blog__three-single-blog swiper-slide">
+						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-5.jpg" alt="image"> </div>
+						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
+						<div class="blog__three-single-blog-content">
+							<div class="blog__three-single-blog-content-top"> <span>
+									<i class="far fa-user"></i>
+									wpboss
+								</span> <span>
+									<i class="far fa-comment-dots"></i>
+									Comments (05)
+								</span> </div>
+							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">The Role of Data in Modern Marketing Campaign</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
+								<i class="fas fa-plus"></i>
+							</a>
+						</div>
+					</div>
+					<div class="blog__three-single-blog swiper-slide">
+						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-6.jpg" alt="image"> </div>
+						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
+						<div class="blog__three-single-blog-content">
+							<div class="blog__three-single-blog-content-top"> <span>
+									<i class="far fa-user"></i>
+									wpboss
+								</span> <span>
+									<i class="far fa-comment-dots"></i>
+									Comments (05)
+								</span> </div>
+							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">5 Proven Strategies to Boost Brand Awareness</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
+								<i class="fas fa-plus"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__three">
+		<div class="container">
+			<div class="footer-wrapper">
+				<div class="footer__three-widget">
+					<div class="footer__three-widget-about">
+						<a href="#"><img src="https://html.nextwpcook.com/cosion/assets/img/logo-5.png" alt="image"></a>
+						<p>We delivering innovative solutions that drive sustainable growth and success for you</p>
+						<form action="#">
+							<input type="email" placeholder="Email Address">
+							<button type="submit"> <i class="fas fa-arrow-right"></i> </button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__three-widget">
+					<h5>Quick Link</h5>
+					<div class="footer__three-widget-solution">
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="service.html">Service</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="blog-standard.html">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__three-widget">
+					<h5>Services</h5>
+					<div class="footer__three-widget-solution">
+						<ul>
+							<li>
+								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Retirement Planning </a>
+							</li>
+							<li>
+								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Digital Marketing </a>
+							</li>
+							<li>
+								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> App Development </a>
+							</li>
+							<li>
+								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Investment Advisory </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__three-widget">
+					<h5>Contact Info</h5>
+					<div class="footer__three-widget-contact-info">
+						<div class="footer__three-widget-contact-info-item">
+							<div class="footer__three-widget-contact-info-item-txt"> <span>Email</span> <a href="mialto:support@name.com">support@name.com</a> </div>
+						</div>
+						<div class="footer__three-widget-contact-info-item">
+							<div class="footer__three-widget-contact-info-item-txt"> <span>Phone</span> <a href="tel:(307)%20555-0133">(307) 20555-0133</a> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright__one three">
+			<div class="container">
+				<div class="row justify-content-between copyright__one-container-area">
+					<div class="col-xl-5 col-lg-6">
+						<div class="copyright__one-left">
+							<p>© Copyright 2026 - All Rights Reserved By <a href="https://themeforest.net/user/themeori/portfolio" target="_blank">ThemeOri</a></p>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-6">
+						<div class="copyright__one-right"> <a href="about.html">Trams & Condition</a> <a href="about.html">Privacy Policy</a> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 json like this

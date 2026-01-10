@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 	<!-- Start Meta -->
 	<meta charset="UTF-8">
@@ -29,818 +30,676 @@
 	<!-- Magnific Popup CSS -->
 	<link rel="stylesheet" href="https://html.nextwpcook.com/cosion/assets/css/magnific-popup.css">
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="https://html.nextwpcook.com/cosion/assets/sass/style.css"> </head>
+	<link rel="stylesheet" href="https://html.nextwpcook.com/cosion/assets/sass/style.css">
+</head>
 
 <body>
-	<!-- Preloader Start -->
-	<div class="loader"> <span class="loader-container"></span> </div>
-	<!-- Preloader End -->
-	<!-- Top Bar Start -->
+
+	<div class="loader">
+		<span class="loader-container"></span>
+	</div>
 	<div class="top__bar two">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-7 col-md-8">
 					<div class="top__bar-left">
-						<a href="mailto:info@example.com"> <i class="fas fa-envelope"></i> info@example.com </a>
-						<a href="https://www.google.com/maps"> <i class="fas fa-map-marker-alt"></i> 6391 Elgin St. Celina, 10299 </a>
+						<a href="mailto:<?= $d['top_bar']['email']; ?>">
+							<i class="<?= $d['top_bar']['icone_email']; ?>"></i>
+							<?= $d['top_bar']['email']; ?>
+						</a>
+
+						<a href="<?= $d['top_bar']['mapa_link']; ?>">
+							<i class="<?= $d['top_bar']['icone_mapa']; ?>"></i>
+							<?= $d['top_bar']['endereco']; ?>
+						</a>
 					</div>
 				</div>
+
 				<div class="col-xl-5 col-md-4">
-					<div class="top__bar-right"> <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a> <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> <a href="https://behance.net" target="_blank"><i class="fab fa-behance"></i></a> <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div>
+					<div class="top__bar-right">
+						<?php foreach ($d['top_bar']['redes_sociais'] as $rede): ?>
+							<a href="<?= $rede['link']; ?>" target="_blank">
+								<i class="<?= $rede['icone']; ?>"></i>
+							</a>
+						<?php endforeach; ?>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Top Bar End -->
-	<!-- Header Area Start -->
 	<div class="header__area three">
 		<div class="header__sticky">
 			<div class="container">
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
 						<div class="header__area-menubar-left-logo">
-							<a href="index.html"><img class="dark-n" src="https://html.nextwpcook.com/cosion/assets/img/logo-4.png" alt="image"></a>
+							<a href="index.html">
+								<img class="dark-n"
+									src="<?= $d['header']['logo_principal']; ?>"
+									alt="Logo">
+							</a>
 						</div>
 					</div>
+
 					<div class="header__area-menubar-center">
 						<div class="header__area-menubar-center-menu menu-responsive menu-responsive-three">
 							<ul id="mobilemenu">
-								<li class="menu-item-has-children"> <a href="#">Home <i class="fas fa-angle-down"></i></a>
-									<ul class="sub-menu">
-										<li> <a href="index.html">Corporate Bussiness</a> </li>
-										<li> <a href="index-two.html">Marketing Consulting</a> </li>
-										<li> <a href="index-three.html">Financial Advisor</a
-                                                >
-                                            </li>
-                                            <li>
-                                                <a href="index-four.html"
-                                                    >Digital Solutions</a
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages 
-                                            <i class="fas fa-angle-down"></i>
-                                        </a>
+								<?php foreach ($d['menu'] as $item): ?>
+									<li class="<?= !empty($item['submenu']) ? 'menu-item-has-children' : ''; ?>">
+										<a href="<?= $item['link']; ?>">
+											<?= $item['titulo']; ?>
+											<?php if (!empty($item['submenu'])): ?>
+												<i class="fas fa-angle-down"></i>
+											<?php endif; ?>
+										</a>
+
+										<?php if (!empty($item['submenu'])): ?>
 											<ul class="sub-menu">
-												<li><a href="about.html">About Us</a></li>
-												<li><a href="company-history.html">Company History</a></li>
-												<li class="menu-item-has-children"> <a href="#">Services<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="service.html">Services Style 01</a> </li>
-														<li> <a href="service-two.html">Services Style 02</a> </li>
-														<li> <a href="service-details.html">Service Details</a> </li>
-													</ul>
-												</li>
-												<li class="menu-item-has-children"> <a href="#">Team<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="team.html">Team Style 01</a> </li>
-														<li> <a href="team-two.html">Team Style 02</a> </li>
-														<li> <a href="team-three.html">Team Style 03</a> </li>
-													</ul>
-												</li>
-												<li class="menu-item-has-children"> <a href="#">Pricing Plan<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="pricing-plan.html">Pricing Plan Style 01</a> </li>
-														<li> <a href="pricing-plan-two.html">Pricing Plan Style 02</a> </li>
-													</ul>
-												</li>
-												<li><a href="testimonial.html">Testimonial</a></li>
-												<li><a href="request-quote.html">Request Quote</a></li>
-												<li><a href="faq.html">FAQs</a></li>
-												<li class="menu-item-has-children"> <a href="#">Shop<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="login.html">My Account</a> </li>
-														<li> <a href="shop.html">Products</a> </li>
-														<li> <a href="cart.html">Cart</a> </li>
-														<li> <a href="check-out.html">Checkout</a> </li>
-													</ul>
-												</li>
-												<li><a href="404.html">Error Page</a></li>
+												<?php foreach ($item['submenu'] as $sub): ?>
+													<li>
+														<a href="<?= $sub['link']; ?>">
+															<?= $sub['titulo']; ?>
+														</a>
+													</li>
+												<?php endforeach; ?>
 											</ul>
-										</li>
-										<li class="menu-item-has-children"> <a href="#">Portfolio 
-                                            <i class="fas fa-angle-down"></i>
-                                        </a>
-											<ul class="sub-menu">
-												<li><a href="filter-portfolio.html">Filterable Gallery</a></li>
-												<li class="menu-item-has-children"> <a href="#">Portfolio Grid<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="portfolio-column-two.html">Column 02</a> </li>
-														<li> <a href="portfolio-column-three.html">Column 03</a> </li>
-														<li> <a href="portfolio-column-four.html">Column 04</a> </li>
-													</ul>
-												</li>
-												<li><a href="portfolio-details.html">Portfolio Details</a></li>
-											</ul>
-										</li>
-										<li class="menu-item-has-children"> <a href="#">Blog 
-                                            <i class="fas fa-angle-down"></i>
-                                        </a>
-											<ul class="sub-menu">
-												<li class="menu-item-has-children"> <a href="#">Blog Grid<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="blog-grid-two.html">Column 02</a> </li>
-														<li> <a href="blog-grid-three.html">Column 03</a> </li>
-													</ul>
-												</li>
-												<li><a href="blog-standard.html">Blog Standard</a></li>
-												<li class="menu-item-has-children"> <a href="#">Blog Details<i class="fas fa-angle-right"></i></a>
-													<ul class="sub-menu">
-														<li> <a href="blog-details-left-sidebar.html">Left sidebar</a> </li>
-														<li> <a href="blog-details-right-sidebar.html">Right sidebar</a> </li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li><a href="contact.html">Contact Us</a></li>
-									</ul>
+										<?php endif; ?>
+									</li>
+								<?php endforeach; ?>
+							</ul>
 						</div>
 					</div>
+
 					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-box">
-							<div class="header__area-menubar-right-box-search">
-								<div class="search"> <span class="header__area-menubar-right-box-search-icon open"><i class="flaticon-loupe"></i
-                                        ></span> </div>
-								<div class="header__area-menubar-right-box-search-box">
-									<form>
-										<input type="search" placeholder="Search Here.....">
-										<button type="submit"> <i class="flaticon-loupe"></i> </button>
-									</form> <span class="header__area-menubar-right-box-search-box-icon"><i class="fal fa-times"></i
-                                        ></span> </div>
-							</div>
-							<div class="responsive-menu_popup-icon  sidebar-menu-show-hide"> <i class="fas fa-bars"></i> </div>
-							<div class="header__area-menubar-right-box-sidebar">
-								<div class="header__area-menubar-right-box-sidebar-popup-icon"> <i class="flaticon-menu"></i> </div>
-							</div>
+
 							<div class="need-help">
-								<div class="need-help-icon"><i class="flaticon-phone-call"></i></div>
-								<div class="need-help-icon-txt"> <span>Call Us Anytime</span> <a href="tel:(307)555-0133">(307) 555-0133</a> </div>
+								<div class="need-help-icon">
+									<i class="<?= $d['header']['icone_telefone']; ?>"></i>
+								</div>
+								<div class="need-help-icon-txt">
+									<span><?= $d['header']['texto_telefone']; ?></span>
+									<a href="tel:<?= $d['header']['telefone_link']; ?>">
+										<?= $d['header']['telefone']; ?>
+									</a>
+								</div>
 							</div>
-							<!-- sidebar Menu Start -->
+
+							<!-- Sidebar -->
 							<div class="header__area-menubar-right-sidebar-popup home-three">
-								<div class="sidebar-close-btn"> <i class="fal fa-times"></i> </div>
+								<div class="sidebar-close-btn">
+									<i class="fal fa-times"></i>
+								</div>
+
 								<div class="header__area-menubar-right-sidebar-popup-logo">
-									<a href="index.html"> <img src="https://html.nextwpcook.com/cosion/assets/img/logo-5.png" alt="image"> </a>
+									<a href="index.html">
+										<img src="<?= $d['header']['logo_sidebar']; ?>" alt="Logo">
+									</a>
 								</div>
-								<p> Morbi et tellus imperdiet, aliquam nulla sed, dapibus erat. Aenean dapibus sem non purus venenatis vulputate. Donec accumsan eleifend blandit. Nullam auctor ligula </p>
+
+								<p><?= $d['header']['descricao_sidebar']; ?></p>
+
 								<div class="header__area-menubar-right-sidebar-popup-contact">
-									<h4 class="mb-30">Get In Touch</h4>
-									<div class="header__area-menubar-right-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-icon"> <i class="fal fa-phone-alt icon-animation"></i> </div>
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-content"> <span>Call Now</span>
-											<h6>
-                                                    <a href="tel:+125(895)658568"
-                                                        >+125 (895) 658 568</a
-                                                    >
-                                                </h6> </div>
-									</div>
-									<div class="header__area-menubar-right-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-icon"> <i class="fal fa-envelope"></i> </div>
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-content"> <span>Quick Email</span>
-											<h6>
-                                                    <a
-                                                        href="mailto:info.help@gmail.com"
-                                                        >info.help@gmail.com</a
-                                                    >
-                                                </h6> </div>
-									</div>
-									<div class="header__area-menubar-right-sidebar-popup-contact-item">
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-icon"> <i class="fal fa-map-marker-alt"></i> </div>
-										<div class="header__area-menubar-right-sidebar-popup-contact-item-content"> <span>Office Address</span>
-											<h6>
-                                                    <a href="https://www.google.com/maps"
-                                                        >PV3M+X68 Welshpool United
-                                                        Kingdom</a
-                                                    >
-                                                </h6> </div>
-									</div>
+									<h4 class="mb-30"><?= $d['header']['titulo_contato']; ?></h4>
+
+									<?php foreach ($d['header']['contatos'] as $contato): ?>
+										<div class="header__area-menubar-right-sidebar-popup-contact-item">
+											<div class="header__area-menubar-right-sidebar-popup-contact-item-icon">
+												<i class="<?= $contato['icone']; ?>"></i>
+											</div>
+											<div class="header__area-menubar-right-sidebar-popup-contact-item-content">
+												<span><?= $contato['label']; ?></span>
+												<h6>
+													<a href="<?= $contato['link']; ?>">
+														<?= $contato['valor']; ?>
+													</a>
+												</h6>
+											</div>
+										</div>
+									<?php endforeach; ?>
 								</div>
+
 								<div class="header__area-menubar-right-sidebar-popup-social">
 									<ul>
-										<li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-										<li><a href="https://behance.net" target="_blank"><i class="fab fa-behance"></i></a></li>
-										<li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+										<?php foreach ($d['top_bar']['redes_sociais'] as $rede): ?>
+											<li>
+												<a href="<?= $rede['link']; ?>" target="_blank">
+													<i class="<?= $rede['icone']; ?>"></i>
+												</a>
+											</li>
+										<?php endforeach; ?>
 									</ul>
 								</div>
 							</div>
+
 							<div class="sidebar-overlay"></div>
 							<div class="menu-overlay"></div>
-							<!-- sidebar Menu End -->
-							<!-- ================== Responsive Menu ================== -->
-							<div class="responsive__menu">
-								<div class="responsive__menu-wrapper">
-									<div class="responsive__menu_wrap text-start mb-5">
-										<div class="logo-wrapper">
-											<a href="index.html"> <img src="https://html.nextwpcook.com/cosion/assets/img/logo-5.png" alt="Logo"></a>
-										</div> <i class="fas fa-times close-hide-show"></i> </div>
-									<ul class="responsive-sidebar-menu-list">
-										<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                    Home 
-                                                </a>
-											<div class="responsive-sidebar-submenu" style="display: none;">
-												<ul class="responsive-sidebar-submenu-list">
-													<li class="responsive-sidebar-submenu-list__item"> <a href="index.html" class="responsive-sidebar-submenu-list__link">Corporate Bussiness</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="index-two.html" class="responsive-sidebar-submenu-list__link">Marketing Consulting</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="index-three.html" class="responsive-sidebar-submenu-list__link">Financial Advisor</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="index-four.html" class="responsive-sidebar-submenu-list__link">Digital Solutions</a> </li>
-												</ul>
-											</div>
-										</li>
-										<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                    Pages
-                                                </a>
-											<div class="responsive-sidebar-submenu" style="display: none;">
-												<ul class="responsive-sidebar-submenu-list">
-													<li class="responsive-sidebar-submenu-list__item"> <a href="about.html" class="responsive-sidebar-submenu-list__link">About Us</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="company-history.html" class="responsive-sidebar-submenu-list__link">Company History</a> </li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Services
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="service.html" class="responsive-sidebar-submenu-list__link">Services Style 01</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="service-two.html" class="responsive-sidebar-submenu-list__link">Services Style 02</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="service-details.html" class="responsive-sidebar-submenu-list__link">Service Details</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Team
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="team.html" class="responsive-sidebar-submenu-list__link">Team Style 01</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="team-two.html" class="responsive-sidebar-submenu-list__link">Team Style 02</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="team-three.html" class="responsive-sidebar-submenu-list__link">Team Style 03</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Pricing Plan
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="pricing-plan.html" class="responsive-sidebar-submenu-list__link">Pricing Style 01</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="pricing-plan-two.html" class="responsive-sidebar-submenu-list__link">Pricing Style 02</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="testimonial.html" class="responsive-sidebar-submenu-list__link">Testimonial</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="request-quote.html" class="responsive-sidebar-submenu-list__link">Request Quote</a> </li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="faq.html" class="responsive-sidebar-submenu-list__link">FAQs</a> </li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Shop
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="login.html" class="responsive-sidebar-submenu-list__link">My Account</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="cart.html" class="responsive-sidebar-submenu-list__link">Cart</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="check-out.html" class="responsive-sidebar-submenu-list__link">Checkout</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="404.html" class="responsive-sidebar-submenu-list__link">Error Page</a> </li>
-												</ul>
-											</div>
-										</li>
-										<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                    Portfolio 
-                                                </a>
-											<div class="responsive-sidebar-submenu" style="display: none;">
-												<ul class="responsive-sidebar-submenu-list">
-													<li class="responsive-sidebar-submenu-list__item"> <a href="filter-portfolio.html" class="responsive-sidebar-submenu-list__link">Filterable Gallery</a> </li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Portfolio Grid 
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="portfolio-column-two.html" class="responsive-sidebar-submenu-list__link">Column 02</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="portfolio-column-three.html" class="responsive-sidebar-submenu-list__link">Column 03</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="portfolio-column-four.html" class="responsive-sidebar-submenu-list__link">Column 04</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="portfolio-details.html" class="responsive-sidebar-submenu-list__link">Portfolio Details</a> </li>
-												</ul>
-											</div>
-										</li>
-										<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                    Blog 
-                                                </a>
-											<div class="responsive-sidebar-submenu" style="display: none;">
-												<ul class="responsive-sidebar-submenu-list">
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Blog Grid 
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="blog-grid-two.html" class="responsive-sidebar-submenu-list__link">Column 02</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="blog-grid-three.html" class="responsive-sidebar-submenu-list__link">Column 03</a> </li>
-															</ul>
-														</div>
-													</li>
-													<li class="responsive-sidebar-submenu-list__item"> <a href="blog-standard.html" class="responsive-sidebar-submenu-list__link">Blog Standard</a> </li>
-													<li class="responsive-sidebar-menu-list__item has-dropdown"> <a href="#" class="responsive-sidebar-menu-list__link">
-                                                                Blog Details
-                                                            </a>
-														<div class="responsive-sidebar-submenu" style="display: none;">
-															<ul class="responsive-sidebar-submenu-list">
-																<li class="responsive-sidebar-submenu-list__item"> <a href="blog-details-left-sidebar.html" class="responsive-sidebar-submenu-list__link">Left Sidebar</a> </li>
-																<li class="responsive-sidebar-submenu-list__item"> <a href="blog-details-right-sidebar.html" class="responsive-sidebar-submenu-list__link">Right Sidebar</a> </li>
-															</ul>
-														</div>
-													</li>
-												</ul>
-											</div>
-										</li>
-										<li class="responsive-sidebar-menu-list__item"> <a href="contact.html" class="responsive-sidebar-menu-list__link">
-                                                    Contact Us 
-                                                </a> </li>
-									</ul>
-								</div>
-							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Header Area End -->
-	<!-- Banner Three Area Start -->
+
 	<div class="banner__three">
 		<div class="swiper banner__three-slider">
 			<div class="swiper-wrapper">
-				<div class="slider-arrow"> <i class="swiper-button-prev fal fa-long-arrow-left"></i> <i class="swiper-button-next fal fa-long-arrow-right"></i> </div>
-				<div class="banner__three-single-slide swiper-slide" style="background-image: url(assets/img/banner/banner-three-1.jpg);">
-					<div class="banner__three-shape"> <img class="shape-1" data-animation="fadeInUp" data-delay="1.7s" src="https://html.nextwpcook.com/cosion/assets/img/shapes/banner-shape-1.png" alt="image"> <img class="shape-2" data-animation="fadeInRightBig" data-delay="1.7s" src="https://html.nextwpcook.com/cosion/assets/img/shapes/banner-shape-2.png" alt="image"> </div>
-					<div class="container">
-						<div class="row">
-							<div class="col-xl-7 col-lg-8 col-md-10 col-sm-11">
-								<div class="banner__three-content"> <span class="subtitle-three" data-animation="fadeInUp" data-delay=".3s">Strategic Planning</span>
-									<h2 data-animation="fadeInUp" data-delay=".6s">Your Partner for Financial Success</h2>
-									<p data-animation="fadeInUp" data-delay=".8s">Seasoned experts is here to guide you every step of the way to comprehensive approach and unwavering commitment, you can confidently pursue your financial.</p> <a href="contact.html" class="btn-three" data-animation="fadeInUp" data-delay="1s">Partner with Us Today
-                                            <i class="fas fa-plus"></i>
-                                        </a> </div>
+
+				<div class="slider-arrow">
+					<i class="swiper-button-prev fal fa-long-arrow-left"></i>
+					<i class="swiper-button-next fal fa-long-arrow-right"></i>
+				</div>
+
+				<?php foreach ($d['banner']['slides'] as $slide): ?>
+					<div class="banner__three-single-slide swiper-slide"
+						style="background-image: url(<?= $slide['background']; ?>);">
+
+						<div class="banner__three-shape">
+							<img class="shape-1"
+								data-animation="fadeInUp"
+								data-delay="1.7s"
+								src="<?= $d['banner']['shape_1']; ?>"
+								alt="image">
+
+							<img class="shape-2"
+								data-animation="fadeInRightBig"
+								data-delay="1.7s"
+								src="<?= $d['banner']['shape_2']; ?>"
+								alt="image">
+						</div>
+
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-7 col-lg-8 col-md-10 col-sm-11">
+									<div class="banner__three-content">
+										<span class="subtitle-three"
+											data-animation="fadeInUp"
+											data-delay=".3s">
+											<?= $slide['subtitulo']; ?>
+										</span>
+
+										<h2 data-animation="fadeInUp" data-delay=".6s">
+											<?= $slide['titulo']; ?>
+										</h2>
+
+										<p data-animation="fadeInUp" data-delay=".8s">
+											<?= $slide['descricao']; ?>
+										</p>
+
+										<a href="<?= $slide['botao']['link']; ?>"
+											class="btn-three"
+											data-animation="fadeInUp"
+											data-delay="1s">
+											<?= $slide['botao']['titulo']; ?>
+											<i class="fas fa-plus"></i>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					</div>
-				</div>
-				<div class="banner__three-single-slide swiper-slide" style="background-image: url(assets/img/banner/banner-three-2.jpg);">
-					<div class="banner__three-shape"> <img class="shape-1" data-animation="fadeInUp" data-delay="1.7s" src="https://html.nextwpcook.com/cosion/assets/img/shapes/banner-shape-1.png" alt="image"> <img class="shape-2" data-animation="fadeInRightBig" data-delay="1.7s" src="https://html.nextwpcook.com/cosion/assets/img/shapes/banner-shape-2.png" alt="image"> </div>
-					<div class="container">
-						<div class="row">
-							<div class="col-xl-7 col-lg-8 col-md-10 col-sm-11">
-								<div class="banner__three-content"> <span class="subtitle-three" data-animation="fadeInUp" data-delay=".3s">Financial Vision</span>
-									<h2 data-animation="fadeInUp" data-delay=".5s">Guiding Your Path to Prosperity</h2>
-									<p data-animation="fadeInUp" data-delay=".8s">Our experienced advisors are dedicated to guiding you through every step of your financial journey offering personalised strategies that align your goals aspirations.</p> <a href="contact.html" class="btn-three" data-animation="fadeInUp" data-delay="1s">Start Your Journey Today
-                                            <i class="fas fa-plus"></i>
-                                        </a> </div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<?php endforeach; ?>
+
 			</div>
 		</div>
 	</div>
-	<!-- Banner Three Area End -->
-	<!-- Services Five Start -->
+
 	<div class="service__five">
 		<div class="container">
 			<div class="row justify-content-center gy-4">
-				<div class="col-xl-4 col-lg-6">
-					<div class="service__five-card">
-						<div class="icon"> <i class="flaticon-imac-computer"></i> </div>
-						<div class="content">
-							<h5>Financial Freedom</h5>
-							<p>Achieve financial independence with our expert guidance</p>
+
+				<?php foreach ($d['servicos']['items'] as $servico): ?>
+					<div class="col-xl-4 col-lg-6">
+						<div class="service__five-card">
+							<div class="icon">
+								<i class="<?= $servico['icone']; ?>"></i>
+							</div>
+							<div class="content">
+								<h5><?= $servico['titulo']; ?></h5>
+								<p><?= $servico['descricao']; ?></p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-xl-4 col-lg-6">
-					<div class="service__five-card">
-						<div class="icon"> <i class="flaticon-imac-computer"></i> </div>
-						<div class="content">
-							<h5>Investment Growth</h5>
-							<p>Maximize your wealth with our strategic investment</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-4 col-lg-6">
-					<div class="service__five-card">
-						<div class="icon"> <i class="flaticon-imac-computer"></i> </div>
-						<div class="content">
-							<h5>Wealth Protection</h5>
-							<p>Safeguard your assets with our wealth protection strategic</p>
-						</div>
-					</div>
-				</div>
+				<?php endforeach; ?>
+
 			</div>
 		</div>
 	</div>
-	<!-- Services Five End -->
-	<!-- About Three Area Start -->
+
 	<div class="about__three section-padding">
 		<div class="container">
 			<div class="row align-items-center flex-wrap-reverse gy-4">
+
 				<div class="col-xl-6 col-lg-7 col-md-8">
-					<div class="about__three-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/about/about-three.jpg" alt="image" class="animate-y-axis">
-						<div class="about__three-image-shape"><img src="https://html.nextwpcook.com/cosion/assets/img/shapes/about-three-shape.png" alt="image"></div>
+					<div class="about__three-image">
+						<img src="<?= $d['sobre']['imagem_principal']; ?>"
+							alt="image"
+							class="animate-y-axis">
+
+						<div class="about__three-image-shape">
+							<img src="<?= $d['sobre']['imagem_shape']; ?>" alt="image">
+						</div>
 					</div>
 				</div>
+
 				<div class="col-xl-6 col-lg-12">
-					<div class="about__three-content"> <span class="subtitle-three">About Company</span>
-						<h2>Committed to Your Financial Success and Security</h2>
-						<p>We helping you achieve financial peace of mind through personalized strategies and expert advice. Our team is committed to understanding your unique needs</p>
+					<div class="about__three-content">
+						<span class="subtitle-three">
+							<?= $d['sobre']['subtitulo']; ?>
+						</span>
+
+						<h2><?= $d['sobre']['titulo']; ?></h2>
+
+						<p><?= $d['sobre']['descricao']; ?></p>
+
 						<div class="about__three-content-service">
-							<div class="about__three-content-service-single"> <i class="fas fa-check-circle"></i>
-								<h6>Get Ahead with Expert Consultants</h6> </div>
-							<div class="about__three-content-service-single"> <i class="fas fa-check-circle"></i>
-								<h6>Unleash Your Business's Full Potential</h6> </div>
-							<div class="about__three-content-service-single"> <i class="fas fa-check-circle"></i>
-								<h6>Your Success is Our Business</h6> </div>
-							<div class="about__three-content-service-single"> <i class="fas fa-check-circle"></i>
-								<h6>Transforming Businesses a Brighter </h6> </div>
-						</div> <a href="about.html" class="btn-three">
-                                About us
-                                <i class="fas fa-plus"></i>
-                            </a> </div>
+							<?php foreach ($d['sobre']['lista'] as $item): ?>
+								<div class="about__three-content-service-single">
+									<i class="fas fa-check-circle"></i>
+									<h6><?= $item; ?></h6>
+								</div>
+							<?php endforeach; ?>
+						</div>
+
+						<a href="<?= $d['sobre']['botao']['link']; ?>" class="btn-three">
+							<?= $d['sobre']['botao']['titulo']; ?>
+							<i class="fas fa-plus"></i>
+						</a>
+					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
-	<!-- About Three Area End -->
-	<!-- Services Three Area Start -->
+
+
+	<!-- SERVICES -->
 	<div class="services__three section-padding">
 		<div class="container">
 			<div class="row mb-50 gy-2">
-				<div class="col-xl-5 col-lg-7"> <span class="subtitle-three">Latest Service</span>
-					<h2>Our Financial Solutions</h2> </div>
+				<div class="col-xl-5 col-lg-7">
+					<span class="subtitle-three">
+						<?= $d['servicos_dois']['subtitulo']; ?>
+					</span>
+					<h2><?= $d['servicos_dois']['titulo']; ?></h2>
+				</div>
 				<div class="col-xl-5 offset-xl-2 col-lg-5 d-flex justify-content-end">
-					<p>Our commitment is to provide actionable advice that you make informed decisions and achieve long-term financial success.Trust us to be your partner in financial security </p>
+					<p><?= $d['servicos_dois']['descricao']; ?></p>
 				</div>
 			</div>
+
 			<div class="row gy-4 justify-content-center">
-				<div class="col-xl-4 col-lg-6 col-md-12">
-					<div class="single-service">
-						<div class="single-service__image"> <img src="https://html.nextwpcook.com/cosion/assets/img/service/service-4.jpg" alt="image"> </div>
-						<div class="single-service__content">
-							<div class="single-service__icon"> <i class="flaticon-imac-computer"></i> </div>
-							<h5>Investment Advisory</h5>
-							<p>We develop comprehensive plans, including wills and trusts to manage and distribute</p> <a href="#" class="btn-three">
-                                    Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
+				<?php foreach ($d['servicos_dois']['items'] as $item): ?>
+					<div class="col-xl-4 col-lg-6 col-md-12">
+						<div class="single-service">
+							<div class="single-service__image">
+								<img src="<?= $item['imagem']; ?>" alt="image">
+							</div>
+							<div class="single-service__content">
+								<div class="single-service__icon">
+									<i class="<?= $item['icone']; ?>"></i>
+								</div>
+								<h5><?= $item['titulo']; ?></h5>
+								<p><?= $item['descricao']; ?></p>
+								<a href="<?= $item['link']; ?>" class="btn-three">
+									<?= $item['botao']; ?>
+									<i class="fas fa-plus"></i>
+								</a>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="col-xl-4 col-lg-6 col-md-12">
-					<div class="single-service">
-						<div class="single-service__image"> <img src="https://html.nextwpcook.com/cosion/assets/img/service/service-1.jpg" alt="image"> </div>
-						<div class="single-service__content">
-							<div class="single-service__icon"> <i class="flaticon-imac-computer"></i> </div>
-							<h5>Wealth Management</h5>
-							<p>We tailor solutions to your financial goals and risk tolerance, ensuring a portfolio</p> <a href="#" class="btn-three">
-                                    Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
-					</div>
-				</div>
-				<div class="col-xl-4 col-lg-6 col-md-12">
-					<div class="single-service">
-						<div class="single-service__image"> <img src="https://html.nextwpcook.com/cosion/assets/img/service/service-5.jpg" alt="image"> </div>
-						<div class="single-service__content">
-							<div class="single-service__icon"> <i class="flaticon-imac-computer"></i> </div>
-							<h5>Retirement Planning</h5>
-							<p>We analyze your financial situation, project future needs, and create a plan ensure </p> <a href="#" class="btn-three">
-                                    Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
-					</div>
-				</div>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>
-	<!-- Services Three Area End -->
-	<!-- Work Process Area Start -->
+
+	<!-- WORK PROCESS -->
 	<div class="work-process__one section-padding">
 		<div class="container">
 			<div class="row justify-content-center text-center">
 				<div class="col-xl-6 col-lg-6">
-					<div class="work-process__one-title"> <span class="subtitle-three m-auto">Work Process</span>
-						<h2>How We Operate</h2> </div>
+					<div class="work-process__one-title">
+						<span class="subtitle-three m-auto">
+							<?= $d['processo']['subtitulo']; ?>
+						</span>
+						<h2><?= $d['processo']['titulo']; ?></h2>
+					</div>
 				</div>
 			</div>
+
 			<div class="work-process-wrapper">
-				<div class="single-item">
-					<div class="single-item__icon"> <span class="single-item__number">01</span> <i class="flaticon-creativity"></i> </div>
-					<h5>Initial Consultation</h5>
-					<p>Discuss your financial goals and needs during a personalized consultation.</p>
-					<div class="next-arrow"> <img src="https://html.nextwpcook.com/cosion/assets/img/shapes/work-process-arrow.png" alt="image"> </div>
-				</div>
-				<div class="single-item">
-					<div class="single-item__icon"> <span class="single-item__number">02</span> <i class="flaticon-creativity"></i> </div>
-					<h5>Strategy Development</h5>
-					<p>We create a tailored financial plan designed to meet your specific objectives.</p>
-					<div class="next-arrow"> <img src="https://html.nextwpcook.com/cosion/assets/img/shapes/work-process-arrow.png" alt="image"> </div>
-				</div>
-				<div class="single-item">
-					<div class="single-item__icon"> <span class="single-item__number">03</span> <i class="flaticon-creativity"></i> </div>
-					<h5>Plan Implementation</h5>
-					<p>Discuss your financial goals and needs during a personalized consultation.</p>
-					<div class="next-arrow"> <img src="https://html.nextwpcook.com/cosion/assets/img/shapes/work-process-arrow.png" alt="image"> </div>
-				</div>
-				<div class="single-item">
-					<div class="single-item__icon"> <span class="single-item__number">04</span> <i class="flaticon-creativity"></i> </div>
-					<h5>Ongoing Monitoring</h5>
-					<p>Discuss your financial goals and needs during a personalized consultation.</p>
-				</div>
+				<?php foreach ($d['processo']['etapas'] as $etapa): ?>
+					<div class="single-item">
+						<div class="single-item__icon">
+							<span class="single-item__number"><?= $etapa['numero']; ?></span>
+							<i class="<?= $etapa['icone']; ?>"></i>
+						</div>
+						<h5><?= $etapa['titulo']; ?></h5>
+						<p><?= $etapa['descricao']; ?></p>
+
+						<?php if (!empty($etapa['seta'])): ?>
+							<div class="next-arrow">
+								<img src="<?= $etapa['seta']; ?>" alt="image">
+							</div>
+						<?php endif; ?>
+					</div>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>
-	<!-- Work Process Area End -->
-	<!-- Contact One Area End -->
+
+
+	<!-- CONTACT -->
 	<div class="contact__one">
 		<div class="contact__one-wrapper">
-			<div class="contact__one-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/contact/contact.jpg" alt="image"> </div>
-			<div class="contact__one-content"> <span class="subtitle-three">Get In Touch</span>
-				<h2>Schedule Your Free Financial Consultation</h2>
-				<form action="#" class="contact__one-form">
-					<input type="text" placeholder="Name">
-					<input type="text" placeholder="Email">
-					<input type="text" placeholder="Phone">
-					<input type="text" placeholder="Subject">
-					<textarea placeholder="Message"></textarea>
-					<button class="btn-three" type="submit">Submit Now</button>
+			<div class="contact__one-image">
+				<img src="<?= $d['contato']['imagem']; ?>" alt="image">
+			</div>
+
+			<div class="contact__one-content">
+				<span class="subtitle-three">
+					<?= $d['contato']['subtitulo']; ?>
+				</span>
+
+				<h2><?= $d['contato']['titulo']; ?></h2>
+
+				<form action="<?= $d['contato']['form_action']; ?>" class="contact__one-form">
+					<?php foreach ($d['contato']['campos'] as $campo): ?>
+						<?php if ($campo['tipo'] !== 'textarea'): ?>
+							<input
+								type="<?= $campo['tipo']; ?>"
+								placeholder="<?= $campo['placeholder']; ?>">
+						<?php else: ?>
+							<textarea placeholder="<?= $campo['placeholder']; ?>"></textarea>
+						<?php endif; ?>
+					<?php endforeach; ?>
+
+					<button class="btn-three" type="submit">
+						<?= $d['contato']['botao']; ?>
+					</button>
 				</form>
 			</div>
 		</div>
 	</div>
-	<!-- Contact One Area End -->
-	<!-- Testimonial Two Area Start -->
+
+	<!-- TESTIMONIAL -->
 	<div class="testimonial__three section-padding">
 		<div class="container">
 			<div class="row align-items-center mb-60 gy-5">
 				<div class="col-xl-6 col-lg-6 col-md-8">
-					<div class="testimonial__three-title"> <span class="subtitle-three">Real Client Stories</span>
-						<h2>Customer Experiences</h2> </div>
+					<div class="testimonial__three-title">
+						<span class="subtitle-three">
+							<?= $d['depoimentos']['subtitulo']; ?>
+						</span>
+						<h2><?= $d['depoimentos']['titulo']; ?></h2>
+					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6 col-md-4">
-					<div class="slider-arrow justify-content-md-end"> <i class="swiper-button-prev fas fa-chevron-left"></i> <i class="swiper-button-next fas fa-chevron-right"></i> </div>
+					<div class="slider-arrow justify-content-md-end">
+						<i class="swiper-button-prev fas fa-chevron-left"></i>
+						<i class="swiper-button-next fas fa-chevron-right"></i>
+					</div>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="swiper testimonial__three-slider-active">
 						<div class="swiper-wrapper">
-							<div class="testimonial__three-single-slider swiper-slide">
-								<div class="testimonial__three-single-slider-user">
-									<div class="testimonial__three-single-slider-user-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/testimonial/avatar-1.jpg" alt="image"> </div>
-									<div class="testimonial__three-single-slider-user-name">
-										<h4>Nasir Al Shakib</h4> <span>Content Creator</span> </div>
+							<?php foreach ($d['depoimentos']['items'] as $item): ?>
+								<div class="testimonial__three-single-slider swiper-slide">
+									<div class="testimonial__three-single-slider-user">
+										<div class="testimonial__three-single-slider-user-image">
+											<img src="<?= $item['imagem']; ?>" alt="image">
+										</div>
+										<div class="testimonial__three-single-slider-user-name">
+											<h4><?= $item['nome']; ?></h4>
+											<span><?= $item['cargo']; ?></span>
+										</div>
+									</div>
+
+									<p><?= $item['texto']; ?></p>
+
+									<div class="testimonial__three-single-slider-user-rating">
+										<?php for ($i = 1; $i <= 5; $i++): ?>
+											<i class="fas fa-star <?= $i > $item['avaliacao'] ? 'not-rated' : ''; ?>"></i>
+										<?php endfor; ?>
+									</div>
+
+									<div class="slider-shape">
+										<i class="fas fa-quote-right"></i>
+									</div>
 								</div>
-								<p>The theme’s design is sleek and professional. Customizing it to match our brand’s aesthetic was seamless web traffic has increased.</p>
-								<div class="testimonial__three-single-slider-user-rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star not-rated"></i> </div>
-								<div class="slider-shape"> <i class="fas fa-quote-right"></i> </div>
-							</div>
-							<div class="testimonial__three-single-slider swiper-slide">
-								<div class="testimonial__three-single-slider-user">
-									<div class="testimonial__three-single-slider-user-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/team/team-1.jpg" alt="image"> </div>
-									<div class="testimonial__three-single-slider-user-name">
-										<h4>Michael Adams</h4> <span>Operations Manager</span> </div>
-								</div>
-								<p>The theme’s design is sleek and professional. Customizing it to match our brand’s aesthetic was seamless web traffic has increased.</p>
-								<div class="testimonial__three-single-slider-user-rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star not-rated"></i> </div>
-								<div class="slider-shape"> <i class="fas fa-quote-right"></i> </div>
-							</div>
-							<div class="testimonial__three-single-slider swiper-slide">
-								<div class="testimonial__three-single-slider-user">
-									<div class="testimonial__three-single-slider-user-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/team/team-2.jpg" alt="image"> </div>
-									<div class="testimonial__three-single-slider-user-name">
-										<h4>Samantha Brooks</h4> <span>CEO, Tech Innovators</span> </div>
-								</div>
-								<p>The theme’s design is sleek and professional. Customizing it to match our brand’s aesthetic was seamless web traffic has increased.</p>
-								<div class="testimonial__three-single-slider-user-rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star not-rated"></i> </div>
-								<div class="slider-shape"> <i class="fas fa-quote-right"></i> </div>
-							</div>
-							<div class="testimonial__three-single-slider swiper-slide">
-								<div class="testimonial__three-single-slider-user">
-									<div class="testimonial__three-single-slider-user-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/team/team-3.jpg" alt="image"> </div>
-									<div class="testimonial__three-single-slider-user-name">
-										<h4>Emily Watson</h4> <span>Chief Marketing</span> </div>
-								</div>
-								<p>The theme’s design is sleek and professional. Customizing it to match our brand’s aesthetic was seamless web traffic has increased.</p>
-								<div class="testimonial__three-single-slider-user-rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star not-rated"></i> </div>
-								<div class="slider-shape"> <i class="fas fa-quote-right"></i> </div>
-							</div>
+							<?php endforeach; ?>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Testimonial Two Area End -->
-	<!-- Project Three Area Start -->
+
+	<!-- PROJECT / ABORDAGENS -->
 	<div class="project__three">
 		<div class="project__three-card-wrapper">
-			<div class="project__three-single-card">
-				<div class="project__three-image" style="background-image: url(assets/img/project/project-2.jpg);"></div>
-				<a href="portfolio-details.html" class="project__three-single-card-inner"> <span>Collaboration</span>
-					<h6>Partnership Program</h6> </a>
-			</div>
-			<div class="project__three-single-card active">
-				<div class="project__three-image" style="background-image: url(assets/img/project/project-1.jpg);"></div>
-				<a href="portfolio-details.html" class="project__three-single-card-inner"> <span>Media</span>
-					<h6>Video Production</h6> </a>
-			</div>
-			<div class="project__three-single-card">
-				<div class="project__three-image" style="background-image: url(assets/img/project/project-3.jpg);"></div>
-				<a href="portfolio-details.html" class="project__three-single-card-inner"> <span>Reach</span>
-					<h6>Audience Targeting</h6> </a>
-			</div>
-			<div class="project__three-single-card">
-				<div class="project__three-image" style="background-image: url(assets/img/project/project-4.jpg);"></div>
-				<a href="portfolio-details.html" class="project__three-single-card-inner"> <span>Loyalty</span>
-					<h6>Customer Retention</h6> </a>
-			</div>
+			<?php foreach ($d['abordagens']['items'] as $item): ?>
+				<div class="project__three-single-card <?= !empty($item['ativo']) ? 'active' : ''; ?>">
+					<div
+						class="project__three-image"
+						style="background-image: url(<?= $item['imagem']; ?>);">
+					</div>
+
+					<a href="<?= $item['link']; ?>" class="project__three-single-card-inner">
+						<span><?= $item['categoria']; ?></span>
+						<h6><?= $item['titulo']; ?></h6>
+					</a>
+				</div>
+			<?php endforeach; ?>
 		</div>
 	</div>
-	<!-- Project Three Area End -->
-	<!-- Why Choose Us Three Area Start -->
+
+
+	<?php
+	// $d vem do JSON decodificado
+	?>
+
+	<!-- WHY CHOOSE US -->
 	<div class="why-choose-us__three section-padding">
 		<div class="container">
 			<div class="row align-items-center flex-wrap-reverse gy-4">
 				<div class="col-xl-6 col-lg-6 col-md-10">
-					<div class="why-choose-us__three-content"> <span class="subtitle-three">Tools & Calculators</span>
-						<h2>Your Personal Finance Calculators and Tools</h2>
-						<p>Explore our suite of interactive tools and calculators designed to simplify your financial planning from retirement estimators to budgeting aids</p>
+					<div class="why-choose-us__three-content">
+						<span class="subtitle-three">
+							<?= $d['abordagem']['subtitulo']; ?>
+						</span>
+
+						<h2><?= $d['abordagem']['titulo']; ?></h2>
+
+						<p><?= $d['abordagem']['descricao']; ?></p>
+
 						<div class="why-choose-us__three-content-service">
-							<div class="why-choose-us__three-content-service-single">
-								<div class="service-top"> <i class="flaticon-content-marketing"></i>
-									<h6>Brand Strategy</h6> </div>
-								<p>We work closely with you to develop a brand strategy</p>
-							</div>
-							<div class="why-choose-us__three-content-service-single">
-								<div class="service-top"> <i class="flaticon-growth"></i>
-									<h6>Digital Mastery</h6> </div>
-								<p>In today’s digital world, an effective online presence</p>
-							</div>
-						</div> <a href="about.html" class="btn-three">
-                                Get Your Estimate
-                                <i class="fas fa-plus"></i>
-                            </a> </div>
+							<?php foreach ($d['abordagem']['itens'] as $item): ?>
+								<div class="why-choose-us__three-content-service-single">
+									<div class="service-top">
+										<i class="<?= $item['icone']; ?>"></i>
+										<h6><?= $item['titulo']; ?></h6>
+									</div>
+									<p><?= $item['descricao']; ?></p>
+								</div>
+							<?php endforeach; ?>
+						</div>
+
+						<a href="<?= $d['abordagem']['botao']['link']; ?>" class="btn-three">
+							<?= $d['abordagem']['botao']['titulo']; ?>
+							<i class="fas fa-plus"></i>
+						</a>
+					</div>
 				</div>
+
 				<div class="col-xl-6 col-lg-6 col-md-12">
-					<div class="why-choose-us__three-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/why/why-three-1.jpg" alt="image">
-						<a href="https://www.youtube.com/watch?v=SZEflIVnhH8" class="video-btn video-popup video-pulse"> <i class="fas fa-play"></i> </a>
+					<div class="why-choose-us__three-image">
+						<img src="<?= $d['abordagem']['imagem']; ?>" alt="image">
+						<a href="<?= $d['abordagem']['video']; ?>" class="video-btn video-popup video-pulse">
+							<i class="fas fa-play"></i>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Why Choose Us Three Area End -->
-	<!-- Blog Three Area Start -->
+
+	<!-- BLOG -->
 	<div class="blog__three section-padding">
 		<div class="container">
 			<div class="row justify-content-center text-center">
 				<div class="col-xl-6 col-lg-6">
-					<div class="blog__three-title"> <span class="subtitle-three">Latest Blog</span>
-						<h2>Explore Blogs & Insights</h2> </div>
+					<div class="blog__three-title">
+						<span class="subtitle-three">
+							<?= $d['blog']['subtitulo']; ?>
+						</span>
+						<h2><?= $d['blog']['titulo']; ?></h2>
+					</div>
 				</div>
 			</div>
+
 			<div class="swiper blog__three-slide-active">
 				<div class="swiper-wrapper">
-					<div class="blog__three-single-blog swiper-slide">
-						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-4.jpg" alt="image"> </div>
-						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
-						<div class="blog__three-single-blog-content">
-							<div class="blog__three-single-blog-content-top"> <span>
-                                        <i class="far fa-user"></i>
-                                        wpboss
-                                    </span> <span>
-                                        <i class="far fa-comment-dots"></i>
-                                        Comments (05)
-                                    </span> </div>
-							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">The Power of Storytelling in Digital Marketing</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
-					</div>
-					<div class="blog__three-single-blog swiper-slide">
-						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-5.jpg" alt="image"> </div>
-						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
-						<div class="blog__three-single-blog-content">
-							<div class="blog__three-single-blog-content-top"> <span>
-                                        <i class="far fa-user"></i>
-                                        wpboss
-                                    </span> <span>
-                                        <i class="far fa-comment-dots"></i>
-                                        Comments (05)
-                                    </span> </div>
-							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">The Role of Data in Modern Marketing Campaign</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
-					</div>
-					<div class="blog__three-single-blog swiper-slide">
-						<div class="blog__three-single-blog-image"> <img src="https://html.nextwpcook.com/cosion/assets/img/blog/blog-6.jpg" alt="image"> </div>
-						<div class="blog__three-single-blog-date"> <span>10 Sep</span> </div>
-						<div class="blog__three-single-blog-content">
-							<div class="blog__three-single-blog-content-top"> <span>
-                                        <i class="far fa-user"></i>
-                                        wpboss
-                                    </span> <span>
-                                        <i class="far fa-comment-dots"></i>
-                                        Comments (05)
-                                    </span> </div>
-							<h5><a href="blog-details-right-sidebar.html" class="blog-heading">5 Proven Strategies to Boost Brand Awareness</a></h5> <a href="blog-details-right-sidebar.html" class="blog-btn">Read More
-                                    <i class="fas fa-plus"></i>
-                                </a> </div>
-					</div>
+					<?php foreach ($d['blog']['posts'] as $post): ?>
+						<div class="blog__three-single-blog swiper-slide">
+							<div class="blog__three-single-blog-image">
+								<img src="<?= $post['imagem']; ?>" alt="image">
+							</div>
+
+							<div class="blog__three-single-blog-date">
+								<span><?= $post['data']; ?></span>
+							</div>
+
+							<div class="blog__three-single-blog-content">
+								<div class="blog__three-single-blog-content-top">
+									<span>
+										<i class="far fa-user"></i>
+										<?= $post['autor']; ?>
+									</span>
+									<span>
+										<i class="far fa-comment-dots"></i>
+										<?= $post['comentarios']; ?>
+									</span>
+								</div>
+
+								<h5>
+									<a href="<?= $post['link']; ?>" class="blog-heading">
+										<?= $post['titulo']; ?>
+									</a>
+								</h5>
+
+								<a href="<?= $post['link']; ?>" class="blog-btn">
+									Leia Mais
+									<i class="fas fa-plus"></i>
+								</a>
+							</div>
+						</div>
+					<?php endforeach; ?>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Blog Three Area End -->
-	<!-- Footer Three Area Start -->
+
+	<!-- FOOTER -->
 	<div class="footer__three">
 		<div class="container">
 			<div class="footer-wrapper">
+
 				<div class="footer__three-widget">
 					<div class="footer__three-widget-about">
-						<a href="#"><img src="https://html.nextwpcook.com/cosion/assets/img/logo-5.png" alt="image"></a>
-						<p>We delivering innovative solutions that drive sustainable growth and success for you</p>
-						<form action="#">
-							<input type="email" placeholder="Email Address">
-							<button type="submit"> <i class="fas fa-arrow-right"></i> </button>
-						</form>
+						<a href="#">
+							<img src="<?= $d['footer']['logo']; ?>" alt="image">
+						</a>
+						<p><?= $d['footer']['descricao']; ?></p>
 					</div>
 				</div>
+
 				<div class="footer__three-widget">
-					<h5>Quick Link</h5>
+					<h5><?= $d['footer']['links']['titulo']; ?></h5>
 					<div class="footer__three-widget-solution">
 						<ul>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="service.html">Service</a></li>
-							<li><a href="faq.html">FAQ</a></li>
-							<li><a href="blog-standard.html">Blog</a></li>
+							<?php foreach ($d['footer']['links']['items'] as $link): ?>
+								<li><a href="<?= $link['url']; ?>"><?= $link['titulo']; ?></a></li>
+							<?php endforeach; ?>
 						</ul>
 					</div>
 				</div>
+
 				<div class="footer__three-widget">
-					<h5>Services</h5>
+					<h5><?= $d['footer']['servicos']['titulo']; ?></h5>
 					<div class="footer__three-widget-solution">
 						<ul>
-							<li>
-								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Retirement Planning </a>
-							</li>
-							<li>
-								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Digital Marketing </a>
-							</li>
-							<li>
-								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> App Development </a>
-							</li>
-							<li>
-								<a href="service-details.html"> <i class="far fa-chevron-double-right"></i> Investment Advisory </a>
-							</li>
+							<?php foreach ($d['footer']['servicos']['items'] as $servico): ?>
+								<li>
+									<a href="<?= $servico['url']; ?>">
+										<i class="far fa-chevron-double-right"></i>
+										<?= $servico['titulo']; ?>
+									</a>
+								</li>
+							<?php endforeach; ?>
 						</ul>
 					</div>
 				</div>
+
 				<div class="footer__three-widget">
-					<h5>Contact Info</h5>
+					<h5><?= $d['footer']['contato']['titulo']; ?></h5>
 					<div class="footer__three-widget-contact-info">
 						<div class="footer__three-widget-contact-info-item">
-							<div class="footer__three-widget-contact-info-item-txt"> <span>Email</span> <a href="mialto:support@name.com">support@name.com</a> </div>
+							<div class="footer__three-widget-contact-info-item-txt">
+								<span>Email</span>
+								<a href="mailto:<?= $d['footer']['contato']['email']; ?>">
+									<?= $d['footer']['contato']['email']; ?>
+								</a>
+							</div>
 						</div>
 						<div class="footer__three-widget-contact-info-item">
-							<div class="footer__three-widget-contact-info-item-txt"> <span>Phone</span> <a href="tel:(307)%20555-0133">(307) 20555-0133</a> </div>
+							<div class="footer__three-widget-contact-info-item-txt">
+								<span>Telefone</span>
+								<a href="tel:<?= $d['footer']['contato']['telefone']; ?>">
+									<?= $d['footer']['contato']['telefone']; ?>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
+
 		<div class="copyright__one three">
 			<div class="container">
 				<div class="row justify-content-between copyright__one-container-area">
 					<div class="col-xl-5 col-lg-6">
 						<div class="copyright__one-left">
-							<p>© Copyright 2026 - All Rights Reserved By <a href="https://themeforest.net/user/themeori/portfolio" target="_blank">ThemeOri</a></p>
+							<p><?= $d['footer']['copyright']; ?></p>
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-6">
-						<div class="copyright__one-right"> <a href="about.html">Trams & Condition</a> <a href="about.html">Privacy Policy</a> </div>
+						<div class="copyright__one-right">
+							<?php foreach ($d['footer']['politicas'] as $p): ?>
+								<a href="<?= $p['url']; ?>"><?= $p['titulo']; ?></a>
+							<?php endforeach; ?>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Footer Three Area End -->
-	<!-- Scroll Btn Start -->
+
+
 	<div class="scroll-up style-three">
 		<svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" /> </svg>
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+		</svg>
 	</div>
-	<!-- Scroll Btn End -->
-	<!-- Main JS -->
+
+
+
 	<script src="https://html.nextwpcook.com/cosion/assets/js/jquery-3.7.1.min.js"></script>
 	<!-- Bootstrap JS -->
 	<script src="https://html.nextwpcook.com/cosion/assets/js/bootstrap.min.js"></script>
