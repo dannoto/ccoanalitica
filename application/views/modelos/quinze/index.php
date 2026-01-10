@@ -55,7 +55,7 @@
             <!-- TOP BAR -->
             <div class="top-bar">
                 <div class="block-left">
-                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-envelope"></i>
                     <div class="contact-body">
                         <a href="tel:<?= $d['header']['email'] ?>">
                             <?= $d['header']['email'] ?>
