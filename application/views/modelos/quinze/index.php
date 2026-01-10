@@ -59,7 +59,7 @@
                         <?= $d['header']['mensagem_destaque'] ?>
                     </p>
 
-                  
+
                 </div>
 
                 <div class="block-right">
@@ -96,10 +96,53 @@
             <!-- END TOP BAR -->
 
             <!-- NAVBAR -->
+
             <nav class="navbar navbar-expand-xl navbar-sticky" id="primary-menu">
-                <a class="navbar-brand" href="/">
-                    <img class="logo logo-dark" src="<?= $d['header']['logo_dark'] ?>" alt="Logo" />
-                    <img class="logo logo-mobile" src="<?= $d['header']['logo_mobile'] ?>" alt="Logo" />
+               
+                <a href="#">
+
+                    <svg
+                        width="260"
+                        height="48"
+                        viewBox="0 0 260 48"
+                        xmlns="http://www.w3.org/2000/svg"
+                        role="img"
+                        aria-label="Sua Logo Aqui">
+                        <style>
+                            .logo-icon {
+                                fill: <?= $d['schema']['background'] ?>;
+                            }
+
+                            .logo-text {
+                                fill: <?= $d['schema']['background'] ?>;
+                                font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+                                font-weight: 600;
+                                font-size: 22px;
+                                letter-spacing: -0.3px;
+                            }
+                        </style>
+
+                        <!-- ÍCONE -->
+                        <g class="logo-icon" transform="translate(0,4)">
+                            <rect x="0" y="0" rx="8" ry="8" width="40" height="40" />
+                            <path
+                                d="M12 20 L18 26 L28 14"
+                                fill="none"
+                                stroke="white"
+                                stroke-width="3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </g>
+
+                        <!-- TEXTO -->
+                        <text
+                            x="54"
+                            y="31"
+                            class="logo-text">
+                            Sua Logo Aqui
+                        </text>
+                    </svg>
+
                 </a>
 
                 <div class="collapse navbar-collapse" id="navbarContent">
@@ -156,7 +199,7 @@
                                                 <?= $slide['descricao'] ?>
                                             </p>
 
-                                         
+
 
                                         </div>
                                     </div>
@@ -387,7 +430,7 @@
                 </div>
             </div>
         </section>
-       
+
         <section class="team team-modern team-carousel" id="teamCarousel-1">
             <div class="container">
                 <div class="row">
@@ -592,150 +635,149 @@
 
 
 
-     <footer class="footer footer-1">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
+        <footer class="footer footer-1">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
 
-                <!-- Contato rápido -->
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <div class="footer-widget widget-contact">
-                        <div class="footer-widget-title">
-                            <h5><?= $d['footer']['contato']['titulo'] ?></h5>
-                        </div>
-                        <div class="widget-content">
-                            <p><?= $d['footer']['contato']['descricao'] ?></p>
-                            <ul>
-                                <li class="phone">
-                                    <a href="tel:<?= $d['footer']['contato']['telefone_link'] ?>">
-                                        <i class="fas fa-phone-alt"></i>
-                                        <?= $d['footer']['contato']['telefone'] ?>
-                                    </a>
-                                </li>
-                                <li class="address">
-                                    <a href="#">
-                                        <?= $d['footer']['contato']['endereco'] ?>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a class="directions" href="<?= $d['footer']['contato']['link_direcoes'] ?>">
-                                <i class="icon-arrow-right"></i>
-                                <?= $d['footer']['contato']['texto_direcoes'] ?>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Especialidades -->
-                <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="footer-widget widget-links">
-                        <div class="footer-widget-title">
-                            <h5><?= $d['footer']['especialidades']['titulo'] ?></h5>
-                        </div>
-                        <div class="widget-content">
-                            <ul>
-                                <?php foreach ($d['footer']['especialidades']['links'] as $link): ?>
-                                    <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Links institucionais -->
-                <div class="col-sm-6 col-md-3 col-lg-2">
-                    <div class="footer-widget widget-links">
-                        <div class="footer-widget-title">
-                            <h5><?= $d['footer']['institucional']['titulo'] ?></h5>
-                        </div>
-                        <div class="widget-content">
-                            <ul>
-                                <?php foreach ($d['footer']['institucional']['links'] as $link): ?>
-                                    <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Ajuda -->
-                <div class="col-sm-6 col-md-4 col-lg-2">
-                    <div class="footer-widget widget-links">
-                        <div class="footer-widget-title">
-                            <h5><?= $d['footer']['ajuda']['titulo'] ?></h5>
-                        </div>
-                        <div class="widget-content">
-                            <ul>
-                                <?php foreach ($d['footer']['ajuda']['links'] as $link): ?>
-                                    <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Newsletter -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="footer-widget widget-newsletter">
-                        <div class="footer-widget-title">
-                            <h5><?= $d['footer']['newsletter']['titulo'] ?></h5>
-                        </div>
-                        <div class="widget-content">
-                            <form class="form-newsletter mailchimp">
-                                <div class="form-group">
-                                    <input
-                                        class="form-control"
-                                        type="email"
-                                        name="email"
-                                        placeholder="<?= $d['footer']['newsletter']['placeholder'] ?>"
-                                        required
-                                    />
-                                    <div class="submit">
-                                        <input type="submit" value="" />
-                                    </div>
+                        <!-- Contato rápido -->
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="footer-widget widget-contact">
+                                <div class="footer-widget-title">
+                                    <h5><?= $d['footer']['contato']['titulo'] ?></h5>
                                 </div>
-                                <div class="custom-radio-group">
-                                    <div class="custom-control custom-radio custom-control-inline">
-                                        <input class="custom-control-input" type="radio" required />
-                                        <label><?= $d['footer']['newsletter']['termos'] ?></label>
-                                    </div>
+                                <div class="widget-content">
+                                    <p><?= $d['footer']['contato']['descricao'] ?></p>
+                                    <ul>
+                                        <li class="phone">
+                                            <a href="tel:<?= $d['footer']['contato']['telefone_link'] ?>">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <?= $d['footer']['contato']['telefone'] ?>
+                                            </a>
+                                        </li>
+                                        <li class="address">
+                                            <a href="#">
+                                                <?= $d['footer']['contato']['endereco'] ?>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a class="directions" href="<?= $d['footer']['contato']['link_direcoes'] ?>">
+                                        <i class="icon-arrow-right"></i>
+                                        <?= $d['footer']['contato']['texto_direcoes'] ?>
+                                    </a>
                                 </div>
-                                <div class="subscribe-alert"></div>
-                            </form>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-            </div>
-        </div>
-    </div>
-
-    <!-- Rodapé inferior -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-copyright">
-                        <div class="copyright">
-                            <span>
-                                <?= $d['footer']['copyright']['texto'] ?>
-                            </span>
-                            <ul class="list-unstyled social-icons">
-                                <?php foreach ($d['footer']['redes_sociais'] as $rede): ?>
-                                    <li>
-                                        <a class="<?= $rede['classe'] ?>" href="<?= $rede['url'] ?>">
-                                            <i class="<?= $rede['icone'] ?>"></i>
-                                        </a>
-                                    </li>
-                                <?php endforeach; ?>
-                            </ul>
+                        <!-- Especialidades -->
+                        <div class="col-sm-6 col-md-3 col-lg-2">
+                            <div class="footer-widget widget-links">
+                                <div class="footer-widget-title">
+                                    <h5><?= $d['footer']['especialidades']['titulo'] ?></h5>
+                                </div>
+                                <div class="widget-content">
+                                    <ul>
+                                        <?php foreach ($d['footer']['especialidades']['links'] as $link): ?>
+                                            <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Links institucionais -->
+                        <div class="col-sm-6 col-md-3 col-lg-2">
+                            <div class="footer-widget widget-links">
+                                <div class="footer-widget-title">
+                                    <h5><?= $d['footer']['institucional']['titulo'] ?></h5>
+                                </div>
+                                <div class="widget-content">
+                                    <ul>
+                                        <?php foreach ($d['footer']['institucional']['links'] as $link): ?>
+                                            <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ajuda -->
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="footer-widget widget-links">
+                                <div class="footer-widget-title">
+                                    <h5><?= $d['footer']['ajuda']['titulo'] ?></h5>
+                                </div>
+                                <div class="widget-content">
+                                    <ul>
+                                        <?php foreach ($d['footer']['ajuda']['links'] as $link): ?>
+                                            <li><a href="<?= $link['url'] ?>"><?= $link['titulo'] ?></a></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Newsletter -->
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="footer-widget widget-newsletter">
+                                <div class="footer-widget-title">
+                                    <h5><?= $d['footer']['newsletter']['titulo'] ?></h5>
+                                </div>
+                                <div class="widget-content">
+                                    <form class="form-newsletter mailchimp">
+                                        <div class="form-group">
+                                            <input
+                                                class="form-control"
+                                                type="email"
+                                                name="email"
+                                                placeholder="<?= $d['footer']['newsletter']['placeholder'] ?>"
+                                                required />
+                                            <div class="submit">
+                                                <input type="submit" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="custom-radio-group">
+                                            <div class="custom-control custom-radio custom-control-inline">
+                                                <input class="custom-control-input" type="radio" required />
+                                                <label><?= $d['footer']['newsletter']['termos'] ?></label>
+                                            </div>
+                                        </div>
+                                        <div class="subscribe-alert"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</footer>
+
+            <!-- Rodapé inferior -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer-copyright">
+                                <div class="copyright">
+                                    <span>
+                                        <?= $d['footer']['copyright']['texto'] ?>
+                                    </span>
+                                    <ul class="list-unstyled social-icons">
+                                        <?php foreach ($d['footer']['redes_sociais'] as $rede): ?>
+                                            <li>
+                                                <a class="<?= $rede['classe'] ?>" href="<?= $rede['url'] ?>">
+                                                    <i class="<?= $rede['icone'] ?>"></i>
+                                                </a>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <div class="backtop" id="back-to-top" data-hover="">
             <svg class="bi bi-chevron-up" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

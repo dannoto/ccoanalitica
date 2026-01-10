@@ -1,4 +1,19 @@
 {
+    "schema": {
+        "background": "#0F2A2E",
+        "color": "#FFFFFF",
+        "primary-color": "#4FA3A5",
+        "primary-color-rgb": "79,163,165",
+        "secondary-color": "#C8B08A",
+        "secondary-color-rgb": "200,176,138"
+    },
+    "seo": {
+        "title": "Instituto Harmonia — Psicologia e Saúde Emocional",
+        "description": "Clínica de psicologia especializada em terapia individual, casal, família e saúde emocional.",
+        "keywords": "psicologia, terapia, psicólogo, saúde mental, clínica psicológica",
+        "author": "CCO ANALITICA | ccoanalitica.com",
+        "favicon": "images/icon.jpg"
+    },
     "config": {
         "email": "contato@seudominio.com",
         "telefone": "625562982045122",
@@ -10,7 +25,6 @@
         "horario": "Seg–Sex: 8h às 19h",
         "logo_dark": "https://demo.zytheme.com/medisch/assets/images/logo/logo-dark.svg",
         "logo_mobile": "https://demo.zytheme.com/medisch/assets/images/logo/logo-mobile.svg",
-      
         "botao": {
             "titulo": "Agendar Consulta",
             "link": "https://wa.me/5562982045122"
@@ -42,20 +56,17 @@
             "link": "/contato"
         }
     ],
-    
     "slider": {
         "slides": [
             {
                 "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/1.jpg",
                 "titulo": "Cuidado psicológico para todas as fases da vida",
                 "descricao": "Promovemos saúde mental com escuta ativa, acolhimento e técnicas terapêuticas baseadas em evidência científica."
-               
             },
             {
                 "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/2.jpg",
                 "titulo": "Terapia baseada em empatia, ciência e ética",
                 "descricao": "Oferecemos um espaço seguro para o desenvolvimento emocional, autoconhecimento e bem-estar psicológico."
-              
             }
         ]
     },
