@@ -55,10 +55,12 @@
             <!-- TOP BAR -->
             <div class="top-bar">
                 <div class="block-left">
-                    <p class="headline">
-                        <?= $d['header']['mensagem_destaque'] ?>
-                    </p>
-
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-body">
+                        <a href="tel:<?= $d['header']['email'] ?>">
+                            <?= $d['header']['email'] ?>
+                        </a>
+                    </div>
 
                 </div>
 
@@ -98,7 +100,7 @@
             <!-- NAVBAR -->
 
             <nav class="navbar navbar-expand-xl navbar-sticky" id="primary-menu">
-               
+
                 <a href="#">
 
                     <svg
