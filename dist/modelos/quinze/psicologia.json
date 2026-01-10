@@ -10,20 +10,7 @@
         "horario": "Seg–Sex: 8h às 19h",
         "logo_dark": "https://demo.zytheme.com/medisch/assets/images/logo/logo-dark.svg",
         "logo_mobile": "https://demo.zytheme.com/medisch/assets/images/logo/logo-mobile.svg",
-        "links_carrossel": [
-            {
-                "titulo": "Histórias reais de transformação emocional",
-                "link": "#"
-            },
-            {
-                "titulo": "Dicas para saúde mental no dia a dia",
-                "link": "#"
-            },
-            {
-                "titulo": "A importância da terapia contínua",
-                "link": "#"
-            }
-        ],
+      
         "botao": {
             "titulo": "Agendar Consulta",
             "link": "https://wa.me/5562982045122"

@@ -59,19 +59,7 @@
                         <?= $d['header']['mensagem_destaque'] ?>
                     </p>
 
-                    <div class="carousel owl-carousel"
-                        data-slide="1"
-                        data-autoplay="true"
-                        data-loop="true"
-                        data-speed="800">
-
-                        <?php foreach ($d['header']['links_carrossel'] as $item): ?>
-                            <a href="<?= $item['link'] ?>">
-                                <?= $item['titulo'] ?>
-                            </a>
-                        <?php endforeach; ?>
-
-                    </div>
+                  
                 </div>
 
                 <div class="block-right">
