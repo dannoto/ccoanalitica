@@ -274,487 +274,497 @@
         </div>
     </div>
     
-    <!-- Sobre -->
-    <div class="about2 sp3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="about2-images">
-                        <div class="about2-img1 aniamtion-key-1">
-                            <img src="{{ $d['sobre']['shape'] }}" alt="">
-                        </div>
-                        <div class="about2-img2 border-70" data-aos="zoom-out" data-aos-duration="800">
-                            <img src="{{ $d['sobre']['imagem_principal'] }}" alt="">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <div class="hadding2 about2-hadding">
-                        <span class="span">{{ $d['sobre']['subtitulo'] }}</span>
-                        <div class="space16"></div>
-                        <h1>{!! $d['sobre']['titulo'] !!}</h1>
-                        <div class="space24"></div>
-                        <p>{{ $d['sobre']['descricao1'] }}</p>
-                        <div class="space20"></div>
-                        <p>{{ $d['sobre']['descricao2'] }}</p>
-                        <div class="space40"></div>
-                        <a href="{{ $d['sobre']['botao']['link'] }}" class="button-h-2 btnfos2">
-                            {{ $d['sobre']['botao']['titulo'] }}
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Serviços -->
-    <div class="service2 sp3" style="background-color: #254969;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center">
-                    <div class="hadding2-w">
-                        <span class="span">{{ $d['servicos']['subtitulo'] }}</span>
-                        <div class="space16"></div>
-                        <h1>{!! $d['servicos']['titulo'] !!}</h1>
-                        <div class="space24"></div>
-                        <p>{{ $d['servicos']['descricao'] }}</p>
+ <!-- Sobre -->
+<div class="about2 sp3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about2-images">
+                    <div class="about2-img1 aniamtion-key-1">
+                        <img src="<?php echo $d['sobre']['shape']; ?>" alt="">
+                    </div>
+                    <div class="about2-img2 border-70" data-aos="zoom-out" data-aos-duration="800">
+                        <img src="<?php echo $d['sobre']['imagem_principal']; ?>" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="space30"></div>
-
-            <div class="row">
-                @foreach($d['servicos']['items'] as $item)
-                <div class="col-lg-6">
-                    <div data-aos="fade-up" data-aos-duration="{{ $item['aos'] }}">
-                        <div class="service2-box">
-                            <div class="serivce2-icon">
-                                <img src="{{ $item['icone'] }}" alt="">
-                            </div>
-                            <div class="space24"></div>
-                            <div class="service2-hadding hadding2-w">
-                                <h4><a href="{{ $item['link'] }}">{{ $item['titulo'] }}</a></h4>
-                                <div class="space14"></div>
-                                <p>{{ $item['descricao'] }}</p>
-                                <div class="space24"></div>
-                                <a class="read-more-btn-w" href="{{ $item['link'] }}">
-                                    {{ $item['botao'] }} <span><i class="fa-solid fa-arrow-right"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-
-            <div class="space40"></div>
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="{{ $d['servicos']['botao']['link'] }}" class="button-h-2 btnfos2">
-                        {{ $d['servicos']['botao']['titulo'] }}
+            <div class="col-lg-6">
+                <div class="hadding2 about2-hadding">
+                    <span class="span"><?php echo $d['sobre']['subtitulo']; ?></span>
+                    <div class="space16"></div>
+                    <h1><?php echo $d['sobre']['titulo']; ?></h1>
+                    <div class="space24"></div>
+                    <p><?php echo $d['sobre']['descricao1']; ?></p>
+                    <div class="space20"></div>
+                    <p><?php echo $d['sobre']['descricao2']; ?></p>
+                    <div class="space40"></div>
+                    <a href="<?php echo $d['sobre']['botao']['link']; ?>" class="button-h-2 btnfos2">
+                        <?php echo $d['sobre']['botao']['titulo']; ?>
                     </a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Por que escolher -->
-    <div class="choose2 sp3">
-        <div class="container">
-            <div class="row align-items-center">
+<!-- Serviços -->
+<div class="service2 sp3" style="background-color: #254969;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 m-auto text-center">
+                <div class="hadding2-w">
+                    <span class="span"><?php echo $d['servicos']['subtitulo']; ?></span>
+                    <div class="space16"></div>
+                    <h1><?php echo $d['servicos']['titulo']; ?></h1>
+                    <div class="space24"></div>
+                    <p><?php echo $d['servicos']['descricao']; ?></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="space30"></div>
+
+        <div class="row">
+            <?php foreach($d['servicos']['items'] as $item): ?>
                 <div class="col-lg-6">
-                    <div class="hadding2">
-                        <span class="span">{{ $d['porque_escolher']['subtitulo'] }}</span>
-                        <div class="space16"></div>
-                        <h1>{!! $d['porque_escolher']['titulo'] !!}</h1>
-                        <div class="space24"></div>
-                        <p>{{ $d['porque_escolher']['descricao1'] }}</p>
-                        <div class="space20"></div>
-                        <p>{{ $d['porque_escolher']['descricao2'] }}</p>
-
-                        <div class="counter-boxs">
-                            @foreach($d['porque_escolher']['contadores'] as $contador)
-                            <div class="counter2-box">
-                                <h2><span class="counter">{{ $contador['numero'] }}</span></h2>
-                                <p>{!! $contador['titulo'] !!}</p>
+                    <div data-aos="fade-up" data-aos-duration="<?php echo $item['aos']; ?>">
+                        <div class="service2-box">
+                            <div class="serivce2-icon">
+                                <img src="<?php echo $item['icone']; ?>" alt="">
                             </div>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 text-right">
-                    <div class="choose2-images">
-                        <div class="choose2-img1 aniamtion-key-1">
-                            <img src="{{ $d['porque_escolher']['shape'] }}" alt="">
-                        </div>
-                        <div class="choose2-img2 border-70" data-aos="zoom-out" data-aos-duration="800">
-                            <img src="{{ $d['porque_escolher']['imagem'] }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- CTA -->
-    <div class="cta2" style="background-image: url({{ $d['cta']['background'] }}); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 70px 0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="hadding2-w">
-                        <h1 data-aos="fade-up" data-aos-duration="700">{!! $d['cta']['titulo'] !!}</h1>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-right">
-                    <div class="header2-buttons header2-buttons2">
-                        <div class="button2-all" data-aos-duration="800" data-aos="fade-up">
-                            <a href="{{ $d['cta']['botao_principal']['link'] }}" class="button-h-2 btnfos2">
-                                {{ $d['cta']['botao_principal']['titulo'] }}
-                            </a>
-                        </div>
-                        <div class="button2-all2" data-aos-duration="800" data-aos="fade-down">
-                            <a href="{{ $d['cta']['botao_secundario']['link'] }}" class="button-h2-2 btnfos4">
-                                {{ $d['cta']['botao_secundario']['titulo'] }}
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Projetos -->
-    <div class="projects sp3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="hadding2">
-                        <span class="span" data-aos-duration="700" data-aos="fade-up">{{ $d['projetos']['subtitulo'] }}</span>
-                        <div class="space16"></div>
-                        <h1 data-aos-duration="900" data-aos="fade-up">{!! $d['projetos']['titulo'] !!}</h1>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-right">
-                    <div class="project-button" data-aos-duration="800" data-aos="fade-up">
-                        <a href="{{ $d['projetos']['botao']['link'] }}" class="button-h-2 btnfos2">
-                            {{ $d['projetos']['botao']['titulo'] }}
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="space30"></div>
-
-            <div class="row">
-                @foreach($d['projetos']['items'] as $item)
-                <div class="col-lg-6">
-                    <div class="project-all-box" data-aos-duration="{{ $item['aos'] }}" data-aos="fade-up">
-                        <div class="project-img img100">
-                            <img src="{{ $item['imagem'] }}" alt="">
-                        </div>
-                        <div class="project-box">
-                            <div class="project-hadding hadding2-w">
-                                <h4><a href="{{ $item['link'] }}">{{ $item['titulo'] }}</a></h4>
+                            <div class="space24"></div>
+                            <div class="service2-hadding hadding2-w">
+                                <h4>
+                                    <a href="<?php echo $item['link']; ?>"><?php echo $item['titulo']; ?></a>
+                                </h4>
                                 <div class="space14"></div>
-                                <p>{{ $item['descricao'] }}</p>
+                                <p><?php echo $item['descricao']; ?></p>
                                 <div class="space24"></div>
-                                <a class="read-more-btn-w" href="{{ $item['link'] }}">
-                                    {{ $item['botao'] }} <span><i class="fa-solid fa-arrow-right"></i></span>
+                                <a class="read-more-btn-w" href="<?php echo $item['link']; ?>">
+                                    <?php echo $item['botao']; ?> 
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                @endforeach
+            <?php endforeach; ?>
+        </div>
+
+        <div class="space40"></div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="<?php echo $d['servicos']['botao']['link']; ?>" class="button-h-2 btnfos2">
+                    <?php echo $d['servicos']['botao']['titulo']; ?>
+                </a>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Depoimentos -->
-    <div class="testimonial2 sp3" style="background-color: #03163B;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 m-auto text-center">
-                    <div class="hadding2-w">
-                        <span class="span" data-aos-duration="700" data-aos="fade-up">{{ $d['depoimentos']['subtitulo'] }}</span>
-                        <div class="space16"></div>
-                        <h1 data-aos-duration="900" data-aos="fade-up">{!! $d['depoimentos']['titulo'] !!}</h1>
+<!-- Por que escolher -->
+<div class="choose2 sp3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hadding2">
+                    <span class="span"><?php echo $d['porque_escolher']['subtitulo']; ?></span>
+                    <div class="space16"></div>
+                    <h1><?php echo $d['porque_escolher']['titulo']; ?></h1>
+                    <div class="space24"></div>
+                    <p><?php echo $d['porque_escolher']['descricao1']; ?></p>
+                    <div class="space20"></div>
+                    <p><?php echo $d['porque_escolher']['descricao2']; ?></p>
+
+                    <div class="counter-boxs">
+                        <?php foreach($d['porque_escolher']['contadores'] as $contador): ?>
+                            <div class="counter2-box">
+                                <h2><span class="counter"><?php echo $contador['numero']; ?></span></h2>
+                                <p><?php echo $contador['titulo']; ?></p>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
 
-            <div class="space30"></div>
+            <div class="col-lg-6 text-right">
+                <div class="choose2-images">
+                    <div class="choose2-img1 aniamtion-key-1">
+                        <img src="<?php echo $d['porque_escolher']['shape']; ?>" alt="">
+                    </div>
+                    <div class="choose2-img2 border-70" data-aos="zoom-out" data-aos-duration="800">
+                        <img src="<?php echo $d['porque_escolher']['imagem']; ?>" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-            <div class="row" data-aos-duration="1000" data-aos="fade-up">
-                <div class="testimonial2-slider-all owl-carousel">
-                    @foreach($d['depoimentos']['items'] as $item)
+<!-- CTA -->
+<div class="cta2" style="background-image: url(<?php echo $d['cta']['background']; ?>); background-position: center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; padding: 70px 0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hadding2-w">
+                    <h1 data-aos="fade-up" data-aos-duration="700"><?php echo $d['cta']['titulo']; ?></h1>
+                </div>
+            </div>
+            <div class="col-lg-6 text-right">
+                <div class="header2-buttons header2-buttons2">
+                    <div class="button2-all" data-aos-duration="800" data-aos="fade-up">
+                        <a href="<?php echo $d['cta']['botao_principal']['link']; ?>" class="button-h-2 btnfos2">
+                            <?php echo $d['cta']['botao_principal']['titulo']; ?>
+                        </a>
+                    </div>
+                    <div class="button2-all2" data-aos-duration="800" data-aos="fade-down">
+                        <a href="<?php echo $d['cta']['botao_secundario']['link']; ?>" class="button-h2-2 btnfos4">
+                            <?php echo $d['cta']['botao_secundario']['titulo']; ?>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+   <!-- Projetos -->
+<div class="projects sp3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hadding2">
+                    <span class="span" data-aos-duration="700" data-aos="fade-up"><?php echo $d['projetos']['subtitulo']; ?></span>
+                    <div class="space16"></div>
+                    <h1 data-aos-duration="900" data-aos="fade-up"><?php echo $d['projetos']['titulo']; ?></h1>
+                </div>
+            </div>
+            <div class="col-lg-6 text-right">
+                <div class="project-button" data-aos-duration="800" data-aos="fade-up">
+                    <a href="<?php echo $d['projetos']['botao']['link']; ?>" class="button-h-2 btnfos2">
+                        <?php echo $d['projetos']['botao']['titulo']; ?>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="space30"></div>
+
+        <div class="row">
+            <?php foreach($d['projetos']['items'] as $item): ?>
+                <div class="col-lg-6">
+                    <div class="project-all-box" data-aos-duration="<?php echo $item['aos']; ?>" data-aos="fade-up">
+                        <div class="project-img img100">
+                            <img src="<?php echo $item['imagem']; ?>" alt="">
+                        </div>
+                        <div class="project-box">
+                            <div class="project-hadding hadding2-w">
+                                <h4><a href="<?php echo $item['link']; ?>"><?php echo $item['titulo']; ?></a></h4>
+                                <div class="space14"></div>
+                                <p><?php echo $item['descricao']; ?></p>
+                                <div class="space24"></div>
+                                <a class="read-more-btn-w" href="<?php echo $item['link']; ?>">
+                                    <?php echo $item['botao']; ?> 
+                                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+
+<!-- Depoimentos -->
+<div class="testimonial2 sp3" style="background-color: #03163B;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 m-auto text-center">
+                <div class="hadding2-w">
+                    <span class="span" data-aos-duration="700" data-aos="fade-up"><?php echo $d['depoimentos']['subtitulo']; ?></span>
+                    <div class="space16"></div>
+                    <h1 data-aos-duration="900" data-aos="fade-up"><?php echo $d['depoimentos']['titulo']; ?></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="space30"></div>
+
+        <div class="row" data-aos-duration="1000" data-aos="fade-up">
+            <div class="testimonial2-slider-all owl-carousel">
+                <?php foreach($d['depoimentos']['items'] as $item): ?>
                     <div class="testimonial-sliders">
                         <div class="testimonial-single-slider testimonial-single-slider2">
                             <div class="testimonial2-slider-img">
-                                <img src="{{ $item['imagem'] }}" alt="">
+                                <img src="<?php echo $item['imagem']; ?>" alt="">
                             </div>
 
                             <div class="testimonial1-hadding testimonial2-hadding">
                                 <div class="testimonial-stars">
                                     <ul>
-                                        @for($i = 0; $i < $item['estrelas']; $i++)
+                                        <?php for($i = 0; $i < $item['estrelas']; $i++): ?>
                                             <li><i class="fa-solid fa-star"></i></li>
-                                            @endfor
+                                        <?php endfor; ?>
                                     </ul>
                                 </div>
-                                <p style="font-style: italic;">“{{ $item['texto'] }}”</p>
+                                <p style="font-style: italic;">“<?php echo $item['texto']; ?>”</p>
                                 <div class="space20"></div>
                                 <div class="slider1-bottom">
-                                    <h4><a href="#">{{ $item['nome'] }}</a></h4>
+                                    <h4><a href="#"><?php echo $item['nome']; ?></a></h4>
                                     <div class="space6"></div>
-                                    <p>{{ $item['cargo'] }}</p>
+                                    <p><?php echo $item['cargo']; ?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    @endforeach
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Contato -->
-    <div class="contact2 sp3" style="background-color: #254969;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="hadding2-w">
-                        <div class="space10"></div>
-                        <h1 data-aos="fade-right" data-aos-duration="700">
-                            {{ $d['contato']['titulo'] }} <span class="after2">{{ $d['contato']['titulo_destaque'] }}</span>
-                        </h1>
-                        <div class="space24"></div>
-                        <p data-aos="fade-right" data-aos-duration="900">{{ $d['contato']['descricao'] }}</p>
-                    </div>
-
+<!-- Contato -->
+<div class="contact2 sp3" style="background-color: #254969;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="hadding2-w">
                     <div class="space10"></div>
+                    <h1 data-aos="fade-right" data-aos-duration="700">
+                        <?php echo $d['contato']['titulo']; ?> 
+                        <span class="after2"><?php echo $d['contato']['titulo_destaque']; ?></span>
+                    </h1>
+                    <div class="space24"></div>
+                    <p data-aos="fade-right" data-aos-duration="900"><?php echo $d['contato']['descricao']; ?></p>
+                </div>
 
-                    <div class="contact2-contacts">
-                        @foreach($d['contato']['informacoes'] as $info)
-                        <div class="contact2-single" data-aos="fade-right" data-aos-duration="{{ $info['aos_duration'] }}">
+                <div class="space10"></div>
+
+                <div class="contact2-contacts">
+                    <?php foreach($d['contato']['informacoes'] as $info): ?>
+                        <div class="contact2-single" data-aos="fade-right" data-aos-duration="<?php echo $info['aos_duration']; ?>">
                             <div class="contact2-icon">
-                                <img src="{{ $info['icone'] }}" alt="">
+                                <img src="<?php echo $info['icone']; ?>" alt="">
                             </div>
                             <div class="contact2-icon-hadding">
-                                <a href="{{ $info['link'] }}">{!! $info['texto'] !!}</a>
+                                <a href="<?php echo $info['link']; ?>"><?php echo $info['texto']; ?></a>
                             </div>
                         </div>
                         <div class="space10"></div>
-                        @endforeach
-                    </div>
-
-                    <div class="space30"></div>
-
-                    <div class="hadding2-w" data-aos="fade-right" data-aos-duration="800">
-                        @foreach($d['contato']['observacoes'] as $obs)
-                        <p>{{ $obs }}</p>
-                        @endforeach
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="contact2-form-box-all" data-aos="zoom-in-up" data-aos-duration="800">
-                        <div class="contact-form">
-                            <form action="{{ $d['contato']['form']['action'] }}">
-                                <div class="hadding2">
-                                    <h1>{{ $d['contato']['form']['titulo'] }}</h1>
-                                </div>
-
-                                <div class="sapce24"></div>
-
-                                <div class="contact-inputs">
-                                    <div class="contact-input">
-                                        <div class="contact-input-signle">
-                                            <input type="text" placeholder="{{ $d['contato']['form']['campos']['nome'] }}">
-                                            <input type="text" placeholder="{{ $d['contato']['form']['campos']['sobrenome'] }}">
-                                        </div>
-
-                                        <div class="contact-input-signle contact-input-signle1">
-                                            <input type="text" placeholder="{{ $d['contato']['form']['campos']['email'] }}">
-                                        </div>
-
-                                        <div class="contact-input-signle contact-input-signle1">
-                                            <select class="wide">
-                                                @foreach($d['contato']['form']['campos']['assunto'] as $opcao)
-                                                <option value="">{{ $opcao }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-
-                                        <div class="contact-input-signle">
-                                            <textarea cols="30" rows="3" placeholder="{{ $d['contato']['form']['campos']['mensagem'] }}"></textarea>
-                                        </div>
-
-                                        <div class="space30"></div>
-
-                                        <button class="button2">
-                                            {{ $d['contato']['form']['botao'] }}
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="footer-area footer-area2 padding-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-footer mr50">
-                        <a href="{{ $d['footer']['logo_link'] }}" class="footer-logo">
-                            <img src="{{ $d['footer']['logo'] }}" alt="" />
-                        </a>
-                        <div class="space20"></div>
-                        <p>{{ $d['footer']['descricao'] }}</p>
-                    </div>
-                </div>
-
-                <div class="col-lg col-sm-6">
-                    <div class="single-footer">
-                        <h3>{{ $d['footer']['menus']['empresa']['titulo'] }}</h3>
-                        <div class="footer-menu">
-                            <ul>
-                                @foreach($d['footer']['menus']['empresa']['links'] as $item)
-                                <li><a href="{{ $item['link'] }}">{{ $item['titulo'] }}</a></li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg col-sm-6">
-                    <div class="single-footer">
-                        <h3>{{ $d['footer']['menus']['util']['titulo'] }}</h3>
-                        <div class="footer-menu">
-                            <ul>
-                                @foreach($d['footer']['menus']['util']['links'] as $item)
-                                <li><a href="{{ $item['link'] }}">{{ $item['titulo'] }}</a></li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single-footer">
-                        <h3>{{ $d['footer']['newsletter']['titulo'] }}</h3>
-                        <div class="footer-subscribe-area">
-                            <div class="hadding1">
-                                <p>{{ $d['footer']['newsletter']['descricao'] }}</p>
-                            </div>
-                            <div class="space24"></div>
-                            <div class="footer-contact-input">
-                                <div class="input-footer2">
-                                    <input type="email" placeholder="{{ $d['footer']['newsletter']['placeholder'] }}">
-                                </div>
-                                <div class="button-footer">
-                                    <button class="button2">{{ $d['footer']['newsletter']['botao'] }}</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row align-items-center copyright2">
-                <div class="col-lg-6">
-                    <p class="copyright-p">{{ $d['footer']['copyright'] }}</p>
-                    <ul class="Conditions2">
-                        <li><a href="{{ $d['footer']['termos']['link'] }}">{{ $d['footer']['termos']['titulo'] }}</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-6 text-right">
-                    <div class="social social2">
-                        <ul>
-                            @foreach($d['footer']['social'] as $social)
-                            <li>
-                                <a data-bs-toggle="tooltip" title="{{ $social['titulo'] }}" href="{{ $social['link'] }}">
-                                    <i class="{{ $social['icone'] }}"></i>
-                                </a>
-                            </li>
-                            @endforeach
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Demo Sidebar (opcional - pode remover se não for usar) -->
-    <div class="demo-sidebar" id="demo-sidebar">
-        <div class="demo-sidebar-wrap">
-            <div class="demo-sidebar-menu">
-                <span data-bs-toggle="tooltip" title="Ver Demos" class="demosIcon" id="demosIcon">
-                    <i class="fa-solid fa-gear"></i>
-                </span>
-                <span data-bs-toggle="tooltip" title="Comprar Tema">
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                </span>
-            </div>
-
-            <div class="demo-sidebar-content">
-                <div class="heading2">
-                    <h2>{{ $d['demo_sidebar']['titulo'] }}</h2>
-                </div>
-                <div class="space20"></div>
-
-                <div class="demo-sidebar-items">
-                    @foreach($d['demo_sidebar']['homes'] as $home)
-                    <div class="single-demo-sidebar-item">
-                        <div class="demo-sidebar-item-img">
-                            <img src="{{ $home['imagem'] }}" alt="" />
-                            <div class="demo-sidebar-buttons">
-                                @foreach($home['botoes'] as $botao)
-                                <a href="{{ $botao['link'] }}">{{ $botao['titulo'] }}</a>
-                                @endforeach
-                            </div>
-                        </div>
-                        <div class="demo-item-content">
-                            <a href="{{ $home['link'] }}">{{ $home['titulo'] }}</a>
-                        </div>
-                    </div>
-                    @endforeach
+                    <?php endforeach; ?>
                 </div>
 
                 <div class="space30"></div>
 
-                <div class="heading2">
-                    <h2>{{ $d['demo_sidebar']['inner_titulo'] }}</h2>
+                <div class="hadding2-w" data-aos="fade-right" data-aos-duration="800">
+                    <?php foreach($d['contato']['observacoes'] as $obs): ?>
+                        <p><?php echo $obs; ?></p>
+                    <?php endforeach; ?>
                 </div>
+            </div>
 
-                <div class="demo-sidebar-items inner-dmeos">
-                    @foreach($d['demo_sidebar']['inner_pages'] as $page)
-                    <div class="single-demo-sidebar-item">
-                        <div class="demo-sidebar-item-img">
-                            <img src="{{ $page['imagem'] }}" alt="" />
-                            <div class="demo-sidebar-buttons">
-                                <a href="{{ $page['link'] }}">{{ $page['botao'] }}</a>
+            <div class="col-lg-6">
+                <div class="contact2-form-box-all" data-aos="zoom-in-up" data-aos-duration="800">
+                    <div class="contact-form">
+                        <form action="<?php echo $d['contato']['form']['action']; ?>">
+                            <div class="hadding2">
+                                <h1><?php echo $d['contato']['form']['titulo']; ?></h1>
                             </div>
-                        </div>
-                        <div class="demo-item-content">
-                            <a href="{{ $page['link'] }}">{{ $page['titulo'] }}</a>
-                        </div>
+
+                            <div class="sapce24"></div>
+
+                            <div class="contact-inputs">
+                                <div class="contact-input">
+                                    <div class="contact-input-signle">
+                                        <input type="text" placeholder="<?php echo $d['contato']['form']['campos']['nome']; ?>">
+                                        <input type="text" placeholder="<?php echo $d['contato']['form']['campos']['sobrenome']; ?>">
+                                    </div>
+
+                                    <div class="contact-input-signle contact-input-signle1">
+                                        <input type="text" placeholder="<?php echo $d['contato']['form']['campos']['email']; ?>">
+                                    </div>
+
+                                    <div class="contact-input-signle contact-input-signle1">
+                                        <select class="wide">
+                                            <?php foreach($d['contato']['form']['campos']['assunto'] as $opcao): ?>
+                                                <option value=""><?php echo $opcao; ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+
+                                    <div class="contact-input-signle">
+                                        <textarea cols="30" rows="3" placeholder="<?php echo $d['contato']['form']['campos']['mensagem']; ?>"></textarea>
+                                    </div>
+
+                                    <div class="space30"></div>
+
+                                    <button class="button2">
+                                        <?php echo $d['contato']['form']['botao']; ?>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    @endforeach
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer-area footer-area2 padding-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-footer mr50">
+                    <a href="<?php echo $d['footer']['logo_link']; ?>" class="footer-logo">
+                        <img src="<?php echo $d['footer']['logo']; ?>" alt="" />
+                    </a>
+                    <div class="space20"></div>
+                    <p><?php echo $d['footer']['descricao']; ?></p>
+                </div>
+            </div>
+
+            <div class="col-lg col-sm-6">
+                <div class="single-footer">
+                    <h3><?php echo $d['footer']['menus']['empresa']['titulo']; ?></h3>
+                    <div class="footer-menu">
+                        <ul>
+                            <?php foreach($d['footer']['menus']['empresa']['links'] as $item): ?>
+                                <li><a href="<?php echo $item['link']; ?>"><?php echo $item['titulo']; ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg col-sm-6">
+                <div class="single-footer">
+                    <h3><?php echo $d['footer']['menus']['util']['titulo']; ?></h3>
+                    <div class="footer-menu">
+                        <ul>
+                            <?php foreach($d['footer']['menus']['util']['links'] as $item): ?>
+                                <li><a href="<?php echo $item['link']; ?>"><?php echo $item['titulo']; ?></a></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-footer">
+                    <h3><?php echo $d['footer']['newsletter']['titulo']; ?></h3>
+                    <div class="footer-subscribe-area">
+                        <div class="hadding1">
+                            <p><?php echo $d['footer']['newsletter']['descricao']; ?></p>
+                        </div>
+                        <div class="space24"></div>
+                        <div class="footer-contact-input">
+                            <div class="input-footer2">
+                                <input type="email" placeholder="<?php echo $d['footer']['newsletter']['placeholder']; ?>">
+                            </div>
+                            <div class="button-footer">
+                                <button class="button2"><?php echo $d['footer']['newsletter']['botao']; ?></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center copyright2">
+            <div class="col-lg-6">
+                <p class="copyright-p"><?php echo $d['footer']['copyright']; ?></p>
+                <ul class="Conditions2">
+                    <li><a href="<?php echo $d['footer']['termos']['link']; ?>"><?php echo $d['footer']['termos']['titulo']; ?></a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 text-right">
+                <div class="social social2">
+                    <ul>
+                        <?php foreach($d['footer']['social'] as $social): ?>
+                            <li>
+                                <a data-bs-toggle="tooltip" title="<?php echo $social['titulo']; ?>" href="<?php echo $social['link']; ?>">
+                                    <i class="<?php echo $social['icone']; ?>"></i>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Demo Sidebar (opcional - pode remover se não for usar) -->
+<!-- Demo Sidebar -->
+<div class="demo-sidebar" id="demo-sidebar">
+    <div class="demo-sidebar-wrap">
+        <div class="demo-sidebar-menu">
+            <span data-bs-toggle="tooltip" title="Ver Demos" class="demosIcon" id="demosIcon">
+                <i class="fa-solid fa-gear"></i>
+            </span>
+            <span data-bs-toggle="tooltip" title="Comprar Tema">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </span>
+        </div>
+
+        <div class="demo-sidebar-content">
+            <div class="heading2">
+                <h2><?php echo $d['demo_sidebar']['titulo']; ?></h2>
+            </div>
+            <div class="space20"></div>
+
+            <div class="demo-sidebar-items">
+                <?php foreach($d['demo_sidebar']['homes'] as $home): ?>
+                    <div class="single-demo-sidebar-item">
+                        <div class="demo-sidebar-item-img">
+                            <img src="<?php echo $home['imagem']; ?>" alt="" />
+                            <div class="demo-sidebar-buttons">
+                                <?php foreach($home['botoes'] as $botao): ?>
+                                    <a href="<?php echo $botao['link']; ?>"><?php echo $botao['titulo']; ?></a>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                        <div class="demo-item-content">
+                            <a href="<?php echo $home['link']; ?>"><?php echo $home['titulo']; ?></a>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <div class="space30"></div>
+
+            <div class="heading2">
+                <h2><?php echo $d['demo_sidebar']['inner_titulo']; ?></h2>
+            </div>
+
+            <div class="demo-sidebar-items inner-dmeos">
+                <?php foreach($d['demo_sidebar']['inner_pages'] as $page): ?>
+                    <div class="single-demo-sidebar-item">
+                        <div class="demo-sidebar-item-img">
+                            <img src="<?php echo $page['imagem']; ?>" alt="" />
+                            <div class="demo-sidebar-buttons">
+                                <a href="<?php echo $page['link']; ?>"><?php echo $page['botao']; ?></a>
+                            </div>
+                        </div>
+                        <div class="demo-item-content">
+                            <a href="<?php echo $page['link']; ?>"><?php echo $page['titulo']; ?></a>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- Scripts -->
     <script src="https://unifato.com/advisr/assets/js/bootstrap.min.js"></script>
