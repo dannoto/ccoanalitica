@@ -57,7 +57,7 @@
                 <div class="block-left">
                     <i class="fas fa-envelope"></i>
                     <div class="contact-body">
-                        <a href="tel:<?= $d['header']['email'] ?>">
+                        <a href="mailto:<?= $d['header']['email'] ?>">
                             <?= $d['header']['email'] ?>
                         </a>
                     </div>
@@ -160,10 +160,16 @@
 
                     </ul>
 
-                    <div class="module-contact">
+                    <!-- <div class="module-contact">
                         <a class="btn btn--primary btn-line btn-line-after"
                             href="<?= $d['header']['botao']['link'] ?>">
                             <span><?= $d['header']['botao']['titulo'] ?></span>
+                        </a>
+                    </div> -->
+                    <div class="module-contact">
+                        <a class="btn btn--secondary" href="doctors-timetable.html">doctors' timetable</a>
+                        <a class="btn btn--primary btn-line btn-line-after" href="<?= $d['header']['botao']['link'] ?>">
+                            <span><?= $d['header']['botao']['titulo'] ?></span><span class="line"> <span></span></span>
                         </a>
                     </div>
                 </div>
