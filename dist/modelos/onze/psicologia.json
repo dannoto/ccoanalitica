@@ -1,264 +1,74 @@
 {
-    
-    "aside": {
-        "logo": {
-            "link": "index.html",
-            "imagem": "dist/imagens/aside/psicologia/aside-logo-1.png",
-            "alt": "Logo Clínica de Psicologia"
-        },
-        "menu": [
-            {
-                "titulo": "Início",
-                "submenu": [
-                    {
-                        "titulo": "Psicologia Clínica",
-                        "link": "index.html"
-                    },
-                    {
-                        "titulo": "Terapia Online",
-                        "link": "index-2.html"
-                    },
-                    {
-                        "titulo": "Psicologia Corporativa",
-                        "link": "index-3.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Institucional",
-                "submenu": [
-                    {
-                        "titulo": "Sobre a Clínica",
-                        "link": "about.html"
-                    },
-                    {
-                        "titulo": "Sobre a Psicóloga",
-                        "link": "about-2.html"
-                    },
-                    {
-                        "titulo": "Eventos e Palestras",
-                        "link": "events.html"
-                    },
-                    {
-                        "titulo": "Conteúdos em Vídeo",
-                        "link": "videos.html"
-                    },
-                    {
-                        "titulo": "Serviços",
-                        "link": "services.html"
-                    },
-                    {
-                        "titulo": "Equipe",
-                        "submenu": [
-                            {
-                                "titulo": "Nossa Equipe",
-                                "link": "team.html"
-                            },
-                            {
-                                "titulo": "Detalhes do Profissional",
-                                "link": "team-details.html"
-                            }
-                        ]
-                    },
-                    {
-                        "titulo": "Planos e Valores",
-                        "link": "pricing.html"
-                    },
-                    {
-                        "titulo": "Depoimentos",
-                        "link": "testimonials.html"
-                    },
-                    {
-                        "titulo": "Perguntas Frequentes",
-                        "link": "faqs.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Cursos",
-                "submenu": [
-                    {
-                        "titulo": "Cursos e Workshops",
-                        "link": "courses.html"
-                    },
-                    {
-                        "titulo": "Detalhes do Curso",
-                        "link": "course-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Blog",
-                "submenu": [
-                    {
-                        "titulo": "Blog em Grade",
-                        "link": "blog-grid.html"
-                    },
-                    {
-                        "titulo": "Blog em Lista",
-                        "link": "blog-list.html"
-                    },
-                    {
-                        "titulo": "Blog em Mosaico",
-                        "link": "blog-masonry.html"
-                    },
-                    {
-                        "titulo": "Artigo Completo",
-                        "link": "blog-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Conteúdos Terapêuticos",
-                "submenu": [
-                    {
-                        "titulo": "Galeria",
-                        "link": "portfolio-gallery.html"
-                    },
-                    {
-                        "titulo": "Casos e Abordagens",
-                        "link": "portfolio-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Contato",
-                "link": "contact.html",
-                "email": "contato@seudominio.com",
-                "telefone": "(62) 5562982045122"
-            }
-        ]
-    },
     "header": {
-        "topbar": {
-            "mensagem": "Agendamentos abertos para novos atendimentos psicológicos",
-            "countdown": "2026/12/31",
-            "telefone": {
-                "numero": "(62) 5562982045122",
-                "link": "tel:625562982045122"
-            },
-            "email": {
-                "endereco": "contato@seudominio.com",
-                "link": "mailto:contato@seudominio.com"
-            }
-        },
         "logo": {
-            "link": "index.html",
-            "imagem": "dist/imagens/header/psicologia/header-logo-1.png",
-            "alt": "Clínica de Psicologia"
+            "imagem": "https://unifato.com/advisr/assets/img/logo/header2-logo.svg",
+            "alt": "Clínica de Psicologia - Saúde Mental e Bem-estar",
+            "link": "/"
         },
         "menu": [
             {
                 "titulo": "Início",
+                "link": "#",
                 "submenu": [
                     {
-                        "titulo": "Psicologia Clínica",
-                        "link": "index.html"
-                    },
-                    {
-                        "titulo": "Terapia Online",
-                        "link": "index-2.html"
-                    },
-                    {
-                        "titulo": "Psicologia Corporativa",
-                        "link": "index-3.html"
+                        "titulo": "Páginas Principais",
+                        "link": "#",
+                        "submenu": [
+                            {
+                                "titulo": "Home Terapia Individual",
+                                "link": "index.html"
+                            },
+                            {
+                                "titulo": "Home Terapia de Casal",
+                                "link": "index2.html"
+                            },
+                            {
+                                "titulo": "Home Psicologia Clínica",
+                                "link": "index3.html"
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "titulo": "Institucional",
+                "titulo": "Sobre Nós",
+                "link": "about.html"
+            },
+            {
+                "titulo": "Serviços",
+                "link": "#",
                 "submenu": [
                     {
-                        "titulo": "Sobre a Clínica",
-                        "link": "about.html"
-                    },
-                    {
-                        "titulo": "Sobre a Psicóloga",
-                        "link": "about-2.html"
-                    },
-                    {
-                        "titulo": "Eventos e Palestras",
-                        "link": "events.html"
-                    },
-                    {
-                        "titulo": "Conteúdos em Vídeo",
-                        "link": "videos.html"
-                    },
-                    {
-                        "titulo": "Serviços",
-                        "link": "services.html"
-                    },
-                    {
-                        "titulo": "Equipe",
+                        "titulo": "Nossas Especialidades",
+                        "link": "#",
                         "submenu": [
                             {
-                                "titulo": "Nossa Equipe",
-                                "link": "team.html"
+                                "titulo": "Psicoterapia Individual",
+                                "link": "service.html"
                             },
                             {
-                                "titulo": "Perfil do Profissional",
-                                "link": "team-details.html"
+                                "titulo": "Terapia de Casal",
+                                "link": "service2.html"
                             }
                         ]
                     },
                     {
-                        "titulo": "Planos e Valores",
-                        "link": "pricing.html"
-                    },
+                        "titulo": "Detalhes do Atendimento",
+                        "link": "service-details.html"
+                    }
+                ]
+            },
+            {
+                "titulo": "Conteúdos",
+                "link": "#",
+                "submenu": [
                     {
-                        "titulo": "Depoimentos",
-                        "link": "testimonials.html"
+                        "titulo": "Artigos e Blog",
+                        "link": "blog.html"
                     },
                     {
                         "titulo": "Perguntas Frequentes",
-                        "link": "faqs.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Cursos",
-                "submenu": [
-                    {
-                        "titulo": "Cursos e Workshops",
-                        "link": "courses.html"
-                    },
-                    {
-                        "titulo": "Detalhes do Curso",
-                        "link": "course-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Blog",
-                "submenu": [
-                    {
-                        "titulo": "Artigos",
-                        "link": "blog-grid.html"
-                    },
-                    {
-                        "titulo": "Lista de Artigos",
-                        "link": "blog-list.html"
-                    },
-                    {
-                        "titulo": "Conteúdo Especial",
-                        "link": "blog-masonry.html"
-                    },
-                    {
-                        "titulo": "Artigo Completo",
-                        "link": "blog-details.html"
-                    }
-                ]
-            },
-            {
-                "titulo": "Conteúdos Terapêuticos",
-                "submenu": [
-                    {
-                        "titulo": "Galeria",
-                        "link": "portfolio-gallery.html"
-                    },
-                    {
-                        "titulo": "Casos e Abordagens",
-                        "link": "portfolio-details.html"
+                        "link": "faq.html"
                     }
                 ]
             },
@@ -267,468 +77,450 @@
                 "link": "contact.html"
             }
         ],
-        "acoes": {
-            "botao": {
-                "titulo": "Agendar Consulta",
-                "link": "https://wa.me/5562982045122"
-            }
+        "botao": {
+            "titulo": "Agendar Sessão",
+            "link": "mailto:contato@seudominio.com"
         },
-        "search": {
-            "placeholder": "Buscar conteúdos, artigos ou serviços..."
+        "contato_padrao": {
+            "email": "contato@seudominio.com",
+            "telefone": "(62) 5562982045122"
         }
     },
-    "banner": {
-        "background": "dist/imagens/banner/psicologia/banner-1.jpg",
-        "titulo": "Encontre o Apoio Psicológico Ideal para Você",
-        "formulario": {
-            "placeholder_busca": "Buscar por psicólogo ou especialidade",
-            "botao": {
-                "titulo": "Buscar Atendimento"
-            },
-            "opcoes": [
+    "mobile_header": {
+        "logo": {
+            "imagem": "https://unifato.com/advisr/assets/img/logo/header1-logo.svg",
+            "alt": "Clínica de Psicologia - Saúde Mental",
+            "link": "/"
+        }
+    },
+    "mobile_menu": [
+        {
+            "titulo": "Início",
+            "link": "#",
+            "submenu": [
                 {
-                    "titulo": "Terapia Individual",
-                    "valor": "individual",
-                    "ativo": true
-                },
-                {
-                    "titulo": "Terapia de Casal",
-                    "valor": "casal",
-                    "ativo": false
-                },
-                {
-                    "titulo": "Terapia Empresarial",
-                    "valor": "empresarial",
-                    "ativo": false,
-                    "desabilitado": true
+                    "titulo": "Páginas Principais",
+                    "link": "#",
+                    "submenu": [
+                        {
+                            "titulo": "Psicoterapia Individual",
+                            "link": "index.html"
+                        },
+                        {
+                            "titulo": "Terapia de Casal",
+                            "link": "index2.html"
+                        },
+                        {
+                            "titulo": "Psicologia Clínica",
+                            "link": "index3.html"
+                        }
+                    ]
                 }
             ]
         },
-        "elementos": [
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-1.png",
-                "classe": "element_1 slideRightTwo"
-            },
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-2.png",
-                "classe": "element_2 zoom-fade"
-            },
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-3.png",
-                "classe": "element_3 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/banner/psicologia/banner-elemento-4.png",
-                "classe": "element_4 rotate_elem"
-            }
-        ],
-        "destaque": {
-            "imagem": "dist/imagens/banner/psicologia/banner-think-1.png",
-            "percentual": 92,
-            "titulo": "de satisfação",
-            "descricao": "Cuidado psicológico humanizado e eficaz"
+        {
+            "titulo": "Sobre Nós",
+            "link": "about.html"
+        },
+        {
+            "titulo": "Serviços",
+            "link": "#",
+            "submenu": [
+                {
+                    "titulo": "Atendimentos",
+                    "link": "#",
+                    "submenu": [
+                        {
+                            "titulo": "Psicoterapia Individual",
+                            "link": "service.html"
+                        },
+                        {
+                            "titulo": "Terapia de Casal",
+                            "link": "service2.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "titulo": "Conteúdos",
+            "link": "blog.html"
+        },
+        {
+            "titulo": "Contato",
+            "link": "contact.html"
+        }
+    ],
+    "mobile_cta": {
+        "titulo": "Agendar Sessão",
+        "link": "mailto:contato@seudominio.com"
+    },
+    "mobile_footer": {
+        "titulo": "Contato",
+        "telefone": {
+            "icone": "https://unifato.com/advisr/assets/img/icons/footer4-contact1.svg",
+            "texto": "(62) 5562982045122",
+            "link": "55625562982045122"
+        },
+        "email": {
+            "icone": "https://unifato.com/advisr/assets/img/icons/footer4-contact2.svg",
+            "texto": "contato@seudominio.com"
+        }
+    },
+    "hero": {
+        "subtitulo": "Bem-vindo à Clínica de Psicologia",
+        "titulo": "Cuidando da sua <span class=\"after2\">Saúde Mental</span> com Acolhimento e Profissionalismo",
+        "descricao": "Oferecemos acompanhamento psicológico humanizado para promover equilíbrio emocional, autoconhecimento e bem-estar em todas as fases da vida.",
+        "botao_principal": {
+            "titulo": "Agendar Consulta",
+            "link": "mailto:contato@seudominio.com"
+        },
+        "botao_secundario": {
+            "titulo": "Fale Conosco",
+            "link": "mailto:contato@seudominio.com"
+        },
+        "parceiros": {
+            "titulo": "Instituições Parceiras:",
+            "logos": [
+                "https://unifato.com/advisr/assets/img/logo/brand2-logo1.svg",
+                "https://unifato.com/advisr/assets/img/logo/brand2-logo2.svg",
+                "https://unifato.com/advisr/assets/img/logo/brand2-logo3.svg",
+                "https://unifato.com/advisr/assets/img/logo/brand2-logo4.svg"
+            ]
+        },
+        "imagens": {
+            "img1": "https://unifato.com/advisr/assets/img/image/header2-img1.png",
+            "img2": "https://unifato.com/advisr/assets/img/image/header2-img2.png",
+            "img3": "https://unifato.com/advisr/assets/img/image/header2-img3.png"
         }
     },
     "sobre": {
-        "background": "dist/imagens/sobre/psicologia/sobre-bg-1.png",
-        "imagens": {
-            "principal": "dist/imagens/sobre/psicologia/sobre-1.jpg",
-            "secundaria": "dist/imagens/sobre/psicologia/sobre-2.jpg"
-        },
-        "elementos": [
-            {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-1.png",
-                "classe": "element_1"
-            },
-            {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-2.png",
-                "classe": "element_2 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/sobre/psicologia/sobre-elemento-3.png",
-                "classe": "element_3 rotate_elem"
-            }
-        ],
-        "subtitulo": "Quem Somos",
-        "titulo": "Cuidamos da Sua Saúde Emocional com Profissionalismo e Empatia",
-        "descricao": "Somos uma clínica de psicologia dedicada ao acolhimento, ao autoconhecimento e ao desenvolvimento emocional, oferecendo atendimentos humanizados e baseados em evidências científicas.",
-        "lista": [
-            "Atendimento psicológico individual e personalizado",
-            "Terapia de casal e familiar",
-            "Acompanhamento emocional para empresas"
-        ],
+        "shape": "https://unifato.com/advisr/assets/img/shapes/home2-main-shape.svg",
+        "imagem_principal": "https://unifato.com/advisr/assets/img/image/about2-image.png",
+        "subtitulo": "Sobre Nós",
+        "titulo": "Cuidado psicológico <span class=\"after2\">humanizado</span> e baseado em evidências",
+        "descricao1": "Somos uma clínica de psicologia dedicada ao cuidado da saúde mental, oferecendo um espaço seguro, acolhedor e ético para o desenvolvimento emocional.",
+        "descricao2": "Nosso trabalho é focado em compreender sua história, desafios e objetivos para oferecer um acompanhamento psicológico personalizado e eficaz.",
         "botao": {
-            "titulo": "Conheça Nossa Clínica",
+            "titulo": "Conheça Nossa Abordagem",
             "link": "about.html"
         }
     },
     "servicos": {
         "subtitulo": "Nossos Serviços",
-        "titulo": "Atendimentos e Terapias Psicológicas",
+        "titulo": "<span class=\"after2\">Atendimentos</span> Psicológicos Especializados",
+        "descricao": "Oferecemos diferentes modalidades de atendimento psicológico, respeitando as necessidades individuais de cada paciente.",
         "items": [
             {
-                "imagem": "dist/imagens/psicologia/servicos-1.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Terapia Individual",
-                "descricao": "Atendimento personalizado focado em suas necessidades emocionais."
+                "icone": "https://unifato.com/advisr/assets/img/icons/service2-icon1.svg",
+                "titulo": "Psicoterapia Individual",
+                "descricao": "Atendimento focado no autoconhecimento, manejo emocional e desenvolvimento pessoal.",
+                "link": "service-details.html",
+                "botao": "Saiba Mais",
+                "aos": "700"
             },
             {
-                "imagem": "dist/imagens/psicologia/servicos-2.jpg",
-                "link": "https://wa.me/5562982045122",
+                "icone": "https://unifato.com/advisr/assets/img/icons/service2-icon1.svg",
                 "titulo": "Terapia de Casal",
-                "descricao": "Fortalecimento de relacionamentos e resolução de conflitos."
+                "descricao": "Acompanhamento para melhorar o diálogo, fortalecer vínculos e resolver conflitos.",
+                "link": "service-details.html",
+                "botao": "Saiba Mais",
+                "aos": "900"
             },
             {
-                "imagem": "dist/imagens/psicologia/servicos-3.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Terapia em Grupo",
-                "descricao": "Compartilhamento de experiências e apoio emocional coletivo."
+                "icone": "https://unifato.com/advisr/assets/img/icons/service2-icon1.svg",
+                "titulo": "Psicoterapia para Ansiedade e Depressão",
+                "descricao": "Tratamento psicológico baseado em evidências para transtornos emocionais.",
+                "link": "service-details.html",
+                "botao": "Saiba Mais",
+                "aos": "800"
             },
             {
-                "imagem": "dist/imagens/psicologia/servicos-4.jpg",
-                "link": "https://wa.me/5562982045122",
-                "titulo": "Aconselhamento Profissional",
-                "descricao": "Orientações psicológicas para desafios pessoais e profissionais."
-            }
-        ]
-    },
-    "skills": {
-        "background": "dist/imagens/skills/psicologia/skills-bg-1.png",
-        "imagem_principal": "dist/imagens/skills/psicologia/skills-1.jpg",
-        "subtitulo": "Nossas Habilidades",
-        "titulo": "Especialistas em Saúde Mental",
-        "descricao": "Nossa equipe de psicólogos oferece acompanhamento personalizado para promover bem-estar, equilíbrio emocional e desenvolvimento pessoal.",
-        "items": [
-            {
-                "titulo": "Terapia Individual",
-                "percent": 95,
-                "cor": "#4b83fb",
-                "delay": ".20ms"
-            },
-            {
-                "titulo": "Terapia de Casal",
-                "percent": 88,
-                "cor": "#65cfa9",
-                "delay": ".30ms"
-            },
-            {
-                "titulo": "Terapia em Grupo",
-                "percent": 92,
-                "cor": "#ffbd3f",
-                "delay": ".40ms"
-            }
-        ]
-    },
-    "planos": {
-        "subtitulo": "Nossos Planos",
-        "titulo": "Planos de Atendimento Psicológico",
-        "tabs": [
-            {
-                "id": "mensal",
-                "titulo": "Mensal",
-                "active": true,
-                "items": [
-                    {
-                        "titulo": "Plano Básico",
-                        "descricao": "Apoio psicológico inicial para equilíbrio emocional.",
-                        "preco": "R$199,90",
-                        "beneficios": [
-                            "1 Sessão Individual por semana",
-                            "Acompanhamento por chat",
-                            "Acesso a materiais de bem-estar",
-                            "Relatórios de progresso"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": true
-                    },
-                    {
-                        "titulo": "Plano Standard",
-                        "descricao": "Acompanhamento contínuo para desenvolvimento pessoal.",
-                        "preco": "R$349,90",
-                        "beneficios": [
-                            "2 Sessões Individuais por semana",
-                            "Acompanhamento por chat e email",
-                            "Acesso a workshops online",
-                            "Relatórios detalhados"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    },
-                    {
-                        "titulo": "Plano Premium",
-                        "descricao": "Suporte completo para saúde mental e emocional.",
-                        "preco": "R$599,90",
-                        "beneficios": [
-                            "Sessões ilimitadas",
-                            "Acompanhamento prioritário",
-                            "Workshops e materiais exclusivos",
-                            "Relatórios detalhados e metas personalizadas"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    }
-                ]
-            },
-            {
-                "id": "anual",
-                "titulo": "Anual",
-                "active": false,
-                "items": [
-                    {
-                        "titulo": "Plano Básico",
-                        "descricao": "Apoio psicológico anual para equilíbrio emocional.",
-                        "preco": "R$1999,90",
-                        "beneficios": [
-                            "1 Sessão Individual por semana",
-                            "Acompanhamento por chat",
-                            "Acesso a materiais de bem-estar",
-                            "Relatórios de progresso"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    },
-                    {
-                        "titulo": "Plano Standard",
-                        "descricao": "Acompanhamento contínuo durante o ano.",
-                        "preco": "R$3499,90",
-                        "beneficios": [
-                            "2 Sessões Individuais por semana",
-                            "Acompanhamento por chat e email",
-                            "Acesso a workshops online",
-                            "Relatórios detalhados"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": true
-                    },
-                    {
-                        "titulo": "Plano Premium",
-                        "descricao": "Suporte completo anual para saúde mental.",
-                        "preco": "R$5999,90",
-                        "beneficios": [
-                            "Sessões ilimitadas",
-                            "Acompanhamento prioritário",
-                            "Workshops e materiais exclusivos",
-                            "Relatórios detalhados e metas personalizadas"
-                        ],
-                        "link": "https://wa.me/5562982045122",
-                        "botao_titulo": "Selecionar Plano",
-                        "active": false
-                    }
-                ]
-            }
-        ]
-    },
-    "video": {
-        "imagem_principal": "dist/imagens/video/psicologia/video-1.jpg",
-        "link_video": "https://www.youtube.com/watch?v=TKnufs85hXk",
-        "elementos": [
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-1.png",
-                "classe": "element_1 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-2.png",
-                "classe": "element_2 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/video/psicologia/elemento-3.png",
-                "classe": "element_3 rotate_elem"
+                "icone": "https://unifato.com/advisr/assets/img/icons/service2-icon1.svg",
+                "titulo": "Orientação Psicológica",
+                "descricao": "Apoio profissional para tomadas de decisão e momentos de transição.",
+                "link": "service-details.html",
+                "botao": "Saiba Mais",
+                "aos": "1000"
             }
         ],
-        "setas": [
-            {
-                "classe": "one",
-                "quantidade": 5
-            },
-            {
-                "classe": "two",
-                "quantidade": 5
-            }
-        ]
-    },
-    "plane": {
-        "titulo": "Nossa Escola de Psicologia Oferece Ferramentas e Treinamentos Avançados",
-        "elementos": [
-            {
-                "imagem": "dist/imagens/plane/psicologia/elemento-1.png",
-                "classe": "element_1 rotate_elem"
-            },
-            {
-                "imagem": "dist/imagens/plane/psicologia/elemento-2.png",
-                "classe": "element_2 zoom-fade"
-            }
-        ]
-    },
-    "portfolio": {
-        "subtitulo": "Galeria de Projetos",
-        "titulo": "Temos 34520+ Projetos Completados com Sucesso",
         "botao": {
-            "titulo": "Ver Todos os Projetos",
-            "link": "portfolio-grid.html"
-        },
-        "items": [
-            {
-                "imagem": "dist/imagens/portfolio/psicologia/projeto-1.jpg",
-                "titulo": "Como Melhorar a Saúde Mental",
-                "subtitulo": "Psicologia Clínica",
-                "link": "portfolio-details.html",
-                "animacao": "fadeInUp",
-                "delay": ".20ms"
-            },
-            {
-                "imagem": "dist/imagens/portfolio/psicologia/projeto-2.jpg",
-                "titulo": "Terapias Online",
-                "subtitulo": "Psicologia Online",
-                "link": "portfolio-details.html",
-                "animacao": "fadeInDown",
-                "delay": ".40ms"
-            }
-        ]
+            "titulo": "Ver Todos os Serviços",
+            "link": "service.html"
+        }
     },
-    "testemunhos": {
-        "bg": "dist/imagens/testemunhos/psicologia/bg.jpg",
-        "subtitulo": "Depoimentos",
-        "titulo": "O Que Nossos Pacientes e Famílias Dizem",
-        "items": [
+    "porque_escolher": {
+        "shape": "https://unifato.com/advisr/assets/img/shapes/home2-main-shape.svg",
+        "imagem": "https://unifato.com/advisr/assets/img/image/about2-image.png",
+        "subtitulo": "Por Que Nos Escolher",
+        "titulo": "Compromisso com sua <span class=\"after2\">Saúde Mental</span>",
+        "descricao1": "Trabalhamos com ética, empatia e responsabilidade clínica para promover bem-estar psicológico.",
+        "descricao2": "Cada atendimento é conduzido respeitando a individualidade, o ritmo e as necessidades de cada pessoa.",
+        "contadores": [
             {
-                "comentario": "A terapia me ajudou a superar momentos difíceis e melhorar meu bem-estar emocional."
+                "numero": 1200,
+                "titulo": "Sessões <br> Realizadas"
             },
             {
-                "comentario": "O atendimento personalizado me trouxe mais segurança e confiança em minhas decisões."
-            },
-            {
-                "comentario": "Excelente abordagem humanizada e profissionalismo da equipe de psicologia."
-            }
-        ],
-        "autores": [
-            {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-1.jpg"
-            },
-            {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-2.jpg"
-            },
-            {
-                "imagem": "dist/imagens/testemunhos/psicologia/autor-3.jpg"
+                "numero": 10,
+                "titulo": "Anos de <br> Experiência Clínica"
             }
         ]
     },
     "cta": {
-        "subtitulo": "Nossos Psicólogos",
-        "titulo": "Quer Transformar Sua Vida Emocional Para Melhor?",
-        "botao": {
-            "titulo": "Entre em Contato",
-            "link": "contact.html"
+        "background": "assets/img/bg/cta2-bg.png",
+        "titulo": "Aproveite uma <span class=\"after2\">consulta</span> psicológica",
+        "botao_principal": {
+            "titulo": "Agendar Consulta",
+            "link": "service-details.html"
         },
-        "imagem_principal": "dist/imagens/cta/psicologia/cta-principal.png",
-        "elementos": [
+        "botao_secundario": {
+            "titulo": "Saiba Mais",
+            "link": "#"
+        }
+    },
+    "projetos": {
+        "subtitulo": "Nossa Atuação",
+        "titulo": "Estudos de Caso e <span class=\"after2\">Resultados</span>",
+        "botao": {
+            "titulo": "Ver Todos os Casos",
+            "link": "cart.html"
+        },
+        "items": [
             {
-                "imagem": "dist/imagens/cta/psicologia/elemento-1.png",
-                "classe": "shape_1 zoom-fade"
+                "imagem": "https://unifato.com/advisr/assets/img/image/project-img1.png",
+                "titulo": "Psicoterapia para Ansiedade",
+                "descricao": "Acompanhamento psicológico focado na redução da ansiedade, fortalecimento emocional e melhora da qualidade de vida.",
+                "link": "case-details1.html",
+                "botao": "Leia Mais",
+                "aos": "800"
             },
             {
-                "imagem": "dist/imagens/cta/psicologia/elemento-2.png",
-                "classe": "shape_2 rotate_elem"
+                "imagem": "https://unifato.com/advisr/assets/img/image/project-img2.png",
+                "titulo": "Reestruturação Emocional",
+                "descricao": "Processo terapêutico voltado ao autoconhecimento, autoestima e enfrentamento de desafios emocionais.",
+                "link": "case-details1.html",
+                "botao": "Leia Mais",
+                "aos": "1000"
             }
         ]
     },
-    "footer": {
-        "bg": "dist/imagens/footer/psicologia/bg.png",
-        "logo": {
-            "imagem": "dist/imagens/footer/psicologia/logo.png",
-            "link": "index.html"
-        },
-        "contato": {
-            "endereco": "Av. Psicologia, 256 - Centro, Brasília, DF",
-            "telefone": "+5562982045122",
-            "telefone_formatado": "(62) 5562-9840",
-            "email": "contato@seudominio.com"
-        },
-        "redes": [
+    "depoimentos": {
+        "subtitulo": "Depoimentos",
+        "titulo": "Quem Viveu o Processo <span class=\"after2\">Confirma</span>",
+        "items": [
             {
-                "link": "#",
-                "icone": "fab fa-facebook-f"
+                "imagem": "https://unifato.com/advisr/assets/img/image/testimonial-slider1.png",
+                "texto": "O acompanhamento psicológico foi essencial para meu crescimento pessoal e emocional. Me senti acolhido em todas as sessões.",
+                "nome": "Paciente Anônimo",
+                "cargo": "Atendimento Psicológico",
+                "estrelas": 5
             },
             {
-                "link": "#",
-                "icone": "fab fa-twitter"
+                "imagem": "https://unifato.com/advisr/assets/img/image/testimonial-slider2.png",
+                "texto": "Aprendi a lidar melhor com minhas emoções e hoje me sinto mais seguro e equilibrado.",
+                "nome": "Paciente Anônimo",
+                "cargo": "Psicoterapia Individual",
+                "estrelas": 5
             },
             {
-                "link": "#",
-                "icone": "fab fa-linkedin"
+                "imagem": "https://unifato.com/advisr/assets/img/image/testimonial-slider1.png",
+                "texto": "O ambiente é acolhedor e o processo terapêutico fez toda a diferença na minha vida.",
+                "nome": "Paciente Anônimo",
+                "cargo": "Terapia Emocional",
+                "estrelas": 5
+            }
+        ]
+    },
+    "contato": {
+        "titulo": "Entre em",
+        "titulo_destaque": "Contato",
+        "descricao": "Estamos aqui para acolher você. Nossa equipe de psicologia está pronta para ouvir, orientar e auxiliar no seu processo de cuidado emocional e bem-estar mental.",
+        "informacoes": [
+            {
+                "icone": "https://unifato.com/advisr/assets/img/icons/contact2-icon1.svg",
+                "texto": "(62) 5562982045122",
+                "link": "tel:625562982045122",
+                "aos_duration": 900
             },
             {
-                "link": "#",
-                "icone": "fab fa-behance"
+                "icone": "https://unifato.com/advisr/assets/img/icons/contact2-icon2.svg",
+                "texto": "contato@seudominio.com",
+                "link": "mailto:contato@seudominio.com",
+                "aos_duration": 700
             },
             {
+                "icone": "https://unifato.com/advisr/assets/img/icons/contact2-icon3.svg",
+                "texto": "Atendimento presencial e online<br>Consulte disponibilidade",
                 "link": "#",
-                "icone": "fab fa-youtube"
+                "aos_duration": 1000
             }
         ],
-        "menus": [
-            {
-                "titulo": "Nossos Serviços",
-                "itens": [
-                    {
-                        "titulo": "Psicologia Clínica",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Terapia Online",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Psicoterapia Infantil",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Orientação Profissional",
-                        "link": "#"
-                    },
-                    {
-                        "titulo": "Workshops Emocionais",
-                        "link": "#"
-                    }
-                ]
+        "observacoes": [
+            "Atendimentos realizados com ética, sigilo e acolhimento.",
+            "Sessões presenciais e online mediante agendamento."
+        ],
+        "form": {
+            "action": "#",
+            "titulo": "Envie uma Mensagem",
+            "campos": {
+                "nome": "Nome*",
+                "sobrenome": "Sobrenome*",
+                "email": "E-mail*",
+                "assunto": [
+                    "Tipo de Atendimento*",
+                    "Psicoterapia Individual",
+                    "Terapia de Casal",
+                    "Avaliação Psicológica",
+                    "Orientação Inicial"
+                ],
+                "mensagem": "Sua Mensagem*"
             },
-            {
-                "titulo": "Sobre Nós",
-                "itens": [
+            "botao": "Enviar Mensagem"
+        }
+    },
+    "footer": {
+        "logo": "https://unifato.com/advisr/assets/img/logo/header2-logo.svg",
+        "logo_link": "index.html",
+        "descricao": "Oferecemos atendimento psicológico humanizado, com profissionais qualificados e foco no cuidado emocional, bem-estar e saúde mental.",
+        "menus": {
+            "empresa": {
+                "titulo": "Empresa",
+                "links": [
                     {
-                        "titulo": "Missão e Visão",
-                        "link": "#"
+                        "titulo": "Início",
+                        "link": "index.html"
+                    },
+                    {
+                        "titulo": "Sobre Nós",
+                        "link": "about.html"
                     },
                     {
                         "titulo": "Nossa Equipe",
                         "link": "#"
                     },
                     {
-                        "titulo": "Abordagem Humanizada",
+                        "titulo": "Artigos",
+                        "link": "blog.html"
+                    },
+                    {
+                        "titulo": "Contato",
+                        "link": "contact.html"
+                    }
+                ]
+            },
+            "util": {
+                "titulo": "Links Úteis",
+                "links": [
+                    {
+                        "titulo": "Psicoterapia Individual",
                         "link": "#"
                     },
                     {
-                        "titulo": "Clientes Satisfeitos",
+                        "titulo": "Terapia de Casal",
                         "link": "#"
                     },
                     {
-                        "titulo": "Carreiras",
+                        "titulo": "Terapia Familiar",
+                        "link": "#"
+                    },
+                    {
+                        "titulo": "Avaliação Psicológica",
                         "link": "#"
                     }
                 ]
             }
-        ],
+        },
         "newsletter": {
-            "titulo": "Newsletter",
-            "descricao": "Receba novidades e dicas de psicologia diretamente no seu e-mail.",
-            "placeholder": "Digite seu e-mail",
+            "titulo": "Receba conteúdos sobre saúde mental",
+            "descricao": "Inscreva-se para receber artigos, dicas práticas e informações sobre psicologia e bem-estar emocional.",
+            "placeholder": "Seu e-mail",
             "botao": "Inscrever-se"
         },
-        "direitos": "© 2026 Clínica Psicologia Plena. Todos os direitos reservados.",
-        "elemento_extra": "dist/imagens/footer/psicologia/elemento-extra.png"
+        "copyright": "© Copyright 2026 Clínica de Psicologia. Todos os direitos reservados.",
+        "termos": {
+            "titulo": "Termos & Condições",
+            "link": "#"
+        },
+        "social": [
+            {
+                "titulo": "Facebook",
+                "icone": "fa-brands fa-facebook",
+                "link": "#"
+            },
+            {
+                "titulo": "LinkedIn",
+                "icone": "fa-brands fa-linkedin-in",
+                "link": "#"
+            },
+            {
+                "titulo": "YouTube",
+                "icone": "fa-brands fa-youtube",
+                "link": "#"
+            },
+            {
+                "titulo": "Twitter",
+                "icone": "fa-brands fa-twitter",
+                "link": "#"
+            }
+        ],
+        "email": "contato@seudominio.com",
+        "telefone": "(62) 5562982045122"
+    },
+    "demo_sidebar": {
+        "titulo": "Coleção de Demos Prontas",
+        "homes": [
+            {
+                "titulo": "Home 1",
+                "link": "index.html",
+                "imagem": "https://unifato.com/advisr/assets/img/demo/demo2.png",
+                "botoes": [
+                    {
+                        "titulo": "Multi Page",
+                        "link": "index.html"
+                    },
+                    {
+                        "titulo": "Landing Page",
+                        "link": "single-index1.html"
+                    }
+                ]
+            },
+            {
+                "titulo": "Home 2",
+                "link": "index2.html",
+                "imagem": "https://unifato.com/advisr/assets/img/demo/demo1.png",
+                "botoes": [
+                    {
+                        "titulo": "Multi Page",
+                        "link": "index2.html"
+                    },
+                    {
+                        "titulo": "Landing Page",
+                        "link": "single-index2.html"
+                    }
+                ]
+            }
+        ],
+        "inner_titulo": "Páginas Internas",
+        "inner_pages": [
+            {
+                "titulo": "Sobre Nós",
+                "link": "about.html",
+                "imagem": "https://unifato.com/advisr/assets/img/demo/about.png",
+                "botao": "Ver Página"
+            },
+            {
+                "titulo": "Serviços",
+                "link": "service.html",
+                "imagem": "https://unifato.com/advisr/assets/img/demo/service-2.png",
+                "botao": "Ver Página"
+            },
+            {
+                "titulo": "Blog",
+                "link": "blog.html",
+                "imagem": "https://unifato.com/advisr/assets/img/demo/blog-1.png",
+                "botao": "Ver Página"
+            }
+        ]
     }
 }
