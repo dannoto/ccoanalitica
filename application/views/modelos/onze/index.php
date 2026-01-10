@@ -77,9 +77,9 @@
             <div class="main-menu-ex main-menu-ex2">
               <ul>
                 @foreach($d['header']['menu'] as $menu)
-                  <li class="{{ isset($menu['submenu']) ? 'has-dropdown' : '' }}">
-                    <a href="{{ $menu['link'] ?>">
-                      {{ $menu['titulo'] ?>
+                  <li class="<?= isset($menu['submenu']) ? 'has-dropdown' : '' ?>">
+                    <a href="<?= $menu['link'] ?>">
+                      <?= $menu['titulo'] ?>
                       @if(isset($menu['submenu']))
                         <i class="fa-solid fa-angle-down"></i>
                       @endif
@@ -88,9 +88,9 @@
                     @if(isset($menu['submenu']))
                       <ul class="sub-menu">
                         @foreach($menu['submenu'] as $submenu)
-                          <li class="{{ isset($submenu['submenu']) ? 'has-dropdown has-dropdown1' : '' }}">
-                            <a href="{{ $submenu['link'] ?>">
-                              {{ $submenu['titulo'] ?>
+                          <li class="<?= isset($submenu['submenu']) ? 'has-dropdown has-dropdown1' : '' ?>">
+                            <a href="<?= $submenu['link'] ?>">
+                              <?= $submenu['titulo'] ?>
                               @if(isset($submenu['submenu']))
                                 <span><i class="fa-solid fa-angle-right"></i></span>
                               @endif
@@ -100,7 +100,7 @@
                               <ul class="sub-menu">
                                 @foreach($submenu['submenu'] as $nivel3)
                                   <li>
-                                    <a href="{{ $nivel3['link'] ?>">{{ $nivel3['titulo'] ?></a>
+                                    <a href="<?= $nivel3['link'] ?>"><?= $nivel3['titulo'] ?></a>
                                   </li>
                                 @endforeach
                               </ul>
@@ -161,20 +161,20 @@
 
   <div class="mobile-nav">
     @foreach($d['mobile_menu'] as $menu)
-      <li class="{{ isset($menu['submenu']) ? 'has-dropdown' : '' }}">
-        <a href="{{ $menu['link'] ?>">{{ $menu['titulo'] ?></a>
+      <li class="<?= isset($menu['submenu']) ? 'has-dropdown' : '' ?>">
+        <a href="<?= $menu['link'] ?>"><?= $menu['titulo'] ?></a>
 
         @if(isset($menu['submenu']))
           <ul class="sub-menu">
             @foreach($menu['submenu'] as $submenu)
-              <li class="{{ isset($submenu['submenu']) ? 'has-dropdown has-dropdown1' : '' }}">
-                <a href="{{ $submenu['link'] ?>">{{ $submenu['titulo'] ?></a>
+              <li class="<?= isset($submenu['submenu']) ? 'has-dropdown has-dropdown1' : '' ?>">
+                <a href="<?= $submenu['link'] ?>"><?= $submenu['titulo'] ?></a>
 
                 @if(isset($submenu['submenu']))
                   <ul class="sub-menu">
                     @foreach($submenu['submenu'] as $nivel3)
                       <li>
-                        <a href="{{ $nivel3['link'] ?>">{{ $nivel3['titulo'] ?></a>
+                        <a href="<?= $nivel3['link'] ?>"><?= $nivel3['titulo'] ?></a>
                       </li>
                     @endforeach
                   </ul>
@@ -264,7 +264,7 @@
             <div class="brand2-slider owl-carousel">
               @foreach($d['hero']['parceiros']['logos'] as $logo)
                 <div class="brand2-logo">
-                  <img src="{{ $logo }}" alt="">
+                  <img src="<?= $logo ?>" alt="">
                 </div>
               @endforeach
             </div>
@@ -357,27 +357,27 @@
     <div class="row">
       @foreach($d['servicos']['items'] as $item)
         <div class="col-lg-6">
-          <div data-aos="fade-up" data-aos-duration="{{ $item['aos'] ?>">
+          <div data-aos="fade-up" data-aos-duration="<?= $item['aos'] ?>">
             <div class="service2-box">
               <div class="serivce2-icon">
-                <img src="{{ $item['icone'] ?>" alt="">
+                <img src="<?= $item['icone'] ?>" alt="">
               </div>
 
               <div class="space24"></div>
 
               <div class="service2-hadding hadding2-w">
                 <h4>
-                  <a href="{{ $item['link'] ?>">{{ $item['titulo'] ?></a>
+                  <a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a>
                 </h4>
 
                 <div class="space14"></div>
 
-                <p>{{ $item['descricao'] ?></p>
+                <p><?= $item['descricao'] ?></p>
 
                 <div class="space24"></div>
 
-                <a class="read-more-btn-w" href="{{ $item['link'] ?>">
-                  {{ $item['botao'] ?> <span><i class="fa-solid fa-arrow-right"></i></span>
+                <a class="read-more-btn-w" href="<?= $item['link'] ?>">
+                  <?= $item['botao'] ?> <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
             </div>
@@ -423,7 +423,7 @@
           <div class="counter-boxs">
             @foreach($d['porque_escolher']['contadores'] as $contador)
               <div class="counter2-box">
-                <h2><span class="counter">{{ $contador['numero'] ?></span></h2>
+                <h2><span class="counter"><?= $contador['numero'] ?></span></h2>
                 <p>{!! $contador['titulo'] !!}</p>
               </div>
             @endforeach
@@ -506,20 +506,20 @@
     <div class="row">
       @foreach($d['projetos']['items'] as $item)
         <div class="col-lg-6">
-          <div class="project-all-box" data-aos-duration="{{ $item['aos'] ?>" data-aos="fade-up">
+          <div class="project-all-box" data-aos-duration="<?= $item['aos'] ?>" data-aos="fade-up">
             <div class="project-img img100">
-              <img src="{{ $item['imagem'] ?>" alt="">
+              <img src="<?= $item['imagem'] ?>" alt="">
             </div>
             <div class="project-box">
               <div class="project-hadding hadding2-w">
                 <h4>
-                  <a href="{{ $item['link'] ?>">{{ $item['titulo'] ?></a>
+                  <a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a>
                 </h4>
                 <div class="space14"></div>
-                <p>{{ $item['descricao'] ?></p>
+                <p><?= $item['descricao'] ?></p>
                 <div class="space24"></div>
-                <a class="read-more-btn-w" href="{{ $item['link'] ?>">
-                  {{ $item['botao'] ?>
+                <a class="read-more-btn-w" href="<?= $item['link'] ?>">
+                  <?= $item['botao'] ?>
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -557,7 +557,7 @@
             <div class="testimonial-single-slider testimonial-single-slider2">
               <div class="">
                 <div class="testimonial2-slider-img">
-                  <img src="{{ $item['imagem'] ?>" alt="">
+                  <img src="<?= $item['imagem'] ?>" alt="">
                 </div>
               </div>
 
@@ -571,17 +571,17 @@
                 </div>
 
                 <p style="font-style: italic;">
-                  “{{ $item['texto'] ?>”
+                  “<?= $item['texto'] ?>”
                 </p>
 
                 <div class="space20"></div>
 
                 <div class="slider1-bottom">
                   <h4>
-                    <a href="#">{{ $item['nome'] ?></a>
+                    <a href="#"><?= $item['nome'] ?></a>
                   </h4>
                   <div class="space6"></div>
-                  <p>{{ $item['cargo'] ?></p>
+                  <p><?= $item['cargo'] ?></p>
                 </div>
               </div>
             </div>
@@ -615,12 +615,12 @@
 
         <div class="contact2-contacts">
           @foreach ($d['contato']['informacoes'] as $info)
-            <div class="contact2-single" data-aos="fade-right" data-aos-duration="{{ $info['aos_duration'] ?>">
+            <div class="contact2-single" data-aos="fade-right" data-aos-duration="<?= $info['aos_duration'] ?>">
               <div class="contact2-icon">
-                <img src="{{ $info['icone'] ?>" alt="">
+                <img src="<?= $info['icone'] ?>" alt="">
               </div>
               <div class="contact2-icon-hadding">
-                <a href="{{ $info['link'] ?>">{!! $info['texto'] !!}</a>
+                <a href="<?= $info['link'] ?>">{!! $info['texto'] !!}</a>
               </div>
             </div>
             <div class="space10"></div>
@@ -631,7 +631,7 @@
 
         <div class="hadding2-w" data-aos="fade-right" data-aos-duration="800">
           @foreach ($d['contato']['observacoes'] as $obs)
-            <p>{{ $obs }}</p>
+            <p><?= $obs ?></p>
           @endforeach
         </div>
       </div>
@@ -660,7 +660,7 @@
                   <div class="contact-input-signle contact-input-signle1">
                     <select class="wide">
                       @foreach ($d['contato']['form']['campos']['assunto'] as $opcao)
-                        <option value="">{{ $opcao }}</option>
+                        <option value=""><?= $opcao ?></option>
                       @endforeach
                     </select>
                   </div>
@@ -704,7 +704,7 @@
           <div class="footer-menu">
             <ul>
               @foreach($d['footer']['menus']['empresa']['links'] as $item)
-                <li><a href="{{ $item['link'] ?>">{{ $item['titulo'] ?></a></li>
+                <li><a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a></li>
               @endforeach
             </ul>
           </div>
@@ -717,7 +717,7 @@
           <div class="footer-menu">
             <ul>
               @foreach($d['footer']['menus']['util']['links'] as $item)
-                <li><a href="{{ $item['link'] ?>">{{ $item['titulo'] ?></a></li>
+                <li><a href="<?= $item['link'] ?>"><?= $item['titulo'] ?></a></li>
               @endforeach
             </ul>
           </div>
@@ -763,8 +763,8 @@
           <ul>
             @foreach($d['footer']['social'] as $social)
               <li>
-                <a data-bs-toggle="tooltip" title="{{ $social['titulo'] ?>" href="{{ $social['link'] ?>">
-                  <i class="{{ $social['icone'] ?>"></i>
+                <a data-bs-toggle="tooltip" title="<?= $social['titulo'] ?>" href="<?= $social['link'] ?>">
+                  <i class="<?= $social['icone'] ?>"></i>
                 </a>
               </li>
             @endforeach
@@ -821,13 +821,13 @@
         @foreach($d['demo_sidebar']['inner_pages'] as $page)
           <div class="single-demo-sidebar-item">
             <div class="demo-sidebar-item-img">
-              <img src="{{ $page['imagem'] ?>" alt="" />
+              <img src="<?= $page['imagem'] ?>" alt="" />
               <div class="demo-sidebar-buttons">
-                <a href="{{ $page['link'] ?>">{{ $page['botao'] ?></a>
+                <a href="<?= $page['link'] ?>"><?= $page['botao'] ?></a>
               </div>
             </div>
             <div class="demo-item-content">
-              <a href="{{ $page['link'] ?>">{{ $page['titulo'] ?></a>
+              <a href="<?= $page['link'] ?>"><?= $page['titulo'] ?></a>
             </div>
           </div>
         @endforeach
