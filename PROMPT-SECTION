@@ -1,610 +1,123 @@
 turn this html into a strutured
 
-  <footer class="footer-area footer-area2 padding-top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6">
-          <div class="single-footer mr50">
-            <a href="index.html" class="footer-logo">
-              <img src="https://unifato.com/advisr/assets/img/logo/header2-logo.svg" alt="" /></a>
-            <div class="space20"></div>
-            <p>
-              Our policies are underwritten by large partner A.M. Best top rated carriers, meaning you will be protected by the best. See our featured carrier list here.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6">
-          <div class="single-footer">
-            <h3>Company</h3>
-            <div class="footer-menu">
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6">
-          <div class="single-footer">
-            <h3>Useful Links</h3>
-            <div class="footer-menu">
-              <ul>
-                <li><a href="#">Strategy Consulting</a></li>
-                <li><a href="#">Financial Consulting</a></li>
-                <li><a href="#">Marketing Consulting</a></li>
-                <li><a href="#">Operations Consulting</a></li>
-                <li><a href="#">Marketing Consulting</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="single-footer">
-            <h3>Subscribe to our newsletter</h3>
-
-            <div class="footer-subscribe-area">
-              <div class="hadding1">
-                <p>Consulting service is a key part of the future of energy. It can help you save money on your .</p>
-              </div>
-              <div class="space24"></div>
-              <div class="footer-contact-input">
-                <div class="input-footer2">
-                  <div class="">
-                    <input type="email" placeholder="Email">
-                  </div>
+<!--======  Start Footer  ======-->
+            <footer class="main-footer">
+                <div class="footer-shape"><img src="https://nayonacademy.com/html/bizzen/assets/images/footer/footer-shape.png" alt="footer shape"></div>
+                <!--=== Footer Widget Wrapper ===-->
+                <div class="footer-widget-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <!--=== Footer Widget ===-->
+                                <div class="footer-widget footer-about-widget pt-100" data-aos="fade-up" data-aos-duration="800">
+                                    <div class="widget-content">
+                                        <div class="footer-logo mb-20">
+                                            <a href="index.html"><img src="https://nayonacademy.com/html/bizzen/assets/images/home-one/logo/logo-white.png" alt="logo white"></a>
+                                        </div>
+                                        <p class="mb-20">Sign up to searing weekly newsletter to get the latest updates</p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="email" class="form_control" placeholder="Enter Email Address" name="email" required>
+                                                <button class="submit-btn"><i class="far fa-paper-plane"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <!--=== Footer Widget Wrap ===-->
+                                <div class="footer-widget-inner">
+                                    <!--=== Footer Top ===-->
+                                    <div class="footer-top" data-aos="fade-up" data-aos-duration="1000">
+                                        <div class="big-text">Let’s talk Business?</div>
+                                    </div>
+                                    <div class="footer-widget-area">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <!--=== Footer Widget ===-->
+                                                <div class="footer-widget footer-contact-info-widget mb-40" data-aos="fade-up" data-aos-duration="1200">
+                                                    <div class="widget-content">
+                                                        <h6>Headquarters - USA</h6>
+                                                        <ul>
+                                                            <li>
+                                                                90 Washington. mg Manchester, USA
+                                                            </li>
+                                                            <li>
+                                                                <a href="tel:+1(980)3605-6302">+1 (980) 3605 - 6302</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <!--=== Footer Widget ===-->
+                                                <div class="footer-widget footer-contact-info-widget mb-40" data-aos="fade-up" data-aos-duration="1400">
+                                                    <div class="widget-content">
+                                                        <h6>Headquarters - UK</h6>
+                                                        <ul>
+                                                            <li>
+                                                                993 Renner Burg, West Rond, MT 94251-030
+                                                            </li>
+                                                            <li>
+                                                                <a href="mailto:company@gmail.com">company@gmail.com</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <!--=== Footer Widget ===-->
+                                                <div class="footer-widget footer-social-widget mb-40" data-aos="fade-up" data-aos-duration="1600">
+                                                    <h4 class="widget-title">Follow Us:</h4>
+                                                    <div class="widget-content">
+                                                        <div class="social-box">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="button-footer">
-                  <button class="button2">Subscribe</button>
+                <!--=== Copyright Area ===-->
+                <div class="copyright-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!--=== Copyright Text ===-->
+                                <div class="copyright-text text-md-start text-center">
+                                    <p>&copy; All copyright 2025 by Bizzen</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!--=== Copyright link ===-->
+                                <div class="copyright-link text-md-end text-center">
+                                    <a href="index.html">Terms & Conditions</a>
+                                    <a href="index.html">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row align-items-center copyright2">
-        <div class="col-lg-6">
-          <p class="copyright-p">© Copyright 2023 Advisor Consulting Ltd. <br>
-          </p>
-          <ul class="Conditions2">
-            <li><a href="#">Terms & Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-6 text-right">
-          <div class="social social2">
-            <ul>
-              <li>
-                <a data-bs-toggle="tooltip" title="Linked in" href="#"><i class="fa-brands fa-facebook"></i></a>
-              </li>
-              <li>
-                <a data-bs-toggle="tooltip" title="Facebook" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a data-bs-toggle="tooltip" title="Instagram" href="#"><i class="fa-brands fa-youtube"></i></a>
-              </li>
-              <li>
-                <a data-bs-toggle="tooltip" title="TikTok" href="#"><i class="fa-brands fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-  <div class="demo-sidebar" id="demo-sidebar">
-    <div class="demo-sidebar-wrap">
-      <div class="demo-sidebar-menu">
-        <span
-          data-bs-toggle="tooltip"
-          title="View Demos"
-          class="demosIcon"
-          id="demosIcon"><i class="fa-solid fa-gear"></i></span>
-        <span data-bs-toggle="tooltip" title="Buy Theme"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></span>
-      </div>
-      <div class="demo-sidebar-content">
-        <div class="heading2">
-          <h2>Pre-Built Demos Collection</h2>
-        </div>
-        <div class="space20"></div>
-
-
-        <div class="demo-sidebar-items">
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index.html">Multi Page</a>
-                <a href="single-index1.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index.html">Home 1</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo1.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index2.html">Multi Page</a>
-                <a href="single-index2.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index2.html">Home 2</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo3.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index3.html">Multi Page</a>
-                <a href="single-index3.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index3.html">Home 3</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo4.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index4.html">Multi Page</a>
-                <a href="single-index4.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index4.html">Home 4</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo5.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index5.html">Multi Page</a>
-                <a href="single-index5.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index5.html">Home 5</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo6.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index6.html">Multi Page</a>
-                <a href="single-index6.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index6.html">Home 6</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo7.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index7.html">Multi Page</a>
-                <a href="single-index7.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index7.html">Home 7</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo8.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index8.html">Multi Page</a>
-                <a href="single-index8.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index8.html">Home 8</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo9.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index9.html">Multi Page</a>
-                <a href="single-index9.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index9.html">Home 9</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/demo10.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="index10.html">Multi Page</a>
-                <a href="single-index10.html">Landing Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="index10.html">Home 10</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/coming-soon.png" alt="" />
-              <div class="demo-sidebar-buttons">
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="#">Coming Soon</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/coming-soon.png" alt="" />
-              <div class="demo-sidebar-buttons">
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="#">Coming Soon</a>
-            </div>
-          </div>
-
-
-        </div>
-
-
-        <div class="space30"></div>
-        <div class="heading2">
-          <h2>Pre-Built Inner Demos</h2>
-        </div> -
-
-
-        <!-- inner page -->
-        <div class="demo-sidebar-items inner-dmeos">
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/about.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="about.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="about.html">About Us</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/service-2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="service.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="service.html">Service 1</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/service-2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="service2.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="service2.html">Service 2</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/service-details.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="service-details.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="service-details.html">Service Details</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/blog-1.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog.html">Blog 1</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/blog-2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog2.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog2.html">Blog 2</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/blog-leftbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog-sidebar-left.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog-sidebar-left.html">Blog Left Bar</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/blog-rightbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog-sidebar-right.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog-sidebar-right.html">Blog Right Bar</a>
-            </div>
-          </div>
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/details-leftbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog-details-sidebar-left.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog-details-sidebar-left.html">Blog Details Left bar</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/details-rightbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog-details-sidebar-right.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog-details-sidebar-right.html">blog Details Right Bar</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/blog-details.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="blog-details.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="blog-details.html">Blog Details</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/case.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="case.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="case.html">Case Study</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/case-details-1.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="case-details1.html">Case Details 1</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="case-details1.html">Case Details 1</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/case-details-2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="case-details2.html">Case Details 2</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="case-details2.html">Case Details 2</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/shop.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="shop.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="shop.html">shop</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/shop-leftbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="shop-sidebar-left.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="shop-sidebar-left.html">Shop Left Sidebar</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/shop-rightbar.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="shop-sidebar-right.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="shop-sidebar-right.html">Shop Right Sidebar</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/shop-details.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="shop-details.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="shop-details.html">Shop Details</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/contact.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="contact.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="contact.html">Contact</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/faq.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="faq.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="faq.html">FAQ</a>
-            </div>
-          </div>
-
-
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/checkout.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="checkout.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="checkout.html">Checkout</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/cart.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="cart.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="cart.html">cart</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/account-1.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="account.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="account.html">Account 1</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/account-2.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="account2.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="account2.html">Account 2</a>
-            </div>
-          </div>
-
-          <div class="single-demo-sidebar-item">
-            <div class="demo-sidebar-item-img">
-              <img src="https://unifato.com/advisr/assets/img/demo/error.png" alt="" />
-              <div class="demo-sidebar-buttons">
-                <a href="error.html">View Page</a>
-              </div>
-            </div>
-            <div class="demo-item-content">
-              <a href="error.html"> Error</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
+            </footer>
 
 
 json like this
 
 "sobre": {
-"imagem_principal": "file:///C:/xampp/htdocs/demos/odontologia/mediox/mediox-html/assets/images/about/about-2-1.jpg",
-"imagem_secundaria1": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
-"imagem_secundaria2": "https://hospitalsantamonica.com.br/wp-content/uploads/2021/01/terapia-em-grupo-1024x683.jpeg",
+"imagem_principal": "file:///C:/xampp/....jpg",
+"imagem_secundaria1": "https://www.psitto.com.br/wp-...-1.jpg",
+"imagem_secundaria2": "https://hospitalsantamonica....jpeg",
 "subtitulo": "Sobre Nós",
-"titulo": "Cuidado Médico Completo com Excelência e Humanização",
-"descricao": "O Instituto Vida Plena é uma clínica médica dedicada à promoção da saúde, prevenção de doenças e
-tratamento humanizado.",
+"titulo": "Cuidado Médico...",
+"descricao": "O Instituto Vida Plen....",
 "lista": [
 "Atendimento Clínico Completo",
 "Medicina Preventiva",
@@ -636,12 +149,12 @@ tratamento humanizado.",
 "titulo": "Especialidades Médicas",
 "items": [
 {
-"imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+"imagem": "https://www.psitto.com.br/wp-cont.....jpg",
 "link": "https://wa.me/5562982045122",
 "titulo": "Clínica Geral"
 },
 {
-"imagem": "https://www.psitto.com.br/wp-content/uploads/2024/02/terapia-em-grupo-1.jpg",
+"imagem": "https://www.psitto.com.br/wp-cont.....jpg",
 "link": "https://wa.me/5562982045122",
 "titulo": "Cardiologia"
 },
@@ -652,6 +165,7 @@ tratamento humanizado.",
 
 
 Give me back two think the html with variables considering the variables are passed on view with ex:
+
 $d['sobre']['titulo'].
 - Give the html with variables
 - Give the json structurted of the section
@@ -663,3 +177,4 @@ $d['sobre']['titulo'].
 pedidas.
 - Devolva sempre em uma arquivo unico a view e um arquivo unico o json.
 - Nao altere nada do layoult, ou seja, classes, id e afins, apenas dinamize o conteudo, imagens, icones.
+- Eu nao uso blade, entao faça no php normal.
