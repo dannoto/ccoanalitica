@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -167,14 +168,7 @@
                                                 <?= $slide['descricao'] ?>
                                             </p>
 
-                                            <div class="slide-list">
-                                                <?php foreach ($slide['itens'] as $item): ?>
-                                                    <div class="icon">
-                                                        <i class="<?= $item['icone'] ?>"></i>
-                                                        <p><?= $item['titulo'] ?></p>
-                                                    </div>
-                                                <?php endforeach; ?>
-                                            </div>
+                                         
 
                                         </div>
                                     </div>

@@ -55,53 +55,20 @@
             "link": "/contato"
         }
     ],
+    
     "slider": {
         "slides": [
             {
                 "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/1.jpg",
                 "titulo": "Cuidado psicológico para todas as fases da vida",
                 "descricao": "Promovemos saúde mental com escuta ativa, acolhimento e técnicas terapêuticas baseadas em evidência científica.",
-                "itens": [
-                    {
-                        "icone": "flaticon-025-examination",
-                        "titulo": "Avaliação Psicológica"
-                    },
-                    {
-                        "icone": "flaticon-019-prescription",
-                        "titulo": "Plano Terapêutico"
-                    },
-                    {
-                        "icone": "flaticon-043-cardiogram",
-                        "titulo": "Acompanhamento Emocional"
-                    },
-                    {
-                        "icone": "flaticon-046-blood-pressure",
-                        "titulo": "Saúde Mental Preventiva"
-                    }
-                ]
+               
             },
             {
                 "imagem": "https://demo.zytheme.com/medisch/assets/images/sliders/2.jpg",
                 "titulo": "Terapia baseada em empatia, ciência e ética",
                 "descricao": "Oferecemos um espaço seguro para o desenvolvimento emocional, autoconhecimento e bem-estar psicológico.",
-                "itens": [
-                    {
-                        "icone": "flaticon-025-examination",
-                        "titulo": "Psicoterapia Individual"
-                    },
-                    {
-                        "icone": "flaticon-019-prescription",
-                        "titulo": "Terapia de Casal"
-                    },
-                    {
-                        "icone": "flaticon-043-cardiogram",
-                        "titulo": "Terapia Infantil"
-                    },
-                    {
-                        "icone": "flaticon-046-blood-pressure",
-                        "titulo": "Orientação Emocional"
-                    }
-                ]
+              
             }
         ]
     },
