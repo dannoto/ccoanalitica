@@ -197,9 +197,9 @@
                                     <div class="row">
 
                                         <div class="col-12 col-lg-7">
-                                            <h2 class="slide-headline">
+                                            <h3 class="slide-headline">
                                                 <?= $slide['titulo'] ?>
-                                            </h2>
+                                            </h3>
                                         </div>
 
                                         <div class="col-12 col-lg-6">
