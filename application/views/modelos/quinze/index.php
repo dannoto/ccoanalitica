@@ -55,7 +55,8 @@
             <!-- TOP BAR -->
             <div class="top-bar">
                 <div class="block-left">
-                
+
+                </div>
 
                 <div class="block-right">
                     <div class="top-contact">
@@ -87,14 +88,14 @@
 
 
                         <div class="contact-infos">
-                             <i class="fas fa-envelope"></i>
-                    <div class="contact-body">
-                        <a href="mailto:<?= $d['header']['email'] ?>">
-                            <?= $d['header']['email'] ?>
-                        </a>
-                    </div>
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-body">
+                                <a href="mailto:<?= $d['header']['email'] ?>">
+                                    <?= $d['header']['email'] ?>
+                                </a>
+                            </div>
                         </div>
-                        
+
 
                     </div>
                 </div>
@@ -164,9 +165,9 @@
 
                     </ul>
 
-                 
+
                     <div class="module-contact">
-                     
+
                         <a class="btn btn--primary btn-line btn-line-after" href="<?= $d['header']['botao']['link'] ?>">
                             <span><?= $d['header']['botao']['titulo'] ?></span><span class="line"> <span></span></span>
                         </a>
