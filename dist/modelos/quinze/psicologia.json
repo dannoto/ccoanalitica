@@ -74,8 +74,7 @@
         "background": "https://demo.zytheme.com/medisch/assets/images/background/pattern-2.jpg",
         "itens": [
             {
-                "classe": "feature-reservation",
-                "icone": "flaticon-022-medical",
+               
                 "titulo": "Acolhimento emocional",
                 "descricao": "Entre em contato para orientações psicológicas ou agendamento de atendimento.",
                 "acao": {
@@ -84,8 +83,7 @@
                 }
             },
             {
-                "classe": "feature-timetable",
-                "icone": "flaticon-028-book",
+                
                 "titulo": "Agenda de atendimentos",
                 "descricao": "Sessões presenciais e online com horários flexíveis.",
                 "acao": {
@@ -94,8 +92,7 @@
                 }
             },
             {
-                "classe": "feature-opening-hours",
-                "icone": "flaticon-014-uniform",
+               
                 "titulo": "Horários de funcionamento",
                 "descricao": "Sessões presenciais e online com horários flexíveis.",
                 "lista": [
@@ -114,8 +111,7 @@
                 ]
             },
             {
-                "classe": "feature-location",
-                "icone": "flaticon-042-clinic",
+              
                 "titulo": "Atendimento Online",
                 "descricao": "Sessões de psicoterapia por videochamada, com sigilo e conforto.",
                 "imagem": "https://demo.zytheme.com/medisch/assets/images/background/map.jpg"

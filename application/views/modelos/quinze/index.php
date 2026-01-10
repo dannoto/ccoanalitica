@@ -232,8 +232,8 @@
                         <div class="col-12 col-lg-3">
                             <div class="feature-panel <?= $item['classe'] ?>">
                                 <div class="feature-content">
-                                    <i class="<?= $item['icone'] ?>"></i>
-                                    <h5><?= $item['titulo'] ?></h5>
+
+                                <h5><?= $item['titulo'] ?></h5>
                                     <p><?= $item['descricao'] ?></p>
 
                                     <?php if (!empty($item['acao'])): ?>
