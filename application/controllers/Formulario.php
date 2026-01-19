@@ -168,6 +168,7 @@ class Formulario extends CI_Controller
 		];
 
 
+		
 		if ($form_data['company_secundary_color'] == "#d4af37") {
 			$form_data['company_secundary_color'] == "";
 		}
