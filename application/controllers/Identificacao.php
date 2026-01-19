@@ -19,17 +19,23 @@ class Identificacao extends CI_Controller
 	public function index()
 	{
 
+
 		$exist_session = $this->session->userdata('identifier');
 
+		// if (!$exist_session) {
+		// 	redirect(base_url());
+		// }
+
 		if (!$exist_session) {
-			redirect(base_url());
+
+			$this->form_model->create_identifier($identifier);
 		}
 
 		$data = array(
 			'idf' => $this->form_model->get_form_by_identifier($this->form_model->get_identifier()),
 		);
 
-		
+
 
 		$this->load->view('main/identificacao', $data);
 	}
