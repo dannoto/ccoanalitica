@@ -59,6 +59,10 @@ $route['demo/(:any)/(:any)'] = 'modelos/demo/$1/$2';
 $route['modelos/(:any)/(:any)'] = 'modelos/index/$1/$2';
 $route['modelos/(:any)'] = 'modelos/index/$1';
 
+
+$route['identificacao/(:any)'] = 'identificacao/index/$1';
+
+
 $route['painel/modelos/editar/(:any)'] = 'painel/editar_modelos/$1';
 $route['painel/modelos/criar'] = 'painel/criar_modelos';
 
