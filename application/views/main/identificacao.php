@@ -785,7 +785,7 @@
                     console.log(res); // já vem como objeto JS
 
                     if (res.status) {
-                        window.location.href = "<?= base_url() ?>sites/formulario";
+                        window.location.href = "<?= base_url() ?>formulario";
                     } else {
                         Swal.fire({
                             title: '',

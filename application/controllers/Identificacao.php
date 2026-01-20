@@ -114,6 +114,8 @@ class Identificacao extends CI_Controller
 
 		$update = $this->form_model->update_form_identifier($this->form_model->get_identifier(), $data);
 
+		print_r($update);
+
 		if ($update) {
 
 			$response = array(
