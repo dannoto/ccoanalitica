@@ -48,7 +48,7 @@ class Identificacao extends CI_Controller
 	{
 
 
-		header('Content-Type: application/json');
+		// header('Content-Type: application/json');
 
 
 		$data = array(
