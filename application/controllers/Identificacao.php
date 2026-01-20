@@ -78,6 +78,7 @@ class Identificacao extends CI_Controller
 					'status' => false,
 					'message' => 'O CNPJ é inválido. Verifique',
 				);
+
 				return print_r(json_encode($response));
 			}
 		} else if ($data['idf_company_type'] == "personal") {
@@ -111,8 +112,9 @@ class Identificacao extends CI_Controller
 			return print_r(json_encode($response));
 		}
 
+		$update = $this->form_model->update_form_identifier($this->form_model->get_identifier(), $data);
 
-		if ($this->form_model->update_form_identifier($this->form_model->get_identifier(), $data)) {
+		if ($update) {
 
 			$response = array(
 				'status' => true,
@@ -129,7 +131,7 @@ class Identificacao extends CI_Controller
 		}
 
 
-		exit;
+		
 	}
 
 	public function act_add_model()
