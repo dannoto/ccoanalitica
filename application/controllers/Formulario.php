@@ -22,7 +22,8 @@ class Formulario extends CI_Controller
 		$exist_session = $this->session->userdata('identifier');
 
 		if (!$exist_session) {
-			redirect(base_url());
+
+			$this->form_model->create_identifier($identifier);
 		}
 
 
@@ -168,7 +169,7 @@ class Formulario extends CI_Controller
 		];
 
 
-		
+
 		if ($form_data['company_secundary_color'] == "#d4af37") {
 			$form_data['company_secundary_color'] == "";
 		}
