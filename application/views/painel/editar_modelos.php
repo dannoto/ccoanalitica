@@ -292,14 +292,14 @@
                 // dataType: 'json',
                 success: function(res) {
 
-                    Swal.fire({
-                        title: 'Sucesso!',
-                        text: 'Modelo excluido com sucesso.',
-                        icon: 'success',
-                        confirmButtonColor: '#FF6900'
-                    }).then(() => {
+                    // Swal.fire({
+                    //     title: 'Sucesso!',
+                    //     text: 'Modelo excluido com sucesso.',
+                    //     icon: 'success',
+                    //     confirmButtonColor: '#FF6900'
+                    // }).then(() => {
                         window.location.href = "<?= base_url('painel/modelos') ?>";
-                    });
+                    // });
 
 
                 },
