@@ -158,6 +158,7 @@
 
       <?php $model_data = $this->models_model->get_model($m->model_id); ?>
 
+      <?php if ( $model_data) { ?>
       <div class="modelo">
         <img src="<?= $model_data['model_image'] ?>" alt="<?= $model_data['model_title'] ?> - <?= $tag['tag_name'] ?>">
         <div class="modelo-conteudo">
@@ -169,7 +170,7 @@
           </div>
         </div>
       </div>
-
+<?php } ?>
     <?php } ?>
 
 
