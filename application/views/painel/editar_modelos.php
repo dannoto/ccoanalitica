@@ -288,18 +288,16 @@
             $.ajax({
                 url: '<?= base_url() ?>painel/act_delete_model',
                 type: 'POST',
-                data: {id: "<?$modelo['id']?>"},
+                data: {id: "<?= $modelo['id']?>"},
                 // dataType: 'json',
                 success: function(res) {
 
-                    // Swal.fire({
-                    //     title: 'Sucesso!',
-                    //     text: 'Modelo excluido com sucesso.',
-                    //     icon: 'success',
-                    //     confirmButtonColor: '#FF6900'
-                    // }).then(() => {
-                        window.location.href = "<?= base_url('painel/modelos') ?>";
-                    // });
+                    Swal.fire({
+                        title: 'Sucesso!',
+                        text: 'Modelo excluido com sucesso.',
+                        icon: 'success',
+                        confirmButtonColor: '#FF6900'
+                    })
 
 
                 },
