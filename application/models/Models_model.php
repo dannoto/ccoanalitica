@@ -69,7 +69,8 @@ class models_model extends CI_Model
     public function get_tag_id_by_slug($slug)
     {
         $this->db->where('tag_slug', $slug);
-        // $this->db->where('is_deleted', 0);
+        $this->db->order_by('id','asc');
+        $this->db->where('is_deleted', 0);
         return $this->db->get('cco_tags')->row_array();
     }
 
