@@ -145,7 +145,18 @@ class Painel extends CI_Controller
 
 
 
+    public function act_delete_model()
+    {
 
+        $model_id = htmlspecialchars($this->input->post('id'));
+
+        $model_data = array(
+            'is_deleted' => 1,
+      
+        );
+
+        $this->models_model->update_model($model_id, $model_data);
+    }
 
     public function act_update_model()
     {

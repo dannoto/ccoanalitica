@@ -178,7 +178,7 @@
 
 
         <div style="display:flex;justify-content:space-between;width:70%;margin-left:15%">
-             
+
             <div>
                 <h1><small></small> <br>Editar Modelo </h1>
                 <br>
@@ -234,6 +234,9 @@
                 <br><br>
 
                 <button type="submit" class="btn btn--outline">SALVAR ALTERAÇÕES</button>
+
+                <br><br>
+                <button id="excluir-modelo">EXCLUIR MODELO</button>
             </form>
         </div>
 
@@ -280,6 +283,36 @@
                 }
             });
         });
+
+        $('#excluir-modelo').on('click', function(e) {
+            $.ajax({
+                url: '<?= base_url() ?>painel/act_delete_model',
+                type: 'POST',
+                data: {id: "<?$modelo['id']?>"},
+                // dataType: 'json',
+                success: function(res) {
+
+                    Swal.fire({
+                        title: 'Sucesso!',
+                        text: 'Modelo excluido com sucesso.',
+                        icon: 'success',
+                        confirmButtonColor: '#FF6900'
+                    }).then(() => {
+                        window.location.href = "<?= base_url('painel/modelos') ?>";
+                    });
+
+
+                },
+                error: function() {
+                    Swal.fire({
+                        title: 'Erro!',
+                        text: 'Não foi possível excluir o servidor.',
+                        icon: 'error',
+                        confirmButtonColor: '#FF6900'
+                    });
+                }
+            });
+        })
     </script>
 
     <!-- <script>
