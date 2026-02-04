@@ -60,7 +60,7 @@ class models_model extends CI_Model
     public function get_models_by_tag($tag_id)
     {
         $this->db->where('tag_id', $tag_id);
-        $this->db->order_by('id', 'desc');
+        $this->db->order_by('model_name', 'desc');
 
         $this->db->where('is_deleted', 0);
         return $this->db->get('cco_models_tags')->result();
