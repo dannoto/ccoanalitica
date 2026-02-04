@@ -203,7 +203,7 @@
             <?php foreach ($modelos as $m) { ?>
 
                 <?php $model_data = $this->models_model->get_model($m->id); ?>
-    <?php if ($model_data['is_delete'] == 0) { ?>
+    <?php if ($model_data['is_deleted'] == 0) { ?>
                 <div class="modelo">
                     <img src="<?= $model_data['model_image'] ?>" alt="<?= $model_data['model_title'] ?> -">
                     <div class="modelo-conteudo">
