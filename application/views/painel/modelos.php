@@ -196,7 +196,7 @@
     <section class="modelos">
 
 
-    <?php print_r($modelos); ?>
+   
 
         <?php if (count($modelos) > 0) { ?>
 
