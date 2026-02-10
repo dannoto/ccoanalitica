@@ -217,19 +217,26 @@
                 <br>
                 <p></p>
             </div>
-            <div>
-                <?php if ($modelo): ?>
-                    <div
-                        style="text-align:center; background: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <h4 style="margin:0 0 5px 0; color: #FF6900;">Modelo Escolhido</h4>
-                        <img src="<?= $modelo['model_image'] ?>"
-                            style="width: 100px; height: auto; border-radius: 4px; object-fit: cover;">
-                        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: bold;"><?= $modelo['model_title'] ?></p>
+            <div style="min-width: 300px;">
+                 <?php if($modelo): ?>
+                    <div style="background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 5px solid #FF6900; display: flex; gap: 15px; align-items: center;">
+                        <img src="<?= $modelo['model_image'] ?>" style="width: 80px; height: 80px; border-radius: 6px; object-fit: cover; border: 1px solid #eee;">
+                        
+                        <div style="text-align: left;">
+                            <small style="color: #666; font-size: 12px; text-transform: uppercase; font-weight: bold;">Modelo Escolhido</small>
+                            <h3 style="margin: 2px 0 8px 0; color: #333; font-size: 16px;"><?= $modelo['model_title'] ?></h3>
+                            
+                            <?php if(!empty($modelo['model_link'])): ?>
+                                <a href="<?= $modelo['model_link'] ?>" target="_blank" style="text-decoration: none; background: #FF6900; color: white; padding: 6px 12px; border-radius: 4px; font-size: 12px; font-weight: bold; display: inline-block;">
+                                    <i class="fa fa-external-link-alt"></i> Visualizar Demo
+                                </a>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 <?php else: ?>
-                    <div
-                        style="text-align:center; background: #ffebee; padding: 10px; border-radius: 8px; border: 1px solid #ffcdd2;">
-                        <p style="margin:0; color: #c62828; font-weight: bold;">Nenhum modelo escolhido</p>
+                    <div style="text-align:center; background: #fff; padding: 15px; border-radius: 8px; border: 1px dashed #ccc; color: #888;">
+                        <i class="fa fa-times-circle" style="font-size: 24px; color: #ccc; margin-bottom: 5px;"></i>
+                        <p style="margin:0; font-size: 14px;">Nenhum modelo selecionado</p>
                     </div>
                 <?php endif; ?>
             </div>
