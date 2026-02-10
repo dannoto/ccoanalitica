@@ -99,7 +99,7 @@ class Contrato extends CI_Controller
 		$to_email = $company_data['idf_company_email'] ?? null;
 
 		if ($to_email) {
-			$this->email->from('ccoanalitica@gmail.com', 'CCO Analítica'); // TODO: Update sender
+			$this->email->from('contato@ccoanalitica.com', 'CCO Analítica'); // TODO: Update sender
 			$this->email->to($to_email);
 			$this->email->bcc('ccoanalitica@gmail.com');
 
