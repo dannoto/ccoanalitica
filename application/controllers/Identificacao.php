@@ -16,7 +16,7 @@ class Identificacao extends CI_Controller
 		$this->load->library('session');
 	}
 
-	public function index( $identifier = null )
+	public function index($identifier = null)
 	{
 
 
@@ -27,10 +27,11 @@ class Identificacao extends CI_Controller
 		// 	redirect(base_url());
 		// }
 
-		if (!$exist_session) {
+		// $exist_session = $this->session->userdata('identifier');
 
-			$this->form_model->create_identifier($identifier);
-		}
+		// if (!$exist_session) {
+		// 	$this->form_model->create_identifier($identifier);
+		// }
 
 		// echo "identifier: ".$this->form_model->get_identifier();
 
@@ -44,7 +45,6 @@ class Identificacao extends CI_Controller
 	}
 
 	public function act_add_identifier()
-
 	{
 
 
@@ -133,7 +133,7 @@ class Identificacao extends CI_Controller
 		}
 
 
-		
+
 	}
 
 	public function act_add_model()
@@ -196,7 +196,7 @@ class Identificacao extends CI_Controller
 		// Cálculo do primeiro dígito verificador
 		$sum = 0;
 		for ($i = 0, $weight = 10; $i < 9; $i++, $weight--) {
-			$sum += (int)$cpf[$i] * $weight;
+			$sum += (int) $cpf[$i] * $weight;
 		}
 		$rem = $sum % 11;
 		$d1 = ($rem < 2) ? 0 : 11 - $rem;
@@ -204,12 +204,12 @@ class Identificacao extends CI_Controller
 		// Cálculo do segundo dígito verificador
 		$sum = 0;
 		for ($i = 0, $weight = 11; $i < 10; $i++, $weight--) {
-			$sum += (int)$cpf[$i] * $weight;
+			$sum += (int) $cpf[$i] * $weight;
 		}
 		$rem = $sum % 11;
 		$d2 = ($rem < 2) ? 0 : 11 - $rem;
 
-		return ($d1 == (int)$cpf[9] && $d2 == (int)$cpf[10]);
+		return ($d1 == (int) $cpf[9] && $d2 == (int) $cpf[10]);
 	}
 
 	// Valida CNPJ (retorna true/false)
@@ -232,7 +232,7 @@ class Identificacao extends CI_Controller
 		$weights1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
 		$sum = 0;
 		for ($i = 0; $i < 12; $i++) {
-			$sum += (int)$cnpj[$i] * $weights1[$i];
+			$sum += (int) $cnpj[$i] * $weights1[$i];
 		}
 		$rem = $sum % 11;
 		$d1 = ($rem < 2) ? 0 : 11 - $rem;
@@ -241,12 +241,12 @@ class Identificacao extends CI_Controller
 		$weights2 = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
 		$sum = 0;
 		for ($i = 0; $i < 13; $i++) {
-			$sum += (int)$cnpj[$i] * $weights2[$i];
+			$sum += (int) $cnpj[$i] * $weights2[$i];
 		}
 		$rem = $sum % 11;
 		$d2 = ($rem < 2) ? 0 : 11 - $rem;
 
-		return ($d1 == (int)$cnpj[12] && $d2 == (int)$cnpj[13]);
+		return ($d1 == (int) $cnpj[12] && $d2 == (int) $cnpj[13]);
 	}
 
 	// Valida e-mail (retorna true/false)

@@ -81,21 +81,17 @@ class form_model extends CI_Model
 
         $exist_session = $this->session->userdata('identifier');
 
-        if (! $exist_session) {
+        if (!$exist_session) {
             if ($identifier) {
-
                 $this->session->set_userdata('identifier', $identifier);
             } else {
-
-                $this->session->set_userdata('identifier', mt_rand());
+                // Generates a unique ID based on microtime
+                $new_identifier = uniqid('cco_', true);
+                $this->session->set_userdata('identifier', $new_identifier);
             }
         }
 
-
-
-        $session = $this->session->userdata('identifier');
-
-        return $session;
+        return $this->session->userdata('identifier');
     }
 
     public function get_identifier()
@@ -104,14 +100,11 @@ class form_model extends CI_Model
 
         $exist_session = $this->session->userdata('identifier');
 
-        // print_r($exist_session);
-
         if ($exist_session) {
-            // Se existir, retorna o valor salvo
             return $exist_session;
         } else {
-            // Se não existir, retorna nulo, falso, ou outro valor padrão
-            return '777';
+            // If no session exists, create one immediately
+            return $this->create_identifier();
         }
     }
 }

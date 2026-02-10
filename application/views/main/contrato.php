@@ -346,7 +346,7 @@
 
         <h3>CLÁUSULA QUARTA – DOS VALORES E FORMAS DE PAGAMENTO</h3>
         <ol>
-          <li>Pelo serviço contratado, a CONTRATANTE pagará o valor de R$ 359,00 (trezentos e cinquenta e nove reais), via cartão de crédito, débito ou PIX.</li>
+          <li>Pelo serviço contratado, a CONTRATANTE pagará o valor de R$ 549,00 (trezentos e cinquenta e nove reais), via cartão de crédito, débito ou PIX.</li>
           <li>O pagamento poderá ser:
             <ul>
               <li>À vista;</li>
