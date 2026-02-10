@@ -32,7 +32,7 @@ class Identificacao extends CI_Controller
 			$this->form_model->create_identifier($identifier);
 		}
 
-		echo "identifier: ".$this->form_model->get_identifier();
+		// echo "identifier: ".$this->form_model->get_identifier();
 
 		$data = array(
 			'idf' => $this->form_model->get_form_by_identifier($this->form_model->get_identifier()),

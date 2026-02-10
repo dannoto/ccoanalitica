@@ -56,6 +56,7 @@ class Opcional extends CI_Controller
 			$this->opcional_model->delete_opcional_identifier($this->form_model->get_identifier());
 		}
 
+		
 
 		// Insere cada serviço selecionado
 		foreach ($servicos as $id_servico) {
