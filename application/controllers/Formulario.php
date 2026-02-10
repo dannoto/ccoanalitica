@@ -194,12 +194,22 @@ class Formulario extends CI_Controller
 
 		// === 3. Tratamento dos uploads múltiplos ===
 		$arquivosSalvos = [];
+		$max_size = 30 * 1024 * 1024; // 30MB
 
 		foreach ($_FILES as $campo => $fileInfo) {
 			if (is_array($fileInfo['name'])) {
 				$total = count($fileInfo['name']);
 				for ($i = 0; $i < $total; $i++) {
 					if ($fileInfo['error'][$i] === UPLOAD_ERR_OK) {
+
+						if ($fileInfo['size'][$i] > $max_size) {
+							echo json_encode([
+								'status' => false,
+								'message' => 'O arquivo ' . $fileInfo['name'][$i] . ' ultrapassa o limite de 30MB.'
+							]);
+							return;
+						}
+
 						$nomeOriginal = $fileInfo['name'][$i];
 						$ext = pathinfo($nomeOriginal, PATHINFO_EXTENSION);
 						$nomeLimpo = sanitizeFileName($nomeOriginal);
@@ -227,6 +237,15 @@ class Formulario extends CI_Controller
 				}
 			} else {
 				if ($fileInfo['error'] === UPLOAD_ERR_OK) {
+
+					if ($fileInfo['size'] > $max_size) {
+						echo json_encode([
+							'status' => false,
+							'message' => 'O arquivo ' . $fileInfo['name'] . ' ultrapassa o limite de 30MB.'
+						]);
+						return;
+					}
+
 					$nomeOriginal = $fileInfo['name'];
 					$ext = pathinfo($nomeOriginal, PATHINFO_EXTENSION);
 					$nomeLimpo = sanitizeFileName($nomeOriginal);

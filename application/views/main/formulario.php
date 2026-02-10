@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
     Informações da Empresa</title>
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -208,7 +207,8 @@
       <h2>Sobre a Empresa</h2>
       <label>Breve história da sua empresa</label>
       <textarea name="historia"></textarea>
-      <label>Descrição do que a empresa faz <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>Descrição do que a empresa faz <small
+          style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <textarea name="descricao_empresa" id="descricao_empresa"></textarea>
 
       <label>Arquivos ou Imagens da empresa, equipe, espaço físico etc.</label>
@@ -224,7 +224,8 @@
     <!-- INFORMAÇÕES DA EMPRESA -->
     <div class="container">
       <h2>Informações da Empresa</h2>
-      <label>Nome da Empresa <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>Nome da Empresa <small
+          style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <input type="text" name="nome_empresa" id="nome_empresa" required>
 
       <label>Já tem domínio e hospedagem?</label>
@@ -235,7 +236,8 @@
     <!-- SERVIÇOS OU PRODUTOS -->
     <div class="container">
       <h2>Serviços ou Produtos</h2>
-      <label>Lista completa dos serviços/produtos <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>Lista completa dos serviços/produtos <small
+          style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <textarea name="servicos" id="servicos"></textarea>
 
       <label>Descrição de cada serviço/produto</label>
@@ -273,7 +275,8 @@
 
       <div class="cores">
         <div>
-          <label>Cor principal <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+          <label>Cor principal <small
+              style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
           <input type="color" name="cor_principal" id="cor_principal" value="#0c2340">
         </div>
         <div>
@@ -310,9 +313,11 @@
       <h2>Página de Contato</h2>
       <label>Endereço Completo da empresa </small></label>
       <input type="text" id="endereco" name="mapa">
-      <label>Telefones para contato <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>Telefones para contato <small
+          style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <input type="text" name="telefones" id="telefones" placeholder="Ex: (11) 99999-9999 / (11) 3333-3333">
-      <label>E-mail(s) para contato <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+      <label>E-mail(s) para contato <small
+          style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
       <input type="email" name="emails" id="emails" placeholder="Ex: exemplo@dominio.com / exemplo@dominio.com">
     </div>
 
@@ -321,8 +326,10 @@
         <a href="<?= base_url() ?>/identificacao">
           <button type="button" id="btnVoltar" class="btn btn-whats"><i class="fa fa-arrow-left"></i> VOLTAR</button>
         </a>
-        <button type="button" id="btnEnviar" class="btn btn-primary">SALVAR E CONTINUAR <i class="fa fa-arrow-right"></i></button>
-        <button type="button" style="display: none;" disabled id="btnEnviarLoading" class="btn btn-primary"><i style="color:#FFF" class="fa fa-spinner"></i> ENVIANDO. AGUARDE...</button>
+        <button type="button" id="btnEnviar" class="btn btn-primary">SALVAR E CONTINUAR <i
+            class="fa fa-arrow-right"></i></button>
+        <button type="button" style="display: none;" disabled id="btnEnviarLoading" class="btn btn-primary"><i
+            style="color:#FFF" class="fa fa-spinner"></i> ENVIANDO. AGUARDE...</button>
       </div>
     </div>
 
@@ -344,7 +351,22 @@
 
       input.addEventListener('change', e => {
         const newFiles = Array.from(e.target.files);
-        uploads[target].push(...newFiles);
+        const maxSize = 30 * 1024 * 1024; // 30MB
+
+        const validFiles = newFiles.filter(file => {
+          if (file.size > maxSize) {
+            Swal.fire({
+              title: 'Arquivo muito grande',
+              text: `O arquivo "${file.name}" excede o limite de 30MB.`,
+              icon: 'warning',
+              confirmButtonColor: '#FF6900'
+            });
+            return false;
+          }
+          return true;
+        });
+
+        uploads[target].push(...validFiles);
         renderFiles(target);
         input.value = '';
       });
@@ -364,7 +386,7 @@
       }
     });
 
-    $('#btnEnviar').on('click', function() {
+    $('#btnEnviar').on('click', function () {
 
 
       const formData = new FormData(document.getElementById('formEmpresa'));
@@ -456,7 +478,7 @@
 
         return;
 
-      } 
+      }
 
       //  --- VERIFICAÇÃO ---
 
@@ -472,7 +494,7 @@
         dataType: 'json',
         contentType: false,
         processData: false,
-        success: function(res) {
+        success: function (res) {
 
 
 
@@ -496,7 +518,7 @@
 
 
         },
-        error: function() {
+        error: function () {
           Swal.fire({
             title: '',
             text: 'Houve um erro ao enviar',
