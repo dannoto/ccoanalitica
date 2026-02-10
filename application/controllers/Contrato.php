@@ -83,10 +83,10 @@ class Contrato extends CI_Controller
 		// SMTP Configuration (PLACEHOLDERS - UPDATE WITH REAL CREDENTIALS)
 		$config = array(
 			'protocol' => 'smtp',
-			'smtp_host' => 'smtp.example.com', // TODO: Update host
+			'smtp_host' => 'smtp.hostinger.com', // TODO: Update host
 			'smtp_port' => 465, // TODO: Update port
 			'smtp_user' => 'contato@ccoanalitica.com', // TODO: Update user
-			'smtp_pass' => 'password', // TODO: Update password
+			'smtp_pass' => 'DTZF#6v|K', // TODO: Update password
 			'smtp_crypto' => 'ssl',
 			'mailtype' => 'html',
 			'charset' => 'utf-8',
