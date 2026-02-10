@@ -502,7 +502,7 @@
 
           if (res.status) {
 
-            window.location.href = "<?= base_url() ?>opcional"
+            window.location.href = "<?= base_url() ?>contrato"
 
           } else {
 

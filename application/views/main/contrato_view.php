@@ -207,8 +207,7 @@
               <li>Ou parcelado: 50% no início e 50% na conclusão do projeto.</li>
             </ul>
           </li>
-          <li>Caso a CONTRATANTE opte pelo pagamento parcelado, após a conclusão do projeto, a mesma tem até 7 dias corridos para realizar o pagamento da parcela restante. Caso contrário o site será removido do ar.
-          <li>
+          <li>Caso a CONTRATANTE opte pelo pagamento parcelado, após a conclusão do projeto, a mesma tem até 7 dias corridos para realizar o pagamento da parcela restante. Caso contrário o site será removido do ar.<li>
           <li>A CONTRATADA poderá rescindir este contrato mediante aviso prévio, caso identifique descumprimento contratual por parte da CONTRATANTE.</li>
           <li>Observação: Quaisquer solicitações que excedam a proposta original serão cobradas separadamente, com autorização prévia da CONTRATANTE.</li>
         </ol>
