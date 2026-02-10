@@ -187,6 +187,7 @@
         <div style="margin-top:10px">
             <small>Caso você precise de serviços adicionais, além do site.</small><br>
             <small>Clique nos serviços que deseja adicionar.</small>
+            <br>
             <small><strong>Valores e detalhes serão conversados via whatsapp.</strong></small>
         </div>
     </header>
