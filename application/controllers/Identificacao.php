@@ -112,7 +112,15 @@ class Identificacao extends CI_Controller
 			return print_r(json_encode($response));
 		}
 
-		$update = $this->form_model->update_form_identifier($this->form_model->get_identifier(), $data);
+		$identifier = $this->form_model->get_identifier();
+		$check_form = $this->form_model->get_form_by_identifier($identifier);
+
+		if ($check_form) {
+			$update = $this->form_model->update_form_identifier($identifier, $data);
+		} else {
+			$data['company_identifier'] = $identifier;
+			$update = $this->form_model->add_form($data);
+		}
 
 		// print_r($update);
 
@@ -131,8 +139,6 @@ class Identificacao extends CI_Controller
 			);
 			return print_r(json_encode($response));
 		}
-
-
 
 	}
 

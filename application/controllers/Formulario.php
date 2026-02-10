@@ -133,7 +133,8 @@ class Formulario extends CI_Controller
 	{
 		// === CONFIGURAÇÃO DE PASTAS ===
 		$base_dir = './uploads/';
-		if (!is_dir($base_dir)) mkdir($base_dir, 0777, true);
+		if (!is_dir($base_dir))
+			mkdir($base_dir, 0777, true);
 
 		// Função auxiliar para sanitizar nomes de arquivo
 		function sanitizeFileName($filename)
@@ -180,8 +181,15 @@ class Formulario extends CI_Controller
 
 		// === 2. Insere os dados principais da empresa ===
 
-		$this->form_model->update_form_identifier($this->form_model->get_identifier(), $form_data);
-		// $this->db->insert('cco_forms', $form_data);
+		$identifier = $this->form_model->get_identifier();
+		$check_form = $this->form_model->get_form_by_identifier($identifier);
+
+		if ($check_form) {
+			$this->form_model->update_form_identifier($identifier, $form_data);
+		} else {
+			$form_data['company_identifier'] = $identifier;
+			$this->form_model->add_form($form_data);
+		}
 		// $form_id = $this->db->insert_id(); // ID do registro na tabela principal
 
 		// === 3. Tratamento dos uploads múltiplos ===
@@ -197,7 +205,8 @@ class Formulario extends CI_Controller
 						$nomeLimpo = sanitizeFileName($nomeOriginal);
 
 						$pastaCampo = $base_dir . $campo . '/' . date('Y-m-d') . '/';
-						if (!is_dir($pastaCampo)) mkdir($pastaCampo, 0777, true);
+						if (!is_dir($pastaCampo))
+							mkdir($pastaCampo, 0777, true);
 
 						$destino = $pastaCampo . $nomeLimpo;
 
@@ -223,7 +232,8 @@ class Formulario extends CI_Controller
 					$nomeLimpo = sanitizeFileName($nomeOriginal);
 
 					$pastaCampo = $base_dir . $campo . '/' . date('Y-m-d') . '/';
-					if (!is_dir($pastaCampo)) mkdir($pastaCampo, 0777, true);
+					if (!is_dir($pastaCampo))
+						mkdir($pastaCampo, 0777, true);
 
 					$destino = $pastaCampo . $nomeLimpo;
 
