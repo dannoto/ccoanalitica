@@ -152,7 +152,7 @@ class Painel extends CI_Controller
 
         $model_data = array(
             'is_deleted' => 1,
-      
+
         );
 
         $this->models_model->update_model($model_id, $model_data);
@@ -195,7 +195,7 @@ class Painel extends CI_Controller
     public function act_search_tag()
     {
         // Recebe o termo de busca (pode vir via GET ou POST)
-        $query =  $this->input->post('query');
+        $query = $this->input->post('query');
 
         // Busca as tags no banco
         $result = $this->tag_model->search_tags($query);
@@ -213,7 +213,7 @@ class Painel extends CI_Controller
         $modelo_id = htmlspecialchars($this->input->post('model_id'));
 
 
-        $result =  $this->tag_model->get_tags_by_model($modelo_id);
+        $result = $this->tag_model->get_tags_by_model($modelo_id);
 
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($result);
@@ -251,25 +251,26 @@ class Painel extends CI_Controller
         $this->load->view('painel/clientes');
     }
 
-       public function clientes_ver($id)
+    public function clientes_ver($id)
     {
 
 
 
         $data = array(
-            'form' =>$this->form_model->get_form($id),
+            'form' => $this->form_model->get_form($id),
             'files' => $this->form_model->get_form_files($this->form_model->get_form($id)['company_identifier']),
+            'opcionais' => $this->opcional_model->get_optionals_identifier($this->form_model->get_form($id)['company_identifier']),
         );
 
         // print_r($data);
-  
+
 
         $this->load->view('painel/clientes_ver', $data);
     }
 
 
 
-    
+
     public function act_get_clientes()
     {
         $result = $this->form_model->get_forms_all();
@@ -278,7 +279,7 @@ class Painel extends CI_Controller
     }
 
 
-      public function remove_clientes()
+    public function remove_clientes()
     {
         $id = htmlspecialchars($this->input->post('id'));
 

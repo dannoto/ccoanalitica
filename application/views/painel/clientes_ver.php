@@ -6,15 +6,13 @@
     <title>Gerenciar Clientes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-D1A7eUwYd+1I4Mbmcq+uLf66W5k3o7sR5oUuE/hcI6rjV5ZbQ/lS7hIlV4a4t5q7+fCvw2HdyE9eP2N93+qZVg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-D1A7eUwYd+1I4Mbmcq+uLf66W5k3o7sR5oUuE/hcI6rjV5ZbQ/lS7hIlV4a4t5q7+fCvw2HdyE9eP2N93+qZVg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -209,12 +207,13 @@
                 <center>
                     <br><br>
                     <a href="<?= base_url() ?>painel/clientes">
-                        <button style="padding:12px; background-color:#fff;border:1px solid #fff;color:#FF6900;cursor:pointer">VOLTAR</button>
+                        <button
+                            style="padding:12px; background-color:#fff;border:1px solid #fff;color:#FF6900;cursor:pointer">VOLTAR</button>
                     </a>
                 </center>
             </div>
             <div>
-                <h1><small></small> <br><?=$form['idf_company_name']?></h1>
+                <h1><small></small> <br><?= $form['idf_company_name'] ?></h1>
                 <br>
                 <p></p>
             </div>
@@ -234,9 +233,12 @@
             <div class="container">
                 <h2>Sobre a Empresa</h2>
                 <label>Breve história</label>
-                <p style="color:#FF6900;white-space:pre-wrap"><?= $form['company_history'] ? $form['company_history'] : '----------' ?></p>
-                <label>Descrição do que a empresa faz <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_description'] ? $form['company_description'] : '----------'  ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_history'] ? $form['company_history'] : '----------' ?></p>
+                <label>Descrição do que a empresa faz <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_description'] ? $form['company_description'] : '----------' ?></p>
 
                 <label>Arquivos ou Imagens da empresa, equipe, espaço físico etc.</label>
                 <br><br>
@@ -251,11 +253,12 @@
 
                             <a target="_blank" style="text-decoration:none" href="<?= base_url() ?><?= $f->file_path ?>">
 
-                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button type="button" data-index="1"></button></div>
+                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button
+                                        type="button" data-index="1"></button></div>
 
                             </a>
 
-                        <?php     } ?>
+                        <?php } ?>
 
 
 
@@ -269,30 +272,54 @@
             <!-- INFORMAÇÕES DA EMPRESA -->
             <div class="container">
                 <h2>Informações da Empresa</h2>
-                <label>Nome da Empresa <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <label>Nome da Empresa <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
 
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_name'] ? $form['company_name'] : '----------'  ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_name'] ? $form['company_name'] : '----------' ?></p>
 
                 <label>Já tem domínio e hospedagem?</label>
 
-                <p style="color:#FF6900;white-space:pre-wrap"><?= $form['company_domain'] ? $form['company_domain'] : '----------' ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_domain'] ? $form['company_domain'] : '----------' ?></p>
 
-                  
+            </div>
+
+            <!-- SERVIÇOS OPCIONAIS -->
+            <div class="container">
+                <h2>Serviços Opcionais Contratados</h2>
+                <?php if (!empty($opcionais)) { ?>
+                    <ul>
+                        <?php foreach ($opcionais as $opcional) { ?>
+                            <li style="color:#FF6900; list-style: none; margin-bottom: 10px;">
+                                <strong><?= $opcional->optional_name ?></strong> - R$
+                                <?= number_format($opcional->optional_price, 2, ',', '.') ?>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                <?php } else { ?>
+                    <p style="color:#FF6900">Nenhum serviço opcional selecionado.</p>
+                <?php } ?>
             </div>
 
 
             <!-- SERVIÇOS OU PRODUTOS -->
             <div class="container">
                 <h2>Serviços ou Produtos</h2>
-                <label>Lista completa dos serviços/produtos <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_services'] ? $form['company_services'] : '----------' ?></p>
+                <label>Lista completa dos serviços/produtos <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_services'] ? $form['company_services'] : '----------' ?></p>
 
                 <label>Descrição de cada serviço/produto</label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_services_descriptions'] ? $form['company_services_descriptions'] : '----------' ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_services_descriptions'] ? $form['company_services_descriptions'] : '----------' ?>
+                </p>
 
 
                 <label> Preços de cada serviço/produto</label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_services_prices'] ? $form['company_services_prices'] : '----------' ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_services_prices'] ? $form['company_services_prices'] : '----------' ?></p>
 
 
                 <label>Arquivos ou Imagens dos serviços/produtos</label>
@@ -307,11 +334,12 @@
 
                             <a target="_blank" style="text-decoration:none" href="<?= base_url() ?><?= $f->file_path ?>">
 
-                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button type="button" data-index="1"></button></div>
+                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button
+                                        type="button" data-index="1"></button></div>
 
                             </a>
 
-                        <?php     } ?>
+                        <?php } ?>
 
 
 
@@ -335,11 +363,12 @@
 
                             <a target="_blank" style="text-decoration:none" href="<?= base_url() ?><?= $f->file_path ?>">
 
-                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button type="button" data-index="1"></button></div>
+                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button
+                                        type="button" data-index="1"></button></div>
 
                             </a>
 
-                        <?php     } ?>
+                        <?php } ?>
 
 
 
@@ -352,19 +381,25 @@
 
                 <div class="cores">
                     <div>
-                        <label>Cor principal <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                        <label>Cor principal <small
+                                style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
 
-                        <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_main_color'] ? $form['company_main_color'] : '----------' ?></p>
+                        <p style="color:#FF6900;white-space:pre-wrap">
+                            <?= $form['company_main_color'] ? $form['company_main_color'] : '----------' ?></p>
                     </div>
                     <div>
                         <label>Cor secundária</label>
                         <!-- <input type="color" name="cor_secundaria" value="#d4af37"> -->
-                        <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_secundary_color'] == '#d4af37' ?  '----------' : $form['company_secundary_color'] ?></p>
+                        <p style="color:#FF6900;white-space:pre-wrap">
+                            <?= $form['company_secundary_color'] == '#d4af37' ? '----------' : $form['company_secundary_color'] ?>
+                        </p>
 
                     </div>
                     <div>
                         <label>Cor terciária</label>
-                        <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_third_color'] == '#f4f4f4' ?  '----------' : $form['company_third_color'] ?></p>
+                        <p style="color:#FF6900;white-space:pre-wrap">
+                            <?= $form['company_third_color'] == '#f4f4f4' ? '----------' : $form['company_third_color'] ?>
+                        </p>
 
                         <!-- <input type="color" name="cor_terciaria" value="#f4f4f4"> -->
                     </div>
@@ -375,10 +410,12 @@
             <div class="container">
                 <h2>Redes Sociais e Mídia</h2>
                 <label>Links das redes sociais</label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_networks'] ? $form['company_networks'] : '----------'  ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_networks'] ? $form['company_networks'] : '----------' ?></p>
 
                 <label>Depoimentos de clientes/parceiros</label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_testmonials']  ? $form['company_testmonials'] : '----------' ?></p>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_testmonials'] ? $form['company_testmonials'] : '----------' ?></p>
 
 
                 <label>Vídeos institucionais ou promocionais</label>
@@ -393,11 +430,12 @@
 
                             <a target="_blank" style="text-decoration:none" href="<?= base_url() ?><?= $f->file_path ?>">
 
-                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button type="button" data-index="1"></button></div>
+                                <div class="file-item" style="margin-bottom:8px"><span><?= $f->file_path ?></span><button
+                                        type="button" data-index="1"></button></div>
 
                             </a>
 
-                        <?php     } ?>
+                        <?php } ?>
 
 
 
@@ -409,14 +447,20 @@
             <!-- CONTATO -->
             <div class="container">
                 <h2>Página de Contato</h2>
-                <label>Endereço Completo da empresa <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_map_address'] ? $form['company_map_address'] : '----------' ?></p>
+                <label>Endereço Completo da empresa <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_map_address'] ? $form['company_map_address'] : '----------' ?></p>
 
-                <label>Telefones para contato <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_phones'] ? $form['company_phones'] : '----------' ?></p>
+                <label>Telefones para contato <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_phones'] ? $form['company_phones'] : '----------' ?></p>
 
-                <label>E-mail(s) para contato <small style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
-                <p style="color:#FF6900;white-space:pre-wrap"> <?= $form['company_emails'] ? $form['company_emails'] : '----------' ?></p>
+                <label>E-mail(s) para contato <small
+                        style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
+                <p style="color:#FF6900;white-space:pre-wrap">
+                    <?= $form['company_emails'] ? $form['company_emails'] : '----------' ?></p>
 
             </div>
 
@@ -426,7 +470,7 @@
 
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             loadTags();
         });
 
@@ -435,7 +479,7 @@
             $.ajax({
                 url: '<?= base_url("painel/act_get_clientes") ?>',
                 dataType: 'json',
-                success: function(tags) {
+                success: function (tags) {
                     const tbody = $("#tags-table tbody");
                     tbody.empty();
 
@@ -443,10 +487,10 @@
                         tbody.append(`
                     <tr>
                         <td>#${tag.id}</td>
-                        <td>${tag.idf_company_name }</td>
+                        <td>${tag.idf_company_name}</td>
                         <td>${tag.company_data}</td>
-                        <td>${tag.idf_company_whatsapp  || ''}</td>
-                        <td>${tag.idf_company_email  || ''}</td>
+                        <td>${tag.idf_company_whatsapp || ''}</td>
+                        <td>${tag.idf_company_email || ''}</td>
                         <td class="actions">
                             <a href="<?= base_url() ?>painel/clientes/ver/${tag.id}">
                                 <button >
@@ -483,7 +527,7 @@
                 }
             }).then(result => {
                 if (result.isConfirmed) {
-                    $.post('<?= base_url("painel/act_add_tag") ?>', result.value, function() {
+                    $.post('<?= base_url("painel/act_add_tag") ?>', result.value, function () {
                         Swal.fire('Sucesso', 'Tag adicionada!', 'success');
                         loadTags();
                     });
@@ -511,7 +555,7 @@
                 }
             }).then(result => {
                 if (result.isConfirmed) {
-                    $.post('<?= base_url("painel/act_update_tag") ?>', result.value, function() {
+                    $.post('<?= base_url("painel/act_update_tag") ?>', result.value, function () {
                         Swal.fire('Atualizado!', 'Tag editada com sucesso.', 'success');
                         loadTags();
                     });
@@ -532,7 +576,7 @@
                 if (result.isConfirmed) {
                     $.post('<?= base_url("painel/act_delete_tag") ?>', {
                         tag_id: id
-                    }, function() {
+                    }, function () {
                         Swal.fire('Removida!', 'A tag foi excluída.', 'success');
                         loadTags();
                     });

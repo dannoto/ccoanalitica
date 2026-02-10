@@ -85,7 +85,7 @@ class Contrato extends CI_Controller
 			'protocol' => 'smtp',
 			'smtp_host' => 'smtp.example.com', // TODO: Update host
 			'smtp_port' => 465, // TODO: Update port
-			'smtp_user' => 'user@example.com', // TODO: Update user
+			'smtp_user' => 'contato@ccoanalitica.com', // TODO: Update user
 			'smtp_pass' => 'password', // TODO: Update password
 			'smtp_crypto' => 'ssl',
 			'mailtype' => 'html',
@@ -99,7 +99,7 @@ class Contrato extends CI_Controller
 		$to_email = $company_data['idf_company_email'] ?? null;
 
 		if ($to_email) {
-			$this->email->from('no-reply@ccoanalitica.com', 'CCO Analítica'); // TODO: Update sender
+			$this->email->from('ccoanalitica@gmail.com', 'CCO Analítica'); // TODO: Update sender
 			$this->email->to($to_email);
 			$this->email->bcc('ccoanalitica@gmail.com');
 
