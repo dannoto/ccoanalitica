@@ -256,10 +256,18 @@ class Painel extends CI_Controller
 
 
 
+        $form = $this->form_model->get_form($id);
+
+        $modelo_selecionado = null;
+        if (isset($form['company_model']) && !empty($form['company_model'])) {
+            $modelo_selecionado = $this->models_model->get_model($form['company_model']);
+        }
+
         $data = array(
-            'form' => $this->form_model->get_form($id),
-            'files' => $this->form_model->get_form_files($this->form_model->get_form($id)['company_identifier']),
-            'opcionais' => $this->opcional_model->get_optionals_identifier($this->form_model->get_form($id)['company_identifier']),
+            'form' => $form,
+            'files' => $this->form_model->get_form_files($form['company_identifier']),
+            'opcionais' => $this->opcional_model->get_optionals_identifier($form['company_identifier']),
+            'modelo' => $modelo_selecionado
         );
 
         // print_r($data);

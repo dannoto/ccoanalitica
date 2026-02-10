@@ -218,7 +218,20 @@
                 <p></p>
             </div>
             <div>
-
+                <?php if ($modelo): ?>
+                    <div
+                        style="text-align:center; background: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <h4 style="margin:0 0 5px 0; color: #FF6900;">Modelo Escolhido</h4>
+                        <img src="<?= $modelo['model_image'] ?>"
+                            style="width: 100px; height: auto; border-radius: 4px; object-fit: cover;">
+                        <p style="margin: 5px 0 0 0; font-size: 13px; font-weight: bold;"><?= $modelo['model_title'] ?></p>
+                    </div>
+                <?php else: ?>
+                    <div
+                        style="text-align:center; background: #ffebee; padding: 10px; border-radius: 8px; border: 1px solid #ffcdd2;">
+                        <p style="margin:0; color: #c62828; font-weight: bold;">Nenhum modelo escolhido</p>
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
     </header>
@@ -234,11 +247,13 @@
                 <h2>Sobre a Empresa</h2>
                 <label>Breve história</label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_history'] ? $form['company_history'] : '----------' ?></p>
+                    <?= $form['company_history'] ? $form['company_history'] : '----------' ?>
+                </p>
                 <label>Descrição do que a empresa faz <small
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_description'] ? $form['company_description'] : '----------' ?></p>
+                    <?= $form['company_description'] ? $form['company_description'] : '----------' ?>
+                </p>
 
                 <label>Arquivos ou Imagens da empresa, equipe, espaço físico etc.</label>
                 <br><br>
@@ -276,12 +291,14 @@
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
 
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_name'] ? $form['company_name'] : '----------' ?></p>
+                    <?= $form['company_name'] ? $form['company_name'] : '----------' ?>
+                </p>
 
                 <label>Já tem domínio e hospedagem?</label>
 
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_domain'] ? $form['company_domain'] : '----------' ?></p>
+                    <?= $form['company_domain'] ? $form['company_domain'] : '----------' ?>
+                </p>
 
             </div>
 
@@ -309,7 +326,8 @@
                 <label>Lista completa dos serviços/produtos <small
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_services'] ? $form['company_services'] : '----------' ?></p>
+                    <?= $form['company_services'] ? $form['company_services'] : '----------' ?>
+                </p>
 
                 <label>Descrição de cada serviço/produto</label>
                 <p style="color:#FF6900;white-space:pre-wrap">
@@ -319,7 +337,8 @@
 
                 <label> Preços de cada serviço/produto</label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_services_prices'] ? $form['company_services_prices'] : '----------' ?></p>
+                    <?= $form['company_services_prices'] ? $form['company_services_prices'] : '----------' ?>
+                </p>
 
 
                 <label>Arquivos ou Imagens dos serviços/produtos</label>
@@ -385,7 +404,8 @@
                                 style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
 
                         <p style="color:#FF6900;white-space:pre-wrap">
-                            <?= $form['company_main_color'] ? $form['company_main_color'] : '----------' ?></p>
+                            <?= $form['company_main_color'] ? $form['company_main_color'] : '----------' ?>
+                        </p>
                     </div>
                     <div>
                         <label>Cor secundária</label>
@@ -411,11 +431,13 @@
                 <h2>Redes Sociais e Mídia</h2>
                 <label>Links das redes sociais</label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_networks'] ? $form['company_networks'] : '----------' ?></p>
+                    <?= $form['company_networks'] ? $form['company_networks'] : '----------' ?>
+                </p>
 
                 <label>Depoimentos de clientes/parceiros</label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_testmonials'] ? $form['company_testmonials'] : '----------' ?></p>
+                    <?= $form['company_testmonials'] ? $form['company_testmonials'] : '----------' ?>
+                </p>
 
 
                 <label>Vídeos institucionais ou promocionais</label>
@@ -450,17 +472,20 @@
                 <label>Endereço Completo da empresa <small
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_map_address'] ? $form['company_map_address'] : '----------' ?></p>
+                    <?= $form['company_map_address'] ? $form['company_map_address'] : '----------' ?>
+                </p>
 
                 <label>Telefones para contato <small
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_phones'] ? $form['company_phones'] : '----------' ?></p>
+                    <?= $form['company_phones'] ? $form['company_phones'] : '----------' ?>
+                </p>
 
                 <label>E-mail(s) para contato <small
                         style="font-size: 15px;text-transform:uppercase;color:#e74c3c;margin-bottom:8px"><strong>*</strong></small></label>
                 <p style="color:#FF6900;white-space:pre-wrap">
-                    <?= $form['company_emails'] ? $form['company_emails'] : '----------' ?></p>
+                    <?= $form['company_emails'] ? $form['company_emails'] : '----------' ?>
+                </p>
 
             </div>
 
